@@ -1,10 +1,10 @@
 ---
 title    : Repository management strategy
-revision : 2020-08-06 (Thu) 15:40:22
+revision : 2020-08-06 (Thu) 17:03:48
 ---
 
-Іt's been a (very) long time since the reference lists used over the years had not been consolidated. This is what has started
-here. The reorganisation strategy is as follows:
+Іt's been a (very) long time since the reference lists used over the years have been checked and consolidated. This is what has
+started here. The reorganisation strategy is as follows:
 
 1.  The repository will be organised as a regular source code repository with the following top-level directories:
 
@@ -15,7 +15,7 @@ here. The reorganisation strategy is as follows:
     ~   Store for dedicated build-time utilities used to download/extract/convert datasets and reference material.
 
     src
-    -   Store for hand-maintained datasets and/or for datasets which are _spooled_ through this repository — that is datasets
+    ~   Store for hand-maintained datasets and/or for datasets which are _spooled_ through this repository — that is datasets
         which cannot be auto-magically generated with no human interaction.
 
     out
@@ -124,5 +124,74 @@ here. The reorganisation strategy is as follows:
 
     }
     ```
+
+1.  In some cases a same dataset could exist in multiple files or in a single file. At the time of writing we have two glossaries
+    of approximately the same character size which use two different approaches. The _informatics_ glossary is divided in one file
+    per alphabet character. The _investment_ glossary has all terms in a same file. We will support the following lookup
+    strategies:
+
+    1.  By default a dataset named _dataset_, respectively _path/to/dataset_, will be assumed to live in the file `dataset.yaml`,
+        respectively `path/to/dataset.yaml`.
+
+    2.  If the above file doesn't exist but a file named `dataset-a.yaml` exists, than the file to use will be determine from the
+        lowercased first character of the term under scrutiny; for instance `dataset-s.yaml` if we are looking for _SLA_. If the
+        first character is not an alphabetical character, we assume that character to be zero and we will consider the file named
+        `dataset-0.yaml`.
+
+    3.  As a convenience for mid-sized datasets that are too big to fit in a single file, but too small to be managed in 26
+        different files, we allow intermediate groupings of five alphabetical characters: \[a..e\], \[f..j\], \[k..o\], \[p..t\],
+        and \[u..\z]; non-alphabetical characters belong to the last group. Existence of the scheme is verified by checking the
+        existence of the `dataset-ae.yaml` file, in which case the _SLA_ term would be looked up in the `dataset-pt.yaml` file.
+
+    4.  For large collections, or for collections where there is a lot of data attached to each elementary content portion, it
+        may be of interest to maintain one file for each such content portion. The three above schemes are then applied in
+        sequence, replacing the suffixed component by a prefixed sub-directory. We add a fourth scheme which combines the last
+        two themes; this would be used for very large datasets:
+
+        a)  Search for _SLA_ in `dataset/sla.yaml`      if `đataset` is a directory
+        b)  Search for _SLA_ in `dataset/s/sla.yaml`    if `dataset/a` is a directory
+        c)  Search for _SLA_ in `dataset/pt/sla.yaml`   if `dataset/ae` is a directory
+        d)  Search for _SLA_ in `dataset/pt/s/sla.yaml` if `dataset/ae/a` is a directory
+
+    5.  All schemes should check for alternate file extensions.
+
+        Plain YAML files should have, by convention, the `yaml` extension. However the `yml` extension is authorised and can be
+        used in lieu of the longer extension.
+
+        The dataset can optionally be compressed, and when split into multiple files, it can also be packaged into a UNIX archive
+        file. By default we assume GNU's `gzip` utility to handle compression, and the UNIX `tar` utility to manipulate archives;
+        however all extensions known to the AIT `fs ar` utility are authorised -- in theory 50+ formats.
+
+        File-based compression is simple to handle and the associated schemes are recognised without sophisticated processing:
+
+        1. `dataset.yaml.gz`
+        2. `dataset-s.yaml.gz`
+        3. `dataset-pt.yaml.gz`
+        4. `dataset/sla.yaml.gz`
+        5. `dataset/s/sla.yaml.gz`
+        6. `dataset/pt/sla.yaml.gz`
+        7. `dataset/pt/s/sla.yaml.gz`
+
+        When using UNIX archives, we assume only one archive per dataset: `dataset.tar`, possibly compressed `dataset.tar.gz`.
+        Named likewise, pre-processing will be required to determine what scheme is used within the archive. To limit this we
+        can suffix the dataset's name with the digit in the previous list which represents the archive's file layout:
+
+          ------------------ ----- ----------------------------
+          `dataset-1.tar.gz`   →   `dataset.yaml`
+          `dataset-2.tar.gz`   →   `dataset-s.yaml`
+          `dataset-3.tar.gz`   →   `dataset-pt.yaml`
+          `dataset-4.tar.gz`   →   `dataset/sla.yaml`
+          `dataset-5.tar.gz`   →   `dataset/s/sla.yaml`
+          `dataset-6.tar.gz`   →   `dataset/pt/sla.yaml`
+          `dataset-7.tar.gz`   →   `dataset/pt/s/sla.yaml`
+          ------------------ ----- ----------------------------
+
+    6.  All above schemes assume alphanumeric terms primarily starting with alphabetical characters. This is the common case we
+        have experienced so far. Should we required additional schemes allowing to distribute primarily numerical data into
+        multiple files, then this document should be updated accordingly.
+
+    The above schemes apply to both the source directory in this repository and the target build directories; the source and
+    target schemes can be different. It may be easier to maintain the dataset when it is split into multiple files, and more
+    performant for the target dataset to be concatenated into a single, possibly compressed, file.
 
 <!-- vim: set digraph et nospell syn=md :-->
