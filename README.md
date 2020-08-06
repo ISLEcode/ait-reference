@@ -5,7 +5,7 @@ This repository contains miscellaneous data sets which are used to assemble the 
 purpose word lists, control lists, glossaries and abbreviations. It is a new package intended to consolidate into one dedicatєd
 location all such reference data from previous incarnations of the AIT framework — in particular, the _Dragonfly project_,
 the _Deutsch Bank PBSC factory_, and the _IBM Tahtum factory_. Reference data was scattered in multiple packages and often
-redundantly hard coded in compiled software; for instance the command line _qotd_ (_quote of the day), where all quotes are
+redundantly hard coded in compiled software; for instance the command line `qotd` (_quote of the day_), where all quotes are
 hardcoded in the C binary.
 
 This is _work in progress_ where standardisation efforts still need thought and organisation — See the [strategy](Strategy.md)
