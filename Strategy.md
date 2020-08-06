@@ -107,7 +107,7 @@ typeset uuid=${x#*#}${y#*#}             # Concatenate integers into a single str
 
 Alternatively to the `dt-microsec` utility, the following C language snippet builds and runs easily:
 
-``` {.clang}
+``` {.cpp}
 #include <stdio.h>
 #include <time.h>
 #include <sys/time.h>
@@ -156,10 +156,12 @@ alphabet character. The _investment_ glossary has all terms in a same file. We w
     sequence, replacing the suffixed component by a prefixed sub-directory. We add a fourth scheme which combines the last
     two themes; this would be used for very large datasets:
 
-    a)  Search for _SLA_ in `dataset/sla.yaml`      if `đataset` is a directory
-    b)  Search for _SLA_ in `dataset/s/sla.yaml`    if `dataset/a` is a directory
-    c)  Search for _SLA_ in `dataset/pt/sla.yaml`   if `dataset/ae` is a directory
-    d)  Search for _SLA_ in `dataset/pt/s/sla.yaml` if `dataset/ae/a` is a directory
+    |    | Search for _SLA_ in   | if we have this directory      |
+    | -- | --------------------- | ------------------------------ |
+    | a. | `dataset/sla.yaml`    | `đataset`                      |
+    | b. | `dataset/s/sla.yaml`  | `dataset/a`                    |
+    | c. | `dataset/pt/sla.yaml` | `dataset/ae`                   |
+
 
 5.  All schemes should check for alternate file extensions.
 
