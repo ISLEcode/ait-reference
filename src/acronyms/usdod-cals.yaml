@@ -1,0 +1,456 @@
+title    : US DoD CALS abbreviations
+revision : 2020-08-05 (Wed) 03:36:20
+source   : US DoD CALS 1991
+contents :
+
+  - abbr : 3D
+    defn : Three-Dimensional
+
+  - abbr : ADP
+    defn : Automated Data Processing
+
+  - abbr : ANSI
+    defn : American National Standards Institute
+
+  - abbr : AP
+    defn : Application Profile/Application Protocol
+
+  - abbr : APP
+    defn : Application Portability Profile
+
+  - abbr : ASC
+    defn : Accredited Standards Committee
+
+  - abbr : ASCII
+    defn : American Standard Code for Information Interchange
+
+  - abbr : ASIC
+    defn : Application Specific Integrated Circuit
+
+  - abbr : ASME
+    defn : American Society of Mechanical Engineers
+
+  - abbr : CAC
+    defn : Contractor's Approach to CALS
+
+  - abbr : CAD2
+    defn : Computer Aided Design, Second Acquisition
+
+  - abbr : CAD
+    defn : Computer Aided Design
+
+  - abbr : CAE
+    defn : Computer Aided Engineering
+
+  - abbr : CALS
+    defn : Continuous Acquisition and Life-Cycle Support
+
+  - abbr : CALSIP
+    defn : CALS Implementation Plan
+
+  - abbr : CAM
+    defn : Computer Aided Manufacturing
+
+  - abbr : CCITT
+    defn : Consultative Committee on International Telegraphy and Telephony
+
+  - abbr : CD ROM
+    defn : Compact Disk Read Only Memory
+
+  - abbr : CDRL
+    defn : Contract Data Requirements List
+
+  - abbr : CE
+    defn : Concurrent Engineering
+
+  - abbr : CGM
+    defn : Computer Graphics Metafile
+
+  - abbr : CIM
+    defn : Corporate Information Management/Computer Integrated Manufacturing
+
+  - abbr : CITIS
+    defn : Contractor Integrated Technical Information Service
+
+  - abbr : CLIN
+    defn : Contract Line Item Number
+
+  - abbr : CM
+    defn : Configuration Management
+
+  - abbr : CMP
+    defn : Configuration Management Plan
+
+  - abbr : COTS
+    defn : Commercial Off The Shelf
+
+  - abbr : CTN
+    defn : CALS Test Network
+
+  - abbr : DAB
+    defn : Defense Acquisition Board
+
+  - abbr : DAL
+    defn : Data Accession List
+
+  - abbr : DAP
+    defn : Document Application Profile
+
+  - abbr : DES
+    defn : Data Encryption Standard
+
+  - abbr : DFARS
+    defn : Defense Federal Acquisition Regulation Supplement
+
+  - abbr : DID
+    defn : Data Item Description
+
+  - abbr : DISA
+    defn : Defense Information System Agency
+
+  - abbr : DISN
+    defn : Defense Information Systems Network
+
+  - abbr : DLA
+    defn : Defense Logistics Agency
+
+  - abbr : DLSC
+    defn : Defense Logistics Services Center
+
+  - abbr : DMRD
+    defn : Defense Management Review Decision
+
+  - abbr : DTD
+    defn : Document Type Definition
+
+  - abbr : DTIC
+    defn : Defense Technical Information Center
+
+  - abbr : DoD
+    defn : Department of Defense
+
+  - abbr : DoDD
+    defn : Department of Defense Directive
+
+  - abbr : DoDI
+    defn : Department of Defense Instruction
+
+  - abbr : ECP
+    defn : Engineering Change Proposal
+
+  - abbr : EDI
+    defn : Electronic Data Interchange
+
+  - abbr : EDIF
+    defn : Electronic Design Interchange Format
+
+  - abbr : EDIFACT
+    defn : Electronic Data Interchange For Administration, Commerce, and Transport
+
+  - abbr : EDMO
+    defn : Engineering Data Management Office
+
+  - abbr : EIA
+    defn : Electronic Industries Association
+
+  - abbr : FAR
+    defn : Federal Acquisition Regulation
+
+  - abbr : FCIM
+    defn : Flexible Computer Integrated Manufacturing
+
+  - abbr : FDA
+    defn : Functional Data Administrator
+
+  - abbr : FDDI
+    defn : Fiber Optic Distributed Data Interface
+
+  - abbr : FEA
+    defn : Functional Economic Analysis
+
+  - abbr : FIPS
+    defn : Federal Information Processing Standard
+
+  - abbr : FMECA
+    defn : Failure Modes, Effects, and Criticality Analysis
+
+  - abbr : FOSI
+    defn : Formatting Output Specification Instance
+
+  - abbr : FTAM
+    defn : File Transfer, Access, and Management
+
+  - abbr : GCO
+    defn : Government Concept of Operations
+
+  - abbr : GDD/D
+    defn : Global Data Dictionary and Directory
+
+  - abbr : GDMS
+    defn : Global Data Management System
+
+  - abbr : GFI
+    defn : Government Furnished Information
+
+  - abbr : GKS
+    defn : Graphical Kernel System
+
+  - abbr : GOSIP
+    defn : Government Open System Interconnect Profile
+
+  - abbr : HUI
+    defn : Human-User Interface
+
+  - abbr : IAW
+    defn : In Accordance With
+
+  - abbr : IC
+    defn : Integrated Circuit
+
+  - abbr : IDEF
+    defn : ICAM (Integrated Computer Aided Manufacturing) Definition Language
+
+  - abbr : IEEE
+    defn : Institute of Electrical and Electronics Engineers
+
+  - abbr : IETM
+    defn : Interactive Electronic Technical Manual
+
+  - abbr : IGES
+    defn : Initial Graphics Exchange Specification
+
+  - abbr : ILS
+    defn : Integrated Logistics Support
+
+  - abbr : ILSP
+    defn : Integrated Logistics Support Plan
+
+  - abbr : IMP
+    defn : Infrastructure Modernization Programs
+
+  - abbr : IMS
+    defn : Information Management System
+
+  - abbr : IP
+    defn : Internet Protocol
+
+  - abbr : IPC
+    defn : Institute for Interconnecting and Packaging Electronic Circuits
+
+  - abbr : IPD
+    defn : Integrated Product Development
+
+  - abbr : IPDE
+    defn : Integrated Product Data Environment
+
+  - abbr : IPDF
+    defn : Indexed Portable Document Format
+
+  - abbr : IRDS
+    defn : Information Resource Dictionary System
+
+  - abbr : ISD
+    defn : Instructional Systems Development
+
+  - abbr : ISDN
+    defn : Integrated Services Digital Network
+
+  - abbr : ISO
+    defn : International Standards Organization
+
+  - abbr : ITO
+    defn : Instructions To Offerors
+
+  - abbr : IWSDB
+    defn : Integrated Weapon Systems Database
+
+  - abbr : IWSM
+    defn : Integrated Weapon Systems Management
+
+  - abbr : JCALS
+    defn : Joint CALS
+
+  - abbr : JEDMICS
+    defn : Joint Engineering Data Management and Information Control System
+
+  - abbr : LAN
+    defn : Local Area Network
+
+  - abbr : LCCE
+    defn : Life-Cycle Cost Estimate
+
+  - abbr : LORA
+    defn : Level Of Repair Analysis
+
+  - abbr : LRG
+    defn : Logistics Review Group
+
+  - abbr : LSA
+    defn : Logistics Support Analysis
+
+  - abbr : LSAP
+    defn : Logistics Support Analysis Plan
+
+  - abbr : LSAR
+    defn : Logistics Support Analysis Record
+
+  - abbr : MACS
+    defn : Mutually Agreeable Commercial Software
+
+  - abbr : MAISRC
+    defn : Major Automated Information System Review Council
+
+  - abbr : MANTECH
+    defn : Manufacturing Technology
+
+  - abbr : MIS
+    defn : Management Information System
+
+  - abbr : MLS
+    defn : Multi Level Secure
+
+  - abbr : NC
+    defn : Numerical Control
+
+  - abbr : NDI
+    defn : Non Developmental Item
+
+  - abbr : NIST
+    defn : National Institute for Standards and Technology
+
+  - abbr : ODA
+    defn : Office Document Architecture
+
+  - abbr : OPR
+    defn : Office of Primary Responsibility
+
+  - abbr : ORD
+    defn : Operational Requirements Document
+
+  - abbr : OSD
+    defn : Office of the Secretary of Defense
+
+  - abbr : OSI
+    defn : Open Systems Interconnection
+
+  - abbr : OUSD (A\&T)
+    defn : Office of Under Secretary of Defense (Acquisition and Technology)
+
+  - abbr : PDES/STEP
+    defn : Product Data Exchange Using STEP/Standard for the Exchange of Product Model Data# source: US DoD CALS 1991
+
+  - abbr : PDF
+    defn : Portable Document Format
+
+  - abbr : PDL
+    defn : Page Description Language
+
+  - abbr : PHIGS
+    defn : Programmer's Hierarchical Interactive Graphics System
+
+  - abbr : PM
+    defn : Program Manager
+
+  - abbr : POSIX
+    defn : Portable Operating System Interface
+
+  - abbr : QA
+    defn : Quality Assurance
+
+  - abbr : QE
+    defn : Quality Engineering
+
+  - abbr : RAMP
+    defn : Rapid Acquisition of Manufactured Parts
+
+  - abbr : RFD
+    defn : Request for Deviation
+
+  - abbr : RFP
+    defn : Request For Proposal
+
+  - abbr : RFW
+    defn : Request for Waiver
+
+  - abbr : ROI
+    defn : Return on Investment
+
+  - abbr : R\&M
+    defn : Reliability and Maintainability
+
+  - abbr : SEMP
+    defn : System Engineering Management Plan
+
+  - abbr : SGML
+    defn : Standard Generalized Markup Language
+
+  - abbr : SIE
+    defn : Special Inspection Equipment
+
+  - abbr : SOW
+    defn : Statement Of Work
+
+  - abbr : SPA
+    defn : Solicitation Package Automation
+
+  - abbr : SQL
+    defn : Structured Query Language
+
+  - abbr : SRL
+    defn : SGML Reuse Library
+
+  - abbr : STEP
+    defn : Standard Exchange of Product Model Data
+
+  - abbr : TCB
+    defn : Trusted Computing Base
+
+  - abbr : TCP
+    defn : Transmission Control Protocol
+
+  - abbr : TDP
+    defn : Technical Data Package
+
+  - abbr : TEMP
+    defn : Test and Evaluation Master Plan
+
+  - abbr : TMCR
+    defn : Technical Manual Contract Requirements
+
+  - abbr : TO
+    defn : Technical Order
+
+  - abbr : TOMA
+    defn : Technical Order Management Agency
+
+  - abbr : TRM
+    defn : Technical Reference Model
+
+  - abbr : T\&E
+    defn : Test and Evaluation
+
+  - abbr : VECP
+    defn : Value Engineering Change Proposal
+
+  - abbr : VHDL
+    defn : VHSIC Hardware Description Language
+
+  - abbr : VHSIC
+    defn : Very High Speed Integrated Circuit
+
+  - abbr : WAN
+    defn : Wide Area Network
+
+  - abbr : WBS
+    defn : Work Breakdown Structure
+
+  - abbr : WMRM
+    defn : Write Many Read Mostly
+
+  - abbr : WORM
+    defn : Write Once Read Many
+
+  - abbr : WWW
+    defn : World-Wide Web
+
+# __END__
