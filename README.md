@@ -1,3 +1,4 @@
+![](https://avatars0.githubusercontent.com/u/20255067?s=400&u=67ee0ca71c13b0c52d93c1d5f4b08b47ffd9a5c7&v=4)
 
 ## AIT reference package (`ait-reference`)
 
