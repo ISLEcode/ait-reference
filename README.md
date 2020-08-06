@@ -17,9 +17,9 @@ maintaining over more than a decade, a copy of the CIA's World Factbook; this ha
 country books. In the future, we would like to transform the exising factbooks into a set of YAML files managed within the
 scope of this repository.
 
-This _is not, and shall not be, a big data junk yard_. Information collected here is analysed, sorted and structured by _humans_.
-That said, maintaining large sets of structured information requires time and effort. So all helping hands are more than
-welcome. In return, if YAML is not the _lingua franca_ for such data, we are happy to maintain builds in alternate formats,
-be they based on markup languages (e.g. JSON, XML, …) or custom binary formats.
+This **is not, and shall not be, a big data junk yard**. Information collected here is analysed, sorted and structured by
+_humans_. That said, maintaining large sets of structured information requires time and effort. So all helping hands are more than
+welcome. In return, if YAML is not the _lingua franca_ for such data, we are happy to maintain builds in alternate formats, be
+they based on markup languages (e.g. JSON, XML, …) or custom binary formats.
 
 <!-- vim: set digraph et nospell syn=md :-->
