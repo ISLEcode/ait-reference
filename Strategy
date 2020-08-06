@@ -1,6 +1,6 @@
 ---
 title    : Repository management strategy
-revision : 2020-08-06 (Thu) 14:41:00
+revision : 2020-08-06 (Thu) 15:40:22
 ---
 
 Іt's been a (very) long time since the reference lists used over the years had not been consolidated. This is what has started
@@ -64,26 +64,65 @@ here. The reorganisation strategy is as follows:
     particular in Markdown documents and their various transformations to other formats (e.g. HTML, LaTeX and office formats, PDF,
     ...). The general syntax for such URIs will:
 
-    -   Use the singular form of the collection name, or an recognisable abbreviation, as the protocol — `abbr` for acronyms and
+    -   Use the singular form of the collection name, or a recognisable abbreviation, as the protocol — `abbr` for acronyms and
         abbreviations, `list` for controlled lists, `word`^[The _dict_ protocol is already defined.] for dictionaries, and `quote`
         for quotes.
 
-    -   The domain name will represent the path to the YAML file without its extension — hence using the doc (`.`) as the path
+    -   The domain name will represent the path to the YAML file without its extension — hence using the dot (`.`) as the path
         separator; for instance `dict://itil/SLA`, to lookup the _SLA_ term in the _itil_ dictionary. If the `itil.yaml` file
-        was in the `informatics` sub-directory, then we would have `dict://informatics.itil/SLA`. As for regular domain names,
+        were in the `informatics` sub-directory, then we would have `dict://informatics.itil/SLA`. As for regular domain names,
         the case is non-sensitive, and target YAML file names are expected to only be in lowercase.
 
     -   The term to lookup is the last element of the URI — `SLA` in our previous example. The term's case responds to
         typographical conventions only and can be mixed case; however the lookup will be case insensitive and all successive
-        on-alphanumeric characters will be converted to a single dash (`-`) character.
+        non-alphanumeric characters will be converted to a single dash (`-`) character.
 
     -   The bookmark syntax of URIs will be used to introduce _verbs_ either generic to all collections — `dict://itil#random`,
-        or specific to a given collection `quote://english#motivational`.
+        or specific to a given collection `quote://english#motivational`. Such verbs should be simple and unambiguous.
 
     -   The query syntax is reserved for subsequent introduction of a REST-like interface, if not to update, at least to perform
         extended querying of the collection's content.
 
+1.  All content portions of this repository should be uniquely identified. Conventional UUIDs are overkill, and certainly too
+    long for our purposes. We will use a simplier algorithm to generate a 10 character id which has proved sufficient in multi
+    user environments for several decades — to be noted though that all users of this algorithm were aware of its limitations.
 
-1.  ID
+    The algorithm is simple: convert the server's UNIX time at GMT+0 coordinates into a number expressed in base 36. The output
+    is a 10 _digit_ string. For instance  `udx81e2x5v` uniquely matches to `glossary://informatics/absorption-chillers`.
+
+    In Kornshell, the implementation of this algorithm with the AIT utility `dt-microsec` is straightforward:
+
+    ``` {.sh .ksh}
+    typeset time=$(dt-microsec)             # Collect UNIX time in microseconds (e.g. 1596719025.096476)
+    integer -i36 x=${time%.*} y=${time#*.}  # Convert decimal and fraction to base 36
+    typeset uuid=${x#*#}${y#*#}             # Concatenate integers into a single string (e.g. qen8a922fw)
+    ```
+
+    Alternatively to the `dt-microsec` utility, the following C language snippet builds and runs easily:
+
+    ``` {.c}
+    #include <stdio.h>
+    #include <time.h>
+    #include <sys/time.h>
+
+    double timevaltosecs (struct timeval *t) {
+        double r;
+
+        r = (t->tv_usec * .000001) + t->tv_sec;
+        return r;
+
+    }
+
+    int main (int argc, char **argv) {
+        double microsecs;
+        struct timeval microtimeval;
+
+        gettimeofday (&microtimeval, NULL);
+        microsecs = timevaltosecs (&microtimeval);
+        printf ("%f\n", microsecs);
+        return 0;
+
+    }
+    ```
 
 <!-- vim: set digraph et nospell syn=md :-->
