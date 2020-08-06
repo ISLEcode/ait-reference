@@ -1,6 +1,6 @@
 ---
 title    : Repository management strategy
-revision : 2020-08-06 (Thu) 17:03:48
+revision : 2020-08-06 (Thu) 17:09:02
 ---
 
 Іt's been a (very) long time since the reference lists used over the years have been checked and consolidated. This is what has
@@ -9,34 +9,34 @@ started here. The reorganisation strategy is as follows:
 1.  The repository will be organised as a regular source code repository with the following top-level directories:
 
     _in
-    ~   The conventional directory name for locally stored data which is ignored in the Git-based version control workflow.
+    :   The conventional directory name for locally stored data which is ignored in the Git-based version control workflow.
 
     bin
-    ~   Store for dedicated build-time utilities used to download/extract/convert datasets and reference material.
+    :   Store for dedicated build-time utilities used to download/extract/convert datasets and reference material.
 
     src
-    ~   Store for hand-maintained datasets and/or for datasets which are _spooled_ through this repository — that is datasets
+    :   Store for hand-maintained datasets and/or for datasets which are _spooled_ through this repository — that is datasets
         which cannot be auto-magically generated with no human interaction.
 
     out
-    ~   The conventional directory used at build-time to spool build intermediate and final products. This directory is not
+    :   The conventional directory used at build-time to spool build intermediate and final products. This directory is not
         under version control and should never be part of distributed tarballs.
 
     wip
-    ~   This _work in progess_ repository should no exist in the master branch. It is however recommended to use this directory
+    :   This _work in progess_ repository should no exist in the master branch. It is however recommended to use this directory
         in feature branches to collect input material that needs to be further _digested_ before migrating it to the _src_
         directory. In such cases, files and folders should be placed in a sub-directory whose name is the name of the branch.
 
 1.  The datasets will be organised in collections. The following collections are foreseen:
 
     acronyms
-    ~   Acronyms, initialisms, and abbreviations of all kinds are maintained here as simple and ready to use YAML files
+    :   Acronyms, initialisms, and abbreviations of all kinds are maintained here as simple and ready to use YAML files
         essentially consisting of the term and its definition; when used in conjunction with dictionary, the dataset's
         front matter should indicated the bound dataset and each term should have the necessary cross-referencing code
         appended to its definition.
 
     clists (or controlled lists)
-    ~   Controlled lists are used as building blocks of a broader taxonomy which is represented by this repository as a whole.
+    :   Controlled lists are used as building blocks of a broader taxonomy which is represented by this repository as a whole.
         Each controlled list representes a normalised concept or series; most of which are pretty obvious. Where ever possible,
         when standardised material exists — in particular those maintained by official organisations; the we should do our best
         to abide to those ѕtandards.
@@ -47,7 +47,7 @@ started here. The reorganisation strategy is as follows:
         contact names, addresses and phone numbers which are useful at design and testing phases.
 
     dictionaries (abbreviated as `dict`)
-    ~   Reference lists of terms and their definitions organised into collections such as ITIL, computer science, or general
+    :   Reference lists of terms and their definitions organised into collections such as ITIL, computer science, or general
         knowledge dictionaries. Are also included in this category the word lists of spoken languages used by spell checking
         software, such as _aspell(1)_.
 
@@ -56,7 +56,7 @@ started here. The reorganisation strategy is as follows:
         can't be classified in other categories, will be placed here.
 
     quotes
-    ~   Quotes have been managed so far within the context of each AIT tool, such as _cm-qotd(1)_ — the _quote of the day_ command
+    :   Quotes have been managed so far within the context of each AIT tool, such as _cm-qotd(1)_ — the _quote of the day_ command
         line utility. These will progressively be extracted and collected here and organised into languages and topics. There are
         a lot of online websites managing quotes; we should see how to keep this category lean.
 
@@ -100,7 +100,7 @@ started here. The reorganisation strategy is as follows:
 
     Alternatively to the `dt-microsec` utility, the following C language snippet builds and runs easily:
 
-    ``` {.c}
+    ``` {.clang}
     #include <stdio.h>
     #include <time.h>
     #include <sys/time.h>
@@ -176,15 +176,15 @@ started here. The reorganisation strategy is as follows:
         Named likewise, pre-processing will be required to determine what scheme is used within the archive. To limit this we
         can suffix the dataset's name with the digit in the previous list which represents the archive's file layout:
 
-          ------------------ ----- ----------------------------
-          `dataset-1.tar.gz`   →   `dataset.yaml`
-          `dataset-2.tar.gz`   →   `dataset-s.yaml`
-          `dataset-3.tar.gz`   →   `dataset-pt.yaml`
-          `dataset-4.tar.gz`   →   `dataset/sla.yaml`
-          `dataset-5.tar.gz`   →   `dataset/s/sla.yaml`
-          `dataset-6.tar.gz`   →   `dataset/pt/sla.yaml`
-          `dataset-7.tar.gz`   →   `dataset/pt/s/sla.yaml`
-          ------------------ ----- ----------------------------
+          | Archive            |   | Associated scheme          |
+          | ------------------ | - | -------------------------- |
+          | `dataset-1.tar.gz` | → | `dataset.yaml`             |
+          | `dataset-2.tar.gz` | → | `dataset-s.yaml`           |
+          | `dataset-3.tar.gz` | → | `dataset-pt.yaml`          |
+          | `dataset-4.tar.gz` | → | `dataset/sla.yaml`         |
+          | `dataset-5.tar.gz` | → | `dataset/s/sla.yaml`       |
+          | `dataset-6.tar.gz` | → | `dataset/pt/sla.yaml`      |
+          | `dataset-7.tar.gz` | → | `dataset/pt/s/sla.yaml`    |
 
     6.  All above schemes assume alphanumeric terms primarily starting with alphabetical characters. This is the common case we
         have experienced so far. Should we required additional schemes allowing to distribute primarily numerical data into
