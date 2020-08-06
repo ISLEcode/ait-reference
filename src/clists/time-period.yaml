@@ -1,0 +1,20 @@
+title    :
+revision : 2020-08-06 (Thu) 05:51:54
+contents :
+
+  # name             label                divisor unit
+  # ---------------- ------------------ --------- ----
+
+  - [ hourly,        Every hour,               1, hour ]
+  - [ daily,         Every day,              365, year ]
+  - [ bi-weekly,     Twice a week,           104, year ]
+  - [ weekly,        Every week,              52, year ]
+  - [ two-weekly,    Every two weeks,         24, year ]
+  - [ four-weekly,   Every four weeks,        13, year ]
+  - [ bi-monthly,    Twice a month,           24, year ]
+  - [ monthly,       Every month,             12, year ]
+  - [ quarterly,     Every quarter,            3, year ]
+  - [ bi-yearly,     Twice a year,             2, year ]
+  - [ yearly,        Every year,               1, year ]
+
+# vim: digraph fdm=indent sw=4

@@ -1,0 +1,13 @@
+title    :
+revision : 2020-08-06 (Thu) 05:57:55
+contents :
+
+  - [ M,  Mon, Monday    ]
+  - [ T,  Tue, Tuesday   ]
+  - [ W,  Wed, Wednesday ]
+  - [ Th, Thu, Thursday  ]
+  - [ F,  Fri, Friday    ]
+  - [ St, Sat, Saturday  ]
+  - [ S,  Sun, Sunday    ]
+
+# vim: digraph fdm=indent sw=4

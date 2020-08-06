@@ -1,0 +1,18 @@
+title    :
+revision : 2020-08-06 (Thu) 05:47:55
+contents :
+
+  - [ J, Jan, January   ]
+  - [ F, Feb, February  ]
+  - [ M, Mar, March     ]
+  - [ A, Apr, April     ]
+  - [ M, May, May       ]
+  - [ J, Jun, June      ]
+  - [ J, Jul, July      ]
+  - [ A, Aug, August    ]
+  - [ S, Sep, September ]
+  - [ O, Oct, October   ]
+  - [ N, Nov, November  ]
+  - [ D, Dec, December  ]
+
+# vim: digraph fdm=indent sw=4

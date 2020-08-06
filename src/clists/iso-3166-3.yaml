@@ -1,0 +1,50 @@
+title    : ISO 3166-3 – Code for formerly used names of countries
+revision : 2020-08-06 (Thu) 21:01:15
+source   : https://salsa.debian.org/iso-codes-team/iso-codes
+schema   :
+    type : array
+    keys :
+      -  [ numeric,         'Three digit numeric code of the item, including leading zeros (optional)'                           ]
+      -  [ alpha-2,          Two letter alphabetic code of the item                                                              ]
+      -  [ alpha-3,          Three letter alphabetic code of the item                                                            ]
+      -  [ alpha-4,          Four letter alphabetic code of the item                                                             ]
+      -  [ name,             Name of the item                                                                                    ]
+      -  [ comment,         'Comment for the item (optional)'                                                                    ]
+      -  [ withdrawal-date, 'Date of withdrawal from ISO 3166-1 (optional)'                                                      ]
+contents :
+
+  #     Id  A2  A3   A4    Name                                                                               Comment Withdrawn
+  # ------ --- ---- ----- ------------------------------------------------------------------------------------------- ------------
+  - [ 262, AI, AFI, AIDJ, 'French Afars and Issas',                                                                -, 1977       ]
+  - [ 530, AN, ANT, ANHH, 'Netherlands Antilles',                                                                  -, 1993-07-12 ]
+  - [ 000, BQ, ATB, BQAQ, 'British Antarctic Territory',                                                           -, 1979       ]
+  - [ 104, BU, BUR, BUMM, 'Burma, Socialist Republic of the Union of',                                             -, 1989-12-05 ]
+  - [ 112, BY, BYS, BYAA, 'Byelorussian SSR Soviet Socialist Republic',                                            -, 1992-06-15 ]
+  - [ 200, CS, CSK, CSHH, 'Czechoslovakia, Czechoslovak Socialist Republic',                                       -, 1993-06-15 ]
+  - [ 891, CS, SCG, CSXX, 'Serbia and Montenegro',                                                                 -, 2006-06-05 ]
+  - [ 128, CT, CTE, CTKI, 'Canton and Enderbury Islands',                                                          -, 1984       ]
+  - [ 278, DD, DDR, DDDE, 'German Democratic Republic',                                                            -, 1990-10-30 ]
+  - [ 204, DY, DHY, DYBJ, 'Dahomey',                                                                               -, 1977       ]
+  - [ 000, FQ, ATF, FQHH, 'French Southern and Antarctic Territories',                 'now split between AQ and TF', 1979       ]
+  - [ 249, FX, FXX, FXFR, 'France, Metropolitan',                                                                  -, 1997-07-14 ]
+  - [ 296, GE, GEL, GEHH, 'Gilbert and Ellice Islands',                         'now split into Kiribati and Tuvalu', 1979       ]
+  - [ 854, HV, HVO, HVBF, 'Upper Volta, Republic of',                                                              -, 1984       ]
+  - [ 396, JT, JTN, JTUM, 'Johnston Island',                                                                       -, 1986       ]
+  - [ 488, MI, MID, MIUM, 'Midway Islands',                                                                        -, 1986       ]
+  - [ 548, NH, NHB, NHVU, 'New Hebrides',                                                                          -, 1980       ]
+  - [ 216, NQ, ATN, NQAQ, 'Dronning Maud Land',                                                                    -, 1983       ]
+  - [ 536, NT, NTZ, NTHH, 'Neutral Zone',                                   'formerly between Saudi Arabia and Iraq', 1993-07-12 ]
+  - [ 582, PC, PCI, PCHH, 'Pacific Islands (trust territory)',                     'divided into FM, MH, MP, and PW', 1986       ]
+  - [ 849, PU, PUS, PUUM, 'US Miscellaneous Pacific Islands',                                                      -, 1986       ]
+  - [ 000, PZ, PCZ, PZPA, 'Panama Canal Zone',                                                                     -, 1980       ]
+  - [ 716, RH, RHO, RHZW, 'Southern Rhodesia',                                                                     -, 1980       ]
+  - [ 000, SK, SKM, SKIN, 'Sikkim',                                                                                -, 1975       ]
+  - [ 810, SU, SUN, SUHH, 'USSR, Union of Soviet Socialist Republics',                                             -, 1992-08-30 ]
+  - [ 626, TP, TMP, TPTL, 'East Timor',                                                       'was Portuguese Timor', 2002-05-20 ]
+  - [ 000, VD, VDR, VDVN, 'Viet-Nam, Democratic Republic of',                                                      -, 1977       ]
+  - [ 872, WK, WAK, WKUM, 'Wake Island',                                                                           -, 1986       ]
+  - [ 720, YD, YMD, YDYE, "Yemen, Democratic, People's Democratic Republic of",                                    -, 1990-08-14 ]
+  - [ 891, YU, YUG, YUCS, 'Yugoslavia, Socialist Federal Republic of',                                             -, 1993-07-28 ]
+  - [ 180, ZR, ZAR, ZRCD, 'Zaire, Republic of',                                                                    -, 1997-07-14 ]
+
+# vim: digraph fdm=indent sw=4

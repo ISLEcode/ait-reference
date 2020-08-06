@@ -1,0 +1,372 @@
+title    : ISO 3166-1 – Country codes
+revision : 2020-08-06 (Thu) 22:06:31
+source   : https://geonames.nga.mil/gns/html/index.html
+datasets : https://geonames.nga.mil/gns/html/cntyfile/geonames_20200803_CntryFiles.zip
+         # The dataset weights approximately 5GB and is not consequently stored in the repository
+         # It needs to be downloaded and stored in a subdirectory named `geonames`
+contents :
+  - name : RC
+    type : number(1)
+    desc : |-4
+        Region font code
+        ~   A code that determines the equivalent characters used when generating the SORT and NO DIACRITICS (ND) feature names
+            information rendered in Roman script.
+
+              --- ------------------------------
+                1 Americas/Western Europe
+                2 Eastern Europe
+                3 Africa/Middle East
+                4 Russia/ Central Asia
+                5 Asia/Pacific
+                6 Vietnam
+              --- ------------------------------
+
+
+  - name : UFI
+    type : number(38)
+    desc : |-4
+        Unique feature identifier
+        ~   A number which uniquely identifies a feature.
+
+  - name : UNI
+    type : number(38)
+    desc : |-4
+        Unique name identifier
+        ~   A number which uniquely identifies a feature name.
+
+
+  - name : LAT
+    type : number(10)
+    desc : |-4
+        Latitude
+        ~   Signed latitude of the feature in ± decimal degrees (`DD: ± dd.dddddd`):
+
+              ----- --------------------------- ---
+              north positive sign or no sign    `+`
+              south negative sign               `-`
+              ----- --------------------------- ---
+
+  - name : LONG
+    type : number(11)
+    desc : |-4
+        Longitude
+        ~   Signed longitude of the feature in ± decimal degrees (`DD: ± dd.dddddd`):
+
+              ----- --------------------------- ---
+              east  positive sign or no sign    `+`
+              west  negative sign               `-`
+              ----- --------------------------- ---
+
+  - name : DMS_LAT
+    type : varchar(9)
+    desc : |-4
+        DMS Latitude
+        ~   Latitude of the feature in degrees, minutes, seconds and hemisphere (`DMSH: dd:mm:ssH,
+            where `H` is either `N` (North) or `S` (South); DMSH values should be interpreted from left to right.
+
+  - name : DMS_LONG
+    type : varchar(10)
+    desc : |-4
+        DMS Longitude
+        ~   Longitude of the feature in degrees, minutes, seconds and hemisphere (`DMSH: dd:mm:ssH,
+            where `H` is either `N` (North) or `S` (South); DMSH values should be interpreted from left to right.
+
+  - name : MGRS
+    type : varchar(15)
+    desc : |-4
+        Military grid reference system
+        ~   MGRS is an alpha-numeric system for expressing UTM/UPS coordinates. A single alpha-numeric value references an area
+            that is unique for the entire earth.
+
+  - name : JOG
+    type : varchar(7)
+    desc : |-4
+        Joint Operations Graphic
+        ~   Joint operations graphic reference
+
+  - name : FC
+    type : varchar(1)
+    desc : |-4
+        Feature class
+        ~   Nine (9) major feature categories into which similar feature designations are grouped.
+
+              --- ------------------------------------------
+                A Administrative region
+                P Populated place
+                V Vegetation
+                L Locality or area
+                U Undersea
+                R Streets, highways, roads, or railroad
+                T Hypsographic
+                H Hydrographic
+                S Spot
+              --- ------------------------------------------
+
+  - name : DSG
+    type : varchar(6)
+    desc : |-4
+        Feature designation code
+        ~   A two to five-character code used to identify the type of feature a name is applied to.
+
+            See the «_Lookup tables..._» in [GNS offered services](https://geonames.nga.mil/gns/html/gns_services.html) for a
+            description of these code/values.
+
+  - name : PC
+    type : number(1)
+    desc : |-4
+        Populated place class
+        ~   A numerical scale identifying the relative importance of a populated place. The scale ranges from 1 (high) to 5 (low).
+            The scale can also include `null` (no value) as a value for populated places with unknown or undetermined relative
+            importance.
+
+  - name : CC1
+    type : varchar(255)
+    desc : |-4
+        Primary geopolitical code
+        ~   A two alphabetic character code from the _Geopolitical Entities and Codes_ (GEC, formerly FIPS 10-4) standard,
+            that uniquely identifies a feature's primary geopolitical entity (countries, dependencies, andr areas of special
+            sovereignty).
+
+            This field can contain one, or multiple comma separated non-spaced country codes to identify international (shared)
+            features that run through multiple countries for up to 255 characters (example: Danube River - AU,BU,EZ…).
+
+            See the «_Lookup tables..._» in [GNS offered services](https://geonames.nga.mil/gns/html/gns_services.html) for a
+            description of these code/values.
+
+  - name : ADM1
+    type : varchar(2)
+    desc : |-4
+        Primary administrative division code
+        ~   A two character alpha-numeric code from the _Geopolitical Entities and Codes_ (GEC, formerly FIPS 10-4) standard,
+            that describes the primary administrative division of a feature, similar to a state level in the United States.
+
+            See the «_Lookup tables..._» in [GNS offered services](https://geonames.nga.mil/gns/html/gns_services.html) for a
+            description of these code/values.
+
+  - name : POP
+    type : number(38)
+    desc : |-4
+        Population figures
+        ~   _No longer maintained_
+
+  - name : ELEV
+    type : float(126)
+    desc : |-4
+        Elevation in meter
+        ~   _No longer maintained_
+
+  - name : CC2
+    type : varchar(255)
+    desc : |-4
+        Secondary geopolitical code
+        ~   A two alphabetic character code from the _Geopolitical Entities and Codes_ (GEC, formerly FIPS 10-4) standard,
+            that uniquely identifies the particular feature name that is applicable in a particular geopolitical entity, or
+            entities, for international features.
+
+            This field can contain one, or multiple comma separated non-spaced country codes to identify international (shared)
+            features that run through multiple countries for up to 255 characters (example: Donau – AU,GM… to identify the
+            Austrian and German name for the Danube River).
+
+            See the «_Lookup tables..._» in [GNS offered services](https://geonames.nga.mil/gns/html/gns_services.html) for a
+            description of these code/values.
+
+  - name : NT
+    type : varchar(2)
+    desc : |-4
+        Name type
+        ~   One or two character code categorising the name:
+
+            Conventional (C)
+            ~   A commonly used English-language name approved by the U.S. Board on Geographic Names (BGN) for use in addition
+                to, or in lieu of, a BGN-approved local official name or names, e.g., Rome, Alps, Danube River.
+
+            Approved (N)
+            ~   The BGN-approved local official name for a geographic feature. Except for countries with more than one official
+                language; there is normally only one such name for a feature wholly within a country.
+
+            Unverified (D)
+            ~   A name from a source whose official status cannot be verified by the BGN.
+
+            Provisional (P)
+            ~   A geographic name of an area for which the territorial status is not finally determined or not recognized by the
+                United States.
+
+            Anglicized variant (VA)
+            ~   An English-language name that is derived by modifying the local official name to render it more accessible or
+                meaningful to an English-language user.
+
+            Variant (V)
+            ~   A former name, name in local usage, or other spelling found on various sources.
+
+            Non-roman script (NS)
+            ~   The non-Roman script form of the BGN-approved local official name for a geographic feature. Except for countries
+                with more than one official language; there is normally only one such name for a feature wholly within a country.
+
+            Unverified non-roman script (DS)
+            ~   The non-Roman script form of a name from a source whose official status cannot be verified by the BGN.
+
+            Variant non-roman script (VS)
+            ~   The non-Roman script form of a former name, name in local usage, or other spelling found on various sources.
+
+            See the «_Lookup tables..._» in [GNS offered services](https://geonames.nga.mil/gns/html/gns_services.html) for a
+            description of these code/values.
+
+  - name : LC
+    type : varcahr(3)
+    desc : |-4
+        Language code
+        ~   A three alphabetic character code (ISO 639-3) uniquely identifying the language assigned to a feature name.
+
+            See the «_Lookup tables..._» in [GNS offered services](https://geonames.nga.mil/gns/html/gns_services.html) for a
+            description of these code/values.
+
+  - name : SHORT_FORM
+    type : varchar(128)
+    desc : |-4
+        Short form
+        ~   A part of the full UTF-8 name that could substitute for the full name.
+
+  - name : GENERIC
+    type : varchar(128)
+    desc : |-4
+        Generic
+        ~   The descriptive part of the full UTF-8 name such as Cerro (mountain), Arroyo (river), or Golfo (gulf)
+            -- generally does not apply to populated place names or English based generics.
+
+  - name : SORT_NAME_RO
+    type : varchar(255)
+    desc : |-4
+        Sort name - reading order
+        ~   A form of the full name that allows for alphabetical sorting of the file into gazetteer sequence. For Roman script
+            names, all character/diacritic combinations and special characters are substituted with QWERTY (visible U.S. English
+            keyboard) characters, all characters are upper-cased, numerals are converted to lower-case characters (0-9 = a-j),
+            spaces and hyphens are stripped out, and commas replaced with a space.  Additionally, for non-roman script names in
+            languages using Arabic based letters, vowel markings/pointers are removed.  This field is included for the benefit of
+            the end user of the data to aid in the sorting of names if required.
+
+  - name : FULL_NAME_RO
+    type : varchar(255)
+    desc : |-4
+        Full name - reading order
+        ~   The full UTF-8 name is the complete name that identifies a named feature. The full name is output in reading order,
+            "Mount Everest", vs. reversed generic, "Everest, Mount".
+
+    spec : 255
+  - name : FULL_NAME_ND_RO
+    type : varchar(255)
+    desc : |-4
+        Full name - reading order with no diacritics
+        ~   Same as the full name but the character/diacritic combinations and special characters are substituted with QWERTY
+            (visible U.S. English keyboard) characters while still maintaining casing and spaces. This field also includes
+            non-roman script based names which are stripped of vowel markings.
+
+  - name : SORT_NAME_RG
+    type : varchar(255)
+    desc : |-4
+        Sort name - reversed generic
+        ~   A form of the full name that allows for alphabetical sorting of the file into gazetteer sequence. For Roman script
+            names, all character/diacritic combinations and special characters are substituted with QWERTY (visible U.S. English
+            keyboard) characters, all characters are upper-cased, numerals are converted to lower-case characters (0-9 = a-j),
+            spaces and hyphens are stripped out, and commas replaced with a space.  Additionally, for non-roman script names in
+            languages using Arabic based letters, vowel markings/pointers are removed.  This field is included for the benefit of
+            the end user of the data to aid in the sorting of names if required.
+
+  - name : FULL_NAME_RG
+    type : varchar(255)
+    desc : |-4
+        Full name - reversed generic
+        ~   The full UTF-8 name is the complete name that identifies a named feature. The full name is output in reversed
+            generic, "Everest, Mount" vs. reading order, "Mount Everest."
+
+  - name : FULL_NAME_ND_RG
+    type : varchar(255)
+    desc : |-4
+        Full name - reversed generic with no diacritics
+        ~   Same as the full name but the character/diacritic combinations and special characters are substituted with QWERTY
+            (visible U.S. English keyboard) characters while still maintaining casing and spaces. This field also includes
+            non-roman script based names which are stripped of vowel markings.
+
+  - name : NOTE
+    type : varchar(4000)
+    desc : |-4
+        Note
+        ~   This field holds a geopolitical policy UTF-8 note concerning the feature, populated when CC1 and ADM1 are NULL, and
+            it could contain multiple notes. If multiple notes are present, they will be delimited by semicolon followed by four
+            spaces (1:note1; 2:note2; 3:note3; etc...).
+
+  - name : MODIFY_DATE
+    type : varchar(10)
+    desc : |-4
+        Modification date
+        ~   The date a new feature was added or any part of an existing feature was modified (YYYY-MM-DD).
+
+  - name : DISPLAY
+    type : varchar(255)
+    desc : |-4
+        Display
+        ~   Comma-separated non-spaced scale range values to aid in the visualization and selection of features. The display
+            values range from 1 to 9, and are listed as 1,2,3,4,5,6,7,8,9. 
+
+            The display values correspond to the following scale ranges:
+
+              --- ----------- -----------
+                1           1      25,999
+                2      26,000      67,999
+                3      68,000     150,999
+                4     151,000     225,999
+                5     226,000     325,999
+                6     326,000     425,999
+                7     426,000     625,999
+                8     626,000     999,999
+                9   1,000,000  or smaller
+              --- ----------- -----------
+
+        Examples:
+
+        (@) A feature with display value of 1 should appear in a visualization client or service between scales of 1 and 25,999.
+            It should not appear at scales of 26,000 and smaller.
+
+        (@) A feature with display values of 1,2,3 should appear in a visualization client or service between scales of 1 through
+            150,999. It should not appear at scales of 160,000 and smaller.
+
+        (@) A feature with display values of 1,2,3,4,5,6,7,8,9 should appear in a visualization client or service at all scales.
+
+  - name : NAME_RANK
+    type : number(38)
+    desc : |-4
+        Name rank
+        ~   A numeric value (1 - n) used to facilitate the display/visualization of the names associated with a feature.
+
+  - name : NAME_LINK
+    type : number(38)
+    desc : |-4
+        Name link
+        ~   Unique name identifier (UNI) that links romanized names to their non-Roman script equivalent and vice-versa.
+
+  - name : TRANSL_CD
+    type : varchar(32)
+    desc : |-4
+        Transliteration code
+        ~   This value indicates which transliteration system was used to arrive at the romanized equivalent of a non-Roman
+            Script name.
+
+  - name : NM_MODIFY_DATE
+    type : varchar(10)
+    desc : |-4
+        Name modification date
+        ~   The date a new name was added or any part of an existing name was modified (YYYY-MM-DD).
+
+  - name : F_EFCTV_DT
+    type : varchar(10)
+    desc : |-4
+        Feature effectivity date
+        ~   The documented date a feature came into existence (YYYY-MM-DD).
+
+  - name : F_TERM_DT
+    type : varchar(10)
+    desc : |-4
+    desc : |-4
+        Feature termination date
+        ~   The date a feature could no longer be verified on cartographic source or imagery (YYYY-MM-DD).
+
+# vim: digraph fdm=indent sw=4

@@ -1,0 +1,13 @@
+title    : Weekdays (in French)
+revision : 2020-08-06 (Thu) 04:59:16
+contents :
+
+  - [ L, Lun, Lundi     ]
+  - [ M, Mar, Mardi     ]
+  - [ M, Mer, Mercredi  ]
+  - [ J, Jeu, Jeudi     ]
+  - [ V, Ven, Vendredi  ]
+  - [ S, Sam, Samedi    ]
+  - [ D, Dim, Dimanche  ]
+
+# vim: digraph fdm=indent sw=4

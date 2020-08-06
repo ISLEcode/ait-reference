@@ -1,0 +1,183 @@
+title    : Currencies
+revision : 2020-08-06 (Thu) 05:42:06
+contents :
+
+  # iso-c iso-l   label                          major               minor               d.  format                  Id.
+  # ----- ------- ------------------------------ ------------------- ------------------- --- ----------------------- ---
+
+  - [ AED,  784,  UAE Dirham,                    dirham,             fil,                2,  'Dhs. #,###.##'     ] # 161
+  - [ AFA,    4,  Afghanistan Afghani,           afghani,            pul,                0,                      ] # 001
+  - [ ALL,    8,  Albania Lek,                   lek,                qindarka,           2,                      ] # 002
+  - [ AMD,   51,  Armenia Dram,                  dram,               luma,               2,  '#,###.##AMD'       ] # 006
+  - [ ANG,  532,  Netherlands Antilles Guilder,  guilder,            cent,               2,  'NAf. #.###,##'     ] # 110
+  - [ AON,   24,  Angola New Kwanza,             new kwanza,         lwei,               -,                      ] # 004
+  - [ ARS,   32,  Argentina Peso,                peso,               centavo,            2,  '$#.###,##'         ] # 005
+  - [ ATS,   40,  Austrian Schilling,            schilling,          groschen,           2,  'öS #.###,##'       ] # 009
+  - [ AUD,   36,  Australian Dollar,             dollar,             cent,               2,  '$#,###.##'         ] # 008
+  - [ AWG,  533,  Aruban Florin,                 guilder,            cent,               2,  'AWG #,###.##'      ] # 007
+  - [ AZM,   31,  Azerbaijani Manat,             manat,              gopik,              -,                      ] # 010
+  - [ BAM,  977,  Bosnian Convertible Mark,      B.H. dinar,         para,               2,  '#.###,## KM'       ] # 021
+  - [ BBD,   52,  Barbados Dollar,               dollar,             cent,               -,                      ] # 014
+  - [ BDT,   50,  Bangladesh Taka,               taka,               paisa,              2,  'Bt. #,###.##'      ] # 013
+  - [ BEF,   56,  Belgium Franc,                 franc,              -,                  0,  'BEF #.###'         ] # 016
+  - [ BGL,  100,  Bulgaria Lev,                  leva,               stotinki,           2,  '# ###,## lv'       ] # 025
+  - [ BHD,   48,  Bahraini Dinar,                dinar,              fils,               3,  'BD #,###.###'      ] # 012
+  - [ BIF,  108,  Burundi Franc,                 franc,              centime,            -,                      ] # 026
+  - [ BMD,   60,  Bermudian Dollar,              dollar,             cent,               2,  '$#,###.##'         ] # 018
+  - [ BND,   96,  Brunei Dollar,                 ringgit,            sen,                2,  '$#,###.##'         ] # 024
+  - [ BOB,   68,  Bolivian Boliviano,            boliviano,          centavo,            2,  'Bs#,###.##'        ] # 020
+  - [ BRL,  986,  Brazilian Real,                real,               centavo,            2,  'R$ #.###,##'       ] # 023
+  - [ BSD,   44,  Bahamian Dollar,               dollar,             cent,               2,  '$#,###.##'         ] # 011
+  - [ BTN,   64,  Bhutan Ngultrum,               ngultrum,           chetrum,            -,                      ] # 019
+  - [ BWP,   72,  Botswana Pula,                 pull,               thebe,              -,  'P#,###.##'         ] # 022
+  - [ BYB,  112,  Belarussian Rouble,            ruble,              -,                  -,                      ] # 015
+  - [ BZD,   84,  Belize Dollar,                 dollar,             cent,               2,  '$#,###.##'         ] # 017
+  - [ CAD,  124,  Canadian Dollar,               dollar,             cent,               2,  '$#,###.##'         ] # 028
+  - [ CHF,  756,  Swiss Franc,                   franc,              rappen,             2,  "SFr. #'###.##"     ] # 150
+  - [ CLP,  152,  Chilean Peso,                  peso,               centavo,            0,  '$#.###'            ] # 031
+  - [ CNY,  156,  Chinese Renminbi Yuan,         yuan renminbi,      jiao,               2,  'Y#,###.##'         ] # 032
+  - [ COP,  170,  Colombian Peso,                peso,               centavo,            2,  '$#.###,##'         ] # 033
+  - [ CRC,  188,  Costa Rican Colón,             colon,              centimo,            2,  '¢ #.###,##'        ] # 035
+  - [ CUP,  192,  Cuban Peso,                    peso,               centavo,            2,  '$ #,###.##'        ] # 037
+  - [ CVE,  132,  Escudo Caboverdiano,           escudo,             centavo,            -,                      ] # 050
+  - [ CYP,  196,  Cypriot Pound,                 pound,              cent,               2,  '£#.###,##'         ] # 038
+  - [ CZK,  203,  Czech Koruna,                  koruna,             haler,              2,  '#.###,## Kc'       ] # 039
+  - [ DEM,  276,  Deutsche Mark,                 deutsche mark,      pfennig,            2,  '#.###,##DM'        ] # 041
+  - [ DJF,  262,  Djibouti Franc,                franc,              centime,            -,                      ] # 042
+  - [ DKK,  208,  Danish Krone,                  krone,              øre,                2,  'kr.#.###,##'       ] # 040
+  - [ DOP,  214,  Dominican Republic Peso,       peso,               centavo,            2,  '$ #,###.##'        ] # 043
+  - [ DZD,   12,  Algerian Dinar,                dinar,              centime,            -,                      ] # 003
+  - [ ECS,  218,  Ecuador Sucre,                 sucre,              centavo,            -,                      ] # 046
+  - [ EEK,  233,  Estonia Kroon,                 kroon,              senti,              2,  '# ###,## EEK'      ] # 051
+  - [ EGP,  818,  Egytian Pound,                 pound,              piaster,            2,  'L.E. #,###.##'     ] # 047
+  - [ ERN,  232,  Eritrea, Nakfa,                nakfa,              cent,               -,                      ] # 049
+  - [ ESP,  724,  Spanish Peseta,                peseta,             centimo,            0,  '#.### Ptas'        ] # 142
+  - [ ETB,  230,  Ethiopia Birr,                 birr,               cent,               -,                      ] # 052
+  - [ EUR,  978,  Euro,                          Euro,               euro-cent,          2,  'EUR#,###.##'       ] # 053
+  - [ FIM,  246,  Finnish Markka,                markka,             penniä,             2,  '# ###,## mk'       ] # 056
+  - [ FJD,  242,  Fiji Dollar,                   dollar,             cent,               -,                      ] # 055
+  - [ FKP,  238,  Falkland Pound,                pound,              pence,              -,                      ] # 054
+  - [ FRF,  250,  French Franc,                  franc,              centime,            2,  '# ###,## FRF'      ] # 058
+  - [ GBP,  826,  Sterling,                      pound,              pence,              2,  '£#,###.##'         ] # 145
+  - [ GEL,  268,  Georgia, Lari,                 lari,               tetri,              -,                      ] # 060
+  - [ GHC,  288,  Ghana Cedi,                    new cedi,           psewa,              2,  '¢#,###.##'         ] # 061
+  - [ GIP,  292,  Gibraltar Pound,               pound,              pence,              2,  '£#,###.##'         ] # 062
+  - [ GMD,  270,  Gambia Dalasi,                 dalasi,             butut,              -,                      ] # 059
+  - [ GRD,  300,  Greek Drachma,                 drachma,            lepta,              2,  '#.###,## GRD'      ] # 063
+  - [ GTQ,  320,  Guatemala Quetzal,             quetzal,            centavo,            -,  'Q.#,###.##'        ] # 064
+  - [ GYD,  328,  Guyana Dollar,                 dollar,             cent,               -,                      ] # 065
+  - [ HKD,  344,  Hong Kong Dollar,              dollar,             cent,               2,  'HK$#,###.##'       ] # 068
+  - [ HNL,  340,  Honduras Lempira,              lempira,            centavo,            2,  'L #,###.##'        ] # 067
+  - [ HRK,  191,  Croatia Kuna,                  kuna,               lipa,               2,  '#.###,## kn'       ] # 036
+  - [ HTG,  332,  Haiti Gourde,                  gourde,             centime,            -,                      ] # 066
+  - [ HUF,  348,  Hungary Forint,                forint,             fillér,             0,  '#.### Ft'          ] # 069
+  - [ IDR,  360,  Indonesia Rupiah,              rupiah,             sen,                0,  'Rp.#.###'          ] # 072
+  - [ IEP,  372,  Irish Punt,                    punt or pound,      pingin,             2,  '£#,###.##'         ] # 075
+  - [ ILS,  376,  Israel Shekel,                 new shekel,         agorot,             2,  '#,###.## NIS'      ] # 076
+  - [ INR,  356,  Indian Rupee,                  rupee,              paise,              2,  'Rs.#,##,###.##'    ] # 071
+  - [ IQD,  368,  Iraqi Dinar,                   dinar,              fil,                3,                      ] # 074
+  - [ IRR,  364,  Iranian Riyal,                 rial,               rials,              2,  'Rls #,###.##'      ] # 073
+  - [ ISK,  352,  Icelandic Króna,               króna,              aurar,              2,  '#.###,## kr'       ] # 070
+  - [ ITL,  380,  Italian Lira,                  lira,               ml,                 0,  'L. #.###'          ] # 077
+  - [ JMD,  388,  Jamaican Dollar,               dollar,             cent,               2,  '$#,###.##'         ] # 078
+  - [ JOD,  400,  Jordanian Dinar,               dinar,              fil,                3,  'JD #,###.###'      ] # 080
+  - [ JPY,  392,  Japanese Yen,                  yen,                sen,                0,  '¥#,###'            ] # 079
+  - [ KES,  404,  Kenyan Shilling,               shilling,           cent,               2,  'Kshs.#,###.##'     ] # 082
+  - [ KGS,  417,  Kyrgyzstan, Som,               som,                tyyn,               -,                      ] # 084
+  - [ KHR,  116,  Cambodia Riel,                 new riel,           sen,                -,                      ] # 027
+  - [ KMF,  174,  Comorian Franc,                franc,              -,                  -,                      ] # 034
+  - [ KPW,  408,  North Korean Won,              won,                chon,               -,                      ] # 115
+  - [ KRW,  410,  South Korean Won,              won,                chon,               0,  '\#,###'            ] # 141
+  - [ KWD,  414,  Kuwaiti Dinar,                 dinar,              fil,                3,  'KD #,###.###'      ] # 083
+  - [ KYD,  136,  Cayman Islands Dollar,         dollar,             cent,               2,  '$#,###.##'         ] # 029
+  - [ KZT,  398,  Kazakhstan Tenge,              tenge,              tiyn,               -,                      ] # 081
+  - [ LAK,  418,  Laos Kip,                      new kip,            at,                 -,                      ] # 085
+  - [ LBP,  422,  Lebanese Pound,                pound (livre),      piastre,            0,  '# ###L.L.'         ] # 087
+  - [ LKR,  144,  Sri Lankan Rupee,              rupee,              cent,               -,                      ] # 143
+  - [ LRD,  430,  Liberian Dollar,               dollar,             cent,               -,                      ] # 089
+  - [ LSL,  426,  Lesotho Maloti,                'loti, pl.,maloti', lisente,            -,                      ] # 088
+  - [ LTL,  440,  Lithuania Litas,               litas,              centu,              2,  '# ###,## Lt'       ] # 091
+  - [ LUF,  442,  Luxembourg Franc,              franc,              centime,            0,  "#\'### F"          ] # 092
+  - [ LVL,  428,  Latvia Lat,                    lat,                santim,             2,  'Ls #,###.##'       ] # 086
+  - [ LYD,  434,  Libyan Dinar,                  dinar,              dirham,             -,                      ] # 090
+  - [ MAD,  504,  Moroccan Dirham,               dirham,             centime,            -,                      ] # 105
+  - [ MDL,  498,  Moldovian Leu,                 'leu, pl., lei',    -,                  -,                      ] # 103
+  - [ MGF,  450,  Malagasy Franc,                ariayry (5 francs), franc,              -,                      ] # 095
+  - [ MKD,  807,  Macedonian Denar,              denar,              deni,               2,  '#,###.## MKD'      ] # 094
+  - [ MMK,  104,  Myanmar Kyat,                  kyat,               pya,                -,                      ] # 107
+  - [ MNT,  496,  Mongolia Tugrik,               tugrik,             mongo,              -,                      ] # 104
+  - [ MOP,  446,  Macao Pataca,                  pataca,             avo,                -,                      ] # 093
+  - [ MRO,  478,  Mauritania Ouguiya,            ouguiya (5 khoums), khoum,              -,                      ] # 100
+  - [ MTL,  470,  Maltese Lira,                  'lira, pl., liri',  cent,               2,  'Lm#,###.##'        ] # 099
+  - [ MUR,  480,  Mauritius Rupee,               rupee,              cent,               0,  'Rs#,###'           ] # 101
+  - [ MVR,  462,  Maldives Rufiyaa,              rufiyaa,            lari,               -,                      ] # 098
+  - [ MWK,  454,  Malawian Kwacha,               kwacha,             tambala,            -,                      ] # 096
+  - [ MXN,  484,  Mexican Peso,                  peso,               centavo,            2,  '$ #,###.##'        ] # 102
+  - [ MYR,  458,  Malaysian Ringgit,             ringgit,            sen,                2,  'RM#,###.##'        ] # 097
+  - [ MZM,  508,  Mozambique Metical,            metical,            centavo,            2,  '#.###,## Mt'       ] # 106
+  - [ NAD,  516,  Namibian Dollar,               dollar,             cent,               -,                      ] # 108
+  - [ NGN,  566,  Nigeria Naira,                 naira,              kobo,               -,                      ] # 114
+  - [ NIC,  558,  Nicaragua Córdoba,             gold cordoba,       centavo,            -,                      ] # 113
+  - [ NLG,  528,  Dutch Guilder,                 gulden,             cent,               2,  'f #.###,##'        ] # 044
+  - [ NOK,  578,  Norwegian Krone,               krone,              øre,                2,  'kr #.###,##'       ] # 116
+  - [ NPR,  524,  Nepalese Rupee,                rupee,              paise,              2,  'Rs. #,###.##'      ] # 109
+  - [ NZD,  554,  New Zealand Dollar,            dollar,             cent,               2,  '$#,###.##'         ] # 112
+  - [ OMR,  512,  Riyal Omani,                   rial,               baiza,              3,  'RO #,###.###'      ] # 126
+  - [ PAB,  590,  Panama Balboa,                 balboa,             centesimo,          -,                      ] # 118
+  - [ PEN,  604,  Peru New Sol,                  new sol,            centimo,            2,  'S/. #,###.##'      ] # 121
+  - [ PGK,  598,  Papua New Guinea Kina,         kina,               toea,               -,                      ] # 119
+  - [ PHP,  608,  Philippine Peso,               peso,               centavo,            2,  'PHP#,###.##'       ] # 122
+  - [ PKR,  586,  Pakistani Rupee,               rupee,              paisa,              2,  'Rs.#,###.##'       ] # 117
+  - [ PLN,  985,  Poland New Zloty,              zloty,              groszy,             2,  '# ###,## zl'       ] # 123
+  - [ PTE,  620,  Portuguese Escudo,             escudo,             centavo,            0,  '#.### Esc'         ] # 124
+  - [ PYG,  600,  Paraguay Guarani,              guarani,            centimo,            -,                      ] # 120
+  - [ QAR,  634,  Qatari Riyal,                  riyal,              dirham,             -,                      ] # 125
+  - [ ROL,  642,  Romanian Leu,                  leu (pl. lei),      bani,               2,  '#.###,## lei'      ] # 127
+  - [ RUR,  810,  Russian Federation Rouble,     ruble,              kopeck,             2,  'RUR#.###,##'       ] # 128
+  - [ RWF,  646,  Rwanda Franc,                  franc,              centime,            -,                      ] # 129
+  - [ SAC,    -,  S. African Rand Commerc.,      -,                  -,                  -,                      ] # 130
+  - [ SAR,  682,  Saudi Riyal,                   riyal,              halalat,            2,  'SR #,###.##'       ] # 132
+  - [ SBD,   90,  Solomon Islands Dollar,        dollar,             cent,               -,                      ] # 138
+  - [ SCR,  690,  Seychelles Rupee,              rupee,              cent,               -,                      ] # 133
+  - [ SDP,  736,  Sudanese Pound,                pound,              piastre,            -,                      ] # 146
+  - [ SEK,  752,  Swedish Krona,                 krona (pl. kronor), öre,                2,  '# ###.## kr'       ] # 149
+  - [ SGD,  702,  Singapore Dollar,              dollar,             cent,               2,  '$#,###.##'         ] # 135
+  - [ SHP,  654,  St Helena Pound,               pound,              new pence,          -,                      ] # 144
+  - [ SIT,  705,  Slovenia Tolar,                tolar,              stotin,             2,  '#.###,## SIT'      ] # 137
+  - [ SKK,  703,  Slovak Koruna,                 koruna,             haliere,            2,  '# ###,## Sk'       ] # 136
+  - [ SLL,  694,  Sierra Leone Leone,            leone,              cent,               -,                      ] # 134
+  - [ SOS,  706,  Somali Shilling,               shilling,           centesimi,          -,                      ] # 139
+  - [ SRG,  740,  Surinam Guilder,               guilder,            cent,               -,                      ] # 147
+  - [ STD,  678,  São Tomé & Príncipe Dobra,     dobra,              centimo,            -,                      ] # 131
+  - [ SVC,  222,  El Salvadorian Colón,          colon,              centavo,            -,  '¢#,###.##'         ] # 048
+  - [ SYP,  760,  Syrian Pound,                  pound,              piaster,            -,                      ] # 151
+  - [ SZL,  748,  Swaziland Lilangeni,           emalangeni,         cent,               -,  'E#, ###.##'        ] # 148
+  - [ THB,  764,  Thailand Baht,                 baht,               sastang,            2,  '#,###.## Bt'       ] # 155
+  - [ TJR,  762,  Tajikistan, Ruble,             ruble,              -,                  -,                      ] # 153
+  - [ TMM,  795,  Turkmenistan, Manat,           manat,              tenga,              -,                      ] # 160
+  - [ TND,  788,  Tunisia Tunisian Dinar,        dinar,              millime,            3,                      ] # 158
+  - [ TOP,  776,  Tonga Palanga,                 pa'anga,            seniti,             -,                      ] # 156
+  - [ TRL,  792,  Turkish Lira,                  lira,               kuruþ,              0,  '#,###TL'           ] # 159
+  - [ TTD,  780,  Trinidad & Tobago Dollar,      dollar,             cent,               -,                      ] # 157
+  - [ TWD,  901,  Taiwanese NT Dollar,           new dollar,         cent,               -,                      ] # 152
+  - [ TZS,  834,  Tanzanian Shilling,            shilling,           cent,               -,                      ] # 154
+  - [ UAH,  980,  Ukraine Hryvna,                Hryvnia,            kopiyka,            2,  '# ###,##???'       ] # 163
+  - [ UGX,  800,  Ugandian Shilling,             shilling,           cent,               -,                      ] # 162
+  - [ USD,  840,  US Dollar,                     dollar,             cent,               2,  '$#,###.##'         ] # 165
+  - [ UYU,  858,  Uruguayan New Peso,            peso uruguayo,      centé,              -,                      ] # 164
+  - [ UZS,  860,  Uzbekistani Sum,               som,                tiyin,              -,                      ] # 166
+  - [ VEB,  862,  Venezuela Bolivar,             bolivar,            centimo,            2,  'Bs. #.###,##'      ] # 168
+  - [ VND,  704,  Vietnam Dong,                  new dong,           hao, xu,            0,  '#.### Dong'        ] # 169
+  - [ VUV,  548,  Vanuatu Vatu,                  vatu,               -,                  0,  '#,###VT'           ] # 167
+  - [ WST,  882,  Western Samoa Tala,            tala,               sene,               -,                      ] # 170
+  - [ XAF,    -,  Franc CFA,                     -,                  -,                  -,                      ] # 057
+  - [ XCD,  951,  East Caribbean Dollar,         dollar,             cent,               2,  '$#,###.##'         ] # 045
+  - [ XPF,  953,  CFP Franc,                     franc,              centime,            -,                      ] # 030
+  - [ YER,  886,  Yemen Riyal,                   rial,               fil,                -,                      ] # 171
+  - [ YUM,  891,  Yugoslavia New Dinar,          dinar,              para,               -,                      ] # 172
+  - [ ZAR,  710,  South African Rand,            rand,               cent,               2,  'R # ###.##'        ] # 140
+  - [ ZMK,  894,  Zambian Kwacha,                kwacha,             ngwee,              -,                      ] # 173
+  - [ ZRN,  186,  New Zaïre,                     -,                  -,                  -,                      ] # 111
+  - [ ZWD,  716,  Zimbabwe Dollar,               dollar,             cent,               2,  'Z$# ###.##'        ] # 174
+
+# vim: digraph fdm=indent sw=4

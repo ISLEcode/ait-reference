@@ -1,0 +1,18 @@
+title    : Month names (in French)
+revision : 2020-08-06 (Thu) 04:58:58
+contents :
+
+  - [ J, Jan, Janvier   ]
+  - [ F, Fév, Février   ]
+  - [ M, Mar, Mars      ]
+  - [ A, Avr, Avril     ]
+  - [ M, Mar, Mai       ]
+  - [ J, Jui, Juin      ]
+  - [ J, Jul, Juillet   ]
+  - [ A, Aoû, Août      ]
+  - [ S, Sep, Septembre ]
+  - [ O, Oct, Octobre   ]
+  - [ N, Nov, Novembre  ]
+  - [ D, Déc, Décembre  ]
+
+# vim: digraph fdm=indent sw=4
