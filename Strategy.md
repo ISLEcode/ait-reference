@@ -44,19 +44,19 @@ The datasets will be organised in collections. The following collections are for
     when standardised material exists — in particular those maintained by official organisations; the we should do our best
     to abide to those ѕtandards.
 
-:   Note: the rich collection of such lists created circa 2003 for Interwage's international payroll and expatriate management
-    system have been passed over to the SAMinfo ERP except for generic lists such as countries, currencies and timeuzones. My
-    inted however is to bring back to this repository what could be classified as _lorem ipsum_ datasets such as abstract
-    contact names, addresses and phone numbers which are useful at design and testing phases.
+_Note:_ the rich collection of such lists created circa 2003 for Interwage's international payroll and expatriate management
+system have been passed over to the SAMinfo ERP except for generic lists such as countries, currencies and timeuzones. My inted
+however is to bring back to this repository what could be classified as _lorem ipsum_ datasets such as abstract contact names,
+addresses and phone numbers which are useful at design and testing phases.
 
 **dictionaries** (abbreviated as _dict_)
 :   Reference lists of terms and their definitions organised into collections such as ITIL, computer science, or general
     knowledge dictionaries. Are also included in this category the word lists of spoken languages used by spell checking
     software, such as _aspell(1)_.
 
-:   Note: in previous incarnations of the AIT framework — the _Dragonfly project_, the _Deutsch Bank PBSC factory_, or the
-    _IBM Tahtum factory_, we used to have `etc/lists` and `etc/wlists` directories for various word lists. Such lists, that
-    can't be classified in other categories, will be placed here.
+_Note_: in previous incarnations of the AIT framework — the _Dragonfly project_, the _Deutsch Bank PBSC factory_, or the _IBM
+Tahtum factory_, we used to have `etc/lists` and `etc/wlists` directories for various word lists. Such lists, that can't be
+classified in other categories, will be placed here.
 
 **quotes**
 :   Quotes have been managed so far within the context of each AIT tool, such as _cm-qotd(1)_ — the _quote of the day_ command
