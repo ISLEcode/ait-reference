@@ -1,0 +1,1779 @@
+title    : Franglais — Primarily ITIL terms
+revision : 2020-08-06 (Thu) 04:24:43
+contents :
+
+  - engl : Acceptance
+    fren : Acceptation
+
+  - engl : Access management
+    fren : Gestion des accès
+
+  - engl : Account manager
+    fren : Chargé de clientèle
+
+  - engl : Accounting
+    fren : Comptabilité
+
+  - engl : Accredited
+    fren : Accrédité
+
+  - engl : Active monitoring
+    fren : Surveillance active
+
+  - engl : Activity
+    fren : Activité
+
+  - engl : Agreed service time
+    fren : Temps de service convenu
+    abbr : AST
+
+  - engl : Agreement
+    fren : Accord
+
+  - engl : Alert
+    fren : Alerte
+
+  - engl : Analytical modelling
+    fren : Modélisation analytique
+
+  - engl : Application
+    fren : Application
+
+  - engl : Application management
+    fren : Gestion des applications
+
+  - engl : Application portfolio
+    fren : Portefeuille des applications
+
+  - engl : Application service provider
+    fren : Fournisseur de services applicatifs
+    abbr : ASP
+
+  - engl : Application sizing
+    fren : Dimensionnement des applications
+
+  - engl : Architecture
+    fren : Architecture
+
+  - engl : Assembly
+    fren : Assemblage
+
+  - engl : Assessment
+    fren : Évaluation
+
+  - engl : Asset
+    fren : Actif
+
+  - engl : Asset management
+    fren : Gestion des actifs
+
+  - engl : Asset register
+    fren : Liste des actifs
+
+  - engl : Attribute
+    fren : Attribut
+
+  - engl : Audit
+    fren : Audit
+
+  - engl : Authority matrix
+    fren : Matrice des responsabilités
+
+  - engl : Automatic call distribution
+    fren : Distribution automatique d’appels
+    abbr : ACD
+
+  - engl : Availability
+    fren : Disponibilité
+
+  - engl : Availability management
+    fren : Gestion de la disponibilité
+
+  - engl : Availability management information system
+    fren : Système d'information de la gestion de la disponibilité
+    abbr : AMIS
+
+  - engl : Availability plan
+    fren : Plan de disponibilité
+
+  - engl : Back-out
+    fren : retour à l’état inital
+
+  - engl : Backup
+    fren : Copie de sauvegarde (Backup)
+
+  - engl : Balanced scorecard
+    fren : Tableau de bord équilibré
+
+  - engl : Baseline
+    fren : Base de référence
+
+  - engl : Benchmark
+    fren : Benchmark
+
+  - engl : Benchmarking
+    fren : Benchmarking
+
+  - engl : Best practice
+    fren : Meilleures pratiques
+
+  - engl : Brainstorming
+    fren : Remue-méninges (brainstorming)
+
+  - engl : British standards institution
+    fren : Institut de Normalisation Britannique
+    abbr : BSI
+
+  - engl : Budget
+    fren : Budget
+
+  - engl : Budgeting
+    fren : Budgétisation
+
+  - engl : Build
+    fren : Construction
+
+  - engl : Build environment
+    fren : Environnement de construction
+
+  - engl : Business
+    fren : Business
+
+  - engl : Business capacity management
+    fren : Gestion de la capacité business
+    abbr : BCM
+
+  - engl : Business case
+    fren : Dossier business
+
+  - engl : Business continuity management
+    fren : Gestion de la continuité du business
+    abbr : BCM
+
+  - engl : Business continuity plan
+    fren : Plan de continuité du business
+    abbr : BCP
+
+  - engl : Business customer
+    fren : Client business
+
+  - engl : Business impact analysis
+    fren : Analyse d’impact sur le business
+    abbr : BIA
+
+  - engl : Business objective
+    fren : Objectif business
+
+  - engl : Business operations
+    fren : Opérations business
+
+  - engl : Business perspective
+    fren : Perspective business
+
+  - engl : Business process
+    fren : Processus business
+
+  - engl : Business relationship management
+    fren : Gestion des relations business
+    abbr : BRM
+
+  - engl : Business relationship manager
+    fren : Gestionnaire des relations business
+
+  - engl : Business service
+    fren : Service business
+
+  - engl : Business service management
+    fren : Gestion des services business
+    abbr : BSM
+
+  - engl : Business unit
+    fren : Unité business
+    abbr : BU
+
+  - engl : Call
+    fren : Appel
+
+  - engl : Call center
+    fren : Centre d’appels
+
+  - engl : Call type
+    fren : Type d’appel
+
+  - engl : Capability
+    fren : Aptitude
+
+  - engl : Capability maturity model
+    fren : Capability maturity model
+    abbr : CMM
+
+  - engl : Capability maturity model integration
+    fren : Capability maturity model integration
+    abbr : CMMI
+
+  - engl : Capacity
+    fren : Capacité
+
+  - engl : Capacity management
+    fren : Gestion de la capacité
+
+  - engl : Capacity management information system
+    fren : Système d'information de gestion de la capacité
+    abbr : CMIS
+
+  - engl : Capacity plan
+    fren : Plan de capacité
+
+  - engl : Capacity planning
+    fren : Planification de la capacité
+
+  - engl : Capital expenditure
+    fren : Frais d’investissement
+    abbr : CAPEX
+
+  - engl : Capital item
+    fren : Elément d'investissement
+
+  - engl : Capitalization
+    fren : Capitalisation
+
+  - engl : Caterory
+    fren : Catégorie
+
+  - engl : Certification
+    fren : Certification
+
+  - engl : Change
+    fren : Changement
+
+  - engl : Change advisory board
+    fren : Comité consultatif sur les changements
+    abbr : CAB
+
+  - engl : Change case
+    fren : Dossier de changement
+
+  - engl : Change history
+    fren : Historique des changements
+
+  - engl : Change management
+    fren : Gestion des changements
+
+  - engl : Change model
+    fren : Modèle de changement
+
+  - engl : Change record
+    fren : Enregistrement d’un changement
+
+  - engl : Change request
+    fren : Demande de changement
+    abbr : RFC
+
+  - engl : Change schedule
+    fren : Calendrier des changements
+
+  - engl : Change window
+    fren : Fenêtre des changements
+
+  - engl : Charging
+    fren : Facturation
+
+  - engl : Chronological analysis
+    fren : Analyse chronologique
+
+  - engl : Ci type
+    fren : Type de ci
+
+  - engl : Classification
+    fren : Classification
+
+  - engl : Client
+    fren : Client
+
+  - engl : Closed
+    fren : Clôturé
+
+  - engl : Closure
+    fren : Clôture
+
+  - engl : Cobit
+    fren : Cobit
+
+  - engl : Code of practice
+    fren : Code de bonne pratique
+
+  - engl : Cold standby
+    fren : Cold standby
+
+  - engl : Commercial off the shelf
+    fren : Article commercial prêt à l'emploi
+    abbr : COTS
+
+  - engl : Compliance
+    fren : Conformité
+
+  - engl : Component
+    fren : Composant
+
+  - engl : Component capacity management
+    fren : Gestion de capacité des composants
+    abbr : CCM
+
+  - engl : Component ci
+    fren : Ci composant
+
+  - engl : Component failure impact analysis
+    fren : Analyse d’impact de la défaillance d’un composant
+    abbr : CFIA
+
+  - engl : Computer telephony integration
+    fren : Couplage téléphonie-informatique
+    abbr : CTI
+
+  - engl : Concurrency
+    fren : Accès concurrents
+
+  - engl : Confidentiality
+    fren : Confidentialité
+
+  - engl : Configuration
+    fren : Configuration
+
+  - engl : Configuration baseline
+    fren : Configuration de référence
+
+  - engl : Configuration control
+    fren : Contrôle des configurations
+
+  - engl : Configuration identification
+    fren : Identification des configurations
+
+  - engl : Configuration item
+    fren : Elément de configuration
+    abbr : CI
+
+  - engl : Configuration management
+    fren : Gestion des configurations
+
+  - engl : Configuration management
+    fren : Gestion des configurations
+
+  - engl : Configuration management system
+    fren : Système de gestion des configurations
+    abbr : CMS
+
+  - engl : Configuration record
+    fren : Enregistrement d'une configuration
+
+  - engl : Configuration structure
+    fren : Structure des configurations
+
+  - engl : Continual service improvement
+    fren : Amélioration continue des services
+    abbr : CSI
+
+  - engl : Continuous availability
+    fren : Disponibilité continue
+
+  - engl : Continuous operation
+    fren : Exploitation continue
+
+  - engl : Contract
+    fren : Contrat
+
+  - engl : Contract portfolio
+    fren : Portefeuille de contrats
+
+  - engl : Control
+    fren : Contrôle
+
+  - engl : Control objectives for information and related technology
+    fren : Control objectives for information and related technology
+    abbr : COBIT
+
+  - engl : Control perspective
+    fren : Perspective de contrôle
+
+  - engl : Control processes
+    fren : Processus de contrôle
+
+  - engl : Core service
+    fren : Service de base
+
+  - engl : Core service package
+    fren : Package d'un service de base
+    abbr : CSP
+
+  - engl : Cost
+    fren : Coût
+
+  - engl : Cost benefit analysis
+    fren : Analyse coûts-bénéfices
+
+  - engl : Cost center
+    fren : Centre de coûts
+
+  - engl : Cost effectiveness
+    fren : Rentabilité
+
+  - engl : Cost element
+    fren : Elément de coût
+
+  - engl : Cost management
+    fren : Gestion des coûts
+
+  - engl : Cost type
+    fren : Type de coût
+
+  - engl : Cost unit
+    fren : Unité de coût
+
+  - engl : Countermeasure
+    fren : Contre-mesure
+
+  - engl : Course corrections
+    fren : Corrections de trajectoire
+
+  - engl : Crisis management
+    fren : Gestion de crises
+
+  - engl : Critical success factor
+    fren : Facteur clé de succès
+    abbr : CSF
+
+  - engl : Culture
+    fren : Culture
+
+  - engl : Customer
+    fren : Client
+
+  - engl : Customer portfolio
+    fren : Portefeuille de clients
+
+  - engl : Dashboard
+    fren : Tableau de bord
+
+  - engl : Data-to-information-to-knowledge-to-wisdom
+    fren : Data-to-information-to-knowledge-to-wisdom
+    abbr : DIKW
+
+  - engl : Definitive media library
+    fren : Bibliothèque des supports définitifs
+    abbr : DML
+
+  - engl : Deliverable
+    fren : Livrables
+
+  - engl : Demand management
+    fren : Gestion de la demande
+
+  - engl : Deming cycle
+    fren : Cycle de deming
+
+  - engl : Dependency
+    fren : Dépendance
+
+  - engl : Deployment
+    fren : Déploiement
+
+  - engl : Depreciation
+    fren : Dépréciation
+
+  - engl : Design
+    fren : Conception
+
+  - engl : Detection
+    fren : Détection
+
+  - engl : Development
+    fren : Développement
+
+  - engl : Development environment
+    fren : Environnement de développement
+
+  - engl : Diagnosis
+    fren : Diagnostic
+
+  - engl : Diagnosis script
+    fren : Script de diagnostic
+
+  - engl : Differential charging
+    fren : Facturation modulée (differential charging)
+
+  - engl : Direct cost
+    fren : Coût direct
+
+  - engl : Directory service
+    fren : Service d'annuaire
+
+  - engl : Do nothing
+    fren : Ne rien faire
+
+  - engl : Document
+    fren : Document
+
+  - engl : Downtime
+    fren : Temps d’indisponibilité
+
+  - engl : Driver
+    fren : Driver
+
+  - engl : Early life support
+    fren : Support de début de vie
+    abbr : ELS
+
+  - engl : Economies of scale
+    fren : Économies d'échelle
+
+  - engl : Economies of scope
+    fren : Économies de gamme
+
+  - engl : Effectiveness
+    fren : Efficacité
+
+  - engl : Efficiency
+    fren : Efficience
+
+  - engl : Emergency change
+    fren : Changement urgent
+
+  - engl : Emergency change advisory board
+    fren : Comité consultatif sur les changements urgents
+    abbr : ECAB
+
+  - engl : Environment
+    fren : Environnement
+
+  - engl : Error
+    fren : Erreur
+
+  - engl : Escalation
+    fren : Escalade
+
+  - engl : Esourcing capability model for client organisations
+    fren : Esourcing capability model for client organisations
+    abbr : eSCM-CL
+
+  - engl : Esourcing capability model for service providers
+    fren : esourcing capability model for service providers
+    abbr : eSCM-SP
+
+  - engl : Estimation
+    fren : Estimation
+
+  - engl : Evaluation
+    fren : Évaluation
+
+  - engl : Event
+    fren : Événement
+
+  - engl : Event management
+    fren : Gestion des événements
+
+  - engl : Exception report
+    fren : Rapport d’exception
+
+  - engl : Expanded incident lifecycle
+    fren : Cycle de vie détaillé d’un incident
+
+  - engl : External customer
+    fren : Client externe
+
+  - engl : External metric
+    fren : Métrique externe
+
+  - engl : External service provider
+    fren : Fournisseur de service externe
+
+  - engl : External sourcing
+    fren : Sourcing externe
+
+  - engl : Facilities management
+    fren : Gestion des installations
+
+  - engl : Failure
+    fren : Défaillance
+
+  - engl : Failure modes and effects analysis
+    fren : Analyse des modes et effets des défaillances
+    abbr : FMEA
+
+  - engl : Fast recovery
+    fren : Reprise rapide
+
+  - engl : Fault
+    fren : Panne
+
+  - engl : Fault tolerance
+    fren : Tolérance aux pannes
+
+  - engl : Fault tree analysis
+    fren : Analyse par arbre de pannes
+    abbr : FTA
+
+  - engl : Financial management
+    fren : Gestion financière
+
+  - engl : First-line support
+    fren : Support de premier niveau
+
+  - engl : Fishbone diagram
+    fren : Diagramme en arêtes de poisson
+
+  - engl : Fit for purpose
+    fren : Adapté au besoin
+
+  - engl : Fixed cost
+    fren : Coût fixe
+
+  - engl : Fixed facility
+    fren : Installation fixe
+
+  - engl : Follow the sun support
+    fren : Support type follow the sun
+
+  - engl : Fulfilment
+    fren : Exécution
+
+  - engl : Function
+    fren : Fonction
+
+  - engl : Functionnal escalation
+    fren : Escalade fonctionnelle
+
+  - engl : Gap analysis
+    fren : Analyse de l'écart
+
+  - engl : Governance
+    fren : Gouvernance
+
+  - engl : Gradual recovery
+    fren : Reprise graduelle
+
+  - engl : Guideline
+    fren : Guide de bonnes pratiques (guideline)
+
+  - engl : Help desk
+    fren : Centre d’assistance
+
+  - engl : Hierarchic escalation
+    fren : Escalade hiérarchique
+
+  - engl : High availability
+    fren : Haute disponibilité
+
+  - engl : Hot standby
+    fren : Hot standby
+
+  - engl : Identity
+    fren : Identité
+
+  - engl : Immediate recovery
+    fren : Reprise immédiate
+
+  - engl : Impact
+    fren : Impact
+
+  - engl : Incident
+    fren : Incident
+
+  - engl : Incident management
+    fren : Gestion des incidents
+
+  - engl : Incident record
+    fren : Enregistrement d'un incident
+
+  - engl : Indirect cost
+    fren : Coût indirect
+
+  - engl : Information security management
+    fren : Gestion de la sécurité de l’information
+    abbr : ISM
+
+  - engl : Information security management system
+    fren : Systéme de gestion de la sécurité informatique
+    abbr : ISMS
+
+  - engl : Information security policy
+    fren : Politique de sécurité informatique
+
+  - engl : Information technology
+    fren : Technologies de l’information
+    abbr : IT
+
+  - engl : Infrastructure service
+    fren : Service d'infrastructure
+
+  - engl : Insourcing
+    fren : Internalisation
+
+  - engl : Integrity
+    fren : Intégrité
+
+  - engl : Interactive voice response
+    fren : Serveur vocal interactif
+    abbr : IVR
+
+  - engl : Intermediate recovery
+    fren : Reprise intermédiaire
+
+  - engl : Internal customer
+    fren : Client interne
+
+  - engl : Internal metric
+    fren : Métrique interne
+
+  - engl : Internal rate of return
+    fren : Taux de retour interne
+    abbr : IRR
+
+  - engl : Internal service provider
+    fren : Fournisseur de services interne
+
+  - engl : Internal sourcing
+    fren : Sourcing interne
+
+  - engl : International organisation for standardization
+    fren : International organization for standardization
+    abbr : ISO
+
+  - engl : International standards organisation
+    fren : Organisme international des standards
+
+  - engl : Internet service provider
+    fren : Fournisseur de services internet
+    abbr : ISP
+
+  - engl : Invocation
+    fren : Invocation
+
+  - engl : Ishikawa diagram
+    fren : Diagramme d'ishikawa
+
+  - engl : It directorate
+    fren : Direction informatique
+
+  - engl : It infrastructure
+    fren : Infrastructure informatique
+
+  - engl : It operations
+    fren : Opérations informatiques
+
+  - engl : It operations control
+    fren : Contrôle des opérations informatiques
+
+  - engl : It operations management
+    fren : Gestion des opérations informatiques
+
+  - engl : It service
+    fren : Service informatique
+
+  - engl : It service continuity management
+    fren : Gestion de la continuité des services informatiques
+    abbr : ITSCM
+
+  - engl : It service continuity plan
+    fren : Plan de continuité des services informatiques
+
+  - engl : It service management
+    fren : Gestion des services informatiques
+    abbr : ITSM
+
+  - engl : It service management forum
+    fren : It service management forum
+    abbr : itSMF
+
+  - engl : It service provider
+    fren : Fournisseur de service informatique
+
+  - engl : It steering group
+    fren : Groupe de pilotage informatique
+    abbr : ISG
+
+  - engl : Job description
+    fren : Description de poste
+
+  - engl : Job scheduling
+    fren : Ordonnancement des travaux (job scheduling)
+
+  - engl : Kano model
+    fren : Modèle de kano
+
+  - engl : Kepner & tregoe analysis
+    fren : Analyse de kepner & tregoe
+
+  - engl : Key performance indicator
+    fren : Indicateur-clé de performance
+    abbr : KPI
+
+  - engl : Knowledge base
+    fren : Base de connaissances
+
+  - engl : Knowledge management
+    fren : Gestion des connaissances
+
+  - engl : Known error
+    fren : Erreur connue
+    abbr : KE
+
+  - engl : Known error database
+    fren : Base de données des erreurs connues
+    abbr : KEDB
+
+  - engl : Known error record
+    fren : Enregistrement d’erreur connue
+
+  - engl : Livecycle
+    fren : Cycle de vie
+
+  - engl : Line of service
+    fren : Ligne de service
+    abbr : LOS
+
+  - engl : Live
+    fren : Opérationnel
+
+  - engl : Live environment
+    fren : Environnement de production
+
+  - engl : Maintainability
+    fren : Facilité de maintenance
+
+  - engl : Major incident
+    fren : Incident majeur
+
+  - engl : Managed services
+    fren : Services gérés
+
+  - engl : Management information
+    fren : Information de gestion
+
+  - engl : Management of risk
+    fren : Gestion du risque
+    abbr : MoR
+
+  - engl : Management system
+    fren : Système de gestion
+
+  - engl : Manual workaround
+    fren : Solution de contournement manuelle
+
+  - engl : Marginal cost
+    fren : Coût marginal
+
+  - engl : Market space
+    fren : Marché potentiel
+
+  - engl : Maturity
+    fren : Maturité
+
+  - engl : Maturity level
+    fren : Niveau de maturité
+
+  - engl : Mean time between failures
+    fren : Intervalle moyen entre les défaillances
+    abbr : MTBF
+
+  - engl : Mean time between service incidents
+    fren : Intervalle moyen entre les incidents de service
+    abbr : MTBSI
+
+  - engl : Mean time to repair
+    fren : Temps moyen de réparation
+    abbr : MTTR
+
+  - engl : Mean time to restore service
+    fren : Temps moyen de restauration du service
+    abbr : MTRS
+
+  - engl : Metric
+    fren : Métrique
+
+  - engl : Middleware
+    fren : Middleware
+
+  - engl : Mission statement
+    fren : Énoncé de mission
+
+  - engl : Model
+    fren : Modèle
+
+  - engl : Modelling
+    fren : Modélisation
+
+  - engl : Monitor control loop
+    fren : Boucle de contrôle
+
+  - engl : Monitoring
+    fren : Surveillance
+
+  - engl : Near-shore
+    fren : Near-shore
+
+  - engl : Net present value
+    fren : Valeur nette actuelle
+    abbr : NPV
+
+  - engl : Notional charging
+    fren : Facturation notionnelle
+
+  - engl : Objective
+    fren : Objectif
+
+  - engl : Off the shelf
+    fren : Prêt à l'emploi
+
+  - engl : Office of government commerce
+    fren : Office of government commerce
+    abbr : OGC
+
+  - engl : Office of public sector information
+    fren : Office of public sector information
+    abbr : OPSI
+
+  - engl : Off-shore
+    fren : Off-shore
+
+  - engl : On-shore
+    fren : On-shore
+
+  - engl : Operate
+    fren : Exploiter
+
+  - engl : Operation
+    fren : Exploitation ou fonctionnement
+
+  - engl : Operational
+    fren : Opérationnel
+
+  - engl : Operational cost
+    fren : Coût opérationnel
+
+  - engl : Operational expenditure
+    fren : Dépense opérationnelle
+    abbr : OPEX
+
+  - engl : Operational level agrement
+    fren : Accord sur les niveaux opérationnels
+    abbr : OLA
+
+  - engl : Operations bridge
+    fren : Salle de contrôle
+
+  - engl : Operations control
+    fren : Contrôle des opérations
+
+  - engl : Operations management
+    fren : Gestion des opérations
+
+  - engl : Opportunity cost
+    fren : Coût d'opportunité
+
+  - engl : Optimise
+    fren : Optimiser
+
+  - engl : Organisation
+    fren : Organisation
+
+  - engl : Outcome
+    fren : Résultat
+
+  - engl : Outsourcing
+    fren : Externalisation
+
+  - engl : Overhead
+    fren : Frais généraux ou surcharge
+
+  - engl : Pain value analysis
+    fren : Analyse de la valeur de dérangement (pain value analysis)
+
+  - engl : Pareto principle
+    fren : Principe de pareto
+
+  - engl : Partnership
+    fren : Partenariat
+
+  - engl : Passive monitoring
+    fren : Surveillance passive
+
+  - engl : Pattern of business activity
+    fren : Schéma d'activité business
+    abbr : PBA
+
+  - engl : Percentage utilisation
+    fren : Pourcentage d’utilisation
+
+  - engl : Performance
+    fren : Performance
+
+  - engl : Performance anatomy
+    fren : Anatomie de la performance
+
+  - engl : Performance management
+    fren : Gestion des performances
+
+  - engl : Pilot
+    fren : Pilote
+
+  - engl : Plan
+    fren : Plan
+
+  - engl : Plan-do-check-act model
+    fren : Modèle planifier-faire-vérifier-agir
+    abbr : PDCA
+
+  - engl : Planned downtime
+    fren : Temps d'indisponibilité planifié
+
+  - engl : Planning
+    fren : Planification
+
+  - engl : Policy
+    fren : Politique
+
+  - engl : Portable facility
+    fren : Installation portable
+
+  - engl : Infrastructure d’accueil mobile
+    fren : Voir option de reprise, infrastructure des TI
+
+  - engl : Post implementation review
+    fren : Revue post implémentation
+    abbr : PIR
+
+  - engl : Practice
+    fren : Pratique
+
+  - engl : Prerequisite for success
+    fren : Prérequis au succès
+    abbr : PFS
+
+  - engl : Pricing
+    fren : Tarification
+
+  - engl : Priority
+    fren : Priorité
+
+  - engl : Proactive monitoring
+    fren : Surveillance proactive
+
+  - engl : Proactive problem management
+    fren : Gestion proactive des problèmes
+
+  - engl : Problem
+    fren : Problème
+
+  - engl : Problem management
+    fren : Gestion des problèmes
+
+  - engl : Problem record
+    fren : Enregistrement d’un problème
+
+  - engl : Procedure
+    fren : Procédure
+
+  - engl : Process
+    fren : Processus
+
+  - engl : Process control
+    fren : Contrôle de processus
+
+  - engl : Process manager
+    fren : Gestionnaire de processus
+
+  - engl : Process owner
+    fren : Propriétaire de processus
+
+  - engl : Production environment
+    fren : Environnement de production
+
+  - engl : Profit centre
+    fren : Centre de profit
+
+  - engl : pro-forma
+    fren : Pro-forma
+
+  - engl : Programme
+    fren : Programme
+
+  - engl : Project
+    fren : Projet
+
+  - engl : Projected service availability
+    fren : Disponibilité projetée du service
+    abbr : PSA
+
+  - engl : Projected service outage
+    fren : Interruption projetée du service
+    abbr : PSO
+
+  - engl : Projects in controlled environments
+    fren : Projects in controlled environments
+    abbr : PRINCE2
+
+  - engl : Qualification
+    fren : Qualification
+
+  - engl : Quality
+    fren : Qualité
+
+  - engl : Quality assurance
+    fren : Assurance qualité
+    abbr : QA
+
+  - engl : Quality management system
+    fren : Système de gestion de la qualité
+    abbr : QMS
+
+  - engl : Quick win
+    fren : Quick win
+
+  - engl : Raci
+    fren : Raci
+
+  - engl : Reactive monitoring
+    fren : Surveillance réactive
+
+  - engl : Reciprocal arrangement
+    fren : Entente de réciprocité
+
+  - engl : Record
+    fren : Enregistrement
+
+  - engl : Recovery
+    fren : Reprise
+
+  - engl : Recovery option
+    fren : Option de reprise
+
+  - engl : Recovery point objective
+    fren : Objectif de point de reprise
+    abbr : RPO
+
+  - engl : Recovery time objective
+    fren : Objectif de temps de reprise
+    abbr : RTO
+
+  - engl : Redundancy
+    fren : Redondance
+
+  - engl : Relationship
+    fren : Relation
+
+  - engl : Relationship processes
+    fren : Processus de gestion des relations
+
+  - engl : Release
+    fren : Mise en production
+
+  - engl : Release and deployment management
+    fren : Gestion des déploiements et des mises en production
+
+  - engl : Release identification
+    fren : Identification de mise en production
+
+  - engl : Release management
+    fren : Gestion des mises en production
+
+  - engl : Release process
+    fren : Processus de mise en production
+
+  - engl : Release record
+    fren : Enregistrement d'une mise en production
+
+  - engl : Release unit
+    fren : Unité de mise en production
+
+  - engl : Release window
+    fren : Fenêtre de mise en production
+
+  - engl : Reliability
+    fren : Fiabilité
+
+  - engl : Remediation
+    fren : Rattrapage
+
+  - engl : Repair
+    fren : Réparation
+
+  - engl : Request for change
+    fren : Demande de changement
+    abbr : RFC
+
+  - engl : Request fulfilment
+    fren : Exécution des requêtes
+
+  - engl : Requirement
+    fren : Besoin
+
+  - engl : Resilience
+    fren : Résilience
+
+  - engl : Resolution
+    fren : Résolution
+
+  - engl : Resolution process
+    fren : Processus de résolution
+
+  - engl : Resource
+    fren : Ressource
+
+  - engl : Response time
+    fren : Temps de réponse
+
+  - engl : Responsiveness
+    fren : Réactivité
+
+  - engl : Restoration of service
+    fren : Restauration de service
+
+  - engl : Restore
+    fren : Restaurer
+
+  - engl : Retire
+    fren : Retirer ou supprimer
+
+  - engl : Return on investment
+    fren : Retour sur investissement
+    abbr : ROI
+
+  - engl : Return to normal
+    fren : Retour à la normale
+
+  - engl : Release window
+    fren : Fenêtre de mise en production
+
+  - engl : Reliability
+    fren : Fiabilité
+
+  - engl : Remediation
+    fren : Rattrapage
+
+  - engl : Repair
+    fren : Réparation
+
+  - engl : Request for change
+    fren : Demande de changement
+    abbr : RFC
+
+  - engl : Request fulfilment
+    fren : Exécution des requêtes
+
+  - engl : Requirement
+    fren : Besoin
+
+  - engl : Resilience
+    fren : Résilience
+
+  - engl : Resolution
+    fren : Résolution
+
+  - engl : Resolution process
+    fren : Processus de résolution
+
+  - engl : Resource
+    fren : Ressource
+
+  - engl : Response time
+    fren : Temps de réponse
+
+  - engl : Responsiveness
+    fren : Réactivité
+
+  - engl : Restoration of service
+    fren : Restauration du service
+
+  - engl : Restore
+    fren : Restaurer
+
+  - engl : Retire
+    fren : Suppression
+
+  - engl : Return on investment
+    fren : Retour sur investissement
+    abbr : ROI
+
+  - engl : Return to normal
+    fren : Retour à la normale
+
+  - engl : Review
+    fren : Revue
+
+  - engl : Rights
+    fren : Droits
+
+  - engl : Risk
+    fren : Risque
+
+  - engl : Risk assessment
+    fren : Évaluation des risques
+
+  - engl : Risk management
+    fren : Gestion des risques
+
+  - engl : Role
+    fren : Rôle
+
+  - engl : Rollout
+    fren : Déploiement
+
+  - engl : Root cause
+    fren : Cause première
+
+  - engl : Root cause analysis
+    fren : Analyse de la cause première
+    abbr : RCA
+
+  - engl : Running costs
+    fren : Coûts de fonctionnement
+
+  - engl : Scalability
+    fren : Extensibilité
+
+  - engl : Scope
+    fren : Périmètre
+
+  - engl : Second-line support
+    fren : Support de deuxième niveau
+
+  - engl : Security
+    fren : Sécurité
+
+  - engl : Security management
+    fren : Gestion de la sécurité
+
+  - engl : Security policy
+    fren : Politique de sécurité
+
+  - engl : Separation of concerns
+    fren : Séparation des préoccupations
+    abbr : SoC
+
+  - engl : Server
+    fren : Serveur
+
+  - engl : Service
+    fren : Service
+
+  - engl : Service acceptance criteria
+    fren : Critères d'acceptation d'un service
+    abbr : SAC
+
+  - engl : Service analytics
+    fren : Analytique de services
+
+  - engl : Service asset
+    fren : Actif de service (service asset)
+
+  - engl : Service asset and configuration management (SACM)
+    fren : Gestion des actifs de services et des configurations (SCAM)
+
+  - engl : Service capacity management
+    fren : Gestion de la capacité des services
+    abbr : SCM
+
+  - engl : Service catalogue
+    fren : Catalogue des services
+
+  - engl : Service continuity management
+    fren : Gestion de la continuité des services
+
+  - engl : Service contract
+    fren : Contrat de service
+
+  - engl : Service culture
+    fren : Culture de service
+
+  - engl : Service design
+    fren : Conception de services
+
+  - engl : Service design package
+    fren : Package de conception de service
+    abbr : SDP
+
+  - engl : Service desk
+    fren : Centre de services
+
+  - engl : Service failure analysis
+    fren : Analyse des défaillances de service
+    abbr : SFA
+
+  - engl : Service hours
+    fren : Heures de service
+
+  - engl : Service improvement plan
+    fren : Plan d’amélioration des services
+    abbr : SIP
+
+  - engl : Service knowledge management system
+    fren : Système de gestion des connaisances des services
+    abbr : SKMS
+
+  - engl : Service level
+    fren : Niveau de service
+
+  - engl : Service level agreement
+    fren : Accord sur les niveaux de service
+    abbr : SLA
+
+  - engl : Service level management
+    fren : Gestion des niveaux de service
+    abbr : SLM
+
+  - engl : Service level package
+    fren : Package des niveaux de service
+    abbr : SLP
+
+  - engl : Service level requirement
+    fren : Exigence de niveau de service
+    abbr : SLR
+
+  - engl : Service level target
+    fren : Cible de niveau de service
+
+  - engl : Service maintenance objective
+    fren : Objectif de maintenance des services
+    abbr : SMO
+
+  - engl : Service management
+    fren : Gestion des services
+
+  - engl : Service management lifecyle
+    fren : Cycle de vie de la gestion du (des) service(s)
+
+  - engl : Service manager
+    fren : Gestionnaire de services
+
+  - engl : Service operation
+    fren : Exploitation de services (ou l'exploitation des TI)
+
+  - engl : Service owner
+    fren : Propriétaire de service
+
+  - engl : Service package
+    fren : Package d'un service
+
+  - engl : Service pipeline
+    fren : Pipeline des services
+
+  - engl : Service portfolio
+    fren : Portefeuille des services
+
+  - engl : Service portfolio management
+    fren : Gestion du portefeuille des services
+    abbr : SPM
+
+  - engl : Service potential
+    fren : Potentiel de service
+
+  - engl : Service provider
+    fren : Fournisseur de services
+
+  - engl : Service provider interface
+    fren : Interface avec le fournisseur de service
+    abbr : SPI
+
+  - engl : Service provisioning optimization
+    fren : Optimisation de la fourniture de services
+    abbr : SPO
+
+  - engl : Service reporting
+    fren : Reporting des services
+
+  - engl : Service request
+    fren : Demande de service
+
+  - engl : Service sourcing
+    fren : Sourcing de services
+
+  - engl : Service strategy
+    fren : Stratégie de services
+
+  - engl : Service transition
+    fren : Transition de services
+
+  - engl : Service utility
+    fren : Utilité du service
+
+  - engl : Service validation and testing
+    fren : Validation et tests de services
+
+  - engl : Service valuation
+    fren : Estimation de la valeur du service
+
+  - engl : Service warranty
+    fren : Garantie de service
+
+  - engl : Serviceability
+    fren : Serviçabilité
+
+  - engl : Shift
+    fren : Équipe
+
+  - engl : Simulation modelling
+    fren : Modélisation par simulation
+
+  - engl : Single point of contact
+    fren : Point de contact unique
+    abbr : SPOC
+
+  - engl : Single point of failure
+    fren : Point de défaillance unique
+    abbr : SPOF
+
+  - engl : Slam chart
+    fren : Tableau slam
+
+  - engl : Smart
+    fren : Smart
+
+  - engl : Snapshot
+    fren : Instantané
+
+  - engl : Source
+    fren : Source
+
+  - engl : Specification
+    fren : Spécification
+
+  - engl : Stakeholder
+    fren : Partie prenante
+
+  - engl : Standard
+    fren : Standard
+
+  - engl : Standard change
+    fren : Changement standard
+
+  - engl : Standard operating procedures
+    fren : Procédures standard d'exploitation
+    abbr : SOP
+
+  - engl : Standby
+    fren : De secours
+
+  - engl : Statement of requirements (SOR)
+    fren : Relevé des besoins (SQR)
+
+  - engl : Status
+    fren : Statut
+
+  - engl : Status accounting
+    fren : Gestion des statuts
+
+  - engl : Storage management
+    fren : Gestion du stockage
+
+  - engl : Strategic
+    fren : Stratégique
+
+  - engl : Strategy
+    fren : Stratégie
+
+  - engl : Super user
+    fren : Superutilisateur
+
+  - engl : Supplier
+    fren : Fournisseur
+
+  - engl : Supplier and contract database
+    fren : Base de donnée des fournisseurs et des contrats
+    abbr : SCD
+
+  - engl : Supplier management
+    fren : Gestion des fournisseurs
+
+  - engl : Supply chain
+    fren : Chaîne d'approvisionnement
+
+  - engl : Support group
+    fren : Groupe de support
+
+  - engl : Support hours
+    fren : Heures de support
+
+  - engl : Supporting service
+    fren : Service de soutien
+
+  - engl : Swot analysis
+    fren : Analyse swot
+
+  - engl : System
+    fren : Système
+
+  - engl : System management
+    fren : Gestion des systèmes
+
+  - engl : Tactical
+    fren : Tactique
+
+  - engl : Tag
+    fren : Étiquette
+
+  - engl : Technical management
+    fren : Gestion technique
+
+  - engl : Technical observation
+    fren : Observation technique
+    abbr : TO
+
+  - engl : Technical service
+    fren : Service technique
+
+  - engl : Technical support
+    fren : Support technique
+
+  - engl : Tension metrics
+    fren : Mesures en tension
+
+  - engl : Terms of reference
+    fren : Termes de référence
+    abbr : TOR
+
+  - engl : Test
+    fren : Test
+
+  - engl : Test environment
+    fren : Environnement de tests
+
+  - engl : Third party
+    fren : Tierce partie
+
+  - engl : Third-line support
+    fren : Support de troisième niveau
+
+  - engl : Threat
+    fren : Menace
+
+  - engl : Threshold
+    fren : Seuil
+
+  - engl : Throughput
+    fren : Capacité de traitement
+
+  - engl : Total cost of ownership
+    fren : Coût total de possession
+    abbr : TCO
+
+  - engl : Total cost of utilization
+    fren : Coût total d’utilisation
+    abbr : TCU
+
+  - engl : Total quality management
+    fren : Gestion par la qualité totale
+    abbr : TQM
+
+  - engl : Transaction
+    fren : Transaction
+
+  - engl : Transition
+    fren : Transition
+
+  - engl : Transition planning and support
+    fren : Planification et support à la transition
+
+  - engl : Trend analysis
+    fren : Analyse de tendance
+
+  - engl : Tuning
+    fren : Réglage (tuning)
+
+  - engl : Type i service provider
+    fren : Fournisseur de services de type i
+
+  - engl : Type ii service provider
+    fren : Fournisseur de services de type ii
+
+  - engl : Type iii service provider
+    fren : Fournisseur de services de type iii
+
+  - engl : Underpinning contract
+    fren : Contrat de sous-traitance
+    abbr : UC
+
+  - engl : Unit cost
+    fren : Coût unitaire
+
+  - engl : Urgency
+    fren : Urgence
+
+  - engl : Usability
+    fren : Facilité d'utilisation
+
+  - engl : Use case
+    fren : Scénario d'utilisation
+
+  - engl : User
+    fren : Utilisateur
+
+  - engl : User profile
+    fren : Profil d'utilisateur
+    abbr : UP
+
+  - engl : Utility
+    fren : Utilité
+
+  - engl : Validation
+    fren : Validation
+
+  - engl : Value chain
+    fren : Chaîne de valeur
+
+  - engl : Value for money
+    fren : Rentabilité
+
+  - engl : Value network
+    fren : Réseau de création de valeur
+
+  - engl : Value on investsment
+    fren : Valeur sur investissement
+    abbr : VOI
+
+  - engl : Variable cost dynamic
+    fren : Coût variable
+
+  - engl : Variable cost dynamic
+    fren : Dynamique des coûts variables
+
+  - engl : Variance
+    fren : Variance
+
+  - engl : Verification
+    fren : Vérification
+
+  - engl : Verification and audit
+    fren : Vérification et audit
+
+  - engl : Version
+    fren : Version
+
+  - engl : Vision
+    fren : Vision
+
+  - engl : Vital business function
+    fren : Fonction business vitale
+    abbr : VBF
+
+  - engl : Vulnerability
+    fren : Vulnérabilité
+
+  - engl : Warm standby
+    fren : Warm standy ou reprise à chand
+
+  - engl : Warranty
+    fren : Garantie
+
+  - engl : Work in progress
+    fren : Travail en cours
+    abbr : WIP
+
+  - engl : Work instruction
+    fren : Instruction de travail
+
+  - engl : Workaround
+    fren : Solution de contournement
+
+  - engl : Workload
+    fren : Charge de travail
+
+# vim: digraph fdm=indent sw=4
