@@ -1,0 +1,12 @@
+---
+title    : Repository change log
+revision : 2020-08-06 (Thu) 13:41:42
+---
+
+### 2020-08-06 (Thu) 13:41:42 {#wip}
+
+  + First draft of repository's [stragegy](Strategy) and [roadmap](Roadmap)
+  + Created the necessary [README](README.md) and [change log](ChangeLog) files
+  + Re-organised top-level directories and reformated many non-YAML files to YAML
+
+<!-- vim: set digraph et nospell syn=md :-->
