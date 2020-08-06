@@ -8,11 +8,11 @@ the _Deutsch Bank PBSC factory_, and the _IBM Tahtum factory_. Reference data wa
 redundantly hard coded in compiled software; for instance the command line _qotd_ (_quote of the day), where all quotes are
 hardcoded in the C binary.
 
-This is _work in progress_ where standardisation efforts still need thought and organisation — See the [strategy](./Strategy)
+This is _work in progress_ where standardisation efforts still need thought and organisation — See the [strategy](Strategy.md)
 article where related conclusions are written up. Reuse, maintainability and availability are the KPIs of this strategy.
 
 In addition to consolidating existing reference data, we wish to extend this repository with new datasets providing world facts
-and figures in various domains — see the [roadmap](./Roadmap) article for the current wishlist. For instance, we have been
+and figures in various domains — see the [roadmap](Roadmap.md) article for the current wishlist. For instance, we have been
 maintaining over more than a decade, a copy of the CIA's World Factbook; this has primarily been used to create _go to market_
 country books. In the future, we would like to transform the exising factbooks into a set of YAML files managed within the
 scope of this repository.
