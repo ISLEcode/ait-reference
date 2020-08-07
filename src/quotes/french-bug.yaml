@@ -1,0 +1,47 @@
+todo     : Following entry does a buffer overrun in `df-y2k` (or libyaml)... to investigate and correct
+contents :
+
+  - tags : FINALITE
+    auth : Baruch SPINOZA
+    book : L'Ethique
+    edit : OEuvres complètes / Bibliothèque de la Pléiade / nrf Gallimard
+    date : 1954
+    quot : "Il me suffira ici de poser en principe ce qui doit être reconnu par tous : tous les hommes naissent ignorants des
+           causes des choses, et tous ont envie de rechercher ce qui leur est utile, ce dont ils ont conscience. D'où il suit, en
+           premier lieu, que les hommes se croient libres parce qu'ils ont conscience de leurs volitions et de leur appétit, et
+           qu'ils ne pensent pas, même en rêve, aux causes qui les disposent à désirer et à vouloir, parce qu'ils les ignorent. Il
+           suit, en second lieu, que les hommes agissent toujours en vue d'une fin, c'est-à-dire en vue de l'utile qu'ils
+           désirent ; d'où il résulte qu'ils ne cherchent jamais à savoir que les causes finales des choses une fois achevées, et
+           que, dès qu'ils en ont connaissance, ils trouvent le repos, car alors ils n'ont plus aucune raison de douter. S'ils ne
+           peuvent avoir connaissance de ces causes par autrui, il ne leur reste qu'à se retourner vers eux-mêmes et à réfléchir
+           aux fins qui les déterminent d'habitude à des actions semblables, et à juger ainsi nécessairement, d'après leur naturel
+           propre, celui d'autrui. En outre, ils trouvent en eux-mêmes et hors d'eux-mêmes un grand nombre de moyens qui leur
+           servent excellemment à se procurer ce qui leur est utile, comme par exemple, les yeux pour voir, les dents pour mâcher,
+           les herbes et les animaux pour s'alimenter, le soleil pour s'éclairer, la mer pour nourrir les poissons, etc., ils
+           finissent donc par considérer toutes les choses naturelles comme des moyens pour leur utilité propre. Et comme ils
+           savent que ces moyens, ils les ont trouvés, mais ne les ont pas agencés eux-mêmes, ils y ont vu une raison de croire
+           qu'il y a quelqu'un d'autre qui a agencé ces moyens à leur usage. Car, ayant considéré les choses comme des moyens, ils
+           ne pouvaient pas croire qu'elles se fussent faites elles-mêmes ; mais, pensant aux moyens qu'ils ont l'habitude
+           d'agencer pour eux-mêmes, ils ont dû conclure qu'il y a un ou plusieurs maîtres de la Nature, doués de la liberté
+           humaine qui ont pris soin de tout pour eux et qui ont tout fait pour leur convenance. Or, comme ils n'ont jamais eu
+           aucun renseignement sur le naturel de ces êtres, ils ont dû en juger d'après le leur, et ils ont ainsi admis que les
+           Dieux disposent tout à l'usage des hommes, pour se les attacher et être grandement honorés par eux. D'où il résulta que
+           chacun d'eux, suivant son naturel propre, inventa des moyens divers de rendre un culte à Dieu, afin que Dieu l'aimât
+           plus que tous les autres et mît la Nature entière au service de son aveugle désir et de son insatiable avidité. Ainsi,
+           ce préjugé est devenu superstition et a plongé de profondes racines dans les esprits ; ce qui fut une raison pour
+           chacun de chercher de toutes ses forces à comprendre les causes finales de toutes choses et à les expliquer. Mais en
+           voulant montrer que la Nature ne fait rien en vain (c'est-à-dire qui ne soit à l'usage des hommes), ils semblent avoir
+           uniquement montré que la Nature et les Dieux délirent aussi bien que les hommes. Voyez, je vous prie, où cela conduit !
+           Parmi tant d'avantages qu'offre la Nature, ils ont dû trouver un nombre non négligeable d'inconvénients, comme les
+           tempêtes, les tremblements de terre, les maladies, etc., et ils ont admis que ces événements avaient pour origine
+           l'irritation des Dieux devant les offenses que leur avaient faites les hommes ou les fautes commises dans leur culte ;
+           et quoique l'expérience s'inscrivît chaque jour en faux contre cette croyance et montrât par d'infinis exemples que les
+           avantages et les inconvénients échoient indistinctement aux pieux et aux impies, ils n'ont cependant renoncé à ce
+           préjugé invétéré : il leur a été, en effet, plus facile de classer ce fait au rayon des choses inconnues, dont ils
+           ignoraient l'usage, et de garder ainsi leur état actuel et inné d'ignorance, que de ruiner toute cette construction et
+           d'en inventer une nouvelle. Ils ont donc pris pour certain que les jugements de Dieux dépassent de très loin la portée
+           de l'intelligence humaine ; et cette seule raison , certes, eût suffi pour que la vérité. demeurât à jamais cachée au
+           genre humain, si la Mathématique, qui s'occupe non des fins, mais seulement des essences et des propriétés des figures,
+           n'avait montré aux hommes une autre règle de vérité."
+    page : p.347-349
+
