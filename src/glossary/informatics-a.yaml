@@ -1,0 +1,1230 @@
+title    : ISLE AIT computer science glossary -- A words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 03:00:07
+contents :
+
+  - uuid : udx81e2x5v
+    term : Absorption Chillers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Absorption chillers** use a different mechanism from traditional chillers, and are powered by heat rather than using
+        electricity, potentially resulting in significant efficiency gains. The cooling mechanism is still evaporative -- a liquid
+        transforming into a vapor -- but the reliquification is different. Instead of being compressed, the vapor is absorbed into
+        another liquid. The classic cycle here uses ammonia, which is absorbed into water.
+
+  - uuid : udx81e4ngy
+    term : Access Method
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **access method** is:
+
+        The portion of a computer's operating system responsible for formatting data sets and their direction to specific storage
+        devices. Examples from the mainframe world include Virtual Storage Access Method (VSAM) and Indexed Sequential Access
+        Method (ISAM).
+
+        In local-area networks, the technique or program code used to arbitrate the use of the communications medium by granting
+        access selectively to individual stations. Examples are Carrier Sense Multiple Access with Collision Detection (CSMA-CD)
+        and token passing.
+
+  - uuid : udx81e6wwd
+    term : Access Point (AP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **access point** is a pico base station or network access point in a WLAN radio network, consisting of a radio (often
+        more than one) and a network connection, enabling WLAN clients to access network resources connected to a home or
+        enterprise network.
+
+  - uuid : udx81e87qj
+    term : Accountable Care Organization (ACO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Accountable care organization (ACO)** is an umbrella term for a major switch in contracting between providers and public
+        or private payers. In an ACO model, a group of providers, operating as a legal entity, contracts to assume some portion of
+        the risk for cost and quality for a panel of beneficiaries through a variety of value-based payment models over a
+        specified period of time. ACOs include primary care services. The U.S. CMS Distributed Shared Savings Program, which began
+        operation in 2012, is one version of this model.
+
+  - uuid : udx81e9rxv
+    term : Accredited Standards Committee (ASC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Accredited Standards Committee (ASC)** is an organization, certified by the American National Standards Institute,
+        that produces standard communication protocols for electronic data interchange.
+
+  - uuid : udx81eba1w
+    term : Active Data Dictionary
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **active data dictionary** facility for storing dynamically accessible and modifiable information relating to
+        midrange-system data definitions and descriptions.
+
+  - uuid : udx81ecqel
+    term : Active Directory
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Active Directory** is the "directory service" portion of the Windows 2000 operating system. Active Directory manages the
+        identities and relationships of the distributed resources that make up a network environment. It stores information about
+        network-based entities (e.g., applications, files, printers and people) and provides a consistent way to name, describe,
+        locate, access, manage and secure information about these resources. It the central authority that manages the identities
+        and brokers the relationships between these distributed resources, enabling them to work together.
+
+  - uuid : udx81eehbh
+    term : Active Matrix Organic Light-Emitting Diodes (AMOLED)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Active matrix organic light-emitting diodes (AMOLEDs)** consist of pixels of electroluminescent organic compounds
+        "printed" in a matrix onto a base layer. This base layer is currently glass and will be further developed to use flexible
+        polymers in the future. Unlike liquid crystal displays, OLED displays do not require a backlight and consume very little
+        power, making them suitable for battery-powered devices. AMOLEDs use a thin film transistor (TFT) to control the pixels.
+
+  - uuid : udx81egb4v
+    term : ActiveX
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **ActiveX** is an application programming interface (API) that enhances Microsoft's OLE protocol. Often compared to Java,
+        ActiveX facilitates various Internet applications, and therefore extends and enhances the functionality of Microsoft's
+        Internet Explorer browser. Like Java, ActiveX enables the development of interactive content. When an ActiveX-aware
+        browser encounters a Web page that includes an unfamiliar feature, it automatically installs the appropriate applications
+        so the feature can be used.
+
+  - uuid : udx81ei22f
+    term : Activity-Based Costing (ABC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Activity-Based Costing (ABC)** is an improved approach to understanding where and why costs are incurred within an
+        enterprise. It provides the information for activity-based management, which focuses on the decisions and actions needed
+        to reduce costs and increase revenue. ABC differs from traditional cost accounting in explicitly recognizing that not all
+        cost objects place an equal demand on support resources.
+
+  - uuid : udx81ejsa8
+    term : Activity-Based Management (ABM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Activity-Based Management (ABM)** is the use of activity-based costing (ABC) principles in the ongoing management of
+        costs and resources.
+
+  - uuid : udx81elboc
+    term : Activity Stream
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **activity stream** is a publish-and-subscribe notification mechanism and conversation space typically found in social
+        networking. It lists activities or events relevant to a person, group, topic or everything in the environment. A
+        participant subscribes to, or "follows" entities (e.g., other participants or business application objects) to track their
+        related activities. For example, a project management application may add status information, while a physical object
+        connected to the Internet may report its state (e.g., tunnel lane closure).
+
+  - uuid : udx81en3ij
+    term : Adapters
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Adapters** are small, focused programs that expose functionality and/or data in a legacy application. Our use of this
+        term includes not only the programs, but also the framework for designing and developing adapter programs. Adapters can be
+        deceptively complex, with "thick" adapters performing a variety of functions that include recognizing events, collecting
+        and transforming data, and exchanging data with platform, integration suite or other middleware. However, "thin" adapters
+        may only "wrap" a native application interface, exposing another more-standard one for application access. Adapters can
+        also handle exception conditions and can often dynamically (or with minor reconfiguration) accommodate new revisions of
+        source or target applications.
+
+        Adapters are often sold in conjunction with integration middleware products, such as ESBs, integration suites or portal
+        servers, or are offered as a stand-alone product, such as an adapter suite. Among the different adapters, high-level
+        categories include technical and application adapters.
+
+        A comprehensive suite should include adapters for:
+
+        Common technologies, such as COM, Enterprise JavaBeans and Web services
+
+        Industry protocols, such as EDI, Society for Worldwide Interbank Financial Telecommunication and RosettaNet
+
+        Common applications, such as SAP or PeopleSoft
+
+        Proprietary applications, such as an adapter development kit
+
+  - uuid : udx81f1cd9
+    term : Adaptive Learning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Adaptive learning** in its fundamental form is a learning methodology that changes the pedagogical approach toward a
+        student based on the student's input and a predefined response. Adaptive learning more recently is being associated with a
+        large-scale collection of learning data and statistically based pedagogical responses and can be seen as a subset of
+        personalized learning that includes such approaches as affective and somatic computing.
+
+  - uuid : udx81f2vpk
+    term : Additive Manufacturing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Additive manufacturing** is the capability to create a physical object from a digitally encoded design through the
+        deposition of material via a 3D printing process.
+
+  - uuid : udx81f4eo6
+    term : Addressable TV Advertising
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Addressable TV advertising** technologies enable advertisers to selectively segment TV audiences and serve different ads
+        or ad pods (groups of ads) within a common program or navigation screen. Segmentation can occur at geographic,
+        demographic, behavioral and (in some cases) self-selected individual household levels, through cable, satellite and
+        Internet Protocol television (IPTV) delivery systems and set-top boxes (STBs).
+
+  - uuid : udx81f60qc
+    term : Adsorption Chillers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Adsorption chillers** use a different mechanism than traditional chillers and are powered by heat, rather than using
+        electricity. The cooling mechanism is still evaporative -- water transforming into a vapor -- but the reliquification is
+        different. Instead of being compressed, the water vapor is adsorbed onto the surface of another medium, such as silica
+        gel. Once the silica gel is saturated with water, it is switched out and the first chamber is then heated to remove the
+        adsorbed moisture, so the chamber can be reused.
+
+  - uuid : udx81f7rey
+    term : Advanced Clinical Research Information Systems (ACRIS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **advanced clinical research information system (ACRIS)** is a complex constellation of capabilities that can assist in
+        the management of patients during clinical trials and rapidly assemble data assets for research questions. It also
+        provides data mining and research process support to meet the needs of clinical and translational research, and related
+        biostatistics and biocomputation. It includes open-source components.
+
+  - uuid : udx81f9icq
+    term : Advanced Distribution Management Systems (ADMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **An advanced distribution management system (ADMS)** is the software platform that supports the full suite of
+        distribution management and optimization. An ADMS includes functions that automate outage restoration and optimize the
+        performance of the distribution grid. ADMS functions being developed for electric utilities include fault location,
+        isolation and restoration; volt/volt-ampere reactive optimization; conservation through voltage reduction; peak demand
+        management; and support for microgrids and electric vehicles.
+
+  - uuid : udx81fb9tw
+    term : Advanced Distribution Protection And Restoration Devices
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Advanced distribution protection and restoration systems** are built from distributed control and communications
+        technologies. They are designed to communicate over peer-to-peer networks or over high-speed fiber-optic networks,
+        operating either autonomously or in concert with substation automation systems. Advanced distribution protection must also
+        be able to integrate with distributed generation, storage technologies and other distributed resources to reliably protect
+        distribution assets.
+
+  - uuid : udx81fd2qq
+    term : Advanced Driver Assistance Systems (ADAS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Advanced driver assistance systems (ADAS)** are primarily focused on collision avoidance technologies (for example, lane
+        departure warning and blind-spot applications) and driver aids, such as night vision, driver alertness and adaptive cruise
+        control. ADAS offerings are primarily built into the vehicle, but vendors are beginning to offer aftermarket solutions.
+        Next-generation ADASs will increasingly leverage wireless network connectivity to offer improved value (by using
+        car-to-car data).
+
+  - uuid : udx81fenan
+    term : Advanced Fraud Detection And Analysis Technologies
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Advanced fraud detection and analysis technologies** employ sophisticated analytics and predictive modeling to identify
+        potential fraud in real time during data entry, rather than during a later batch run after a transaction is complete. It
+        can be applied to both claims and underwriting fraud.
+
+  - uuid : udx81fg5cw
+    term : Advanced Message Queuing Protocol (AMQP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Advanced Message Queuing Protocol (AMQP)** is an emerging standard for message-oriented middleware (MOM). MOM
+        supports high quality-of-service, asynchronous program-to-program communication between two or more components of an
+        application, or between two or more applications. AMQP specifies the wire protocol, so messages can be exchanged among
+        software components supplied by different vendors without the need for gateways or adapters.
+
+  - uuid : udx81fhv9f
+    term : Advanced Metering Infrastructure (AMI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Advanced metering infrastructure (AMI)** is a composite technology composed of several elements: consumption meters, a
+        two-way communications channel and a data repository (meter data management). Jointly, they support all phases of the
+        meter data life cycle -- from data acquisition to final provisioning of energy consumption information to end customers
+        (for example, for load profile presentment) or an IT application (such as revenue protection, demand response or outage
+        management).
+
+  - uuid : udx81fjpwr
+    term : Advanced Planning And Scheduling (APS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Advanced planning and scheduling (APS)** is a sub-component of supply chain planning, contextually describing
+        manufacturing planning and scheduling.
+
+  - uuid : udx81fl82t
+    term : Advanced Research Projects Agency Network (ARPANET)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Advanced Research Projects Agency Network (ARPANET)** , the forerunner of the Internet, was a pioneering long-haul
+        network funded by the U.S. Department of Defense's Advanced Research Projects Agency (ARPA). It served as the test bed for
+        many areas of internetworking technology development and testing, and acted as the central backbone during the development
+        of the Internet. The ARPANET was built using packet-switching computers interconnected by leased lines.
+
+  - uuid : udx81fmyb0
+    term : Advanced Server Energy Monitoring Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Energy consumption in individual data centers is increasing rapidly, by 8% to 12% per year. The energy is used for
+        powering IT systems (for example, servers, storage and networking equipment) and the facility's components (for example,
+        air-conditioning systems, power distribution units and uninterruptible power supply systems). The increase in energy
+        consumption is driven by users installing more equipment, and by the increasing power requirements of high-density server
+        architectures. While data center infrastructure management (DCIM) tools monitor and model energy use across the data
+        center, server-based energy management software tools are specifically designed to measure the energy use within server
+        units. They are normally an enhancement to existing server management tools, such as HP Systems Insight Manager (HP SIM)
+        or IBM Systems Director. These software tools are critical to gaining accurate and real-time measurements of the amount of
+        energy a particular server is using. This information can then be fed into a reporting tool or into a broader DCIM
+        toolset. The information will also be an important trigger for the real-time changes that will drive real-time
+        infrastructure. Hence, for example, a change in energy consumption may drive a process to move an application from one
+        server to another.
+
+  - uuid : udx81g1egi
+    term : Advanced Shipment Notice (ASN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **advanced shipment notice (ASN)** is an electronic data interchange (EDI) message sent from the shipper to the
+        receiver prior to the departure of the shipment from the shipper's facility. The message includes complete information
+        about the shipment and its contents. In today's environment, this message is more often an "as shipped notice" sent after
+        the departure of the shipment.
+
+  - uuid : udx81g37yv
+    term : Advanced Technology Group (ATG)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The role of the **advanced technology group (ATG)** is to provide a continuing stream of technology opportunities to the
+        enterprise. It typically takes the lead in prototype and pilot projects.
+
+  - uuid : udx81g4ned
+    term : Advanced Technology
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technology that is still immature but promises to deliver significant value, or that has some technical maturity but
+        still has relatively few users. Among current examples: artificial intelligence, agents, speech and handwriting
+        recognition, virtual reality and 3D visualization, smart cards, real-time collaboration, enhanced user authentication,
+        data mining, and knowledge management.
+
+  - uuid : udx81g6d30
+    term : Advanced Threat Detection (ATD) Appliances
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Advanced threat detection (ATD) appliances** are used as an extra security approach to examine all communications that
+        standard layers of security controls have allowed to pass. These appliances look at combinations of source reputation,
+        executable analysis and threat-level protocols to detect advanced targeted threats that existing controls cannot detect.
+
+  - uuid : udx81g84h9
+    term : Advanced Web Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Advanced Web services** use Web services standard capabilities that go beyond those that have become commonplace. The
+        original definition referred to any Web-services-related standards beyond the basic SOAP, WSDL and UDDI capabilities.
+        However, the advent of the Web Services Interoperability (WS-I) Organization profiles and the common acceptance of
+        standards, such as WS-Security, BPEL and related components, mean that those capabilities, once considered advanced, are
+        now part of the basic Web services bundle.Basic Web services have reached the Plateau of Productivity, and are in
+        widespread and common use in a variety of situations. The truly advanced Web services capabilities deal with complex
+        security interactions, such as WS-Trust and WS-Federation, as well as asynchronous behavior, such as WS-ReliableMessaging.
+        Web services using these types of advanced standards have been adopted more slowly, in part due to the slow pace of the
+        ratification of the standards and rollout of their behavior (see "'That's All' for Web Services" G00209765), and in part
+        because many of the interactions using Web services don't require these capabilities or use other methods to achieve
+        them.This definition of advanced Web services is a change from the definition used in earlier Hype Cycles, and more
+        accurately represents the current state of these capabilities. Because of this change, the position and speed of adoption
+        have also shifted.
+
+  - uuid : udx81g9x18
+    term : Aerial And Digital Imagery
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Aerial and digital imagery** is the use of digital images, including those in 3D, by home/property insurers to view
+        properties, as well as the software that analyzes the images to estimate size, proximity to risks, and location for
+        physical locations or properties. It is usually offered via an Internet service of data as a service (DaaS) in which
+        users, such as homeowners or commercial property insurers, pay monthly subscription fees or pay by use to get information
+        on the risks they are underwriting or claims they are investigating.
+
+  - uuid : udx81gbo2x
+    term : Affective Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Affective computing** technologies sense the emotional state of a user (via sensors, microphone, cameras and/or software
+        logic) and respond by performing specific, predefined product/service features, such as changing a quiz or recommending a
+        set of videos to fit the mood of the learner. Affective computing tries to address one of the major drawbacks of online
+        learning versus in-classroom learning - the teacher's capability to immediately adapt the pedagogical situation to the
+        emotional state of the student in the classroom.
+
+  - uuid : udx81gdg6d
+    term : Agent Collaboration Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Agent collaboration tools** provide an electronic virtual workspace where agents and consumers can collaborate using
+        secure email, secure document sharing and communication tools, and secure instant messaging. These tools help agents
+        interact with specialists in the home office, consumers or third parties (such as accountants and attorneys) on complex
+        life insurance cases or planning scenarios. **Agent collaboration tools** include the ability to make customers' financial
+        plans and account data accessible via agent websites.
+
+  - uuid : udx81gf904
+    term : Agent Portal Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Agent portal solutions** deliver agent portal capabilities, such as workflow and transaction capabilities including
+        quote, binding and service. Solutions support upload and download capabilities as well, including advanced features such
+        as collaboration and case management to support distributor needs in complex product lines, such as specialty and
+        commercial property and casualty (P&C) insurance.
+
+  - uuid : udx81ggte6
+    term : Agile NeoRAD
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This type of project approach applies agile methods, such as extreme programming. Models are sketches, rather than
+        first-class development artifacts. There are few concerns about standardization in terms of reusing analysis and design
+        patterns and frameworks. There is little model-based code generation.
+
+  - uuid : udx81gibr0
+    term : AIM (AOL Instant Messenger)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A free, public instant-message service and one of the earliest. A variety of free client software is available, supporting
+        Windows and Macintosh PCs, Palm operating system (OS), Microsoft's Pocket PC and Symbian handheld devices. See also
+        instant messaging (IM).
+
+  - uuid : udx81gjlyu
+    term : All-in-One (AIO) PCs
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **all-in-one (AIO) PCs** as desk-based PCs that have the monitor housed within the system casing. The
+        monitor is a flat screen, which can be a touchscreen. Examples include Apple's iMac, HP's TouchSmart, Lenovo's ThinkCentre
+        Edge, Dell's Inspiron One, Acer's Z5801, Asus' E-Top and Sony's VAIO VPC.
+
+  - uuid : udx81glf2w
+    term : Alliance And Relationship Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Alliance and relationship management** is the set of practices and tools required to reinforce alliances/relationships
+        with partners, outsourced functions or activities, and to maintain visibility into a relationship with another business
+        entity. Relationships include entities that are part of creating and delivering the value proposition of an organization.
+
+  - uuid : udx81gmpi3
+    term : Alternative Card Networks
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **alternative card network** carries payment messaging (or payment instructions) across a communications network (for
+        example, an IP-based network) for authorization, clearing and settlement processes, and has its own scheme (arrangements
+        among participating entities, such as issuers, acquirers, processors and operators of the payment system network).
+
+  - uuid : udx81h1741
+    term : Alternative Delivery Models
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Alternative delivery models are approaches to acquire, package and deliver IT in nontraditional ways. Traditional methods
+        of IT acquisition and delivery are wrapped in well-honed internal processes whereby the IT organization develops or
+        acquires technology (hardware or software), deploys it, supports it and retires it. Alternative delivery and acquisition
+        models include new channels for acquisition, use and payment. In some enterprises, alternative models involve only users
+        and business units, bypassing the IT function.
+
+  - uuid : udx81h2xen
+    term : Ambient And Glanceable Displays
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Ambient and glanceable displays** and devices are a distinct category of information appliances that are designed to be
+        integrated into the home and work environments. They convey minimum and specific information in a way that is designed to
+        exploit the "preattentive" processing ability of the human brain. This enables users to absorb the information without
+        having their attention distracted from foreground tasks.
+
+  - uuid : udx81h4rus
+    term : AMD (architected, Model-driven Development)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        AMD is the most sophisticated end of the SOA modeling spectrum. It focuses on quality, performance and reuse. It comes in
+        two "flavors" AMD composition and AMD development. AMD composition presumes that the needed services exist and can be
+        "assembled" into an application (business service), possibly with a new user interface (generally portal-based, using Web
+        services). Organizations can generally use AMD composition models to generate the specifications for use by workflow
+        orchestration technologies in the runtime environment.
+
+        AMD development assumes that new organizations need to develop software services prior to composition. AMD development
+        tools can reuse the same business models developed by those doing AMD composition. But, generally, IT personnel refine
+        these into more detailed models to generate as much of the code as possible -- 70% to 100% -- depending on the service
+        type. AMD also includes the set of methods that promote "executable" models (that is, where there is no explicit
+        transformation to implementation).
+
+  - uuid : udx81h6hvp
+    term : American National Standards Institute (ANSI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **American National Standards Institute (ANSI)** coordinates the development and use of voluntary consensus standards
+        in the U.S. and represents the needs and views of U.S. stakeholders in standardization global forums. ANSI is actively
+        engaged in accrediting programs that assess conformance to standards.
+
+  - uuid : udx81h8dyy
+    term : American Standard Code For Information Interchange (ASCII)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **American Standard Code for Information Interchange (ASCII)** is a standard table of seven-bit designations for
+        digital representation of uppercase and lowercase Roman letters, numbers and special control characters in teletype,
+        computer and word processor systems. Some IBM systems use similar code called Extended Binary-Coded Decimal Interchange
+        Code (EBCDIC). Since most computer systems use a full byte to send an ASCII character, many hardware and software
+        companies have made their own nonstandard and mutually incompatible extensions of the official ASCII 128-character set
+        into a 256-character set.
+
+  - uuid : udx81ha5bl
+    term : AMG (access Media Gateways)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An access media gateway (AMG) serves as the bridge between a circuit-based voice switch and a packet-based IP or ATM
+        access network. An AMG takes care of the PSTN-to-packet-network transition at the local-loop level and is connected to the
+        local exchange or an access node. It has Class 5 switch interfaces and supports VoIP and/or VoATM.
+
+        Included in the AMG segment are inverse AMGs, which make the transition from the packet-access domain -- DSL, cable hybrid
+        fiber-coax, power line and local multipoint distribution service -- to a PSTN Class 5 local exchange via Generic
+        Requirement (GR)-303, V5.x interface and Primary Rate Interface (PRI) (Q.931) V5.2 access node (AN), and GR-303 remote
+        digital terminal (RDT).
+
+  - uuid : udx81hbwlg
+    term : AMIA (American Medical Informatics Association)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A not-for-profit organization dedicated to the development and application of medical informatics in the support of
+        patient care, teaching, research and healthcare administration. The AMIA serves as an authoritative body in the field of
+        medical informatics and represents the United States in the informational arena of medical systems and informatics in
+        international forums.
+
+  - uuid : udx81hdf6m
+    term : AMIS (Audio Messaging Interchange Specification)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An enhanced key system feature for voice/call processing that enables enterprise locations to transfer and forward voice
+        messages between systems. It is a voice processing standard that specifies the procedures to network voice processing
+        systems, regardless of who manufactures the system.
+
+  - uuid : udx81hewck
+    term : AMO (application Management Outsourcing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The ongoing maintenance, management, conversion, enhancement and support of an application portfolio by an external
+        company. AMO, a subset of application outsourcing (see separate entry), includes changes that generally take less than
+        some predefined time to implement (e.g., 10 days or 30 days). Examples of maintenance include regulatory changes, software
+        upgrades, new release installations and "fix it if it breaks" troubleshooting. AMO may involve the transfer of people and
+        application software to the vendor.
+
+  - uuid : udx81hgndl
+    term : AMPS (advanced Mobile Phone Service)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        U.S.-originated analog cellular standard, now largely obsolete.
+
+  - uuid : udx81hi3x2
+    term : AMR (adaptive Multirate)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        GSM codec that lowers the codec rate in response to interference, affording a greater level of error correction and
+        potentially enabling operators to reduce capital expenditures by reducing the number of cell sites needed to support the
+        user base.
+
+  - uuid : udx81hjky4
+    term : Analytical Hierarchy Process (AHP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **analytic hierarchy process (AHP)** is a process that uses hierarchical decomposition to deal with complex
+        information in multicriterion decision making, such as information technology vendor and product evaluation. It consists
+        of three steps:
+
+        Developing the hierarchy of attributes germane to the selection of the IT vendor.
+
+        Identifying the relative importance of the attributes.
+
+        Scoring the alternatives' relative performance on each element of the hierarchy.
+
+        Developed by Thomas Saaty while he was teaching at the University of Pennsylvania's Wharton School of Business, the AHP is
+        recognized as the leading theory in multicriterion decision making.
+
+  - uuid : udx81hlbmv
+    term : Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Analytics** has emerged as a catch-all term for a variety of different business intelligence (BI)- and
+        application-related initiatives. For some, it is the process of analyzing information from a particular domain, such as
+        website analytics. For others, it is applying the breadth of BI capabilities to a specific content area (for example,
+        sales, service, supply chain and so on). In particular, BI vendors use the "analytics" moniker to differentiate their
+        products from the competition. Increasingly, "analytics" is used to describe statistical and mathematical data analysis
+        that clusters, segments, scores and predicts what scenarios are most likely to happen. Whatever the use cases, "analytics"
+        has moved deeper into the business vernacular. Analytics has garnered a burgeoning interest from business and IT
+        professionals looking to exploit huge mounds of internally generated and externally available data.
+
+  - uuid : udx81hn5f5
+    term : Answer Marketplace
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **answer marketplace** is a social environment where a participant can pose a question, and other participants can
+        contribute and refine answers. Although answer marketplaces are possible in just about any social media environment, they
+        are specifically designed to facilitate the activity with structures enabling an exchange of value, such as money or
+        points. For example, participants posing a question can offer remuneration for an answer, and answer providers can quote a
+        "price" for their expertise. The two parties can offer and counteroffer. Questioners can review several bids and
+        credentials and choose the most desired. The process can be public or private (meaning anonymity is managed as part of the
+        marketplace process). Results of the interaction may also be public or private.
+
+  - uuid : udx81i1ma8
+    term : Applet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **applet** is a small program that runs within an application. Applets are commonly used to make otherwise static Web
+        pages more interactive. Examples include animated graphics, games, configurable bar charts and scrolling messages. Applets
+        also play an important role in network computers (NCs). They increase an NC's independence from the server because they do
+        not have to communicate with the operating system (resident on the server) to function once the applet has been received
+        by the NC.
+
+  - uuid : udx81i3dug
+    term : Appliances
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Appliances** is a generic term that encapsulates many aspects of integrated systems and related solutions cutting across
+        data center, PC and software delivery. It can have many meanings and interpretations from the industry, vendors with
+        related market initiatives and derivatives. However, appliances are more than just IT bundles with marketing; they offer
+        joint technology, hardware, software management and services.
+
+  - uuid : udx81i54sj
+    term : Applicant Tracking Systems (ATS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Applicant tracking systems (ATSs)** automate the requisition-to-hire process. The Internet has provided vendors with the
+        opportunity to expand solution functionality for candidate acquisition and self-service. The software-as-a-service (SaaS)
+        model remains the preferred delivery model in this market. The market has matured, and the vendor landscape continues to
+        consolidate.During the past few years, a number of e-recruitment vendors have added social-software capabilities, and
+        almost all the providers have it on their product road maps. The breadth of functionality varies considerably among
+        vendors. Social software is having an impact, and many vendors are looking to leverage social networks such as Facebook,
+        LinkedIn and Twitter. Improving the hiring manager and candidate user experience is key to addressing many challenges. We
+        are dealing with social recruitment as a separate technology this year.
+
+  - uuid : udx81i6wky
+    term : Application Architecture (AA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Application Architecture (AA)** describes the layout of an application's deployment. This generally includes
+        partitioned application logic and deployment to application server engines. AAs rely less on specific tool or language
+        technology than on standardized middleware options, communications protocols, data gateways, and platform infrastructures
+        such as Component Object Model (COM), JavaBeans and Common Object Request Broker Architecture (CORBA). The application
+        architect is tasked with specifying an AA and supporting the deployment implementation.
+
+  - uuid : udx81i8k1f
+    term : Application, Channel, Technology And Industry (ACT I)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **ACT I** is a Gartner acronym representing the "survival locations" for integrated document management (IDM) vendors. A
+        survival location is a market segment where a vendor can develop sustainable competitive advantage. A critical mass of
+        sustainable competitive advantage is necessary for a vendor to thrive in the long term in any market.
+
+  - uuid : udx81iadim
+    term : Application Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application control** solutions, sometimes referred to as "application whitelisting," are a type of endpoint (e.g.,
+        desktop and server) protection under the broader category of host-based intrusion prevention systems. Basic application
+        control solutions control whether a given piece of executable code is allowed to execute with more advanced solutions,
+        subsequently offering varying degrees of control over what an application can do once it is running as it interacts with
+        system resources.
+
+  - uuid : udx81ibwnb
+    term : Application Delivery Controller (ADC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application delivery controllers (ADC)** are deployed in data centers to optimize application performance, security and
+        resource efficiency by offloading servers, providing deep payload inspection and making the best use of complex protocols.
+        Originally deployed for externally-facing Web applications, they are now used to deliver services for many types of
+        business applications and protocols. Recent developments in software-based and virtual ADC platforms provide more
+        deployment flexibility, especially in cloud services and virtual environments.
+
+  - uuid : udx81idppf
+    term : Application Development (AD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Application Development (AD)** software market comprises tools that represent each phase of the software development
+        life cycle: Application Lifecycle Management (ALM), design, construction, automated software quality and other Application
+        Development software.
+
+  - uuid : udx81if0dc
+    term : Application Infrastructure Suite (AIS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Because the market has evolved, products that were previously referred to as integration suites within this segment are
+        now included with ESB suites. The **application infrastructure suite** market now includes only application platform suite
+        functionality. Application platform suites are products composed of portals, integration middleware, BPM and business
+        component engineering. They are geared toward supporting a variety of different project styles, including composite
+        applications, new SOA applications and process integration.
+
+  - uuid : udx81igsca
+    term : Application Infrastructure
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application infrastructure** is software platforms for the delivery of business applications, including development and
+        runtime enablers.
+
+  - uuid : udx81ii6av
+    term : Application Integration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application integration** is defined as the process of:
+
+        Keeping redundant copies of data (in independently designed applications) consistent, or
+
+        Enabling end-users to access data and functionality from independently designed applications on a single user interface.
+
+  - uuid : udx81ijwgg
+    term : Application Life Cycle Management Platform As A Service (ALM PaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application life cycle management platform as a service (ALM PaaS)** solutions are defined as cloud-delivered tools
+        designed to govern the development and delivery of software. These platforms combine core ALM capabilities with
+        extensibility based on Web service protocols and delivery via cloud infrastructure. **ALM PaaS** tools can support
+        on-premises and cloud applications.
+
+  - uuid : udx81ilm35
+    term : Application Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application management** provides a wide variety of application services, processes and methodologies for maintaining,
+        enhancing and managing custom applications, packaged software applications or network-delivered applications.
+
+  - uuid : udx81in3ro
+    term : Application Modernization Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application modernization services** address the migration of legacy to new applications or platforms, including the
+        integration of new functionality to provide the latest functions to the business.Modernization options include
+        re-platforming, re-hosting, recoding, rearchitecting, re-engineering, interoperability, replacement and retirement, as
+        well as changes to the application architecture to clarify which option should be selected.
+
+  - uuid : udx81j1jsw
+    term : Application Obfuscation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application obfuscation** refers to a set of technologies used to protect an application and its embedded intellectual
+        property (IP) from application-level intrusions, reverse engineering and hacking attempts. Application obfuscation tools
+        protect the application code as the increasing use of intermediate language representations (such as Java and .NET)
+        enables hackers to easily reverse-engineer IP embedded in software.
+
+  - uuid : udx81j3cyf
+    term : Application Performance Monitoring (APM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **application performance monitoring (APM)** as one or more software and hardware components that
+        facilitate monitoring to meet five main functional dimensions: end-user experience monitoring (EUM), runtime application
+        architecture discovery modeling and display, user-defined transaction profiling, component deep-dive monitoring in
+        application context, and analytics.
+
+  - uuid : udx81j5713
+    term : Application Platform As A Service (aPaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application platform as a service (aPaaS)** is a cloud service that offers development and deployment environments for
+        application services.
+
+  - uuid : udx81j6nij
+    term : Application Program
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software programs in a system are either **application programs** or supervisory programs, also called system software.
+        Application programs contain instructions that transfer control to the system software to perform input/output and other
+        routine operations, working through the application programming interface (API).
+
+  - uuid : udx81j8hax
+    term : Application Release Automation (ARA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application release automation (ARA)** tools focus on the modeling and deployment of custom application software
+        releases and their associated configurations, often for Java Platform, Enterprise Edition (Java EE) and .NET applications.
+        These tools offer versioning to enable best practices in moving related artifacts, applications, configurations and data
+        together across the application life cycle. ARA tools support continuous release deployment. They often include workflow
+        engines to assist in automating and tracking human activities.
+
+  - uuid : udx81ja8cw
+    term : Application Server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **application server** is a modern form of platform middleware. It is system software that resides between the
+        operating system (OS) on one side, the external resources (such as a database management system \[DBMS\], communications
+        and Internet services) on another side and the users' applications on the third side. The function of the application
+        server is to act as host (or container) for the user's business logic while facilitating access to and performance of the
+        business application. The application server must perform despite the variable and competing traffic of client requests,
+        hardware and software failures, the distributed nature of the larger-scale applications, and potential heterogeneity of
+        data and processing resources required to fulfill the business requirements of the applications.
+
+        A high-end online-transaction-processing-style application server delivers business applications with guaranteed levels of
+        performance, availability and integrity. An application server also supports multiple application design patterns,
+        according to the nature of the business application and the practices in the particular industry for which the application
+        has been designed. It typically supports multiple programming languages and deployment platforms, although most have a
+        particular affinity to one or two of these. Some application servers that implement standard application interfaces and
+        protocols, such as Java Enterprise Edition (Java EE), are entirely proprietary. At present, the proprietary application
+        servers are typically built into OSs, packaged applications, such as portals and e-commerce solutions, or other products
+        and are not offered as stand-alone products. Proprietary and Java EE-compliant application servers are estimated in our
+        Market Share and Forecast reports.
+
+        As the application server market matures, high performance becomes a stronger criterion, and thus where vendors now
+        incorporate extensions to application servers, such as extreme transaction processing and event-based processing
+        capabilities, these are also included in this market segment.
+
+  - uuid : udx81jbsgu
+    term : Application Service Provider (ASP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **application service provider (ASP)** is defined as an enterprise that delivers application functionality and
+        associated services across a network to multiple customers using a rental or usage-based transaction-pricing model.
+        Gartner defines the ASP market as the delivery of standardized application software via a network, though not particularly
+        or exclusively the Internet, through an outsourcing contract predicated on usage-based transaction pricing. The ASP market
+        is composed of a mix of service providers (Web hosting and IT outsourcing), independent software vendors and
+        network/telecommunications providers.
+
+  - uuid : udx81jdik1
+    term : Application sharing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Defined as the ability of two or more participants to have equal and simultaneous control over the content of a document
+        inside an application (e.g., a word processing document, spreadsheet or conference slide) over a wide-area network,
+        local-area network or modem connection. Enables users in different locations to work together on the same documents, with
+        shared control and editing capabilities. A component of data conferencing.
+
+  - uuid : udx81jfaop
+    term : Application Software Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **application software services** segment includes back-office, ERP and supply chain management (SCM) software
+        services, as well as collaborative and personal software services. It also covers engineering software and front-office
+        CRM software services.
+
+  - uuid : udx81jgmre
+    term : Application-Specific Integrated Circuit (ASIC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **application-specific integrated circuit (ASIC)** is a chip on which the pattern of connections has been set up
+        exclusively for a specific function.
+
+  - uuid : udx81ji45t
+    term : Application-Specific Standard Product (ASSP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **application-specific standard product (ASSP)** is an integrated circuit (IC) dedicated to a specific application
+        market and sold to more than one user. A type of embedded programmable logic, ASSPs combine digital, mixed-signal and
+        analog products. When sold to a single user, Gartner defines such ICs as "application-specific integrated circuits"
+
+  - uuid : udx81jjs81
+    term : Applications Outsourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Applications outsourcing** is an outsourcing arrangement for a wide variety of application services including new
+        development, legacy systems maintenance, offshore programming, management of packaged applications and staff augmentation.
+        While this form of outsourcing generally involves a transfer of staff, the use of the term has recently broadened to
+        include arrangements where this is not the case, as in staff augmentation. It does not include system integration
+        activities.
+
+  - uuid : udx81jlk1f
+    term : Applications Portfolio Analysis (APA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Applications portfolio analysis (APA)** is a tool to divide current and proposed applications into three categories --
+        utility, enhancement and frontier -- based on the degree to which they contribute to the enterprise's performance. The
+        utility category is essential but does not enhance the enterprise's performance (e.g., payroll); the enhancement category
+        contains applications that improve the enterprise's performance based on the use of established technology (e.g.,
+        documentation automation); and the frontier category is aimed at greatly improving enterprise performance (e.g., through
+        aggressive use of rule-based decision support) but usually entails substantial risk. The management issues for each
+        category are, respectively, cost, opportunity identification and innovation. The planning process should consider the best
+        balance among the three categories to gain optimal future performance and the appropriate value from the application of
+        IT.
+
+  - uuid : udx81k1ay
+    term : Architected Rapid Application Development (ARAD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Architected rapid application development (ARAD)** has developed from object-oriented analysis and design tools, and
+        incorporates analysis and design patterns and frameworks. Typically, organizations can generate 50% to 70% of source
+        artifacts from the patterns, frameworks and (optional) models. Increasingly, organizations are blending traditional
+        iterative methods used with ARAD with agile principles and practices to create a hybrid approach.
+
+  - uuid : udx81k1s1o
+    term : Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Architecture** is defined as:
+
+          In reference to computers, software or networks, the overall design of a computing system and the logical and physical
+        interrelationships between its components. The architecture specifies the hardware, software, access methods and protocols
+        used throughout the system.
+
+           A framework and set of guidelines to build new systems. IT architecture is a series of principles, guidelines or rules
+        used by an enterprise to direct the process of acquiring, building, modifying and interfacing IT resources throughout the
+        enterprise. These resources can include equipment, software, communications, development methodologies, modeling tools and
+        organizational structures.
+
+  - uuid : udx81k3l42
+    term : Artificial Intelligence (AI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A wide-ranging discipline of computer science that at its core seeks to make computers behave more like humans. The term
+        was coined by John McCarthy of the Massachusetts Institute of Technology in 1956.**Artificial intelligence** (AI) attempts
+        to resolve problems by "reasoning," similar to the process used by the human mind. AI involves the capability of a machine
+        to learn (to remember results produced on a previous trial and to modify the operation accordingly in subsequent trials)
+        or to reason (to analyze the results produced in similar operations and select the most favorable outcome). Today,
+        applications of artificial intelligence include voice recognition, robotics, neural networks and expert systems (i.e.,
+        systems that can make decisions an expert would otherwise have to make to, for example, forecast financial performance, or
+        diagnose illnesses).
+
+  - uuid : udx81k5duf
+    term : Assemble To Order
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Assemble-to-order** strategy allows a product or service to be made to specific order, where a large number of products
+        can be assembled in various forms from common components. This requires sophisticated planning processes to anticipate
+        changing demand for internal components or accessories while focusing on mass customization of the final products to
+        individual customers.
+
+  - uuid : udx81k76ed
+    term : Asset Performance Management (APM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Asset performance management (APM)** encompasses the capabilities of data capture, integration, visualization and
+        analytics tied together for the explicit purpose of improving the reliability and availability of physical assets. APM
+        includes the concepts of condition monitoring, predictive forecasting and reliability-centered maintenance (RCM).
+
+  - uuid : udx81k8wcu
+    term : Asynchronous Transfer Mode (ATM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A wide-area network (WAN) technology, **asynchronous transfer mode (ATM)** is a transfer mode for switching and
+        transmission that efficiently and flexibly organizes information into cells; it is asynchronous in the sense that the
+        recurrence of cells depends on the required or instantaneous bit rate. Thus, empty cells do not go by when data is
+        waiting. ATM's powerful flexibility lies in its ability to provide a high-capacity, low-latency switching fabric for all
+        types of information, including data, video, image and voice, that is protocol-, speed- and distance-independent. ATM
+        supports fixed-length cells 53 bytes in length and virtual data circuits between 45 megabits per second (Mbps) and 622
+        Mbps. Using statistical multiplexing, cells from many different sources are multiplexed onto a single physical circuit.
+        The fixed-length fields in the cell, which include routing information used by the network, ensure that faster processing
+        speeds are enabled using simple hardware circuits. The greatest benefit of ATM is its ability to provide support for a
+        wide range of communications services while providing transport independence from those services.
+
+  - uuid : udx81kamue
+    term : Asynchronous Transmission
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Asynchronous transmission** is a process in which each information character, and sometimes each word or small block, is
+        individually synchronized, usually by the use of start and stop elements.
+
+  - uuid : udx81kc4p7
+    term : Attenuation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Attenuation** is the decrease in magnitude of a current, voltage or power of a signal in transmission between points
+        because of the transmission medium. Attenuation is usually expressed in decibels.
+
+  - uuid : udx81kdmbv
+    term : Audio Mining/Speech Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Audio mining/speech analytics** embrace keyword, phonetic or transcription technologies to extract insights from
+        prerecorded voice streams. This insight can then be used to classify calls, trigger alerts/workflows, and drive
+        operational and employee performance across the enterprise.
+
+  - uuid : udx81keypm
+    term : Augmented Reality (AR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Augmented reality (AR)** is the real-time use of information in the form of text, graphics, audio and other virtual
+        enhancements integrated with real-world objects. It is this "real world" element that differentiates AR from virtual
+        reality. AR aims to enhance users' interaction with the environment, rather than separating them from it.
+
+  - uuid : udx81kgpi4
+    term : Authentication Service
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **authentication service** is a mechanism, analogous to the use of passwords on time-sharing systems, for the secure
+        authentication of the identity of network clients by servers and vice versa, without presuming the operating system
+        integrity of either (e.g., Kerberos).
+
+  - uuid : udx81kigxc
+    term : Authentication Technologies
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Authentication technologies** encompass a wide variety of products and services that implement a range of authentication
+        methods in place of legacy password-based authentication.
+
+  - uuid : udx81kk0g9
+    term : Authorization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Authorization** is defined as a process ensuring that correctly authenticated users can access only those resources for
+        which the owner has given them approval.
+
+  - uuid : udx81klhpq
+    term : Automated Backup
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Automated backup** delivers the most basic form of storage availability -- recoverable data. Most enterprises are
+        struggling with the implementation of this function. It is a conceptually complex and labor-intensive process. Backup
+        design must address multiple elements (e.g., hardware, network, file system and application) across heterogeneous
+        platforms and geographically dispersed sites. Labor intensive, departmental processes are replaced with automated,
+        enterprise-level solutions to increase availability.
+
+  - uuid : udx81kn8lk
+    term : Automated Business Process Discovery (ABPD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Automated business process discovery (ABPD)** as a complementary approach overcomes many of these shortcomings to create
+        a business process model at a fraction of the time and cost involved in the traditional way. One major benefit of ABPD is
+        process discovery across the "white space," the process knowledge gap that exists between departments and functions and at
+        the edges of processes. Modeling can be done by hand, so there may be no cash-flow impact, unlike ABPD, where a tool is
+        necessary. By observing the details of how processes are executed in the supporting technology, ABPD uses unstructured,
+        event-level data to automatically build process definitions and models, and explore process variations. Because of the
+        quantitative nature of this data, the derived process models enable rich and interactive analysis. ABPD techniques start
+        from event logs (audit trails, messages, transactions, databases and so forth), and try to discover patterns to fit a
+        process model to the information obtained from the events. The underlying techniques are strong enough so that users don't
+        have to specify a process model; it is created from scratch by pattern recognition. Moreover, ABPD delivers information on
+        bottlenecks, variances, root causes and the distribution of the process instances, thus enabling meaningful simulation.
+        It's all about capturing what has happened in a real-life process. ABPD is a form of process optimization. Of course, ABPD
+        does not capture informal human tasks that are not automated and represented as events in an audit trail or transaction
+        log. This is why ABPD is best combined with techniques from social BPM and BPA for the masses. However, ABPD accelerates
+        process discovery and identifies previously unseen process patterns. Planners must still conduct interviews to capture
+        informal work practices, but organizations no longer need to spend as much time using interviews to discover the implicit
+        processes previously hidden in automated solutions.
+
+  - uuid : udx81l1oyq
+    term : Automated Document Factory (ADF)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner's term for an architecture and set of processes to manage the creation and delivery of mission-critical,
+        high-volume digital documents. The ADF applies factory production concepts to the document production -- raw materials,
+        including data and preparation instructions, enter the ADF, where they are transformed into digital documents and prepared
+        for delivery.
+
+  - uuid : udx81l319i
+    term : Automated Payment Tracking And Reconciliation Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Automated payment tracking and reconciliation services** enable the tracking of payments and associated documents
+        (invoice and/or collection), and payment release without manual intervention. Connecting the bank to the customer's
+        general ledger enables reconciliation of transactions, cash application, liquidity analysis and the updating of credit
+        positions. Exception items are flagged for further analysis.
+
+  - uuid : udx81l4us5
+    term : Automated System Operations (ASO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Often referred to as "lights-out operations",**automated system operations (ASO)** is a combination of hardware and
+        software that allows a computer installation to run unattended -- that is, without the need for a human operator to be
+        physically located at the site of the installation.
+
+  - uuid : udx81l6d2s
+    term : Automated Teller Machine (ATM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **automated teller machine (ATM)** is a public banking machine that is usually hooked up to a central computer through
+        leased local lines and a multiplexed data network.
+
+  - uuid : udx81l7tsg
+    term : Automated Testing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Automated testing** applies to commercially or internally developed software or services to assist in the testing
+        process, including functional and load/stress testing. Automated tests provide consistent results and data points. The
+        benefits are ease of maintenance, the ability to efficiently use resources in off-peak hours, and the capability to create
+        reports based on the executed tests. Associated quality management tools include functionality for test planning, test
+        case management and defect management (the governance piece of quality).
+
+  - uuid : udx81l9i6j
+    term : Automated Vehicle Locating (AVL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        AVL enables fleet operators to locate and track the movements of their fleets in real time, using onboard sensors and
+        cellular or satellite links that can capture and communicate GPS coordinates. When AVL is combined with electronic onboard
+        recording (EOBR) devices, users can also capture and communicate data such as engine performance, fuel state, hours of
+        operation, maintenance problems, cargo temperature and tampering alerts.
+
+  - uuid : udx81lb8j0
+    term : Automatic Content Recognition (ACR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        ACR refers to the ability of a client application (typically a smartphone or media tablet app) to identify a content
+        element within its proximity -- audio, video or digital image -- based on sampling a portion of the audio or video (or
+        image), processing the sample and comparing it with a source service that identifies content by its unique characteristics
+        such as audio or video fingerprints or watermarks.
+
+  - uuid : udx81ld18d
+    term : Automatic Restart
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as "warm recovery", *automatic restart* is the resumption of operation after a system failure with minimal loss
+        of work or processes (as opposed to a "cold" restart, which requires a complete reload of the system with no processes
+        surviving).
+
+  - uuid : udx81leq5q
+    term : Automatic Storage Tiering (Auto-Tiering)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Auto-tiering** is a quality of storage service feature that enables logical volumes or LUNs to span different tiers of
+        storage and transparently move portions of the logical volume between tiers of storage to minimize storage costs and
+        deliver consistent performance and throughput. The movement of sub-LUNs between tiers is managed by auto-tiering
+        algorithms and/or policy. This makes it practical to reduce the storage costs of applications without redesigning them to
+        make them storage-aware, and it avoids the onerous task of doing data classification. Typical implementations support
+        storage tiers built with solid-state disks (SSDs), Fibre Channel (FC) or Serial-Attached Small Computer System Interface
+        (SAS SCSI), and Serial Advanced Technology Attachment (SATA) or nearline disks, and may include restrictions on the
+        movement of sub-LUNs between different tiers of storage.
+
+  - uuid : udx81lgji1
+    term : Autonomous System (AS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **autonomous system (AS)** is an administrative domain. All members of an AS that share route information can handle
+        traffic to and from any destination.
+
+  - uuid : udx81li13i
+    term : Autonomous System Number (ASN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **autonomous system number (ASN)** is a number assigned to a local network, registered into the carrier's routing
+        community and placed under the umbrella of an administrative domain called an autonomous system.
+
+  - uuid : udx81ljhms
+    term : Autonomous Vehicles
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **autonomous vehicle** is one that can drive itself from a starting point to a predetermined destination in "autopilot"
+        mode using various in-vehicle technologies and sensors, including adaptive cruise control, active steering (steer by
+        wire), anti-lock braking systems (brake by wire), GPS navigation technology, lasers and radar.
+
+  - uuid : udx81llam5
+    term : Availability
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Availability** is the assurance that an enterprise's IT infrastructure has suitable recoverability and protection from
+        system failures, natural disasters or malicious attacks.
+
+  - uuid : udx81lmxvg
+    term : Avatar
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **avatar** is a computer representation of users in a computer-generated 3D world, used primarily in chat and
+        entertainment web sites. Potential business applications include customer support, training or sales, where avatars in an
+        enterprise's website may assist potential customers through text or audio links.
+
+  - uuid : udx81m1bhg
+    term : Average Inventory
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In an inventory system, **average inventory** is the sum of one-half the lot sizes plus the reserve stock in formula
+        calculations.
+
+  - uuid : udx81m2rgv
+    term : Average Selling Price (ASP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **average selling price (ASP)** is the typical "street" price of any product. In Gartner communications research, it
+        generally refers to the typical price of a mobile phone.
+
+  - uuid : udx81m43c2
+    term : Average Speed Of Answer (ASA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **average speed of answer (ASA)** is a standard quantitative method for measuring the speed at which call center calls
+        are answered.
+
+# __END__

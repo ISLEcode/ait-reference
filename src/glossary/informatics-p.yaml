@@ -1,0 +1,1369 @@
+title    : ISLE AIT computer science glossary -- P words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx89yfwe4
+    term : P2P (peer-to-peer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Style of networking in which computers communicate directly with one another rather than routing traffic through managed
+        central servers and networks.
+
+  - uuid : udx89yhepo
+    term : Pace-Layered Application Strategy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner's **Pace-Layered Application Strategy** is a methodology for categorizing, selecting, managing and governing
+        applications to support business change, differentiation and innovation.
+
+  - uuid : udx89yiulp
+    term : Packet-switched Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Data communications network in which data is divided into small segments known as packets. These are divided so that each
+        packet forms part of a complete message that can be routed through a network of switches to its destination independently
+        of all other packets forming the same message.
+
+  - uuid : udx89yk5n9
+    term : Packet Switching
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technique in which a message is broken into smaller units called packets, which may be individually addressed and routed
+        through the network, possibly using several different routes. The receiving-end node ascertains that all packets are
+        received and in the proper sequence before forwarding the complete message to the addressee.
+
+  - uuid : udx89ylndc
+    term : PACS (personal Access Communication Services)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        American National Standards Institute common air interface standard for low-mobility digital cellular or fixed-wireless
+        access to users operating in the 1,900MHz band. See also mobile WLL.
+
+  - uuid : udx89yn66b
+    term : PAD (packet Assembler/disassembler)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An interface device that buffers data sent to and from character mode devices, and assembles and disassembles the packets
+        needed for X.25 operation.
+
+  - uuid : udx8a01c8w
+    term : Page
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An output device that prints one page at a time. This includes the following types of device:
+
+        -   Laser -- An electrophotographic technology in which laser beams are used to transfer images to a photoreceptor belt or
+            a drum. It has the ability to buffer, in part or in whole, a page of images received from an electronic source and
+            then transfer these images to a receiving substrate.
+
+        -   Light-emitting diode (LED) -- An electrophotographic technology in which precisely aligned arrays of LEDs are used to
+            expose the print drum. Océ employs a unique and proprietary variation on electrophotography that it calls CopyPress.
+            The technology is similar and uses a solid toner. The image is built up color by color and then deposited on an
+            intermediate drum, just as is done in some color laser printers. The difference is that CopyPress can print seven
+            toners for a wide color gamut. The toner is then pressed into the paper and fused at a lower temperature than on laser
+            printers.
+
+        -   Liquid electrophotography (LEP) -- A technology in which the toner is a liquid and is absorbed into the paper fibers
+            instead of adhering to the surface the way laser print does. As a result, the printed pages look and feel
+            offset-printed. As on printing presses, the different colored inks are deposited on a rubber roller called a blanket
+            and are then transferred to the paper. This means the inks mix as they soak into the surface of the paper rather than
+            being layered on top of one another, as is the case with laser printers. With up to six inks, LEP printers can also
+            produce a wider range of colors than the four colors usually found in dry-toner laser printers.
+
+        -   Solid ink -- An inkjet technology in which solid inks are liquefied by heating and then sprayed onto a drum, where
+            they are then transferred to paper. Solid inkjet can print on a wide range of paper types because the solid ink does
+            not wick into paper to degrade the image. Solid ink printers and MFPs are included in the page printer market because
+            they compete directly with the laser output devices.
+
+        -   Electron beam, imaging ion deposition and magnetography -- Examples of other technologies that can be used in page
+            output devices..
+
+  - uuid : udx8a03bgc
+    term : PAL (Phase Alternate Line)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A color television broadcasting system developed in West Germany and the United Kingdom that uses 650 picture lines and a
+        50-hertz (Hz) field frequency. See NTSC (National Television System Committee) and SECAM (Sequential Couleur a Memoire).
+
+  - uuid : udx8a04s3d
+    term : PAM (pulse Amplitude Modulation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The encoding of information in a signal based on the fluctuation of carrier waves. The amplitude of the pulse carrier is
+        varied in accordance with successive samples of the modulating signal.
+
+  - uuid : udx8a069jw
+    term : Paper size
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This describes the maximum paper size/dimension a device can print on. It includes the following:
+
+        -   A3/A2 paper size -- This category includes printers with the capability of printing paper between A3 (U.S. B) size and
+            A2 (U.S. C) size.
+
+        -   A3F paper size -- This category includes printers with the capability of printing 297 mm/11.7-inch width continuous or
+            fanfold form.
+
+        -   A4 paper size -- This category includes printers with the capability of printing A4 (U.S. A) paper.
+
+        -   A4F paper size -- This category includes printers with the capability of printing 210 mm/8.5-inch width continuous or
+            fanfold form.
+
+        -   A5 paper size -- This category includes printers with the capability of printing A5 (U.S. A) paper.
+
+        -   A6 paper size -- This category includes printers with the capability of printing A6 (U.S. size 4 x 6) paper.
+
+  - uuid : udx8a07v7q
+    term : Parabolic Trough
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **parabolic trough** is a type of concentrated solar power (CSP) system. Long, curved mirrors arranged in a line
+        concentrate sunlight on pipes located at the mirrors' focal center. These pipes run down the length of the trough and
+        contain an oil that is heated by the concentrated sunlight. This oil flows through the pipes to a power plant, where it
+        boils water. The resulting steam produces electricity in a conventional steam generator. During the course of the day, a
+        motor rotates the mirrors to track the position of the sun. To limit intermittency and improve dispatch capability, these
+        systems may have molten salt storage or a co-firing natural gas system.
+
+  - uuid : udx8a09ikx
+    term : Parallel Network File System (pNFS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Parallel Network File System (pNFS)** is an emerging industry standard for parallel storage input/output (I/O), which is
+        an optional feature of Network File System (NFS) v.4.1. The new technology requires a pNFS client and a pNFS server. The
+        pNFS server manages file metadata and communicates a file layout map to the client, and the client performs direct storage
+        I/O based on the layout. The storage access protocol can be based on files, blocks or objects.
+
+  - uuid : udx8a0b5ik
+    term : Parallel Processing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The solution of a single problem across more than one processor. Little parallel processing is done today outside of
+        research laboratories, because it is difficult to decompose tasks into independent parts, and the compiler technology does
+        not yet exist that will extensively parallelize applications code.
+
+  - uuid : udx8a0cm5v
+    term : Partitioning Code
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Applications can be broken into three logical parts -- presentation, logic and data. These are areas in which the program
+        can be separated to facilitate execution of each logical piece on a different machine. Each segment is known as a
+        partition. For example, the thin-client Web model requires that interface presentation be handled by the browser,
+        application logic by the Web server and other application servers, and data by a database server. Developers are
+        responsible for determining where the separation occurs.
+
+  - uuid : udx8a0eess
+    term : Partner Customer Support Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes service-focused partner relationship management applications designed to improve an enterprise's
+        ability to market, sell and service end customers through channel partners. Key components include entitlement management,
+        order management, service-level management and material reverse logistics.
+
+  - uuid : udx8a0fvwj
+    term : Partner Relationship Management (PRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Partner relationship management (PRM)** enables organizations with indirect sales channels (such as agents, brokers,
+        dealers, distributors and value-added resellers \[VARs\]) to more effectively and efficiently manage activities related to
+        sales, lead management, deal registration and opportunity management.
+
+  - uuid : udx8a0howu
+    term : PAS (personal Access System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Trademark of UTStarcom referring to its PHS-based WLL solution operating in the 1,900MHz band. See also mobile WLL.
+
+  - uuid : udx8a0j2wr
+    term : Pattern-Based Strategy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **Pattern-Based Strategy** as the discipline that enables business leaders to seek, amplify, examine and
+        exploit new business patterns. A business pattern is a set of recurring and/or related elements (business activities,
+        events, weak or strong signals) that indicates a business opportunity or threat. A weak or strong signal is a piece of
+        information, an activity, and/or an event that indicates an impending change that might have an impact on your business
+        pattern. The term "business pattern framework" refers to an organization's focus on and its investment in a balanced
+        diversity of business activities (in the defined, creative, collective and exceptions categories) that enable it to lead
+        and respond to weak and strong signals of change (opportunity or threat). The aim of business pattern recognition is to
+        understand how elements (activities, events, objects and information) may form new patterns that represent an opportunity
+        for innovation or a threat of disruption to business operations or strategy.
+
+  - uuid : udx8a0ktra
+    term : PBX (private Branch Exchange)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A telephone switching system on a customer's premises that allows telephones to interface with one or more public switched
+        telephone network, or a private voice network when the user dials an access code.
+
+  - uuid : udx8a0mbpo
+    term : PC Virtual Software Appliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **PC virtual software appliance** runs in a dedicated PC partition or on a virtual machine that loads before any user
+        OS, and provides one application or function without the complexity of a full PC OS. By adopting an appliance approach,
+        enterprises can deliver individual functions (such as firewalls, asset management, TV recorders and media players) as
+        separate modules that run alongside, rather than on top of (or from within), a standard PC OS.
+
+  - uuid : udx8a1r3u
+    term : PCM (patient Care Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system that enrolls or assigns patients to interventions across the continuum of health and illness. It includes
+        wellness exams and routine screenings, utilization reviews, event focus, short-term case management, and the management of
+        long-term chronic conditions.
+
+  - uuid : udx8a127s1
+    term : PCM (pulse Code Modulation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A digital technique that involves sampling an analog signal at regular intervals and coding the measured amplitude into a
+        series of binary values, which are transmitted by modulation of a pulsed, or intermittent, carrier. It is the standard
+        technique in telecommunications transmission.
+
+  - uuid : udx8a13p4i
+    term : PCO (physician Contracting Organization)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A legal entity representing multiple physicians, practices and clinics that contracts with other entities to provide
+        healthcare services.
+
+  - uuid : udx8a15328
+    term : PCS (personal Communications Services)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Broad range of voice and data telecommunications services that enable people to communicate via two-way radio phones based
+        exclusively on digital technologies such as CDMA and GSM. Characteristics of PCS include personal numbers assigned to
+        individuals rather than devices, near-wireline-call-transmission quality, low-power and lightweight mobile devices,
+        enhanced call completion, call billing and call management services. PCS networks operate at 1,800MHz in the U.K. and at
+        1900MHz in North America.
+
+  - uuid : udx8a16u4d
+    term : PCU (packet Control Unit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Part of a GPRS BSS product, the PCU provides an interface between the SGSN and the radio network using frame relay
+        technology.
+
+  - uuid : udx8a18bpa
+    term : PDA (personal Digital Assistant)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Data-centric handheld computer weighing less than 1 pound that is designed primarily for use with both hands. These
+        devices use an open-market OS supported by third-party applications that can be added into the device by end users. They
+        offer instant on/off capability and synchronization of files with a PC. A PDA may offer WAN support for voice, but these
+        are data-first, voice-second devices.
+
+  - uuid : udx8a1a2xb
+    term : PDC (personal Digital Cellular)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Japanese, second-generation (2G/2.5G) digital cellular standard operating in the 800MHz and 1,500MHz frequency bands.
+
+  - uuid : udx8a1bk0x
+    term : PDE (partial Document Encryption)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Encryption and delivery of only those pages requested or those that the requester is allowed to see. A certificate server
+        only releases the required certificate when an authorized user makes a request. Using PDE, each page of the document is
+        encrypted and associated with a unique security certificate, allowing for selective retrieval.
+
+  - uuid : udx8a1d1p2
+    term : PDM (product Data Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        PDM technologies and products have historically been positioned as the primary application backbone for managing and
+        controlling the flow of design intent across the three major design stages: concept design, detail design and production.
+        But in practice, PDM has served as a complementary application tower to computer-aided design (CAD) and enterprise
+        resource planning (ERP) systems by providing the main repository for production-approved engineering data (i.e., vaulting)
+        and managing the changes to production - approved data (e.g., engineering change orders and configuration management). PDM
+        is a key enabler for constructing a concurrent art-to-product environment (CAPE) for enterprisewide design and production.
+        A well-constructed PDM enables all participants involved with the capture, communication and maintenance of design intent
+        to freely share and disseminate all heterogeneous data related to the product. PDM evolved from the need to better manage
+        paper, electronic documents, engineering change orders, and bills of materials during the product development process.
+
+  - uuid : udx8a1etse
+    term : Peak Traffic (in Erlangs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Calculated amount of channel use at peak time in Erlangs. See also Erlang.
+
+  - uuid : udx8a1g8gl
+    term : Penetration Rate (mobile)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Number of (mobile) connections to a service divided by the population.
+
+  - uuid : udx8a1hp2g
+    term : Penetration Testing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Penetration testing** goes beyond vulnerability scanning to use multistep and multivector attack scenarios that first
+        find vulnerabilities and then attempt to exploit them to move deeper into the enterprise infrastructure. Since this is how
+        advanced targeted attacks work, penetration testing provides visibility into aggregations of misconfigurations or
+        vulnerabilities that could lead to an attack that could cause serious business impact. As a minimum, penetration testing
+        provides a means for prioritizing the highest risk vulnerabilities.
+
+  - uuid : udx8a1ji6h
+    term : Perfection
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The complete elimination of muda so that all activities along a value stream create value.
+
+  - uuid : udx8a1l0h3
+    term : Performance-driven Culture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The concept of a **performance-driven culture** is a change in management style that shifts from a "rearview-mirror
+        perspective" focused on financial measures to a perspective that balances this with the use of leading performance
+        indicators and weak signals to actively seek and then act on patterns to drive better business outcomes. This approach
+        will fundamentally change strategic-planning processes and the execution of strategies. Successful organizations will
+        create a performance-driven culture in which business strategies will change with the emergence of new business patterns,
+        which will drive changes in the operational behaviors of managers and employees.
+
+  - uuid : udx8a1mqwg
+    term : Performance Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines "performance management" as the combination of methodologies and metrics that enables users to define,
+        monitor and optimize outcomes necessary to achieve organizational goals and objectives.
+
+  - uuid : udx8a2xcq
+    term : Persona Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Persona management** is the nascent class of tools that helps people keep track of and communicate what they are saying
+        in the context in which they are saying it while participating in multiple social communities.
+
+  - uuid : udx8a22es0
+    term : Personal Cloud
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Personal cloud** is the individual's collection of digital content, services and apps which are seamlessly accessible
+        across any device. The personal cloud is not a tangible entity, but rather the realization of four different types of
+        experience in which users store, synchronize, stream and share content on a contextual basis, moving from one platform,
+        screen and location to another. Founded on interconnected services and applications, it both reflects and sets consumers'
+        expectations for how next-generation computing services will work.
+
+  - uuid : udx8a2477m
+    term : Phase Change Memory (PCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Phase-change memory (PCM)** is a fast, low-power, random-access, nonvolatile and potentially low-cost memory technology.
+        PCM chips are the first to be based on phase-change chalcogenide alloys, similar to the film used to store information on
+        compact disc-rewritable (CD-RW) and DVD-RAM optical discs. The technology is also known by other names, including PCRAM
+        and PRAM.
+
+  - uuid : udx8a25xk9
+    term : Phasor Measurement Units (PMUs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Synchronized **phasor measurement units** (PMUs, or synchrophasors) provide instantaneous representations of voltages and
+        currents at key power grid locations, and help diagnose the grid's actual risk status. Deployment of PMUs can help
+        transmission operators with early detection of the frequency oscillations that foreshadow a potential blackout. Operators
+        can improve transfer capacity, manage congestion and integrate renewables more effectively.
+
+  - uuid : udx8a27hnl
+    term : PHMT
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set of functions that assist a consumer in managing his or her health status or healthcare.
+
+  - uuid : udx8a28wwj
+    term : PHO (physician Hospital Organization)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A legal entity representing joint contractual service arrangements between hospitals or integrated delivery systems and
+        physicians.
+
+  - uuid : udx8a2akbq
+    term : Photonic Crystal Displays
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Photonic crystal displays** are reflective displays made of photonic crystalline materials that can be constructed and
+        designed to manipulate the propagation of light (photons).
+
+  - uuid : udx8a2c1vb
+    term : PHR (personal Health Record)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A concept for capturing, managing and sharing a consumer's healthcare profile. PHRs contain the following components: a
+        consumer profile, a healthcare providers' section, a healthcare encounter section, a family history section, an emergency
+        profile and public-key infrastructure (PKI) security.
+
+  - uuid : udx8a2detx
+    term : PHS (personal HandyPhone System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Japanese standard operating in the 1,900MHz band for low-mobility digital cellular or mobile WLL services. It typically
+        supports handover between cells for users traveling at pedestrian or slow vehicular speeds, or it can be used to provide
+        fixed wireless access to users. See also mobile WLL and PAS.
+
+  - uuid : udx8a2evuo
+    term : Physical Resource And Infrastructure Management Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Physical resource and infrastructure management tools** are software products that monitor, model and help manage the
+        physical dimensions of data center infrastructures, such as the IT hardware, cables, power distribution units, generators,
+        and space. They are used to design new data centers, as well as optimize established data centers, for thermal, electrical
+        and spatial characteristics. In addition, they are designed to be used in the day-to-day operations of data centers by
+        providing change, configuration and asset management capabilities.
+
+  - uuid : udx8a2gos5
+    term : Pico Projector
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Pico projectors** are very small projector modules that can be integrated into mobile devices, such as handsets or
+        laptops, or used to create highly portable projector accessories for mobile workers. They can be implemented using several
+        technologies, including liquid-crystal-on-silicon imaging chips with light-emitting diode or laser diode illumination,
+        microelectromechanical systems digital light processing technology, or laser diffraction.
+
+  - uuid : udx8a2ig3d
+    term : Picocell
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Short-range cellular base station typically providing 100-meter to 250-meter range, used to boost in-building cellular
+        coverage or for high-traffic locations.
+
+  - uuid : udx8a2jwda
+    term : PIM (personal Information Manager)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software that organizes and manages random information for fast retrieval on a daily basis. It provides a combination of
+        features, including telephone list with automatic dialing, calendar and scheduler.
+
+  - uuid : udx8a2ldna
+    term : PIMS (production Information Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as a "process information management system," a PIMS is a client/server application for the acquisition,
+        display, archiving and reporting of information from a wide variety of control, plant and business systems. A critical
+        component in a manufacturing enterprise's application architecture for creating a common repository of plant information
+        that can be effectively leveraged in enterprise and supply chain management applications.
+
+  - uuid : udx8a2mpqu
+    term : Plain Old XML (POX)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Plain Old XML (POX)** refers to techniques where applications exchange raw XML documents using standard transfer
+        protocols, such as HTTP, Simple Mail Transfer Protocol (SMTP) and File Transfer Protocol (FTP), or using proprietary
+        protocols (such as message-oriented middleware). "Raw" means that XML documents aren't wrapped in any kind of messaging
+        protocol or envelope, such as SOAP or AtomPub. Instead, POX relies on packaging capabilities of the transfer protocol and
+        out-of-band agreements to supply infrastructure information and all metadata about payload formats and service interface
+        descriptions. Those trade-offs aside, POX supports exceptional interoperability. It provides significantly less
+        infrastructure functionality than other XML messaging systems, such as a message envelope, and, therefore, imposes
+        additional burdens on applications to perform infrastructure functionality.
+
+  - uuid : udx8a3xsw
+    term : Platform As A Service (PaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **platform as a service (PaaS)** offering, usually depicted in all-cloud diagrams between the SaaS layer above it and
+        the IaaS layer below, is a broad collection of application infrastructure (middleware) services (including application
+        platform, integration, business process management and database services). However, the hype surrounding the PaaS concept
+        is focused mainly on application PaaS (aPaaS) as the representative of the whole category.
+
+  - uuid : udx8a32qn0
+    term : Platform-independent
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software that can run on a variety of hardware platforms or software architectures. Platform-independent software can be
+        used in many different environments, requiring less planning and translation across an enterprise. For example, the Java
+        programming language was designed to run on multiple types of hardware and multiple operating systems. If Java
+        platform-independence becomes a reality, organizations with multiple types of computers will be able to write a
+        specialized application once and have it be used by virtually everyone, rather than having to write, distribute and
+        maintain multiple versions of the same program.
+
+  - uuid : udx8a34gts
+    term : PLC (programmable Logic Controller)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The fundamental building block of factory and process automation. A specialty purpose computer, including input/output
+        processing and serial communications, used for executing control programs, especially control logic and complex interlock
+        sequences. PLCs can be embedded in machines or process equipment by OEMs, used stand-alone in local control environments
+        or networked in system configurations.
+
+  - uuid : udx8a35t5x
+    term : Podcast
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Audio (or audio and video) content specifically designed for synchronizing and playback on mobile audio players, such as
+        Apple's iPod and MP3 playback-enabled mobile phones. Much of this content is highly topical, derived from radio or TV
+        broadcasts, and it is often free. Podcasts are an example of "sticky" content: listeners are encouraged to subscribe to a
+        podcast "channel" that typically is updated with new content daily or weekly. See also mobisode.
+
+  - uuid : udx8a37p5g
+    term : Podcasting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Podcasting** started out as radiolike broadcasts of spoken word content, ranging from individual recorded essays or
+        free-form rants to more conventional talk-show-like formats across a varied set of themes. Podcasts -- video or audio --
+        are delivered via RSS. They can be consumed on any device that supports audio playback, ranging from smartphones to
+        tablets and portable music players, such as the Apple iPod.
+
+  - uuid : udx8a39jcb
+    term : Point To Point
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Describes a circuit that connects two points directly, where there are generally no intermediate processing nodes,
+        although there could be switching facilities. See multipoint.
+
+  - uuid : udx8a3b1x8
+    term : Poke-yoke
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A mistake-proofing device or procedure to prevent a defect during order intake or manufacturing.
+
+  - uuid : udx8a3cjfb
+    term : Polymer Memory
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Polymer memory** refers to memory technologies based on the use of organic polymers. Some of these technologies use
+        changes in the resistance of conducting polymers under read/write control. Other architectures are based on ferroelectric
+        polymers. The properties of polymer memory are low-cost and high-performance, and have the potential for 3D stacking and
+        mechanical flexibility. Variants can be write-once or multiple-write. Printed versions of this technology already exist
+        and are used in low-density applications such as toys.
+
+  - uuid : udx8a3ebyh
+    term : POP (point Of Presence)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.Since divestiture, the physical access location within a local access and transportation area (LATA) of a long-distance
+        and/or interLATA common carrier.
+
+        2.The point to which the local telephone company terminates subscribers' circuits for long-distance, dial-up, or
+        leased-line communications.
+
+        3.An Internet provider's node that allows subscribers to dial in using modems and voice lines.
+
+  - uuid : udx8a3g3me
+    term : Portable Flash Media For Content Distribution
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Portable flash media for content distribution** is the distribution of media on removable flash memory devices, such as
+        flash cards and USB drives. The media can be promotional or full-length and often refer to music, movies, TV episodes,
+        video game software, maps, electronic books (e-books) and other consumer content. The memory employed is based on
+        reprogrammable NAND flash memory--not to be confused with one-time programmable memory, such as mask ROM or 3D memory,
+        which is often used in storing gaming software content.
+
+  - uuid : udx8a3hule
+    term : Portable Storage Device Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Portable storage device control** tools are software-based tools that prevent unwanted data leakage through peripheral
+        storage devices. They are designed to support more-secure use of portable storage devices (such as USB flash drives,
+        portable media players, mobile phones and flash cards) by enabling granular control of these devices. Logging and
+        reporting capabilities, through a management console, are also included. Portable device control tools can enable the
+        enforced encryption of the data being downloaded to a device.
+
+  - uuid : udx8a3jkgc
+    term : Portable Wireless
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Term used by the WiMAX Forum for semimobile wireless. The terms "nomadic," "portable" and "mobile" often vary in
+        definition when used by vendors. See also fixed wireless and mobile wireless.
+
+  - uuid : udx8a3l2an
+    term : Portal-enabling Middleware
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The toolset for a portal including the platform middleware and the integration and context management tools.
+
+  - uuid : udx8a3mjds
+    term : Portal Fabric
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **portal fabric** is a concept whereby portals and Web resources adapt to users' preferred environments and
+        interaction patterns, rather than forcing them to change their behaviors based on a portal they're visiting. The
+        technology underpinnings of the portal fabric rely on standards for federated identity and access management, context
+        awareness, social interaction, content interoperability, and presence awareness.
+
+  - uuid : udx8a411ji
+    term : Portal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **portal** is a high-traffic website with a wide range of content, services and vendor links. It acts as a value-added
+        middleman by selecting the content sources and assembling them in a simple-to-navigate and customize interface for
+        presentation to the end user. Portals typically offer such services as Web searching, news, reference tools, access to
+        online shopping venues, and communications capabilities including e-mail and chat rooms.
+
+  - uuid : udx8a42s19
+    term : Portals And User Interaction Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Organizations use both portal and other user interface products to provide access to, and interaction with, relevant
+        information, applications, business processes and human resources for select targeted audiences. Especially where these
+        are provided by portals, these can be delivered in a highly personalized manner. Horizontal portal products can be used to
+        create portals facing a variety of external and internal audience types. A modern portal product is programmable and thus
+        performs platform middleware functions. Increasingly, it also includes integration middleware functions, such as
+        transformation and intelligent routing (that is, it can include some form of basic integration suite). Modern horizontal
+        portal products often include at least limited support for Web content management and collaboration features and often
+        come with an embedded search engine.
+
+  - uuid : udx8a44f18
+    term : Portfolio Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **portfolio management** as a shift from the practice of using a single integrated application for the
+        support of business requirements to using a collection of applications, technologies and services to create a system that
+        addresses the unique requirements of an organization and leverages best-of-breed opportunities.
+
+  - uuid : udx8a45mu8
+    term : Porting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Modifying code that runs on one hardware platform or operating system so that it will properly execute on another hardware
+        platform or operating system.
+
+  - uuid : udx8a474vv
+    term : POS (point Of Sale)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        POS systems use personal computers or specialized terminals in combination with cash registers, optical scanners or
+        magnetic-stripe readers to capture and record data at the time of transaction. POS systems are usually online to a central
+        computer for credit checking and inventory updating. Alternatively, they may be independent systems that store daily
+        transactions until they can be transmitted to the central system for processing.
+
+  - uuid : udx8a48gyf
+    term : POS (point Of Service)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A type of health maintenance organization (HMO) plan that offers limited coverage for care received outside the HMO's
+        network.
+
+  - uuid : udx8a4a3of
+    term : Postpaid Connection
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A contract that includes airtime and is paid for at scheduled intervals (generally monthly).
+
+  - uuid : udx8a4blw7
+    term : Power Adaptive Algorithms
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Power adaptive algorithms** select their method, changing the intensity of the computing resources (and thus energy use)
+        to accomplish different objectives for power savings or service levels. This requires that the designer of the adaptive
+        software think of multiple ways to accomplish the function, code each method and provide a mechanism to switch between
+        them, based on a desired policy.
+
+  - uuid : udx8a4ddql
+    term : Predictive Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Predictive analytics** describes any approach to data mining with four attributes: an emphasis on prediction (rather
+        than description, classification or clustering), rapid analysis measured in hours or days (rather than the stereotypical
+        months of traditional data mining), an emphasis on the business relevance of the resulting insights (no ivory tower
+        analyses) and (increasingly) an emphasis on ease of use, thus making the tools accessible to business users.
+
+  - uuid : udx8a4f4ip
+    term : Predictive Behavior Analysis
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The use of techniques such as data mining, data visualization, algorithm clustering, and neural networking to find
+        patterns or trends in data. These patterns or trends are used to forecast future behavior based on current or past
+        behavior. Uses of predictive behavior analysis include identifying customers likely to drop out or default; identifying
+        products customers are likely to buy next; developing customer segments or groups; and product development.
+
+  - uuid : udx8a4grsl
+    term : Predictive Modeling Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Predictive modeling is the process of analyzing data to create a statistical model of future behavior. **Predictive
+        modeling solutions** are a form of data-mining technologies that work by analyzing historical and current data, and
+        generating a model to help predict future outcomes. These technologies can be used to generate a score (for example, a
+        credit score), to assess behavior (for example, fraud detection or customer acquisition), or to analyze needed reserves.
+        Insurers can apply this to key activities, such as customer service, pricing, actuarial, underwriting and claims, to
+        improve outcomes.
+
+  - uuid : udx8a4ilg7
+    term : Predictive Modeling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Predictive modeling** is a commonly used statistical technique to predict future behavior. Predictive modeling solutions
+        are a form of data-mining technology that works by analyzing historical and current data and generating a model to help
+        predict future outcomes. In predictive modeling, data is collected, a statistical model is formulated, predictions are
+        made, and the model is validated (or revised) as additional data becomes available. For example, risk models can be
+        created to combine member information in complex ways with demographic and lifestyle information from external sources to
+        improve underwriting accuracy. Predictive models analyze past performance to assess how likely a customer is to exhibit a
+        specific behavior in the future. This category also encompasses models that seek out subtle data patterns to answer
+        questions about customer performance, such as fraud detection models. Predictive models often perform calculations during
+        live transactions--for example, to evaluate the risk or opportunity of a given customer or transaction to guide a
+        decision. If health insurers could accurately predict secular trends (for example, utilization), premiums would be set
+        appropriately, profit targets would be met with more consistency, and health insurers would be more competitive in the
+        marketplace.
+
+  - uuid : udx8a4kegd
+    term : Predictive Support
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Predictive support** provides synchronous real-time intervention based on continuous monitoring and asynchronous trend
+        analysis to prevent service-impacting events or incidents and guarantee performance and availability. Predictive services
+        reach out to individual customer configurations before specific issues, which may be unknown and unpredictable, manifest
+        themselves. The support provider proactively attempts to eliminate causes and mitigate contributory factors, where
+        feasible and practical, within the scope of the defined support contract.
+
+  - uuid : udx8a4m74y
+    term : Prerelational DBMS
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        DBMS architectures were defined before relational theory became widely used. The prerelational DBMS generally is based on
+        a hierarchical structure or a navigational (also known as network) structure.
+
+  - uuid : udx8a5dh6
+    term : Presence
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A foundational technology that provides indications of the status and availability of contacts. Presence shows whether a
+        participant is online, and may provide a description of that person's status.
+
+  - uuid : udx8a51v2l
+    term : Print Markets And Management Hardware
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes copiers and printers.
+
+        -   Copiers -- Copiers perform image capture and transfer. This category includes analog (optical technology) and digital
+            (digital scanning and printing technology) copiers.
+
+        -   Printers -- A printer is the peripheral output device of a computer system for producing computer-generated images on
+            paper using various marking technologies. To be classified in this segment, the device needs to be capable of using
+            plain or coated papers with a minimum size of International Organization for Standardization A4, U.S. size A (letter)
+            or continuous forms with an 8-inch print width or greater, but it excludes products that support paper widths above A2
+            or U.S. size C (17 inches by 22 inches). The definition also excludes other classes of application-specific printers,
+            such as point-of-sale printers, video printers and dedicated photo printers.
+
+  - uuid : udx8a53my4
+    term : Printed Semiconductors
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Printed semiconductors** are fabricated by depositing materials directly onto a substrate, typically using a combination
+        of printing processes that include inkjet and gravure printing. This has the potential to open new markets in which
+        semiconductors are printed directly onto various surfaces. Diodes are the initial focus of the technology, and they will
+        be followed by more complex transistor functions. RFID tags and sensors form a key market for printed semiconductors. Some
+        electronic paper technology uses a variant of printed semiconductors.
+
+  - uuid : udx8a55ivl
+    term : Privacy Management Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Privacy management tools** help organizations conduct privacy impact assessments, check processing activities against
+        requirements from privacy regulations, and track incidents that lead to unauthorized disclosures of personal data
+        (investigation, remediation, reporting). They analyze and document data flows of personal information (nature of data,
+        purpose of processing, data controller), support authoring and distribution of privacy policies (for which they provide
+        templates) and track user awareness (users acknowledge having read the policies).
+
+  - uuid : udx8a57b4a
+    term : Private Cloud Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Private cloud computing** is a form of cloud computing that is used by only one organization, or that ensures that an
+        organization is completely isolated from others.
+
+  - uuid : udx8a58rm6
+    term : Private Key
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The confidential half of the asymmetric key pair used in public-key cryptography. Unlike the "secret key" used in
+        symmetric-key cryptography -- a single key known by both the sender and the receiver -- a private key is known only by the
+        recipient. See public-key cryptography and secret-key cryptography.
+
+  - uuid : udx8a5a9sb
+    term : Problem Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The core function of a customer service and support (CSS) application used by call centers. It coordinates a multitier,
+        multiowner service and support environment, enables pattern analysis, provides management reports, and facilitates
+        requesting additional service and support resources by providing hard numbers on the service workload and its changing
+        nature. Because PM tools can also track service-level agreements (SLAs), they are valuable for monitoring compliance.
+
+  - uuid : udx8a5c0oa
+    term : Process Analytical Technology (PAT)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Process analytical technology (PAT)** is a system for analysis and control of manufacturing processes that measures
+        critical quality parameters and performance attributes of raw and in-process materials. It enables in-process data to be
+        used for assessing the quality of a batch during manufacture, significantly reduces the need for finished product testing,
+        and as a result, improves lead times.
+
+  - uuid : udx8a5dt0e
+    term : Process Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The regulation of variables that influence or control the conduct of a process so that a specified quality and quantity of
+        product are obtained.
+
+  - uuid : udx8a5fa44
+    term : Process Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Process management** is a management concept that describes the goal of increasing intraenterprise coordination of
+        separate business functions. Business process re-engineering is a form of process management that focuses on replacing
+        traditional functions (e.g., sales, marketing and service) with functionally integrated processes (e.g., customer
+        relationship management). The growth in the demand for enterprise software reflects the need for increased integration and
+        sharing of business information throughout an enterprise.
+
+  - uuid : udx8a5h0qx
+    term : Process Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Specific to the communications environment, the practice of telecom expense management (TEM) encompasses the business
+        processes conducted by IT and finance departments to acquire the provision (and support) of corporate telecommunications
+        assets. Put another way, TEM is the build-out of services, or the acquisition of third-party services, to manage the
+        supply chain for telecommunications. Gartner has identified the component services of TEM as: sourcing, ordering and
+        provisioning, inventory management, invoice and contract management, use management, dispute management, and business
+        intelligence.
+
+  - uuid : udx8a5istk
+    term : Process Manufacturing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Manufacturing that adds value by performing chemical reactions or physical actions to transform materials, or by
+        extracting, mixing, separating or forming materials in batch or continuous production modes.
+
+  - uuid : udx8a5kayr
+    term : Process Templates
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        "Process templates" is an overarching term that describes prebuilt business process design, execution and management
+        artifacts that accelerate time to solution. They are also known by various names, such as "solution frameworks, "solution
+        templates", "solution kits", "starter kits", "process accelerators" and "process pods". Process templates are available
+        from application and middleware vendors ? as well as from consulting and system integration (C&SI) companies, outsourcing
+        firms and cloud service providers.Typically, process templates are graphical and are based on process flows, rules or
+        service-oriented architecture (SOA). The contents vary dramatically by provider. Some offer simple visual process models
+        that are useful in jump-starting discussions about target processes for improvement. Others provide prebuilt detailed
+        process models, technical reference models, candidate service definitions, technical service libraries, rule sets, user
+        interface templates, simulation scenarios, recommended governance policies, delivery and deployment guides, and process
+        improvement methodologies.
+
+  - uuid : udx8a5m3jt
+    term : Processing, Line
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The processing of transactions as they occur, with no preliminary editing or sorting before they enter the system.
+
+  - uuid : udx8a68xv
+    term : Processor Emulation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Processor emulation** is a virtualization technology that allows software compiled for one processor/operating system to
+        run on a system with a different processor/operating system, without any source code or binary changes. This is done by
+        dynamically translating processor instructions and operating system calls as an application is running.
+
+  - uuid : udx8a621wc
+    term : Procure-to-Pay Solution
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        As its name implies, a **procure-to-pay** (or purchase-to-pay) system is a fully integrated solution designed to support
+        an end-to-end process that begins with goods and services requisitioning and ends with ready-to-pay files for upload into
+        an accounts payable system. Procure-to-pay solutions use a scan-and-capture service, supplier portal and/or a
+        multienterprise network to enable suppliers to submit invoices electronically. In addition to core e-procurement
+        functionality (including e-requisitioning, approval workflow and e-catalog management), procure-to-pay solutions offer
+        purchase-order-to-invoice matching and processing for invoices that don't match or when goods are returned.
+
+  - uuid : udx8a63tiu
+    term : Procurement Applications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Procurement applications** are used to help companies understand and improve the terms and conditions of trade and to
+        comprehend enterprise spending. These applications assist in supplier selection, the analysis of supplier performance, and
+        the establishment of the terms of trade to balance cost, quality and risk. Typical modules and applications include:
+
+        E-procurement
+
+        Strategic sourcing
+
+        Procurement business process hubs
+
+        Contract management
+
+        Tactical sourcing (request for quotation)
+
+        Spending analysis
+
+        Buy-side catalog management
+
+        Supply base management
+
+  - uuid : udx8a65l1y
+    term : Procurement Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **procurement network** is a type of business process network: integration as a service tailored with applications to
+        support one or more procurement processes, such as: Purchase to pay, with e-catalog management and purchase order document
+        exchange Supplier information management, with credential document and firmographic data storage E-sourcing, with
+        opportunity listings for suppliers and support for supplier electronic bid submission The defining characteristic of a
+        procurement network is multienterprise integration support that enables suppliers to view information from and participate
+        in processes with multiple buyers, in the same account.
+
+  - uuid : udx8a676gb
+    term : Product Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Product analytics** is a specialized application of business intelligence (BI) and analytical software that consumes
+        service reports, product returns, warranties, customer feedback and data from embedded sensors to help manufacturers
+        evaluate product defects, identify opportunities for product improvements, detect patterns in usage or capacity of
+        products, and link all these factors to customers. Product analytics can also incorporate feeds from social platforms to
+        track complaints about products. By analyzing product data feeds in real time, this software can proactively alert
+        manufacturers to service and replacement needs in reactive as well as preventive maintenance scenarios, and help route
+        service requests to the proper individuals or, with the help of machine-to-machine (M2M) technologies, perform service
+        remotely.
+
+  - uuid : udx8a68wy2
+    term : Product Catalog
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Contains all commercial product information that enables product marketing managers to define and map new product
+        offerings. This encompasses certain sets of tools that allow configuration of new products and service bundles, pricing
+        and discounts.
+
+  - uuid : udx8a6af6y
+    term : Product Configurators
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **product configurator** is stand-alone software that supports insurance product development activities, including
+        pricing, product modeling and testing. Central components are a workbench, a calculation engine and a graphical user
+        interface. While many policy management solutions have product management capabilities, product configurators are
+        independent solutions that allow them to be used for companies with multiples lines of business or multiple core systems
+        to have an enterprise product repository.
+
+  - uuid : udx8a6c8kb
+    term : Product Cost And Life Cycle Management (PCLM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Product cost and life cycle management (PCLM)** is core to maximizing product profitability from introduction to end of
+        life. PCLM helps product management and operations executives address the many reasons why products fail to meet business
+        targets. Unbalanced product portfolios can bring the wrong products to market or sacrifice the operations excellence
+        needed for efficient, reliable customer service. PCLM speeds the right products to market, while ensuring profitable
+        growth.
+
+  - uuid : udx8a6dym9
+    term : Product Cost Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Product cost management** is a technology that predicts and captures estimates of the costs of products, systems or
+        solutions over their life cycles. Software functionality predicts costs and enables users to capture estimated costs and
+        track actual costs versus predicted costs. It includes analytical tools to identify the major sources of costs and to
+        leverage historical predicted/estimated costs and actual costs for comparison, with future predicted/estimated product,
+        service and solution costs for profitable trade-offs.
+
+  - uuid : udx8a6ftvd
+    term : Product Life Cycle Management (PLM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Product life cycle management (PLM)** is a philosophy, process and discipline supported by software for managing
+        products through the stages of their life cycles, from concept through retirement. As a discipline, it has grown from a
+        mechanical design and engineering focus to being applied to many different vertical-industry product development
+        challenges.
+
+  - uuid : udx8a6hmwu
+    term : Product Portfolio And Program Management (PPM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Product portfolio and program management (PPM)** is the continuous cultivation of a product set and the set of
+        capabilities to prioritize and manage product development programs. Software that supports portfolio management assists in
+        analyzing and reporting risks versus opportunities, and it makes these analyses and opinions visible to all decision
+        makers. PPM includes dashboards with executive views of decision variables, such as risk, opportunity, resource
+        allocation, investments, product-revenue performance and customer acceptance. For decision-making teams, this visibility
+        makes the selection of product investments more objective. It also helps manufacturers to systematically allocate
+        resources for product life cycle support. This category also includes project/program management capabilities to monitor
+        the progress of product development programs and make adjustments when teams encounter bottlenecks or other difficulties.
+
+  - uuid : udx8a6jecg
+    term : Product Support Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Product support services refer to labor-based services for hardware or software, which can be performed by the
+        manufacturer of the product or parties other than the vendor that created the product. These services can be provided by
+        several types of vendors, typically including hardware OEMs, such as Dell, HP, EMC or IBM; and software publishers, such
+        as Microsoft, Oracle or SAP. Formal channel partners of hardware and software vendors also provide support services.
+
+        Product support services are also delivered by additional independent service providers and third-party support providers.
+        An independent service provider delivers a broad range of services for hardware and/or software products (such as
+        consulting or support), and may have an alliance with the product manufacturer but not as a primary means to its service
+        business. A third-party support provider primarily delivers break/fix technical support for hardware and/or software
+        products and is not typically aligned with the product manufacturer but may have a relationship in certain specific
+        exceptional cases.
+
+  - uuid : udx8a6l7d6
+    term : Production Devices
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Production devices encompass printers, stand-alone copiers and MFPs featuring a printing speed of more than 70 ppm in both
+        monochrome and color. Production printers perform three specific types of printing:
+
+        -   Transaction printing includes statements, bills, notices and other transactional documents that are printed in large
+            volumes. With the growth of color print, transaction printing is merging into direct marketing with promotional and
+            marketing pieces with the inclusion of personalized color items as well. "Transpromo" refers to transactional
+            documents that have a promotional message or third-party advertising on them.
+
+        -   Direct marketing, such as direct-mail packages.
+
+        -   Publishing that includes short-run printing, print on demand (POD) booklets, catalogs, manuals and brochures, which
+            are printed on an as-needed basis. POD is also being used to print books that are published in limited volumes.
+
+  - uuid : udx8a6n1v6
+    term : Project Management Office (PMO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **project management office (PMO)** is usually created to solve a specific problem: generally, the IT organization's
+        inability to deliver IT projects on time, on budget and in scope. Project managers may "live" in the PMO, or in different
+        IT units, such as in application development or in the business.
+
+        Almost all PMOs start at this initial project management stage before they can evolve to the program management or
+        portfolio management stages.
+
+        The scope of work changes from tactical to strategic, while the scope of initiatives broadens from IT-intensive projects
+        to enterprise-wide business and IT initiatives. Once the PMO has earned credibility with the business, it usually receives
+        requests to help manage business projects.
+
+  - uuid : udx8a71k18
+    term : Project Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Project management** is the application of knowledge, skills, tools and techniques to project activities to meet the
+        project requirements.
+
+        Gartner analysts observe many clients focused on enhancing the collaboration, communication and resulting project
+        portfolio-level reporting needed to gain first-line visibility into project demand, project status, resource capacity and
+        utilization, and cost estimates versus actuals.
+
+        PPM leaders recognize that the primary value of projects goes beyond delivering on-time and on-budget projects, and rather
+        ensures the expected business outcomes and realized value. Further, they are increasingly aware that the biggest changes
+        from project activities are actually people-oriented, and that they influence culture and mind-sets across the enterprise.
+
+        Successful project management is characterized by the ongoing development and refinement of methods and practices and
+        ensuring that any software tools deployed meet the needs without becoming a burden.
+
+  - uuid : udx8a73cck
+    term : Proprietary Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software that is owned by an organization or an individual, as opposed to "public-domain software," which is freely
+        distributed. The explosion in the use of the Internet has expanded the reach of public-domain software since it is now
+        much easier to transmit these programs. While many commercial software developers have developed software that has become
+        the de facto standard (e.g., Microsoft's Windows programs), proprietary software that is based on proprietary protocols,
+        or standards, can create obstacles for application development and usage.
+
+  - uuid : udx8a74ypn
+    term : Protocol Conversion
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of translating the protocol native to an end-user device (e.g., a terminal) into a different protocol (e.g.,
+        ASCII to BSC), allowing that end-user device to communicate with another device (e.g., a computer) with which it would
+        otherwise be incompatible. Protocol conversion can be performed by a dedicated device (a protocol converter); by a
+        software package loaded onto an existing system, such as a general-purpose computer, front-end processor, or private
+        branch exchange (PBX) system; or by a value-added network, such as Telenet.
+
+  - uuid : udx8a76rmi
+    term : Protocol Stack
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A defined protocol with options applicable for specific functions that can be implemented as a product. Also called a
+        functional standard or functional profile.
+
+  - uuid : udx8a78afu
+    term : Protocol-transparent
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Refers to a device's capability to perform its function independent of the communications protocol.
+
+  - uuid : udx8a79quv
+    term : Protocol
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set of procedures in telecommunications connections that the terminals or nodes use to send signals back and forth.
+        Transmission Control Protocol/Internet Protocol (TCP/IP) is the standard protocol for the Internet and related networks
+        such as intranets and extranets. Local-area networks (LANs) often rely on a different protocol. Networks and systems
+        cannot communicate unless they use the same protocol or make use of a gateway.
+
+  - uuid : udx8a7bj1q
+    term : Proxy Agent
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A network management agent that comes between an unmanaged device and a management system, allowing management by proxy,
+        i.e., on behalf of the device.
+
+  - uuid : udx8a7cvyp
+    term : Proxy Servers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Devices that process and filter all Internet Protocol (IP) packets that are directed to them and decide which protocols
+        and services can be served out of their caches. Proxy servers tend to offer the greatest range of protocol and caching
+        support since they cache Hypertext Transport Protocol (HTTP), Secure Hypertext Transport Protocol (HTTPS), File Transfer
+        Protocol (FTP) and, in some cases, streaming content such as RealAudio and PointCast. Each workstation addresses the proxy
+        server directly by setting specific parameters in each browser on each workstation.
+
+  - uuid : udx8a7ej2s
+    term : PSA (professional Services Administration)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The integration of planning, resource management, project management and project accounting for service organizations.
+
+  - uuid : udx8a7g193
+    term : PSK (phase-shift Keying)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Phase modulation that uses discrete, present changes of phase.
+
+  - uuid : udx8a7hggy
+    term : PTR (peak Transaction Rate)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Total number of wireless transactions by all mobile devices during a specified period of time per access point.
+
+  - uuid : udx8a7ixsx
+    term : PTT PoC (push-to-talk Over Cellular)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        OMA-defined specification for the delivery of PTT walkie-talkie services over a packet radio network, typically GPRS.
+
+  - uuid : udx8a7kfxp
+    term : Public Cloud Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **public cloud computing** as a style of computing where scalable and elastic IT-enabled capabilities are
+        provided as a service to external customers using Internet technologies--i.e., public cloud computing uses cloud computing
+        technologies to support customers that are external to the provider's organization. Using public cloud services generates
+        the types of economies of scale and sharing of resources that can reduce costs and increase choices of technologies.From a
+        government organization's perspective, using public cloud services implies that any organization (in any industry sector
+        and jurisdiction) can use the same services (e.g., infrastructure, platform or software), without guarantees about where
+        data would be located and stored.
+
+  - uuid : udx8a7m6ch
+    term : Public-key Cryptography
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An encryption technique developed to overcome the limitations of secret-key cryptography (see separate entry). Public key
+        (also called "asymmetric key") cryptography uses two mathematically related keys: A public key to encrypt messages, and a
+        private key to decrypt them. In a public-key system, you communicate privately by encrypting your message using the public
+        key of your intended recipient. Although everyone else knows the recipient's public key, it is useless for decrypting a
+        message encrypted with it. Only the corresponding private key, known only to the recipient, can decrypt the message.
+
+  - uuid : udx8a8hte
+    term : Public-Key Infrastructure (PKI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Public-key infrastructure (PKI)** was developed mainly to support secure information exchanges over unsecure networks.
+        It has been used to ensure that the person identified as sending a transaction is the originator, that the person
+        receiving the transaction is the intended recipient and that the transaction data has not been compromised. PKI requires a
+        system for generating and managing digital certificates that identify the holders (people, systems or devices) of assigned
+        public and private key pairs, which is useful for identification, authentication, encryption and digital signing.
+        Enterprise PKI refers to the use of this system over enterprise intranets, and involves the issuance of digital
+        certificates to individual users, servers and services, and software tools that assist with enrollment, integration with
+        directory services, managing keys, and renewal and revocation of certificates.
+
+  - uuid : udx8a828ip
+    term : Public Key
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The public half of the asymmetric key pair used in public-key cryptography (see separate entry).
+
+  - uuid : udx8a83rnc
+    term : Publish And Subscribe
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A communication pattern in which information sources "publish" (i.e., send) information to a somewhat intelligent
+        middleware infrastructure, and information consumers "subscribe" by specifying what kind of information they want to
+        receive from the infrastructure. The middleware must be able to physically transport messages from one or more publishers
+        to one or more subscribers. It also must be smart enough to find the proper destinations by matching each message to
+        subscription criteria. This model naturally supports one-to-many or many-to-many communication -- in contrast to either
+        message passing or message queuing, both of which mostly (but not entirely) aim at one-to-one communication.
+
+  - uuid : udx8a85kjt
+    term : Publish/subscribe Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Processes that acquire or receive messages from source applications and publish these messages on a systemwide bulletin
+        board or, in alternative terminology, put them on a software bus where all other processes can "see" them. Application
+        processes generally indicate which messages they are interested in by supplying one or more rules to the integration
+        broker (IB). Also described as a software bus architecture.
+
+  - uuid : udx8a86ww2
+    term : Pull Printing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also called "follow-me printing," pull printing allows for a print job to be sent to a pull-printing server, which
+        delivers the print job to the printer. This frees up the user's computer for other tasks and reduces network traffic.
+        Word-processing documents and even Web pages (referred to as Web pull printing) can be pull-printed without having the
+        file opened on the user's computer. The user sends the document's location to the pull-printing server for processing.
+
+  - uuid : udx8a88jt0
+    term : Pull
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        All activities being undertaken within the lean enterprise according to and at the rate of the actual demand requirements
+        of the end consumer.
+
+  - uuid : udx8a8a1x7
+    term : Pulse Carrier
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A series of identical pulses intended for modulation.
+
+  - uuid : udx8a8bimk
+    term : Push Technology
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software that automates the delivery of information to users. In contrast, the Web is a "pull" environment that requires a
+        user to seek information.
+
+        In a "push" environment, information is sent to a person proactively, through a Web browser, e-mail, or even voice mail or
+        a pager. In business, push technology can be used for the conveyance of time-sensitive information, like changes in
+        commodity pricing or the introduction of promotional programs to a sales force. Enterprises can employ push technology to
+        communicate externally with their clients or internally with their employees over a network.
+
+  - uuid : udx8a8d9jc
+    term : PWM (pulse Width Modulation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A method of encoding information based on variations of the duration of carrier pulses. Also called pulse duration
+        modulation (PDM).
+
+  - uuid : udx8a8ery2
+    term : PX (private Exchange)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An internal telephone exchange serving a single organization and having no connection with a public exchange. Also private
+        automatic exchange (PAX). Other types of private exchange include:
+
+        1.Private automatic branch exchange (PABX): A private automatic telephone exchange that provides for the transmission of
+        calls internally and to and from the public telephone network. Also private branch exchange (PBX).
+
+        2.Private automatic telex exchange (PATX): Provides telex service within and without an enterprise (largely obsolete).
+
+        3.Private manual branch exchange (PMBX): Private, manually operated telephone exchange that provides private telephone
+        service to an organization and allows calls to be transmitted to or from the public telephone network.
+
+        4.Private digital exchange (PDX): Private exchange employing digital transmission techniques.
+
+# __END__

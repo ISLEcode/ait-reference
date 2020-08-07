@@ -1,0 +1,465 @@
+title    : ISLE AIT computer science glossary -- O words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx89v8643
+    term : OASIS
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **OASIS** (Organization for the Advancement of Structured Information Standards) is an international nonprofit consortium
+        that promotes open, collaborative development of e-business specifications based on public standards such as XML and SGML.
+
+  - uuid : udx89v9n9n
+    term : Object-Based Middleware
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object-based middleware** is runtime software that enables objects (components) to work cooperatively with a container
+        program or another object, even if the software is distributed across multiple computers.
+
+  - uuid : udx89vb5nu
+    term : Object-Based Technologies
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object-based technologies** are technologies in which objects have encapsulation.
+
+  - uuid : udx89vcmwp
+    term : Object Class
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object class** is the grouping of objects that can be described in terms of the attributes its members have in common.
+        Generic e-mail, for example, could be an object class, because all e-mail systems have certain things in common.
+
+  - uuid : udx89vefvk
+    term : Object Data Model
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **object data model** is a data model based on object-oriented programming, associating methods (procedures) with
+        objects that can benefit from class hierarchies. Thus, "objects" are levels of abstraction that include attributes and
+        behavior. An object-oriented data model is one that extends the individual program space into the world of persistent
+        object management and shareability.
+
+  - uuid : udx89vg8gg
+    term : Object Instance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object instance** is a specific occurrence of an object. For example, a specific mail message document is an instance.
+
+  - uuid : udx89vhpg8
+    term : Object Late Binding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object late binding** is a runtime interpretation of messages. Using late binding, objects are integrated at runtime, as
+        opposed to compiling an integrated object. This greatly enhances flexibility.
+
+  - uuid : udx89vj7gn
+    term : Object-Oriented Analysis And Design
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object-oriented analysis and design (OOA&D)** tools support object analysis and design technologies and commonly use
+        Unified Modeling Language (UML) notation with a variety of methodologies to assist in the creation of highly modular and
+        reusable software. Most also support the use of Domain Specific Language concepts as a complement to UML. Applications,
+        data, networks and computing systems are treated as objects that can be mixed and matched flexibly rather than as
+        components of a system with built-in relationships. As a result, an application does not need to be tied to a specific
+        system, or data to a specific application. Please note that the UML standard from Object Management Group (OMG) has become
+        the de facto standard for OOA&D tools.
+
+  - uuid : udx89vl09d
+    term : Object-Oriented Database Management System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An**object-oriented database management system (OODBMS)** applies concepts of object-oriented programming, and applies
+        them to the management of persistent objects on behalf of multiple users, with capabilities for security, integrity,
+        recovery and contention management. An OODBMS is based on the principles of "objects," namely abstract data types,
+        classes, inheritance mechanisms, polymorphism, dynamic binding and message passing.
+
+  - uuid : udx89vms2b
+    term : Object-Oriented Programming
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object-oriented programming (OOP)**  is a style of programming characterized by the identification of classes of objects
+        closely linked with the methods (functions) with which they are associated. It also includes ideas of inheritance of
+        attributes and methods. It is a technique based on a mathematical discipline, called "abstract data types," for storing
+        data with the procedures needed to process that data. OOP offers the potential to evolve programming to a higher level of
+        abstraction.
+
+  - uuid : udx89w19fh
+    term : Object-Oriented System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In an **object-oriented system** , all data is represented as discrete objects with which the user and other objects may
+        interact. Each object contains data as well as information about the executable file needed to interpret that data. An
+        object-oriented system allows the user to focus completely on tasks rather than tools. Examples of object-oriented
+        programming languages include C++ and Smalltalk.
+
+  - uuid : udx89w2spe
+    term : Object-Oriented Technology
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object-oriented technology (OOT)**  is a software design model in which objects contain both data and the instructions
+        that work on the data. It is increasingly deployed in distributed computing.
+
+  - uuid : udx89w49xu
+    term : Object Request Broker
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object request brokers (ORBs)** are an enriched middleware platform -- compared with their predecessors, RPC middleware
+        -- including program activation, which most RPCs did not offer. Full-featured CORBA ORBs are transactional platforms, with
+        a special affinity for the object-oriented programming model, including the activation and communications services that
+        are particularly geared to the object-oriented software model. ORB vendors added transaction management, security and
+        other features to their ORBs to enable demanding production applications. OMG CORBA emerged as the widely shared standard
+        programming model for ORBs.
+
+  - uuid : udx89w5xcy
+    term : Object Role Modeling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Object role modeling** is a proprietary method that uses English to convey data design elements. The object is to enable
+        developers to easily present the elements to end users who are unfamiliar with modeling notation.
+
+  - uuid : udx89w7feg
+    term : Object Transaction Monitor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **object transaction monitor (OTM)**  is an application program -- similar to the mainframe Customer Information
+        Control System (CICS) in function, but not in spirit -- that represents a consistent model of an application for a modular
+        and potentially highly distributed environment.
+
+  - uuid : udx89w9704
+    term : Occam Process
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Occam Process** is a solderless approach to electronics manufacturing. The process utilizes a reverse-order
+        interconnection solution that employs mature, low-risk, familiar basic assembly technologies in a novel sequence.
+        Components are interconnected by means of printing or plating after they are held into their final positions via an
+        encapsulation process, thus eliminating conventional printed circuit boards (PCBs) and traditional solder.
+
+  - uuid : udx89wb028
+    term : ODM (own Design Manufacturer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A company that designs, develops and manufactures mobile devices under contract. These devices are sold to end users under
+        the brand of the mobile-device vendor, wireless service provider or contract partner. Examples of ODMs include
+        Taiwan-based BenQ, GVC and HTC.
+
+  - uuid : udx89wcgor
+    term : ODP (on-device Portal)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Small downloadable mobile applications provided by media companies, handset vendors and some operators that make it easier
+        for users to obtain new services such as music, videos, games and applications "off-deck" -- that is, from independent
+        websites. The traditional operator approach to media distribution has been to allow access only to an operator-controlled
+        "walled garden" of content. This has not been popular with consumers, and many operators now allow open access to the
+        Internet, seeking revenue growth from increased data traffic. Examples of ODPs include the Apple iPhone's top-level menu
+        and mobile clients such as Flickr and Facebook. See also off-deck portal.
+
+  - uuid : udx89wea7j
+    term : Off The Shelf
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Off the shelf ** refers to equipmentthat has already been manufactured and is available for delivery from stock.
+
+  - uuid : udx89wfrvy
+    term : Offshore Programming
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Offshore programming** refers to the contracting by a company for software services to be carried out in a country other
+        than its own -- e.g., a user located in North America may choose to have applications maintenance work carried out in
+        India.
+
+  - uuid : udx89wh284
+    term : Olfactory Interfaces
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Olfactory interfaces** synthesize odorants from a digital signature. They consist of a palette of odorants, a flow
+        delivery system, and a control algorithm that determines the mixing ratios, concentration and timing of the stimulus. The
+        palette stores odorants in either gel or microencapsulated form, and the diffuser is typically a set of nozzles equipped
+        with microvalves or ink jet printer nozzles that release gels or liquid droplets by means of electrostatics or heat. A
+        full interface also recognizes odors given off by users.
+
+  - uuid : udx89wisx6
+    term : On-Device Monitoring
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **On-device monitoring** applications collect data on a customer's use of his or her device (mobile, IPTV, tablet, PC or
+        broadband hub) using client software installed on the device. These applications can be used for fault detection and
+        resolution on an individual or aggregate basis; can inform customer services during an interaction with the customer; or
+        provide information during device or service testing.
+
+  - uuid : udx89wkm3a
+    term : Onboarding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Onboarding** is the business process that organizations execute from the point at which a job applicant has accepted an
+        offer of employment to the point at which the new employee is productive at work. The onboarding software includes
+        administrative activities (enrolling in benefits), provisioning activities (assigning office space, user identification
+        and employer property) and orientation (connecting with colleagues and training). Some organizations include employee
+        performance management as part of onboarding.
+
+  - uuid : udx89wm753
+    term : OneAPI
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **OneAPI** , as defined by the telecom industry-led by the Global System for Mobile Communications Association (GSMA) and
+        the Open Mobile Alliance (OMA)-is a set of standardized and lightweight Web-friendly application programming interface
+        (API) for communications service providers (CSPs) to use to expose their networks. Building on OneAPI version 2.0
+        specifications, the current OneAPI specifications, which are at version 3 beta (published from February to April 2012),
+        add the following capabilities: Femto Zonal Presence, Customer Profile, and Anonymous Customer Reference.
+
+  - uuid : udx89xodt
+    term : Online Complex Processing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Online complex processing** is an extension of online transaction processing (OLTP) that includes concurrent ad hoc
+        query and batch processing.
+
+  - uuid : udx89x276i
+    term : Online Transaction Processing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Online transaction processing (OLTP)**  is a mode of processing that is characterized by short transactions recording
+        business events and that normally requires high availability and consistent, short response times. This category of
+        applications requires that a request for service be answered within a predictable period that approaches "real time."
+        Unlike traditional mainframe data processing, in which data is processed only at specific times, transaction processing
+        puts terminals online, where they can update the database instantly to reflect changes as they occur. In other words, the
+        data processing models the actual business in real time, and a transaction transforms this model from one business state
+        to another. Tasks such as making reservations, scheduling and inventory control are especially complex; all the
+        information must be current.
+
+  - uuid : udx89x3y8p
+    term : Open Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Open architecture** is a technology infrastructure with specifications that are public as opposed to proprietary. This
+        includes officially approved standards as well as privately designed architectures, the specifications of which are made
+        public by their designers.
+
+  - uuid : udx89x5fw5
+    term : Open Compute Project
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Open Compute Project** is an open, community-based project, originated by Facebook in April 2011. The aim is to
+        achieve the greatest efficiencies for data center infrastructure. It is focused on releasing specifications and designs
+        for data center infrastructure elements, with the community then able to identify areas where improvements can be made.
+        Initial elements released included mechanical and electrical designs, motherboards, power supplies, and server chassis.
+        These have expanded to include storage (Open Vault) and hardware management.
+
+  - uuid : udx89x771m
+    term : Open Mobile Alliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Open Mobile Alliance** is an industry open-standards forum set up to facilitate global user adoption of mobile data
+        services by ensuring service interoperability across devices, geographies, service providers, operators and networks.
+
+  - uuid : udx89x8o74
+    term : Open Source
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Open source** describes software that comes with permission to use, copy and distribute, either as is or with
+        modifications, and that may be offered either free or with a charge. The source code must be made available.
+
+  - uuid : udx89xa2ru
+    term : Operating System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **operating system (OS)** is software that, after being loaded into the computer by an initial boot program, manages a
+        computer's resources, controlling the flow of information into and from a main processor. OSs perform complex tasks, such
+        as memory management, control of displays and other input/output peripheral devices, networking and file management, and
+        other resource allocation functions between software and system components. The OS provides the foundation on which
+        applications, middleware and other infrastructure components function. An OS usually provides user interfaces, such as
+        command-line shell and GUI, for interaction between user and computer.
+
+  - uuid : udx89xbqfj
+    term : Operational Data Store
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **operational data store (ODS)**  is an alternative to having operational decision support system (DSS) applications
+        access data directly from the database that supports transaction processing (TP). While both require a significant amount
+        of planning, the ODS tends to focus on the operational requirements of a particular business process (for example,
+        customer service), and on the need to allow updates and propagate those updates back to the source operational system from
+        which the data elements were obtained. The data warehouse, on the other hand, provides an architecture for decision makers
+        to access data to perform strategic analysis, which often involves historical and cross-functional data and the need to
+        support many applications.
+
+  - uuid : udx89xdjql
+    term : Operational Resilience
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Operational resilience** is a set of techniques that allow people, processes and informational systems to adapt to
+        changing patterns. It is the ability to alter operations in the face of changing business conditions. Operationally
+        resilient enterprises have the organizational competencies to ramp up or slow down operations in a way that provides a
+        competitive edge and enables quick and local process modification.
+
+  - uuid : udx89xf9n5
+    term : Operational Resource Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Operational resource management** is a method for acquiring a better view into the cost of goods and services to yield
+        enterprisewide financial control that streamlines the maintenance, repair and operations (MRO) procurement process
+        (indirect goods) and supply chain control.
+
+  - uuid : udx89xgl9d
+    term : Operational Technology (OT)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Operational technology (OT)** is hardware and software that detects or causes a change through the direct monitoring
+        and/or control of physical devices, processes and events in the enterprise.
+
+  - uuid : udx89xi1nt
+    term : Operations Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Operations services** handle the transfer of all or part of the day-to-day system management responsibility for a
+        customer's IT infrastructure (host/data center, client/desktop or connectivity/network) and, in some cases, the transfer
+        of ownership of the technology or personnel assets to an outside vendor. Services may include systems operation or
+        support, administration, security, performance monitoring, technical diagnostics/troubleshooting, configuration
+        management, system repair management, and generation of management reports. Also included are services to manage and
+        implement business continuation processes and the management of technology assets.
+
+  - uuid : udx89xjqwe
+    term : Operations Support System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **operations support system (OSS)**  facilitates the operations of a communication carrier's transport network. An OSS
+        can be thought of as a network-facing system.
+
+  - uuid : udx89xl8th
+    term : Opportunity Management System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **opportunity management system (OMS)**  is a system tied closely to the sales process; it is the framework for any
+        sales force automation (SFA) design. All other applications are subordinate to the OMS. Transactions flow from the OMS to
+        other applications on users' portable computers. Applications can be integrated among vendors.
+
+  - uuid : udx89xn1li
+    term : Optical Transport
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **optical transport** function relates to the high-capacity system that aggregates traffic and links network nodes
+        over relatively long distances. It provides the paths (or "pipes") along which the switching and routing functions steer
+        information.
+
+  - uuid : udx89y1ich
+    term : Optimization Routines
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Optimization routines** are used to determine the optimal solution for a particular problem. These routines are included
+        in supply chain execution and supply chain planning applications to reduce costs or time in the supply chain, and usually
+        are tactically focused for use in current operations.
+
+  - uuid : udx89y33cs
+    term : Option Analysis
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Option analysis** is a statistical technique based on the idea that changes over time will affect the cost and benefit
+        of a future IT investment. If it has no option to change the decision, the IT organization must abide by the original
+        decision. However, by creating an option for a decision in the future, the IT organization can choose to pursue IT
+        investments that are then deemed profitable.
+
+  - uuid : udx89y4tkh
+    term : Order Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Order management** is a business process, not a specific market. Much of the functionality attributed to order
+        management is embedded within and touches components within the CRM, ERP and SCM markets as it guides products and
+        services through order entry, processing and tracking.
+
+  - uuid : udx89y6cgi
+    term : Organic Light-Emitting Diode (OLED)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Organic light-emitting diodes (OLEDs)** are a type of LED with an emissive electroluminescent layer made from organic
+        compounds. The layer is usually made of polymers that emit a red, green or blue light when a voltage is applied. A matrix
+        of lines and columns creates an array of pixels that can be deposited onto a range of substrates. The response time of the
+        individual pixels is fast, with no backlight and similar to LCDs, OLED displays offer high-quality, high-contrast and even
+        full-motion video.
+
+  - uuid : udx89y83ug
+    term : Original Equipment Manufacturer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **original equipment manufacturer (OEM)**  is a technology provider that distributes output devices produced by another
+        company under its own brand name.
+
+  - uuid : udx89y9h6r
+    term : OSI Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **OSI management** refers to the facilities to control, coordinate and monitor the resources that enable communications in
+        an Open Systems Interconnection (OSI) environment.
+
+  - uuid : udx89yaxyu
+    term : Outage Management System (OMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **outage management system (OMS)** is a utility network management software application that models network topology
+        for safe, efficient field operations related to outage restoration. OMSs tightly integrate with call centers to provide
+        timely, accurate, customer-specific outage information, as well as supervisory control and data acquisition (SCADA)
+        systems for real-time-confirmed switching and breaker operations. These systems track, group and display outages to safely
+        and efficiently manage service restoration activities.
+
+  - uuid : udx89ycr2o
+    term : Over The Air
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Over the air (OTA)** refers to the ability to download applications, services and configurations over a mobile or
+        cellular network.
+
+  - uuid : udx89ye8l1
+    term : Overlay
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **overlay** is an installation of a networking component that is noninvasive to the wired infrastructure. Overlays
+        generally employ tunneling techniques that connect end-point functionality to a central controller offering a variety of
+        data, management and control plane functions.
+
+# __END__

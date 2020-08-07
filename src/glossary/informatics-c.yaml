@@ -1,0 +1,3255 @@
+title    : ISLE AIT computer science glossary -- C words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 03:00:14
+contents :
+
+  - uuid : udx81tfylg
+    term : C-band
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **C-band** refers to the portion of the electromagnetic spectrum allotted for satellite transmissions in the 4GHz to 8GHz
+        frequency range. C-band satellite antennas are used frequently in areas of the world where signals can become degraded due
+        to heavy rain or other intense climate-related conditions. As a rule, C-band satellite antennas range in size from 1.8
+        meters to 2.4 meters. C-band satellite communications suffer less from rain attenuation, but they require larger antennas
+        and typically are used in Asia, Africa and Latin America. See also antenna, frequency bands, Ka-band, Ku-band and
+        satellite dish.
+
+  - uuid : udx81thrtp
+    term : C (Programming Language)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **C programming language** was created by Dennis Ritchie at the former Bell Laboratories in 1972. C provides very
+        precise control of the computer's operation.
+
+  - uuid : udx81tj9yj
+    term : C++
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **C++** is an extension to the C language defined by Bjarne Stroustrop at Bell Laboratories in 1986. As a superset of C,
+        it provides additional features for data abstraction and object-oriented programming. C++ can be used to develop programs
+        for almost all computers. Together, C and C++ are the among the most common programming languages in use today.
+
+  - uuid : udx81tl1hp
+    term : Cable Service Provider
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **cable service provider** owns cable infrastructure and provides cable TV (and increasingly telecom services). Examples
+        include Comcast and Time Warner Cable.
+
+  - uuid : udx81tmis7
+    term : Cache
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **cache** is defined as a temporary storage area for instructions and data near a computer's central processing unit
+        (CPU), usually implemented in high-speed memory. It replicates information from main memory or storage in a way that
+        facilitates quicker access, using fewer resources than the original source. Because data is closer to the CPU, it can be
+        retrieved more quickly.
+
+  - uuid : udx81uxod
+    term : Caching Server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **caching server** is a device that efficiently stores frequently requested data from protocols such as Hypertext
+        Transport Protocol (HTTP) and File Transfer Protocol (FTP) and has the ability to "prefetch" additional data at preset
+        intervals. A network caching server has the ability to listen on the network and intercept protocol requests on its
+        associated Transmission Control Protocol (TCP) ports. This alleviates the need to have the enterprise's browser configured
+        to "know" where the server sits on the network.
+
+  - uuid : udx81u2qbq
+    term : Call Center
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **call center** is a group or department in which employees receive and make high volumes of telephone calls. Call
+        centers can have internal customers (e.g., help desks) or external customers (e.g., customer service and support centers).
+        The call center uses a variety of technologies to improve the management and servicing of the call. A center that use both
+        phone- and non-phone-based communication channels (e.g., e-mail or the Web) is known as a contact center.
+
+  - uuid : udx81u4nwx
+    term : Call Detail Recording (CDR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Call detail recording (CDR)** is a means of capturing telephone system information on calls made, including who made the
+        call, where it went and what time of day it was made, for processing into meaningful management reports. With such
+        information, it is easier to spot exceptions to regular calling patterns such as out-of-hours calling, international
+        calls, significant variances from previous reporting periods and call destinations that do not reflect normal calling
+        patterns for the enterprise. Also known as station message detail recording (SMDR).
+
+  - uuid : udx81u6bc1
+    term : Call Processing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Call processing** is defined as the sequence of operations performed by a switching system from the acceptance of an
+        incoming call through the final disposition of the call.
+
+  - uuid : udx81u7scs
+    term : Caller ID
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Caller ID** is a telephone service that records the telephone numbers of incoming calls; it is a form of automatic
+        number identification (ANI). Caller ID systems can be integrated with customer databases to streamline call management
+        processes. This integration gives the agent receiving a call instantaneous access to relevant information about the
+        caller. For example, when a customer calls, that customer's name immediately appears on the agent's computer screen. The
+        screen might include information about the product a customer purchased and the purchase date. The system could also
+        display the client's previous call history, information about other products the customer owns and price promotions on
+        products that might also be appealing to that caller, based on a profile in the database.
+
+  - uuid : udx81u9g9d
+    term : Campaign Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Campaign management** applications help organizations segment, target and manage multichannel marketing messages.
+        Elements of functionality include data mining, customer segmentation, customer-event triggering, next-best-action
+        recommendation engines and campaign optimization.
+
+  - uuid : udx81uarut
+    term : Capable-to-Promise (CTP) Systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Capable to promise (CTP) systems** enable enterprises to commit to customer orders based on production/resource capacity
+        (available or planned) and inventory (available or planned). CTP solutions consider resource (equipment, people and
+        materials) availability, capacities, constraints, work in progress or planned work, multiple steps in the production
+        process, multiple nodes in a supply chain network (including, in some sophisticated use cases, supplier networks) and
+        various rules to calculate accurate promises. Newer systems also consider non-production-related constraints, such as
+        transportation, which enable delivery factors (such as shipping mode options) to be factored into promise dates.
+
+  - uuid : udx81ucm3j
+    term : Capacity Utilization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Capacity utilization** is the production of a fab divided by its maximum potential production.
+
+  - uuid : udx81ue0ln
+    term : Captive Centers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Captive centers** are client-owned-and-operated service delivery centers, typically in a nondomestic, low-cost location,
+        that provide service resources directly to their organization. The personnel in a captive facility are legal employees of
+        the organization, not the vendor.
+
+  - uuid : udx81ufqbp
+    term : Car Connectivity Consortium (CCC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Car Connectivity Consortium (CCC)** is a standards-based organization designed to interoperate technologies. The CCC
+        is the result of the evolution of the Terminal Mode initiative, which was originally initiated by Nokia. The CCC's goal is
+        to promote in-vehicle connectivity solutions that use portable devices, including the Terminal Mode standard, as well as
+        future technologies such as Near Field Communication (NFC). The consortium's 11 founding companies come from the
+        automotive, mobile communication and consumer electronics industries. The consortium is open to companies that are
+        interested in improving the overall consumer experience when using a smartphone in a car. The CCC's vision is to create
+        open and common solutions for smartphones and vehicle-centric information and communication systems so they can work
+        better together to enable safe, seamless and positive user experiences.
+
+  - uuid : udx81uhh2g
+    term : Care Delivery Organization (CDO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Care delivery organizations (CDO)** are legal entities whose primary mission is the delivery of healthcare-related
+        products and services.
+
+  - uuid : udx81uiyiy
+    term : Cargo Portals
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cargo portals** are Internet-based protected websites that enable partners in a transportation community to query
+        maritime vessel operators or air cargo carriers for real-time space availability and pricing, to book shipments and to
+        track the status of en-route cargo. The portals provide an expanded planning horizon and enable fast, corrective action
+        when shipment milestones aren't met. Today, cargo portals are mode-specific, and, in some environments, such as ocean
+        transportation, multiple portal providers cover only a fraction of the carriers in the market.
+
+  - uuid : udx81ukpxr
+    term : Carrier Frequency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Carrier frequency** is defined as the frequency of a carrier wave, measured in cycles per second, or Hertz, that is
+        modulated to transmit signals.
+
+  - uuid : udx81um6pf
+    term : Carrier Network Infrastructure (CNI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Carrier network infrastructure (CNI)** can be defined as a combination of the following basic functions:
+
+        Voice switching, control and applications
+
+        Optical transport
+
+        Service provider routers and switches
+
+        Mobile core
+
+        Mobile radio
+
+        Fixed access
+
+  - uuid : udx81vl8v
+    term : Carrier System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **carrier system** is defined as the means of obtaining a number of channels over a single path by modulating each
+        channel on a different carrier frequency and demodulating at the receiving point to restore the signals to their original
+        frequency.
+
+  - uuid : udx81v237o
+    term : Cascading Faults
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cascading faults** are defined as network faults (outages) that generate other faults.
+
+  - uuid : udx81v3ijp
+    term : Case-Based Reasoning (CBR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Case-based reasoning (CBR)** is an artificial-intelligence problem-solving technique that catalogs experience into
+        "cases" and correlates the current problem to an experience. CBR is used in many areas, including pattern recognition,
+        diagnosis, troubleshooting and planning. These systems are easy to maintain in comparison to rule-based expert systems.
+
+  - uuid : udx81v589t
+    term : Case Management Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Case management solutions** are applications designed to support a complex process that requires a combination of human
+        tasks and electronic workflow, such as an incoming application, a submitted claim, a complaint, or a claim that is moving
+        to litigation. These solutions support the workflow, management collaboration, storage of images and content, decisioning,
+        and processing of electronic files or cases. Some come with insurance workflow/process templates to help implementation.
+
+  - uuid : udx81v6vq7
+    term : Catalog Content Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Catalog content management** includes processes, services and applications used to allow electronic catalog creation and
+        updating in an e-commerce environment.
+
+  - uuid : udx81v8cop
+    term : Category Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The entire **category management** process facilitates fact-based selling by providing analytics from a retailer's as well
+        as a manufacturer's perspective so that the mutual value of the business proposition can be known. Considerations include
+        product assortment, pricing, promotion, placement, timing and, to some degree, packaging. The IT component is the
+        automation of data loads and data manipulation, as well as the presentation of results in a compelling way, following an
+        agreed-on business process. The IT enablement is typically a demand signal management repository.
+
+  - uuid : udx81va3jy
+    term : Cdma2000
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cdma2000** is the commercial name for the IMT-2000 CDMA Multicarrier (MC-CDMA) standard developed through the 3GPP2
+        standards organization of the ITU. It is an evolving family of cellular networking specifications that offers enhanced
+        voice and data capacity over cdmaOne. The family includes 1xRTT, EV-DO, EV-DO Rev. A, EV-DO Rev. B and EV-DO Rev. C.
+
+  - uuid : udx81vbvyx
+    term : Cell Site
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **cell site** is defined as the entire set of equipment needed to receive and transmit radio signals for cellular voice
+        and data transmission; typically includes transmitters, receivers, power amplifiers, combiners, filters, a digital signal
+        processor, a power supply and network interface modules.
+
+  - uuid : udx81vdmtp
+    term : Cell Splitting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cell splitting** is a means of increasing the capacity of a cellular system by subdividing or splitting cells into two
+        or more smaller cells.
+
+  - uuid : udx81vf42d
+    term : Cell
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **cell** is defined as the area covered by one fixed BTS in a cellular radio network. It may vary in size from less than
+        a 0.5-km radius to more than a 120-km radius, depending on technology, capacity, atmospheric conditions and power.
+
+  - uuid : udx81vgrwa
+    term : Cellular Radio
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cellular radio** describes a method of increasing the number of simultaneous radio conversations that can be supported
+        by a fixed number of radio frequency (RF) channels by limiting the range of transmitters to a single cell, to which a
+        proportion of the available channels is allocated. Adjacent cells are allocated to a different set of RF channels to avoid
+        interference and conversation blocking. Frequencies can be reused in cells at intervals sufficient to avoid interference.
+
+  - uuid : udx81vibtf
+    term : Cellular To Wi-Fi Authentication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cellular to Wi-Fi authentication** provides the ability for dual-mode smartphones to move freely between cellular and
+        Wi-Fi connectivity for voice and data applications. As part of the 802.11u standard, this multivendor and multiple
+        physical layer authentication allows cellular connections to be transferred to Wi-Fi, as well as among multiple Wi-Fi
+        vendors from one installation to another, whether it is a hot spot or, ultimately, within an enterprise.
+
+  - uuid : udx81vk325
+    term : Certification Authority (CA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as a "certificate authority," a **certification authority (CA)** is an internal or third-party entity that
+        creates, signs and revokes digital certificates that bind public keys to user identities. A repository or directory stores
+        digital certificates and certificate revocation lists (CRLs) to allow users to obtain the public keys of other users and
+        determine revocation status. Typically, the repository is a traditional X.500 directory or a database that supports
+        Lightweight Directory Access Protocol (LDAP).
+
+  - uuid : udx81vlu7x
+    term : Change Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Change management** is the automated support for development, rollout and maintenance of system components (i.e.,
+        intelligent regeneration, package versioning, state control, library control, configuration management, turnover
+        management and distributed impact sensitivity reporting).
+
+  - uuid : udx81wc2y
+    term : Channel Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A superset of Web analytics, **channel analytics** are not restricted to Web channels, but include direct mail, the
+        customer contact center, mass media, store or branch locations, and all other distribution or customer-contact channels.
+        The different elements of business -- for example, payment and shipment processes, and customer support and authentication
+        -- need to be measured and analyzed. Channel analytics examine costs, usage, efficiency, integrity, integration with other
+        systems and the value of each channel, separately and in relation to each other.
+
+  - uuid : udx81w2540
+    term : Channel Bank
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **channel bank** is the equipment typically used in a telephone central office that performs multiplexing of
+        lower-speed, digital channels into a higher-speed composite channel. The channel bank also detects and transmits signaling
+        information for each channel and transmits framing information so that time slots allocated to each channel can be
+        identified by the receiver.
+
+  - uuid : udx81w3nt8
+    term : Channel Capacity
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Channel capacity** is an expression of the maximum data traffic that can be handled by the channel.
+
+  - uuid : udx81w56h3
+    term : Channel Integration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Channel integration** refers to strategies aimed at consolidating -- either physically or logically -- customer
+        information and its use to provide an all-encompassing view of the customer.
+
+  - uuid : udx81w6ikj
+    term : Channel
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **channel** is defined by a combination of three factors: A target device, for example, a mobile phone, personal digital
+        assistant (PDA) or a PC; an interaction paradigm, for example, a graphical user interface (GUI), e-mail, voice response or
+        video; and business practices, that is, channel-specific elements of business that may include payment services, shipment
+        processes, taxation, customer support and authentication.
+
+  - uuid : udx81w88jt
+    term : Charge-Coupled Device (CCD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **charge-coupled device (CCD)** is a semiconductor device capable of both photo-detection and memory, which converts
+        light to electronic impulses. One-and two-dimensional CCD arrays are used in scanners to perform the first stage in
+        converting an image into digital data. They are particularly attractive because they can step the signals from each
+        detector across the array in response to a clock signal, permitting each scan line to be read through a single electrical
+        connection.
+
+  - uuid : udx81wa17e
+    term : Check Digit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **check digit** is a number added to each character in a coded system which allows for the detection of errors; through
+        the use of a mathematical formula, recording errors such as number reversals can be noted. See parity bit.
+
+  - uuid : udx81wbfhj
+    term : Checksum
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **checksum** is a value calculated from a block of data, used to detect errors in transmitted data.
+
+  - uuid : udx81wcv2k
+    term : Chip Design Starts
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **chip design start** is a new design that is completed and "taped out" where unique prototypes are shipped to the
+        customer.
+
+  - uuid : udx81wehdc
+    term : CIFS (Common Internet File System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A remote file system access protocol that allows groups of users to work together and share documents via the Internet or
+        their corporate intranets. CIFS is an open, cross-platform technology based on the native file-sharing protocols built
+        into Microsoft Windows and other operating systems, and is supported on numerous platforms, including Unix. Microsoft
+        submitted a preliminary draft of the CIFS 1.0 protocol specification to the Internet Engineering Task Force in December
+        1997.
+
+  - uuid : udx81wgb4n
+    term : CIM (Common Information Model)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A modeling schema that describes managed system, hardware, and software objects. CIM is a component of the Web-Based
+        Enterprise Management (WBEM) initiative, an emerging Web-oriented system management standard controlled by the Distributed
+        Management Task Force (DMTF).
+
+  - uuid : udx81whs8b
+    term : CIM (computer-integrated Manufacturing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The integration of manufacturing operations by integrating human systems, information systems and manufacturing systems.
+        The goal of such systems is to combine electronically the systems and functions necessary to manufacture products more
+        effectively.
+
+  - uuid : udx81wjbgh
+    term : CIM (customer Information Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The systematic support of business strategy through customer knowledge.
+
+  - uuid : udx81wksc7
+    term : CIMA (customer Information Management And Application)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A six-step process starting with a business plan followed by a technology plan. The six steps are:
+
+        1.planning
+
+        2.information acquisition
+
+        3.information compilation, storage and maintenance
+
+        4.information analysis
+
+        5.information application
+
+        6.information distribution
+
+  - uuid : udx81wmlhp
+    term : CIO (chief Information Officer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The person responsible for planning, choosing, buying and installing a company's computer and information-processing
+        operation. Originally called data-processing managers, then management information system (MIS) directors, CIOs develop
+        the information technology (IT) vision for the company. They oversee the development of corporate standards, technology
+        architecture, technology evaluation and transfer; sponsor the business technology planning process; manage client
+        relations; align IT with the business; and develop IT financial management systems. They also oversee plans to reinvest in
+        the IT infrastructure, as well as in business and technology professionals. They are responsible for leading the
+        development of an IT governance framework that will define the working relationships and sharing of IT components among
+        various IT groups within the corporation.
+
+  - uuid : udx81x12m7
+    term : CIR (committed Information Rate)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In a frame relay network, the minimum speed to be maintained between nodes.
+
+  - uuid : udx81x2jfu
+    term : Circuit Board
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A flat card with connections for electronic components; part of an electronic system.
+
+  - uuid : udx81x3wnf
+    term : Circuit Grade
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The data-carrying capability of a circuit; the grades of circuit are broadband, voice, subvoice, and telegraph.
+
+  - uuid : udx81x5aot
+    term : Circuit Switching
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Temporary direct connection of one or more channels between two or more points to provide the user with exclusive use of
+        an open channel with which to exchange information. A discrete circuit path is set up between the incoming and outgoing
+        lines, in contrast to message switching and packet-switching, in which no such physical path is established. Also called
+        line switching.
+
+  - uuid : udx81x6m8v
+    term : Circuit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.A continuous electrical connection between any two points.
+
+        2.The means of two-way communication between two or more points.
+
+        3.A group of electrical/electronic components connected to perform a specific function. See channel.
+
+  - uuid : udx81x8599
+    term : CIRP (cyber Incident Response Plan)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as a "computer incident response plan," this is formulated by an enterprise to respond to potentially
+        catastrophic, computer-related incidents, such as viruses or hacker attacks. The CIRP should include steps to determine
+        whether the incident originated from a malicious source -- and, if so, to contain the threat and isolate the enterprise
+        from the attacker. (See cyber incident and CIRT.)
+
+  - uuid : udx81xa2m7
+    term : CIRT (cyber Incident Response Team)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as a "computer incident response team," this group is responsible for responding to security breaches, viruses
+        and other potentially catastrophic incidents in enterprises that face significant security risks. In addition to technical
+        specialists capable of dealing with specific threats, it should include experts who can guide enterprise executives on
+        appropriate communication in the wake of such incidents. The CIRT normally operates in conjunction with other enterprise
+        groups, such as site security, public-relations and disaster recovery teams. (See cyber incident and CIRP.)
+
+  - uuid : udx81xbrtq
+    term : CISC (complex Instruction Set Computer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A computer in which individual instructions may perform many operations and take many cycles to execute, in contrast with
+        reduced instruction set computer (RISC).
+
+  - uuid : udx81xdaab
+    term : CISSP (Certified Information Systems Security Professional)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A certification program administered by the International Information Systems Security Certification Consortium (ISC2).
+
+  - uuid : udx81xem65
+    term : Citizen Developer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **citizen developer** is a user who creates new business applications for consumption by others using development and
+        runtime environments sanctioned by corporate IT. In the past, end-user application development has typically been limited
+        to single-user or workgroup solutions built with tools like Microsoft Excel and Access. However, today, end users can
+        build departmental, enterprise and even public applications using shared services, fourth-generation language (4GL)-style
+        development platforms and cloud computing services.
+
+  - uuid : udx81xg865
+    term : CKO (chief Knowledge Officer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Articulates and champions the knowledge management (KM) vision, provides the enterprise level leadership to implement and
+        sustain KM, and is the ultimate focal point for knowledge creation, sharing and application.
+
+  - uuid : udx81xhoxj
+    term : CLA (Corporate License Agreement)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A licensing agreement option under Novell's "Customer Connections" program. It offers an alternative for midsize
+        organizations that cannot qualify for Novell's Master License Agreement (MLA).
+
+  - uuid : udx81xj8g9
+    term : Cladding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In fiber-optic cable, a colored, low refractive index material that surrounds the core and provides optical insulation and
+        protection to the core.
+
+  - uuid : udx81xkjht
+    term : Claims Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **"claims analytics"** as the use of business intelligence (BI), reporting solutions, dashboards, data
+        mining and predictive modeling technologies to manage and analyze claims data, which can result in improved performance.
+        Overall, three processes are supported in claims analytics tools: claims analysis, reporting and predictive modeling.
+
+  - uuid : udx81xm6p0
+    term : Claims Management Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Claims management solutions** are applications that support end-to-end claims workflow and collaboration for life
+        insurance products, from the entry of claims information through claims payments. Components include workflow, business
+        process management (BPM) capabilities, a rule engine, collaboration tools, integration tools, and industry templates that
+        contain claims process flows and best practices.
+
+  - uuid : udx81yx9k
+    term : Clamshell
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A computer system that weighs less than 3 pounds and opens lengthwise to expose a keyboard and screen.
+
+  - uuid : udx81y2fim
+    term : Class-Based Queuing (CBQ)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Class-based queuing (CBQ)** is a mechanism that defines various levels of service for access to the Internet and can be
+        used with or without Resource Reservation Protocol (RSVP). CBQ divides traffic into queues and assigns each a specific
+        amount of network bandwidth.
+
+  - uuid : udx81y43sq
+    term : Class
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A specification that defines the operations and the data attributes for a set of objects.
+
+  - uuid : udx81y5jg1
+    term : Classless Inter-Domain Routing (CIDR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Classless Inter-Domain Routing (CIDR)** is the successor to class-oriented domains for Internet routing, it allows for
+        better allocations of Internet addresses. It combines a number of Class C Internet Protocol (IP) addresses to reduce the
+        burden on routing tables in the Internet.
+
+  - uuid : udx81y7q4y
+    term : CLI (Common Language Infrastructure)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A platform-independent development system from Microsoft that enables programs written in different programming languages
+        to run on different types of hardware. CLI is part of Microsoft's .NET platform and is expected to become an ECMA
+        standard. The CLI includes the Common Type System (CTS) and Common Language Specification (CLS). No matter which
+        programming language they are written in, CLI applications are compiled into Intermediate Language (IL), which is further
+        compiled into the target machine language by the Common Language Runtime (CLR) software. See CLS, CTS, .NET and IL.
+
+  - uuid : udx81y9gt0
+    term : Click-through
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Term applied to the act of clicking with a mouse button on a Web page advertisement, which brings the user to the
+        advertiser's site.
+
+  - uuid : udx81yaxqi
+    term : Clicks And Bricks
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The combining of e-business channels and network-based processes with selective investment in physical locations to
+        control local markets, distribution channels, and critical labor accessibility.
+
+  - uuid : udx81ycgb6
+    term : Clickstream Analysis
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A form of Web analytics (see separate entry), clickstream analysis is the tracking and analysis of visits to websites.
+        Although there are other ways to collect this data, clickstream analysis typically uses the Web server log files to
+        monitor and measure website activity. This analysis can be used to report user behavior on a specific website, such as
+        routing, stickiness (a user's tendency to remain at the website), where users come from and where they go from the site.
+        It can also be used for more aggregate measurements, such as the number of hits (visits), page views, and unique and
+        repeat visitors, which are of value in understanding how the website operates from a technical, user experience and
+        business perspective.
+
+  - uuid : udx81ye86t
+    term : Client Appliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A type of computing appliance that provides end-user access to applications. Examples include network computers and
+        certain handheld computers. See computing appliance.
+
+  - uuid : udx81yfiwc
+    term : Client Computing Hardware Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes PC services and workstation services.
+
+        Personal computer services -- PCs are single-user systems and include desk-based, notebook and ultraportable PCs. This
+        also includes workstations which are single-user systems based on high-end Intel or reduced instruction set computer
+        (RISC) CPU architectures with high-performance graphics, OSs and system architecture.
+
+  - uuid : udx81yhe5d
+    term : Client Management Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Client management tools** (previously known as PC configuration life cycle management \[PCCLM\] tools) manage the
+        configurations of client systems. Specific functionality includes OS deployment, inventory, software distribution, patch
+        management, software usage monitoring and remote control. Desktop support organizations use client management tools to
+        automate system administration and support functions that would otherwise be done manually.
+
+  - uuid : udx81yj5bh
+    term : Client/server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The splitting of an application into tasks performed on separate computers connected over a network. In most cases, the
+        "client" is a desktop computing device (e.g., a PC) or a program "served" by another networked computing device (i.e., the
+        "server" Gartner has defined five styles of client/server computing, based on how presentation, application logic and data
+        management functions are partitioned between the client and server device -- see separate definitions for "distributed
+        presentation", "remote presentation", "distributed function", "remote data management" and "distributed data management".
+
+  - uuid : udx81ykv6k
+    term : Client
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system or a program that requests the activity of one or more other systems or programs, called servers, to accomplish
+        specific tasks. In a client/server environment, the workstation is usually the client.
+
+  - uuid : udx81ym8ug
+    term : Climate-Driven Forecasting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Climate-driven forecasting** incorporates the impact of weather changes on future customer demand. Traditional demand
+        forecasting has long accounted for the seasonal impact on customer behavior. Climate-driven forecasting is a logical
+        extension that leverages improved analytics and the availability of structured and unstructured data. Some of the
+        climate-driven forecasting solutions exploit existing demand signal repositories, but others rely on proprietary
+        databases.
+
+  - uuid : udx820ive
+    term : Clinical Context Object Workgroup (CCOW)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Clinical Context Object Workgroup (CCOW)** is a group that defines standards for collaboration among visual
+        (GUI-based) applications on clinical workstations. Originally an independent consortium, CCOW is now technical committee
+        of the Health Level Seven (HL7) standards organization.
+
+  - uuid : udx8202971
+    term : Clinical Data Repository (CDR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **clinical data repository (CDR)** is an aggregation of granular patient-centric health data usually collected from
+        multiple-source IT systems and intended to support multiple uses. Because a CDR is intended to support multiple uses, we
+        do not categorize the database within any single application as a CDR. When a CDR holds data specifically organized for
+        analytics it meets the definition of a clinical data warehouse.
+
+  - uuid : udx8203w8y
+    term : Clinical Information Modeling Initiative (CIMI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Clinical Information Modeling Initiative (CIMI)** is an ad hoc group of data modelers that are attempting to
+        enumerate the detailed models of hundreds to thousands of medical ideas to achieve consensus among clinicians. It plans to
+        make detailed clinical models freely available as unencumbered intellectual property. They could be used as components to
+        define standard messages or structured documents, as components of clinical rules, and to automate or facilitate
+        constructing data entry or reporting templates.
+
+  - uuid : udx8205prx
+    term : Clinical Kiosks
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Clinical kiosks** are completely self-contained units, fixed or portable, that allow patients to have a full diagnostic
+        and/or clinical treatment interaction with a physician, without the need for on-site personnel. Clinical kiosks are
+        self-service platforms that perform clinical functions, including taking certain clinical and biometric readings,
+        completing tests, and enabling patients to upload vital signs to a health record and to interact with a clinician through
+        an e-visit or video visit.
+
+  - uuid : udx8207gl5
+    term : Clinical Resource Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Clinical resource management** is the capability to manage the resources of a clinical trial, such as investigative
+        sites, contract research organizations (CROs), clinical study staff, supplies, relationships and patients. It represents
+        the capabilities to plan, manage and execute clinical study activities using tools that simulate trial protocol
+        implications, estimate resource consumption, respond to change, and implement tools to manage resource utilization and
+        effectiveness.
+
+  - uuid : udx82097tq
+    term : Clipping
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.Loss of parts of words or of syllables in the operation of voice-actuated devices.
+
+        2.Distortion of a signal that has reached the limit of its modulation parameter (e.g., amplitude) and can no longer be
+        effectively modulated.
+
+  - uuid : udx820apa1
+    term : Clock, Clocking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Repetitive, regularly timed signals used to control synchronous processes.
+
+  - uuid : udx820c84h
+    term : Closed-loop MRP (closed-loop Material Requirements Planning)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system built around MRP that also includes production planning, master production schedule, and capacity requirements
+        planning. Once the planning phase is complete and the plans have been accepted as realistic and attainable, the execution
+        functions come into play. These include the shop floor control functions of input/output measurement, detailed scheduling
+        and dispatching, as well as anticipated delay reports from both the shop and vendors, purchasing follow-up and control,
+        and other functions. The term "closed loop" implies that not only is each of these elements included in the overall
+        system, but also that there is feedback from the execution functions so the planning can be kept valid at all times.
+
+  - uuid : udx820dxrp
+    term : Closed-Loop Performance Management (PM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Closed-loop performance management (PM)** is the discipline of "taking action" on the results of performance monitoring,
+        and blending these new modified results with updated plans and goals to drive business value and impact. This is achieved
+        through a combination of management processes, a metrics framework and applications that support real-time access to
+        operational and strategic data, coupled with collaboration and alerting technologies that enable other applications or
+        users to define, agree on and monitor actions based on feedback.
+
+  - uuid : udx820foid
+    term : Cloud Access Security Brokers (CASBs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud access security brokers (CASBs)** are on-premises, or cloud-based security policy enforcement points, placed
+        between cloud service consumers and cloud service providers to combine and interject enterprise security policies as the
+        cloud-based resources are accessed. CASBs consolidate multiple types of security policy enforcement. Example security
+        policies include authentication, single sign-on, authorization, credential mapping, device profiling, encryption,
+        tokenization, logging, alerting, malware detection/prevention and so on.
+
+  - uuid : udx820hd42
+    term : Cloud Advertising
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud advertising** refers to cloud service business processes that support selection, transaction and delivery of
+        advertising and ad-related data where content and price are determined at the time of end-user access, usually by an
+        auction mechanism that matches bidders with impressions as they become available. Search engine marketing (SEM) and
+        various forms of online display advertising (for example, banners) are the most-developed formats, but the concept is
+        spreading to other channels and platforms, such as mobile devices, online video, addressable television and out-of-home
+        digital signage.
+
+  - uuid : udx820j2j3
+    term : Cloud Application Development (AD) Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud application development (AD) services** are tool offerings delivered as a service and used to create custom
+        software applications deployed on an application platform as a service (aPaaS), a cloud-enabled application platform
+        (CEAP) or infrastructure as a service.
+
+  - uuid : udx820ktjn
+    term : Cloud-Based Grid Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud-based grid computing** involves using computers in a public cloud service, or a hybrid of public cloud and
+        internally owned computers, to collectively accomplish large tasks, such as derivative risk analysis, candidate drug
+        screening and complex simulations. We do not include grids that use private cloud or traditional in-house servers only,
+        which we instead cover as "grid computing not using public cloud computers."
+
+  - uuid : udx820mmn1
+    term : Cloud Communications Service Provider
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An entity that leverages the cloud environment to provide telecommunication and other services.
+
+  - uuid : udx821r8u
+    term : Cloud Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **cloud computing** as a style of computing in which scalable and elastic IT-enabled capabilities are
+        delivered as a service using Internet technologies.
+
+  - uuid : udx8212926
+    term : Cloud Email
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud email** describes a vendor-offered, multitenant, Internet-delivered email service that is scalable and flexible.
+
+  - uuid : udx8213ppl
+    term : Cloud Encryption Gateways
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud encryption gateways** provide cloud security proxy (typically at the application level), which performs
+        encryption, tokenization or both on an item-by-item basis as data flows through the proxy. The obfuscated (encrypted or
+        tokenized) data can then be stored in a cloud-based software-as-a-service (SaaS) application, such as salesforce.com.
+        Cloud encryption gateways typically provide a choice of various encryption and tokenization algorithms, depending on the
+        strength of protection required and how much format preservation is necessary (for example, to preserve sorting).
+
+  - uuid : udx8215jap
+    term : Cloud Engineering
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines cloud engineering as the process of designing the systems necessary to leverage the power and economics of
+        cloud resources to solve business problems.
+
+  - uuid : udx82172pt
+    term : Cloud File Sharing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud file sharing** refers to a range of cloud services that allows people to store and synchronize documents, photos,
+        videos and other files in the cloud--and share them with other people. These services also allow users to share and
+        synchronize data among multiple devices for a single owner. These services are accessible through desktops, notebooks,
+        smartphones and media tablets, and provide a simple mechanism for synchronizing data across multiple devices.
+
+  - uuid : udx8218urr
+    term : Cloud Management Platforms
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud management platforms** are integrated products that provide for the management of public, private and hybrid cloud
+        environments. The minimum requirements to be included in this category are products that incorporate self-service
+        interfaces, provision system images, enable metering and billing, and provide for some degree of workload optimization
+        through established policies. More-advanced offerings may also integrate with external enterprise management systems,
+        include service catalogs, support the configuration of storage and network resources, allow for enhanced resource
+        management via service governors and provide advanced monitoring for improved "guest" performance and availability.
+
+  - uuid : udx821ancd
+    term : Cloud Printing Services (CPS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud printing services (CPS)** are hosted cloud computing offerings that enable users to print documents and other
+        materials on any device associated with the cloud. Users create content with any software tool they want and transfer the
+        file to a cloud printing service provider via whatever device they choose, which then routes the file to a cloud-attached
+        printer at a location selected by the user. CPS may be open (hosted by a company that enables other enterprises to use its
+        hardware, software and network to produce printed materials) or closed (a proprietary network that is available to only
+        the enterprise's customers).Cloud printing enables end users, whether professional buyers or consumers, to have documents
+        printed without being encumbered by actual printing equipment and still have it delivered where and when they want it.
+        Technology providers may enable CPS as part of a managed print services (MPS) offering.
+
+  - uuid : udx821clvp
+    term : Cloud Security Gateways
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud security gateways** are on-premises or cloud-based security policy enforcement points placed between cloud service
+        consumers and cloud service providers to interject enterprise security policies as the cloud-based resources are accessed.
+        Cloud security gateways consolidate multiple types of security policy enforcement. Example security policies include
+        authentication, single sign-on, authorization, security token mapping, encryption, tokenization, logging, alerting, API
+        control and so on.
+
+  - uuid : udx821egt1
+    term : Cloud Service Elasticity
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In the service provider view, **cloud service elasticity** is the ability to increase or decrease the amount of system
+        capacity (for example, CPU, storage, memory and input/output bandwidth) that is available for a given cloud service on
+        demand, in an automated fashion. This gives their customers the perception of unlimited capacity. From the consumer and
+        RTI perspectives, cloud service elasticity is an automated means to increase or decrease a specific service capacity in
+        response to increasing or scheduled demand changes.
+
+  - uuid : udx821glwt
+    term : Cloud Services Brokerage (CSB)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud services brokerage (CSB)** is an IT role and business model in which a company or other entity adds value to one
+        or more (public or private) cloud services on behalf of one or more consumers of that service via three primary roles
+        including aggregation, integration and customization brokerage. A CSB enabler provides technology to implement CSB, and a
+        CSB provider offers combined technology, people and methodologies to implement and manage CSB-related projects.
+
+  - uuid : udx821i9wo
+    term : Cloud Sourcing Deals Anatomy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Capacity overdrafting or cloudbursting are interchangeable terms that refer to the ability to acquire more capacity from a
+        different cloud infrastructure automatically when the primary cloud infrastructure is overloaded. This will increase the
+        risk that an internally implemented, progressively customized private cloud strategy won't allow for easy portability or
+        transition into providers' future public cloud services.
+
+  - uuid : udx821jnd8
+    term : Cloudbursting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloudbursting** is the use of an alternative set of public or private cloud-based services as a way to augment and
+        handle peaks in IT system requirements at startup or during runtime. Cloudbursting can span between on-premises IT systems
+        and services and the cloud, across multiple cloud providers or across multiple resource pools of a single provider. It can
+        also be enabled across multiple internal data centers, across multiple external data centers, or between internal and
+        external data centers.
+
+  - uuid : udx821le5v
+    term : Cluster Controller
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device that handles the remote communications processing for multiple (usually dumb) terminals or workstations.
+
+  - uuid : udx821mw8c
+    term : Clustered System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An architecture that ties together uniprocessor, symmetric multiprocessing (SMP) and/or massively parallel processing
+        (MPP) systems with all nodes sharing access to disks. Also called a shared-disk system.
+
+  - uuid : udx8221elt
+    term : Clustering
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The capability to define resources on one or more interconnected midrange systems as transparently available to users and
+        applications from within the specified group of loosely coupled systems in a local-or metropolitan-area network.
+
+  - uuid : udx8222w9j
+    term : CLV (constant Linear Velocity)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of two standards for rotating storage media, in which the disk spins at a higher speed on the outside tracks than on
+        the inside tracks (where the circumference is smaller), so that all data moves past the head at the same rate. The other
+        standard is constant angular velocity (CAV), in which the disk spins at the same rate at all times.
+
+  - uuid : udx8224iyc
+    term : CM (configuration Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        CM software includes both stand-alone products and suites of products that can initially provision/configure desktops,
+        servers or mobile devices, and then manage the change of configuration settings, software, and increasingly the files and
+        data on those elements on an ongoing basis. Included in this category are stand-alone products for software distribution,
+        various discovery requirements, remote control, software packaging, personality migration, software usage metering and
+        mobile device management. Also included here are product suites that lead with provisioning and CM but may include
+        features such as asset discovery, automated backup, bare-metal boot, self-healing functionality, data synchronization,
+        security, virtualization -- both application and hosted virtual desktops (HVD) -- or even help desk features. When these
+        features are sold as stand-alone products, revenue is counted in other categories. There are many tools that offer one or
+        more of the functions above, and these are included as well. Some solutions for servers, for instance, offer robust
+        configuration auditing and remediation, and others have more-targeted solutions with deep configuration auditing and
+        reporting to meet a variety of auditing requirements (such as security, regulatory, Payment Card Industry Data Security
+        Standard, "gold" or trusted configuration baselining). This category also contains CM database tools and supporting
+        technology to discover and populate them, which includes IT service dependency mapping tools.
+
+        CM is for production systems only. CM is distinct from software configuration management (SWCM), which is used by
+        programmers to manage the change and configuration of development systems. Some SWCM and CM vendors are partnering to
+        provide a linkage between systems. Finally, the CM category does not include vendors that position products primarily as
+        electronic software distribution or as content distribution used in Internet distribution scenarios (B2B or
+        business-to-consumer (B2C)).
+
+  - uuid : udx8226n1b
+    term : CM (course Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The administrative module that is used to place a structure around computer-based training (CBT) content to:
+
+        1.Create a recommended set and order of courses based on job description, skills assessment results or regulatory
+        requirements.
+
+        2.Provide a "registrar" function, where students "sign in" to take classes they need.
+
+        3.Perform tracking and reporting, keeping track of the results of the course taken, how well the student performed in the
+        course, and what the student should take next. This information would be stored and forwarded to other human resources
+        (HR) systems.
+
+  - uuid : udx8228gqo
+    term : CMC (common Messaging Calls)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set of calls developed by the X.400 API Association (XAPIA) for use on top of any existing messaging system. Programmers
+        developing applications using these calls may request services of whatever messaging system is accepting the call. The
+        number of calls is limited to the most popular messaging and directory lookup functions. CMC is similar to simple
+        Messaging Application Programming Interface (MAPI) in its breadth of services, but provides greater portability of
+        applications.
+
+  - uuid : udx822a8gf
+    term : CME (corporate And Major Enterprise)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An organization with more than 500 employees.
+
+  - uuid : udx822blqb
+    term : CMMS (computerized Maintenance Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Application software used to provide for work and materials management of maintenance activities in a manufacturing
+        organization. See EAM.
+
+  - uuid : udx822d407
+    term : CMNS (Connection Mode Network Service)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Extends local X.25 switching to Ethernet, token ring or Fiber Distributed Data Interface (FDDI) networks.
+
+  - uuid : udx822el24
+    term : CMOL (CMIP Over LLC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A proprietary network management draft developed jointly by 3Com and IBM that specifies using Common Management
+        Information Protocol (CMIP) over Logical Link Control (LLC) to provide network management of devices on mixed-media
+        local-area networks (LANs).
+
+  - uuid : udx822g2lr
+    term : CMOS (complementary Metal-oxide Semiconductor)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A semiconductor technology that uses less power and generates less heat (enabling higher circuit density), but is
+        typically slower than bipolar technologies.
+
+  - uuid : udx822hj6h
+    term : CMOT (CMIP Over TCP/IP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Use of the Common Management Information Protocol (CMIP) to manage gateways in a Transmission Control Protocol/Internet
+        Protocol (TCP/IP) network.
+
+  - uuid : udx822j0go
+    term : CMP (Cellular Multi-Processing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A heterogeneous server technology from Unisys that can run any combination of operating systems.
+
+        that are part of more comprehensive facilities management or network planning applications.
+
+  - uuid : udx822ki9n
+    term : CMS (campaign Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An application used by marketers to design multichannel marketing campaigns and track the effect of those campaigns, by
+        customer segment, over time.
+
+  - uuid : udx822m0de
+    term : CMV (controlled Medical Vocabulary)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An approved list of terms coded in a fashion that facilitates the use of the computer. Controlled vocabularies are
+        essential if clinical applications are to function as intended. Widely used systems include the American College of
+        Radiology (ACR) Code, Current Procedural Terminology (CPT), Diagnostic and Statistical Manual of Mental Disorders (DSM-IV)
+        and the International Classification of Diseases, Ninth Revision (ICD-9).
+
+  - uuid : udx823hx8
+    term : CMYK (sometimes YMCK Or ''process Color Printing``)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A subtractive color model used in color printing. This color model is based on mixing pigments of the following colors to
+        make other colors: cyan, magenta, yellow and black.
+
+  - uuid : udx82320in
+    term : CNP (Certified Network Professional)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An information technology certification by the Network Professional Association (NPA) requiring two years of experience,
+        two vendor certifications and a passing grade on the core fundamentals exam.
+
+  - uuid : udx8233hs7
+    term : CNS (converged Network Services)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The delivery of voice, data, video and other forms of network services with the following characteristics:
+
+        1.Services are usually from a customer premises-based access concentrator, owned by a network service provider (NSP) that
+        converts traffic to an asynchronous transfer mode (ATM) or Internet Protocol (IP) stream
+
+        2.Service is delivered via one means of access, transmitted via one facility, with one switching infrastructure
+
+  - uuid : udx82359kr
+    term : Co-creation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Co-creation** is a collaborative initiative between companies and their customers enabling the joint design of products
+        and services. These initiatives include the creation of goods, services and experiences, amplifying the process via the
+        inclusion of client intellectual capital.
+
+  - uuid : udx8236jsj
+    term : Coaxial Cable
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Cable consisting of an outer conductor surrounding an inner conductor, with a layer of insulating material in between.
+        Such cable can carry a much higher bandwidth than a wire pair.
+
+  - uuid : udx823834s
+    term : CoDA (context Delivery Architecture)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines CoDA as an architectural style that builds on service-oriented architecture (SOA) and event-driven
+        architecture (EDA) interaction and partitioning styles, and adds formal mechanisms for the software elements that discover
+        and apply the user's context in real time. CoDA provides a framework for solution architects that allows them to define
+        and implement the technology, information and process components that enable services to use context information to
+        improve the quality of the interactions with the user. The technologies may include context brokers, state monitors,
+        sensors, analytic engines and cloud-based transaction processing engines.
+
+  - uuid : udx8239x3m
+    term : Codd’s Rule Zero
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Ted Codd, whose theoretical work on relational databases stimulated today's plethora of relational products, defined a
+        fundamental "Rule Zero" for classifying relational database management systems (RDBMSs). The intent of this rule was to
+        help enterprises focus on the requirement for a consistent integrity layer in the RDBMSs they evaluated: "For any system
+        that is advertised as, or claimed to be, a relational database management system, that system must be able to manage
+        databases entirely through its relational capabilities, no matter what additional capabilities the system may support."
+
+  - uuid : udx823c02p
+    term : Code Division Multiple Access (CDMA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Code division multiple access (CDMA)** is a spread-spectrum technology standard that assigns a pseudo-noise code to all
+        speech and data bits, sends a scrambled transmission of the encoded speech over the air and reassembles the speech in its
+        original format. By assigning a unique correlating code to each transmitter, several simultaneous conversations can share
+        the same frequency allocation.
+
+  - uuid : udx823e2vx
+    term : Codec (coder/decoder)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device used to convert analog signals, such as speech, music, or television, to digital form for transmission over a
+        digital medium, and back again to the original analog form. One is required at each end of the channel.
+
+  - uuid : udx823fkd5
+    term : Cognitive Radio
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cognitive radio** enables devices to dynamically negotiate spectrum use and to choose appropriate frequencies, protocols
+        and modulation to coexist with other devices. It gives flexibility of operation that goes way beyond that of
+        software-defined radio (SDR). SDR enables wireless devices to switch dynamically between protocols and frequencies, and is
+        also a foundation that can be used to build the more-sophisticated cognitive radio system.
+
+  - uuid : udx823hdhk
+    term : COL (Component Object Library)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The object library in Microsoft's Component Object Model (COM).
+
+  - uuid : udx823ipkk
+    term : COLD (computer Output To Laserdisc)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Microfiche replacement system. COLD systems offer economies as a replacement medium when rapid or frequent access to
+        archived documents is necessary. Typically, a 12-inch optical-disc platter holds approximately 1.4 million 8.5-by-11-inch
+        pages of information, equal to 7,000 fiche masters.
+
+  - uuid : udx823k36x
+    term : Collaborative Commerce (C-Commerce)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Collaborative commerce (C-commerce)** describes electronically enabled business interactions among an enterprise's
+        internal personnel, business partners and customers throughout a trading community. The trading community could be an
+        industry, industry segment, supply chain or supply chain segment.
+
+  - uuid : udx823lsyu
+    term : Collective Competency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An approach where the responsibility for a specific activity or outcome is vested with an informal affiliation of
+        individuals or organizations whose participation is secured only because each member has a vested interest in doing so.
+
+  - uuid : udx823naie
+    term : Collective
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Collectives** are aggregations of people who are outside the control of the enterprise, bound by a common action or
+        opinion, and who affect the enterprise's success. Mobs, formal communities, and informal networks of friends and groups
+        linked by their liking for a particular product or location are examples of collectives. Collectives refers to all
+        informal human forces outside the control of the enterprise that can impact the enterprise's success or failure. These
+        forces permeate enterprise and social boundaries, existing within and outside the formal enterprise. There are many
+        related (but not identical) concepts, including collective intelligence, "wikinomics," collaborative decision making,
+        network-centric strategy, wisdom of crowds, social media, open innovation and crowdsourcing. Collectives influences
+        innovation, sourcing, branding, positioning, fads, trends, customer support, hiring and other key aspects of every
+        enterprise's essential processes. As an adjective, **collective** is one of the core principles that distinguishes social
+        solutions from nonsocial solutions.
+
+  - uuid : udx8241pga
+    term : College Of Healthcare Information Management Executives (CHIME)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **College of Healthcare Information Management Executives (CHIME)** is an organization formed in 1992 to advocate more
+        effective use of information management in healthcare, and to meet the professional-development needs of healthcare CIOs.
+
+  - uuid : udx824373j
+    term : Column-Store Database Management System (DBMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **column-store database management system (DBMS)** is a DBMS that indexes each column of a table, storing the indexes in
+        lieu of row data -- unlike traditional relational DBMSs using a row-store, where data is stored in rows, with indexes
+        optional. In addition, most column-store DBMSs include additional optimization techniques (such as compression and
+        tokenization) to further compress the data -- using less storage and increasing input/output (I/O) performance. We do not
+        include row-store DBMS engines that offer columnar forms of compression only.
+
+  - uuid : udx8244rhs
+    term : COM (communications Port)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A port that allows an application to access a modem.
+
+  - uuid : udx8246984
+    term : COM (Component Object Model)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A component architecture in Microsoft's desktop operating system. A distributed version of COM (i.e., DCOM -- the
+        Distributed Component Object Model) enables the development of applications in which components are distributed over
+        several computers (e.g., a client and one or more servers).
+
+  - uuid : udx8247k0m
+    term : COM (computer Output To Microfilm Or Microfiche)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system in which digital data is converted into an image on dry processed microfilm.
+
+  - uuid : udx82491ta
+    term : Comanagement Processes
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Comanagement processes are "a set of shared processes that enable internal and external IT service providers and business
+        clients to continuously align IT service delivery to changing internal and external conditions." Comanagement processes
+        are the visible aspect of a governance framework.
+
+  - uuid : udx824aidt
+    term : Combined Heat And Power (CHP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Combined heat and power (CHP)** is a specific form of distributed generation (DG) that refers to the placement of
+        electric-power-generating units at or near customer facilities to supply on-site energy needs. CHP enhances DG's
+        advantages by the simultaneous production of thermal and power output, thus increasing overall efficiency. Once available
+        only to large commercial buildings and urban areas, CHP systems -- sometimes referred to as "cogeneration" -- are now
+        produced on a scale that's safe, practical and affordable to homeowners.
+
+  - uuid : udx824cayk
+    term : Commerce Platform Servers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Commerce (B2B and B2C) software servers and tools are used to build systems that sell, service, market and buy products to
+        customers and businesses through the Web and channel partners. These servers build systems for enterprises to automate
+        their Web sales process and customer experience, gain insight into customer behavior and preferences, improve visibility
+        into channel activities and performance, and improve customer satisfaction and loyalty. This market segment is made up of
+        servers and tools that are used to build and sell these solutions, not the applications themselves.
+
+  - uuid : udx824dumg
+    term : Commercial Telematics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Commercial telematics** are fleet- and trucking-segment-targeted automotive information and communication
+        technologies/services that use embedded technology or mobile and aftermarket devices. They support networks between
+        commercial vehicles/fleets and IT applications, and focus on improving productivity, efficiency, profitability, reduced
+        cost (such as lower insurance premiums) and sustainability objectives.
+
+  - uuid : udx824fdgs
+    term : Committed Access Rate (CAR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Committed access rate (CAR)** is a metric used Internet quality of service (QoS) agreements to classify and limit
+        customer traffic and manage excess traffic according to the network policy.
+
+  - uuid : udx824gugp
+    term : Common Access Card (CAC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **common access card (CAC)** is a single corporate card or token that can be used for PC, network and application login
+        (user authentication) and building access. A CAC also may be used as, for example, a photo ID card and a stored-value card
+        (electronic wallet) for vending machines and catering.
+
+  - uuid : udx824je9f
+    term : Common Gateway Interface (CGI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Common Gateway Interface (CGI)** standard is a data-passing specification used when a Web server must send or
+        receive data from an application such as a database. A CGI script passes the request from the Web server to a database,
+        gets the output and returns it to the Web client.
+
+  - uuid : udx824lga6
+    term : Communications As A Service (CaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This is communications functionality that may include telephony, messaging, conferencing, presence and notification, based
+        on assets owned, managed and colocated by third parties.
+
+  - uuid : udx824msur
+    term : Communities
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Communities of interest and communities of practice (CoP) exhibit more structure and more purpose than open
+        social-networking sites. As with their precedents (bulletin boards or list servers), the people who participate in
+        communities are linked by their interest in a topic. When CoP form within a company, it has identified members and expects
+        to produce a result.
+
+  - uuid : udx8251cxe
+    term : Community Cloud
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Community cloud** computing refers to a shared cloud computing service environment that is targeted to a limited set of
+        organizations or employees (such as banks or heads of trading firms). The organizing principle for the community will
+        vary, but the members of the community generally share similar security, privacy, performance and compliance requirements.
+        Community members may wish to invoke a mechanism that is often run by themselves (not just the provider) to review those
+        seeking entry into the community.
+
+  - uuid : udx825356i
+    term : Community Of Practice
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        People associated and interlinked in a communication or knowledge network because of their shared interest or shared
+        responsibility for a subject area. Examples are people who hold similar job functions (project managers, department
+        managers, team leaders or customer service agents); all the people on a project team; and people interested in specific
+        technologies (e-commerce or network management). Communities continually emerge and dissolve, and their membership,
+        processes and knowledge continually change and evolve.
+
+  - uuid : udx8254n31
+    term : Community
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A constantly changing group of people collaborating and sharing their ideas over an electronic network (e.g., the
+        Internet). Communities optimize their collective power by affiliation around a common interest, by the compression of the
+        time between member interactions (i.e., communicating in real time), and by asynchronous "postings" that potentially reach
+        more participants and permit more reflection time than real-time interactions.
+
+  - uuid : udx8256lkt
+    term : Compact Disc-ReWritable (CD-RW)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **compact disc-rewritable (CD-RW)** drive permits the user to back up data to compact discs (CDs).
+
+  - uuid : udx8258qn0
+    term : Compandor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The combination of a compressor at one point in a communications path, for reducing the volume range of signals, followed
+        by an expandor at another point, for restoring the original volume range. It is designed to improve the ratio of the
+        signal to the interference entering the path between the compressor and expandor.
+
+  - uuid : udx825a9td
+    term : Competency Center
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An organizational structure used to coordinate IT skills with an enterprise. Competency centers provide expertise for
+        project or program support, acting both as repositories of knowledge and resource pools for multiple business areas.
+        Skills-based competency centers, the most common type in an information services organization, are used for application
+        development, software language skills, data management, Internet development and network design. Within the enterprise, it
+        is increasingly common to find competency centers (or shared services) for travel, finance and human resources.
+        Repository-based competencies act exclusively as sources of information.
+
+  - uuid : udx825c0w9
+    term : Competitive Intelligence (CI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Competitive intelligence (CI)** is the analysis of an enterprise's marketplace to understand what is happening, what
+        will happen and what it means to the enterprise. CI business goals may be offensive -- positioning the company in the
+        marketplace, plotting a course for future positioning, and allocating short- and long-term resources. Goals may also be
+        defensive -- knowing what is happening, what may happen and how to react.
+
+  - uuid : udx825dr1r
+    term : Complementary Metal-Oxide Semiconductor (CMOS) Radio Frequency (RF) Power Amplifiers (PAs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Complementary metal-oxide semiconductor (CMOS) radio frequency (RF) power amplifiers (PAs)** are used in mobile devices
+        and are capable of providing up to two watts of output power (28 to 33 decibels \[dBm\]). They are used primarily in
+        mobile phones and PC data cards. Currently used in basic Global System for Mobile Communications (GSM)/general packet
+        radio service (GPRS) handsets, it is likely that there will be greater adoption in third-generation (3G) handsets in the
+        future--due to the lower output power requirement and the need for power control for 3G. Key benefits of the technology,
+        compared with the alternatives, are lower cost and greater integration--leading to a smaller footprint in the mobile
+        device.
+
+  - uuid : udx825fch8
+    term : Complex-Event Processing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Complex-event processing (CEP)** is a kind of computing in which incoming data about events is distilled into more
+        useful, higher level "complex" event data that provides insight into what is happening. CEP is event-driven because the
+        computation is triggered by the receipt of event data. CEP is used for highly demanding, continuous-intelligence
+        applications that enhance situation awareness and support real-time decisions.
+
+  - uuid : udx825h35k
+    term : Compliance (commercial)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Compliance that a business must adhere to in the course of doing business with trading partners and customers.
+
+  - uuid : udx825ipb9
+    term : Compliance (organizational)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Companies creating their own internal compliance demands. This type of compliance is driven by needs ranging from
+        preserving shareholder equity to embracing stakeholder identity.
+
+  - uuid : udx825k5wt
+    term : Compliance (regulatory)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Regulatory compliance is concerned with laws that a business must obey, or risk legal sanctions, up to and including
+        prison for its officers.
+
+  - uuid : udx825lmve
+    term : Compliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of adhering to policies and decisions. Policies can be derived from internal directives, procedures and
+        requirements, or from external laws, regulations, standards and agreements.
+
+  - uuid : udx825n54x
+    term : Component-Based Development (CBD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Component-based development (CBD)** is defined as a set of reuse-enabling technologies, tools and techniques that allow
+        application development (AD) organizations to go through the entire AD process (i.e., analysis design, construction and
+        assembly) or through any particular stage via the use of predefined component-enabling technologies (such as AD patterns,
+        frameworks, design templates) tools and application building blocks.
+
+  - uuid : udx8261o8x
+    term : Component
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Technically, a dynamically bindable package of functionality that is managed as a unit and accessed through documented
+        interfaces that can be discovered at runtime. Pragmatically, components tend to fall into two major groups: technical
+        components, which perform a technology-specific task that is application-independent (e.g., a graphical user interface
+        control), and business components, which encapsulate a piece of business functionality.
+
+  - uuid : udx8263fpt
+    term : Composite Application
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **composite application** orchestrates independently developed programs, data and devices to deliver a new solution that
+        none of the previously available applications could deliver on its own. Each resource accessed by a composite application
+        uses a different data model. In most cases, the composite application supports user interactions beyond those provided by
+        the leveraged applications. In other cases, a composite application may act as a service. Some composite applications are
+        built by leveraging other composite applications.
+
+  - uuid : udx82656il
+    term : Composite Content Applications (CCAs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Composite content applications (CCAs)** are collections of content; the platforms that store, manage and execute them;
+        the processes that leverage them; and the context required to deliver value. CCAs typically include design templates and
+        executable software components, both of which are configured, extended with additional functionality and integrated with
+        existing applications and databases. CCAs require domain expertise from an enterprise developer or a professional service
+        provider to deliver a unique solution.
+
+  - uuid : udx8266w2q
+    term : Composition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A solution that is assembled and orchestrated from independent parts. Compositions are orchestrated assemblies of data,
+        processes and services. Composition is not synonymous with composite application.
+
+  - uuid : udx8268dwf
+    term : Compound Annual Growth Rate (CAGR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **compound annual growth rate (CAGR)** is the annualized average rate of revenue growth between two given years,
+        assuming growth takes place at an exponentially compounded rate. The CAGR between given years X and Z, where Z - X = N, is
+        the number of years between the two given years, is calculated as follows:
+
+        $CAGR = ( V_{z} / V_{x} )^{(1/N) - 1}$
+
+        For example, the CAGR for 2006 to 2011 is calculated as:
+
+        $CAGR_{2006-2011} =  ( V_{2011} / V_{2006} )^{(1/5) - 1}$
+
+  - uuid : udx826adb0
+    term : Computational-Fluid-Dynamic (CFD) Analysis
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Computational-fluid-dynamic (CFD) analysis** uses numerical algorithms to analyze and model the flow of air around data
+        center hardware surfaces such as servers and storage systems. These simulations provide point-in-time data on the flow,
+        speed, direction and temperature of the air. With this information, data center and facilities managers are able to
+        determine the efficiency of air-handling cooling units to remove heat and determine the optimal layout of hardware and
+        perforated floor tile placement in a data center.
+
+  - uuid : udx826c48o
+    term : Computer-Aided Design And Drafting (CADD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Computer-aided design and drafting (CADD)** programs are interactive graphic programs that automate the methodologies of
+        drafting and design layouts. A few programs are successful enough so that it is difficult to justify designing layouts
+        manually. Applications include integrated circuits and printed circuit boards.
+
+  - uuid : udx826dfmg
+    term : Computer-Aided Engineering (CAE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Computer-aided engineering (CAE)** describes an area of automated manufacturing and design technology for building end
+        products that had its roots in finite element methods, but today it includes all types of performance systems, e.g., heat
+        transfer, structural, electromagnetic, aeronautics and acoustic analysis.
+
+  - uuid : udx826f2fq
+    term : Computer-Aided Manufacturing (CAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Computer-aided manufacturing (CAM)** is defined as the manufacturing of goods controlled and automated via computer and
+        robot. Frequently used in conjunction with computer-aided design (CAD).
+
+  - uuid : udx826gjyr
+    term : Computer-Aided Software Engineering (CASE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Computer-aided software engineering (CASE)** is an umbrella term for a collection of application development tools
+        designed to increase programmer productivity. They include technologies such as application generators and PC-based
+        workstations that provide graphics-oriented automation of the front end of the development process.
+
+  - uuid : udx826hwg7
+    term : Computer-Based Physician Order Entry (CPOE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Computer-based physician order entry (CPOE)** refers to a physician's direct input of orders (medication and
+        nonmedication) into an acute care (inpatient) automation system. We use physician order entry to emphasize that the
+        ordering clinician -- not someone operating on her behalf -- needs to interact with the system.
+
+  - uuid : udx826jl8o
+    term : Computer-Brain Interface
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Computer-brain interface** is a type of user interface, whereby the user voluntarily generates distinct brain patterns
+        that are interpreted by the computer as commands to control an application or device. The best results are achieved by
+        implanting electrodes into the brain to pick up signals. Noninvasive techniques are available commercially that use a cap
+        or helmet to detect the signals through external electrodes.
+
+  - uuid : udx826lblm
+    term : Computer Emergency Response Team (CERT)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Computer Emergency Response Team (CERT)** is a group formed in 1998 by the U.S. Defense Advanced Research Projects
+        Agency -- and coordinated through Carnegie Mellon University's Software Engineering Institute (SEI) -- to research and
+        report on Internet-related security problems. SEI's CERT Coordination Center publishes security information and advisory
+        bulletins through its website at www.cert.org.
+
+  - uuid : udx826mxpo
+    term : Computing Appliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A computing device that provides predefined services, and that has its underlying operating (OS) software hidden beneath
+        an application-specific interface. Computing appliances offer reduced complexity (e.g., installation, administration and
+        maintenance) and faster deployment by hiding the operating software and embedding the application within the device. A
+        computing appliance may be based on a general-purpose OS (e.g., Windows, Solaris or Linux) if the OS's complexity is
+        hidden and the ability to load arbitrary services is removed.
+
+        Computing appliances can provide one or more services; however, they not general-purpose devices in that they are not
+        flexible in the services they provide. Administrators do not need platform expertise -- just limited application and
+        appliance-specific expertise.
+
+        Gartner has defined four fundamental types of computing appliances -- see separate entries for server appliance, storage
+        appliance, network appliance and client appliance.
+
+  - uuid : udx8271cay
+    term : Computing Platform Products
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Computing platform products are defined as follows:
+
+        -   Server systems -- The server segment comprises all multiuser systems. Please note that Gartner no longer classifies
+            supercomputers and mainframes as discrete segments. As the technology, use and positioning differentiation between the
+            server segments has eroded, all multiuser systems are now classified as general-purpose servers.
+
+        -   Workstations -- Workstations are single-user systems including high-end, midrange, and entry-level workstations.
+            Workstations are typically high-end complex instruction set computer (CISC), explicitly parallel instruction computing
+            or RISC-based CPU architectures with high-performance graphics, OS and system architecture. In general, workstations
+            must include integrated floating-point processing, integrated networking, a 32-bit or 64-bit multitasking OS, as well
+            as configurations that support high-resolution graphics capabilities and 3D graphics functionality. The workstation
+            market includes traditional Unix workstations, such as Linux and workstations running Windows 2000/XP or other
+            advanced OSs. Gartner classifies workstations by the primary market for which they are designed and bases its data
+            collection on desktops branded as workstations. Systems shipped with Windows Media Center Edition are generally
+            counted as PCs and not included in the workstation category and, because they are not branded as workstations, neither
+            are Apple Macintosh desktops. Examples of x86-based workstations are IBM's IntelliStation family, Dell Precision
+            Workstations and HP Workstations. Note that the Intel-compatible 32-bit CPU (x86-32) category refers to Intel
+            Architecture (IA)-compatible, x86-based workstations and covers a variety of chipset and processor designs not offered
+            by Intel. Note also that the Itanium processor family of CPUs, such as Itanium2 and 64-bit extensions to CISC
+            architecture, including as AMD's Opteron- and Athlon64-based workstations, will be listed separately under the titles
+            of IA-64 and (Intel-compatible 64-bit CPU) x86-64, respectively.
+
+        -   PCs -- PCs are single-user systems including x86 (Intel-compatible CPU) server, desk-based and mobile PCs. A PC is a
+            general purpose computer that is distinguished from other computers by its adherence to hardware and software
+            compatibility. This compatibility drives high-unit volumes of commoditylike products that do not require on-site
+            technical support. High-performance features, such as networking, graphics and a virtual multiuser/multitasking OS,
+            are normally optional and not integral system features. IBM/IBM-compatible and Apple PCs are two platforms in this
+            product segment. A single-user PC's resident OS is typically Windows, Mac OS and Linux. PCs have a performance ceiling
+            that is lower in system compute performance, input/output (I/O) channel speed and disk speed than advanced
+            workstations. Standard graphics are in the 1024 x 768 to 1280 x 1068-pixel range, and optional high-end graphics are
+            limited compared with workstations. Gartner views a PC system as a single unit, which includes a CPU, a monitor, a
+            mouse and a keyboard. Furthermore, Gartner does not include thin-client terminal.
+
+  - uuid : udx8273d8v
+    term : Concentrator
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device that merges many low-speed asynchronous channels into one or more high-speed synchronous channels to achieve
+        economies of data transmission.
+
+  - uuid : udx82751la
+    term : Concurrent Backup
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system-level facility to allow a database or disk file to be backed up to another disk or to magnetic tape while it is
+        still open for application access.
+
+  - uuid : udx8276ho0
+    term : Concurrent Database Restore
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system-level facility to allow a database or portion thereof to be restored while the database is still open for
+        application access.
+
+  - uuid : udx8277udm
+    term : Concurrent Engineering (CE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Concurrent engineering (CE)** is a collaborative, team-based approach for designing products that combines multiple
+        departments and disciplines into a project team.
+
+  - uuid : udx8279f6q
+    term : Concurrent Use
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A way to measure the usage of software licenses. Software can be licensed in one of the following ways: individual (it
+        cannot be shared with other users); site (a limited number of people can use the software); concurrent use (usage is
+        limited to a maximum number of users at a particular time). The software vendor usually sets the guidelines on the type of
+        software license. Monitoring is facilitated by the vendor or by the user. When software usage is measured by the user, the
+        vendor can require a user to supply detailed reports or can rely on the user's pledge. Enterprises can avoid liability and
+        save money by accurately measuring the number of users.
+
+  - uuid : udx827b7dr
+    term : Conditioning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A procedure that restricts transmission impairments of a circuit to certain specified limits.
+
+  - uuid : udx827coye
+    term : Conductor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.Any equipment, such as a wire or cable, that can carry an electric current.
+
+        2.One wire of a multiwire cable.
+
+  - uuid : udx827e91x
+    term : Configuration Auditing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Configuration auditing** tools provide change detection, configuration assessment, and reconciliation of detected
+        changes against approved requests for changes (RFCs) and mitigation. Configuration settings are assessed against
+        company-specific policies, or industry-recognized security configuration assessment templates used for auditing and
+        security hardening. These tools focus on requirements specific to servers or PCs, but some also address network
+        components, applications, databases and virtual infrastructures.
+
+  - uuid : udx827g1d0
+    term : Configure, Price, Quote (CPQ) Application Suites
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Configure, price and quote (CPQ) application suites** provide an integrated set of software applications supporting the
+        configuration, pricing and quote generation activities that accompany solution and negotiated selling. CPQ application
+        suites are also deployed to support self-service sales environments, including business-to-consumer (B2C) and B2B sales
+        environments. CPQ systems typically include pricing engines, proposal generators, quoting systems, and rules or constraint
+        engines, and are complemented by approval and authorization workflows.
+
+  - uuid : udx827hthe
+    term : Connect Time
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The amount of time that a circuit, typically in a circuit switched environment, is in use. See holding time.
+
+  - uuid : udx827jb7x
+    term : Connected Devices
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Media tablets, e-readers, portable navigation devices, media players, imaging devices and mobile gaming devices.
+
+  - uuid : udx827ksax
+    term : Connected Game Handhelds
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Connected game handhelds use an embedded WAN digital cellular or WLAN connection to link to services designed to enhance
+        the gaming experience, including online gaming and downloading games and game content.
+
+  - uuid : udx827ma1f
+    term : Connected Imaging Devices
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Connected imaging devices** include digital still cameras (DSCs) and digital camcorders with embedded wireless LAN
+        (WLAN) or wireless WAN digital cellular connections. The wireless connection is typically used to send photos to a PC, an
+        online photo service or social networking site, or as an attachment to an email. The advantage is that you can send photos
+        or videos as soon as they are taken instead of waiting until they are downloaded to a PC.
+
+  - uuid : udx828loe
+    term : Connected Portable Media Players (PMPs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Connected portable media players (PMPs)** embed a wireless WAN digital cellular or Wi-Fi connection to connect to
+        services designed to enhance the media playback experience, including direct-to-device content downloads, music ID
+        capabilities, music discovery features, social networking features, and streaming Internet radio functions. In addition,
+        more of these products are being based on mobile operating systems, including Apple's iOS and Google's Android, which
+        allows them to run applications and browse the Web. Apple is the major vendor of connected PMPs with its iPod touch model,
+        but other vendors, including Microsoft, Creative, iriver, SanDisk and Archos, also sell connected PMPs. PMPs are
+        distinguished from media tablets by having a screen size smaller than 5 inches, and from a smartphone or mobile phone by
+        the lack of a WAN cellular connection capable of making cellular-based voice calls.
+
+  - uuid : udx828284v
+    term : Connected Portable Media Players
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These embed a wireless WAN or WLAN connection to connect to services designed to enhance media playback, including
+        direct-to-device content downloads, music ID capabilities, music discovery features, social networking features and
+        streaming Internet radio functions. Some products can run applications and browse the Web.
+
+  - uuid : udx8283pn4
+    term : Connected Portable Navigation Devices (PNDs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Portable navigation devices (PNDs)** are handheld products that receive GPS signals to determine location. Connected
+        PNDs embed a WAN digital cellular or Wi-Fi connection to connect to services designed to enhance the navigation
+        experience, including traffic information, local search and other location-based services. PNDs with a WAN digital
+        cellular connection can also use assisted GPS (A-GPS), which enables a faster time to a location fix. PNDs are used in
+        cars to provide turn-by-turn directions and location-based services. PNDs typically have 3.5- to 5.2-inch screens and
+        include maps of a given region stored on internal NAND flash memory.
+
+  - uuid : udx8285hk3
+    term : Connection Admission Control (CAC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In asynchronous transfer mode (ATM) networks, **connection admission control (CAC)** is a function that checks whether
+        network resources are available to support the quality of service and traffic parameters of an incoming connection. Also
+        known as "call admission control."
+
+  - uuid : udx82879gg
+    term : Connection-oriented Service
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A service in which a connection (real or virtual) is set up and maintained for the duration of the communication. See
+        circuit switching.
+
+  - uuid : udx8289041
+    term : Connection
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A unique, active service access point to a network. This includes machine-to-machine network access as well as human
+        access. In mobile networks, this may be taken to refer to an active subscriber identity module (SIM). A single subscriber
+        may operate several different cellular connections and multiple connections may be associated with one customer or one
+        mobile device.
+
+  - uuid : udx828acgt
+    term : Connectionless Service
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In a connectionless service, no fixed path is set up between sender and recipient. Every unit of data that is exchanged is
+        self-contained in that it contains all the necessary control and address information to ensure correct delivery, e.g.,
+        packet switching.
+
+  - uuid : udx828bwao
+    term : Connectionless
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The interconnection model in which communication takes place without first establishing a connection.
+
+  - uuid : udx828degq
+    term : Consent Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Consent management** is a system, process or set of policies for allowing consumers and patients to determine what
+        health information they are willing to permit their various care providers to access. It enables patients and consumers to
+        affirm their participation in e-health initiatives (patient portal, personal health record or health information exchange)
+        and to establish privacy preferences to determine who will have access to their protected health information (PHI), for
+        what purpose and under what circumstances. Consent management supports the dynamic creation, management and enforcement of
+        consumer, organizational and jurisdictional privacy directives.
+
+  - uuid : udx828f4mh
+    term : Console
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The part of a computer used for communicating between the user and the system. A cathode ray tube (CRT) terminal with
+        mouse and keyboard is the most common type.
+
+  - uuid : udx828gmb2
+    term : Constant Bit Rate (CBR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Constant bit rate (CBR)** is an asynchronous transfer mode (ATM) service category, defined by the ATM Forum, that
+        guarantees a constant bandwidth with low delay, jitter and cell loss. Circuit emulation is a typical application.
+
+  - uuid : udx828ieal
+    term : Consultative Selling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A style of selling based on uncovering, understanding and responding to the customer's underlying business need through
+        meaningful dialogue.
+
+  - uuid : udx828jvsm
+    term : Consumer Broadband Connections
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A broadband connection is a direct path between two termination points, one of which is in the consumer's home, the other
+        at the carrier's central office (CO) or local broadband aggregation node. In the case of wireless broadband access, it is
+        a wireless connection between the home and the aggregation node. The number of connections is equal to the number of
+        in-service lines that are subscribed to by consumers.
+
+  - uuid : udx828lnrs
+    term : Consumer Broadband Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A broadband line is a connection between a consumer's home and a carrier's network that provides data access services of
+        at least 256 Kbps. In most cases this is a physical connection using copper-based DSL, cable modem or FTTH/FTTP with
+        Ethernet in the last mile in a building. However, Gartner also includes other emerging access technologies, such as
+        wireless broadband, satellite and power lines when they are used as replacement technologies for residential fixed-line
+        broadband.
+
+        Broadband services revenue includes all the retail revenue associated with providing broadband access to consumers. This
+        does not include IP services revenue -- especially Internet access revenue -- that is commonly bundled with the broadband
+        line. Broadband access and Internet access are two different services, and Internet access revenue is reflected in the
+        Internet segment.
+
+  - uuid : udx8295cm
+    term : Consumer Digital Rights Management (DRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Consumer digital rights management (DRM)** technologies control how consumers use copyrighted material that is
+        distributed in digital form, such as music, video files or text in e-books.
+
+  - uuid : udx8291mcb
+    term : Consumer-Generated Media (CGM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Consumer-generated media (CGM)** refers to any written, audio or video content created by end users, using basic or
+        semiprofessional tools. CGM can include one-consumer-to-many applications such as photo sharing, publishing via blogs,
+        podcasting, social network videoblogging and the like, as well as "auteurs" looking to get their content to an audience.
+
+  - uuid : udx8293ei3
+    term : Consumer Internet Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Consumer Internet services are data services provided by ISPs that connect subscribers to the Internet using either a
+        dial-up connection over a PSTN line or over a broadband connection. Typically, these are flat rate or metered services
+        based on time or data usage.
+
+        Consumer Internet accounts represent the number of active fee-paying individual consumer accounts that can be associated
+        with commercial ISPs. In general these accounts service subscribers who are connecting from home.
+
+  - uuid : udx8294wmt
+    term : Consumer NAS (consumer Network Attached Storage)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines a consumer NAS as a centralized, multifunction storage system for the home network. It can function as a
+        file server with remote access to multiple PCs and media players, a print server, a media server, a backup and archive
+        system, and temporary storage for Internet downloads or video-on-demand.
+
+  - uuid : udx82968ni
+    term : Consumer Telematics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Consumer telematics** are end-user-targeted vehicle-centric information and communication technologies (vehicle ICTs)
+        and services. Network-enabled cars for consumers provide in-vehicle services, such as emergency assistance, Global
+        Positioning System (GPS) navigation, traffic information, local search (for example, for charging stations or restaurants)
+        and concierge services.
+
+  - uuid : udx8297yd5
+    term : Consumer Telepresence
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Consumer telepresence** is a set of technologies that enables users to feel they are "present" during videoconferences.
+        Telepresence has the potential to break down the consumer dissatisfaction that has been prevalent with video telephony.
+        Telepresence solutions share common traits, including: life-size (or near life-size) image displays, high-quality audio,
+        full-motion video capabilities and a minimal camera-to-eye angle to provide virtual eye-to-eye contact. Telepresence
+        systems are being driven by the enterprise market through companies such as Cisco, HP and Polycom. Consumer telepresence
+        creates a greater challenge than its enterprise counterpart. While an enterprise system can cost hundreds of thousands of
+        dollars and may require an environment that is ad hoc, a consumer system will need to embrace a variety of environments in
+        which the majority of costs can be absorbed in other home devices, such as high-definition television (HDTV), broadband
+        and home theater sound systems.
+
+  - uuid : udx8299qx5
+    term : Consumer Voice Access Lines
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Consumer voice access lines is the sum of PSTN (including consumer channel counts for consumer Integrated Services Digital
+        Network \[ISDN\]) and VoIP connections. Note that "virtual" VoIP connections used for voice communications, usually via a
+        broadband connection to the Internet or some other IP network. The "virtual" line has to be associated with a telephone
+        number that allows it to receive incoming PSTN calls.
+
+  - uuid : udx829bjpv
+    term : Consumer Voice Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Voice service revenue and connections are made up of the sum of PSTN and voice over Internet Protocol (VoIP) connections
+        and their associated revenue. For clarification, IP-based voice "virtual" connections (VoIP) are those calls delivered
+        over a broadband Internet connection or other IP network. A VoIP virtual line needs to be associated with a telephone
+        number and be identifiable to the consumer as a VoIP-grade service. A VoIP line and PSTN line are not mutually exclusive
+        -- indeed, most consumers with VoIP lines still have a PSTN line.
+
+  - uuid : udx829d7qi
+    term : Consumer Web Mashups
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Consumer Web mashups** are lightweight, composite applications built using consumer Web-based mashup infrastructures and
+        consuming publicly available consumer Web resources. Consumer Web mashup infrastructure providers claim to target average
+        Web users, but most active use is by amateur developers and hard-core hobbyists.
+
+  - uuid : udx829eimy
+    term : Consumerization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Consumerization** is the specific impact that consumer-originated technologies can have on enterprises. It reflects how
+        enterprises will be affected by, and can take advantage of, new technologies and models that originate and develop in the
+        consumer space, rather than in the enterprise IT sector. Consumerization is not a strategy or something to be "adopted."
+        Consumerization can be embraced and it must be dealt with, but it cannot be stopped.
+
+  - uuid : udx829g7wq
+    term : Contact Center Infrastructure
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Contact center infrastructure** includes software and hardware designed to run a contact/call center. This includes
+        automatic call distributors, integrated voice response units, computer-telephony integration, and universal communications
+        or universal queue management, integrating any of these multiple channels for a call/contact center.
+
+  - uuid : udx829i1qg
+    term : Contact Center System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **contact center system** is a computer-based system that provides call and contact routing for high-volume telephony
+        transactions, with specialist answering "agent" stations and a sophisticated real-time contact management system. The
+        definition includes all contact center systems that provide inbound contact handling capabilities and automatic contact
+        distribution, combined with a high degree of sophistication in terms of dynamic contact traffic management.
+
+        Contact center systems are defined as follows:
+
+        They are software applications typically residing on an adjunct server or switch-based processor system, located either at
+        a customer's premises or at a third-party site. For routing phone calls, the system providing the call control may be an
+        application-specific resource or may support a dual-function PBX/automatic call distributor installation. Newer
+        architectures will support contact center call routing business rules on an "application server" which can direct and
+        monitor calls through a telephony gateway using SIP or other softswitch protocols. The infrastructure may also be provided
+        as an on-site "managed service;" as an off-site, dedicated "hosted service" solution; or as an off-site shared resource
+        "software as a service" (SaaS) solution.
+
+        They provide intelligent routing of an incoming communication (that is, a call, e-mail, text chat, Web collaboration or
+        facsimile) to the appropriate resource (that is, agent-assisted or self-service) through an algorithm more sophisticated
+        than simple hunt groups.
+
+        They provide the ability to generate historical activity reports (covering at least 30 days) as well as supervisory
+        capabilities including, but not limited to, real-time monitoring and reporting of a system's workload, agent status
+        lookups, viewing the number of contacts in the queue, and the ability to change agent status.
+
+  - uuid : udx829jms8
+    term : Contact Center Workforce Optimization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **contact center workforce optimization** solution integrates disparate contact center technologies--including contact
+        center performance management, e-learning, interaction analytics, quality management and workforce management--which
+        execute against a high-level framework encompassing strategic contact center planning; agent recruitment, deployment,
+        monitoring, evaluation, improvement and motivation; and corporate accountability and contribution.
+
+  - uuid : udx829l7lu
+    term : Contact Center
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **contact center** supports customer interactions across a range of channels, including phone calls, email, Web chat,
+        Web collaboration, and the emerging adoption of social media interactions, and is distinct from telephony-only call
+        centers. Although contact centers support more than one channel, they do not necessarily involve the use of universal
+        queuing. Instead, they may support multiple channels but use separate systems and, in some cases, business processes to do
+        so. Key underlying technologies include automatic call distribution, computer-telephony integration, interactive voice
+        response and outbound dialers.
+
+  - uuid : udx829n06m
+    term : Contact Database
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A database containing names, addresses and other information on sales contacts, used for contact tracking and management
+        purposes.
+
+  - uuid : udx82a14hd
+    term : Contactless Card
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Chip-based Near Field Communication (NFC) card based on radio frequency identification (RFID) technologies that use RFs to
+        transmit data, and which needs no physical contact to be read by readers or terminals. Contactless cards are waved near
+        the reader to record transactions or to identify the user. Systems are either passive, with the readers generating the
+        frequency, or active, in which case the card activates the reader. Sony's FeliCa chip card technology (which has been
+        integrated into mobile phones for m-banking and m-commerce in Japan) is an example.
+
+  - uuid : udx82a2xou
+    term : Contactless Payments
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Contactless payment** technology enables payment transactions via a contactless chip embedded in payment cards, tags,
+        key fobs and mobile phones. The chip communicates with a reader device that uses radio frequency or Near Field
+        Communication (NFC) standards. It includes radio frequency identification (RFID) as part of a machine-to-machine
+        communications trend. Contactless payments are more popularly referred to as "wave and pay" or "tap and go."
+
+  - uuid : udx82a4qsa
+    term : Content Aggregation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The presentation of content from multiple sources at a single Web location for review by the customer.
+
+  - uuid : udx82a695p
+    term : Content Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Content analytics** defines a family of technologies that processes content and the behavior of users in consuming
+        content to derive answers to specific questions. Content types include text of all kinds, such as documents, blogs, news
+        sites, customer conversations (both audio and text), and social network discussions.
+
+  - uuid : udx82a81bf
+    term : Content And Applications Service Provider
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Content and applications service providers** include providers focusing primarily on information and media services,
+        content, entertainment and applications services. Examples include, Yahoo, Google.
+
+  - uuid : udx82a9h6p
+    term : Content-Aware Data Loss Prevention (DLP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Content-aware data loss prevention (DLP)** tools enable the dynamic application of policy based on the content and
+        context at the time of an operation. These tools are used to address the risk of inadvertent or accidental leaks, or
+        exposure of sensitive enterprise information outside authorized channels, using monitoring, filtering, blocking and
+        remediation features.
+
+  - uuid : udx82ab20j
+    term : Content Awareness
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The ability to determine what information is contained in a specific file, folder, application or other data store,
+        whether that information is at rest, in use or in transit. Enterprises achieve content awareness with technologies that
+        use one or more inspection techniques and mechanisms, including exact data matching, structured "fingerprinting" of data,
+        statistical analysis (for example, Bayesian analysis and machine learning), rules and regular expression matching,
+        published lexicons, conceptual definitions, keyword and file-tagging look-up and watermark recognition.
+
+  - uuid : udx82acu4p
+    term : Content, Communications And Collaboration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The content, communications and collaboration software market sector comprises software products, tools and hosted
+        services to organize, access, use and share content. Content management and/or collaboration initiatives involve managing
+        and interacting with a multitude of content types, including documents, records, images, forms and, increasingly, digital
+        media. Included in this market sector are enterprise content management (ECM), e-mail and calendaring, Web conferencing
+        and shared work spaces/team collaboration, IM, e-learning suites, information access with search, and ECM systems.
+
+        For the enterprise application software segment, content, communications and collaboration software does not include
+        products targeted at specific business functions or processes, such as engineering design or customer service and support,
+        in which some form of collaboration and knowledge management capability is included as part of the packaged application.
+
+  - uuid : udx82aejyr
+    term : Content Delivery Networks (CDNs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Content delivery networks (CDNs)** are a type of distributed computing infrastructure, where devices (servers or
+        appliances) reside in multiple points of presence on multihop packet-routing networks, such as the Internet, or on private
+        WANs. A CDN can be used to distribute rich media downloads or streams, deliver software packages and updates, and provide
+        services such as global load balancing, Secure Sockets Layer acceleration and dynamic application acceleration via WAN
+        optimization techniques.
+
+  - uuid : udx82agcnd
+    term : Content Management (CM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Content Management (CM)** is a broad term referring to applications and processes to manage Web content, document
+        content and e-commerce-focused content.
+
+  - uuid : udx82ahu76
+    term : Content Optimization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Content optimization** is a process by which a content provider is able to use a variety of techniques to improve search
+        results and ranking, as well as extend the value of core content by automating the content management process to develop
+        new Web pages on the fly.
+
+  - uuid : udx82ajdl4
+    term : Content Provider
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An enterprise with information-based (i.e., content) products; it also includes services to access and manage the content.
+
+  - uuid : udx82akuh2
+    term : Content
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In commercial publishing, content refers to individual documents that can be graphic, textual or illustrative in nature,
+        or amalgamations of documents that can be combined into individual articles or complete publications. On the Internet, the
+        term refers to the content of websites.
+
+  - uuid : udx82amcw8
+    term : Contention
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A method of line control in which the terminals request to transmit. If the channel in question is free, transmission
+        proceeds; if it is not free, the terminal must wait until it becomes free.
+
+  - uuid : udx82bij8
+    term : Context-Aware Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Context-aware computing ** is a style of computing in which situational and environmental information about people,
+        places and things is used to anticipate immediate needs and proactively offer enriched, situation-aware and usable
+        content, functions and experiences.
+
+  - uuid : udx82b1ut7
+    term : Context-Aware Security
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Context-aware security** is the use of supplemental information to improve security decisions at the time they are made,
+        resulting in more accurate security decisions capable of supporting dynamic business and IT environments. The most
+        commonly cited context information types are environmental (such as location and time). However, context information
+        valuable to information security exists throughout the IT stack, including IP, device, URL and application reputation;
+        business value context; and the threat context in which the decision is made.
+
+  - uuid : udx82b3lxp
+    term : Context-Enriched Content
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Context-enriched content** is the content, information and data ranging from articles to advertising based on the user's
+        context that is served to whatever medium the recipient is using to interact with that content. The media may be a Web
+        browser, a mobile phone, a media tablet or printed materials. Context-enriched content is differentiated from traditional
+        communications by incorporating the user's context and an assessed understanding of the user's need in the moment.
+
+  - uuid : udx82b5gry
+    term : Context-Enriched Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Context-enriched services** are those that combine situational and environmental information with other information to
+        proactively offer enriched, situation-aware and usable content, functions and experiences. The term denotes services and
+        APIs that use information about the user to optionally and implicitly fine-tune the software action with better
+        situational awareness. Such services can proactively push content to the user at the moment of need, or suggest products
+        and services that are most attractive to the user at a specific time.
+
+  - uuid : udx82b76u3
+    term : Context Management Engine
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A core enabling technology for effective portals, this application collects, analyzes and distributes personalization and
+        customization information.
+
+  - uuid : udx82b8p4l
+    term : Context
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Generally refers to the combination of user identity, environmental, process and community-based information about the
+        customer, leading to real-time offers, delivered at the right time via the right touchpoint, and valuable to the customer.
+
+        Refers to meanings that are clear to the sender or receiver (e.g., application or person), either because they are stated
+        elsewhere in the message or because they have been predefined (e.g., the number "30" means "30 pounds of flour" in one
+        message and "30 cases of orange soda" in another message). Sender and receiver may have different interpretations of
+        meaning (i.e., different context). For example, "customer" could be the party that pays the freight bill in a billing
+        application, but the receiver of the item (which might not be the payer) in a warehousing application.
+
+  - uuid : udx82ba9eg
+    term : Contextual Presence
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Contextual presence is a context-specific list that is created according to specific and current needs. Contextual
+        presence allows users such as medical staff, technical assistants and financial brokers to determine who is available to
+        assist with a specific customer request. Contextual presence lists can be integrated with location services.
+
+  - uuid : udx82bbr54
+    term : Contingent Workforce
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An on-demand workforce staffing strategy using contract workers, agency staffing, independent contractors and people who
+        will work directly for an enterprise on an on-call basis.
+
+  - uuid : udx82bd8wh
+    term : Continuity Check
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In common-channel signaling, a test performed to check that a path exists for speech or data transmission.
+
+  - uuid : udx82beqhk
+    term : Continuous Controls Monitoring (CCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Continuous controls monitoring (CCM)** is a set of technologies to reduce business losses through continuous monitoring
+        and reducing the cost of audits through continuous auditing of the controls in financial and other transactional
+        applications.
+
+  - uuid : udx82bg8qh
+    term : Continuous Data Protection (CDP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Continuous data protection (CDP)** is an approach to recovery that continuously, or nearly continuously, captures and
+        transmits changes to files or blocks of data while journaling these changes. This capability provides the option to
+        recover to many more-granular points in time to minimize data loss, and enables arbitrary recovery points. Some CDP
+        solutions can be configured to either capture data continuously (true CDP) or at scheduled times (near CDP).
+
+  - uuid : udx82bhv7h
+    term : Continuous Improvement
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A manufacturing methodology used to improve overall quality by continuously increasing precision in parts specification.
+
+  - uuid : udx82bjb02
+    term : Continuous Integration (CI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Continuous integration (CI)** systems provide automation of the software build and validation process driven in a
+        continuous way by running a configured sequence of operations every time a software change is checked into the source code
+        management repository. These are closely associated with agile development practices and closely related to the emerging
+        DevOps toolsets.
+
+  - uuid : udx82bl395
+    term : Continuous Moves
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Normally used in conjunction with private truck fleets in process industries to keep the trucks moving with different
+        loads and driver crews on regular routes with just-in-time materials. This concept is being adopted by public fleets to
+        utilize their assets more effectively.
+
+  - uuid : udx82bmkqe
+    term : Continuous Operations
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Those characteristics of a data-processing system that reduce or eliminate the need for planned downtime, such as
+        scheduled maintenance. One element of 24-hour-a-day, seven-day-a-week operation.
+
+  - uuid : udx82clx9
+    term : Continuous Production
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A production system in which the productive units are organized and sequenced according to the steps to produce the
+        product. The routing of the jobs is fixed, and setups are seldom changed.
+
+  - uuid : udx82c232w
+    term : Contract Life Cycle Management (CLM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Contract life cycle management (CLM)** is a solution and process for managing the life cycle of contracts created and/or
+        administered by or impacting the company. These include third-party contracts, such as outsourcing, procurement, sales,
+        nondisclosure, intellectual property, leasing, facilities management and other licensing, and agreements containing
+        contractual obligations now and in the future.
+
+  - uuid : udx82c3sso
+    term : Control Character
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A character inserted into a data stream to signal the receiving station to perform a function or to identify the structure
+        of the message. Newer protocols are moving away from character-oriented control procedures toward bit-oriented control
+        procedures.
+
+  - uuid : udx82c56up
+    term : Control Charts
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A time series chart showing performance against upper and lower control limits (also known as tramline charts) that is
+        generally associated with the practice of statistical quality control (SQC) or statistical process control (SPC).
+
+  - uuid : udx82c6nir
+    term : Control Code
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **control code** is a multibit code reserved for controlling hardware, such as printers.
+
+  - uuid : udx82c84j9
+    term : Control Objectives For Information And Related Technology (COBIT)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **COBIT,** which is owned by ISACA, originated as an IT control framework, and has evolved into a broader IT governance
+        and management framework for the purpose of ensuring that the organization's investment in IT will enable the achievement
+        of its goals. COBIT 4.1 is used by many midsize to large organizations across a wide range of industries, but adoption in
+        higher education is relatively low.
+
+  - uuid : udx82c9uk2
+    term : Convergent Charging
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Initially, **convergent charging** addressed the integration of mobile intelligent network (IN)-based and IT-based
+        billing, rating and charging on a single platform to enable seamless movement between prepaid and postpaid. Recently,
+        communications service providers (CSPs) have broadened this concept to address services outside their walled garden. This
+        allows CSPs to combine Internet Protocol (IP)-based services from content providers with their own mobile and fixed-line
+        postpaid services.
+
+  - uuid : udx82cbn57
+    term : Conversational Media
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Makes it possible for social media participants to share information through Web-based applications designed to help them
+        create, post and share text, pictures, audio and video. Examples are blogging software, software for sharing photos and
+        presentations and audio/video sites.
+
+  - uuid : udx82cd5v8
+    term : Cookie
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A permanent code placed in a file on a computer's hard disk by a website that the computer user has visited. The code
+        uniquely identifies, or "registers," that user and can be accessed for number of marketing and site-tracking purposes.
+
+  - uuid : udx82ceneo
+    term : Cooling Management Systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cooling management systems** tools fall into several categories, but our focus is on tools that manage and control the
+        cooling of an entire plant, including the IT equipment and the facilities infrastructure. Control is a key word, because
+        to qualify, the tools must have the ability to automatically make adjustments to the cooling plant -- e.g., controlling
+        fan speeds and computer room air conditioning (CRAC) units.
+
+  - uuid : udx82cgdtw
+    term : Cooperative Processing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The splitting of an application into tasks performed on separate computers. Physical connectivity can occur via a direct
+        channel connection, a local-area network (LAN), a peer-to-peer communication link or a master/slave link. The application
+        software can exist in a distributed processing environment, but this is not a requirement.
+
+  - uuid : udx82chq5i
+    term : Coordination Mechanics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A term coined by Coordination Technology's founder, Anatole Holt. It generally refers to a class of workflow that is
+        heuristic in nature; i.e., a higher form of workflow concentrating on human behavior.
+
+  - uuid : udx82cj9bg
+    term : COPICS (Communications Oriented Production Information And Control System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A mainframe material requirements planning product from IBM.
+
+  - uuid : udx82ckqbk
+    term : CORBA (Common Object Request Broker Architecture)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An Object Management Group (OMG) interoperability standard for object-oriented applications communicating over
+        heterogeneous networks.
+
+  - uuid : udx82cm7se
+    term : Core Banking System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **core banking system** is the back-end data processing application for processing all transactions that have occurred
+        during the day and posting updated data on account balances to the mainframe. Core systems typically include deposit
+        account and CD account processing, loan and credit processing, interfaces to the general ledger and reporting tools.
+
+  - uuid : udx82dj3i
+    term : CORE (COMPARE Operational Readiness Evaluation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner's CORE risk assessment and reporting steps are used to define business operational risks, to report risks to
+        management, investors, regulators and customers in a consistent form, and to determine when contingency and recovery
+        strategies are required.
+
+  - uuid : udx82d20xl
+    term : Core Storage Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Products in the core storage management segment provide basic data organization functions, such as file system and volume
+        management, storage virtualization software, thin provisioning, disk utilities, access and path management, and emerging
+        technologies that do not fit into one of the other segments. Storage virtualization software, whether on a server or in
+        the storage network or in the disk array, creates an abstraction layer that separates physical storage from logical
+        storage, masks complexities to simplify storage management and enables storage resource optimization via pooling. Network
+        file systems, file systems that are part of the core OS or essential for the operation of the storage device, and
+        high-availability (such as clustering) software products are not included.
+
+  - uuid : udx82d3sl4
+    term : COS (class Of Service)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An Internet service provider (ISP) offering that prioritizes which traffic is delivered before other traffic. With COS,
+        when an ISP's network is not congested, all traffic is treated equally. When the network is congested, however, traffic
+        that has been designated as a higher priority will be delivered first, while lower priority traffic will be held in a
+        queue until the higher-class traffic has been transmitted.
+
+  - uuid : udx82d5kqn
+    term : COSE (Common Open Software Environment)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A now-defunct vendor consortium, which was formed to promote interoperability and portability across Unix platforms. The
+        group's first project was the Common Desktop Environment (CDE) specification
+
+  - uuid : udx82d72c8
+    term : Cost To Serve
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Analysis that calculates the profitability of products, customers and routes to market, and provides a fact-based focus
+        for decision making on service mix and operational changes for each customer.
+
+  - uuid : udx82d8fop
+    term : Country Code
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In direct distance dialing, a code characterizing a particular country. Codes corresponding to the world numbering plan
+        start with a single digit that identifies a particular geographical area. This can be followed by one or two extra digits.
+
+  - uuid : udx82d9w7u
+    term : CPA (comprehensive Production Architecture)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Enables simultaneous and cost-effective production and archiving in print and Internet formats by integrating five key
+        processes: document creation and retrieval, assembly and formatting, internal archiving, prepress and printing and
+        Internet publishing.
+
+  - uuid : udx82dbdg2
+    term : CPC (collaborative Product Commerce)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An e-business strategy for exploiting new Web-based commerce opportunities across product development and product life
+        cycle processes. CPC opportunities include both inbound (business-to-business) and outbound (business-to-consumer)
+        commerce such as collaborative product development, customer driven design, collaborative product and component sourcing,
+        manufacturing/supply-chain collaboration, and product maintenance self-service portals.
+
+  - uuid : udx82dd6t5
+    term : CPC (cost Per Click)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An online advertising metric which refers to advertising spending divided by the number of recipients who click on the
+        message (e.g., a banner ad on a website or a link embedded in e-mail message).
+
+  - uuid : udx82dejgs
+    term : CPE Business DSL Router With Embedded DSL Modem
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This is a business-class router similar to an external xDSL modem, but including additional routing functions. It can be a
+        wired device or include a wireless access point.
+
+  - uuid : udx82dg9wq
+    term : CPE (customer Premises Equipment)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Any telephone apparatus -- including telephone handsets, private branch exchange (PBX) switching equipment, key and hybrid
+        telephone systems, and add-on devices -- that is physically located on a customer's property, as opposed to being housed
+        in the telephone company's central office or elsewhere in the network.
+
+  - uuid : udx82dhjcj
+    term : CPE External Stand-alone Modem
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This modem does not go inside a PC, but has its own external casing and power supply, and is connected to a PC using a
+        cable.
+
+  - uuid : udx82diwr4
+    term : CPE Internal Modem
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This modem is placed inside a PC. It is not a PC Card.
+
+  - uuid : udx82dken4
+    term : CPEMH (computer-aided Patient-entered Medical History)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system that presents a series of questions, thereby collecting data that traditionally would require a receptionist, a
+        "traditional clipboard," a nurse and a doctor. These systems use knowledge management and branching logic to tailor each
+        session to the individual patient. Once the data is collected, it can be parsed, translated and highlighted. The clinician
+        then has access to data prior to seeing the patient and can better direct the encounter.
+
+  - uuid : udx82dm76f
+    term : CPGA (cost Per Gross Add)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Typically, the cost of sales and marketing, advertising and handset subsidies over total gross adds.
+
+  - uuid : udx82ec9p
+    term : CPI (continuous Process Improvement)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A methodology for improving production, driven by formal metrics and measurement programs, including methodology upgrades.
+
+  - uuid : udx82e1twx
+    term : CPM (corporate Performance Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        CPM is an umbrella term that describes the methodologies, metrics, processes and systems used to monitor and manage the
+        business performance of an enterprise. Applications that enable CPM translate strategically focused information to
+        operational plans and send aggregated results. These applications are also integrated into many elements of the planning
+        and control cycle, or they address BAM or customer relationship optimization needs.
+
+        CPM must be supported by a suite of analytical applications that provide the functionality to support these processes,
+        methodologies and metrics.
+
+  - uuid : udx82e3kxi
+    term : CPM (critical Path Method Or Critical Path Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Critical path method is a project planning and management methodology that focuses on activities that control the total
+        duration of a project.
+
+  - uuid : udx82e51je
+    term : CPM Suites
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines the main application components of a CPM suite as follows:
+
+        -   Budgeting, planning and forecasting -- These applications support the development of all aspects of budgets, plans and
+            forecasts. They encompass short-term financially focused budgets, longer-term plans and high-level strategic plans.
+            These applications should deliver workflow capabilities to manage budget/plan creation, submission and approval, as
+            well as provide the ability to dynamically create forecasts and scenarios. They also should support the development of
+            an enterprisewide planning model that links operational plans with financial budgets. In addition, they must be
+            capable of sharing data with domain-specific applications, such as SCP.
+
+        -   Profitability modeling and optimization -- This includes activity-based costing (ABC) applications that determine and
+            allocate costs at a highly granular level, and activity-based management applications that provide capabilities to
+            enable users to model the impact on profitability of different cost and resource allocation strategies. Some
+            applications have moved beyond the "traditional" ABC focus to enable revenue to be allocated in addition to costs to
+            model packaging, bundling, pricing and channel strategies.
+
+        -   Scorecard applications -- A scorecard is a generic BI capability that includes the functionality of dashboards but
+            that also has the capability to link key performance indicators (KPIs) to a strategy map, with a hierarchical
+            cause-and-effect relationship among the KPIs. Scorecards are often used in conjunction with a particular methodology,
+            such as the balanced scorecard, European Foundation for Quality Management, value-based management or Six Sigma.
+
+        -   Financial consolidation -- This type of application enables organizations to reconcile, consolidate, summarize and
+            aggregate financial data based on different accounting standards and federal regulations. These applications are a
+            fundamental part of CPM because they create the audited, enterprise-level view of financial information that must be
+            shared with other CPM applications to analyze variance from targets.
+
+        -   Statutory and financial reporting -- CPM applications require specialized reporting tools that can format output as
+            structured financial statements, and they may also need to support specific generally accepted accounting principles
+            (GAAP) presentation rules, such as U.S. GAAP or International Financial Reporting Standards. They also include
+            visualization techniques that are specifically designed to support the analysis of variance from budgets or targets,
+            such as hyperbolic trees.
+
+  - uuid : udx82e6oe6
+    term : CPMS (corporate Property Management Software)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software whose basic functionality is to produce basic rent rolls and feed to general ledger; to track simple information
+        about leased or owned property (e.g., renewal dates, term dates, amount of square footage and basic breakdown of divisions
+        or departments in space for space allocation); and to capture data regarding parties to agreement and basic contract
+        information.
+
+  - uuid : udx82e817d
+    term : CPP (commercial Parallel Processing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The use of parallel-processing systems for complex commercial applications.
+
+  - uuid : udx82e9htn
+    term : CPR (computer-based Patient Record)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system that contains electronically maintained information about an individual's health status and care. It focuses on
+        tasks directly related to patient care, unlike other healthcare information systems that support providers' and payers'
+        operational processes (which may, however, serve as source or feeder systems for the CPR). The CPR completely replaces the
+        paper medical chart and thus must meet all clinical, legal and administrative requirements.
+
+  - uuid : udx82ebab3
+    term : CPR System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system containing patient-centric, electronically maintained information about an individual's health status and care,
+        focused on tasks and events directly related to patient care, and specifically designed for use by clinicians. CPR systems
+        provide support for all activities and processes involved in delivering clinical care. The Gartner definition of a CPR
+        system limits its scope to the boundaries of one organization. An enterprise CPR system is designed for use in an
+        organization with acute and ambulatory care environments.
+
+  - uuid : udx82ed1dk
+    term : CPRI (Common Public Radio Interface)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An industry cooperation between Ericsson, Nortel, NEC, Siemens and Huawei to define an open and published interface
+        between radio equipment control and the radio equipment. Although open and freely available, this interface is not defined
+        by 3GPP and is targeting WCDMA.
+
+  - uuid : udx82eei0y
+    term : CPS (certification Practice Statement)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A document defining all the operational practices that will be used to maintain the required level of public-key
+        infrastructure (PKI) security. To prove that issued certificates are valid, an enterprise must demonstrate (usually
+        through an audit) adherence to its CPS. The Internet Engineering Task Force's (IETF's) request for comment (RFC) 2527
+        contains draft guidelines for the format and content of a CPS.
+
+  - uuid : udx82egdkh
+    term : CPT (Current Procedural Terminology)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A widely used controlled medical vocabulary authored by the American Medical Association, this system describes medical
+        and surgical procedures in a hierarchical format with six major sections and more than 7,300 codes. A series of two-digit
+        modifiers are used to increase specificity, allowing the reporting of a procedure under specific circumstances.
+
+  - uuid : udx82ehvem
+    term : CPU (central Processing Unit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The component of a computer system that controls the interpretation and execution of instructions. The CPU of a PC
+        consists of a single microprocessor, while the CPU of a more powerful mainframe consists of multiple processing devices,
+        and in some cases, hundreds of them. The term "processor" is often used to refer to a CPU.
+
+  - uuid : udx82eja9u
+    term : CQI (continuous Quality Improvement)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A methodology for to continuous improvement of the quality of an enterprise's products, services or internal processes.
+
+  - uuid : udx82ekqxt
+    term : CRC (cyclic Redundancy Check)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An error detection technique using a polynomial to generate a series of two 8-bit block check characters that represent
+        the entire block of data. These block check characters are incorporated into the transmission frame and then checked at
+        the receiving end.
+
+  - uuid : udx82em7xd
+    term : Crisis/Incident Management (C/IM) Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Crisis/incident management (C/IM) software** is used to manage the actions of the workforce and other key stakeholders
+        in response to a particular crisis or incident with a consistent and quick approach so as to return to normal as soon as
+        possible. C/IM software functionality should include crisis communications and collaboration, recovery plan repository,
+        plan training/exercising, action tracking, expense management, workforce scheduling, situational awareness, geographic
+        information system, and government agency reporting.
+
+  - uuid : udx82fota
+    term : Critical-path Scheduling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A project-planning and monitoring system used to check progress toward the completion of a project by scheduling events,
+        activities, milestones, etc.
+
+  - uuid : udx82f261i
+    term : Critical Ratio
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A dispatching rule that calculates a priority index number by dividing the time to due date remaining by the expected
+        elapsed time to finish the job. Typically ratios of less than 1.0 are behind, ratios greater than 1.0 are ahead, and a
+        ratio of 1.0 is on schedule.
+
+  - uuid : udx82f3v5d
+    term : CRL (certificate Revocation List)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A "hot lists" that identifies certificates that have been withdrawn, canceled or compromised or that should not be trusted
+        because of other identified reasons. CRLs should be replicated to all subscribing servers to a specific root certification
+        authority.
+
+  - uuid : udx82f5h7n
+    term : CRM Printing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A subset of CRM publishing, CRM printing is enabled by the combination of digital, low-to-high-volume printing devices and
+        technology-enabled marketing techniques. The latter provide the data necessary for the former to produce personalized
+        materials.
+
+  - uuid : udx82f6yk2
+    term : CRM Publishing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The concept of using CRM techniques to micro segment prospective, current and former customers and to deliver targeted
+        marketing and sales information based on the recipients' requirements and preferred delivery method(s).
+
+  - uuid : udx82f8d3r
+    term : Cross-certification
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A process by which two enterprises are able to recognize and trust each other's digital certificates.
+
+  - uuid : udx82f9sue
+    term : Cross-compiler
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A program that translates instructions from a high-level language on one computer to the machine language of another
+        computer -- the one on which the program is to be run.
+
+  - uuid : udx82fbbq7
+    term : Cross-docking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The planning of warehouse "put away" assignments so that inventory can be moved from one shipment to another on a dock
+        without movement to a rack or warehouse location. Although this type of inventory movement may violate lot and code date
+        movement parameters, cross-dock planning is used frequently to minimize labor costs and handling in warehouses and
+        distribution centers.
+
+  - uuid : udx82fcx92
+    term : Cross-modulation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Interference caused by two or more carriers interacting in a transmission system.
+
+  - uuid : udx82fedd8
+    term : Crowdsourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Crowdsourcing** describes the processes for sourcing a task or challenge to a broad, distributed set of contributors
+        using the Web and social collaboration techniques. Crowdsourcing applications typically include mechanisms to attract the
+        desired participants, stimulate relevant contributions and select winning ideas or solutions.
+
+  - uuid : udx82ffpwx
+    term : CRP (capacity Requirements Planning)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of specifying the level of resources (facilities, equipment and labor force size) that best supports the
+        enterprise's competitive strategy for production.
+
+  - uuid : udx82fh8g2
+    term : CRUD (create, Retrieve, Update, Delete)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Guidelines for defining how different people or communities within an organization deal with data elements owned by the
+        organization.
+
+  - uuid : udx82fiph0
+    term : CSD (circuit-switched Data)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Data transmission over a wireless network using circuit switching rather than packet switching. Once a connection is
+        established, the user is charged for the use of a dedicated circuit.
+
+  - uuid : udx82fk80l
+    term : CSD (consolidated Service Desk)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The hub where the needs of support groups, distributors, suppliers and customers are consolidated, and where network and
+        system management (NSM) tools are integrated. The CSD has become the integration point for multiple management
+        disciplines, the single point of contact for providing multiple IS services to the end users, and the source of automation
+        for multiple workflow processes.
+
+  - uuid : udx82flgly
+    term : CSF (critical Success Factor)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A methodology, management tool or design technique that enables the effective development and deployment of a project or
+        process.
+
+  - uuid : udx82fmxij
+    term : CSP (communications Service Provider)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Includes all service providers offering telecommunication services or some combination of information and media services,
+        content, entertainment and applications services over networks, leveraging the network infrastructure as a rich,
+        functional platform. CSPs include the following categories: Telecommunications carrier, content and applications service
+        provider (CASP), cable service provider, satellite broadcasting operator, and cloud communications service provider.
+
+  - uuid : udx82g1flf
+    term : CSS (customer Service And Support)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Once known as the "complaint department", CSS is responsible for retaining and extending customer relationships once a
+        product or service is sold. Due to the increasing complexity of customer interactions, customer service organizations need
+        a complex technological infrastructure that is flexible, extensible and scalable and that integrates front-office
+        applications with back-end processes and data. The components of CSS include:
+
+        -   Call management -- The core functionality of CSS applications. This component is used to log all incoming telephone
+            calls and transactions and to manage the transaction from initiation through closure.
+
+        -   Internet-based customer service suites -- Also known as e-service suites, these applications and tools empower
+            customers, partners and prospects for self-service and interactions with the enterprise via the Web, an intranet or an
+            extranet.
+
+        -   Field service and dispatch (FS/D) systems -- FS/D has become an essential element of complete CSS suites and is an
+            important element of customer relationship management (CRM). FS/D software is evolving from solely back-office
+            functionality to an enterprise system that tightly couples the back office with the front-office servicing systems.
+
+        -   Contact centers -- Traditional call centers handle voice-only customer contact, whereas contact centers include all
+            types of channels of customer contact, including voice (e.g., telephone, IVR, speech recognition and voice
+            verification), the Web, fax, video kiosks and e-mail. This is an inbound and outbound service-based environment in
+            which agents handle all types of contacts regarding sales, customer service, marketing, telemarketing, collections and
+            other functions..
+
+  - uuid : udx82g3hfy
+    term : CSU (channel Service Unit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device found on digital links that transfers data faster than a modem (in a range from 56 kilobits per second to 1.5
+        megabits per second) but does not permit dial-up functions. It also performs certain line-conditioning and equalization
+        functions, and responds to loop-back commands sent from a central office. A CSU is the link between digital lines from the
+        central office and devices such as channel banks or data communications devices.
+
+  - uuid : udx82g52i2
+    term : CTI (computer-telephony Integration)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The intelligent linking of computers with switches, enabling coordinated voice and data transfers to the desktop.
+
+  - uuid : udx82g6lfd
+    term : CTO (chief Technology Officer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The CTO has overall responsibility for managing the physical and personnel technology infrastructure including technology
+        deployment, network and system management, integration testing, and developing technical operations personnel. CTOs also
+        manage client relations to ensure that service objective expectations are developed and managed in the operations areas.
+
+  - uuid : udx82g81j5
+    term : CTQ (critical To Quality)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Critical to quality are those aspects of a product or service that a customer deems as must-have features to be satisfied.
+
+  - uuid : udx82g9i41
+    term : CTR (click-through Rate)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The number of times a Web page advertisement is clicked, compared to the number of times it is displayed. Royalties are
+        often based on CTR. This term is also used in reference a website's ability to persuade a visitor to "click through" to
+        another site.
+
+  - uuid : udx82gb07g
+    term : CTX (clear To Send)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A control circuit that indicates to the data terminal equipment that data can or cannot be transmitted.
+
+  - uuid : udx82gchtv
+    term : CTX (corporate Trade Exchange)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An electronic-commerce standard format that allows for inclusion of 9,999 "addenda" records in addition to the primary
+        financial records (i.e., amount being moved, bank routing number and checking-account number).
+
+  - uuid : udx82gdv7v
+    term : CU (compliance Unit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A logical partition of applications and data to be upgraded together.
+
+  - uuid : udx82gfd9v
+    term : CUG (closed User Group)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set-up that restricts access to and from one or more terminals to other members of the user group (found on packet
+        switched systems, e-mail, etc.).
+
+  - uuid : udx82ggu4s
+    term : Cumulative Lead Time
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The longest length of time involved to accomplish the activity in question. For any item planned through material
+        requirements planning, it is found by reviewing each bill-of-material path below the item, and whichever path adds up to
+        the greatest number defines cumulative material lead time.
+
+  - uuid : udx82gic3w
+    term : Current Loop
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A transmission technique that recognizes current flows rather than voltage levels. It was traditionally used in
+        teletypewriter networks incorporating batteries as the transmission power source.
+
+  - uuid : udx82gjtrg
+    term : Custom Key Set
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Specialized multibutton telephones designed expressly for a particular private branch exchange (PBX). Unlike the locking
+        buttons on normal key telephones, the buttons on a custom key set are used to communicate with the system and are
+        typically nonlocking buttons. Custom key set buttons can be arranged to activate specific features such as speed dialing
+        and executive override, as well as to select lines.
+
+  - uuid : udx82gl737
+    term : Customer Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Customer analytics** are the enabling technology used to segment practitioners targeted by life science companies
+        (doctors, nurses and therapists) into groupings based on behavior to determine general trends or to develop targeted
+        marketing campaigns and sales activities. These solutions are additive to what is provided by CRM solutions. This occurs
+        because some CRM solutions don't have enough depth in analytics, and traditional business intelligence (BI) tools don't
+        have life-science-specific sales and marketing expertise.
+
+  - uuid : udx82gn0gw
+    term : Customer Communications Management (CCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Customer communications management (CCM)** is defined as the strategy to improve the creation, delivery, storage and
+        retrieval of outbound communications, including those for marketing, new product introductions, renewal notifications,
+        claims correspondence and documentation, and bill and payment notifications. These interactions can happen through a
+        widespread range of media and output, including documents, email, Short Message Service (SMS) and Web pages. CCM solutions
+        support these objectives, providing companies with an application to improve outbound communications with their
+        distributors, partners, regulatory bodies and customers.
+
+  - uuid : udx82h1f70
+    term : Customer Experience Management (CEM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **customer experience management (CEM)** as "the practice of designing and reacting to customer
+        interactions to meet or exceed customer expectations and, thus, increase customer satisfaction, loyalty and advocacy." It
+        is a strategy that requires process change and many technologies to accomplish.
+
+  - uuid : udx82h38br
+    term : Customer Experience
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **customer experience** as the customer's perceptions and related feelings caused by the one-off and
+        cumulative effect of interactions with a supplier's employees, systems, channels or products.
+
+  - uuid : udx82h4p6j
+    term : Customer Gateways
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Customer gateways** allow consumers to become part of the smart grid by enabling self-service energy provisioning on the
+        premises, linking and integrating consumer energy management, and having smart appliances increase energy efficiency and
+        enhance the consumer's quality of life.
+
+  - uuid : udx82h5yms
+    term : Customer Information File (CIF)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **customer information file (CIF)** is a system that consolidates customer account information and combines it with
+        basic demographic information to create a current snapshot of a customer relationship. CIFs are often a central component
+        of integrated banking application packages and are primarily used to support operational activities with current, as
+        opposed to historical, data.
+
+  - uuid : udx82h7q7b
+    term : Customer Relationship Management (CRM) Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **CRM analytics** collect, organize and synthesize consumer data captured across the organization to help healthcare
+        payers solve customer-facing business problems through reporting tools, dashboards, portals and other methods. It
+        encompasses three critical business processes -- marketing, sales and customer service -- and pulls data from many sources
+        to make it available to multiple users across a payer organization.
+
+  - uuid : udx82h9ixb
+    term : Customer Relationship Management (CRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Customer relationship management (CRM)** software addresses customer life cycle management business processes, and
+        provides functionality to enterprises in sales, marketing and customer service (including call and contact centers)
+        through collaborative, operational and analytical components.
+
+  - uuid : udx82hauyc
+    term : Customer Self-service And Support
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Customer self-service and support is a blend of customer-initiated interaction technologies that are designed to enable
+        customers to service themselves. It includes electronic records management systems, chat and knowledge bases.
+
+  - uuid : udx82hcbqo
+    term : Customized Network Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Tools to allow assignment of levels of network management functions and capabilities to selected nodes throughout the
+        network. With this, the degree of centralization vs. decentralization of network management can be varied depending on the
+        environment.
+
+  - uuid : udx82hdslk
+    term : Cyber Library
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An electronic version of a physical library that is implemented on behalf of workers for information self-service.
+
+  - uuid : udx82hfagb
+    term : Cycle Time
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The time it takes to complete a process or service operation, including all value-adding and non-value-adding time.
+
+# __END__

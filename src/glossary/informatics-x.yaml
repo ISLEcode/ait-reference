@@ -1,0 +1,17 @@
+title    : ISLE AIT computer science glossary -- X words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8bb3u1
+    term : X windows
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        the software system written for managing windows under Unix -- a graphics architecture, application programming interface
+        (API) and prototype implementation developed by the Massachusetts Institute of Technology (MIT), X windows defines a
+        client/server relationship between the applications program and the workstation; it is not, however, a complete graphical
+        user interface (GUI), but rather the basis upon which one can be built.
+
+# __END__

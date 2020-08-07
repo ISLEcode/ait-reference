@@ -1,0 +1,663 @@
+title    : ISLE AIT computer science glossary -- L words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx89bfrov
+    term : L-band
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Portion of the electromagnetic spectrum allotted for satellite transmission in the 1GHz to 2GHz frequency range. A number
+        of MSS providers operate part of their satellite networks in the L-band. See also Ka-band, Ku-band and S-band.
+
+  - uuid : udx89bh8to
+    term : Labor Management System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **labor management system** provides labor productivity reporting and planning capabilities. The planning capabilities
+        provide the ability to analyze workforce requirements given a certain amount of work to be performed and a standard unit
+        of time to perform each element of work. Labor productivity planning capabilities provide the ability to measure and
+        report the performance of individuals, groups or facilities vs. a predefined standard for performing each defined element
+        of work.
+
+  - uuid : udx89bj1aa
+    term : Laboratory Information Management System (LIMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **laboratory information management system (LIMS)** is a solution to manage sample scientific test data and processes,
+        from sample login to the reporting of results.
+
+  - uuid : udx89bkir5
+    term : Lagging And Leading Key Performance Indicators
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Lagging indicators are metrics that measure end-state objectives or desired outcomes. They include all financial metrics.
+        Nonprofit and public sector enterprises have additional nonfinancial lagging indicators that measure desired outcomes,
+        such as students who graduate, incidence of crime and lives lost to terrorism.
+
+        Leading indicators are a defined set of metrics that are predictive of financial or other desired outcomes.
+
+  - uuid : udx89bltce
+    term : LAN Bridging
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The connection of multiple physical local-area networks (LANs) to support a single logical LAN environment.
+
+  - uuid : udx89bnawn
+    term : LAN (local-area Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A geographically limited communication network that connects users within a defined area. A LAN is generally contained
+        within a building or small group of buildings and is managed and owned by a single enterprise. The shorter distances
+        within a building or campus enable faster communications at a lower cost than wide-area networks (WANs). Although an
+        increasing number of LANs use Internet standards and protocols, they are normally protected from the public Internet by
+        firewalls.
+
+        LANs are generally used to perform the following functions:
+
+        Send output to printers attached to the network.
+
+        Transfer data or software to or from other systems attached to the network.
+
+        Send e-mail to other users on the network.
+
+        Access wider-area networks, including the Internet, via a direct connection from the network, for external file transfer,
+        e-mail, facsimile, group collaboration and videoconferencing.
+
+  - uuid : udx89c1q0v
+    term : Language-oriented Development Environments (distributed Platforms, Proprietary)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Typically, these are development environments for code targeted to deploy to distributed platforms (Windows, Linux, Unix)
+        built on a compiler and a language. Language-oriented development environments generally include graphical user interface
+        (GUI) builders, debuggers, editors and other utilities that are integrated into the environment. This market also includes
+        proprietary fourth-generation language (4GL) language tools. It excludes products specifically targeted at deploying to
+        either Java or .NET. It includes revenue for products such as PowerBuilder and Visual Basic 6.0 to the extent they target
+        proprietary runtimes. It also includes languages such as COBOL, C/C++, FORTRAN, Ada and PASCAL, among others, that target
+        proprietary runtimes on distributed platforms.
+
+  - uuid : udx89c3lly
+    term : Language-oriented Development Environments (mainframe, Mini And Midrange)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Typically, these are development environments for code targeted for deployment on mainframe or midrange platforms built on
+        a compiler and a language, such as COBOL, C/C++, FORTRAN, Ada and PASCAL, among others. Language-oriented development
+        environments generally include GUI builders, debuggers, editors and other utilities that are integrated into the
+        environment. This market also includes proprietary 4GL language tools. It excludes products specifically targeted at
+        deploying to either Java or .NET.
+
+  - uuid : udx89c5cpb
+    term : Laser Disk
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An storage medium that uses laser technology to record and retrieve data.
+
+  - uuid : udx89c6tph
+    term : Laser
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device that emits a highly coherent beam of light. The term stands for "light amplification by stimulated emission of
+        radiation." A typical laser has an active medium, which emits light, and a cavity structure, which selects certain
+        wavelengths and directions for the emitted light. Lasers convert electrical energy into radiant energy in the visible or
+        infrared parts of the spectrum, emitting light with a small spectral bandwidth. For this reason, they are widely used in
+        fiber-optic communications, particularly as sources for long-haul links.
+
+  - uuid : udx89c8mjm
+    term : Latency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Measure of the responsiveness of a network, often expressed as the round-trip time (in milliseconds); that is, the time
+        between initiating a network request and receiving a response. High latency tends to have more impact than bandwidth on
+        the end-user experience in interactive applications, such as Web browsing. Low latency is required for many
+        next-generation IP applications, such as VoIP, video telephony and PTT. See also round-trip time (RTT).
+
+  - uuid : udx89cah8d
+    term : LBS (location-based Services)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Services based on the location of a mobile user as determined by using network and/or mobile-device-based technology.
+        Technologies supporting this include cell of origin (also known as cell ID), AOA, time of arrival (TOA), EOTD and GPS or
+        assisted GPS. GPS can be used without network modification but requires mobile devices to support GPS. In WLAN systems,
+        location can be determined by triangulation between several access points. Location data can be used for a variety of
+        services to mobile-device users, including advertisements, billing, information, tracking and safety. See also e911 and
+        GPS.
+
+  - uuid : udx89cc9ej
+    term : LCD (liquid Crystal Display)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A low-powered, flat-panel display technology. LCD displays create images using liquid crystal molecules controlled by an
+        electrical field.
+
+  - uuid : udx89cdqg4
+    term : LCD (lowest Common Denominator)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A computer-based patient record system from Siemens Medical Solutions Health Services. LCR provides a longitudinal view of
+        patients' lifetime clinical histories.
+
+  - uuid : udx89cf7w5
+    term : LCR (Lifetime Clinical Record)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One way to build portable applications is to support only those functions that are provided on all of the target
+        platforms. This "LCD" approach enables programs to run on numerous platforms, but does so at the expense of forgoing the
+        use of unique, added-value features that may be offered on individual platforms.
+
+  - uuid : udx89cgq2b
+    term : LDAP (Lightweight Directory Access Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A server-to-server interface for directory information exchange among directories, devised as a low-cost, simpler
+        implementation of the X.500 Directory Access Protocol. It facilitates the implementation of replication and chaining among
+        dissimilar directories. Proposed by the University of Michigan, it was adopted by Netscape in 1996 for directory lookup,
+        and has become the preferred access path for looking up directory information not only in X.500 directories, but also in
+        many other directory structures on the Internet.
+
+  - uuid : udx89cih76
+    term : Lead Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Lead management** involves lead generation, collection, qualification, prioritization, enhancement and maturation. The
+        automotive industry embraces lead management as a sales and marketing solution to increase the conversion rates of
+        prospects buying a vehicle.
+
+  - uuid : udx89ck0pv
+    term : Lean Enterprise
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The extended supply chain responsible for effectively satisfying consumer requirements using a minimum of resources.
+
+  - uuid : udx89clfen
+    term : Lean Thinking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process by which individuals can understand the need for, create and implement a lean enterprise.
+
+  - uuid : udx89cmvlb
+    term : Lean
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A customer-value focused approach to the provision of effective solutions involving the consumption of a minimum of
+        resources.
+
+  - uuid : udx89d12l3
+    term : Learning Stack
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **learning stack** as an architectural construct is a collection of elements, such as applications, personal
+        productively tools, Web 2.0 applications, content repositories and data sources, that can be accessed through, for
+        example, a social learning platform. The learning stack is dynamic. Elements can be added, updated, removed and replaced
+        in the open structure of the social learning platform.
+
+  - uuid : udx89d2vjk
+    term : LED (light-emitting Diode)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A semiconductor that produces light when activated.
+
+  - uuid : udx89d4cms
+    term : Legacy Application Or System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An information system that may be based on outdated technologies, but is critical to day-to-day operations. Replacing
+        legacy applications and systems with systems based on new and different technologies is one of the information systems
+        (IS) professional's most significant challenges. As enterprises upgrade or change their technologies, they must ensure
+        compatibility with old systems and data formats that are still in use.
+
+  - uuid : udx89d65lm
+    term : LEO (low Earth Orbit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Orbital plane located from several hundred to a few thousand miles about the earth's surface. LEO systems can be regional
+        or global and require many more satellites than GEO-based systems to provide service. Big LEO systems provide mobile
+        satellite phone services and consist of satellite constellations of some 48 to 66 satellites. See also GEO and middle
+        earth orbit (MEO).
+
+  - uuid : udx89d7ie5
+    term : Level
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **level** refers to:
+
+        1\. The degree of subordination in a hierarchy in data management structures or communication protocols.
+
+        2\. Measurement of signal power at a specific point in a circuit.
+
+  - uuid : udx89d99p0
+    term : Library
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **library** is a data management system for documents frequently, though not necessarily, organized in a hierarchy of
+        "folders" and "drawers." Also called a "file cabinet."
+
+  - uuid : udx89dav7l
+    term : License
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **license** is a dedicated voice endpoint as a user or seat that is activated and in use with a unique logical address
+        on an enterprise telephony voice system.
+
+  - uuid : udx89dcd7w
+    term : Life Span
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Life span (lifetime)** refers to the average life of a device within the defined segment.
+
+  - uuid : udx89ddu9c
+    term : Light-Emitting Polymer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **light-emitting polymer (LEP)**  is technology patented by Cambridge Display Technology of the U.K., and based on the
+        ability of certain plastics to glow when charged with an electric current.
+
+  - uuid : udx89df70n
+    term : Lights-Out Recovery Operations Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Lights-out operations** refers to the management of a remote (and largely unmanned) recovery data center through the use
+        of remote management software. Active management of the recovery data center may be to support recovery plan exercising,
+        or to orchestrate a postdisaster event operations recovery. A key requirement for lights-out operations is that remote
+        management support must be uniformly supported across the heterogeneous computing, storage and network infrastructure
+        components located at the remote recovery facility.
+
+  - uuid : udx89dgyqh
+    term : Limited Disclosure Technology
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Limited disclosure technology** is designed to protect individuals' privacy by allowing them to share only enough
+        personal information with service providers to complete an interaction or transaction. The technology is also designed to
+        limit tracking and correlation of users' interactions with these third parties. Limited disclosure uses cryptographic
+        techniques and allows users to retrieve data that is vetted by a provider, to transmit that data to a relying party, and
+        have these relying parties trust the authenticity and integrity of the data.
+
+  - uuid : udx89dipo4
+    term : Line Balancing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Line balancing** is the optimization of the assignment of operations to workstations in an assembly line to minimize
+        idle time and the number of workstations required.
+
+  - uuid : udx89dkbw2
+    term : Line Dot Matrix
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **line dot matrix** is an output device that forms text and graphics in one or more rows of dots at a time, using an
+        array of print elements that exert mechanical force through a ribbon onto the page.
+
+  - uuid : udx89dls2q
+    term : Line Driver
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**line driver** is a communications transmitter/receiver used to extend the transmission distance between terminals and
+        computers that are directly connected. It acts as an interface between logic circuits and a two-wire transmission line.
+
+  - uuid : udx89dnant
+    term : Line Hit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**line hit** is an electrical interference causing the introduction of undesirable signals on a circuit.
+
+  - uuid : udx89e1gud
+    term : Line Impact Dot Matrix
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**line impact dot matrix (LIDM)** is printing technology that uses a ribbon and an array of impact elements; suitable for
+        making carbon copies.
+
+  - uuid : udx89e2xvn
+    term : Line Inkjet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**line inkjet** is an output device that creates the desired image by emitting ink from an array of orifices or nozzles
+        arranged across the full width of the paper. Line inkjet printers follow the same segmentation as page products because
+        they compete directly with the laser output devices.
+
+  - uuid : udx89e4bq5
+    term : Line Load Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Line load control** refers to equipment in a telephone system that provides a means by which essential paths ensure
+        continued service under overloaded conditions. This is generally accomplished by temporarily denying originating service
+        to some or all of the nonessential lines.
+
+  - uuid : udx89e60xm
+    term : Line Loading
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Line loading** is the process of installing loading coils in series with each conductor on a transmission line, usually
+        88 millihenry coils installed at 6,000-foot intervals.
+
+  - uuid : udx89e7mbp
+    term : Line Of Business
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **line of business** is a corporate subdivision focused on a single product or family of products.
+
+  - uuid : udx89e93yd
+    term : Line Of Code
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Line of code** is a unit used in measuring or estimating the scale of programming or code conversion efforts.
+
+  - uuid : udx89eal6k
+    term : Line
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **line** is:
+
+        1\. A communications path between two or more points, including a satellite or microwave channel.
+
+        2\. In data communications, a circuit connecting two or more devices.
+
+        3\. A transmission path from a nonswitching subscriber terminal to a switching system.
+
+  - uuid : udx89ece7j
+    term : Link Redundancy Level
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Link redundancy level** is the ratio of the actual number of paths to the minimum number of paths required to connect
+        all nodes of a network.
+
+  - uuid : udx89edvb7
+    term : Linux
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Linux** is a Unix-based computer OS and was originally designed as free software for open-source development. Its source
+        code can be freely modified, used and redistributed by anyone under the GNU Public License. Several GUIs run on top of
+        Linux, including K Desktop Environment and GNU Network Object Model Environment. Of the many distributions of Linux, the
+        most-popular enterprise versions include those from Red Hat (Red Hat Enterprise Linux), Novell (SUSE Enterprise Linux),
+        Ubuntu and Debian, and regional ones, such as Mandriva, Red Flag and Asianux. There are two Linux subsegments, Linux
+        (client) and Linux (server), in our segmentation.
+
+  - uuid : udx89efoaf
+    term : Liquefied Natural Gas (LNG)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Liquefied natural gas (LNG)** is natural gas that has been cooled to -259 degrees Fahrenheit. It occupies 0.17% of the
+        volume of natural gas, making cost-effective overseas transport by large-capacity ships between LNG processing terminals
+        or ports possible. LNG technologies are associated with key processes of liquefaction, transportation and regasification.
+        These processes include operational technologies linked to process management, and information technologies allied with
+        shipping, logistics and contract/trading.
+
+  - uuid : udx89ehgns
+    term : Liquid Cooling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Liquid cooling** uses a liquid, such as water, or a refrigerant, rather than air, to cool the data canter. This allows
+        the cooling solution to be brought closer to the heat source, thus requiring less, if any, fan power. Liquid cooling can
+        solve the high-density, server-cooling problem, because liquid (conductive cooling) conducts more than 3,000 times as much
+        heat as air and requires less energy to do so, allowing increased data center densities. Newer piping technology means the
+        probability of leaks is extremely low.
+
+  - uuid : udx89ej8kr
+    term : Liquid Crystal On Silicon (LCoS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Liquid crystal on silicon (LCoS)** is a microdisplay technology in which liquid crystals are fabricated on a silicon
+        device that contains control electronics. These devices compete with Digital Light Processing (DLP) technology in the
+        projector and picoprojector markets. Viewfinders in camera products are another key application area.
+
+  - uuid : udx89ekyse
+    term : Liquid Submersion Cooling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Liquid submersion cooling** technology places servers and other IT equipment inside nonconductive coolant-filled tanks.
+        The coolant dissipates the heat as it circulates through the system. Liquids have superior thermal efficiency, compared
+        with air, and they provide quiet, uniform, secure and effective cooling. Liquid submersion cooling technologies are an
+        option in data centers where high-density computing is required, and traditional air cooling cannot handle such a high
+        heat load density.
+
+  - uuid : udx89emipn
+    term : LISP
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **LISP** is an object-oriented programming language.
+
+  - uuid : udx89fosj
+    term : Lithium Battery Backup
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Lead-acid batteries are a mainstay of power backup systems in data centers, as well as many other applications where high
+        capacity and rechargeability are required. Although they have been incrementally improved over time, these batteries have
+        several drawbacks: They're highly corrosive, they have limited economic life, they're heavy and they require substantial
+        space. Given that **lithium batteries** are being rapidly developed for electric and hybrid vehicles, they may have
+        applicability for data centers, if their high cost can be substantially reduced. (Lithium batteries are about five times
+        more expensive than lead-acid batteries for the same power capacity.)Lithium batteries' principal benefits are that they
+        are about one-quarter the weight and take up about one-half the space of lead-acid equivalents. However, if their costs
+        can't be substantially lowered, they will have limited data center application.
+
+  - uuid : udx89f29iy
+    term : Lithium Iron Phosphate (LiFePO4) Batteries
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Lithium Iron phosphate (LiFePO4) batteries** are a type of lithium ion (Li-Ion) rechargeable battery. Their benefits
+        over the more traditional cobalt-based Li-Ion batteries are increased power output, faster charging, reduced weight and
+        longer lifetime. The batteries also have better safety characteristics and do not explode under extreme conditions.
+        LiFePO4 batteries also eliminate the concerns of cobolt entering the environment through improper disposal once they have
+        expired.
+
+  - uuid : udx89f42fl
+    term : Load Balancing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Load balancing** is the ability of processors to schedule themselves to ensure that all are kept busy while instruction
+        streams are available.
+
+  - uuid : udx89f5j4a
+    term : Load Forecasting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Load forecasting** minimizes utility risk by predicting future consumption of commodities transmitted or delivered by
+        the utility. Techniques include price elasticity, weather and demand response/load analysis, and renewable generation
+        predictive modeling. Forecasts must use regional customer load data, with time series customer load profiles. Accurate
+        forecasts require adjustments for seasonality. Distribution load forecasting must be reconciled with distribution network
+        configuration as part of the distribution circuit load measurements.
+
+  - uuid : udx89f7c5c
+    term : Local Modifications Memory
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Local modifications memory** is a technology that remembers manual changes to the graphical user interface (GUI) design
+        and reapplies them should the screen need to be reconverted and generated.
+
+  - uuid : udx89f8slg
+    term : Local Multipoint Distribution Service
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**local multipoint distribution service** is a microwave-based wireless technology that operates at around 28GHz. It can
+        be used for fixed high-speed data, Internet access and advanced telephone and entertainment services in metropolitan
+        areas.
+
+  - uuid : udx89fab1q
+    term : Local Number Portability
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Local number portability** is the ability to change to a different local phone service provider while retaining the same
+        phone number.
+
+  - uuid : udx89fbr8l
+    term : Local Positioning System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **local positioning system (LPS)**  is technology used to pinpoint indoor position, similar to the global positioning
+        system (GPS) used to locate outdoor position. LPS triangulates signals from cell controllers to proprietary long-range,
+        long-life, low-cost radio frequency electronic tags. By calculating the distance between cell controllers, electronic tags
+        and several different antennae, equipment or personnel inside an enterprise can be instantly located.
+
+  - uuid : udx89fdje1
+    term : Location-Aware Applications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Location-aware applications** use the geographical position of a mobile worker or an asset to execute a task. Position
+        is detected mainly through satellite technologies, such as a GPS, or through mobile location technologies in cellular
+        networks and mobile devices. Examples include fleet management applications with mapping, navigation and routing
+        functionalities, government inspections and integration with geographic information system applications.
+
+  - uuid : udx89ffbpc
+    term : Location-Aware Technology
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Location-aware technology** includes sensors and methods for detecting or calculating the geographical position of a
+        person, a mobile device or other moving objects. The most common location-aware technologies are GPS, assisted GPS
+        (A-GPS), Wi-Fi, Enhanced Observed Time Difference (E-OTD) and Enhanced GPS (E-GPS).
+
+  - uuid : udx89fh2fd
+    term : Location-Based Advertising (LBA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Location-based advertising (LBA)** refers to advertisements that appear on a mobile device, including banner or text ads
+        on a mobile Internet site or mobile application, including maps.
+
+  - uuid : udx89filon
+    term : Location-Based Marketing (LBM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Location-based marketing (LBM)** addresses the user directly. Usually, the consumer receives a message on their mobile
+        device containing a call to action (such as enter a competition, visit a website or order a product) and an incentive,
+        such as a coupon.
+
+  - uuid : udx89fkewe
+    term : Logistics Network Planning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Logistics network planning** refers to the class of tools required to analyze the trade-offs among inventory quantities,
+        number and location of warehouses, and transportation costs to most profitably support a desired level of customer
+        service. LNP is a proven scientific method for analyzing the required cost and service levels that warehouses need to meet
+        specified customer service objectives.
+
+  - uuid : udx89fm7q5
+    term : Loopback
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Loopback** tests the performance and quality of a line or terminating equipment.
+
+  - uuid : udx89gfvh
+    term : Loosely Coupled Multiprocessing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Loosely coupled multiprocessing** is a configuration of several processors, each with its own memory, that execute user
+        and operating-system code independently.
+
+  - uuid : udx89g1wug
+    term : Low-Cost Domestic Service Delivery
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Low-cost domestic (LCD) service delivery** is the delivery of IT service resources in domestic locations (either
+        "onsite" at the buyer's premises or "onshore" at a location beyond the buyer's premises but in the same country). LCD
+        locations could include smaller metropolitan locations, economically challenged metropolitan locations or rural areas
+        where salaries and operating costs are typically lower.  In the U.S. market, localization of LCD terms has evolved in the
+        press/media (for example, "rural sourcing," "ruralshoring," "farmshoring" and "homeshoring" are also a subset of
+        onshoring).
+
+  - uuid : udx89g3nxg
+    term : Low-Cost IT
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Low-cost IT** refers to the delivery of managed IT services (infrastructure, application, business process services)
+        designed and implemented to minimize IT price -- per-user/unit per-month -- while maximizing the number of client
+        organizations and users that adopt the services.
+
+  - uuid : udx89g5b79
+    term : Low Frequency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Low frequency** generally indicates frequencies between 3 and 300 kilohertz (kHz).
+
+  - uuid : udx89g6s8f
+    term : LRC (longitudinal Redundancy Check)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A data communications error-trapping technique in which a character is accumulated at both the sending and receiving
+        stations during the transmission and is compared for an equal condition, which indicates a good transmission of the
+        previous block.
+
+  - uuid : udx89g8acw
+    term : LTE-A
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Long Term Evolution Advanced (LTE-A)** is defined in 3GPP Release 10 and is intended to be the first fully compliant
+        version of the ITU's specification for 4G systems. The targeted peak rate for downlink is 1 Gbps and, for uplink, greater
+        than 500 Mbps. This should be achieved with scalable usage of up to 100 MHz spectrum. LTE-A should support various cell
+        types, including pico and femto, to improve uplink speeds as well as relay technologies to improve coverage. Furthermore,
+        LTE-A should be backward compatible to LTE, Release 8.
+
+  - uuid : udx89ga2pn
+    term : Lurker
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **lurker** is a user who does not participate in an online discussion (e.g., in a chat room), but merely observes the
+        activity.
+
+# __END__

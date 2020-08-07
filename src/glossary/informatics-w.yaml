@@ -1,0 +1,740 @@
+title    : ISLE AIT computer science glossary -- W words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8b5il00
+    term : wafer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a thin, flat piece of semiconductor material used in integrated circuits.
+
+  - uuid : udx8b5k314
+    term : wireless application gateway (WAG)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a server-based gateway that provides wireless access to enterprise applications. WAGs plug into the enterprise's
+        application infrastructure, separating the data from the presentation layer and avoiding redundant development efforts.
+        Leading WAGs provide secure access to any data source and the ability to render the data to any device (e.g., PDA,
+        wireless telephone, pager or desktop). A WAG server can be deployed either as an internal platform installed within the
+        enterprise, or as an outsourced platform hosted by a third party operating as a service bureau.
+
+  - uuid : udx8b5lvf8
+    term : WAN performance monitor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a tool or toolset (hardware and software) to allow monitoring of wide-area network (WAN) traffic and problems.
+
+  - uuid : udx8b5n8ha
+    term : WAN replacement
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        wide-area network replacement uses Internet-based virtual private networks (VPNs) or managed VPN services to connect
+        branch offices.
+
+  - uuid : udx8b6181v
+    term : wide-area network (WAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a communications network that connects computing devices over geographically dispersed locations. While a local-area
+        network (LAN) typically services a single building or location, a WAN covers a much larger area such as a city, state or
+        country. WANs can use either phone lines or dedicated communication lines.
+
+  - uuid : udx8b630lj
+    term : WAP browser
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a microbrowser used to locate and display information on WAP-enabled devices. WAP browsers perform the client-side
+        functions required to render Web content to a WAP device. See also microbrowser.
+
+  - uuid : udx8b64qv2
+    term : WAP forum
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Founded in 1997 by Ericsson, Motorola, Nokia and Unwired Planet (now Phone.com), the WAP Forum is responsible for
+        publishing and developing Wireless Application Protocol (WAP) specifications. The WAP Forum works closely with the World
+        Wide Web Consortium (W3C) and the Telecommunications Industry Association (TIA). The goal of the WAP Forum is to provide
+        an industry standard to foster interoperability among wireless devices.
+
+  - uuid : udx8b66igo
+    term : wireless application protocol (WAP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        open, global specification that enables users of wireless devices to access and interact with wireless information
+        services and applications. WAP specifications are based on Internet standards, with extensions to reflect the wireless
+        device environment. Specifications in WAP architecture are arranged in a protocol stack consisting of application,
+        session, transaction, security and transport layers. The application layer includes WML and WMLScript for content and
+        Wireless Telephony Application Interface (WTAI) for telephony service capabilities.
+
+  - uuid : udx8b689e3
+    term : warehouse simulation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a detailed mathematical or computer model of all relevant activities of a distribution center. The simulation recreates
+        the center's activities, determines how long the activities take and considers any physical constraints. Warehouse
+        simulations typically focus on capacity planning, throughput calculations, inventory analysis, and the overall performance
+        and cost impacts of selected logistics strategies.
+
+  - uuid : udx8b6a0sc
+    term : wireless application service provider (WASP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        vendor that provides hosted wireless applications so that companies do not have to build their own sophisticated wireless
+        infrastructure.
+
+  - uuid : udx8b6bi35
+    term : waste walk
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        going to the source or going to see where the action occurs (rather than seeing it through someone else's eyes).
+
+  - uuid : udx8b6d0kx
+    term : waste
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        all those activities that occur within a company or wider supply chain that do not add to the value of a product or
+        service supplied to a final consumer.
+
+  - uuid : udx8b6egwk
+    term :
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        is generated from the conversion of the kinetic energy associated with the rise and fall of ocean waves into electrical
+        energy via a range of capture and conversion technologies, including hydraulic rams, pumps and turbine technologies.
+
+  - uuid : udx8b6g9hl
+    term : wavelength division multiplexing passive optical network (WDM-PON)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a fiber-to-the-home (FTTH) solution characterized by the use of a PON structure plus the use of multiple wavelengths that
+        can be dedicated for each user or shared among a group of users. This increases the capacity of WDM-PON systems beyond
+        those where a single wavelength is shared among all users. WDM-PON is being standardized by the International
+        Telecommunication Union, supported by the Next-Generation Access initiative from the Full Service Access Network (FSAN).
+
+  - uuid : udx8b6i1gp
+    term : work breakdown structure (WBS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        another form of process mapping.
+
+  - uuid : udx8b6jimn
+    term : wideband code division multiple access (WCDMA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        UMTS standard for 3G digital mobile networks, using CDMA technology. It is the evolution path for GSM and EDGE to UMTS and
+        offers increased voice capacity and theoretical peak data speeds of up to 2 Mbps. The 3GPP task group continues to work on
+        the evolution of WCDMA toward 4G and has defined a series of evolutionary steps:
+
+        -   R.99 (Release 99) -- Specifications (completed in 1999) for the original version of WCDMA, a 3GPP standards project to
+            define the requirements and basic framework for UMTS 3G mobile networks. R.99 defined the UTRA and the basic features
+            of this early 3G development.
+
+        -   R.4 (Release 4) -- Specifications (released in 2004) for the next evolution beyond R99. R4 was the first step toward
+            an all-IP core network, adding separation of the control channel from the connection in the circuit-switched core
+            network, and basic VoIP routing.
+
+        -   R.5 (Release 5) -- Specifications (released in 2005) for the next evolution beyond R4. R.5 extends WCDMA to include
+            HSDPA and HSUPA for high-speed packet data services and IMS for multimedia and converged IP network support. It added
+            IP transport in the UTRAN.
+
+        -   R.6 (Release 6) -- Specifications (completed in 2006) for the next evolution beyond R5. R.6 extends WCDMA to include
+            MBMS for mobile TV services, PoC and EUDCH for enhanced uplink speeds and system capacity. R.6 adds IMS Phase 2 and
+            UMTS/WLAN interworking.
+
+        -   R.7 (Release 7) -- Also known as LTE, the specifications (frozen at the end of 2007) for the next evolution beyond
+            R.6. It will add radio enhancements, MIMO, end-to-end IP telephony and evolved EDGE. See also LTE.
+
+        -   R.8 (Release -- Further extension of LTE and SAE capabilities prior to the advent of 4G. R.8 is likely to add OFDMA
+            for the downlink and SC-FDMA for the uplink in the UTRAN. R8 specifications were frozen in December 2008. See also LTE
+            and SAE.
+
+  - uuid : udx8b6l3nr
+    term : wireless datagram protocol (WDP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        enables WAP to be bearer-independent by adapting the transport layer of the underlying bearer service and presenting a
+        consistent data format to the higher layer of the WAP protocol stack.
+
+  - uuid : udx8b6md3i
+    term : weak or strong signal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a piece of information, activity and/or event that indicates an impending change that might have an impact on your
+        business pattern.
+
+  - uuid : udx8b7mym
+    term : wearable computer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        *Wearable computers* and their interfaces are designed to be worn on the body, such as a wrist-mounted screen or
+        head-mounted display, to enable mobility and hands-free/eyes-free activities. Traditional uses are for mobile industrial
+        inspection, maintenance and the military. Consumer uses include display peripherals, computer-ready clothing and smart
+        fabrics. MIT has also demonstrated SixthSense, a gesture-controlled necklace device that projects digital information onto
+        real-world objects and locations.
+
+  - uuid : udx8b732f2
+    term : web 2.0
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        the evolution of the Web from a collection of hyperlinked content pages to a platform for human collaboration and system
+        development and delivery.
+
+  - uuid : udx8b74kdw
+    term : web access management (WAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        offers integrated identity and access management for Web-based applications. Initial implementations focused on external
+        user access. However, the growing use of portals for employee access is also driving demand for WAM solutions. Most
+        products offer self-service password reset, delegated administration (including user self-service), a role-based access
+        control model, workflow and automated fulfillment of the access request.
+
+  - uuid : udx8b76fiv
+    term : web analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        refers to a market of specialized analytic applications used to understand and improve online channel user experience,
+        visitor acquisition and actions, and to optimize digital marketing and advertising campaigns. Commercial products offer
+        reporting, segmentation, analytical and performance management, historical storage and integration with other data sources
+        and processes. The tools are used by marketing professionals, advertisers, content developers and the website's operations
+        team, and increasingly provide input to automated tools that target improved customer experience.
+
+  - uuid : udx8b787no
+    term : web ATM
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        an umbrella term for several different versions of technology that link the Internet and an automated teller machine (ATM)
+        networks.
+
+  - uuid : udx8b79nhg
+    term : web authorization management (WAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a building block of an extranet. In addition to authorization and management features being offered as part of an
+        e-commerce system, there are security software products that work with Web servers and e-commerce systems, allowing
+        administrators to define generic user roles and authorize user access to Web-based data and resources across multiple
+        applications (generally at the sub-URL level).
+
+  - uuid : udx8b7bha0
+    term : web books
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        multifunction devices having a clamshell form factor similar to mini-notebooks or notebook PCs. Web books have a full Web
+        browser implementation that results in an Internet-centric device. They have wireless broadband connectivity, such as
+        wireless LAN (WLAN) or WAN cellular or WiMAX. Web books' main differentiation from PCs is the operating system.
+
+  - uuid : udx8b7d92s
+    term : web conferencing and shared work spaces/team collaboration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        web conferencing products are synchronous in nature and support interaction between participants in a meeting or
+        presentation format. Web conferencing consists of real-time electronic meeting and content delivery, screen and
+        application sharing, text chat, and group document markup with electronic whiteboarding, augmented by audio, data and
+        video. More-advanced features include integrated voice over IP audio, file sharing, remote control, content archiving,
+        media streaming and polling.
+
+        Shared work spaces are team-oriented collaboration tools that provide virtual work spaces for sharing documents and files,
+        supporting asynchronous and real-time collaboration activities, such as threaded discussions, document-based collaboration
+        and chat functions.
+
+        Other forms of collaboration that are not included in this market definition include IM and chat, videoconferencing,
+        audioconferencing, and a wide variety of social software, such as blogs, communities of practice, social bookmarking and
+        tagging, expertise location, social network analysis, and wikis. A blog represents a form of asynchronous but collective
+        Web publishing, usually in a journal-writing style. A community of practice represents a group of people engaged in joint
+        experiences and shared practices, and it is similar to a network of Web bloggers. A wiki is a discussion system that
+        includes server software for Web-based editing of, and commenting on, content created by others. Wikis include a simple
+        text syntax for creating pages and linking pages in real time.
+
+  - uuid : udx8b7f0pu
+    term : web content management (WCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        the process of controlling the content to be consumed over one or more online channels through the use of commercial,
+        open-source or hosted management tools based on a core repository. We exclude products such as portals and e-commerce
+        engines even though these technologies have overlapping functions in areas such as personalization, content management and
+        content delivery.
+
+  - uuid : udx8b7gsgu
+    term : web crawler
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a piece of software (also called a spider) designed to follow hyperlinks to their completion and to return to previously
+        visited Internet addresses.
+
+  - uuid : udx8b7idnj
+    term : web e-mail
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        an e-mail option that requires only a browser. A user can walk up to any Internet-connected device (e.g., a PC or airport
+        kiosk), launch a browser, connect to a Web mail server, enter a user name and password and check e-mail.
+
+  - uuid : udx8b7k9yd
+    term : web-enabled
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        refers to any application or document that uses the Internet as a communication backbone while exploiting Hypertext
+        Transport Protocol (HTTP) as a means to link to other applications or content.
+
+  - uuid : udx8b7lm57
+    term : web hosting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a service in which a vendor offers the housing of business-to-business (B2B) or business-to-consumer (B2C) e-commerce
+        websites via vendor-owned shared or dedicated servers and applications for enterprises at the provider-controlled
+        facilities. The vendor is responsible for all day-to-day operations and maintenance of the website. The customer is
+        responsible for the content.
+
+  - uuid : udx8b838w
+    term : web integration servers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        web servers that directly support HTTP; execute a proprietary, high-level 4GL or scripting language; and include one or
+        more adapters for databases, legacy systems and packaged applications. Extensible Markup Language (XML)-based Web
+        integration servers are similar; however, they also use XML data internally within the server and externally with clients
+        and other applications.
+
+  - uuid : udx8b81ksx
+    term : web-oriented architecture (WOA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a substyle of service-oriented architecture (SOA) that leverages Web architecture. It emphasizes the generality of
+        interfaces (user interfaces and APIs) via five fundamental generic interface constraints: resource identification (e.g.,
+        uniform resource identifier \[URI\]), manipulation of resources through representations (e.g., HTTP), self-descriptive
+        messages (e.g., Multipurpose Internet Messaging Extensions \[MIME\] types), hypermedia as the engine of application state
+        (e.g., links) and application neutrality.
+
+  - uuid : udx8b83dir
+    term : web phone
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a cell phone equipped with a microbrowser and network data capability through Wireless Application Protocol (WAP) or other
+        Web integration technologies. These devices differ from smartphones (see separate entry) in that the latter are more
+        data-centric, offering network-independent (offline) applications such as contact management and expense reporting.
+
+  - uuid : udx8b85866
+    term : web server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        the central location that hosts Web pages or a website and enables a remote "client" (system or program) to access the
+        material held.
+
+  - uuid : udx8b86hb3
+    term : web services software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        deploying web-services-enabled software will be an evolutionary process, not a revolutionary one. The majority of software
+        vendors have committed to supporting Web services software standards within their established product lines, but it will
+        take more than four years to evolve these immature standards, build up skills, and plan, build and test for new versions
+        of software that gradually incorporate these standards. Web services standards will be deployed through multiple markets,
+        such as integration suites, AD tools and some enterprise application segments.
+
+  - uuid : udx8b882cd
+    term : web services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a software concept and infrastructure -- supported by several major computing vendors (notably Microsoft and IBM) -- for
+        program-to-program communication and application component delivery. The Web services concept treats software as a set of
+        services accessible over ubiquitous networks using Web-based standards and protocols.
+
+        Specifically, a Web service is a software component can be accessed by another application (such as a client, a server or
+        another Web service) through the use of generally available, ubiquitous protocols and transports, such as Hypertext
+        Transport Protocol (HTTP). Joint efforts between IBM and Microsoft, with the support of other vendors such as Ariba and
+        Iona Technologies, have produced agreement on a basic set of XML-based standards for Web service interface definition,
+        discovery and remote calling. They include:
+
+        -   Web Services Description Language (WSDL) for describing Web service interfaces
+
+        -   Universal Description, Discovery and Integration (UDDI) as the means for users to publish and locate available Web
+            services, their characteristics and interfaces
+
+        -   Simple Object Access Protocol (SOAP), which enables an application to call a Web service
+
+        See HTTP, .NET, SOAP, UDDI, WSDL and XML.
+
+  - uuid : udx8b89tlq
+    term : web TV
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        services enable a user to access the Web on a television set using a special remote control and a decoder that sits on top
+        of the TV. Services are offered by various types of provider -- e.g., TV broadcasters, satellite operators, and telecom
+        operators. The connection can be provided over various media -- analog or digital telephone lines, cable network or
+        satellite links -- depending on local infrastructure.
+
+  - uuid : udx8b8bl24
+    term : web widgets
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        are reusable, stand-alone Web applications that can be embedded into third-party sites by any user that has appropriate
+        rights of authorship. They don't require site-specific compiling or giving control of the site to the party providing the
+        widget. Widgets use representational state transfer (REST)-based APIs to communicate with Web-accessible resources.
+
+  - uuid : udx8b8dc7r
+    term : web
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        (short for world wide web) is a hypertext-based global information system that was originally developed at the European
+        Laboratory for Particle Physics in Geneva. It is a subset of the Internet, technically defined as the community on the
+        Internet where all documents and resources are formatted using Hypertext Markup Language (HTML). HTML, and the related
+        Hypertext Transport Protocol (HTTP), make it easy to find and view data and documents stored on computers connected to the
+        Internet. HTML creates the links ("hyperlinks") that enable the user to move among many Web documents with the click of a
+        mouse.
+
+  - uuid : udx8b8f4vt
+    term : website
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a collection of files accessed through a Web address, covering a particular theme or subject, and managed by a particular
+        person or organization. Its opening page is called a home page. A website resides on servers connected to the Web network
+        and is able to format and send information requested by worldwide users 24 hours a day, seven days a week. websites
+        typically use HTML to format and present information and to provide navigational facilities that make it easy for the user
+        to move within the site and around the Web.
+
+  - uuid : udx8b8gx56
+    term : wireless ethernet compatibility alliance (WECA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        now known as the Wi-Fi Alliance. See Wi-Fi and Wi-Fi Alliance.
+
+  - uuid : udx8b8i8xg
+    term : wired equivalent privacy (WEP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        feature used to encrypt and decrypt data signals transmitted among WLAN devices. An optional IEEE 802.11 feature, WEP
+        provides data confidentiality equivalent to a wired LAN that does not employ advanced cryptographic techniques to enhance
+        privacy. WEP makes WLAN links as secure as wired links. See also WPA.
+
+  - uuid : udx8b8jynm
+    term : wired for management (WfM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a blueprint, developed by Intel in partnership with and supported by leading information technology (IT) vendors, for
+        making PC-based systems -- including desktops, mobile systems and servers -- universally manageable. The initiative
+        encompasses advances in hardware and software that enable system management software applications that provide management
+        to the desktop, mobile system or server, and the integration with system management tools and frameworks. The innovations
+        in hardware and software collectively enterprises should understand, evaluate and incorporate into all PC acquisitions.
+
+  - uuid : udx8b8lpjd
+    term : workforce management (WFM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a system intended to maximize the use of agent labor by projecting incoming call volumes and scheduling staff to meet
+        needs exactly, by time of the day, day of the week, week of the month, etc. WFM systems use historical calling records,
+        which are collected from the automatic call distribution system, to project future calling patterns and volumes for
+        specified time frames. Features include:.
+
+        Call volume forecasting
+
+        Calculation of the required number of agents, based on the desired average speed of answer
+
+        Agent scheduling
+
+        Meeting and vacation planning
+
+        Reporting
+
+        "What if" analysis
+
+  - uuid : udx8b97s0
+    term : wholesale carrier
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An entity that owns/operates a telecom network and sells network capacity to other telecom service providers.
+
+  - uuid : udx8b91p2e
+    term : Wi-Fi alliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Non-profit international association formed in 1999 to certify interoperability of WLAN products based on IEEE 802.11
+        specification. See also WECA.
+
+  - uuid : udx8b933gg
+    term : Wi-Fi mesh
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        mesh topology network based on Wi-Fi standards but typically linked together by proprietary extensions. The Wi-Fi Alliance
+        Task Group 802.11s is developing an IEEE standard for Wi-Fi mesh. See also mesh network.
+
+  - uuid : udx8b94uc2
+    term : Wi-Fi protected access 2 (WPA2)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        the final version of WPA agreed on by the Wi-Fi Alliance; it implements all aspects of the ratified 802.11i security
+        standard and is mandatory in the Wi-Fi certification process. WPA2 is backward-compatible with WPA and can be implemented
+        in two versions -- WPA2 personal and WPA2 enterprise.
+
+  - uuid : udx8b96m2l
+    term : wi-fi protected access (WPA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a security solution developed as a migration step toward 802.11i. Wi-Fi vendors introduced WPA in late 2002, before
+        802.11i was ratified. WPA formalized the choice for encryption but left open the choice of authentication. WPA was used as
+        an improvement over the vulnerable WEP but was superseded by WPA2.
+
+  - uuid : udx8b98fi8
+    term : wireless fidelity (Wi-Fi)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        certification mark issued by the "Wi-Fi alliance" to certify that a product conforms to the 802.11b, g and a standards for
+        WLANs.
+
+  - uuid : udx8b9a72k
+    term : Wibree
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Please refer to Bluetooth Low Energy (see entry above).
+
+  - uuid : udx8b9bou7
+    term : wireless broadband (WiBro)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        mobile wireless broadband service for handsets and laptops first offered commercially in South Korea in June 2006 by KT
+        and SK Telecom. WiBro was originally intended as a South Korean standard, but it has been harmonized with the IEEE
+        802.16-2005 mobile WiMAX standard. WiBro emerged from a South Korean MIC-sponsored project to develop a standard for
+        high-speed portable Internet (HPi). The former MIC had hoped that HPi would lead to new global opportunities for South
+        Korean industry, similar to those arising from its early adoption of CDMA.
+
+  - uuid : udx8b9d8tg
+    term : wide-area network optimization controller (WOC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        in the enterprise WAN enable application centralization by mitigating latency effects and reducing bandwidth costs through
+        the use of bandwidth reduction algorithms, network-level optimization, and other application layer protocol spoofing and
+        optimization techniques that may compensate for lossy links. SoftWOCs provide these benefits to individual devices. WOCs
+        are used for data-center-to-data-center WAN links for data replication to support business continuity/disaster recovery
+        (BC/DR) requirements.
+
+  - uuid : udx8b9f0kx
+    term : WiGig
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        the provisional name for a 60 GHz in-room wireless technology which is being developed by a group of companies known as
+        the Wireless Gigabit Alliance (WGA). The goals of WGA are to develop and promote a technology capable of short-range
+        transmission at speeds of at least 1 Gbps at 10 meters range; the Alliance envisages that some implementations will exceed
+        6 Gbps. WiGig is intended to be a general-purpose standard which will be used for a wide range of devices including PCs,
+        handheld equipment and consumer electronics. Potential applications include media streaming, PC docking, general-purpose
+        networking and file transfer.
+
+  - uuid : udx8b9gso0
+    term : wireless HD (WiHD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        consumer electronics industry special interest group set up to define a next-generation standard for a wireless digital
+        interface for streaming high-definition (HD) content among source devices and HD displays. The first version of WiHD aims
+        to achieve 4 Gbps data rates using the unlicensed 60GHz frequency band.
+
+  - uuid : udx8b9il1a
+    term : wiki
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a collaborative authoring system for creating and maintaining linked collections of Web pages that enables users to add or
+        change pages in a Web browser without having to worry about where and how the content is stored. Wikis enable mass
+        authorship where potentially millions of people can collaborate to generate new content.
+
+  - uuid : udx8b9kdlt
+    term : WAP identity module (WIM)
+WAP@identity module
+WIM|see{WAP identity module}
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        used in Wireless Transport Layer Security (WTLS) and application-level security functions. A WIM can be used to process
+        and store user identification and authorization information. It also can be used to store encryption and authentication
+        keys, and to perform encryption and digital signature functions on the module. A WIM can be a hardware device, such as a
+        smart card or SIM.
+
+  - uuid : udx8b9lp87
+    term : worldwide interoperability for microwave access (WiMAX)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        refers to the standards body known as the WiMAX Forum and to the broadband wireless technology based on the IEEE 802.16
+        standard. See also 802.16, 802.16-2004, 802.16e-2005 and 802.16m.
+
+  - uuid : udx8ba4gl
+    term : WiMedia alliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        industry body supporting and developing the UWB standard. The Alliance announced in March 2009 that it would be disbanded
+        once it had transferred its specifications to the Bluetooth Special Interest Group, the USB Promoter Group and the USB
+        Implementers' Forum. See also Bluetooth and UWB.
+
+  - uuid : udx8ba1vv6
+    term : windowing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a display technique that uses multiple screen segments to display different items of information. The display can take two
+        forms: tiling (breaking up the screen into discrete segments) and overlapping (producing a three-dimensional effect by
+        having a screen segment partially or fully obscure another segment).
+
+  - uuid : udx8ba3j70
+    term : Windows~CE
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        an OS for resource-constrained embedded applications. Windows Mobile is built on top of Windows CE, but CE is used to
+        support many other devices and applications, not all of which are mobile, including set-top boxes. See also Windows Mobile
+        6.
+
+  - uuid : udx8ba55j2
+    term : Windows client
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Microsoft's Windows client operating environment is targeted and priced for consumer and business end users. This category
+        includes all Windows predecessors, as well as Windows XP and Vista.
+
+  - uuid : udx8ba6g1n
+    term : Windows Live Messenger
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        an enterprise IM service operating via Microsoft Exchange servers but compatible with MSN IM.
+
+  - uuid : udx8ba7wlp
+    term : wireless data communication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a form of communication that uses the radio spectrum rather than a physical medium. It may carry analog or digital signals
+        and may be used on LANs or WANs in one- or two-way networks.
+
+  - uuid : udx8ba9ntd
+    term : wireless intrusion prevention system (WIPS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        operates at the Layer 2 (data link layer) level of the Open Systems Interconnection model. WIPS can detect the presence of
+        rogue or misconfigured devices and can prevent them from operating on wireless enterprise networks by scanning the
+        network's RFs for denial of service and other forms of attack.
+
+  - uuid : udx8babh7e
+    term : wireless local-area network (WLAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a LAN communication technology in which radio, microwave or infrared links take the place of physical cables. The 802.11
+        family of standards issued by the IEEE provides various specifications covering transmission speeds from 1 Mbps to 54
+        Mbps. The four main physical-layer standards are 802.11a, 802.11b, 802.11g and 802.11n.
+
+  - uuid : udx8bad8qp
+    term : wireless power
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        supply facilitates the charging or direct powering of electrical and electronic equipment using inductive or radio
+        frequency (RF) energy transfer. Inductive systems are preferred for short ranges (a few centimeters) and can provide very
+        high levels of power equaling several thousand watts or more. RF power transfer operates over longer distances (tens or
+        hundreds of meters or more) and provides more modest levels of power (a few milliwatts or less).
+
+  - uuid : udx8baerwp
+    term : work management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a set of software products and services that apply workflow structure to the movement of information as well as to the
+        interaction of business processes and human worker processes that generate the information. Work management streamlines
+        and transforms crucial business processes and thus can improve results and performance.
+
+  - uuid : udx8bagco0
+    term : workflow management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        There are two types of *workflow management*:
+
+        a\) *internal and external process integration*, a workflow approach that allows for the definition of business processes
+        that span applications, including those that come from different vendors -- this usually requires a standards-based
+        commercial workflow development environment;
+
+        b\) *automated events or processes*, a workflow approach that enables automated tasks (e.g., the automation of steps in a
+        marketing campaign or a sales process) to be performed.
+
+  - uuid : udx8bai5b8
+    term : workforce analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        are an advanced set of data analysis tools and metrics for comprehensive workforce performance measurement and
+        improvement. It analyzes recruitment, staffing, training and development, personnel, and compensation and benefits, as
+        well as standard ratios that consist of time to fill, cost per hire, accession rate, retention rate, add rate, replacement
+        rate, time to start and offer acceptance rate.
+
+  - uuid : udx8bajxky
+    term : workstations
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        *workstations* have typically been high-end complex instruction set computer (CISC), Explicitly Parallel Instruction
+        Computing (EPIC) or reduced instruction set computer (RISC)-based CPU architectures with high-performance graphics, OS and
+        system architecture. In general, workstations must include a 32-bit or 64-bit multitasking OS, as well as configurations
+        that support high-resolution graphics capabilities and three-dimensional (3D) graphics functionality. The workstation
+        market includes traditional Unix workstations, such as Linux, and workstations running Windows XP/Vista or other advanced
+        OSs.
+
+  - uuid : udx8balqdq
+    term : world wide web consortium (W3C)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a nonprofit group based in the U.S. that develops and recommends standards for the Web.
+
+# __END__

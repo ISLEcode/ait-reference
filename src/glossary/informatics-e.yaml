@@ -1,0 +1,935 @@
+title    : ISLE AIT computer science glossary -- E words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 03:00:20
+contents :
+
+  - uuid : udx82remxt
+    term : E-Book Readers (E-Readers)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **E-readers** are devices that facilitate screen-based reading of books and periodicals. These are devices for which
+        reading is the sole purpose or among the leading uses. E-readers today primarily include black-and-white e-readers using
+        e-ink technology; tablet devices, which offer color, allow access to rich media, and support enhanced e-book content as
+        well as newspapers and magazines; and smartphones, such as the iPhone, and Android- and Windows-based phones.
+
+  - uuid : udx82rgna9
+    term : E-Discovery Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **E-Discovery software** facilitates the identification, collection, preservation, processing, review, analysis and
+        production of electronically stored information (ESI) to meet the mandates imposed by common-law requirements for
+        discovery. These demands may be due to civil or criminal litigation, regulatory oversight or administrative proceedings.
+        The E-Discovery Reference Model (EDRM) maps traditional common-law discovery into a six-step, nine-process framework for
+        technology.
+
+  - uuid : udx82rijaq
+    term : E-Learning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **E-learning** is the use of Internet technology for learning outside of the classroom. E-learning suites are software
+        solutions that enable automation, administration and training over the Internet. E-learning suites are integrated product
+        collections that comprise learning management systems (LMSs), virtual classrooms, courseware and learning content
+        management systems (LCMSs). An LMS is software that automates the training process and function and includes registration
+        and administration tools, skills and records management, courseware access, and programming interfaces to packaged
+        applications. An LCMS is an integrated set of technology that manages all aspects of learning content. This includes
+        authoring or acquisition, content history, auditing, replacement, and deletion. An LCMS generally works in conjunction
+        with an LMS.
+
+  - uuid : udx82rkcqv
+    term : E-Procurement
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **E-procurement** applications support indirect spending by giving casual users (i.e., employees who are not procurement
+        professionals) a self-service solution for requisitioning and ordering goods and services. Although e-procurement
+        solutions are geared toward indirect spending management by enabling individuals to initiate the requisition process and
+        select purchases, they are occasionally configured for direct materials procurement, when plan-driven inventory
+        replenishment isn't practical.
+
+  - uuid : udx82rm3ij
+    term : E1
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **E1** is the European equivalent of T1; a common carrier-provided point-to-point digital line service used in private
+        data networks and cellular, Wi-Fi and fixed-network backhaul. An E1 delivers 2.048 Mbps capacity that can be split into
+        multiple 64 Kbps channels, and is typically charged by distance.
+
+  - uuid : udx82shid
+    term : Earth Station
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **earth station** is a collection of equipment installed on the earth's surface that enables communications over one or
+        more satellites. Earth stations consist of a reflector antenna (or parabolic dish), a feed system to send and receive the
+        RF carrier, data handling equipment and mechanical tracking equipment to keep the satellite within the antenna's data
+        send/receive area. Earth stations are typically owned by the company receiving the data from the satellite network, thus
+        must operate within certain specified parameters to maintain the network's stability. Earth stations are part of a
+        satellite network's ground segment, which consists of all earth stations operating in a satellite system. These can be
+        connected to the end user's equipment directly or via a terrestrial network.
+
+  - uuid : udx82s2afc
+    term : Elastic Multitenancy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        With **elastic multitenancy** , application instances (tenants) are isolated logically, but integrated physically. The
+        degree of logical isolation must be complete, but the degree of physical integration varies. The tenants can be
+        organizations using one multitenant application or multiple applications competing for shared underlying resources.
+        Multitenancy may also be nested when tenants are independent software vendors (ISVs) with their own subtenants.
+        Multitenancy is elastic when resources are redistributed among tenants on-demand.
+
+  - uuid : udx82s40j8
+    term : Electro Mobility (E-Mobility)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electro mobility** (or **e-Mobility** ) represents the concept of using electric powertrain technologies, in-vehicle
+        information, and communication technologies and connected infrastructures to enable the electric propulsion of vehicles
+        and fleets. Powertrain technologies include full electric vehicles and plug-in hybrids, as well as hydrogen fuel cell
+        vehicles that convert hydrogen into electricity. e-Mobility efforts are motivated by the need to address corporate fuel
+        efficiency and emission requirements, as well as market demands for lower operational costs.
+
+  - uuid : udx82s5qhu
+    term : Electronic Bill Presentment And Payment (EBPP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic bill presentment and payment (EBPP)** comprises the presentation of online billing statements to residential,
+        commercial or industrial customers for viewing and the enablement of Web-based payment methods, such as credit card
+        charging and electronic funds transfer (EFT).
+
+  - uuid : udx82s7hnr
+    term : Electronic Coupons (E-Coupons)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic coupons (e-coupons)** are the digital form of a paper coupon or voucher (also known as an "offer"), and can
+        encompass several formats, including mobile and social coupons. An e-coupon can be part of a single-party process, where a
+        retailer issues a coupon via its campaign management system for redemption in its stores, or it can be a multiparty
+        process, such as digitized brand manufacturer coupons that are distributed in a variety of ways, such as redeemed in
+        stores or processed by clearinghouses.
+
+  - uuid : udx82s9avq
+    term : Electronic Customer Relationship Management (E-CRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic customer relationship management (e-CRM)** involves the integration of Web channels into the overall
+        enterprise CRM strategy with the goal of driving consistency within all channels relative to sales, customer service and
+        support (CSS) and marketing initiatives. It can support a seamless customer experience and maximize customer satisfaction,
+        customer loyalty and revenue.
+
+  - uuid : udx82sb3j2
+    term : Electronic Data Capture (EDC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic data capture (EDC)** is the electronic acquisition of clinical study data using data collection systems, such
+        as Web-based applications, interactive voice response systems and clinical laboratory interfaces. Information is stored in
+        EDC applications and used for analysis, or it is transferred to a clinical trial database containing the data from many
+        clinical studies.
+
+  - uuid : udx82scwv9
+    term : Electronic Forms (E-Forms)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic forms (e-forms)** provide a user interface to data and services, typically through a browser-based interface.
+        E-forms enable users to interact with enterprise applications and the back-end systems linked to them. Web applications,
+        e-government and e-commerce solutions have sparked the demand for better Web forms that support richer and more dynamic
+        interactions than are possible with HTML forms. New e-form applications include XML content identification, multiple data
+        callouts, field-level validation and embedded process logic contained within a secure format that's often portable.
+
+  - uuid : udx82sf35e
+    term : Electronic Health Record (EHR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **electronic health record (EHR)** system contains patient-centric, electronically maintained information about an
+        individual's health status and care, focuses on tasks and events directly related to patient care, and is optimized for
+        use by clinicians. The EHR provides support for all activities and processes involved in the delivery of clinical care.
+        The definition of an EHR system limits its scope to the continuum of care in one HDO.
+
+  - uuid : udx82sgqlo
+    term : Electronic Paper
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic paper** refers to several reflective display technologies that do not require a backlight and can be viewed
+        in conditions of good ambient illumination. Bistable pixels -- that remain in a particular state after the power is
+        removed -- are used. For static images, this results in ultralow energy consumption. Most electronic paper technologies
+        involve physical movement within the pixel to facilitate a change from light to dark, or to change color. The performance
+        achieved has therefore been slower than with other displays, such as LCDs.
+
+  - uuid : udx82sijlc
+    term : Electronic Prescribing (E-prescribing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic prescribing (e-prescribing)** is the process by which clinicians in hospital and ambulatory settings directly
+        enter outpatient prescriptions using computer applications that provide clinical decision support and can deliver the
+        prescriptions electronically in structured form to dispensing organizations (HDO pharmacies, drugstores and mail-order
+        fulfillment houses).
+
+  - uuid : udx82sk6wb
+    term : Electronic Signature (e-Signature)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **electronic signature (e-signature)** is a traceable e-mail or a biometric applied to a message. The biometric may be
+        based on digitized handwriting (handwriting that is converted by cryptography into a digital signature) or a biometric
+        (e.g., a fingerprint that can be combined with a hash or digest of the message to show the signer's intent). The
+        electronic signature cannot be removed and applied to other documents to forge a signature.
+
+  - uuid : udx82sm3vf
+    term : Electronic Waste (E-Waste)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electronic waste (e-waste)** , is a generic term used to describe all types of old, end-of-life or discarded electrical
+        and electronic equipment, such as household appliances; office information and communications equipment; entertainment and
+        consumer electronic equipment; lighting equipment; electric and electronic tools; toys; and leisure, sports and
+        recreational equipment that are powered by electricity. E-waste contains both valuable and hazardous materials that
+        require special handling and recycling methods.
+
+  - uuid : udx82txfy
+    term : Electrovibration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Electrovibration** is based on an effect in which touch receptors in the skin can be duped into perceiving texture.
+        Electrical charges simulate the feeling of localized vibration and friction, mimicking shapes, textures and contours (such
+        as the feel of a keyboard key or a button) on touchscreens on tablets and other mobile devices or product surfaces. No
+        electrical charge passes through the skin as the charge is created through movement over a conductive surface. A periodic
+        electrostatic force is created, which "deforms" the skin on the finger.
+
+  - uuid : udx82t2h6p
+    term : Embedded Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Embedded analytics** is the use of reporting and analytic capabilities in transactional business applications. These
+        capabilities can reside outside the application, reusing the analytic infrastructure built by many enterprises, but must
+        be easily accessible from inside the application, without forcing users to switch between systems. The integration of a
+        business intelligence (BI) platform with the application architecture will enable users to choose where in the business
+        process the analytics should be embedded.
+
+  - uuid : udx82t45gk
+    term : Embedded Cellular Data
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Cellular data implementations are embedded in notebooks, as well as in media tablets and other small form factor devices.
+        The cellular or wireless WAN technology embedded in notebooks is typically wideband code division multiple access (WCDMA)
+        or High-Speed Packet Access (HSPA). Some modules, primarily in emerging markets, also support cellular data standards,
+        such as general packet radio service, Enhanced Data Rates for Global Evolution/HSPA or cdma2000 Evolution Data Optimized,
+        which includes Revision 0, Revision A and radio transmission technology.
+
+  - uuid : udx82t5u50
+    term : Embedded Software And Electronics Design
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Embedded software and electronics hardware design** includes the development of all software and electronics-related
+        hardware, such as sensors, processors and operating systems, built into a vehicle, as well as its various components and
+        parts, such as entertainment and engine management systems. Automotive-specific software and hardware are typically
+        produced by multiple suppliers, and then integrated by the vehicle manufacturer or a large Tier 1 supplier. An emerging
+        class of applications supports embedded software and electronics for the automotive industry.
+
+  - uuid : udx82t7lup
+    term : Emergent Structures
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Emergent structures** describes structures that are unknown or unplanned prior to social interactions, but that emerge
+        and evolve as activity unfolds. Emergent structures may be processes, content categorization, organizational networks and
+        hidden virtual teams. These structures are used to gain a better understanding of the true nature of things to more
+        effectively organize, manage or interact with a community, or to optimize its efforts.
+
+  - uuid : udx82t9ib9
+    term : Emerging Data Protection Schemes
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Emerging data protection schemes** implement algorithms that deliver a higher mean time between data loss (MTBDL) than
+        redundant array of independent disks (RAID) technology. These schemes take advantage of improvements in microprocessor
+        performance and new algorithms to reduce rebuild times and storage protection overhead, while making protection levels a
+        user-defined option. The availability of ever-larger-capacity disks is making the deployment of these new protection
+        schemes a necessity.
+
+  - uuid : udx82tbjy1
+    term : Emotion Detection
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Emotion detection** is the task of recognizing a person's emotional state -- for example, anger, confusion or deceit
+        across both voice and nonvoice channels. The most common technique analyzes the characteristics of the voice signal, with
+        word use as an additional input, if available.
+
+  - uuid : udx82td4u5
+    term : Encapsulation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Encapsulation** describes the binding and the hiding of the underlying implementation of an object's data and
+        operations. The data is wrapped in a particular type of protocol header. The set of operations that is accessible is the
+        object's interface.
+
+  - uuid : udx82tevk0
+    term : Encryption
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Encryption** is the process of systematically encoding a bit stream before transmission so that an unauthorized party
+        cannot decipher it.
+
+  - uuid : udx82tgh8u
+    term : Endpoint Protection Platform (EPP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **endpoint protection platform (EPP)** is a solution that converges endpoint device security functionality into a
+        single product that delivers antivirus, anti-spyware, personal firewall, application control and other styles of host
+        intrusion prevention (for example, behavioral blocking) capabilities into a single and cohesive solution. More advanced
+        EPP solutions are starting to integrate with vulnerability, patch and configuration management capabilities for more
+        proactive protection. Beyond fighting malware, modern EPP products are expanding to include data protection features, such
+        as disk and file encryption, data loss prevention, and device control. The majority of the EPP market is focused on
+        PC-type endpoints; however, these solutions increasingly are starting to encompass management and tracking of other mobile
+        devices, such as tablets and smartphones.
+
+  - uuid : udx82tiab5
+    term : Energy Management Systems (EMSs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Energy management systems (EMSs)** make up the "central nervous system" of the power transmission network and are the
+        critical governing component of the power grid's operational reliability. EMSs perform state estimation, contingency
+        analysis and other advanced applications. Operator training applications offer offline study modes and real-time
+        simulations.
+
+  - uuid : udx82tk1qh
+    term : Energy Trading And Risk Management (ETRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Energy trading and risk management (ETRM)** systems involve commercial decision making and market execution using an
+        integrated system that enables data exchanges among trade floor, operations, credit, contract and accounting functions.
+        Integral to the process are event and trade identification/capture, comprehensive risk management strategies/policies,
+        scheduling/nomination/transportation and settlement execution. The process also provides for price transparency, market
+        monitoring, controlled access and regulatory compliance.
+
+  - uuid : udx82tlv6n
+    term : Enhanced Data Rates For Global Evolution (EDGE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Part of the 3GPP set of standards and based on GSM and shared media packet data, **Enhanced Data Rates for Global
+        Evolution (EDGE)** uses a different and more efficient modulation scheme: the eight-phase shift key (8-PSK), rather than
+        the Gaussian minimum shift keying (GMSK) modulation scheme used over the radio interface by GSM and GPRS. This enhanced
+        modulation technique opens up more bandwidth per radio carrier or cell. EDGE supports peak data rates of up to 384 kbps
+        per cell, assuming that all eight time slots are used and that one time slot is not reserved for signaling. As with GPRS,
+        bandwidth is shared by all concurrent users operating in the same cell. EDGE requires higher radio signal quality than
+        that found in an average GSM network before higher data throughput speeds can be reached. EDGE also provides enhanced GRPS
+        capabilities for data using 8-PSK, and when fully integrated with adaptive multirate (AMR), EDGE 2 also provides superior
+        voice capacity to the GSM network.
+
+  - uuid : udx82u8dx
+    term : Enhanced E-Books
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enhanced e-books** refer to books that include supplementary audio, video and features, such as games or puzzles.
+        Enhanced e-books are particularly popular in the categories of children's books, cooking, travel and the general area of
+        learning. Similar to DVDs with bonus material, the content complements the original text and graphics; unlike most DVDs,
+        enhanced books generally are priced higher than the same content without enhanced features.
+
+  - uuid : udx82u1yiv
+    term : Enhanced Messaging Service (EMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enhanced messaging service (EMS)** uses some features defined in the Short Message Service (SMS) specification to
+        enhance the user experience when sending messages. A thin client is added to the mobile phone and by using standard SMS
+        parameter fields, such as the user data header, binary-encoded and concatenated messages can be sent that display enriched
+        content, such as italicized, emboldened or underlined text, predefined sounds, monophonic tunes and static or animated
+        images.
+
+  - uuid : udx82u3siy
+    term : Enhanced Network Delivery
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enhanced network delivery** comprises network-based acceleration services, including WAN optimization, application
+        delivery controller/asymmetrical optimization and WOC equipment-based deployments to improve performance of cloud
+        applications. Enhanced network delivery uses a combination of techniques, including protocol spoofing, route control, HTML
+        rewrite, compression and caching, along with quality of service and bandwidth bursting, to provide enterprises with
+        improved application performance across the WAN for cloud-based services.
+
+  - uuid : udx82u5q7g
+    term : Enhanced Observed Time Difference (E-OTD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enhanced observed time difference (E-OTD)** measures the time differences of arrival of a signal from three base
+        stations, and can be implemented without changing the network.
+
+  - uuid : udx82u72j6
+    term : Ensemble Interactions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Ensemble interactions** describe the syncing of a user's multiple devices to support the completion of a task in an
+        optimal manner. This was first demonstrated in video calls, in which the calls shifted automatically from a mobile
+        handheld device to a large-screen TV as the user walked into a room and used gesture controls to "throw" a video from a
+        mobile device to a larger monitor. As the complexity of ensemble interactions grows with the number of smart networked
+        equipment, support for multitasking and collaborative activity will ensue.
+
+  - uuid : udx82u8vh9
+    term : Ensemble Programming
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        As mobile application development (AD) and Web development mature, designers will be called on to move beyond individual
+        user interfaces (UIs) to address user experiences that transcend a single device. One example is a shopping application
+        that interacts with a consumer at home on their PC, in transit on a mobile device and in a store at a kiosk. Gartner
+        refers to the tools and techniques that have been developed to design these ensemble interactions as **ensemble
+        programming** .
+
+  - uuid : udx82uao9f
+    term : Enterprise Application Outsourcing (EAO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise application outsourcing (EAO)** is a multiyear or annuity contract/relationship involving the purchase of
+        ongoing application service for managing, enhancing and maintaining custom or packaged application software in the
+        server/host or desktop platforms. Enterprise application outsourcing does not include applications services sold as
+        discrete, project-based services or staff augmentation services. In addition to application management services,
+        application outsourcing isolates the services specifically delivered in a longer-term contract in support of the life
+        cycle of applications such as consulting/advisory services, AD, integration, deployment and support services. Help desk
+        services are limited to user support for enterprise applications. Services may be provided at the client site or off-site.
+        IT assets may be owned by the client, the ESP or a third party. Contracts may include the transfer of client employees, IT
+        assets and facilities to the ESP.
+
+  - uuid : udx82ucext
+    term : Enterprise Application Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise application software** includes content, communication, and collaboration software; CRM software; digital and
+        content creation software, ERP software; office suites; project and portfolio management; and SCM software.
+
+  - uuid : udx82udpr8
+    term : Enterprise Applications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise applications** are designed to integrate computer systems that run all phases of an enterprise's operations
+        to facilitate cooperation and coordination of work across the enterprise. The intent is to integrate core business
+        processes (e.g., sales, accounting, finance, human resources, inventory and manufacturing). The ideal enterprise system
+        could control all major business processes in real time via a single software architecture on a client/server platform.
+        Enterprise software is expanding its scope to link the enterprise with suppliers, business partners and customers.
+
+  - uuid : udx82ufflt
+    term : Enterprise Architecture (EA) Assurance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise architecture (EA) assurance** is the process whose ultimate goal is to ensure that the agreed-on standards
+        and principles created during the architecture creation process are realized and adhered to. Although EA assurance is
+        often confused with or used synonymously with EA governance, it is, in fact, a subset, and it is conducted during the
+        architecture realization.
+
+  - uuid : udx82uhcbn
+    term : Enterprise Architecture (EA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise architecture (EA)** is a discipline for proactively and holistically leading enterprise responses to
+        disruptive forces by identifying and analyzing the execution of change toward desired business vision and outcomes. EA
+        delivers value by presenting business and IT leaders with signature-ready recommendations for adjusting policies and
+        projects to achieve target business outcomes that capitalize on relevant business disruptions. EA is used to steer
+        decision making toward the evolution of the future state architecture.
+
+  - uuid : udx82ujcws
+    term : Enterprise Asset Management (EAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise asset management (EAM)** consists of asset register, work order management, inventory and procurement
+        functions in an integrated business software package.
+
+  - uuid : udx82ukqxf
+    term : Enterprise-Class
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise-class** refers to the ability of a given tool or product to handle complex processes or services.
+
+  - uuid : udx82um5cp
+    term : Enterprise Content Management (ECM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise content management (ECM)** is used to create, store, distribute, discover, archive and manage unstructured
+        content (such as scanned documents, email, reports, medical images and office documents), and ultimately analyze usage to
+        enable organizations to deliver relevant content to users where and when they need it.
+
+  - uuid : udx82vjqd
+    term : Enterprise Context
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise context** is the first key deliverable of the EA process during the work of organizing the EA effort. The
+        enterprise context is the process of identifying internal and external environmental trend, articulating the business
+        strategy, identifying requirements, creating principles and developing anchor models of the business.
+
+  - uuid : udx82v1v1m
+    term : Enterprise Fraud Management (EFM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise fraud management (EFM)** software supports the detection, analytics and management of fraud across users,
+        accounts, products, processes and channels. It monitors and analyzes user activity and behavior at the application level
+        (rather than at the system, database or network level), and watches what transpires inside and across accounts, using any
+        channel available to a user. It also analyzes behavior among related users, accounts or other entities, looking for
+        organized criminal activity, fraud rings, corruption or misuse.
+
+  - uuid : udx82v3o7p
+    term : Enterprise-Grade
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise-grade** describes products that integrate into an infrastructure with a minimum of complexity and offer
+        transparent proxy support.
+
+  - uuid : udx82v55kx
+    term : Enterprise Information Architecture (EIA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise information architecture (EIA)** is the part of the enterprise architecture process that describes -- through
+        a set of requirements, principles and models -- the current state, future state and guidance necessary to flexibly share
+        and exchange information assets to achieve effective enterprise change.
+
+  - uuid : udx82v7469
+    term : Enterprise Information Archiving (EIA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise information archiving (EIA)** is the next step in the evolution of archiving that incorporates new products
+        and solutions for archiving user data (e-mail, files on file shares, instant messages, Microsoft SharePoint documents),
+        and, optionally, other content types such as structured data. These products provide features such as single-instance
+        storage across content types, retention management, content indexing and at least basic tools for e-discovery, such as
+        search and legal hold. Due to the complexity associated with managing multiple data types within an archive, enterprise
+        information archiving may more broadly encompass capabilities like federated archive repository management, while
+        delivering common policy management for migration, retention and discovery.
+
+  - uuid : udx82v956e
+    term : Enterprise Information Management (EIM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise information management (EIM)** is an integrative discipline for structuring, describing and governing
+        information assets across organizational and technological boundaries to improve efficiency, promote transparency and
+        enable business insight.
+
+  - uuid : udx82vai22
+    term : Enterprise Metadata Management (EMM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **enterprise metadata management (EMM)** as the business discipline for managing the metadata about the
+        information assets of the organization. Metadata is "information that describes various facets of an information asset to
+        improve its usability throughout its life cycle."
+
+  - uuid : udx82vc9bl
+    term : Enterprise Mobile Communications Gateway (EMCG)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **enterprise mobile communications gateway (EMCG)** is a server that is integrated into the corporate telephony system
+        to support mobile phones. It can support both single-mode (cellular) and dual-mode (cellular/Wi-Fi) network capabilities.
+
+  - uuid : udx82vdyyl
+    term : Enterprise Nervous System (ENS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise nervous system (ENS)** is Gartner's term for the intelligent network that provides unifying connectivity
+        among people, application systems and devices in different locations and business units across a virtual enterprise. The
+        emerging ENS is based on the traditional enterprise network, but it is an evolution of that network, providing value-added
+        functions that elevate the role of the network well beyond that of plain communication. Whereas a conventional network
+        simply aims to transfer data between sending application systems and explicitly defined destinations, an ENS offloads work
+        from the application systems because it:
+
+        Offers enhanced quality-of-service for communication
+
+        Transforms messages
+
+        Redirects messages as appropriate, using logical business rules
+
+        May track and control business processes
+
+  - uuid : udx82vfnj9
+    term : Enterprise Performance Management (EPM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise Performance Management (EPM)** is the process of monitoring performance across the enterprise with the goal
+        of improving business performance. An EPM system integrates and analyzes data from many sources, including, but not
+        limited to, e-commerce systems, front-office and back-office applications, data warehouses and external data sources.
+        Advanced EPM systems can support many performance methodologies such as the balanced scorecard.
+
+  - uuid : udx82vh7et
+    term : Enterprise Portal (EP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise portals (EPs)** are internet technologies that provide windows into enterprise information, applications and
+        processes. EPs go by many names, including corporate portals, business portals and enterprise information portals.
+
+  - uuid : udx82viqgq
+    term : Enterprise Resource Planning (ERP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise resource planning (ERP)** is defined as the ability to deliver an integrated suite of business applications.
+        ERP tools share a common process and data model, covering broad and deep operational end-to-end processes, such as those
+        found in finance, HR, distribution, manufacturing, service and the supply chain.
+
+        ERP applications automate and support a range of administrative and operational business processes across multiple
+        industries, including line of business, customer-facing, administrative and the asset management aspects of an enterprise.
+        However, ERP deployments tend to come at a significant price, and the business benefits are difficult to justify and
+        understand.
+
+        Look for business benefits in four areas: IT cost savings, business process efficiency, as a business process platform for
+        process standardization and as a catalyst for business innovation. Most enterprises focus on the first two areas, because
+        they are the easiest to quantify; however, the latter two areas often have the most significant impact on the enterprise.
+
+  - uuid : udx82vkim3
+    term : Enterprise Risk Management (ERM) Applications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise risk management (ERM) applications** support the establishment of an integrated, thorough and strategic
+        approach to the management of risk across the organization by helping organizations to identify, measure and manage
+        various risk classes, including market risks, credit risks, liquidity risks and operational risks. In particular, the
+        applications allow organizations to aggregate and normalize data from multiple data sources, including operational and
+        financial systems. By providing a better understanding of the risks to business objectives, ERM enables better business
+        performance. ERM applications also help companies address the increasing pressure from regulators to improve the risk
+        reporting in annual reports and improve the board's role in risk management oversight. ERM applications usually include
+        functionality to extract data in a controlled way from multiple source systems, such as financial systems, into an
+        integrated risk register. In addition, they include functions for risk analytics, reports and alerts to support decision
+        making. ERM applications also include compliance-related functions, such as audit trails, regulatory reporting or control
+        policy management.
+
+  - uuid : udx82vmb9x
+    term : Enterprise Security Intelligence (ESI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise security intelligence (ESI)** is a concept that recognizes security intelligence as an explicit deliverable,
+        and designates it as a strategic security objective for the enterprise's IT security and risk management. ESI aims at
+        increased accuracy and breadth of security detection and protection, as well as optimal security and risk management.
+
+  - uuid : udx82wqc6
+    term : Enterprise Social Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise social software** is typically used to enhance social networks, both within the enterprise and across key
+        members of the enterprise's supply and distribution chains. Implementers view social networks as an important method for
+        enhancing communication, coordination and collaboration for business purposes.
+
+  - uuid : udx82w2360
+    term : Enterprise Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise solutions** are designed to integrate multiple facets of a company's business through the interchange of
+        information from various business process areas and related databases. These solutions enable companies to retrieve and
+        disseminate mission-critical data throughout the organization, providing managers with real-time operating information.
+
+  - uuid : udx82w3ddl
+    term : Enterprise Technology Architecture (ETA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **enterprise technology architecture (ETA)** viewpoint defines reusable standards, guidelines, individual parts and
+        configurations that are technology-related (technical domains). ETA defines how these should be reused to provide
+        infrastructure services via technical domains.
+
+  - uuid : udx82w56la
+    term : Enterprise Unified Communications Infrastructure
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Enterprise unified communications infrastructure** encompasses server-based products and software that provide a central
+        platform for communications for enterprises and other organizations. A key part of the UC proposition is the promise of a
+        more consistent user experience across a wider range of communications channels and features. To achieve this, a critical
+        task is to tightly integrate the server-based communications products and application functionality into a UC
+        infrastructure. This domain is the key battlefield for infrastructure vendors with leadership aspirations in UC.
+
+        This domain emerges as a result of convergence in the established separate markets for telephony PBXs, e-mail and
+        calendaring, voice mail, audioconferencing, Web conferencing and the more recent market for IM. It also encompasses some
+        aspects of mobility applications, such as enterprise wireless e-mail software. In addition, we expect that new features
+        and functions will emerge as important elements of an enterprise UC infrastructure portfolio. Examples include: rich
+        presence server applications; multiparty videoconferencing functionality; and improved access to corporate communications
+        features for mobile staff.
+
+  - uuid : udx82w6xj2
+    term : Entitlement Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Entitlement management** is technology that grants, resolves, enforces, revokes and administers fine-grained access
+        entitlements (also referred to as "authorizations," "privileges," "access rights," "permissions" and/or "rules"). Its
+        purpose is to execute IT access policies to structured/unstructured data, devices and services. Entitlement management can
+        be delivered by different technologies, and is often different across platforms, applications, network components and
+        devices.
+
+  - uuid : udx82w8p06
+    term : Entity Resolution And Analysis (ER\&A)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This is the capability to resolve multiple labels for individuals, products or other noun classes of data into a single
+        resolved entity, and analyze relationships among such resolved entities. Multiple references may result from data entry
+        errors, inconsistency due to multiple systems for entering data, intentional falsification of information, or the creation
+        of false identities. **Entity resolution and analysis (ER&A)** leverages many aspects of data integration, master data
+        management (MDM) and data quality management, and eventually becomes instrumental in the success of each of these
+        practices. Additionally, all four of these disciplines (that is, data integration, MDM, data quality management and ER&A)
+        make up a significant portion of the implementation which takes place under enterprise information management.
+
+  - uuid : udx82wagcb
+    term : Entry-Level Smartphone
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **entry-level smartphone** is a mobile communications device that is closer to an enhanced phone in specification and
+        usage, but because it runs on an open OS it is classified as a smartphone. The device's primary focus is on voice
+        communication.
+
+  - uuid : udx82wbonx
+    term : Environmental Health And Safety (EH\&S) Application
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Environmental health and safety (EH&S) applications** applications are designed to help manufacturers manage employee
+        health, reduce safety incidents, manage their environmental footprint and help to ensure operational continuity. The
+        applications can be broadly divided into several categories: occupational health/industrial hygiene and incident
+        management, product safety and compliance, health and safety applications, environmental monitoring and control and
+        industrial operational risk management.
+
+  - uuid : udx82wdg6m
+    term : Erasable Paper Printing Systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **erasable paper printing system** prints information on either treated or plain paper with the capacity to erase the
+        information from the paper, or for the information to disappear from the paper after a certain period, allowing the paper
+        to be reused quickly, simply and often.
+
+  - uuid : udx82werwj
+    term : Ethernet Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Ethernet services** deliver network connectivity over short- and long-haul circuits, and termination on fiber and copper
+        local infrastructures. The Metro Ethernet Forum specifies three types of connections: E-Line, which is based on a
+        point-to-point connection (more suited to WAN); E-LAN, which is based on a point-to-multipoint connection; and E-Tree,
+        which is also based on point-to-multipoint connections with reduced provisioning schemes.
+
+  - uuid : udx82wghs3
+    term : Ethernet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A baseband local-area network (LAN) originally developed by Xerox and supported by Intel, Digital Equipment (now Compaq
+        Computer) and Hewlett-Packard. It has a bus topology with carrier sense multiple access with collision detection (CSMA/CD)
+        access control. Ethernet is not identical to Institute of Electrical and Electronics Engineers (IEEE) 802.3. Related terms
+        include:
+
+        Ethernet address: 48-bit code for Layer 2 networking maintained by the IEEE and hardwired into network adapters; also
+        called MAC address.
+
+        Ethernet, thick: Ethernet coaxial cable suitable for networks that are medium/large or with widely spaced nodes.
+
+        Ethernet, thin: Ethernet coaxial cable suitable only for small networks with closely connected nodes.
+
+  - uuid : udx82wi6nq
+    term : ETSI (European Telecommunications Standards Institute)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Nonprofit enterprise whose mission is to produce the telecommunications standards that will be used throughout Europe.
+        Standards developed by ETSI may be adopted by the European Commission as the technical base for directives or regulations.
+        ETSI's main task is to remove all deviations from global standards and to focus on a defined, European-specific set of
+        requirements. ETSI also ensures interoperability among standards, such as Integrated Services Digital Network, GSM and
+        Universal Mobile Telecommunications System (UMTS).
+
+        Successor to the EV-DO Rev. 0 standard that increases peak data downlink speed to 3.1 Mbps and peak upload speed to 1.8
+        Mbps, with reduced latency and QoS features that enable IP-based services, such as voice over IP (VoIP), PTT and video
+        telephony.
+
+  - uuid : udx82wjypn
+    term : Event-Driven Architecture (EDA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Event-driven architecture (EDA)** is a design paradigm in which a software component executes in response to receiving
+        one or more event notifications. EDA is more loosely coupled than the client/server paradigm because the component that
+        sends the notification doesn't know the identity of the receiving components at the time of compiling.
+
+  - uuid : udx82wllhn
+    term : Event, Fault And Log Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Event management (as well as log management and fault management) tools are used to collect, report and help with
+        diagnosis of problems (faults) identified in the environment. This segment also includes IT operations and administration
+        "policy" software, which creates and manages lists of users (in cooperation with security and human resource management
+        system products) and lists of the environment's elements, determines appropriate access policies to those elements on a
+        per-user or "role" basis, and audits adherence to those policies.
+
+        In cooperation with separate security products, event management/fault management products can recognize and trigger a
+        response to breaches in security. Event management tools also collect statistics about events and usage, and they can
+        perform historical trend analysis. System administrators can view analyzed data in near real time and use it to respond to
+        conditions displayed, and to guide the reassigning of resources using separate configuration management (CM) tools.
+
+  - uuid : udx82x16q
+    term : Event-Triggered Marketing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Event-triggered marketing** includes identifying, categorizing, monitoring, optimizing and executing events (such as
+        channel reconciliation). It can be applied in a multichannel relationship (such as social, mobile, direct mail, inbound
+        call conversions, lead management and email marketing). It's an approach to B2B and business-to-consumer marketing that
+        addresses the appropriate timeliness of offers from the customer's perspective, rather than the company's perspective.
+
+  - uuid : udx82x1ori
+    term : Expert System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A software system that can learn new procedures by analyzing the outcome of past events, or that contains a knowledge base
+        of rules that can be applied to new data or circumstances not explicitly anticipated by the developer. Applications
+        include network management, database management and data mining, computer vision and image processing, speech recognition,
+        biometrics and software for complex evaluation in such fields as petroleum geology.
+
+  - uuid : udx82x322x
+    term : Expertise Location
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Involves identifying human expertise, determining the status of that resource and integrating the person or expertise into
+        the interaction process. It is used to maintain in-depth representations of skills, geographic locations, availability and
+        other parameters relevant to the use of the expertise.
+
+  - uuid : udx82x4h0t
+    term : Extensible Authentication Protocol (EAP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Extensible authentication protocol (EAP)** is an extensible framework and transport for other network access
+        authentication protocols. The original dial-up Point-To-Point Protocol (PPP) provided only basic security by using
+        Password Authentication Protocol (PAP) and Challenge Handshake Authentication Protocol (CHAP). EAP was added to support
+        more-sophisticated authentication, particularly on wireless networks.
+
+  - uuid : udx82x6a7t
+    term : EXtensible Business Reporting Language (XBRL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **eXtensible Business Reporting Language (XBRL)** is an XML-defined standard used for analyzing, exchanging, and
+        reporting financial and other business information. It defines the contents of financial reports and statements to make it
+        easier to disseminate, access and compare financial information. XBRL is an open standard, free of license fees. It
+        provides an identifying tag for each item of financial data instead of treating financial information as a block of text,
+        as in a standard Internet page or printed document.
+
+  - uuid : udx82x835j
+    term : Extensible Markup Language (XML)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Extensible Markup Language (XML)** is a W3C open standard for describing data using embedded tags. Unlike HTML, XML does
+        not describe how to display elements on the page but rather defines what the elements contain. It has become the standard
+        for business-to-business transactions, electronic-data interchanges and Web services.
+
+  - uuid : udx82x9svr
+    term : Extensible Stylesheet Language Transformations (XSLT)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A component of Extensible Stylesheet Language (see XSL), **XSLT** controls views of Extensible Markup Language (XML)
+        documents and the ordering of XML elements. It is used to create new content structures from existing structures or
+        subsets, based on interest, access privileges or security, and it transforms XML structure to Hypertext Markup Language
+        (HTML).
+
+  - uuid : udx82xbmmk
+    term : Extensible Stylesheet Language (XSL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Extensible Stylesheet Language (XSL)** associates presentation characteristics (e.g., layout) with the markup used in
+        Extensible Markup Language (XML). One of the XML family of languages developed by the World Wide Web Consortium, XSL is
+        used to create XML "stylesheets," which describe how XML documents are presented. XSL provides independent control of
+        presentation from content and can describe output of the same content to different formats (e.g., audio or print).
+
+        XSL is made up of three components:
+
+        XSL Transformations (see XSLT)
+
+        XML Path Language (see XPath)
+
+        XSL Formatting Objects, an XML vocabulary for specifying formatting semantics
+
+  - uuid : udx82xdfi3
+    term : External Services Provider (ESP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **external services provider (ESP)** is an enterprise that is a separate legal entity from the contracting company that
+        provides services such as consulting, software development -- including system integration and application service
+        providers (ASPs) -- and outsourcing. ESPs supplement the skills and resources of an in-house IS department.
+
+  - uuid : udx82xf7ec
+    term : External Social Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **External social software** is typically used to create community sites for customers, market influencers and crowd
+        sourcing (as in collecting innovative ideas from the Web at large), as well as to measure overall market sentiments and
+        trends.
+
+  - uuid : udx82xgnuc
+    term : Extranet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A collaborative, Internet-based network that facilitates intercompany relationships by linking an enterprise with its
+        suppliers, customers or other external business partners. Extranets use Internet-derived applications and technology to
+        provide secured extensions of internal business processes to external business partners.
+
+  - uuid : udx82xi6hi
+    term : Extreme Low-Energy Servers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Extreme low-energy servers** are systems constructed around processor types that were originally designed for very
+        low-power environments, typically in devices like smartphones or in an object with a processor embedded inside.
+
+  - uuid : udx82xjj6p
+    term : Eye Tracking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Eye tracking** , also called "gaze tracking," involves determining the angle or position of a user's visual attention,
+        usually through the use of cameras.
+
+# __END__

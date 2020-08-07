@@ -1,0 +1,708 @@
+title    : ISLE AIT computer science glossary -- H words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx88u5vyq
+    term : Hand-off
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Process of transferring a mobile telephone call from one cell to another without dropping the call. Cellular users may
+        traverse several cells during a conversation, sometimes requiring a high-speed handoff in a moving vehicle. A soft handoff
+        entails establishing a second radio link with the mobile device before the first link is severed.
+
+  - uuid : udx88u7ed3
+    term : Handwriting Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Handwriting recognition** systems use pattern matching to convert handwritten letters into corresponding computer text
+        or commands in real time. Batch recognition of handwritten forms is already embedded into mainstream form sorting and
+        processing systems (for example, for mail and check handling, and other types of financial applications and transactions),
+        and it is not included in this analysis. Digital pens also use handwriting recognition and are covered in a separate
+        technology analysis.
+
+  - uuid : udx88u95ia
+    term : Haptics In Automotive
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Haptics** use tactile interfaces (for example, steering wheels and seats) to provide touch or force feedback as part of
+        the user interface (UI) in vehicles (for example, a vibrating seat to inform driver of a pedestrian about to cross the
+        street). Haptic technology has the potential to add new forms of driver communication to a vehicle, and to improve the
+        overall usability of vehicles and their information applications.
+
+  - uuid : udx88uavnl
+    term : Haptics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Haptics** is a tactile or force-feedback technology that leverages a person's sense of touch by applying vibrations
+        and/or motion to the user's fingertips. This stimulation can assist the technology in the development of virtual objects
+        on the device screen. In its broad sense, haptics can be any system that incorporates tactile feedback and vibrates
+        through a sense of touch.
+
+  - uuid : udx88ucnu6
+    term : Hardware And Software Maintenance Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Maintenance services include both hardware maintenance and support services, and network software maintenance and support
+        services.
+
+        Hardware maintenance and support services are preventive and remedial services that physically repair or optimize
+        hardware, including contract maintenance and per-incident repair. Hardware support also includes online and telephone
+        technical troubleshooting and assistance for setup, and all fee-based hardware warranty upgrades.
+
+        Sales of all parts are also included, exclusive of parts bundled with maintenance contracts. This segment includes only
+        external customer spending on these services.
+
+        Software maintenance and support services include long-term and pay-as-you-go (incident-based) support contracts. Software
+        support contracts include remote troubleshooting and support provided via the telephone and online channels, as well as
+        installation assistance and basic usability assistance. In some cases, software support services may include new product
+        installation services, installation of product updates, migrations for major releases of software and other types of
+        proactive or reactive on-site services. Software products and technologies covered under this category include operating
+        systems and infrastructure software. Software support services do not include the purchase of subscriptions that provide
+        entitlement and rights to use future minor versions (point releases) or future major releases of software.
+
+  - uuid : udx88uedxb
+    term : Hardware Maintenance And Support Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These are preventive and remedial services that physically repair or optimize hardware, including basic installation,
+        contract maintenance and per-incident repair -- both on-site and at a centralized repair depot. Hardware support also
+        includes telephone technical troubleshooting and assistance for setup and all fee-based hardware warranty upgrades.
+        Exclusive of parts bundled into maintenance contracts, sales of all parts used to repair high-tech equipment in carry-in,
+        mail-in or per-incident on-site delivery models, or purchased by the internal staff to perform the repair, are included.
+
+        The segments covered in the hardware maintenance and support services are defined in the following sections. This
+        segmentation maps to Gartner's high-level segmentation for computing and telecom hardware products.
+
+  - uuid : udx88ufvq2
+    term : HCPCS (Healthcare Procedural Classification System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of the standard code formats and definitions included in the Uniform Billing Codes.
+
+  - uuid : udx88uhebk
+    term : HDML (handheld Device Markup Language)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Device- and network-independent language developed by Openwave for Web programming on a handheld device with limited
+        memory and display, such as a cellular phone.
+
+  - uuid : udx88uivmj
+    term : Head-Mounted Displays (HMDs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Head-mounted displays (HMDs)** are small displays or projection technology integrated into eyeglasses or mounted on a
+        helmet or hat. Heads-up displays are a type of HMD that does not block the user's vision, but superimposes the image on
+        the user's view of the real world. An emerging form of heads-up display is a retinal display that "paints" a picture
+        directly on the sensitive part of the user's retina. Although the image appears to be on a screen at the user's ideal
+        viewing distance, there is no actual screen in front of the user, just special optics (for example, modified eyeglasses)
+        that reflect the image back into the eye. Other heads-up displays that are not worn by the user but are projected on a
+        surface (for example, on a car or plane windshield) are not covered in this discussion. Some HMDs incorporate motion
+        sensors to determine direction and movement (for example, to provide context-sensitive geographic information) or as the
+        interface to an immersive virtual reality application.
+
+  - uuid : udx88ukn0g
+    term : Head-Up Displays (HUDs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Head-up displays (HUDs)** use light-emitting diode (LED) or liquid crystal display (LCD) projection technology to
+        display customizable information and images within a driver's line of vision (e.g., speed data, navigation and fuel
+        efficiency). The technology has been used extensively in military applications for many decades.
+
+  - uuid : udx88umgc8
+    term : Health Information Exchange (HIE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **health information exchange (HIE)** is a regional collaboration among independent healthcare organizations for sharing
+        clinical information. Often, administrative information is shared as well. HIEs may be categorized in terms of their
+        approach to governance. In some countries, they may be run by a governmental agency. Other HIEs may be run by nonprofit
+        corporations with a board of governors that represent community stakeholders. Still others are lines of business of
+        for-profit vendors. A final form of HIE is funded and controlled by healthcare delivery organizations (HDOs) to meet their
+        own business concerns, rather than being neutral to all community stakeholders.
+
+  - uuid : udx88vv2o
+    term : HEDIS (Health Plan Employer Data And Information Set)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set of standardized performance measures designed to provide purchasers and consumers with the information they need to
+        reliably compare healthcare organizations' performance. HEDIS 99 contains measures that cover prevention, acute and
+        chronic care -- including mental health and chemical dependency -- across a full range of care settings (physician office,
+        clinics and hospital outpatient care, inpatient acute and nonacute care, and behavioral health).
+
+  - uuid : udx88v2l8e
+    term : Heijunka
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Production approach that focuses on producing flow smoothness within an operation.
+
+  - uuid : udx88v439g
+    term : Help Desk Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Help desk management** services provide centralized information and support management service to handle a company's
+        internal or external queries and operational problems about IT-related processes, policies, systems and usage. Services
+        include product support capabilities, including elements of hardware and software support, logging of problems, and
+        results analysis (results analysis means analyzing the results of calls taken to resolution of those calls for entry into
+        self-help database, problem trends to suggest permanent fixes and so forth); dispatch of service technicians or parts;
+        training coordination; and other IT-related issues.
+
+  - uuid : udx88v5vlq
+    term : Heterogeneous Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **heterogeneous architecture** is a computing system architecture in which processors use more than one instruction set,
+        all of which share a single memory. This requires programs to be written differently for each of the dissimilar
+        instruction sets. The goal is to offer substantially better performance or cost by devoting the appropriate parts of the
+        application to machine designs optimized for specific types of computing.
+
+  - uuid : udx88v7n8j
+    term : HI (healthcare Infomediary)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An entity that captures healthcare usage data, which then can be used to profile consumer purchasing and usage patterns.
+        Once it creates a consumer profile, a HI can act as an agent that connects the consumer to healthcare entities that offer
+        services aligned with the consumer's lifestyle.
+
+  - uuid : udx88v963r
+    term : Hierarchical Database
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A database that is organized in a tree structure in which each record has one owner. Navigation to individual records
+        takes place through predetermined access paths.
+
+  - uuid : udx88vamxo
+    term : Hierarchical Storage Management And Archive Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Hierarchical storage management products operate on defined storage policies that provide for the automatic migration of
+        files to secondary storage. Archiving products provide for the storing of a point-in-time version of a file for historical
+        reference. Active archiving products provide special technology for searching and viewing archived data. Included are
+        e-mail, database, file, IM, BlackBerry and SharePoint archiving products.
+
+  - uuid : udx88vcep2
+    term : High-Concentration Photovoltaics (PV)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **High-concentration photovoltaic (PV)** systems use optical devices consisting of dish reflectors or Fresnel lenses to
+        help concentrate a large area of sunlight onto a small area of PV cells in order to generate electricity. The
+        concentration factor ranges from 100x to 1,000x.
+
+  - uuid : udx88vdqer
+    term : High-Definition (HD) Voice
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **High-definition (HD) voice** is also known as wideband voice. Compared to traditional telephony voice over public
+        switched telephone networks (PSTNs) and cellular, HD voice uses double the sampling rate, reproducing a much larger sound
+        frequency and delivering all, or most, of the frequencies of a user's voice. HD voice's major advantage is the ability to
+        communicate with clearer audio and have improved and more intelligible conversations over fixed line, cellular networks
+        and voice over Internet Protocol (VoIP).
+
+  - uuid : udx88vfj56
+    term : High-performance computing (HPC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        HPC clusters can be composed of large numbers of servers, where the total physical size, energy use or heat output of the
+        computing cluster might become a serious issue. Furthermore, there are requirements for dedicated communications among the
+        servers that are somewhat unique to clusters. Because small design differences amount to large benefits when multiplied by
+        the number of servers in the clusters, we are seeing the emergence of server designs that are optimized for HPC. Sometimes
+        these are designs targeted at large, public Web operators, such as search engine firms, that deliver similar benefits in
+        HPC clusters, but they can also offer features only appropriate for HPC users. For example, if the system were designed to
+        provide the cluster interconnect differently, there might be a significant cabling reductions possible.
+
+  - uuid : udx88vhc9u
+    term : High performance workplace
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines a *high performance workplace* as a physical or virtual environment designed to make workers as effective
+        as possible in supporting business goals and providing value. A high-performance workplace results from continually
+        balancing investment in people, process, physical environment and technology, to measurably enhance the ability of workers
+        to learn, discover, innovate, team and lead, and to achieve efficiency and financial benefit.
+
+  - uuid : udx88vj42q
+    term : High-speed color inkjet printing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **High-speed color inkjet** technology enables printing in excess of 150 letter-size pages per minute (ppm) using
+        stationary print heads. Multiple banks of print heads are used to print colors individually or in combination to produce
+        process color images.
+
+  - uuid : udx88vkfn6
+    term : High-temperature superconductivity
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        technology that facilitates the use of ceramic materials for conducting and transmitting electricity with little or no
+        resistance loss without the need to achieve low-temperature superconductivity. Despite its name, high-temperature
+        superconductivity still occurs at cryogenic temperatures. The main difference from low-temperature superconductivity,
+        which is usually achieved at or near the absolute zero temperature (minus 273 degrees Celsius), is that high-temperature
+        superconductors (HTSs) can use liquid nitrogen (at minus 196 degrees Celsius) as a coolant.
+
+  - uuid : udx88vm63j
+    term : High TJ systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        refers to the silicon temperature at a transistor junction of the processor used in a server. Typically, the maximum
+        operating temperature is specified as 85 degrees Celsius. This temperature is the balance between the power consumed by
+        the processor and the rate at which the processor is cooled. Increasing the maximum temperature to 105 degrees Celsius
+        allows the environmental temperature to be increased by 20 degrees. Such an increase can eliminate the need for chillers
+        in many environments, increasing the potential for using free cooling, and decreasing the cooling costs.There is, however,
+        a downside. At the increased operating temperature, the processor must run at a somewhat slower maximum clock speed.
+        Reliability also decreases by a small amount, and unit costs increase. On the other hand, heat sinks can be smaller,
+        increasing server density.
+
+  - uuid : udx88wl1v
+    term : Highlight colour
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        a two-color printing scheme found in some transactional documents, such as bills and statements. Black is the first color.
+        The second color is used for emphasis or to highlight important information, such as the due date. The second color can
+        also be used to match the corporate color scheme, in which the company name, logo or other elements are printed. Gartner
+        classifies highlight color devices as "monochrome" in the market data and forecast estimates it publishes.
+
+  - uuid : udx88w2bxv
+    term : HIPAA (Health Insurance Portability And Accountability Act)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        HIPAA, which became effective in August 1997, calls for electronic data interchange (EDI) use in medical transactions and
+        also calls for protecting patient healthcare information. Enterprises face fines of up to \$250,000 and 10 years
+        imprisonment for wrongfully disclosing patient information.
+
+  - uuid : udx88w3npt
+    term : HIS (Hospital information System Or Healthcare Information System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The IT applications used to manage hospital operations (e.g., patient financials, registration, scheduling, general
+        financials, back-office systems and order communications).
+
+  - uuid : udx88w55de
+    term : Historian software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        captures the output of operational technology systems and manages its life cycle, and provides access for and performing
+        some levels of data analysis.
+
+  - uuid : udx88w6j9i
+    term : Hit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An individual visit to a website or Web page, expressed as a measure of its popularity (i.e., Web traffic volume). For
+        example, a site that had 48,000 visitors during a 24-hour period might be said to have averaged 2,000 "hits" per hour
+        during that period.
+
+  - uuid : udx88w7wdf
+    term : HLR (home Location Register)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Database in a wireless network containing customer data, including service entitlements and call-routing information. In
+        combination with the International Mobile Subscriber Identity (IMSI), it provides the network mechanism for the
+        cell-to-cell handover of calls and for local and international roaming.
+
+  - uuid : udx88w9av2
+    term : Home-Area Network (HAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **home-area network (HAN)** connects in-home digital devices, such as PCs, mobile phones, entertainment technology,
+        thermostats, home security systems and smart appliances, into a common network. In the context of energy utilities, HAN is
+        a means for utility companies to extend their reach beyond the meter, and to incorporate the "smart thermostat," direct
+        load control appliances, smart appliances and in-home energy display into utility systems, as well as to enable demand
+        response (DR) and energy efficiency programs.
+
+  - uuid : udx88wayai
+    term : Home Health Monitoring
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Home health monitoring** is the use of IT and telecommunications to monitor the health of patients in their homes and to
+        help ensure that appropriate action is taken. Patients are provided devices that measure vital signs, such as blood
+        pressure, glucose level, pulse, blood oxygen level and weight, and then transmit the data to clinicians. Other devices are
+        used for messaging -- gathering information from patients on their symptoms, cognitive state and behavior, and sending
+        them information and advice.
+
+  - uuid : udx88wcqjq
+    term : Home Server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Home servers** are used to aggregate storage on consumer home networks. Although similar to less-expensive home
+        network-attached storage (NAS) devices, home servers are more sophisticated devices geared to aggregating a broader range
+        of services on a home network. These services center on storage/media streaming (e.g., music, photos and videos) and home
+        PC backup, but also include Internet gateway services, as well as remote access to home PCs.
+
+  - uuid : udx88wek0v
+    term : Hoshin
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system of planning that focuses resources on attainment of both strategic and tactical objectives. Also known as "policy
+        development" or hoshin kanri.
+
+  - uuid : udx88wfw2y
+    term : Hosted PC Virtualization Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Hosted PC virtualization software** enables a user to run multiple OSs simultaneously on top of a single, host PC OS.
+
+  - uuid : udx88whgct
+    term : Hosted Virtual Desktops (HVD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **hosted virtual desktop (HVD)** is a full, thick-client user environment, which is run as a virtual machine (VM) on a
+        server and accessed remotely. HVD implementations comprise server virtualization software to host desktop software (as a
+        server workload), brokering/session management software to connect users to their desktop environment, and tools for
+        managing the provisioning and maintenance (e.g., updates and patches) of the virtual desktop software stack.
+
+  - uuid : udx88wj9su
+    term : Hot Spot
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Area, often public, such as an airport, coffee shop or convention center, that is covered with a WLAN service. This
+        service is available for the public to use for a nominal charge, for free or as a premium service.
+
+  - uuid : udx88wkvif
+    term : HR Disintermediation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The practice of bypassing the HR department to define and implement technology practices to support human capital
+        management (HCM) issues. When no clear HCM strategy is in place, business leaders formulate departmental plans and adopt
+        the technologies they feel they need to support individual and group responsibilities for enterprise performance.
+
+  - uuid : udx88wmj6j
+    term : HR Shared-Service-Center Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **HR shared-service tools** enable organizations to manage HR shared-service operations more effectively. This includes
+        ticketing, policy and knowledge management, incident routing, SLA monitoring, and elements of manager and employee
+        self-service portals. HR shared-service tools often manage sensitive employee data, such as disciplinary data or medical
+        information. Typically, the solutions integrate with core HR management system (HRMS) solutions.The larger HRMS providers
+        typically offer some HR shared-service tools. In the case of ERP vendors, these solutions are modifications of their CRM
+        call center capabilities--for example, with the SAP Employee Interaction Center and new Shared Services Framework, as well
+        as Oracle's PeopleSoft HR HelpDesk. A small number of specialist vendors, such as Enwisen (now Lawson) and Neocase
+        Software, focus on HR shared services, and successfully compete with the ERP-based offerings.
+
+  - uuid : udx88xuma
+    term : HRMS (human Resource Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Business applications for the management of HR-related transactions, best practices and enterprise reporting. Functions
+        typically include core HR tracking, payroll and benefits. The scope is often extended to include recruiting, competency
+        management, training, time management, performance management and self-service offerings.
+
+  - uuid : udx88x2bpt
+    term : HSM (hierarchical Storage Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A storage management technology that can be used to identify inactive data and move it to near-line storage, automate the
+        retrieval process, and migrate the data back to the primary storage medium and provide access for the user.
+
+  - uuid : udx88x3sr1
+    term : HTML (Hypertext Markup Language)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A document-formatting language derived from the Standard Generalized Markup Language (SGML), predominately used to create
+        Web pages. The user's browser interprets HTML commands and formats the page layout, fonts and graphics on the screen. One
+        of the more powerful features of HTML is its ability to create hyperlinks that enable the user to navigate between
+        documents and files with a single click. HTTP is also sometimes used for messaging attachments as a way of supporting rich
+        text formatting across product boundaries.
+
+        HTML that is generated by a program or service is considered "dynamically generated HTML," which has been confused with
+        the Netscape and Microsoft technology called dynamic HTML (DHTML). These technologies offer client-side mechanisms for
+        enhancing the capabilities of the Web browser and HTML documents. Dynamically generated HTML might contain DHTML, but they
+        are not the same thing.
+
+  - uuid : udx88x5jcm
+    term : HTML5
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **HTML5** is a collection of proposed specifications for the next generation of HTML. Beyond this, HTML5 is used as a
+        short-hand label for all that's new with the Web, including CSS3 and changes to HTTP.
+
+  - uuid : udx88x71i3
+    term : HTTP 2.0
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **HTTP 2.0** is the next-generation successor to HTTP 1.1, the protocol that governs the transfer of documents between
+        servers and clients on the World Wide Web. HTTP 2.0 stems from an initiative of the Internet Engineering Task Force (IETF)
+        to address perceived problems in performance and efficiency, and possibly provide enhanced security as well.
+
+  - uuid : udx88x8mfy
+    term : Hub
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A central device, usually in a star topology local-area network (LAN), to which each station's wiring is attached. Also
+        called wiring concentrator. See intelligent hub.
+
+  - uuid : udx88xa4yq
+    term : Human Augmentation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The field of **human augmentation** (sometimes referred to as "Human 2.0") focuses on creating cognitive and physical
+        improvements as an integral part of the human body. An example is using active control systems to create limb prosthetics
+        with characteristics that can exceed the highest natural human performance.
+
+  - uuid : udx88xbynj
+    term : Human Capital Management (HCM) Application Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Human capital management (HCM) application services** include services that advise, plan, design, build and implement
+        strategies, processes and solutions for HCM or HR, as well as the operation and maintenance of such applications.
+
+  - uuid : udx88xdbfu
+    term : Human Capital Management (HCM) In Social Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Social software technologies are transforming **human capital management (HCM)** -related processes and systems. Social
+        networks, such as LinkedIn, Xing, Twitter and Facebook, have altered recruitment techniques and strategies, and wikis and
+        internal blogs enable policies and procedures to be developed more collaboratively. Social software features have appeared
+        in HCM applications such as recruitment, performance management and learning applications.
+
+  - uuid : udx88xf2mt
+    term : Human Capital Management (HCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Human capital management (HCM)** is a set of practices related to people resource management. These practices are
+        focused on the organizational need to provide specific competencies and are implemented in three categories: workforce
+        acquisition, workforce management and workforce optimization. The applications that help to enable human capital
+        management include:
+
+        Core administrative support:
+
+        Personnel administration
+
+        Benefits administration
+
+        Payroll
+
+        Portal/employee self-service
+
+        Service center
+
+        Strategic HCM support:
+
+        Workforce planning
+
+        Competency management
+
+        Performance management
+
+        Compensation planning and strategy
+
+        Time and expense management
+
+        Learning (education and training)
+
+        Recruitment (hiring and recruitment)
+
+        Onboarding
+
+        Contingent workforce management
+
+        Organization visualization
+
+        Other HCM:
+
+        Reporting and analytics (workforce analytics)
+
+        Workflow
+
+  - uuid : udx88xguks
+    term : Humanitarian Disaster Relief
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Humanitarian disaster relief** is a complex set of tools and processes that government agencies use to obtain and
+        maintain authority and control, manage disparate resources and address the many needs of victims during a disaster.
+        Complexity is inherent in the process because many organizations with expert disaster relief skills, emergency responders
+        and volunteers are present at the disaster location and need to be managed; many have no official interface to the
+        authorities or specific deployment instructions, making their responses chaotic.
+
+  - uuid : udx88xim04
+    term : Hundred Call Seconds (CCS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Hundred Call Seconds (CCS)** , or centum call seconds, is a metric used in calculating call center inquiry volume or
+        efficiency.
+
+  - uuid : udx88xk3ho
+    term : Hybrid Cloud Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Hybrid cloud computing** refers to policy-based and coordinated service provisioning, use and management across a
+        mixture of internal and external cloud services.
+
+  - uuid : udx88xlkc6
+    term : Hybrid Electric Vehicles (HEVs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Hybrid electric vehicles (HEVs)** have both a petrol- or diesel-powered combustion engine and an electric engine. HEVs
+        increase fuel efficiency by either switching from one engine to the other or adding additional power, according to the
+        driving conditions.
+
+  - uuid : udx88xmwd4
+    term : Hybrid Modeling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A term, coined by Gartner, that is used to signify second-generation, dimension-driven, constraint-based solids modeling
+        technology beyond first-generation parametric modeling. Hybrid modelers offer multiple design input mechanisms, flexible
+        constraint management, and robust interoperability with legacy computer-aided design (CAD) data.
+
+  - uuid : udx88yu6c
+    term : Hybrid MPLS (Internet WAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Hybrid Multiprotocol Label Switching (MPLS)/Internet WAN** models combine the use of two major Internet Protocol (IP)
+        WAN technologies, commonly carrier MPLS networks and IPsec virtual private networks (VPNs) over Internet infrastructure,
+        in a consolidated enterprise WAN. While Internet-based VPNs are commonly used for smaller offices, and MPLS tends to be
+        the basis of major corporate network backbones and larger offices, this approach uses both network types at a specific
+        site.
+
+  - uuid : udx88y2lf0
+    term : Hybrid Storage Gateway Appliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **hybrid storage appliance** is a physical or virtual storage caching system that destages local or on-site data storage
+        to the cloud instead of to back-end disks. In every other way, it behaves as a storage system. The term "hybrid" describes
+        the fact that the appliance combines local storage with cloud storage, usually public cloud storage that is geographically
+        distant from the appliance. From a data flow perspective, it is a storage target or an in-band appliance that intercepts
+        all input/outputs (I/Os) to and from a virtual volume or file system. From a storage system perspective, it uses
+        sophisticated cache management algorithms to minimize data flows to and from the cloud by satisfying as many I/Os as
+        possible from local storage. Data is compressed or deduplicated in the appliance to increase its effective cache capacity,
+        and when data is actually transferred to or from the cloud, WAN-optimized controller (WOC) techniques are often used to
+        reduce the impact of link latency on performance.
+
+  - uuid : udx88y489y
+    term : Hybrid Thinking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines the concept of hybrid thinking as an organic discipline for taking on wicked problems by iteratively
+        implementing transformative, innovative, and strategic change via the co-creative exploration of human-centered
+        experiences that are culturally meaningful, technically feasible, and economically sustainable.
+
+  - uuid : udx88y5pe8
+    term : Hybrid Unified Communications And Collaboration (UCC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Hybrid unified communications and collaboration (UCC)** allows enterprises to procure UCC services through several
+        deployment models, while supporting the seamless service integration needed to deliver a UCC experience to users, for
+        example, by blending traditional on-premises, public cloud and private cloud deployment models. Hybrid UCC allows
+        organizations to select different procurement models for different UCC functionality. Hybrid UCC can also support adoption
+        of different procurement models for different user roles within the organization.
+
+  - uuid : udx88y7hcp
+    term : Hydrogen Economy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Hydrogen economy** is a vision of an energy delivery infrastructure based on hydrogen as a carbon-free energy carrier.
+        Fuel cells would generate electricity from hydrogen with heat and water vapor as byproducts. An alternative energy economy
+        in the form of a parallel power and transportation infrastructure is needed, including technical solutions for
+        energy-efficient hydrogen production, storage technology and delivery infrastructure.
+
+  - uuid : udx88y982v
+    term : Hydrogen Fuel Cell Vehicles
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **hydrogen vehicle** is an alternative fuel vehicle that uses hydrogen as its onboard fuel. Hydrogen vehicles'
+        powertrains convert the chemical energy of hydrogen to mechanical energy by burning hydrogen in an internal combustion
+        engine or by reacting hydrogen with oxygen in a fuel cell to run electric motors.
+
+  - uuid : udx88yak5q
+    term : Hype Cycle
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Gartner model designed to help clients make intelligent decisions about when to implement emerging technologies. The
+        Gartner Hype Cycle provides not only a scorecard to separate hype from reality, but also a model that can be used to
+        decide when it makes sense for an enterprise to move forward with a new technology. The five phases in the Hype Cycle are:
+
+        Technology Trigger
+
+        Peak of Inflated Expectations
+
+        Trough of Disillusionment
+
+        Slope of Enlightenment
+
+        Plateau of Productivity
+
+  - uuid : udx88ycb2g
+    term : Hyperlink
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An area on a Web page that, when clicked on with a mouse, will transport the user to another Web page. Also called "links"
+        or "hot links," hyperlinks are analogous to hypertext. Hyperlinks are commonly used on the Web to provide navigation,
+        reference and depth where published text cannot. A hyperlink can be created from text or from a graphic.
+
+  - uuid : udx88ydnba
+    term : Hyperprotocol
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A file transfer protocol that sends data in a steady stream, rather than in packets, with built-in error correction and
+        data compression.
+
+  - uuid : udx88yf4jb
+    term : Hypertext
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software technology used to create and store simple and complex navigational paths across computerized data. When the text
+        is "clicked on," it can enable a user to navigate within or between Web pages.
+
+# __END__

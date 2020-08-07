@@ -1,0 +1,663 @@
+title    : ISLE AIT computer science glossary -- R words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8a966o3
+    term : R-UIM (removable User Identity Module)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Introduced by the CDMA Development Group (CDG) and the 3GPP2, an R-UIM card is a smart card for use with CDMA-based mobile
+        phones. It enables customers to switch phones without changing their mobile numbers, stores frequently called numbers and
+        provides some functions similar to the SIM card in GSM mobile phones.
+
+  - uuid : udx8a97mak
+    term : RAAD (rapid Architected Application Development)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An approach to large-scale application development (AD) that includes the following phases, which are executed by up to 10
+        teams of 10 people each during a period of no more than 18 months:
+
+        Phase 1: Business and technical architecture reconciliation.
+
+        Phase 2: Functional requirements gathering and specification.
+
+        Phase 3: Initial architecture design, building and implementation.
+
+        Phase 4: First building and testing of application, including user interface, data access and business logic.
+
+        Phase 5: Initial installation of application.
+
+        Phase 6: Concurrent engineering for subsequent builds.
+
+        Phase 7: Rapid release plan.
+
+  - uuid : udx8a99fgf
+    term : Rack Density
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The rack density describes the height of a unit. The standard height of one unit is 1.75 inches, so rack density is
+        described in terms of the number of units, such as one unit (1U), 2U and so on. Blade servers are noted as "number of
+        blades per blade chassis/height" (in standard U height), so 14 blades per blade chassis height of 7U would be listed as
+        "14/7U."
+
+  - uuid : udx8a9b6lq
+    term : Rack Mount
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        -   Rack mountable -- A system that can be mounted in a rack or as a stand-alone
+
+        -   Rack-Optimized -- A system that has to be run in a server cabinet
+
+        -   Tower/stand-alone -- A system optimized for stand-alone installation only
+
+        -   Blade -- A discrete CPU card that slides vertically into a shared chassis. Typically several blade cards are housed in
+            a cabinet or a stand-alone chassis, which houses a common power supply, cooling element, and network switches and
+            connections.
+
+  - uuid : udx8a9cuda
+    term : Rack Unit (RU)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A standard increment used to express the height of a piece of rack-mounted computer or networking equipment, abbreviated
+        as "U" and equal to 1.75 inches. For example, a server with a height of 4U takes up seven inches of vertical rack space.
+        The most common dimensions for an industry-standard rack are 42U (73.5 inches) high and 19 inches wide.
+
+  - uuid : udx8a9espd
+    term : Rack
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A framework or structure that holds computer servers or networking equipment, usually by means of shelves or mounting
+        plates. The height of computer equipment is expressed in rack units (U), which equal the distance between shelf increments
+        in a standard rack (see rack unit).
+
+  - uuid : udx8a9gatn
+    term : RAD (rapid Application Development)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An application development (AD) approach that includes small teams (typically two to six people, but never more than 10)
+        using joint application development (JAD) and iterative-prototyping techniques to construct interactive systems of low to
+        medium complexity within a time frame of 60 to 120 days.
+
+  - uuid : udx8a9hoem
+    term : Radio-Frequency Identification (RFID)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Radio frequency identification (RFID)** refers to an automated data collection technology that uses radio frequency
+        waves to transfer data between a reader and a tag to identify, track and locate the tagged item. There are two basic
+        categories of tags used for logistics and transportation: passive and battery-enabled. Passive tags collect the necessary
+        energy from the antenna of the reader, which can be fixed or portable. Battery-enabled tags fall into two major groupings:
+        battery-assisted passive (BAP) technology and active RFID tag technology.
+
+  - uuid : udx8a9jh8i
+    term : Radio PAD (radio Packet Assembler/disassembler)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        PAD with an integrated radio transceiver for use with packet radio systems.
+
+  - uuid : udx8a9ky8f
+    term : RAID (redundant Array Of Independent Disks)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A method of mirroring or striping data on clusters of low-end disk drives; data is copied onto multiple drives for faster
+        throughput, error correction, fault tolerance and improved mean time between failures.
+
+        With the exception of RAID 0, all RAID levels provide automated recovery of data in the event of a disk failure. The RAID
+        levels and their key features are:
+
+        RAID-0 -- provides disk striping without parity information; data is written by segment across multiple disks sequentially
+        until the end of the array is reached, and then writing starts at the beginning again. Provides greater logical disk
+        capacity with faster access time on reads (multiple segments read simultaneously). However, RAID-0 provides no data
+        redundancy -- if one drive fails, the entire disk array subsystem is unavailable.
+
+        RAID-1 -- provides fault tolerance by using disk mirroring (also called shadowing). Each byte of data on a disk is
+        duplicated on another physical drive, providing 100% data redundancy. RAID-1 provides immediate access to data when either
+        the primary or secondary drive fails, but it has the highest cost of all RAID types, since duplicate hardware is required.
+
+        RAID-2 -- eliminates the 100% redundancy overhead of RAID-1 by using a powerful error detection and correction code
+        (Hamming), with bits of the data pattern written across multiple disks.
+
+        RAID-3 -- similar to RAID-2, but uses a single check disk per group that contains the bit parity of the data disks; data
+        is interleaved across all disks. Because disk reads are performed across the entire array and all data is transferred to
+        the controller in parallel, RAID-3 is well suited for applications that require high data read/write transfer rates for
+        large sequential files.
+
+        RAID-4 -- instead of interleaving blocks of data across all drives, writes the first block on drive 1, the second block on
+        drive 2, and so on. This technique dramatically improves read time, since many reads are single block (single drive),
+        freeing other drives for additional read requests.
+
+        RAID-5 -- eliminates the dedicated parity drive by writing parity with the data across all drives in the array.
+        Consequently, the single-write restriction and some performance degradation of RAID-1 through RAID-4 are eliminated. If a
+        drive fails, the controller can rebuild the data from the parity and data on the remaining drives.
+
+        RAID-6 -- provides two-disk parity and one spare, so that two simultaneous disk failures per array of disks can be
+        tolerated. With the occurrence of a failure, a spare is brought online and transparent reconstruction begins automatically
+        in the background with negligible impact on performance.
+
+        RAID-10 -- a combination of RAID-0 and RAID-1 that provides the benefits of striping and fault tolerance (disk mirroring).
+
+  - uuid : udx8a9mll9
+    term : RAS (reliability, Availability And Serviceability)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A reference to a product's quality, availability of optional features, and ease of diagnosis and repair.
+
+  - uuid : udx8aar3k
+    term : RDBMS (relational Database Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A database management system (DBMS) that incorporates the relational-data model, normally including a Structured Query
+        Language (SQL) application programming interface. It is a DBMS in which the database is organized and accessed according
+        to the relationships between data items. In a relational database, relationships between data items are expressed by means
+        of tables. Interdependencies among these tables are expressed by data values rather than by pointers. This allows a high
+        degree of data independence.
+
+  - uuid : udx8aa2id6
+    term : RDM (requirements Definition And Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Requirements definition and management (RDM) tools streamline development teams' analysis of requirements, capture
+        requirements in a database-based tool to enable collaborative review for accuracy and completeness, ease use-case and/or
+        test-case creation, provide traceability, and facilitate documentation and versioning/change control. Increasingly, RDM
+        tools support business analysts with graphical tools for process workflow definition, application simulation and
+        prototyping, and other visual, collaborative tools. The database approach uses special-purpose repositories that are part
+        of the requirements management solution or ship with a general-purpose commercial database integrated with the tool.
+
+  - uuid : udx8aa4bey
+    term : Real Time
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The description for an operating system that responds to an external event within a short and predictable time frame.
+        Unlike a batch or time-sharing operating system, a real-time operating system provides services or control to independent
+        ongoing physical processes. It typically has interrupt capabilities (so that a less important task can be put aside) and a
+        priority-scheduling management scheme.
+
+  - uuid : udx8aa5nu8
+    term : Receiver Sensitivity
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Measurement of the weakest signal that a wireless receiver can receive and still translate into data. Receiver sensitivity
+        is affected greatly by a number of factors, including location and placement within the wireless device.
+
+  - uuid : udx8aa75qy
+    term : Reconfigurable Optical Add/Drop Multiplexers (ROADMs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Reconfigurable optical add/drop multiplexers (ROADMs)** are the wavelength division multiplexing (WDM) equivalent of the
+        add/drop multiplexing that has been used in the Synchronous Digital Hierarchy (SDH) and Synchronous Optical Network
+        (SONET) markets for more than a decade. ROADMs enable communications service providers (CSPs) to automate the way
+        individual wavelengths of WDM systems are routed through their networks, mainly in ring configurations, with protection
+        switching and easy provisioning being the major benefits.
+
+  - uuid : udx8aa8wir
+    term : Records Management (RM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Records management (RM)** technologies enable organizations to enforce policies and rules for the retention and
+        disposition of content required for documenting business transactions, in addition to automating the management of their
+        record-retention policies. These technologies, implemented with well-formulated and consistently enforced RM strategies
+        and policies, form an essential part of the organizationwide life cycle management of information. RM principles and
+        technologies apply to both physical and electronic content.
+
+  - uuid : udx8aaanlu
+    term : Redaction Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Redaction tools** are software that is used to edit content and, thereby, selectively and reliably remove information
+        from documents or websites before sharing the remaining content with someone who is not authorized to see the entire
+        original document. The process of "redacting" documents has been used in the legal profession for decades to black out
+        confidential or privileged information during the exchange of documents during litigation. The process has also been used
+        by government agencies to censor sensitive material when responding to Freedom of Information Act (FoIA) requests. In the
+        manual process, someone takes a paper copy of the document and uses a heavy black marker to cross out the information to
+        be excluded. Redaction tools have been included as part of document imaging products since their introduction. In
+        electronic documents, redaction refers to the permanent removal of information, not the masking or obfuscating of data.
+
+  - uuid : udx8aacfvm
+    term : Redaction
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of **"redacting"** documents has been used in the legal profession for decades to black out confidential or
+        privileged information during the exchange of documents during litigation. In electronic documents, redaction refers to
+        the permanent removal of information, not the masking or obfuscating of data.
+
+  - uuid : udx8aae981
+    term : Redundancy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.Portion of the total information contained in a message that can be eliminated without loss of essential information.
+
+        2.Provision of duplicate, backup equipment or links that immediately take over the function of equipment or transmission
+        lines that fail.
+
+  - uuid : udx8aafsa1
+    term : Regulatory Compliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Regulatory compliance** is concerned with laws that a business must obey, or risk legal sanctions, up to and including
+        prison for its officers.
+
+  - uuid : udx8aah60l
+    term : Relational DBMS
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The RDBMS architecture is based on a formal method of constructing a database in rows and columns using rules that have
+        formal mathematical proofs. RDBMSs originated in the work of E.F. Codd. In an RDBMS, relationships among tables are
+        created by comparing data, such as account numbers and names. In addition, an RDBMS has the flexibility to take any two or
+        more tables and generate a new table from the rows that meet the matching criteria.
+
+        RDBMSs are implemented in many different ways. For example, they can be implemented on disk storage using relational or
+        row storage techniques, stored as columns or indexes as in column-based storage, implemented in memory as the in-memory
+        storage model, and even implemented in flash memory. In addition, RDBMS engines are available with different footprints
+        that can be used as embedded DBMS engines in edge devices, as well as in portable or mobile devices. We also do not
+        distinguish data types any longer because most RDBMSs available today allow multiple data types, including objects,
+        user-defined data types, BLOBs and native XML structures.
+
+  - uuid : udx8aaiuju
+    term : Remote Diagnostics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Remote diagnostic technologies** provide the ability to deliver onboard vehicle-related performance and quality data to
+        a central monitoring application for the purpose of improving parts performance and reliability insights for engineering
+        and product development. Remote diagnostics can also improve customer relationship management by automating repair and
+        service scheduling.
+
+  - uuid : udx8aak7kf
+    term : Removable Modules
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Data cards and USB modems that provide wireless broadband connections to notebook computers and other mobile computing
+        equipment.
+
+  - uuid : udx8aalp0y
+    term : Repeatable Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Replicable, integrated solutions to a specific process improvement or application requirement. A repeatable solution
+        typically exhibits the following characteristics:
+
+        Fixed pricing, sometimes with a shared business-benefit upside.
+
+        Fixed delivery schedule with rapid implementation.
+
+        Specified performance.
+
+        Initial pilot solution with rapid prototype, followed by roll-out and incremental additions.
+
+        A prime contractor with one point of contact for the client.
+
+        Long-standing and battle-proven partner relationships.
+
+        Joint research and development (R&D) and joint marketing among the partners.
+
+        Opportunity for residual values in the form of royalties, licensing, etc.
+
+        Repeatable solutions, as the basis for the portfolio of technology solutions (POTS), must be targeted at specific
+        processes, technologies, subindustries or topical issues. They require high-end professional services such as business
+        process re-engineering, system and network integration and software customization.
+
+  - uuid : udx8ab6f7
+    term : Repository
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A facility for storing descriptions and behaviors of objects in an enterprise, including requirements, policies,
+        processes, data, software libraries, projects, platforms and personnel, with the potential of supporting both software
+        development and operations management. As a single point of definition for all system resources, it should stimulate both
+        program and installation management productivity. A system repository would include configuration definitions, tuning
+        parameters and performance goals, while an application repository would include data definitions.
+
+  - uuid : udx8ab1vhf
+    term : Resource Requirements Planning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of converting the production plan or the master production schedule into the impact on key resources, e.g.,
+        man hours, machine hours, storage, standard cost dollars, shipping dollars and inventory levels.
+
+  - uuid : udx8ab3c9s
+    term : Response Time
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The time period between a terminal operator's completion of an inquiry and the receipt of a response. Response time
+        includes the time taken to transmit the inquiry, process it by the computer, and transmit the response back to the
+        terminal. Response time is frequently used as a measure of the performance of an interactive system.
+
+  - uuid : udx8ab4t3e
+    term : Retail Digital Signage
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Retail digital signage** refers to applications that disseminate dynamic media content to displays or monitors on the
+        sales floor of a retail store. It is sometimes referred to as narrowcasting, interactive signage, electronic signage
+        networks, digital communications or digital media networks.
+
+  - uuid : udx8ab651w
+    term : Retail Execution And Monitoring
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **retail execution and monitoring** technology identifies tasks and enables the execution of in-store activities by
+        field sales personnel or third-party sales agents on behalf of consumer goods manufacturers. These activities include
+        promotional activities, asset management, retail audits and proof-of-performance information collection.
+
+  - uuid : udx8ab7rhe
+    term : Retail Sales
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This category includes the additional collection of sales applications required for a retail environment. It includes
+        point-of-sale applications for recording sales transactions, usually a cash register and merchandising software.
+
+  - uuid : udx8ab99om
+    term : Retirements
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Number of mobile devices ceasing to be in use during a given year. The retirements figure is complicated by the existence
+        of secondhand equipment. When a used mobile device from one region is sold in another region in conjunction with a new
+        connection, the device is not added to the sales-to-end-user line, but it is accounted for in the installed baseline. A
+        high number of secondhand sales may lead to a negative figure for retirements.
+
+  - uuid : udx8abaxa8
+    term : Reusable Analog Intellectual Property (IP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Reusable analog intellectual property (IP)** refers to analog and mixed-signal IP blocks that can be reused across
+        multiple chips. They may be designed by a chip vendor or licensed from a third-party IP vendor or a design services
+        company. Typical analog IP blocks include, for example, operational amplifiers, analog-to-digital converters,
+        digital-to-analog converters, phase-locked loops, delay-locked loops, serializer/deserializer transceivers, filters,
+        voltage references, radio-frequency modules, voltage regulators and analog comparators. While some functions such as data
+        converters have become quite viable as IP functions, others have not from the reusability point of view.
+
+  - uuid : udx8abcp3b
+    term : Reuse
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An application development methodology that catalogs and makes available application components so that they may be
+        incorporated into other applications.
+
+  - uuid : udx8abe6y8
+    term : Revenue Assurance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Revenue assurance** is the application of a process or software solution that enables a communications service provider
+        (CSP) to accurately capture revenue for all services rendered. Instead of correcting errors after they occur, or not
+        detecting and correcting them at all, revenue assurance enables the CSP to examine and plug dozens of actual or potential
+        leakage points throughout the network and customer-facing systems, and to correct data before it reaches the billing
+        system. The distinctions between revenue assurance and other disciplines are often blurred. Revenue assurance sometimes
+        extends into areas such as network assurance, service assurance, business assurance, risk management and fraud management.
+
+  - uuid : udx8abfwma
+    term : Revenue
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Revenue consists of the gross billings generated by a vendor, measured in unit currency.
+
+  - uuid : udx8abhe6a
+    term : RFID Reader
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An RFID reader is a radio frequency device that emits a signal through an antenna. This signal is received by RFID tags
+        that respond to interrogation by the reader. Responses are read by the reader, and through a variety of protocols the
+        reader can communicate with all the RFID tags in its field. Readers generally take three forms. Portal readers are fixed
+        in one location; RFID tags pass through them and communicate with the reader. Handheld readers are portable devices that
+        can communicate with RFID tags. Mounted readers are a special type, placed on mobile equipment such as forklifts and
+        cranes. They often communicate with tags in fixed locations.
+
+  - uuid : udx8abj780
+    term : RFID Tags
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **RFID tags** are generally small devices that respond to an RFID reader's interrogation via radio frequency. Tags vary in
+        terms of memory, the range over which they can be read, the level of read and write capabilities, and the availability of
+        other computational functions. The tag can hold just a product's serial number all the way up to a mass of information
+        about the product and its history.
+
+        Passive RFID: A passive RFID tag has no battery. It harvests all its power from the radio interrogation of the RFID
+        reader, including enough power to respond. This yields fairly low-cost devices, but they can be read only at a fairly
+        short range (about 20 feet in the best operating conditions).
+
+        Active RFID: Active tags have batteries attached to them so that they can respond to a reader with more power. They are
+        much more expensive than passive tags but have a much-greater range (up to 300 feet).
+
+        Smart Cards: Contactless smart cards are often referred to as RFID tags. From a technical perspective, they are just a
+        specially packaged form of RFID tags.
+
+        Sensors: RFID tags don't tell you anything about their environment. They can only tell you what is in the memory of the
+        tag. However, a common application of RFID is to attach the tag to a sensor that can fill the tag's memory with data. This
+        is then communicated to other systems through RFID protocols. The sensory technology, while intertwined with RFID, is
+        independent.
+
+  - uuid : udx8abl40d
+    term : Rich Communication Suite (RCS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Rich Communication Suite (RCS)** is a Global System for Mobile Communications Association (GSMA) initiative, aiming to
+        develop specifications for Rich Communication Services. These include "enhanced" instant messaging, video calling and the
+        ability to share documents and photos simultaneously during calls and service discovery. All services can be accessed from
+        a subscriber's contact list. RCS services will be available across any network and any device. Specifications have been
+        defined and developed to date in five phases and/or releases.
+
+  - uuid : udx8abmptc
+    term : Rich Internet Application (RIA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner views **rich Internet application (RIA)** platforms as a composite construct, referring to technologies that
+        enable organizations to build applications that provide a rich, responsive user experience. The term "RIA platform" is not
+        consistently used in the industry. Gartner uses it in the broadest scope to aggregate multiple approaches and technologies
+        into one overall concept that spans the JavaScript-enhanced browser, plug-in-enhanced browser and HTML5-powered browser,
+        as well as outside-the-browser subcategories.
+
+  - uuid : udx8ac1iad
+    term : RISC (reduced Instruction Set Computer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A processor architecture that shifts the analytical process of a computational task from the execution or runtime to the
+        preparation or compile time. By using less hardware or logic, the system can operate at higher speeds. RISC cuts down on
+        the number and complexity of instructions, on the theory that each one can be accessed and executed faster, and that less
+        semiconductor real estate is required to process them. The result is that for any given semiconductor technology, a more
+        powerful microprocessor can be produced with RISC than with complex instruction set computer (CISC) architectures.
+
+        This simplification of computer instruction sets gains processing efficiencies. That theme works because all computers and
+        programs execute mostly simple instructions. RISC has five design principles:
+
+        -   Single-cycle execution -- In most traditional central processing unit (CPU) designs, the peak possible execution rate
+            is one instruction per basic machine cycle, and for a given technology, the cycle time has some fixed lower limit.
+            Even on complex CPUs, most compiler-generated instructions are simple. RISC designs emphasize single-cycle execution,
+            even at the expense of synthesizing multi-instruction sequences for some less-frequent operations.
+
+        -   Hard-wired control, little or no microcode -- Microcode adds a layer of interpretive overhead, raising the number of
+            cycles per instruction, so even the simplest instructions can require several cycles.
+
+        -   Simple instructions, few addressing modes -- Complex instructions and addressing modes, which entail microcode or
+            multicycle instructions, are avoided.
+
+        -   Load and store, register-register design -- Only loads and stores access memory; all others perform register-register
+            operations. This tends to follow from the previous three principles.
+
+        -   Efficient, deep pipelining -- To make convenient use of hardware parallelism without the complexities of horizontal
+            microcode, fast CPUs use pipelining. An n-stage pipeline keeps up to "n" instructions active at once, ideally
+            finishing one (and starting another) every cycle. The instruction set must be carefully tuned to support pipelining.
+
+  - uuid : udx8ac33xo
+    term : Risk-Adjusted Value Management (RVM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Risk-Adjusted Value Management (RVM)** is a Gartner methodology that significantly reduces the time and improves the
+        quality of strategic planning and execution.
+
+  - uuid : udx8ac4hoo
+    term : Risk Management And Compliance Consulting Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **risk management and compliance consulting services** as the bundle of expert-driven consulting services
+        directed at assisting enterprises to identify, manage and mitigate IT and enterprise compliance risk. Although there are
+        myriad types of risk and compliance in the life of an enterprise, we focus on risk and compliance advisory services
+        directly affecting or influencing IT.
+
+  - uuid : udx8ac64je
+    term : RM (relationship Manager)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A staff member who acts as an organizational liaison, typically between an information services (IS) department and
+        business-unit or function. The relationship manager may fulfill a combination of roles that correspond to the degree of
+        trust and authority granted to the person in that role by his/her customer. The job content of the position (in order of
+        increasing business trust and responsibility) is classified in four levels:
+
+        Level 1: Inform and Communicate
+
+        Level 2: Advise and Influence
+
+        Level 3: Coordinate and Integrate
+
+        Level 4: Manage and Oversee
+
+        Relationship management is essentially a matrixed position, with reporting requirements to at least two managers
+        (typically a chief information officer -- CIO -- and business function or division manager). In practice, however, the
+        position is usually linked more strongly to one side than another, and is most often aligned to the business management
+        side.
+
+  - uuid : udx8ac7ojb
+    term : RNC (radio Network Controller)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Plays a role similar to the BSC in a GSM network, but supports B nodes used in UMTS networks.
+
+  - uuid : udx8ac9729
+    term : Roaming
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Ability of a mobile user to access cellular services while away from the home network. This includes automated roaming
+        between GSM networks, SIM-based roaming, where a user switches the SIM card into a mobile phone from a different network,
+        or roaming across technologies (for example, between a WCDMA network and the GSM network of another operator). Roaming can
+        take place within one country and across national boundaries. In a WLAN context, roaming occurs when a mobile device
+        disassociates from one access point and then re-associates with a new access point.
+
+  - uuid : udx8acb034
+    term : ROC (return On Competitiveness)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A nomenclature and philosophy that goes beyond the traditional return on investment (ROI) concept by focusing the metric
+        or calculation on how competitiveness is affected by investment. A good way to visualize and quantify the overall return
+        on IT competitiveness is to build a spider diagram that identifies and maps all the relevant dimensions of competitiveness
+        within a given industry sector, and then measure the changes in the overall mapping area during a given time interval
+        (e.g., a year).
+
+  - uuid : udx8accqj1
+    term : ROE (return On Equity)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A measure of a company's financial performance (net income divided by the value of the stockholders' equity, and expressed
+        in percent).
+
+  - uuid : udx8ace917
+    term : ROI (return On Investment)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Financial gain expressed as a percentage of funds invested to generate that gain.
+
+  - uuid : udx8acfn4m
+    term : ROIT (return On Information Technology)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Financial gain expressed as a function of an enterprise's investment in information technology.
+
+  - uuid : udx8ach5dm
+    term : ROLAP (relational Online Analytical Processing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A relational approach to multidimensionality, offering multidimensional operations (initially read only) on top of
+        relational data (heavily denormalized).
+
+  - uuid : udx8acimtv
+    term : Rotary Heat Exchanger (Kyoto Wheel)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **rotary heat exchanger** (also known as a **Kyoto Wheel** ) is a form of air-side economizer that solves some of the
+        problems associated with air-side economizers. Instead of introducing exterior air directly into the server room, the heat
+        wheel transfers heat between separated data center ducts and outside air ducts. The heat wheel is bisected by two parallel
+        ducts. Outside air flows across the top half of the wheel, while inside air flows across the bottom half. The wheel itself
+        is a big honeycomb. A cold honeycomb cell enters the hot duct at 0 degrees of angle. The inside air warms the cell (and
+        the wheel) as it rotates through the duct, until, at the 180-degree mark, the cell is hot at the front and cool at the
+        back, effectively cooling the air passing over it. The now-warm cell rotates into the outside air duct, where it is cooled
+        through a half-rotation. Then, the cool cell enters the warm side, and the cycle begins again.The Kyoto Wheel ranges
+        between 12 and 20 feet in diameter. Rotation is slow--just a few revolutions per minute (rpm)--to optimize the heat
+        transfer. In this design, there is minimal air transfer between the outside air and the computer room air (new designs
+        reduce air transfer to 1% or less), eliminating the humidity and particulate contamination problems associated with
+        direct-transfer, air-side economizers.
+
+  - uuid : udx8ackfce
+    term : RSA (rural Service Area)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Geographic area designation used for the allocation of 1,900MHz cellular licenses to mobile service providers in the U.S.
+        that determines where they can operate. An RSA is a non-urban area. There are 306 MSAs and 428 RSAs in the U.S. There is
+        considerable overlap with the older BTA and MTA designations. See also BTA, MSA and MTA.
+
+  - uuid : udx8acm8sf
+    term : RTT (round-trip Time)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Measure (in milliseconds) of the latency of a network -- that is, the time between initiating a network request and
+        receiving a response. High latency tends to have a greater impact than bandwidth on the end-user experience in interactive
+        applications, such as Web browsing. See also latency.
+
+  - uuid : udx8adf15
+    term : Runtime Application Self-Protection (RASP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Runtime application self-protection (RASP)** is a security technology that is built or linked into an application or
+        application runtime environment, and is capable of controlling application execution and detecting and preventing
+        real-time attacks.
+
+# __END__

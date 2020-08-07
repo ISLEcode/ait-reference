@@ -1,0 +1,2739 @@
+title    : ISLE AIT computer science glossary -- S words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8ad24ec
+    term : S-band
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The portion of the electromagnetic spectrum allotted for satellite transmission in the 2GHz to 4GHz frequency range. A
+        number of MSS providers operate part of their satellite networks using the S-band. See also Ka-band, Ku-band and L-band.
+
+  - uuid : udx8ad3ljb
+    term : S-HTTP (Secure Hypertext Transport Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as HTTPS, this is an extension of Hypertext Transport Protocol (HTTP) that provides security services for
+        transaction confidentiality, authenticity and integrity between HTTP servers and clients. For the purposes of Internet
+        browsers, S-HTTP is a competitive alternative to the more widely used Secure Sockets Layer (SSL) standard. S-HTTP was
+        designed for use in browser applications, so it cannot be used to secure non-browser-based Internet applications.
+
+  - uuid : udx8ad5esr
+    term : SAC (subscriber Acquisition Cost)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Cost to operator of net subscriber addition, typically including the cost of sales and marketing, and handset subsidies,
+        if applicable.
+
+  - uuid : udx8ad6vsb
+    term : SAE (system Architecture Evolution)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        3GPP architectural framework for the evolution of the core network to LTE. The SAE provides a lower-latency,
+        packet-optimized system that supports multiple radio access technologies, including UTRAN, Wi-Fi and WiMAX, as well as
+        wired technologies.
+
+  - uuid : udx8ad8dtb
+    term : Sales Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Sales analytics** is used in identifying, modeling, understanding and predicting sales trends and outcomes while aiding
+        sales management in understanding where salespeople can improve. Specifically, sales analytic systems provide
+        functionality that supports discovery, diagnostic and predictive exercises that enable the manipulation of parameters,
+        measures, dimensions or figures as part of an analytic or planning exercise.
+
+  - uuid : udx8ada0ih
+    term : Sales Configuration Systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These systems are used to configure ship-to-order, assemble-to-order and engineer-to-order products and to configure
+        nonproduct information and customized financing plans.
+
+  - uuid : udx8adbh3b
+    term : Sales Enablement
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The activities, systems, processes and information that support and promote knowledge-based sales interactions with client
+        and prospects.
+
+  - uuid : udx8adcxca
+    term : Sales-Focused Partner Relationship Management (PRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Sales-focused partner relationship management (PRM)** applications are designed to improve an enterprise's ability to
+        market, sell and service end customers through channel partners. This category includes many of the traditional elements
+        contained in a direct sales solution (opportunity management), but the solutions are configured for supporting a
+        partner-driven environment. These applications consolidate data and transactions; set business rules and track activity;
+        are typically used to manage channel partners, distributors, alliance or strategic partnerships; and often include a
+        portal to enable bidirectional information flow and communications between partners.
+
+  - uuid : udx8adep9j
+    term : Sales To End Users
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Branded, finished, new products sold directly to end users or leased for the first time during the year in question.
+        Products distributed by manufacturers into a country or region ("sell in" -- but not connected to networks in that region
+        -- are excluded. Conversely, products sold by a manufacturer to a distributor in one region but sold by that distributor
+        in another region are counted as sales ("sell through") to end users in the latter region.
+
+  - uuid : udx8adgkru
+    term : SAM (software Asset Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A process for making software acquisition and disposal decisions. It includes strategies that identify and eliminate
+        unused or infrequently used software, consolidating software licenses or moving toward new licensing models.
+
+  - uuid : udx8adi1w6
+    term : SAM Tools (systems Administration Management Tools)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A flexible set of application maintenance utilities and application administration tools. The key value of such tools is
+        derived from how well they manage changes. A well-designed tool permits an administrator to describe either a database or
+        a form field change, ensures the integrity of all of the application components tied to the change and propagates the
+        change to all affected users. SAM tools for central administration are used by system administrators and thus provide a
+        level of technical competency, whereas administrative functionality for managers (e.g., sales managers, marketing content
+        managers and call center supervisors) must be limited by the capabilities of the end user.
+
+  - uuid : udx8adjtwb
+    term : SAN (storage Area Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A SAN consists of two tiers: The first tier -- the storage plumbing tier -- provides connectivity between nodes in a
+        network and transports device-oriented commands and status. At least one storage node must be connected to this network.
+        The second tier -- the software tier -- uses software to provide value-added services that operate over the first tier.
+
+  - uuid : udx8adl7dt
+    term : Satellite Broadcasting Operator
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An entity that leverages satellite infrastructure to transmit TV channels to viewers as a main business.
+
+  - uuid : udx8admoe5
+    term : Satellite Communications Operator
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An entity that leverages satellite network to provide telecommunication services.
+
+  - uuid : udx8aetfn
+    term : Satellite Communications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The use of geostationary orbiting satellites to relay transmissions from one earth station to another or to multiple earth
+        stations.
+
+  - uuid : udx8ae2b9a
+    term : Satellite Computer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A programmable machine that relieves a primary processor of such time-consuming operations as compiling, editing, and
+        controlling input/output devices.
+
+  - uuid : udx8ae3ww8
+    term : Satellite Dish
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Parabolic microwave antenna used to transmit and receive satellite signals. On the downlink, the dish collects data or
+        video signals from orbiting satellites and focuses them to where a feed horn collects them and passes the signal on to be
+        amplified and sent to a satellite receiver or IRD. The term is derived from the shape of the reflector surface but also
+        represents the entire antenna subsystem, including the feed horn and antenna structure.
+
+  - uuid : udx8ae5aoa
+    term : Satellite Navigation Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Satellite navigation systems** are based on the Global Positioning System (GPS) and other national and multinational
+        satellite initiatives (for example, Glonass and Galileo) with applications in consumer and commercial markets. Satellite
+        navigation systems are embedded in vehicles, available as portable units (personal navigation devices \[PNDs\]) or offered
+        as applications in mobile phones, with an internal or external GPS antenna, and can be complemented with cellular tower or
+        Wi-Fi-enabled triangulation (assisted GPS).
+
+  - uuid : udx8ae76fe
+    term : Satellite Navigation Systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Satellite navigation systems** are based on the Global Positioning System (GPS) and other national and multinational
+        satellite initiatives (for example, Glonass and Galileo) with applications in consumer and commercial markets. Satellite
+        navigation systems are embedded in a vehicle, available as a portable unit (personal navigation device \[PND\]) or offered
+        as an application in cellular phones, with an internal or external GPS antenna, and can be complemented with cellular
+        tower or Wi-Fi-enabled triangulation (assisted GPS).
+
+  - uuid : udx8ae8sdp
+    term : Satellite Phone (satphone)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Handheld device that uses satellite infrastructure to effect wireless voice and SMS communications without the use of a
+        terrestrial infrastructure. Satphones can be handheld, fixed or portable and use satellites that can be stationary or
+        orbiting. The user requires line of sight to a satellite in the coverage area of the service provider. Services typically
+        include two-way voice, low-speed data, SMS and fax.
+
+  - uuid : udx8aea5s4
+    term : SAX (Simple API For XML)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A public domain alternative to Document Object Model (DOM) that defines an event-oriented interface for Java applications.
+
+  - uuid : udx8aebmp7
+    term : SBM (skills-based Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A program that objectively defines what skills an enterprise possesses, what skills it will need in the future, when it
+        will need those skills, what strategic value it will place on those skills and how the information technology (IT)
+        employees' competency levels match the value of the strategically significant skills. It is, in effect, a road map for
+        developing competency improvement programs and other methods to fill any skill gaps.
+
+  - uuid : udx8aedfus
+    term : SC-FDMA (single-carrier Frequency Division Multiple Access)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A multiplexing technique similar to OFDMA but where the subcarriers assigned to each user must be contiguous, which
+        reduces the processing power and battery requirements for mobile devices. See also OFDMA.
+
+  - uuid : udx8aeeytf
+    term : SCADA (supervisory Control And Data Acquisition)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system used in manufacturing for acquiring measurements of process variables and machine states, and for performing
+        regulatory or machine control across a process area or work cell.
+
+  - uuid : udx8aeggrt
+    term : Scalability
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The measure of a system's ability to increase or decrease in performance and cost in response to changes in application
+        and system processing demands. Examples would include how well a hardware system performs when the number of users is
+        increased, how well a database withstands growing numbers of queries, or how well an operating system performs on
+        different classes of hardware. Enterprises that are growing rapidly should pay special attention to scalability when
+        evaluating hardware and software.
+
+  - uuid : udx8aei9m1
+    term : Scanner
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device that resolves a two-dimensional object, such as a business document, into a stream of bits by raster scanning and
+        quantization.
+
+  - uuid : udx8aejqid
+    term : Scattering
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A cause of light wave signal loss in optical fiber transmission. Diffusion of a light beam caused by microscopic
+        variations in the material density of the transmission medium.
+
+  - uuid : udx8ael853
+    term : SCCM (software Change And Configuration Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software change and configuration management (SCCM -- mainframe and distributed) tools implement a set of disciplines used
+        to stabilize, track and control the versions and configurations of a set of software items and also may include
+        development change management, defect tracking, change automation, development release management, integrated test
+        management, integrated build management and other related processes.
+
+  - uuid : udx8aemkxi
+    term : SCE (supply Chain Execution)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Supply chain execution (SCE) is focused on execution-oriented applications, including warehouse management systems (WMSs),
+        transportation management systems (TMSs), global trade management (GTM) systems and other execution applications, such as
+        real-time decision support systems (for example, dynamic routing and dynamic sourcing systems) and supply chain visibility
+        systems within the enterprise, as well as throughout the extended supply chain. Sometimes, order management systems are
+        also included in SCE, but, generally, Gartner does not include order management in its definition of SCE. Typical modules
+        and applications include:
+
+        WMSs:
+
+        Labor management systems
+
+        Yard/dock management
+
+        Returns management
+
+        Inventory control
+
+        TMSs:
+
+        Domestic transportation management software
+
+        Global multimodal transportation management (managing transportation around multimodal processes)
+
+        GTM systems:
+
+        Trade compliance
+
+        International/global logistics
+
+        Global order management
+
+        Global trade financial management
+
+  - uuid : udx8af12ex
+    term : SCIV (supply Chain Inventory Visibility)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Applications that allow enterprises to monitor and manage events across the supply chain to plan their activities more
+        effectively and pre-empt problems. SCIV systems enable enterprises not only to track and trace inventory globally on a
+        line-item level, but also submit plans and receive alerts when events deviate from expectations. This visibility into
+        orders and shipments on a real-time basis gives enterprises reliable advance knowledge of when goods will arrive.
+
+  - uuid : udx8af2e4e
+    term : SCM (software Configuration Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as "software change management," SCM is a methodology for software problem/change request initiation and
+        tracking; change impact analysis; version control; security administration of software assets; software promotion; quality
+        reviews; and software distribution.
+
+  - uuid : udx8af3ve9
+    term : Scope, Track, Rank, Evaluate, Evangelize And Transfer (STREET)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Scope, track, rank, evaluate, evangelize and transfer (STREET) represents best practices in the technology planning and
+        adoption process. STREET is suitable for an emerging technology group to use or adapt in defining its own internal
+        process, or for business leaders, innovators or other individuals involved in innovation adoption to use as a checklist of
+        key activities.
+
+  - uuid : udx8af5907
+    term : SCP (supply Chain Planning)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Supply chain planning (SCP) is the forward-looking process of coordinating assets to optimize the delivery of goods,
+        services and information from supplier to customer, balancing supply and demand. An SCP suite sits on top of a
+        transactional system to provide planning, what-if scenario analysis capabilities and real-time demand commitments,
+        considering constraints. Typical modules include:
+
+        Available/capable to promise
+
+        Sales and operations planning/integrated business planning
+
+        Collaborative planning (including forecasting and replenishment)
+
+        Vendor-managed inventory/direct point of sale
+
+        Event planning (promotion, life cycle)
+
+        Demand planning
+
+        Inventory planning
+
+        Production/factory planning and scheduling
+
+        Distribution planning (unconstrained, distribution requirements planning \[DRP\] and deployment)
+
+        Strategic network design
+
+        Inventory strategy optimization (simultaneous, multitiered)
+
+        Supply planning (optimized, DRP and deployment)
+
+        Production/multiplant capacity planning (master production scheduling, rough-cut capacity planning)
+
+  - uuid : udx8af7027
+    term : SCPC (single Channel Per Carrier)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A transmission system in which a physical channel is allocated solely to one carrier for the duration of the transmission.
+
+  - uuid : udx8af8hp9
+    term : SCR (sustainable Cell Rate)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In asynchronous transfer mode (ATM), the average cell rate a source is allowed to maintain.
+
+  - uuid : udx8af9w2y
+    term : Scrambler
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A coding device applied to a digital channel that produces an apparently random bit sequence. A corresponding device is
+        used to decode the channel, i.e., the coding is reversible.
+
+  - uuid : udx8afbdwk
+    term : Screen Popping
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Populating a call center agent's screen with just-in-time customer information.
+
+  - uuid : udx8afcv4h
+    term : Screen Sharing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Similar to application sharing, but not all parties can update the document simultaneously.
+
+  - uuid : udx8afeftq
+    term : Screening
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Prevention of electric, magnetic, or electromagnetic fields from escaping or entering an enclosed area by means of a
+        barrier. Also called shielding.
+
+  - uuid : udx8afg1x6
+    term : Scriptless Testing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Scriptless testing** tools reduce or eliminate the amount of scripting involved in the creation of tests using model-,
+        object-, data- or keyword-driven approaches. The goal is to enable business user testing and to reduce maintenance costs.
+        The majority of products are focused on functional automation, but performance testing products are also appearing.
+
+  - uuid : udx8afhs7l
+    term : SDH/SONET
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        SDH/SONET technology differs by region. SONET is sold only in North America. SDH is sold outside North America and comes
+        in two types: SDH (Japan) is sold only in Japan, while SDH (ETSI) is sold in the rest of the world. SDH/SONET supports
+        ring and mesh topologies, and protection of circuits through automatic protection switching (APS) is standard, via various
+        protection programs.
+
+        SDH/SONET comes in standardized bit rates, with SDH circuits referred to as synchronous transfer mode (STM)-x (where x =
+        1, 4, 16, 64 and 256) connections and SONET circuits known as Optical Carrier Rate (OC)-n (where n = 3, 12, 48, 192, 768)
+        connections. The standardized bit rates are:
+
+        STM-1/OC-3 (155 Mbps).
+
+        STM-4/OC-12 (622 Mbps).
+
+        STM-16/OC-48 (2.5 Gbps).
+
+        STM-64/OC-192 (10 Gbps).
+
+        STM-256/OC-768 (40 Gbps).
+
+        Originally, the SDH/SONET standards were defined as a rigid hierarchy optimized specifically to handle circuit-based voice
+        traffic. With the requirement to support data services becoming more evident, additions were made to the SDH/SONET
+        standards to allow for more flexible traffic handling, especially with regard to data services in general and Ethernet
+        services in particular. New features such as the Generic Framing Procedure (GFP) and LCAS were added to the standards, as
+        well as support for increased control plane functionality as defined in the standards for Automatic Switched Transport
+        Network (ASTN)/Automatic Switched Optical Network (ASON).
+
+        In addition, vendors have added cross-connect functionality to SDH/SONET equipment to support add/drop functionality.
+        Also, convergence between SDH/SONET and WDM products has become the norm in the optical transport market.
+
+  - uuid : udx8afjlog
+    term : SDK (software Development Kit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set of development utilities for writing software applications, usually associated with specific environments (e.g., the
+        Windows SDK).
+
+  - uuid : udx8afl279
+    term : SDMA (spatial Division Multiple Access)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Advanced multiple antenna technique that increases the spectral efficiency, range and bandwidth available to moving
+        wireless devices. Traditional cellular base stations radiate power in all directions, because they have no information
+        about where the mobile device is located. This wastes power and causes interference to adjacent cells, as well as making
+        it harder to distinguish weaker incoming signals from among the noise and interference. By using smart antenna technology
+        to track the spatial location of mobile devices, the radiation pattern of the base station can be adjusted to optimize
+        both transmission and reception for each user device. By rapidly adjusting the phase of signals from several antennas, the
+        base station can effectively steer a beam or a spot of RF power to or from each user. Unlike MIMO, only one antenna is
+        required at the client device, potentially reducing customer premises equipment (CPE) costs. SDMA techniques are used in
+        proprietary wireless broadband systems and are likely options for mobile WiMAX and LTE. See also smart antenna.
+
+  - uuid : udx8afmteu
+    term : SDSL (symmetric Digital Subscriber Line)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A digital subscriber line (DSL) technology that operates over voice-grade lines at 1.5 megabits per second one way, or 768
+        kilobits per second both ways, over an 8,000-foot distance.
+
+  - uuid : udx8ag14bj
+    term : Search-Based Data Discovery Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Search-based data discovery tools** enable users to develop and refine views and analyses of structured and unstructured
+        data using search terms. Like visualization-based data discovery tools, they have three attributes: (1) a proprietary data
+        structure to store and model data gathered from disparate sources, which minimizes reliance on predefined business
+        intelligence (BI) metadata; (2) a built-in performance layer using RAM or indexing that lessens the need for aggregates,
+        summaries and pre-calculations; and (3) an intuitive interface, enabling users to explore data without much training.
+        However, as well as having a broader scope (visualization-driven data discovery tools focus exclusively on quantitative
+        data) they differ at the user interface layer, with search-based data discovery tools using text search input and results
+        to guide users to the information they need.
+
+  - uuid : udx8ag2vx0
+    term : Search Engine
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A large, searchable index of Web pages that is automatically updated by spiders or Web crawlers and housed on a central
+        server connected to the Internet. Examples include Yahoo and AltaVista.
+
+  - uuid : udx8ag4cux
+    term : Secondary Channel
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A low-speed channel established on a four-wire circuit over which diagnostic or control information is passed. User data
+        is passed on the primary, high-speed channels of the circuit.
+
+  - uuid : udx8ag5tsp
+    term : Secondary Station
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        On a communications pathway, a terminal device that has been selected to operate under the control of another terminal
+        device.
+
+  - uuid : udx8ag7cy2
+    term : Secondhand Market
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Previously owned or used mobile devices that are sold or given free to other users who typically obtain a new network
+        connection. Secondhand devices sometimes are refurbished systematically before resale in other countries or passed on to
+        other users in their original condition. Although most countries have a small secondhand market, it is a significant
+        factor in price-sensitive developing markets such as China, where marginal subscribers are looking for the lowest-cost,
+        entry-level device.
+
+  - uuid : udx8ag96k9
+    term : Secret-key Cryptography
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In this cryptography method (also known as symmetric-key cryptography), the single key needed to encrypt and decrypt
+        messages is a shared secret between the communicating parties. The biggest problem with this method is that the secret key
+        must be communicated through an external mechanism separate from the communication channel over which the encrypted text
+        flows. In addition, secret-key systems do not support digital signatures. These limitations are addressed in public-key
+        cryptography (see separate entry).
+
+  - uuid : udx8agaxxo
+    term : Secret Key
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The symmetric key used in secret-key cryptography. It is a secret shared between communicating parties, but is not truly
+        private. See secret-key cryptography, private key and public-key cryptography.
+
+  - uuid : udx8agcgge
+    term : Secure Web Gateway
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Secure Web gateway solutions protect Web-surfing PCs from infection and enforce company policies. A secure Web gateway is
+        a solution that filters unwanted software/malware from user-initiated Web/Internet traffic and enforces corporate and
+        regulatory policy compliance. These gateways must, at a minimum, include URL filtering, malicious-code detection and
+        filtering, and application controls for popular Web-based applications, such as instant messaging (IM) and Skype. Native
+        or integrated data leak prevention is also increasingly included.
+
+  - uuid : udx8age9oe
+    term : Security Information And Event Management (SIEM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Security information and event management (SIEM)** technology supports threat detection and security incident response
+        through the real-time collection and historical analysis of security events from a wide variety of event and contextual
+        data sources. It also supports compliance reporting and incident investigation through analysis of historical data from
+        these sources. The core capabilities of SIEM technology are a broad scope of event collection and the ability to correlate
+        and analyze events across disparate sources.
+
+  - uuid : udx8agg1xe
+    term : Security Information And Event Management Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This category includes security information and event management software products providing:
+
+        -   Security event management -- The ability to process near-real-time data from security devices and systems to determine
+            when security events of interest have occurred
+
+        -   Security information management -- Reporting and historical analysis to support security policy compliance management
+            and the generation of security metrics
+
+  - uuid : udx8aghuue
+    term : Seiban
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Japanese management practice of numbering all aspects of manufacturing.
+
+  - uuid : udx8agjck7
+    term : Selective Sourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines selective sourcing when an internal IT organization decouples or carves up the scope of business or IT
+        processes for purposes of individually or selectively sourcing each component separately and distinctly. The main business
+        driver is to determine the best risk-reward combination for each individual scope of work. Most often, this is done to
+        allow for extensive competition to achieve the highest-quality performance at the best price point. The overall role of
+        overseeing (program management) and managing the delivery, risk and overall legal compliance across the entire scope of
+        services across all the individual components lies with the internal IT organization.
+
+  - uuid : udx8agl2q0
+    term : Selector
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The last octet of an asynchronous transfer mode (ATM) address.
+
+  - uuid : udx8agmlty
+    term : Self-describing Messages
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A message that contains data as well as the metadata that describes the format and the meaning (i.e., the syntax and the
+        semantics) of that data. For example, Extensible Markup Language (XML) is a self-describing message format that consists
+        of tag/value pairs.
+
+  - uuid : udx8ahmky
+    term : Self-relocating Program
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A group of instructions capable of assigning blocks of memory as they are needed.
+
+  - uuid : udx8ah23fj
+    term : Self-service Business Intelligence
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Self-service business intelligence is defined here as end users designing and deploying their own reports and analyses
+        within an approved and supported architecture and tools portfolio.
+
+  - uuid : udx8ah3kce
+    term : Self-test And Fault Isolation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Most systems include a processor-check capability that allows the controlling computer to test itself and the rest of the
+        system. If a fault is found, an alarm light is lit and a message is given on the system printer teletype, if one is
+        provided. This feature also expedites service since the computer can pinpoint faulty equipment, saving diagnostic time.
+
+  - uuid : udx8ah5189
+    term : Sell Side
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Processes for companies to sell their products, including catalogs, transaction processors, payment processors, and supply
+        chain management methods and tools.
+
+  - uuid : udx8ah6ikd
+    term : Semantic Data Model
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A method of organizing data that reflects the basic meaning of data items and the relationships among them. This
+        organization makes it easier to develop application programs and to maintain the consistency of data when it is updated.
+
+  - uuid : udx8ah80wr
+    term : Semantic Nets
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A type of knowledge representation that uses nodes (representing objects or events) and links (representing relationships
+        between those objects or events).
+
+  - uuid : udx8ah9bmx
+    term : Semi-mobile Wireless
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Includes client device support for roaming among base station coverage areas at pedestrian speeds. At a minimum, the
+        client mobile device is transportable to secondary fixed locations with no connection while in transit. The terms
+        "nomadic" and "portable," in use by the WiMAX Forum, fit into this category. The terms "nomadic," "portable" and "mobile"
+        often vary in definition when used by vendors. See also fixed wireless and mobile wireless.
+
+  - uuid : udx8ahaxjd
+    term : Senpai
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Japanese for mentor, used in lean enterprises to describe an accomplished lean practitioner who takes on a kohai.
+
+  - uuid : udx8ahcgcj
+    term : Sensei (also Lean Sensei)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A master teacher of lean techniques. Similar in experience to a Black Belt or Master Black Belt in the Six Sigma
+        methodology but more focused on facilitation and teaching than on actual practice.
+
+  - uuid : udx8ahdxbi
+    term : Sensor And RFID-based Inventory And Asset Management Business Process Application Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Innovative business models and processes will be the main way that RFID begins to be justified. But enterprises don't have
+        many applications to manage these processes today. For example, real-time management of inventory in a retail environment
+        is almost unheard of today, and retailers will need entirely new applications to deal with it. Vendors providing these
+        solutions are fragmented, and each solution will probably emerge as a separate market.
+
+  - uuid : udx8ahfpdt
+    term : Sensor And RFID-based Inventory And Asset Management Infrastructure Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Enterprises need software and development patterns to deal with RFID data and hardware. Currently, the most popular
+        approach is to put in middleware that acts like an integration broker between RFID readers and business applications that
+        need to receive the data.
+
+  - uuid : udx8ahh7vk
+    term : Serial Dot Matrix
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An output device that creates a character image by selectively placing individual dots on the substrate using mechanical
+        force. These include the following:
+
+        9 pin -- Devices with 9-wire print heads
+
+        18 pin -- Devices with 18-wire print heads
+
+        24 pin -- Devices with 24-wire print heads
+
+  - uuid : udx8ahiym1
+    term : Serial Inkjet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An output device that creates the desired image by emitting ink from an array of orifices or nozzles. The array of nozzles
+        shuttles across the page, printing one character at a time, or serially. This category includes the following types of
+        device:
+
+        Piezo electric inkjet -- Print heads in which ink is ejected by electrically actuating a special crystalline or ceramic
+        component to compress the ink and force it out of the nozzle.
+
+        Thermal inkjet -- Heat is used to generate vapor bubbles, which are ejected through nozzles that project droplets onto a
+        surface to form text or images. Thermal inkjet's advantages include small and highly controlled droplets and high system
+        reliability. Thermal inkjet print heads are used in a wide range of serial and line inkjets. Originally developed for
+        desktop printers, thermal inkjet printing has spread to specialty applications, such as direct-mail addressing,
+        wide-format printing and package coding operations.
+
+  - uuid : udx8ahkn17
+    term : Serial Interface
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An interconnection that transmits information bit by bit rather than a whole character at a time. It is much slower and
+        cheaper than a parallel interface.
+
+  - uuid : udx8ahm4hb
+    term : Serial Transmission
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A method whereby the bits of a character are sent sequentially on a single transmission channel. See parallel
+        transmission.
+
+  - uuid : udx8ai9o1
+    term : Server Appliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A type of computing appliance that creates, manipulates or provides information to other network-connected computing
+        devices. Unlike storage appliances, server appliances use an application context for the creation, manipulation or
+        provision of information.
+
+  - uuid : udx8ai1qo7
+    term : Server Virtualization Infrastructure
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Server virtualization infrastructure includes the hypervisor, VM and virtual machine monitors (VMMs). The key to
+        "virtualizing" a server is the hypervisor. A hypervisor is a layer of software (the term "software" can mean preloaded
+        software that runs in a protected area or microcode/firmware, depending on the implementation) that runs directly on
+        hardware and allows the definition of fixed partitions with predefined priorities for accessing hardware resources. These
+        partitions are incomplete VMs because they prioritize, but do not share, all hardware resources. To support flexible
+        configuration, a hypervisor in general is implemented with a VMM. The VMM virtualizes all hardware needed for VMs to run.
+        Most products currently labeled hypervisors bundle a VMM.
+
+  - uuid : udx8ai3jll
+    term : Server Virtualization Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Server virtualization management tools comprise management tools embedded in the hypervisor sale, as well as operations
+        management and administration management tools. Server virtualization management technology can be found in two types of
+        delivery vehicles. The first is embedded within the infrastructure itself -- in this case, as part of the package that
+        includes the hypervisor (companies such as VMware have historically referred to this as "virtual infrastructure" Gartner
+        is seeing more manageability built into infrastructure components because they provide technology suppliers with an
+        additional source of revenue and a basis for competitive differentiation of their core technologies. Management technology
+        can also be sourced from third-party independent software vendors, as well as emerging firms with only a
+        virtualization-oriented lineage. In addition, hypervisor vendors are providing additional management tooling on top of
+        that already provided within their virtualization platforms in areas such as administrative consoles, capacity planning,
+        and process and workflow automation.
+
+  - uuid : udx8ai5b6y
+    term : Serverless Printing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Serverless printing is peer-to-peer printing over Internet Protocol. This permits the removal of a dedicated print server
+        for managing print queues, distributing printer drivers, and so on.
+
+  - uuid : udx8ai6rd9
+    term : Service Bureau
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A company that processes various types of data for a client for a fee. Station message detail reporting (SMDR) and
+        call-costing reports are typically provided.
+
+  - uuid : udx8ai8921
+    term : Service Catalog
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **service catalog** contains templates with specifications that define parameters and features of a service (such as
+        bandwidth and speed). Compared to the product catalog, the service catalog describes product features in technical terms.
+
+  - uuid : udx8ai9q54
+    term : Service Desk
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **service desk** is a help desk that is equipped with the resources for resolving service requests and problem calls. It
+        gives the customer service representative or end user the ability to efficiently diagnose, troubleshoot and correct
+        technical-support problems, rather than being a "pass through."
+
+  - uuid : udx8aibhxm
+    term : Service Inventory
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Encompasses a centralized repository of network and IT data for individual services. Every service represents a bundle of
+        attributes and features, such as quality, speed, customization and price. The repository of service levels, links the
+        service information to individual customers.
+
+  - uuid : udx8aicypo
+    term : Service Levels
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The performance goals of specific business processes to meet overall business-unit objectives.
+
+  - uuid : udx8aiegp6
+    term : Service-Oriented Architecture (SOA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Service-oriented architecture (SOA)** is a design paradigm and discipline that helps IT meet business demands. Some
+        organizations realize significant benefits using SOA including faster time to market, lower costs, better application
+        consistency and increased agility. SOA reduces redundancy and increases usability, maintainability and value. This
+        produces interoperable, modular systems that are easier to use and maintain. SOA creates simpler and faster systems that
+        increase agility and reduce total cost of ownership (TCO)..
+
+  - uuid : udx8aig9eg
+    term : Service Provider Routers And Switches
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Routers are a class of network controller that determines the best route for data and voice transmissions between a
+        transmitter (sender) and a receiver. They are typically controlled by software and can be programmed to provide the most
+        inexpensive, fastest or least-busy routes available. Routers operate at Layer 3 of the International Organization for
+        Standardization (ISO)/Open Systems Interconnection (OSI) model. This definition applies to service provider routers only.
+
+  - uuid : udx8aii2di
+    term : Serving Area
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.   The region surrounding a broadcasting station where signal strength is at or above a stated minimum.
+
+        2.   The geographic area handled by a telephone exchange, generally equivalent to a local access and transport area
+        (LATA).
+
+  - uuid : udx8aijj9d
+    term : Servlet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A form of server-based Java that operates in conjunction with a Web server and offers an alternative to using Common
+        Gateway Interface (CGI) and server application programming interfaces (SAPIs) to communicate with Web server processes. In
+        addition, servlets are independent of a given type of Web server, as the most prominent Web servers support servlets.
+
+  - uuid : udx8aikvti
+    term : Session Border Controllers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        SBCs connect IP networks (enterprise to service provider) and introduce new edge requirements in three major areas:
+        security, service assurance and law enforcement. SBCs sit at the edge of the service provider's network and complement
+        established routers with their ability to perform required control functions by integrating session signaling and media
+        control. SBCs operate as SIP back-to-back user agents, MGCP proxy/network-address translations (NATs) and/or H.323
+        back-to-back gateways. They are both the source and the destination of all signaling messages and media streams entering
+        and leaving the provider's network.
+
+        The SBC space has been largely cornered by startup vendors, but other equipment vendors have taken two approaches: they
+        have partnered with the SBC vendors or embedded SBC functionality into some of their existing solutions, such as routers.
+        Gartner recognizes that there are some embedded solutions with SBC function, but counts only those that are stand-alone.
+        Vendors such as Cisco and Sonus Networks have integrated SBCs into their routing and switching platforms.
+
+  - uuid : udx8aimnl4
+    term : Session Initiation Protocol (SIP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Session Initiation Protocol (SIP)** is a communication protocol specified by the Internet Engineering Task Force (IETF).
+        It's the first real-time communication protocol to enable multiuser sessions, regardless of media content. SIP enables a
+        new generation of communication services across the Internet, as well as over fixed and mobile IP networks. SIP enables
+        communications to be initiated and managed, and its key channels include voice, video and instant messaging (IM).
+
+  - uuid : udx8aj13be
+    term : Seven Wastes
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A framework of seven types of activity that do not add value; originally defined by Toyota: overproducing -- producing
+        product before there's a valid order; unnecessary waiting -- lengthened cycle time, which reduces agility; unnecessary
+        transportation -- unnecessary transportation of material between sites; overprocessing -- processes longer or more complex
+        than necessary; unnecessary inventory -- buildup of work-in-process or raw materials; unnecessary movement -- inefficient
+        workplace; layout causing extra work; and too many defects -- poor process quality and too much rework. This list was
+        extended by Gartner and others to include an eighth waste: asset underutilization or other underutilization of resources.
+        The eight wastes are often referred to by the acronym "DOWNTIME", meaning "Defects, Overproduction, Waiting, Nonutilized
+        resources, Transportation, Inventory, Motion and Excessive processing".
+
+  - uuid : udx8aj2v6u
+    term : SFA (sales Force Automation) -- Direct Sales (field Sales/inside Sales)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Direct sales software builds on the attributes of technology, functionality and value of order management systems and also
+        includes the functionality for sales execution and sales operations. The direct B2B sales organization is the traditional
+        sales channel, composed of internal sales resources focused on the selling of products or services directly into the
+        client, customer and prospect base as employees of the provider company. Direct sales resources may be field-based,
+        calling on customers face to face at their locations, or inside sales, selling from a desk environment over the phone.
+
+  - uuid : udx8aj4l90
+    term : SFA (sales Force Automation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Using technology to automate the sales process. Some technologies that can be used for sales automation are:
+
+        Laptop computers
+
+        Personal digital assistants
+
+        Contact databases
+
+        Interactive selling systems
+
+  - uuid : udx8aj6emv
+    term : SFC (shop Floor Control)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system of computers and/or controllers tools used to schedule, dispatch and track the progress of work orders through
+        manufacturing based on defined routings. SFCs typically calculate work in process based on a percentage of completion for
+        each order and operation that are useful in inventory valuations and materials planning.
+
+  - uuid : udx8aj7vol
+    term : SFDR (software Failure Detection And Recovery)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Should support the concept of a transaction, including atomicity (either all changes take place or none take effect) to
+        enable operating-system or application data recovery mechanisms to be implemented.
+
+  - uuid : udx8aj9dhx
+    term : SFF-LR (small-form-factor, Legacy-reduced)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Small footprint PC that has reduced support for legacy technologies such as mouse and keyboard ports, PCI slots, serial
+        and parallel ports.
+
+  - uuid : udx8ajavhj
+    term : SFM (store-and-forward Manager)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A component that handles interapplication, asynchronous messaging for data consistency and multistep process coordination.
+
+  - uuid : udx8ajcdmd
+    term : SGSN (serving GPRS Support Node)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Part of the GPRS infrastructure, the SGSN provides switching functionality, security and authentication via the HLR for
+        GPRS users. The SGSN's primary interfaces are with the GGSN, HLR and PCU.
+
+  - uuid : udx8ajdujl
+    term : Shadow/mirror Databases
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system-level facility to enable shadowing or mirroring (i.e., duplication) of selected databases to a separate disk or
+        disk set. The purpose is to minimize the space required for backup data while providing for the continuation of critical
+        processing in the event of the loss of a disk containing related databases.
+
+  - uuid : udx8ajfcom
+    term : Shared Services Or Shared Services Center
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Shared services or shared services center (SSC)** refers to a dedicated unit (including people, processes and
+        technologies) that is structured as a centralized point of service and is focused on defined business functions. These
+        functions are supported by IT and IT services for multiple business units within the enterprise. Shared services may come
+        from several different physical locations, and may involve numerous business functions and IT processes. The definition,
+        structure and scope of an SSC start within the enterprise. Enterprises sometimes engage external providers to consult with
+        various elements of the design, structure, location options and execution options. Execution and long-term delivery may be
+        by internal enterprise personnel or by service providers, or some combination thereof. Consequently, the definition of
+        shared services is independent from the sourcing option for delivery.
+
+  - uuid : udx8ajh5rd
+    term : Shielded Pair
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A pair of conductors in a cable that are wrapped with metallic foil designed to insulate the pair from interference.
+
+  - uuid : udx8ajirsq
+    term : Shim
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A software modification inserted into an operating system or application, to intercept the normal data flow and provide
+        additional functionality. Often used by third-party vendors to provide enhanced networking features.
+
+  - uuid : udx8ajka03
+    term : Shipments
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In Gartner's statistics for mobile network infrastructure, the additional equipment required to support an increase in
+        traffic or coverage. Shipments are calculated by subtracting the current year's installations from the following year's
+        installations.
+
+  - uuid : udx8ajlr3v
+    term : Shojinka
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Continuous optimization of workers in a work center, which relies on multiskilled workers and optimized work center
+        design.
+
+  - uuid : udx8ajn98x
+    term : Short Message Service (SMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Short message service (SMS)** is a facility developed as part of the GSM standard that enables a mobile device to send,
+        receive and display messages of up to 160 characters in Roman text and variations for non-Roman character sets. Messages
+        received are stored in the network if the subscriber device is inactive and are relayed when it becomes active. SMS has
+        become available increasingly in CDMA networks and in some fixed networks.
+
+  - uuid : udx8ak1mv4
+    term : Shrink-wrapped
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.   A term used to refer to packaged software applications (from the shrink-wrapped packaging typical of such products).
+
+        2.   Term initially used to describe an unsigned software license agreement that is deemed accepted when the user breaks a
+        shrink-wrapped seal or opens an enclosed sealed envelope in the package containing the software media, such as a floppy
+        disk or CD. Use of the term has been expanded to refer to software license agreements that are accepted electronically.
+        See click-wrapped.
+
+  - uuid : udx8ak3f2x
+    term : SI (system Integrator)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An enterprise that specializes in implementing, planning, coordinating, scheduling, testing, improving and sometimes
+        maintaining a computing operation. SIs try to bring order to disparate suppliers.
+
+  - uuid : udx8ak4vwe
+    term : Sideband
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A frequency band on either the upper or lower side of the carrier frequency within which fall the frequencies produced by
+        the process of modulation.
+
+  - uuid : udx8ak6dku
+    term : Signal-to Noise Ratio
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Measurement of the quality of the wireless signal that is expressed as the ratio between the power of the transmitting
+        signal and the noise that is present trying to corrupt that signal.
+
+  - uuid : udx8ak7ug4
+    term : Signaling Gateways/IP-STPs
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These are an NGN component, facilitating the crossing of a policy boundary or performing protocol conversion. NGN IP-STP
+        products include products using protocols such as SIP, Session Initiation Protocol for Telephony (SIP-T), Parlay,
+        Electronic Numbering (ENUM) and XML. SGs use SS7 and SIGTRAN protocols.
+
+  - uuid : udx8ak94eh
+    term : Signature Verification
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A biometric technique that uses characteristics of a person's signature (including pressure, pen lifts, speed and
+        direction of pen strokes) to authenticate identity. Signature is less accurate than some other biometrics (e.g.,
+        fingerprints, iris) but is popular in document authentication applications that have traditionally used written
+        signatures. Some growth may be fueled by the adoption of pen-based devices (e.g., the PalmPilot) that can double as a
+        signature input tablet.
+
+  - uuid : udx8akaupr
+    term : Signature
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Any mark or symbol accepted by both parties to show intent, approval of, or responsibility for, a document. In e-business,
+        for example, a "from" line on an e-mail, a mouse click of acceptance of terms, an e-mail closing, a biometric and
+        electronic signatures of several types are accepted as signatures. Some laws specify a written signature to be legally
+        acceptable. New laws give the same status to electronic signatures as written signatures.
+
+  - uuid : udx8akclun
+    term : Silicon Anode Batteries
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Silicon anode batteries** are an extension of widely used lithium ion (Li-Ion) batteries. Early generation Li-Ion
+        batteries used lithium as the anode material. This was replaced with carbon/graphite following a number of widely reported
+        overheating and explosion incidents. Next-generation Li-Ion batteries are likely to make use of silicon anodes that
+        utilize silicon nanotubes, or a comparable coating process. This will result in significantly higher energy storage and
+        longer battery life.
+
+  - uuid : udx8akef5v
+    term : SIM Card (subscriber Identity Module) Card
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Programmable smart card in a mobile device that gives access to a network. It contains codes (such as the IMSI) to
+        identify a subscriber to a digital mobile service and the details of the special services the subscriber has elected to
+        use. A SIM card may be a removable plastic card with embedded memory and a processor chip or may be fixed within the
+        mobile device.
+
+  - uuid : udx8akfq1h
+    term : SIM Toolkit (SIM Application Toolkit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        ETSI standard that allows additional information and functionality to be preprogrammed on to the SIM card, providing a
+        customized menu/user interface on the phone. This helps users directly access services provided by network operators and
+        service providers, such as banks and entertainment organizations.
+
+  - uuid : udx8akh7xn
+    term : SIMD (single Instruction, Multiple Data)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A design for parallel computers characterized by instructions that can directly trigger a large number (in parallel) of
+        data operations on different data. Vector processors fall into this category.
+
+  - uuid : udx8akip28
+    term : SIMM (single In-line Memory Module)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A small printed circuit board that plugs into a socket on a personal computer and increases the available random-access
+        memory (RAM).
+
+  - uuid : udx8akk7si
+    term : Simplex Circuit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A circuit permitting the transmission of signals in one specified direction only. Also known as single duplex.
+
+  - uuid : udx8aklp48
+    term : Simplex
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Pertaining to the capability to transmit in one direction only. See half duplex and full duplex.
+
+  - uuid : udx8akn78o
+    term : Simulation Routines
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Various routines using historical information to simulate future alternatives for supply chain operations design. Usually
+        strategically focused for use in future operations, these may then be optimized or prioritized.
+
+  - uuid : udx8al1cnl
+    term : Simulation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The use of a mathematical or computer representation of a physical system for the purpose of studying constraint effects.
+
+  - uuid : udx8al2r4b
+    term : Single-image Mode
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A mode of operation in which multiple physical central processing units (CPUs) within a complex logically appear as one
+        system running under control of a single copy of the operating system.
+
+  - uuid : udx8al495y
+    term : Single-mode Fiber
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A fiber with a small core diameter allowing the propagation of a single light path.
+
+  - uuid : udx8al5pi3
+    term : Single-pass Device
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A color page device that passes the paper once through a print engine containing four or more imaging stations. A
+        full-color image is built up as the paper passes each color station sequentially.
+
+  - uuid : udx8al76vv
+    term : Single Sign-On (SSO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Single sign-on (SSO)** provides the capability to authenticate once, and be subsequently and automatically authenticated
+        when accessing various target systems. It eliminates the need to separately authenticate and sign on to individual
+        applications and systems, essentially serving as a user surrogate between client workstations and target systems. Target
+        applications and systems still maintain their own credential stores and present sign-on prompts to client devices. Behind
+        the scenes, SSO responds to those prompts and maps the credentials to a single login/password pair. SSO is commonly
+        deployed in enterprise, Web and federated models.
+
+  - uuid : udx8al8x2c
+    term : Sink
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The terminal connection that collects overflow transmissions on a communications pathway.
+
+  - uuid : udx8alaeqs
+    term : SIO (strategic Information Office)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A business-unit-neutral information office whose role is to propagate the importance of enterprise information management
+        to all business units, generate excitement for these initiatives, negotiate organizational and technological issues across
+        the enterprise, and enforce implementation of and compliance with standards at all levels of the enterprise. Members of
+        the SIO should have in-depth knowledge of, and experience in, both business and technology, with at least one
+        representative from senior management.
+
+  - uuid : udx8alc3y0
+    term : SITE (strategy, Iteration, Testing, Enablement)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Information systems (IS) departments have a history in application development of following a design process of planning,
+        prototyping, testing and development, resulting in justifiable design decisions. SITE is a Gartner concept that seeks to
+        build on this long-established IS department practice by creating a structured framework within which both business unit
+        (BU) managers and IS staff see clearly identified roles maximize their talents and skills. As a result, issues such as
+        staffing, success factors, return on investment (ROI) guidelines, request for proposals (RFPs), interface design and
+        graphic design are addressed in an environment where decisions are not arbitrary. Whether final execution is in-house or
+        outsourced, adhering to SITE principles provides a project blueprint meaningful to multiple audiences.
+
+  - uuid : udx8aldqck
+    term : Six Sigma
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Six Sigma is a business management strategy aimed at improving the quality of process outputs by identifying and removing
+        the causes of defects and minimizing variability. "Six Sigma" refers to a six standard deviation distance between a
+        process norm and its nearest specification limit; in practice, Six Sigma is also known by its improvement process steps:
+        "Define, Measure, Analyze, Improve, Control" (DMAIC).
+
+  - uuid : udx8alfixt
+    term : Skill Mining
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A knowledge management (KM) functionality that automatically identifies the skills of knowledge workers by analyzing past
+        behavior. This behavior may be implicit (e.g., looking for recurring concepts in documents that the worker has produced),
+        or explicit (e.g., a worker's willingness and ability to answer a question in the past). Skill mining enables users to
+        identify who in their enterprise has the expertise to address specific questions or problems.
+
+  - uuid : udx8alh75u
+    term : Skinless Servers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Skinless servers** are designed with a reduced amount of rack, chassis and, in some cases, even motherboard components
+        to maximize server density potential and reduce material use and power consumption. Typical designs involve a lack of
+        outside sheet metal coverings (hence the term "skinless") over individual servers, as well as shared power and cooling
+        resources within the rack frame.
+
+  - uuid : udx8aliy7m
+    term : Skinput (Bioacoustic Sensing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Skinput** provides a new input technique based on bioacoustic sensing technology that allows the skin to be used as a
+        finger input surface. When a finger taps on the skin, the impact creates acoustic signals, which can be captured by a
+        bioacoustic sensing device. Variations in bone density, size and the different filtering effects created by soft tissues
+        and joints, create distinct acoustic locations of signals, which are sensed, processed and classified by software.
+        Interactive capabilities can be linked to different locations on the body.
+
+  - uuid : udx8alkpej
+    term : SKU (stock-keeping Unit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A unique identification number that defines an item at the identifiable inventory level; for example, in retail
+        applications, the SKU may designate style, size and color. A more detailed level would be at the serial number or unique
+        identifier level.
+
+  - uuid : udx8alm5to
+    term : SLA (service-level Agreement)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An agreement that sets the expectations between the service provider and the customer and describes the products or
+        services to be delivered, the single point of contact for end-user problems and the metrics by which the effectiveness of
+        the process is monitored and approved.
+
+  - uuid : udx8ambjh
+    term : SLED (single Large Expensive Disk)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Traditional disk drive. That is, a conventional large-system disk system that has, on average, almost twice the diameter
+        of a lower-cost redundant array of independent disks (RAID) system and, as its name implies, is significantly more
+        expensive to manufacture.
+
+  - uuid : udx8am1ol3
+    term : SLM (service-level Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The ongoing process of using service-level agreements (SLAs) to maintain high quality in the provision of services -- and
+        to ensure that service-level objectives (SLOs) and performance meet the changing needs of the recipient's business --
+        through continuous improvement of service activities, functions and processes. See SLA and SLO.
+
+  - uuid : udx8am2xyo
+    term : SLM (software License Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A mechanism for systematically ensuring compliance with system vendor and independent software vendor (ISV) software
+        licenses -- for example, maximum users, maximum nodes and maximum MIPS.
+
+  - uuid : udx8am4fss
+    term : SLO (service-level Objective)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Within service-level agreements (SLAs), SLOs are the objectives that must be achieved -- for each service activity,
+        function and process -- to provide the best opportunity for service recipient success (see SLA).
+
+  - uuid : udx8am5wtq
+    term : SMA (service Management Agreement)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A tool for monitoring, measuring, managing and demonstrating the contribution of IT to the enterprise.
+
+  - uuid : udx8am7e9t
+    term : Small And Midsize Business (SMB)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **small and midsize business (SMB)** is a business which, due to its size, has different IT requirements--and often
+        faces different IT challenges--than do large enterprises, and whose IT resources (usually budget and staff) are often
+        highly constrained. For the purposes of its research, Gartner defines SMBs by the number of employees and annual revenue
+        they have. The attribute used most often is number of employees; small businesses are usually defined as organizations
+        with fewer than 100 employees; midsize enterprises are those organizations with 100 to 999 employees. The second most
+        popular attribute used to define the SMB market is annual revenue: small business is usually defined as organizations with
+        less than \$50 million in annual revenue; midsize enterprise is defined as organizations that make more than \$50 million,
+        but less than \$1 billion in annual revenue.
+
+  - uuid : udx8am95gp
+    term : Smart Antenna
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also known as adaptive antennas, these use an array of antennas in combination with smart signal processing algorithms
+        that track the location of a mobile client device using techniques such as the direction of arrival of a signal. The
+        location or angular direction is then used to calculate beam-forming vectors to focus more of the power of the antenna
+        beam on the mobile target. Smart antennas are used in cellular mobile phone systems and in proposed wireless broadband
+        technologies such as 802.16e-2005 (WiMAX) and 802.11n (MIMO). See also SDMA.
+
+  - uuid : udx8amax1h
+    term : Smart Card
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **smart card** is a plastic card that contains a microprocessor and a memory chip or just a memory chip. The
+        microprocessor card has the ability to add, delete and manipulate information on the card. A memory-chip card, such as a
+        phone card, can only add information. By maintaining all necessary functions and information on the card, smart cards do
+        not require access to remote databases. Growing interest in smart cards crosses barriers of geography, industry and
+        business functions.
+
+  - uuid : udx8amco5u
+    term : Smart Grid
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **smart grid** is a vision of the future electricity delivery infrastructure that improves network efficiency and
+        resilience, while empowering consumers and addressing energy sustainability concerns.
+
+        To make the grid "smarter," and capable of addressing the need to decarbonize generation sources and enable end-user
+        energy efficiency, utilities will have to improve observability and controllability of their networks, while transforming
+        them into geodesic structures that intersperse a variety of distributed energy resources.
+
+  - uuid : udx8amehfa
+    term : Smart Pills
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Smart pills** are essentially ingestible sensors that are swallowed and can record various physiological measures. They
+        can also be used to confirm that a patient has taken his or her prescribed medication, and can measure the effects of the
+        medication.
+
+  - uuid : udx8amfrb1
+    term : Smart Terminal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A display terminal that can operate in either conversational or block mode and can support a full range of local editing
+        capabilities.
+
+  - uuid : udx8amh9ex
+    term : Smartphone
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **smartphone** is a mobile communications device that uses an identifiable open OS. An open OS is supported by
+        third-party applications written by a notable developer community. Third-party applications can be installed and removed,
+        and they can be created for the device's OS and application programming interfaces (APIs). Alternatively, developers must
+        be able to access APIs through a discrete layer such as Java. The OS must support a multitasking environment and user
+        interface that can handle multiple applications simultaneously. For example, it can display e-mail while playing music.
+
+  - uuid : udx8amj31f
+    term : SME (small-to-midsize Enterprise)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Another name for an SMB -- see SMBs (small and midsize businesses).
+
+  - uuid : udx8amkjsx
+    term : SMED (Single Minute Exchange Of Die)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Acronym for "single minute exchange of die" -- a lean approach that minimizes changeover or setup time in a process such
+        that it can be accomplished in less than 10 minutes (the "single" referring not to one minute but single digits; i.e.,
+        less than 10).
+
+  - uuid : udx8amm0jg
+    term : SMFP (smart MFP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A regular MFP can print, fax, copy and scan paper documents. An SMFP can also be programmed by a third party, the user or
+        the technology provider to perform custom functions; easily integrates with office and enterprise applications; is
+        management-friendly, with consistent architecture and user interface; works well on the network; and is based largely on
+        open industry standards. SMFPs can perform usage tracking and other functions that help organizations actively manage
+        their office printer/MFP fleet.
+
+  - uuid : udx8anffc
+    term : SMP (symmetric Multiprocessing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A multiprocessor architecture in which all processors are identical, share memory and execute both user code and
+        operating-system code.
+
+  - uuid : udx8an1vsh
+    term : SMR (specialized Mobile Radio)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A wireless communications technology in competition with analog cellular services. In an SMR system, the base station
+        equipment supplier is the licensee of the transmitters. Users have access to the multiple channels of the network rather
+        than the limited number of channels of a private mobile radio network. Many users share all of the available channels.
+        Sharing is accomplished on a first-come, first-served basis. When users want to initiate a call, they activate the
+        push-to-talk button on the handset. Assuming the portable unit (and dispatcher or other portable unit) is tuned to an
+        available channel, a communication path is established. If channels that the sender and receiver can use are not
+        available, the call cannot be completed, and the operator must wait for another opportunity to try again.
+
+  - uuid : udx8an3nrd
+    term : SMS (system-managed Storage)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The term used for the conceptualization of an architecture for attachment, management and reconfiguration of secondary
+        storage. Among the SMS basic design goals is the separation of logical-device management from physical-device management.
+
+  - uuid : udx8an568v
+    term : SMTP (Simple Mail Transfer Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A messaging protocol governing electronic-mail transmission in Transmission Control Protocol/Internet Protocol (TCP/IP)
+        networks. It is used to transfer e-mail between computers. It is a server-to-server protocol. SMTP supports only text and
+        cannot handle attachments. It supports negative delivery notifications, not the positive notifications required by
+        electronic data interchange (EDI).
+
+  - uuid : udx8an739t
+    term : Sniffer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A network management tool that monitors data packets on a network to help administrators ensure message integrity and
+        service quality.
+
+  - uuid : udx8an8jvb
+    term : SNMP (Simple Network Management Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Transmission Control Protocol/Internet Protocol (TCP/IP)-derived protocol governing network management and the
+        monitoring of network devices. Strictly speaking, SNMP is the Management Information Base (MIB) described in the SNMP
+        standard; extensions to this MIB proposed by the Electronic Messaging Association permit the monitoring and reporting of
+        all conforming messaging components through standard SNMP management tools for network components.
+
+  - uuid : udx8anaej8
+    term : SNOMED (Systematized Nomenclature Of Medicine)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A nomenclature created by the College of American Pathologists (CAP) for use in pathology. SNOMED has gradually been
+        extended to cover other domains of medicine. It contains over 150,000 items and includes coverage for numerous medical
+        specialties. CAP is also developing SNOMED RT for reference terminology and SNOMED CT for combined terminology.
+
+  - uuid : udx8anbw8s
+    term : SOA Governance Technologies
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        SOA governance technologies are a set of tools and technologies that are used to enact and enforce governance processes
+        and policies. They include technologies for SOA policy management, SOA registries and repositories, and SOA quality
+        assurance and validation.
+
+  - uuid : udx8andemc
+    term : SOAP (Simple Object Access Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A protocol introduced by Microsoft in conjunction with some small vendors. Designed to be simple, it creates transparent
+        mapping of the Distributed Component Object Model (DCOM) interface definition language (IDL) and the Extensible Markup
+        Language (XML) definitions. It provides the key technology for transport in the next-generation Internet as a set of
+        e-services.
+
+  - uuid : udx8anf5kn
+    term : SOAP (subjective, Objective, Assessment And Plan)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A process used by clinicians to identify and assess a patient's health status, and the subsequent treatments or course of
+        therapy to improve this status.
+
+  - uuid : udx8angq97
+    term : SOC (software Oversight Committee)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A healthcare committee charged with ensuring that patients are not placed at risk by implemented software solutions. SOCs
+        contain representative from all aspects of the healthcare enterprise. It has been suggested that SOCs be formed along the
+        lines of The Joint Commission's institutional review boards (IRBs). IRBs typically are composed of risk management
+        lawyers, medical ethicists, physicians and other interested parties within the care delivery organization (CDO). Because
+        of the technical nature of the task, an SOC must have information systems (IS) representation. An SOC should meet on a
+        regular basis to review all current and planned medical software implementations. In addition, it should form, and
+        possibly enforce, a policy designed to ensure patient safety where medical software is concerned. Specific SOC
+        responsibilities include validating that applications perform reliably and as expected, for example, by creating and
+        running trial scenarios looking at both system and clinical functionality. A SOC should ensure that all decision support
+        applications are based on accurate data, that they are implemented correctly and that the rule base is kept current. It
+        should also examine how the various packages operate in tandem, paying close attention to combinations of functions that
+        could potentially lead to errors that place patients at risk.
+
+  - uuid : udx8aniivi
+    term : Social Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social analytics** is monitoring, analyzing, measuring and interpreting digital interactions and relationships of
+        people, topics, ideas and content. Interactions occur in workplace and external-facing communities. Social analytics
+        include sentiment analysis, natural-language processing and social networking analysis (influencer identification,
+        profiling and scoring), and advanced techniques such as text analysis, predictive modeling and recommendations, and
+        automated identification and classification of subject/topic, people or content.
+
+  - uuid : udx8ankafu
+    term : Social BPM
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        "Social BPM" is a concept that describes collaboratively designed and iterated processes. These processes mirror the way
+        work is performed from a "doer" perspective and experienced from a "receiver" perspective to harness the power of
+        continuous learning from "the collective."
+
+  - uuid : udx8anln6l
+    term : Social Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An approach to IT whereby individuals tailor information-based and collaborative technologies to support interactions with
+        relatively large and often loosely defined groups.
+
+  - uuid : udx8anna1m
+    term : Social Content
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social content** is unstructured data created, vetted, marked-up or delivered through a social process or channel and
+        destined for human consumption. Social content scenarios range from the use of enterprise-managed blogs and wikis, to
+        externally hosted environments (Twitter, Facebook, YouTube, and others) for document sharing and collaboration, to tools
+        for supporting project teams.
+
+  - uuid : udx8ao1obw
+    term : Social CRM
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social CRM** is a business strategy that entails the extension of marketing, sales and customer service processes to
+        include the active participation of customers or visitors to an Internet channel (Web or mobile) with the goal of
+        fostering participation in the business process.
+
+  - uuid : udx8ao2y7r
+    term : Social Feedback
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The ability for participants in a social media environment to add their opinions about the quality or relevance of the
+        content. Common examples are "like/not like," "thumbs up/thumbs down," dig it, star ratings, social commentary, tagging
+        (or mass categorization), flagging and badging.
+
+  - uuid : udx8ao4qpg
+    term : Social Gaming
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social gaming** is an online digital game that: 1) Contains at least one game mechanic that utilizes a player's social
+        graph; 2) Facilitates and encourages social interaction and communication about the game outside the game and not only
+        inside the game; and 3) Is accessed via PCs, game consoles, and mobile and portable devices. Digital games that offer an
+        immersive gaming experience with no connection to social graphs are excluded from social games.
+
+  - uuid : udx8ao6i4i
+    term : Social Media Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Tools that help to facilitate social media. Examples include RSS, blogs, video logs, widgets, tags, forums, location based
+        services, Web chats, instant messaging, podcasts and microblogging services.
+
+  - uuid : udx8ao803u
+    term : Social Media
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social media** is an online environment in which content is created, consumed, promoted, distributed, discovered or
+        shared for purposes that are primarily related to communities and social activities, rather than functional, task-oriented
+        objectives. "Media" in this context is an environment characterized by storage and transmission, while "social" describes
+        the distinct way that these messages propagate in a one-to-many or many-to-many fashion.
+
+  - uuid : udx8ao9rsn
+    term : Social Network Analysis (SNA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social network analysis (SNA)** tools are used to analyze patterns of relationships among people in groups. They are
+        useful for examining the social structure and interdependencies (or work patterns) of individuals or organizations. SNA
+        involves collecting data from multiple sources (such as surveys, emails, blogs and other electronic artifacts), analyzing
+        the data to identify relationships, and mining it for new information--such as the quality or effectiveness of a
+        relationship. Organizational network analysis is the form of SNA that examines the information flow among individuals. It
+        depicts the informal social network--typically of groups working in the same enterprise. Value network analysis (VNA)
+        examines the deliverables exchanged among roles--typically groups of people from multiple organizations that need to work
+        together. Social influence network analysis scans social media to identify influential people, associations or trends in
+        the collective.
+
+  - uuid : udx8aobjci
+    term : Social Networking Sites
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Social networking sites, such as LinkedIn, Facebook or MySpace, provide open membership where people can congregate to
+        share information. They are an example of a decentralized network that exhibits emergent behavior.
+
+  - uuid : udx8aod0w4
+    term : Social Networking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The act of establishing online many-to-many human connections for the purposes of sharing information with the network or
+        subsets thereof. Although one-to-one connections are possible in social network sites, the preponderance of activity
+        engages a broader range of participants in any given network.
+
+  - uuid : udx8aoenqn
+    term : Social Profile
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A description of individuals' salient characteristics that meaningfully identify them for a given social site, or for a
+        collaboration application.
+
+  - uuid : udx8aog1wt
+    term : Social Profiles
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social profiles** are a description of individuals' social characteristics that identify them on social media sites such
+        as LinkedIn and Facebook, when using tools such as digg and Delicious as well as collaboration applications such as Jive,
+        IBM Connections or Socialtext. Profiles describe any number of characteristics about individuals, such as interests,
+        expertise, professional affiliations, status, recent activity and geographic location. Profiles are the digital DNA of a
+        person, and where tagging of people-related content will occur. A social profile also displays information that helps to
+        understand the type and strength of an individual's relationships with others; for example, their level of participation
+        and contribution in different initiatives, projects, communities, or conversations; their reputation among other
+        participants, and so on. Creating a robust social profile allows individuals to be discovered by people who could benefit
+        from an association with them. Companies are also beginning to experiment with social profiles as a means of reinforcing
+        their organization's brand identity.
+
+  - uuid : udx8aohoek
+    term : Social Publishing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The capability for the masses to accumulate their individually developed content (versus shared development via a wiki)
+        into a usable repository and shared channel for social use and feedback.
+
+  - uuid : udx8aoj8er
+    term : Social Search
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social search** uses elements of user behavior, implicit and explicit, to improve the results of searches inside and
+        outside enterprises. Such elements are typically stored as metadata, making social search a type of metadata mining. It
+        also enables users to disambiguate results from their queries more effectively.
+
+  - uuid : udx8aol0sw
+    term : Social Software Standards
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social software standards** are protocols and data formats that have been agreed on by industry bodies or are, in
+        practice, used by several products or services to support interoperability and for data/service access and reuse between
+        social software environments.
+
+  - uuid : udx8aomhxx
+    term : Social Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **social software** as the tools that encourage, capture, and organize open and free-form interaction
+        between employees, customers, and partners. It is a "socializing" technology--sometimes also referred to as Enterprise
+        2.0--that enables a grassroots approach to creating and exploiting collective knowledge.
+
+  - uuid : udx8apw8l
+    term : Social Systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The context for the way everyone works. Social systems emerge from the people, processes, tools, organizations,
+        relationships, skills and information associated with a group of individuals.
+
+  - uuid : udx8ap2dhp
+    term : Social Tagging (Folksonomy)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Social tagging** also known as "folksonomies", are user-defined metadata collections. Users do not deliberately create
+        folksonomies and there is rarely a prescribed purpose, but a folksonomy evolves when many users create or store content at
+        particular sites and identify what they think the content is about. "Tag clouds" pinpoint various identifiers and the
+        frequency of use on a folksonomy site. This type of grass-roots community classification (similar to other social
+        networking approaches, such as blogs and wikis) is subject to vandalism and manipulation; nevertheless, it is a fine
+        example of collective intelligence.Do not confuse folksonomies with taxonomies. Folksonomies structure content via user
+        tags; taxonomies are classifications defined by more formal methods that do not necessarily include user-generated tags
+        and rarely are viewed as similar.
+
+  - uuid : udx8ap46io
+    term : Social Technologies
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Any technology that facilitates social interactions and is enabled by a communications capability, such as the Internet or
+        a mobile device. Examples are social software (e.g., wikis, blogs, social networks) and communication capabilities (e.g.,
+        Web conferencing) that are targeted at and enable social interactions.
+
+  - uuid : udx8ap5yea
+    term : Social Web
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The universe of opportunities available for people (the general public) to actively participate in open group activities
+        on the Web. The social Web is generally considered the human social aspect of Web 2.0.
+
+  - uuid : udx8ap7gbs
+    term : Socialcasting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Socialcasting** provides lightweight, portable tools for the creation of scheduled and ad hoc live broadcasts. This
+        space has evolved from consumer webcam videocasts to a clear bifurcation between a growing number of professional news
+        organizations and consumer webcasts in social media.
+
+  - uuid : udx8ap914j
+    term : Sockets
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The Berkeley interprocess communications model. A socket specifies the end points of a two-way communications channel
+        which connects two processes together so they can exchange information.
+
+  - uuid : udx8apahha
+    term : Softswitch Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Softswitch architecture comprises softswitches/MGCs, VoIP gateways and application servers. These are among the terms used
+        to identify the major network elements of softswitch architecture. For our purposes, the terms "softswitch" and
+        "softswitch architecture" refer to the softswitch/VoIP gateway/application server approach to distributed switching
+        technology.
+
+        Softswitches for cable networks are essentially the same as those used by traditional telephone companies, but they must
+        comply with the NG standards from Cable Television Laboratories (CableLabs) for packetized voice-over-cable networks.
+
+        Softswitch architectures are mostly being deployed in traditional operators' core networks for wireline or mobile
+        trunking, and in the networks of long-distance service providers. Many voice-over-broadband networks are based on Class 5
+        architecture to provision Class 5 services, as well as calling card services using VoIP technology. In mobile networks,
+        deployment of mobile softswitches in the radio access network (RAN) is limited by the slow deployment of third-generation
+        (3G) infrastructure and the highly optimized TDM architecture in the RAN.
+
+        With the migration to SIP, softswitch architecture lends itself to the 3GPP and ETSI TISPAN standards to develop
+        IMS-compliant applications.
+
+  - uuid : udx8apc8k2
+    term : Softswitches
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        To provide services without a physical switch, a softswitch is connected to a server (a Sun Microsystems or Unix machine,
+        for instance) that runs the application. A softswitch is also connected to a media gateway, which is the element that
+        physically connects to the PSTN, IP network or ATM network.
+
+        A softswitch is also known as a call agent, a call server or an MGC. It is a device that provides the traditional call
+        control functions or switching matrix of a Class 4 and Class 5 switch. In a mobile network, a softswitch is also called a
+        mobile switching center (MSC). At minimum, a softswitch provides:
+
+        Intelligence that controls connection services for a media gateway or native IP endpoint.
+
+        The ability to select processes that can be applied to a call.
+
+        Routing for a call in the network, based on signaling and customer database information.
+
+        The ability to transfer control of a call to another network element.
+
+        Interfaces to, and support for, management functions, such as provisioning fault-tolerant billing.
+
+        Support for multiple protocols, including some subsets of MGCP, Media Gateway Control Protocol (Megaco), SIP, SS7, call
+        processing language, H.323 and Q.931/Q.2931.
+
+        DiffServ, Resource Reservation Protocol, Real-Time Transport Protocol, Real-Time Control Protocol, MPLS and Institute of
+        Electrical and Electronics Engineers (IEEE) 802.11p.
+
+        Compliance/interoperation with some subsets of standards from the International Telecommunication Union (ITU), Internet
+        Engineering Task Force (IETF), Frame Relay Forum, ATM Forum, IEEE's IMS Forum and 3GPP/3GPP2.
+
+  - uuid : udx8apdyw0
+    term : Software As A Service (SaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **software as a service (SaaS)** as software that is owned, delivered and managed remotely by one or more
+        providers. The provider delivers software based on one set of common code and data definitions that is consumed in a
+        one-to-many model by all contracted customers at anytime on a pay-for-use basis or as a subscription based on use metrics.
+
+  - uuid : udx8apfma5
+    term : Software-Defined Radio (SDR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Software-defined radio (SDR)** provides software control of significant parts of a wireless function rather than through
+        traditional hardware control. This allows devices to switch dynamically between protocols and frequencies under software
+        control. SDR is most attractive where standards are changing and uncertain, or where multiple standards are required.
+        Smart antennas are an important part of SDR and are typically implemented as an array of elements with programmable
+        characteristics such as field width, frequency and waveform shape.
+
+  - uuid : udx8aphffd
+    term : Software Development
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Project management, specifications, design, programming, testing, installation and training associated with a specific
+        application development project of any size.
+
+  - uuid : udx8apiwwd
+    term : Software Maintenance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Updating software, adding new functions, fixing bugs and solving problems. Technology vendors often sell a maintenance
+        contract with their software. This contract is usually calculated as an annual fee based on some percentage of the total
+        software cost. It generally provides for overall support and maintenance of a software product, including applications.
+        Support may include telephone assistance time as well.
+
+  - uuid : udx8apka2k
+    term : Software Support Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software support services are generally technical support or break/fix services that are delivered for specific software
+        products. These services include revenue derived from long-term technical-support contracts or pay-as-you-go,
+        incident-based support. Software support services typically include remote troubleshooting capabilities, installation
+        assistance and basic usability assistance. Remote troubleshooting capabilities may be delivered via telephone and online
+        communication media or without human assistance through automated means that reside on the customer's device or are
+        available on the Web.
+
+        Software support services may include new product installation services, installation of product updates, migrations for
+        major releases of software, other types of proactive or reactive on-site services, and support for custom application or
+        infrastructure software. Services may be delivered by a product vendor, a consulting firm or third-party software
+        maintainers.
+
+        Software products and technologies covered under this category include commercial and custom operating systems,
+        application software, and infrastructure software. Software support services do not include software license code updates
+        and upgrades, which vendors often report as software maintenance.
+
+        The segments covered in software support map directly to market segments covered in Gartner software market statistics.
+
+  - uuid : udx8apm3ke
+    term : SOHO (small Office/home Office)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A market segment for office equipment or computing peripherals (e.g., printers or copiers). Products targeted to the SOHO
+        market tend to be lower in price and functionality than those designed to support large, corporate office environments.
+
+  - uuid : udx8aq9jv
+    term : Solid-State Appliances
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Solid-state appliances** are based exclusively on semiconductor memory technology (typically NAND flash or DRAM), rather
+        than hard-disk drives (HDDs) and include fully integrated, higher-level optimization software. The storage software
+        management layer should enable one or more of the following benefits: high availability (HA), enhanced capacity
+        efficiency, automated data management and guaranteed levels of performance (even when the solid-state drives \[SSDs\] are
+        more than 80% full).
+
+  - uuid : udx8aq21in
+    term : Solution Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **solution architecture (SA)** is an architectural description of a specific solution. SAs combine guidance from
+        different enterprise architecture viewpoints (business, information and technical), as well as from the enterprise
+        solution architecture (ESA).
+
+  - uuid : udx8aq3pkr
+    term : Solution Portfolio
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **solution portfolio** describes the relationships among implemented solutions of a particular type (such as
+        applications or shared infrastructure), in order to coordinate change across those solutions. Applying a portfolio
+        approach to managing solutions as a group, while also managing the relationships across portfolios, improves the
+        consistency, interoperability and portability of the collective solutions.
+
+  - uuid : udx8aq5hf3
+    term : Solution
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **solution** is an implementation of people, processes, information and technologies in a distinct system to support a
+        set of business or technical capabilities that solve one or more business problems.
+
+  - uuid : udx8aq6yfp
+    term : SONET (Synchronous Optical Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **SONET (Synchronous Optical Network)** is a standard for connecting fiber-optic transmission systems sold in North
+        America only. SONET was proposed by Bellcore in the mid-1980s and is now an ANSI standard. SONET defines interface
+        standards at the physical layer of the Open Systems Interconnection (OSI) seven-layer model. The standard defines a
+        hierarchy of interface rates that allow data streams at different rates to be multiplexed. SONET establishes Optical
+        Carrier (OC) levels from 51.8 Mbps (OC-1) to 9.95 Gbps (OC-192). The international equivalent of SONET, standardized by
+        the International Telecommunication Union (ITU), is called Synchronous Digital Hierarchy (SDH).
+
+  - uuid : udx8aq8pgi
+    term : Source Encoding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A compression technique that takes into account the nature of the information to be compressed. See entropy encoding.
+
+  - uuid : udx8aqa7nh
+    term : Source Routing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technique used in local-area networks (LANs) in which the source of the frame specifies the route that the frame has to
+        follow; the source furnishes a routing information field that designates the entire route to the destination.
+
+  - uuid : udx8aqbkg7
+    term : Source Traffic Descriptor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In asynchronous transfer mode (ATM), a set of parameters used during the setting up of a connection.
+
+  - uuid : udx8aqd30k
+    term : SOW (statement Of Work)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The statement of work includes an objectives section allowing the customer to emphasize the desired end state or
+        performance metric to be achieved. It also mandates the assessment of past performance, technical approach and cost for
+        each task order. The customer determines the relative importance of each criterion.
+
+  - uuid : udx8aqej83
+    term : SP (service Pack)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A minor revision to a software product that contains feature updates or bug fixes, but not enough new code to warrant a
+        new version number.
+
+  - uuid : udx8aqfy3f
+    term : Space Segment
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In-orbit satellite portion of a particular satellite communications system or network. See also ground segment.
+
+  - uuid : udx8aqhfmq
+    term : Spaghetti Chart
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A graphical representation of movement of materials, people or process steps to identify motion or transport wastes for
+        elimination.
+
+  - uuid : udx8aqiwtk
+    term : Spam
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Usenet messages flooded to many newsgroups indiscriminately. The term is also loosely applied to junk mail.
+
+  - uuid : udx8aqkemg
+    term : Spamdexing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A slang term for the practice of hiding a slew of words or phrases in a Web page to increase the number of hits the page
+        will register in Internet searches.
+
+  - uuid : udx8aqlv30
+    term : SPC (statistical Process Control)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Maintaining or improving process capability by employing statistical techniques to analyze process outputs and provide
+        feedback for process control loops.
+
+  - uuid : udx8ar2d8
+    term : Spectrum Harmonization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A global effort under the auspices of the ITU to encourage governments and regulators to allocate RF spectrum consistently
+        across borders, thereby enabling global roaming, interoperability and global markets for telecom equipment. Every four
+        years, the ITU holds the World Radiocommunication Conference, where global/regional spectrum assignments are negotiated
+        and agreed. A recent example is the 1.9GHz to 2.1GHz band, which has been allocated to UMTS in almost every geography. The
+        WiMAX Forum is undertaking similar efforts to support global allocation of 2.5GHz and 3.5GHz for wireless broadband.
+
+  - uuid : udx8ar1v89
+    term : Spectrum
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A continuous range of frequencies, usually wide in extent, within which waves have some specific common characteristics.
+
+  - uuid : udx8ar3coi
+    term : Speech Circuit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A circuit designed for the transmission of speech, either analog or encoded, but which can also be used for data
+        transmission or telegraphy.
+
+  - uuid : udx8ar4uq1
+    term : Speech Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Speech recognition** systems interpret human speech and translate it into text or commands. Primary applications are
+        self-service and call routing for contact center applications; converting speech to text for desktop text entry, form
+        filling or voice mail transcription; and user interface control and content navigation for use on mobile devices, PCs and
+        in-car systems. Control of consumer appliances (such as TVs) and toys is also commercially available but not widely used.
+
+  - uuid : udx8ar6hu9
+    term : SPF (Shortest Path First)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A link-state protocol that uses a set of user-defined parameters to find the optimum route between two points.
+
+  - uuid : udx8ar7yj7
+    term : Spider
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A piece of software (also called a Web crawler) designed to follow hyperlinks to their completion, and return information
+        on Internet addresses passed.
+
+  - uuid : udx8ar9c7b
+    term : Spoofing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.A process whereby a router responds to keep alive messages from a host rather than passing them on the remote client,
+        thus saving call charges. Used mainly in Integrated Services Digital Network (ISDN).
+
+        2.Of a packet, falsely claiming to be from an address different from that from which it actually originated.
+
+  - uuid : udx8araoy4
+    term : SPP (service Parts Planning)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Service parts planning (SPP) supports the optimal stock quantities and location of items used to service internal assets
+        or customer equipment in the aftermarket. SPP applications address processes such as:
+
+        Forecasting and demand planning
+
+        Inventory planning and optimization
+
+        Distribution/allocation and supply planning
+
+        Collaboration
+
+        Workforce planning
+
+        Analytics and BAM (such as visibility and event management)
+
+        Pricing optimization
+
+        Returns and repair center management
+
+  - uuid : udx8arcfpo
+    term : Spread Spectrum
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Radio technology that enables a number of radio communication links to use the same band of frequencies simultaneously
+        without mutual interference.
+
+  - uuid : udx8ardx9h
+    term : SQL (Structured Query Language)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A relational data language that provides a consistent, English keyword-oriented set of facilities for query, data
+        definition, data manipulation and data control. It is a programmed interface to relational database management systems
+        (RDBMSs). IBM introduced SQL as the main external interface to its experimental RDBMS, System R, which it developed in the
+        1970s. SQL statements include:
+
+        Data manipulation language statements: SELECT, INSERT, UPDATE and DELETE
+
+        Data definition language statements, including the CREATE and DROP statements for tables and indexes
+
+        Statements that control data consistency, and grant and revoke authority
+
+        SQL statements are called "dynamic" when they are not completely specified until the program is executed. They are called
+        "static" when they are completely specified when the program is compiled. SQL is precise, because it is based on predicate
+        logic, but is difficult for average users to deal with, and its most fruitful position is as a protocol for
+        software-to-software connectivity, rather than for human-to-software access.
+
+  - uuid : udx8arfqaj
+    term : SSEM (System And Server Evaluation Model)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Gartner model that focuses on the six major categories of differentiation that exist between server platforms:
+        performance and scalability, high availability, software vendor enthusiasm, platform architectural longevity, systems and
+        network management software, and maintenance.
+
+  - uuid : udx8arh7nm
+    term : SSL (Secure Sockets Layer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An Internet security standard from Netscape Communications, used for its browser and server software.
+
+  - uuid : udx8arioha
+    term : SSN (switched Service Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A telephone network consisting of terminals, transmission links, and at least one exchange, on which any user can
+        communicate with any other user at any time.
+
+  - uuid : udx8ark6qa
+    term : SSP (service Switching Point)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The telecommunications switch in an intelligent network which handles a call with reference to supplementary routing and
+        database information contained at a service control point (SCP).
+
+  - uuid : udx8arlnt6
+    term : SSP (storage Service Provider)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A company that provides computer storage capacity and management services. In addition to the storage itself, SSPs
+        typically offer periodic backup and archiving, and some offer to consolidate data from multiple enterprise locations so
+        that all locations can share the data effectively.
+
+  - uuid : udx8arn40w
+    term : SSPC (structure, Scripting, Populating And Channel Outputs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A framework for creating documents that requires four core mechanisms for defining the structure, scripting, populating
+        (filling) and output channels of documents.
+
+        1.Structure definition consists of tools to define components (e.g., title, author, introduction, conclusion) and their
+        sequence (e.g., "introductions" precede "conclusions"). The defined sequence cannot be modified or removed through
+        editing.
+
+        2.Scripting is procedural logic that defines how to derive (i.e., calculate) content, and how to access or create queries
+        that test and conditionally incorporate content from external sources (e.g., databases), other applications and content
+        repositories.
+
+        3.Populating executes scripts against the structural definition to create an instance of the content model expressed in
+        the document definition. This includes executing data and content retrieval, queries and computations to generate a
+        fleshed-out document (an "instance") from the document skeleton defined by the structural and scripting elements.
+
+        4.Output channels control the content so that the same content can be formatted and composed for multiple media, such as
+        print, Web or CD-ROM delivery.
+
+  - uuid : udx8as1fvu
+    term : Stalking Horses
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Stalking horses** are conceptual models used to test out new concepts and stimulate dialogue about them.
+
+  - uuid : udx8as2wpa
+    term : Standard Performance Evaluation Corporation (SPEC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Standard Performance Evaluation Corporation (SPEC)** is a vendor consortium that selects and standardizes benchmark
+        programs submitted by members or others, for the purpose of rating and comparing the performance of processors.
+
+  - uuid : udx8as4ct1
+    term : Standard
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A document that recommends a protocol, interface, type of wiring, or some other aspect of a system. It may even recommend
+        something as general as a conceptual framework or model (e.g., a communications architecture). De jure standards are
+        developed by internationally or nationally recognized standards bodies or vendors. De facto standards are widely used
+        vendor-developed protocols or architectures.
+
+  - uuid : udx8as63le
+    term : Standards
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Specifications or styles that are widely accepted by users and adopted by several vendors. Standards are critical to the
+        compatibility of hardware, software, and everything in between. Industry standards enable the essential elements of a
+        computer and related infrastructure to work together. Standards provide specifications to hardware manufacturers and
+        software developers that allow them to create products that will work together. Deviation from standards could result in
+        the following problems:
+
+        A plug on a keyboard does not fit into the related outlet on a computer.
+
+        A piece of software does not work with a particular operating system.
+
+        An Internet browser cannot read a certain page on the Web because the page is not formatted according the browser
+        requirements.
+
+        Proprietary software does not work on the Internet.
+
+  - uuid : udx8as7tg4
+    term : Static Application Security Testing (SAST)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Static application security testing (SAST)** is a set of technologies designed to analyze application source code, byte
+        code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze
+        an application from the "inside out" in a nonrunning state.
+
+  - uuid : udx8as9lcq
+    term : Statistical Multiplexing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Statistical multiplexing** is a time-division multiplexing technique in which time slots are dynamically allocated on
+        the basis of need (i.e., slots are allocated to equipment with data to be transmitted).
+
+  - uuid : udx8asb60i
+    term : Statistical Quality Control/statistical Process Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set of techniques based on statistical principles and methods used to regulate the quality of products and processes.
+
+  - uuid : udx8ascndx
+    term : STDM (statistical Time-division Multiplexing)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Time shared dynamically between active channels on a multiplexer.
+
+  - uuid : udx8ase5h7
+    term : STEP (specification, Tracking, Evaluation, Production)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The four stages on which essential activities in the successful deployment of advanced technology are based. They are:
+
+        -   Specification -- which aligns corporate strategy and technology focus
+
+        -   Tracking -- which assesses individual technologies for maturity and business impact
+
+        -   Evaluation -- which involves prototyping and other in-depth evaluation activities to further gauge the readiness and
+            relevance of the technology.
+
+        -   Production -- which sees the technology being piloted and, if successful, rolled out into full deployment.
+
+  - uuid : udx8asfvs9
+    term : Stickiness
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The general term applied to website qualities that attract and hold visitors. A sticky website is assumed to be offering
+        higher value than one that is not sticky.
+
+  - uuid : udx8ashe26
+    term : STM (synchronous Transfer Mode)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technique for multiplexing several circuits over transmission links and switches whereby time is divided into slots or
+        buckets, and circuits are given time units whether or not they have any data to transmit. See asynchronous transfer mode.
+
+  - uuid : udx8asiva9
+    term : Storage Appliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A type of computing appliance that provides data to, or manages data for, other network-connected computing devices.
+        Unlike server appliances, storage appliances provide or manage data without an application context. This category of
+        computing devices includes network-attached storage (NAS) and storage area network (SAN) devices. See computing appliance,
+        server appliance, NAS and SAN.
+
+  - uuid : udx8asknxp
+    term : Storage Management Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **storage management software** market includes all software products that are sold as value-added options to run on a
+        server, storage network device or storage device to aid in managing the device or managing and protecting the data.
+        Revenue is for new license sales and for maintenance and support services that include new version license sales to update
+        an existing license to a new version, telephone support and on-site remedial support. Revenue does not include
+        professional services. For products to be included in this coverage, they must represent a revenue stream for the company
+        that is separately tracked and not be only part of a bundled product or service. Hosted storage solutions, such as hosted
+        backup or hosted email archiving, are included in this market. Storage management software coverage spans from the desktop
+        to the mainframe and includes products that focus on a single or limited set of devices, as well as those products that
+        support a heterogeneous set of devices. The storage management software market is divided into seven segments. Storage
+        management software is the sum of all the segments and represents all the tools needed to manage capacity, performance and
+        availability of data stored on disks, tapes and optical devices, as well as the networking devices that the data may pass
+        through.
+
+  - uuid : udx8asmeyb
+    term : Storage Resource Management (SRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Storage resource management (SRM)** software provides near-real-time and historical information for the storage
+        infrastructure regarding availability, capacity and performance, device management, problem determination, configuration
+        planning and change management. SRM software identifies storage usage, availability and performance by application,
+        business unit or user, providing data that can be used for IT consumption tracking and chargeback in homogeneous and
+        heterogeneous environments. Storage provisioning and workflow management features are also provided to automate
+        operational tasks. Delivery is in the form of full product suites, as well as focused solutions that address a specific
+        area, such as storage area network (SAN) management or analytics.
+
+  - uuid : udx8atv6a
+    term : Storage Subsystem Hardware Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes other storage subsystem services and redundant array of independent disks (RAID)-based storage
+        system services.
+
+        -   RAID-based storage system services -- This category includes the total of all external controller-based RAID-based
+            disk storage, host-based external RAID storage, host-based internal RAID storage and network-attached storage. RAID
+            refers to a set of disk drives (at least two) with input/output activity that is managed by external-based or
+            host-based RAID technology.
+
+        -   Other storage subsystem services -- This category includes tape libraries, optical libraries and hard-disk drive
+            upgrades/replacements.
+
+  - uuid : udx8at2fgg
+    term : Storage Support Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes tape libraries, optical libraries, hard-disk drive upgrades/replacements, and RAID-based storage
+        system services.
+
+  - uuid : udx8at3vty
+    term : Store-and-Forward Voice
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Store-and-forward voice** is a processor-controlled system that enables voice messages to be created, edited, sent,
+        stored and forwarded. Users access and operate the system by means of any 12-button dial pad in response to voice prompts
+        from the system.
+
+  - uuid : udx8at5nf0
+    term : Streaming
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Technique that supports the continuous, one-way transmission of audio and/or video data via the Internet and, more
+        recently, via a mobile network. In contrast to audio (for example, MP3) and movie (for example, MPEG) files that must
+        first be downloaded, streaming media begins playing within a few seconds of the request. Streaming requires a streaming
+        encoder (which converts the audio or video source to a data stream), a streaming server that delivers the encoded media
+        over a network, and a client media player that cooperates with the server to deliver uninterrupted media. To compensate
+        for variations in network quality and latency, the client buffers a few seconds of audio or video before beginning
+        delivery, then tries to stay ahead during playback. Examples of streaming systems include Windows Media, QuickTime and
+        RealPlayer.
+
+  - uuid : udx8at7fmu
+    term : Structural Change
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Deep-reaching change that alters the way authority, capital, information and responsibility flow within and between
+        organizations. Structural change affects all parties directly or indirectly in one or more particular industries.
+
+  - uuid : udx8at8wuq
+    term : Sub-11GHz Proprietary BWA
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Sub-11GHz proprietary broadband wireless access (BWA) systems are not WiMAX-certified or designed for IEEE 802.16. They
+        include technologies such as IPWireless, Flarion and iBurst. In most cases, they are deployed to provide service providers
+        with quick and easy access to business subscribers or to allow the delivery of broadband data services or fast Internet
+        access to business and residential subscribers. In addition, these systems enable cost-effective network access in remote
+        rural areas. Sub-11GHz proprietary BWA systems provide more than 1 Mbps per subscriber.
+
+  - uuid : udx8atao8j
+    term : Sub-voice-grade Channel
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A channel with a bandwidth narrower than that of voice-grade channels. Such channels are usually subchannels of a
+        voice-grade line.
+
+  - uuid : udx8atc6rd
+    term : Subnet Mask
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The bits of an Internet Protocol (IP) address used for a subnetwork.
+
+  - uuid : udx8atdnq4
+    term : Subnet Number
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The portion of the Internet address that designates a subnet. It is used for intranet routing but is ignored for
+        Internet-routing purposes.
+
+  - uuid : udx8atf5xp
+    term : Subnet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A portion of network that may be physically independent of another network portion, but both portions of the network share
+        the same network address, and the portion is distinguished by a subnet number.
+
+  - uuid : udx8atgn84
+    term : Subscriber
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Person who controls the subscription. Because subscribers may have more than one connection (multiple connections), it
+        cannot be assumed that one connection equals one subscriber.
+
+  - uuid : udx8ati4q4
+    term : Super Wi-Fi
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Super Wi-Fi** is a new prototype solution that uses the "white space" between licensed TV frequencies. It can reach
+        further and penetrate buildings more easily than standard Wi-Fi radios that comply with the Institute of Electrical and
+        Electronics Engineers (IEEE) 802.11 specification. Wi-Fi runs in the unlicensed 2.4 and 5 GHz bands.
+
+  - uuid : udx8atjsmo
+    term : Superserver
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Multiprocessor machines designed as network servers, combining input/output (I/O) capabilities of minicomputers with the
+        capability to run industry-standard network operating systems.
+
+  - uuid : udx8atlb04
+    term : Supply Chain Management (SCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Supply chain management (SCM)** refers to the processes of creating and fulfilling demands for goods and services. It
+        encompasses a trading partner community engaged in the common goal of satisfying end customers.
+
+  - uuid : udx8atmrv7
+    term : Supply Chain Segmentation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Designing and operating distinctly different end-to-end value chains (from customers to suppliers) optimized by a
+        combination of unique customer value, product attribute, manufacturing and supply capabilities, and business value
+        considerations. In essence, supply chain segmentation is the dynamic alignment of customer channel demands and supply
+        response capabilities optimized for net profitability across each segment.
+
+  - uuid : udx8aux3a
+    term : Surface Computers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Surface computers** are large-screen displays that support direct interaction via touch or gesture. They may be
+        horizontal (built into furniture such as a tabletop), or vertical (wall-mounted or free-standing). They incorporate the
+        elements of multitouch interactions found in handheld devices but often recognize multiple users, allowing collaborative
+        use. Size is constrained by the ability to physically reach across the surface. Larger displays usually support a gestural
+        interface, where the user does not need to physically touch the surface.
+
+  - uuid : udx8au2kq8
+    term : Sustainability Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Sustainability management** is a management discipline embracing corporate strategies, operational capabilities,
+        competencies, behaviors and cultures. It focuses on products, services, the enterprise and the supply chain, and it seeks
+        to optimally balance organizational performance and outcomes across economic, environment and social criteria over all
+        time scales.
+
+  - uuid : udx8au49ns
+    term : SVG Interface (Scalable Vector Graphics Interface)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An imaging application and language written in XML, supported by key electronic publishing vendors. The SVG interface
+        offers a solution to the problem of sharing many sophisticated, Web-based images. Vector graphics are more compact than
+        bitmapped images and can potentially be altered by client devices to best suit display parameters.
+
+  - uuid : udx8au5qok
+    term : SVGA (Super Video Graphics Array)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Video Electronics Standards Association (VESA) display standard that provides higher resolution than the 640 x 480 Video
+        Graphics Array (VGA) standard. It can support as many as 16 million colors, depending on the computer system and amount of
+        available memory.
+
+  - uuid : udx8au78w1
+    term : SWAP (Simple Workflow Access Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An Internet-based protocol designed to provide a Hypertext Transport Protocol (HTTP)-based way to access a generic
+        workflow service or a workflow enabled process or to interoperate with it. SWAP, which has been endorsed by the Workflow
+        Management Coalition (WfMC), will offer a set of standard definitions for the type and structure of messages passed
+        between cooperating workflow systems. SWAP will allow a workflow system to start, monitor, exchange data with and control
+        workflow instances on a different workflow system. It will also provide a way to integrate workflow systems with other
+        Web-based services.
+
+  - uuid : udx8au8yqt
+    term : SWIFT (Society For Worldwide Interbank Financial Telecommunication)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **SWIFT (Society for Worldwide Interbank Financial Telecommunication)** is a self-describing messaging format that is used
+        within the banking and finance industry to support electronic funds transfer. SWIFT is also the name of the format's
+        creator, an organization that provides messaging and transaction-processing services to member banks and other financial
+        organizations, including brokers, securities depositories, clearing organizations and stock exchanges.
+
+  - uuid : udx8auarc9
+    term : Switch-Based Storage Virtualization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Switch-based virtualization** is an out-of-band approach to storage virtualization that capitalizes on processors behind
+        Fibre Channel switch ports to eliminate most storage network block virtualization performance and scalability issues by
+        splitting the control path (slow path) from the data path (fast path).
+
+  - uuid : udx8auck2f
+    term : Switch
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device that makes, breaks, or changes the connections in an electrical circuit; to shift to another electrical circuit
+        by means of a switch. In the telecommunications industry, the term is often used as a synonym for private branch exchange
+        (PBX) or central office (CO) switch.
+
+  - uuid : udx8audx19
+    term : Switched Line
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of a series of lines that can be interconnected through a switching center; a line on the public telephone network.
+
+  - uuid : udx8aufedb
+    term : Switched Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A multipoint communications pathway with circuit-switching capabilities, e.g., the telephone network.
+
+  - uuid : udx8augvve
+    term : Switching Center
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A location that terminates multiple circuits and is capable of interconnecting circuits or transferring traffic between
+        circuits.
+
+  - uuid : udx8auictd
+    term : Switching
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The establishment of a transmission path from a particular inlet to a particular outlet, within a group of such inlets and
+        outlets.
+
+  - uuid : udx8aujtos
+    term : Switchover
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        When a failure occurs in the equipment, a switch to an alternative component can occur. Also called failover.
+
+  - uuid : udx8aulbra
+    term : Symbian
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A mobile OS originally derived from Psion's EPOC. Up until 2009 Symbian was developed by an independent company jointly
+        owned by Nokia, Ericsson, Sony Ericsson, Panasonic, Siemens and Samsung, which licensed the platform to mobile handset
+        manufacturers. In 2009 Nokia bought out the other owners and converted Symbian into an open source foundation. From 2010,
+        Symbian will be run as an open source project managed by the Symbian Foundation, the governing body for open source
+        Symbian.
+
+  - uuid : udx8aumw7n
+    term : Synchronization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Establishment of common timing between sending and receiving equipment.
+
+  - uuid : udx8av12hf
+    term : Synchronized Bills Of Materials
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines a **synchronized bill of materials (BOM)** capability as enabling value chains, including OEMs, suppliers
+        and service organizations (such as electronics manufacturing services), to synchronize different views of items in
+        different BOMs.
+
+  - uuid : udx8av2e6l
+    term : Synchronous Communications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        High-speed transmission of contiguous groups of characters. The stream of monitored and read bits uses a clock rate.
+
+  - uuid : udx8av3vri
+    term : Synchronous Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A network in which all the communications links are synchronized to a common clock.
+
+  - uuid : udx8av5dd4
+    term : Synchronous Transmission
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Timing is achieved by transmitting sync characters prior to data. It does not use such redundant information as the start
+        and stop bits in asynchronous transmission to identify the beginning and end of characters and is thus faster and more
+        efficient.
+
+  - uuid : udx8av6tbc
+    term : Synchronous
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Having a constant time interval between successive bits, characters or events. Synchronous transmission uses no redundant
+        information to identify the beginning and end of characters, and is faster and more efficient than asynchronous
+        transmission, which uses start and stop bits. The timing is achieved by transmitting sync characters prior to data;
+        usually synchronization can be achieved in two-or three-character times.
+
+  - uuid : udx8av86bm
+    term : SyncML (Synchronization Markup Language)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An initiative originally set up to develop a uniform synchronization protocol operating on any device over any network and
+        among various vendors' products. The protocol was intended to provide support for a wide range of transports and media
+        types.
+
+  - uuid : udx8av9ntk
+    term : Syntax
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Message format or grammar (e.g., field lengths and delineators, headers, footers and optional fields).
+
+  - uuid : udx8avb5pl
+    term : System Integration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of creating a complex information system that may include designing or building a customized architecture or
+        application, integrating it with new or existing hardware, packaged and custom software, and communications. Most
+        enterprises rely on an external contractor for program management of most or all phases of system development. This
+        external vendor generally also assumes a high degree of the project's risks.
+
+  - uuid : udx8avcheq
+    term : System Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Any of a number of "housekeeping" activities intended to preserve, maintain or correct the operation of a computer system.
+        Included are such routine but critical processes as hardware diagnostics, software distribution, backup and recovery, file
+        and disk integrity checking, and virus scanning.
+
+# __END__

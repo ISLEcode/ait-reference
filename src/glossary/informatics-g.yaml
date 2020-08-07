@@ -1,0 +1,415 @@
+title    : ISLE AIT computer science glossary -- G words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx88ra6c7
+    term : Gain Sharing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Describes a contract that defines the vendor's contribution to the customer in terms of specific benefits to the
+        customer's business. Such a contract also defines the payment the customer will make according to the vendor's performance
+        in delivering those business benefits. Gain-sharing contracts require the development of a delivery paradigm that links a
+        customer's business metrics to a vendor's IT solution. The key elements of this paradigm, in order, are:
+
+        1.Business metric definition and selection
+
+        2.Client metric benchmarking
+
+        3.Development of key performance indicators
+
+        4.Investment options evaluation
+
+        5.Gain-sharing contract development
+
+        6.Financial engineering
+
+        7.Delivery of services
+
+        8.Re-evaluation and adjustment of metrics
+
+  - uuid : udx88rby19
+    term : Galileo
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A planned Global Positioning Satellite System (GPSS) of 30 low-earth orbit satellites backed by the European Union and the
+        European Space Agency and originally due for commercial operation in 2008. Galileo was delayed by funding problems,
+        because private enterprise had showed little interest. The European Parliament agreed with the Council of Europe in
+        November 2007 to finance the deployment entirely from European Union funds, and after a validation phase due for
+        completion in 2010, the service is now scheduled to go into operation in 2013. Galileo will complement the U.S.
+        Government's GPS system, which ran into problems with development delays for replacement satellites. The Russian Global
+        Navigation Satellite System (GLONASS) has been guaranteed funding through 2009 and is being expanded to provide worldwide
+        coverage with the launch of additional satellites during 2009.
+
+  - uuid : udx88rdq93
+    term : Gallium Nitride (GaN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Gallium nitride (GaN)** is a semiconductor material that has high-frequency and high-power characteristics, and is
+        capable of operating at high temperatures. GaN is already used for specialist discrete devices, such as blue
+        light-emitting diodes and blue laser diodes for Blu-ray disc players.
+
+  - uuid : udx88rfil2
+    term : Gamification
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Gamification** is the use of game mechanics to drive engagement in non-game business scenarios and to change behaviors
+        in a target audience to achieve business outcomes. Many types of games include game mechanics such as points, challenges,
+        leaderboards, rules and incentives that make game-play enjoyable. Gamification applies these to motivate the audience to
+        higher and more meaningful levels of engagement. Humans are "hard-wired" to enjoy games and have a natural tendency to
+        interact more deeply in activities that are framed in a game construct.
+
+  - uuid : udx88rh6ip
+    term : GAN (generic Access Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Previously known as unlicensed mobile access (UMA), a **GAN (generic access network)** is a network architecture designed
+        to support seamless connectivity between wide-area cellular networks, such as GSM/GPRS, and LAN technologies, such as
+        Wi-Fi or Bluetooth -- it is an example of fixed-mobile convergence.
+
+  - uuid : udx88risks
+    term : Gateway Server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A server designed to transform data streams to better match device capabilities. For example, Wireless Application
+        Protocol (WAP) gateway servers convert HTML to Wireless Markup Language (WML) for wireless devices, and a number of
+        products can reformat HTML for devices such as mobile phones and personal digital assistants (PDAs). Today, HTML-based
+        servers predominate. While HTML can be made aware of a unique device requesting content, more often "shadow" Web server
+        applications are created to draw off and reformat the native content.
+
+  - uuid : udx88rkjhy
+    term : Gateway (transcoding) Server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Server designed to transform data streams to better match device capabilities. For example, Wireless Application Protocol
+        (WAP) gateway servers convert HTML to Wireless Markup Language (WML) for wireless devices, and a number of products can
+        reformat HTML for devices such as mobile phones and PDAs. Today, HTML-based servers predominate. HTML can be made aware of
+        a unique device requesting content; however, more often, "shadow" Web server applications are created to draw off and
+        reformat native content.
+
+  - uuid : udx88rmaj8
+    term : Gateway
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.A computer that sits between different networks or applications. The gateway converts information, data or other
+        communications from one protocol or format to another. A router may perform some of the functions of a gateway. An
+        Internet gateway can transfer communications between an enterprise network and the Internet. Because enterprises often use
+        protocols on their local-area networks (LANs) that differ from those of the Internet, a gateway will often act as a
+        protocol converter so that users can send and receive communications over the Internet.
+
+        2.A product or feature that uses proprietary techniques to link heterogeneous systems.
+
+  - uuid : udx88sqd7
+    term : Gaze Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Gaze control** is about effecting computer action by changing the direction of one's gaze. This involves determining the
+        angle or position of a user's visual attention, usually through the use of cameras, and choosing from a set of available
+        instructions that are mapped to those positions.
+
+  - uuid : udx88s2jla
+    term : Gemba Walk
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        See Waste Walk.
+
+  - uuid : udx88s41go
+    term : Gemba
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Japanese term for "actual place" but frequently used as "the shop floor" in the lean paradigm.
+
+  - uuid : udx88s5ffs
+    term : Generation Scheduling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Generation scheduling** tools analyze the electric power system network operations and the economic dispatch of each
+        power plant to optimize overall energy delivery under given constraints, such as carbon dioxide emissions or transmission
+        stability limits. Scheduling tools support different planning horizons, such as hourly, daily, weekly, monthly and
+        annually, as well as 10-year plans for long-term unit commitment and maintenance scheduling.
+
+  - uuid : udx88s74h5
+    term : GEO (geosynchronous Orbit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Orbital plane that is geosynchronous with the earth's equatorial plane (that is, zero inclination), also known as the
+        Clarke Belt, named after Arthur C. Clarke. It is also an object orbiting the earth at the earth's rotational speed and
+        with the same direction of rotation.
+
+  - uuid : udx88s8gxg
+    term : Geofencing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Creating a virtual boundary in which a device, individual or asset can be tracked and monitored or detected if the
+        boundary is violated. Examples are the tracking of pets, children and Alzheimer's patients, criminals sentenced to home
+        detention, trucks and high-value cargos.
+
+  - uuid : udx88s9vkk
+    term : Geographic Information System (GIS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **geographic information system (GIS)** is a collection of computer hardware, software and geographic data for
+        capturing, managing, analyzing and displaying every form of geographically referenced information, often called spatial
+        data.
+
+  - uuid : udx88sb8iu
+    term : Geospatial Mashups
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Geospatial mashups** are applications that can display many sources of information and the geographical relationships
+        among them. A mashup is a lightweight, Web-based, composite application, with no native data store or content repository.
+        What makes a mashup geospatial is the ability to view multiple data repositories or even real-time data streams within a
+        consistent geospatial context. Vendors may embed business intelligence (BI) functionality and in-memory online analytical
+        processing (OLAP) in more comprehensive product offerings.
+
+  - uuid : udx88sd1s8
+    term : Geostationary Satellite
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Satellite that appears to be located at a fixed point in space when viewed from the earth's surface. Satellites located in
+        geosynchronous orbit move in time with the rotation of the earth. Geostationary satellites are located 22,237 miles above
+        the earth's surface. Most VSATs and DBS satellites are placed in geosynchronous orbits (GEOs). See also DBS and VSAT.
+
+  - uuid : udx88see0g
+    term : Geothermal Cooling For Data Centers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Geothermal cooling** is different from using geothermal energy to generate power. It uses the near-constant temperature
+        of the earth just below the surface to provide cooling capability. Geothermal cooling is not new; throughout history,
+        people have kept foods and beverages, such as wine, cool by storing them below ground in cellars. For data centers,
+        geothermal cooling is implemented using a closed-loop piping system filled with water and/or a coolant that runs through
+        vertical wells under the ground, filled with a heat-transferring fill.
+
+  - uuid : udx88sg8io
+    term : Geothermal Power Generation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Geothermal power** is a highly geographically variable renewable energy source. Traditionally, energy is produced from
+        geothermal resources that have a combination of three attributes: high temperature rock, saturation of the rock mass and
+        high permeability to allow water (the heat transfer agent) to move throughout the target geothermal field. Since
+        geothermal power output can be maintained at a steady rate, it can be used as a renewable source of base load, unlike wind
+        and solar.
+
+  - uuid : udx88shyqd
+    term : Gesture Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Gesture control** is the ability to recognize and interpret movements of the human body in order to interact with and
+        control a computer system without direct physical contact. The term "natural user interface" is becoming commonly used to
+        describe these interface systems, reflecting the general lack of any intermediate devices between the user and the system.
+
+  - uuid : udx88sjq2x
+    term : Gesture Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Camera-based application that identifies and interprets user motions.
+
+  - uuid : udx88sl861
+    term : Global Delivery Model
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines a global delivery model as "the optimum combination of processes, end-to-end methodologies and quality
+        procedures, with high-quality skills and resources available internally or externally, in requisite quantities, on a
+        global basis, that enables organizations to maximize the quality of their solutions while minimizing the overall cost and
+        delivery time of their IT services."
+
+  - uuid : udx88smy12
+    term : Global Delivery Model
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Global delivery model (GDM)** refers to the assets and competencies (IT skills/labor resources, tools, policies and
+        procedures, methodologies, infrastructure, management, human resource functions, and delivery processes) of an
+        organization's service provider (internal or external) to source skills from global locations for IT/business benefit. In
+        an optimized GDM, the disparate set of resources comes together seamlessly; factors such as high process maturity and a
+        secure and scalable global infrastructure supported by significant investments to mitigate or manage risk are critical.
+
+  - uuid : udx88t1dbc
+    term : Global Delivery
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Global delivery** is the technical skills, process rigor, tools, methodologies, overall structure and strategies for
+        seamlessly delivering IT-enabled services (IT or business process services) from global locations. Global delivery
+        locations are broadly categorized as being inclusive of four options: onsite, onshore, nearshore  and offshore (see
+        "Offshore Services").
+
+  - uuid : udx88t35fj
+    term : Global Positioning System (GPS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **GPS** is a global positioning technology that was introduced in the U.S. in 1996, and was originally developed for
+        military purposes. To determine the position of a mobile device, the GPS system uses from two to six of its 24 satellites
+        to a high level of accuracy--of within just a few meters.
+
+  - uuid : udx88t4sd5
+    term : Global Regulatory Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Global regulatory management** represents key capabilities that a life science company must possess to operate in a
+        global regulatory environment that is increasingly complex and in a state of continuous change. Key capabilities that we
+        will highlight are clinical trial disclosure, product registrations and submission tracking/management. Each capability
+        area addresses a discrete but related need, driven by regulatory authorities around the globe, that must be met to be able
+        to gain product approvals, market authorizations to sell, and management of key processes to maintain compliance in each
+        country that a life science company operates in. These capabilities coexist with and leverage other systems, such as
+        regulatory document management and submission systems.
+
+  - uuid : udx88t6kx2
+    term : Glonass
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Glonass** is a global satellite positioning system run by the Russian Ministry of Defence. It runs parallel to the U.S.
+        GPS system and the planned Galileo system \[currently being built by the European Union (EU) and European Space Agency
+        (ESA)\], and its signals can be reached by any user of a Glonass receiver globally (once all satellites are available).
+
+  - uuid : udx88t8dyn
+    term : Granularity
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The ability to increase a system's capacity and performance through incremental processor expansion.
+
+  - uuid : udx88t9v06
+    term : Gray Market
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Describes the import and sale of mobile devices outside regular commercial channels as defined by the original
+        manufacturer or the relevant government, creating a parallel market to authorized distribution channels.
+
+  - uuid : udx88tbkdw
+    term : Gray Scale
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A range of gray tones used to create a monochrome image.
+
+  - uuid : udx88td1nq
+    term : Green Belt
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Designation in Six Sigma of a practitioner who has achieved the basic understanding of Six Sigma techniques and is
+        qualified to lead Six Sigma process improvement projects.
+
+  - uuid : udx88tehrj
+    term : Green Money
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Green money** is a medium of exchange used to fund and support ecological endeavors in promotion of the environmental
+        economy.
+
+  - uuid : udx88tg04p
+    term : Grid Computing Without Using Public Cloud Computers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Grid computing** refers to using computers managed by more than one organization, whether internal or external, to
+        collectively accomplish large tasks, such as derivative risk analysis, candidate drug screening or complex simulations.
+        The management domains can be separate companies, separate divisions of one company, or different data centers and
+        operating organizations inside one company. The computers involved can be dedicated to the grid, or they can contribute
+        spare cycles to run grid work; grid computing also applies to a private cloud used to run grid workloads. Grid computing
+        does not include the use of public cloud-based computers, either partially or fully. We refer to those situations as
+        cloud-based grid computing.
+
+  - uuid : udx88thqyh
+    term : Grid Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **grid computing** as a method for applying large numbers of resources, usually large amounts of
+        processing capacity, to a single task, by applying resources from more than one system. A grid is a collection of
+        resources that's coordinated to enable the resources to solve a common problem. A computing grid harnesses multiple
+        computers from several owners to run one very large application problem.
+
+  - uuid : udx88tjhyw
+    term : Gross New Connections
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Total number of new connections to a network in a given year.
+
+  - uuid : udx88tkyxj
+    term : Ground Segment
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        All earth stations and network operation centers on the ground that comprise a particular satellite communications system
+        or network. The ground segment can be connected to an end user's equipment directly or over a terrestrial network.
+
+  - uuid : udx88tmhae
+    term : Group Buying
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Group buying** is a type of social commerce in which an offer is made by an organization using socially based techniques
+        and capabilities to potential customers. However, the offers are contingent on a certain number of buyers partaking in the
+        offers, as well as other participation conditions.
+
+  - uuid : udx88uhp7
+    term : Groupware
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software that supports interpersonal processes and the objects with which people commonly work. Groupware was originally
+        coined to describe a new class of applications designed to provide electronic support for groups of individuals working
+        together toward a common goal. The term has been applied to applications ranging from unstructured electronic mail to
+        rigorously structured workflow systems. Groupware is more useful as a concept when it is broken down into three major
+        stages: communication, coordination and cooperation. In this light, groupware applications can be viewed in terms of the
+        degree of structure in the group interaction and in the complexity of that structure, and the rigor with which the
+        activity itself is monitored.
+
+  - uuid : udx88u28mg
+    term : Guard Interval
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Specified period of time used to separate transmissions so that they do not interfere with each other. In IEEE 802.11n,
+        the guard interval has been reduced from 800 ns to 400 ns to boost the throughput. Also used in TDMA transmissions. See
+        also 802.11n and TDMA.
+
+  - uuid : udx88u3os5
+    term : GUI (graphical User Interface)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A graphics-based operating system interface that uses icons, menus and a mouse (to click on the icon or pull down the
+        menus) to manage interaction with the system. Developed by Xerox, the GUI was popularized by the Apple Macintosh in the
+        1980s. At the time, Microsoft's operating system, MS-DOS, required the user to type specific commands, but the company's
+        GUI, Microsoft Windows, is now the dominant user interface for personal computers (PCs). A comprehensive GUI environment
+        includes four components: a graphics library, a user interface toolkit, a user interface style guide and consistent
+        applications. The graphics library provides a high-level graphics programming interface. The user interface toolkit, built
+        on top of the graphics library, provides application programs with mechanisms for creating and managing the dialogue
+        elements of the windows, icons, menus, pointers and scroll bars (WIMPS) interface. The user interface style guide
+        specifies how applications should employ the dialogue elements to present a consistent, easy-to-use environment (i.e.,
+        "look and feel") to the user. Application program conformance with a single user interface style is the primary
+        determinant of ease of learning and use, and thus, of application effectiveness and user productivity.
+
+# __END__

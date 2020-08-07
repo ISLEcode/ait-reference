@@ -1,0 +1,121 @@
+title    : ISLE AIT computer science glossary -- U words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8b0lr23
+    term : Ultra-High-Speed Broadband Internet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **ultra-high-speed broadband Internet** as residential services that support download speeds of more than
+        50 Mbps.
+
+  - uuid : udx8b0n8lg
+    term : Ultrabook
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **ultrabook** is a specific type of ultramobile notebook, defined by Intel. Ultrabooks are thin, lightweight and offer
+        longer battery life by utilizing new low-power CPUs integrated with instant-on capability, all without compromising
+        performance. Although Intel is likely to update its requirements for what constitutes an Ultrabook, it currently has the
+        following attributes: less than 21-mm thick, instant-on, minimum battery life of five hours, security features, a screen
+        size of 11 inches or more, and Intel processors based on Ivy Bridge architecture.
+
+  - uuid : udx8b11oul
+    term : Ultracapacitors
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Ultracapacitors** use nanomaterials to store a static charge on either side of a vast surface area of insulating
+        material. The voltages are low, but the charge density is high. Ultracapacitors exceed lead-acid energy densities, and lab
+        units far exceed the capacity of conventional batteries. The technology continues to evolve, as energy storage capacity
+        increases and costs decrease. For the data center, we expect ultracapacitors to become an option to replace batteries as
+        the backup power source for an uninterruptible power supply (UPS).
+
+  - uuid : udx8b13gg3
+    term : Unified Communications And Collaboration (UCC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Unified communications and collaboration (UCC)** describes the combination of communications and collaboration
+        technologies. Until recently, enterprise collaboration vendors were fairly distinct from those for enterprise
+        communications, with software companies like Microsoft and IBM dominating the former and telephony and networking vendors
+        comprising the latter. However, this distinction has become blurred because Microsoft and IBM offer voice and telephony
+        features and vendors like Cisco have moved into the collaboration market.
+
+  - uuid : udx8b15bwd
+    term : Unified Communications Products
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **unified communications products** (equipment, software and services) as those that facilitate the
+        interactive use of multiple enterprise communications methods. This can include control, management and integration of
+        these methods. UC products integrate communications channels (media), networks and systems, as well as IT business
+        applications and, in some cases, consumer applications and devices.
+
+  - uuid : udx8b17353
+    term : Unified Communications (UC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **unified communications (UC)** products (equipment, software and services) as those that facilitate the
+        interactive use of multiple enterprise communications methods. This can include control, management and integration of
+        these methods. UC products integrate communications channels (media), networks and systems, as well as IT business
+        applications and, in some cases, consumer applications and devices.
+
+  - uuid : udx8b18vcm
+    term : Unified Threat Management (UTM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Unified threat management (UTM)** is a converged platform of point security products, particularly suited to small and
+        midsize businesses (SMBs). Typical feature sets fall into three main subsets, all within the UTM: firewall/intrusion
+        prevention system (IPS)/virtual private network, secure Web gateway security (URL filtering, Web antivirus \[AV\]) and
+        messaging security (anti-spam, mail AV).
+
+  - uuid : udx8b1aoj2
+    term : URL (uniform Resource Locator)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **URL (uniform resource locator)** is the character string that identifies an Internet document's exact name and
+        location.
+
+  - uuid : udx8b1c7fn
+    term : User Authentication Technologies
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **User authentication technologies** encompass a variety of products and services implementing a range of authentication
+        methods in place of legacy passwords. Methods are typically classified by the kind of authentication attributes (or
+        factors) that they use, alone or in combination: something known, something held (a token) or something inherent (a
+        biometric characteristic). Authentication may be natively supported in products or services (including other security
+        tools), or provided by discrete software, hardware or cloud-based services.
+
+  - uuid : udx8b1dxyu
+    term : User Experience Platforms (UXP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **user experience platform (UXP)** is an integrated set of technologies used to provide interaction between a user and a
+        set of applications, processes, content, services or other users. A UXP has several components, including portals, mashup
+        tools, content management, search, rich Internet application (RIA) tools, analytics, collaboration, social and mobile
+        tools. It may be delivered as a suite of products or as a single product. The UXP market will fully emerge in 2013, seeded
+        by the existing suite-oriented horizontal portal vendors.
+
+  - uuid : udx8b1fqub
+    term : User Provisioning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **User provisioning** or account provisioning technology creates, modifies, disables and deletes user accounts and their
+        profiles across IT infrastructure and business applications. Provisioning tools use approaches such as cloning, roles and
+        business rules so businesses can automate onboarding, off-boarding and other administration workforce processes (for
+        example, new hires, transfers, promotions and terminations). Provisioning tools also automatically aggregate and correlate
+        identity data from HR, CRM, email systems and other "identity stores." Fulfillment is initiated via self-service,
+        management request or HR system changes. Regulatory compliance and security efficiencies continue to drive most
+        user-provisioning implementations.
+
+# __END__

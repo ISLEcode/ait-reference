@@ -1,0 +1,1426 @@
+title    : ISLE AIT computer science glossary -- D words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 03:00:17
+contents :
+
+  - uuid : udx82hgtfy
+    term : DAB+ (digital Audio Broadcasting Plus)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        DAB+ is an extension of DAB to support new and more efficient codecs with better error correction. This will, however,
+        introduce challenges for backward compatibility with older DAB radios.
+
+  - uuid : udx82hi9t3
+    term : DAB (digital Audio Broadcasting)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        DAB transmits digital signals rather than the analog audio signals traditionally used in broadcast radio. DAB is broadcast
+        on terrestrial networks, with future prospects for satellite broadcasting. Apart from receiving high-quality audio
+        entertainment via the radio, programs can be accompanied by text, such as lyrics. The DAB-IP variant used by Virgin U.K.
+        can support video.
+
+  - uuid : udx82hjofl
+    term : Daemon
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Unix process initiated during system boot and activated automatically to perform a particular task.
+
+  - uuid : udx82hl6g1
+    term : Daisy-chaining
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The connection of multiple devices in a serial fashion. An advantage of daisy-chaining is savings in transmission
+        facilities. A disadvantage is that if a device malfunctions, all of the devices daisy-chained behind it are disabled.
+
+  - uuid : udx82hmr2s
+    term : DAP (Directory Access Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A protocol for working among X.500 Directory Service Agents.
+
+  - uuid : udx82iwh2
+    term : DAP (Distributed Application Platform)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An application framework introduced in 1997 by Visigenic (later acquired by Borland International).
+
+  - uuid : udx82i29wt
+    term : DAPP (data Analysis And Provider Profiling)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        DAPP vendors are those that provide healthcare value-added analytic applications to support analysis of administrative
+        data for the purposes of network management, actuarial and underwriting functions, medical management and performance
+        measurement -- including Health Plan Employer Data and Information Set (HEDIS) reporting.
+
+  - uuid : udx82i3rg5
+    term : Dark Fiber
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Fiber-optic cable deployments that are not yet being used to carry network traffic. (The word "dark" refers to the fact
+        that no light is passing through the optical fibers.)
+
+  - uuid : udx82i54xm
+    term : DARPA (Defense Advanced Research Projects Agency)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The U.S. government department that developed the Transmission Control Protocol/Internet Protocol (TCP/IP) ARPANET
+        protocol architecture.
+
+  - uuid : udx82i6m88
+    term : DAS (distributed Antenna System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        System that uses passive (non-powered) or active (powered) networking equipment, such as antennas, fiber-optic, coaxial
+        cable and other technologies to extend RF coverage (of any technology) inside a building.
+
+  - uuid : udx82i7x32
+    term : DAS (dual-attached Station)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In Fiber Distributed Data Interface (FDDI), a device that is attached to both the primary and secondary rings.
+
+  - uuid : udx82i9f39
+    term : DASD (direct-access Storage Device)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Generic nomenclature for a storage peripheral that can respond directly to random requests for information; usually
+        denotes a disk drive.
+
+  - uuid : udx82ib0c1
+    term : DASH7
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **DASH7** is a standard, promoted by the DASH7 Alliance that leverages the 433Mhz band unlicensed spectrum, supporting the
+        networking of sensors up to 2 km apart and in-building positioning within 1 meter. The battery life for modules can be
+        several years, with DASH7 supporting AES 128-bit public key encryption and data rates of 200 kbps.
+
+  - uuid : udx82icj61
+    term : Dashboards
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dashboards** are a reporting mechanism that aggregate and display metrics and key performance indicators (KPIs),
+        enabling them to be examined at a glance by all manner of users before further exploration via additional business
+        analytics (BA) tools. Dashboards help improve decision making by revealing and communicating in-context insight into
+        business performance, displaying KPIs or business metrics using intuitive visualization, including charts, dials, gauges
+        and "traffic lights" that indicate the progress of KPIs toward defined targets.
+
+  - uuid : udx82iebm5
+    term : DAT (digital Audiotape)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A magnetic tape that stores audio data converted to digital form.
+
+  - uuid : udx82ifs6f
+    term : DAT (dynamic Address Translation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The change of a logical storage address to an actual storage address.
+
+  - uuid : udx82ihabs
+    term : Data Center Bridging (DCB)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The term **"data center bridging" (DCB)** refers to a collection of proposed standards designed to transform Ethernet into
+        a lossless network with efficient Layer 2 multipath forwarding. DCB (formerly called converged enhanced Ethernet \[CEE\])
+        depends on a handful of standards that are being developed by three different standards bodies: the American National
+        Standards Institute, the Institute of Electrical and Electronics Engineers and the Internet Engineering Task Force (IETF).
+        It is also known as Data Center Ethernet (DCE).
+
+  - uuid : udx82ij39q
+    term : Data Center Infrastructure Management (DCIM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data center infrastructure management (DCIM)** tools monitor, measure, manage and/or control data center utilization and
+        energy consumption of all IT-related equipment (such as servers, storage and network switches) and facility infrastructure
+        components (such as power distribution units \[PDUs\] and computer room air conditioners \[CRACs\]).
+
+  - uuid : udx82il2ck
+    term : Data Center Outsourcing (DCO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data center outsourcing (DCO)** is a multiyear, annuity contract or relationship involving the day-to-day management
+        responsibility for operating server or host platforms, including distributed servers and storage. Services include any
+        combination (or all) of professional services and product support, as they relate to the ongoing management of computing
+        and storage resources.
+
+  - uuid : udx82imrsj
+    term : Data Center Storage Encryption
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data center storage encryption** tools offer configuration, management and reporting for disparate encryption solutions
+        that are available for encrypting data in enterprise data centers. The console manages the encryption infrastructure (key
+        management, policy definition, enforcement and access control), and deploys policies and configurations to the component
+        that performs the actual encryption. Key management is handled by the encryption tools or by an enterprise key manager,
+        and data access is managed at the application or data storage layer.
+
+  - uuid : udx82j1357
+    term : Data Center
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **data center** is the department in an enterprise that houses and maintains back-end information technology (IT)
+        systems and data stores--its mainframes, servers and databases. In the days of large, centralized IT operations, this
+        department and all the systems resided in one physical place, hence the name data center.
+
+        With today's more distributed computing methods, single data center sites are still common, but are becoming less so. The
+        term continues to be used to refer to the department that has responsibility for these systems, no matter how dispersed
+        they are.
+
+        Market and industry trends are changing the way enterprises approach their data center strategies. Several factors are
+        driving enterprises to look beyond traditional technology infrastructure silos and transform the way they view their data
+        center environment and business processes. These include aging data center infrastructures that are at risk for not
+        meeting future business requirements, an ongoing cost-consciousness, and the need to be more energy-efficient.
+
+        Many enterprises are looking to virtualization, fabric-based infrastructure, modular designs and cloud computing as they
+        explore how best to optimize their resources.
+
+  - uuid : udx82j2wyr
+    term : Data Deduplication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data deduplication** is a form of compression that eliminates redundant data on a subfile level, improving storage
+        utilization. In this process, only one copy of the data is stored; all the redundant data will be eliminated, leaving only
+        a pointer to the previous copy of the data. Deduplication can significantly reduce the required disk space, since only the
+        unique data is stored.
+
+  - uuid : udx82j4ns4
+    term : Data Dependency Mapping
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data dependency mapping** products are software products that determine and report on the likelihood of achieving
+        specified recovery targets, based on analyzing and correlating data from applications, databases, clusters, OSs, virtual
+        systems, networking and storage replication mechanisms. These products operate on direct-attached storage (DAS),
+        storage-area-network (SAN)-connected storage and network-attached storage (NAS) at the primary production and secondary
+        recovery data centers.
+
+  - uuid : udx82j6guu
+    term : Data Integration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The discipline of **data integration** comprises the practices, architectural techniques and tools for achieving the
+        consistent access and delivery of data across the spectrum of data subject areas and data structure types in the
+        enterprise to meet the data consumption requirements of all applications and business processes.
+
+        Data integration tools have traditionally been delivered via a set of related markets, with vendors in each market
+        offering a specific style of data integration tool. In recent years, most of the activity has been within the ETL tool
+        market. Markets for replication tools, data federation (EII) and other submarkets each included vendors offering tools
+        optimized for a particular style of data integration, and periphery markets (such as data quality tools, adapters and data
+        modeling tools) also overlapped with the data integration tool space. The result of all this historical fragmentation in
+        the markets is the equally fragmented and complex way in which data integration is accomplished in large enterprises --
+        different teams using different tools, with little consistency, lots of overlap and redundancy, and no common management
+        or leverage of metadata. Technology buyers have been forced to acquire a portfolio of tools from multiple vendors to amass
+        the capabilities necessary to address the full range of their data integration requirements.
+
+        This situation is now changing, with the separate and distinct data integration tool submarkets converging at the vendor
+        and technology levels. This is being driven by buyer demands as organizations realize they need to think about data
+        integration holistically and have a common set of data integration capabilities they can use across the enterprise. It is
+        also being driven by the actions of vendors, such as those in individual data integration submarkets organically expanding
+        their capabilities into neighboring areas, as well as by acquisition activity that brings vendors from multiple submarkets
+        together. The result is a market for complete data integration tools that address a range of different data integration
+        styles and are based on common design tooling, metadata and runtime architecture.
+
+  - uuid : udx82j82bh
+    term : Data Loss Protection
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data loss protection (DLP)** describes a set of technologies and inspection techniques used to classify information
+        content contained within an object -- such as a file, email, packet, application or data store -- while at rest (in
+        storage), in use (during an operation) or in transit (across a network). DLP tools are also have the ability to
+        dynamically apply a policy -- such as log, report, classify, relocate, tag and encrypt -- and/or apply enterprise data
+        rights management protections.
+
+  - uuid : udx82j9sm5
+    term : Data Mining
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of discovering meaningful correlations, patterns and trends by sifting through large amounts of data stored in
+        repositories. Data mining employs pattern recognition technologies, as well as statistical and mathematical techniques.
+
+  - uuid : udx82jbb6n
+    term : Data Profiling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data profiling** is a technology for discovering and investigating data quality issues, such as duplication, lack of
+        consistency, and lack of accuracy and completeness. This is accomplished by analyzing one or multiple data sources and
+        collecting metadata that shows the condition of the data and enables the data steward to investigate the origin of data
+        errors. The tools provide data statistics, such as degree of duplication and ratios of attribute values, both in tabular
+        and graphical formats.
+
+  - uuid : udx82jd2vf
+    term : Data Quality Software As A Service (SaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data quality software as a service (SaaS)** refers to data quality functionality (such as profiling, matching,
+        standardization and validation) delivered using a model in which an external provider owns the infrastructure and provides
+        the capabilities in a shared, multitenant environment used by its customers. Various offerings for data quality SaaS can
+        be used as alternatives to in-house deployments of data quality software tools or the development of custom-coded
+        solutions.
+
+  - uuid : udx82jewmo
+    term : Data Quality Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The market for data quality tools has become highly visible in recent years as more organizations understand the impact of
+        poor-quality data and seek solutions for improvement. Traditionally aligned with cleansing of customer data (names and
+        addresses) in support of CRM-related activities, the tools have expanded well beyond such capabilities, and
+        forward-thinking organizations are recognizing the relevance of these tools in other data domains. Product data -- often
+        driven by MDM initiatives -- and financial data (driven by compliance pressures) are two such areas in which demand for
+        the tools is quickly building.
+
+        Data quality tools are used to address various aspects of the data quality problem:
+
+        -   Parsing and standardization -- Decomposition of text fields into component parts and formatting of values into
+            consistent layouts based on industry standards, local standards (for example, postal authority standards for address
+            data), user-defined business rules, and knowledge bases of values and patterns
+
+        -   Generalized "cleansing" -- Modification of data values to meet domain restrictions, integrity constraints or other
+            business rules that define sufficient data quality for the organization
+
+        -   Matching -- Identification, linking or merging related entries within or across sets of data
+
+        -   Profiling -- Analysis of data to capture statistics (metadata) that provide insight into the quality of the data and
+            aid in the identification of data quality issues
+
+        -   Monitoring -- Deployment of controls to ensure ongoing conformance of data to business rules that define data quality
+            for the organization
+
+        -   Enrichment -- Enhancing the value of internally held data by appending related attributes from external sources (for
+            example, consumer demographic attributes or geographic descriptors)
+
+        The tools provided by vendors in this market are generally consumed by technology users for internal deployment in their
+        IT infrastructure, although hosted data quality solutions are continuing to emerge and grow in popularity. The tools are
+        increasingly implemented in support of general data quality improvement initiatives, as well as within critical
+        applications, such as ERP, CRM and BI. As data quality becomes increasingly pervasive, many data integration tools now
+        include data quality management functionality.
+
+  - uuid : udx82jgp7s
+    term : Data Replication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The data replication segment includes a set of data replication products that reside in the disk array controller, in a
+        device in the storage network or on a server. Included are local and remote replication products, migration tools, and
+        disk imaging products. Also included are replication products specifically targeted as an alternative to backup
+        applications. Not included are database replication products, log-based DBMS replication products or application-based
+        replication products.
+
+  - uuid : udx82jigm7
+    term : Data Scientist
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **data scientist** role is critical for organizations looking to extract insight from information assets for "big
+        data" initiatives and requires a broad combination of skills that may be fulfilled better as a team, for example:
+        Collaboration and team work is required for working with business stakeholders to understand business issues. Analytical
+        and decision modeling skills are required for discovering relationships within data and detecting patterns. Data
+        management skills are required to build the relevant dataset used for the analysis.
+
+  - uuid : udx82jk7ln
+    term : Data Synchronization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A form of embedded middleware that allows applications to update data on two systems so that the data sets are identical.
+        These services can run via a variety of different transports but typically require some application-specific knowledge of
+        the context and notion of the data being synchronized.
+
+  - uuid : udx82jln04
+    term : Data Warehouse
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **data warehouse** is a storage architecture designed to hold data extracted from transaction systems, operational data
+        stores and external sources. The warehouse then combines that data in an aggregate, summary form suitable for
+        enterprise-wide data analysis and reporting for predefined business needs. The five components of a data warehouse are
+        production data sources, data extraction and conversion, the data warehouse database management system, data warehouse
+        administration and business intelligence (BI) tools.
+
+        A data warehouse contains data arranged into abstracted subject areas with time-variant versions of the same records, with
+        an appropriate level of data grain or detail to make it useful across two or more different types of analyses most often
+        deployed with tendencies to third normal form. A data mart contains similarly time-variant and subject-oriented data, but
+        with relationships implying dimensional use of data wherein facts are distinctly separate from dimension data, thus making
+        them more appropriate for single categories of analysis.
+
+  - uuid : udx82k20
+    term : Data Wiping
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Data wiping** is the process of logically removing data from a read/write medium so that it can no longer be read.
+        Performed externally by physically connecting storage media to a hardware bulk-wiping device, or internally by booting a
+        PC from a CD or network, it is a nondestructive process that enables the medium to be safely reused without loss of
+        storage capacity or leakage of data.
+
+  - uuid : udx82k1xii
+    term : Database Activity Monitoring (DAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Database activity monitoring (DAM)** refers to a suite of tools that can be used to support the ability to identify and
+        report on fraudulent, illegal or other undesirable behavior, with minimal impact on user operations and productivity. The
+        tools, which have evolved from basic analysis of user activity in and around relational database management systems
+        (RDBMSs) to encompass a more comprehensive set of capabilities, such as discovery and classification, vulnerability
+        management, application-level analysis, intrusion prevention, support for unstructured data security, identity and access
+        management integration, and risk management support.
+
+  - uuid : udx82k3ixg
+    term : Database Appliances
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **database appliance** is a prepackaged or pre-configured, balanced set of hardware (servers, memory, storage and
+        input/output channels), software (operating system, database management system \[DBMS\] and management software), service
+        and support. It is sold as a unit with built-in redundancy for high availability and positioned as a platform for DBMS use
+        in online transaction processing (OLTP) and/or data warehousing (DW).
+
+  - uuid : udx82k528r
+    term : Database Audit And Protection (DAP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Database audit and protection (DAP)** tools provide comprehensive security for relational database management systems
+        (RDBMSs). DAP tools have their roots in the basic monitoring capabilities of database activity monitoring (DAM) tools. In
+        response to expanded client requirements, vendors have added additional capabilities, such as data discovery and
+        classification, threat and vulnerability management, application-level analysis, intrusion prevention and activity
+        blocking, and identity and access management analysis.
+
+  - uuid : udx82k6olj
+    term : Database Design
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This includes logical (entity relationship) and physical (table, column and key) design tools for data. Physical data
+        modeling is becoming almost mandatory for applications using relational database management systems (RDBMSs). Strong
+        support for physical modeling is paired with facilities to manage multiple models, to submodel or extract from larger
+        models, and to reverse-engineer a database design from established tables. Data architects/analysts and database
+        designers/administrators are the primary targeted users of these tools, although developers are a secondary market often
+        targeted with a subset of the complete functionality.
+
+  - uuid : udx82k8gs8
+    term : Database Encryption
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Database encryption** tools are used to protect data within relational database management systems (RDBMSs). Encryption
+        can be implemented using native DBMS tools, third-party software tools and network-based appliances, or implemented within
+        storage networks via fabric-based encryption. Database encryption is increasingly being implemented as a regulatory check
+        box by clients that enable built-in encryption. There are two operational scenarios: encrypting the entire database or
+        encrypting specific columns or fields within the RDBMS.
+
+  - uuid : udx82ka839
+    term : DBMS (database Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A DBMS is a product used for the storage and organization of data that typically has defined formats and structures. DBMSs
+        are categorized by their basic structures and, to some extent, by their use or deployment.
+
+  - uuid : udx82kbkow
+    term : DBMS Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Included here are tools for monitoring and diagnosing problems with databases, analyzing and improving the performance of
+        databases, and routine administration of databases, including configuration changes. Examples include database management
+        monitors, SQL tuners, space tuners, reorganization tools, utilities, loaders and unloaders, and many other tools, as well
+        as suites that may include several of the above.
+
+  - uuid : udx82kddy0
+    term : DBS (direct Broadcast Satellite)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Type of satellite used for consumer services, primarily the transmission of radio and TV programs. A direct broadcasting
+        satellite is similar to a fixed-service satellite (FSS); however, it offers a higher power output, requiring smaller
+        antennas to receive the signal. Typical DBS services offer digital programming, digital audio services and, increasingly,
+        high-definition TV (HDTV).
+
+  - uuid : udx82kex97
+    term : DDBMS (distributed Database Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A DBMS that enables end users or application programmers to view a collection of physically separate databases as one
+        logical single-system image. The concept that is most fundamental to the DDBMS is location transparency, meaning the user
+        should not be conscious of the actual location of data.
+
+  - uuid : udx82kgf9y
+    term : DDL (data Definition Language)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A language used to describe the data model for a database, i.e., the names and access paths for the data and how they are
+        interrelated. In some software products, the DDL describes the logical, not the physical, data. Other products use it to
+        describe both.
+
+  - uuid : udx82khrkf
+    term : Deal Sweet Spot Analysis
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A service provider's deal sweet spots comprise five characteristics that epitomize the nature and boundaries of the
+        services that a provider can most likely excel at when delivering IT professional services to clients.
+
+  - uuid : udx82kj9yn
+    term : Demand-Driven Value Network (DDVN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Demand-driven value network (DDVN)** is a business environment holistically designed to maximize value of and optimize
+        risk across the set of extended supply chain processes and technologies that senses and orchestrates demand based on a
+        near-zero-latency demand signal across multiple networks of corporate stakeholders and trading partners.
+
+  - uuid : udx82kl2n6
+    term : Demand Forecasting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Demand forecasting** applications incorporate historical and predictive customer demand information into production line
+        and sales quotas.
+
+  - uuid : udx82kmjoq
+    term : Demand Pattern Analysis
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Demand pattern analysis** is an emerging area in supply chain management (SCM) that analyzes customer and demand data to
+        better predict demand across multiple time horizons in a demand-driven value network (DDVN). For example, in the strategic
+        time horizon (12 months to three years), companies can analyze macro changes in customer demand, macroeconomic indicators
+        and corporate strategic business goals, such as reaching a target market share for an established product. Tactically (12
+        weeks to 12 months), companies can better analyze demand with increased collaboration with customers on marketing plans,
+        including more alignment for new product introduction (NPI), seasonality or a promotional event. Operationally (one week
+        to 12 weeks), companies can leverage frameworks like collaborative planning, forecasting and replenishment (CPFR) and
+        causal forecasting, as opposed to relying on lagging historical demand data to determine downstream needs and
+        opportunities.
+
+  - uuid : udx82l104b
+    term : Demand Response (DR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Demand response (DR)** is broadly defined as a measure for reducing energy load in response to supply constraints,
+        generally during periods of peak demand.
+
+  - uuid : udx82l2fv4
+    term : Demand Signal Repository (DSR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Demand signal repository (DSR)** is a centralized database that stores, harmonizes and normalizes data attributes and
+        organizes large volumes of demand data--such as point-of-sale (POS) data, wholesaler data, electronic data interchange
+        (EDI) 852 and 867, inventory movement, promotional data and customer loyalty data for use by decision support technologies
+        (category management, account team joint value creation, shopper insight analysis, demand planning forecast improvement,
+        inventory deployment, replenishment and transportation planning). At the enterprise level, DSRs can become the foundation
+        for a comprehensive information architecture strategy, driving an array of demand and supply-related predictive analytic
+        applications and processes. The definition will continue to evolve as additional sources of demand data become available
+        (i.e., social media mining and the emergence of the digital-mobile consumer).
+
+  - uuid : udx82l41ht
+    term : Deming PDCA Cycle
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Continuous improvement model of "Plan, Do, Check, Act." Often represented as the four quadrants of the rim of a circle to
+        reflect the fact that once all four elements have been accomplished, the cycle repeats.
+
+  - uuid : udx82l5id8
+    term : Deployment
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Deployment services support the implementation and rollout of new applications or infrastructure. Activities may include
+        hardware or software procurement, configuration, tuning, staging, installation and interoperability testing.
+
+  - uuid : udx82l719j
+    term : Design Thinking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Design thinking** is a multidisciplinary process that builds solutions for complex, intractable problems in a
+        technically feasible, commercially sustainable and emotionally meaningful way. Design thinkers balance intuitive
+        originality (the hallmarks of great designers) with analytic mastery (the hallmarks of business leaders and engineers) to
+        create business-focused outcomes that generate transformative, innovative and strategic change.
+
+  - uuid : udx82l8sam
+    term : Design-to-Demand
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Design-to-demand** technology in the automotive industry provides the ability to incorporate consumer requirements
+        faster and more accurately into product attributes (such as vehicle design, control ergonomics and overall functionality)
+        and product applications (for example, product life cycle management \[PLM\]) to develop desirable automobiles that meet
+        higher consumer acceptance.
+
+  - uuid : udx82lakuj
+    term : Desktop Outsourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Desktop outsourcing is a multiyear or annuity contract or relationship involving the day-to-day management responsibility
+        for operating desktop/client platforms. Services include any combination (or all) of the product support and professional
+        services as they specifically relate to the ongoing management of the desktop resources (including desktop peripherals).
+        Minimally, desktop outsourcing contracts always include services encompassed by the computing environment of the operation
+        services segment. Help desk management services are included only to the extent that problem determination and resolution
+        is at the computing hardware level or the infrastructure software or OS software level. Application management services
+        are included only to the extent of the infrastructure software or OS software level. A desktop system can include any
+        client system (including a notebook) and may include the client systems of remote employees, such as telecommuters and
+        mobile staff. Services may be provided at the client site or off-site. IT assets may be owned by either the client, the
+        ESP or a third party. Contracts may include the transfer of client employees, IT assets and facilities to the ESP.
+
+  - uuid : udx82lcc1q
+    term : Desktop Virtualization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Desktop virtualization** is a technology that decouples a PC desktop environment from a physical device so that the
+        virtual machine (VM) of the PC desktop stored in a centralized server can be accessed from a remote client device through
+        a network. There are various desktop virtualization technologies targeting different use cases, such as hosted virtual
+        desktop (HVD), local VM, streaming desktop and hosted shared desktop.
+
+  - uuid : udx82ldx01
+    term : DEVA (document-enabled Vertical Application)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Gartner concept that applies integrated document and output management (IDOM) technologies in specific industries for
+        support of vertical (or sometimes horizontal) processes. Examples of industries and related processes include insurance
+        (claims processing), engineering (technical document management), pharmaceuticals (new drug application), financial
+        services (retirement processing) and cross-industry applications (call-center support).
+
+  - uuid : udx82lfns7
+    term : Development And Integration Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Development and integration services support the implementation and rollout of new network infrastructure, including
+        consolidation of established network infrastructure. Activities may include hardware or software procurement,
+        configuration, tuning, staging, installation and interoperability testing.
+
+  - uuid : udx82lharm
+    term : Device-Embedded Biometric Authentication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Device-embedded biometric authentication** is a specialized use of biometric authentication methods to improve the
+        security of endpoint devices, such as notebook PCs, smartphones and tablets, using capture devices (sensors) and biometric
+        feature extraction and comparison software built into the device itself. Because such a mobile device is essentially
+        personal to one user, the mode is typically a one-to-one comparison of a probe biometric sample against the user's
+        biometric reference stored on the device.
+
+  - uuid : udx82lj3yy
+    term : Device Resource Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Storage subsystems and SAN infrastructure component software products provide configuration utilities and agents that
+        collect capacity, performance and status information, usually for a single device type or a set of devices from a single
+        vendor. Most of the products in this segment are called element managers.
+
+  - uuid : udx82lkjuo
+    term : DevOps
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **DevOps** movement was born of the need to improve IT service delivery agility and found initial traction within many
+        large public cloud services providers. Underpinning DevOps is the philosophy found in the Agile Manifesto, which
+        emphasizes people (and culture) and seeks to improve collaboration between operations and development teams. DevOps
+        implementers also attempt to better utilize technology--especially automation tools that can leverage an increasingly
+        programmable and dynamic infrastructure from a life cycle perspective.
+
+  - uuid : udx82lmdnc
+    term : DFSS (design For Six Sigma)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Design for Six Sigma is a technique that prescribes a specific approach to product design emphasizing variability
+        reduction and quality.
+
+  - uuid : udx82mhif
+    term : DFX (design For X)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Design for "x," where "x" can be manufacturing, service, quality, maintenance, etc.
+
+  - uuid : udx82m2ao7
+    term : DGT (Directorate General Of Telecommunications, Taiwan)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Regulator for telecommunications, broadcast radio and TV in Taiwan, an agency of the Ministry of Transportation and
+        Communications.
+
+  - uuid : udx82m3rf4
+    term : DIF (Data Interchange Format)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A file format developed for VisiCalc, the first electronic spreadsheet. Still used today as a means for transferring files
+        to and from spreadsheets.
+
+  - uuid : udx82m591f
+    term : Digital Cross-Connect (DXC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Digital cross-connect (DXC)** systems are used at major network nodes to cross-connect a number of inbound and outbound
+        circuits. The cross-connecting of circuits is done when circuits are provisioned, but, typically, cross-connects are also
+        used to implement various schemes for protection switching and network restoration. In the SDH market, the abbreviation
+        "DXC" is used for digital cross-connects, whereas they are referred to as "DCSs" in the SONET world.
+
+  - uuid : udx82m70yv
+    term : Digital Dial Tone
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Gartner term describing the combination of XML and Internet transport protocols -- such as HTTP, SMTP and FTP -- to
+        create a ubiquitous capability to exchange structured information. The metaphor relies on the contrast between previous
+        business to business (B2B) message exchanges -- such as electronic data exchange (EDI) using X12, EDI for Administration,
+        Commerce and Transportation (EDIFACT) and various vertical-industry-specific standards -- and the unstructured
+        communications media of telephone and fax. The former required considerable investment and the interposition of a private
+        network -- or substantial bilateral negotiation -- to achieve interoperability, while the latter are ubiquitous and
+        broadly interoperable. With the Internet and ubiquitous software to implement Internet transport protocols, business
+        partners can reduce the cost, delay and risk of implementing B2B messaging.
+
+        Internet transport protocols by themselves do not constitute a complete digital-dial-tone solution. For secure application
+        messaging to occur over the Internet, communicating systems must be programmed to additional specifications in key areas
+        such as security, routing and access control. Ubiquity will not be achieved until integration products agree on standards
+        for meeting these requirements.
+
+  - uuid : udx82m8rr3
+    term : Digital Divide
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The gap in opportunities experienced by those with limited accessibility to technology, especially the Internet. This
+        includes, but is not limited to, accessibility challenges in the following areas:
+
+        Cultural (e.g., membership of a community that prohibits or restricts access to technology)
+
+        Physical (e.g., having a disability that make it difficult or impossible to use a computer)
+
+        Economic (e.g., being unable to afford a computer)
+
+        Educational (e.g., not knowing how to use a computer)
+
+  - uuid : udx82mak3k
+    term : Digital Forensics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **digital forensics** as the use of specialized, investigative techniques and technologies to determine
+        whether illegal or otherwise inappropriate events have occurred on computer systems, and provide legally defensible
+        information about the sequence of those events.
+
+  - uuid : udx82mc29t
+    term : Digital Loopback
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technique for testing the digital processing circuitry of a communications device. It can be initiated locally or
+        remotely via a telecommunications circuit; the device being tested will echo back a received test message (after first
+        decoding and then re-encoding it) the results of which are compared with the original message.
+
+  - uuid : udx82mdjlq
+    term : Digital Marketing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Digital marketing** , which continues to be integrated with multichannel campaign management, includes addressable
+        branding/advertising, contextual marketing, social marketing and transactional marketing. Digital marketing extends the
+        marketing process through channels such as the Web, video, mobile and social applications, point-of-sale terminals,
+        digital signage and kiosks.
+
+  - uuid : udx82mfcxj
+    term : Digital Modem
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system component that enables communication over digital access facilities with a remotely located system connected to
+        the public network over analog facilities.
+
+  - uuid : udx82mgtji
+    term : Digital Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A network incorporating both digital switching and digital transmission.
+
+  - uuid : udx82mi9rp
+    term : Digital Pathology Scanners
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Digital pathology scanning** is the use of microscopic array technology to produce a three-dimensional digital
+        representation of a pathology slide for viewing and automated image analysis. Digital pathology scanning facilitates
+        digital telepathology -- pathologists remotely viewing digitized laboratory specimens.
+
+  - uuid : udx82mjqu1
+    term : Digital Signature
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **digital signature** is a specific type of electronic signature (e-signature) that relies on public-key cryptography to
+        support identity authentication and provide data and transaction integrity. It is used as a means to reach a goal of
+        providing irrefutable evidence that a specific digital object originated from a specific individual and has not been
+        altered. The authentication mechanism supports the business need of capturing the signer's intent to sign. Digital
+        signatures are used to support several security functions. However, the focus of this technology profile is on digital
+        signatures used to protect the integrity and authenticity of documents, such as forms, agreements or contracts, and to
+        demonstrate intent to sign.
+
+  - uuid : udx82mlhy1
+    term : Digital Switching
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of establishing and maintaining a connection under stored program control where binary-encoded information is
+        routed between an input and an output port.
+
+  - uuid : udx82mmwas
+    term : Digital Thick Wallet Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **digital thick wallet** stores the secure information necessary to authenticate a user and initiate an authorization
+        process for one or more payment instruments via a PC, tablet, mobile device or gaming device. It also enables users to set
+        preferences for security, loyalty and financial management purposes.
+
+  - uuid : udx82nyol
+    term : Digital Thin Wallet Solutions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **digital thin wallet** is simply a storage capability for secure financial information to initiate a payment
+        transaction via a PC, tablet, mobile device or gaming device. It does not enable users to set preferences for security and
+        financial management purposes, nor does it contain a loyalty management application.
+
+  - uuid : udx82n2p4x
+    term : Digital Transformation Consulting (DTC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Digital transformation consulting (DTC)** services are strategy and transformation consulting services supporting senior
+        business stakeholders, such as CEOs, COOs, chief marketing officers (CMOs) and other business leaders. DTC particularly
+        helps these leaders in efforts to leverage digital technologies that enable the innovation of their entire business or
+        elements of their business and operating models. Specific capabilities include consulting services for digital strategy
+        and transformation, digital operations, and digital customer experience.
+
+  - uuid : udx82n4htm
+    term : Digital Wallet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **digital wallet** is a storage place of secure information necessary to authenticate a user and initiate an
+        authorization process to make a transaction to purchase goods and services.
+
+  - uuid : udx82n6000
+    term : Digital Watermarking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Digital watermarking** refers to several different forms of tamper-resistant metadata that is used primarily to maintain
+        a link to the data owner to support intellectual property claims and, secondarily, to enforce handling instructions.
+        Invisible watermarks, which are usually based on a form of encryption technology, can be applied to multimedia objects
+        (bitmaps, audio and video), and persist even when those objects are digitally manipulated.
+
+  - uuid : udx82n7ppx
+    term : Digital
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Signal transmission that conveys information through a series of coded pulses representing 1s and 0s (binary code).
+
+  - uuid : udx82n984n
+    term : Digitalization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Digitalization** is an emerging business model that includes the extension and support of electronic channels, content
+        and transactions. Life and P&C insurers are embracing this strategy to transform their businesses, while balancing
+        electronic capabilities with traditional business practices (hard-copy documents and correspondence, face-to-face
+        interactions, and call center volume).
+
+  - uuid : udx82nb0iy
+    term : Digitize
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        To convert or express an analog form in a digital format.
+
+  - uuid : udx82ncho0
+    term : Direct Channel
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This is a channel through which hardware, software and peripherals are sold by the manufacturer directly to the end user:
+
+        -   Direct sales force -- This is a channel through which products move directly from the manufacturer or vendor to the
+            end user, usually by a professionally trained field sales force.
+
+        -   Direct fax/phone/Web -- This is a channel through which manufacturers sell their own products directly to end users
+            through the use of the telephone, Web, fax, fax back and mail, including e-mail and catalog.
+
+        -   Direct retail -- These are storefront operations owned and managed by the vendor, typically a manufacturer of computer
+            systems. Direct stores are more common in Europe and Japan than in other parts of the world. Sales through direct
+            stores are not reported separately by Gartner's worldwide services. They are grouped under direct sales force or one
+            of the indirect channels.
+
+  - uuid : udx82nea6h
+    term : Direct Chip Cooling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Direct chip cooling** uses liquid or phase-change heat-transfer mechanisms operating on, or thermally close to, the
+        exposed rear surface of the silicon of the chip. This approach provides maximum power and heat dissipation at a minimum
+        operating temperature. Under operating conditions, a processor can operate significantly faster than a processor cooled by
+        other traditional and conventional means.
+
+  - uuid : udx82nfu0g
+    term : Directed Speech Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A system that uses a script-like dialogue instead of complete, free-form natural language. For each question asked, there
+        are a limited number of valid responses. With this approach, accuracy rates may go up dramatically on less-expensive
+        hardware.
+
+  - uuid : udx82nha7u
+    term : Directory Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Middleware that locates the correct and full network address for a mail addressee from a partial name or address. A
+        directory service provides a naming service and extends the capabilities to include intelligent searching and location of
+        resources in the directory structure.
+
+  - uuid : udx82niqwe
+    term : Dirty Protocols
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Many Internet Protocol (IP) applications assume that direct IP connectivity exists between hosts. In today's Internet or
+        extranets, this is often not true. The problems of limited IP address space have caused many enterprises to use private
+        Request for Comment (RFC) 1918 addresses. These addresses cannot be routed and, for enterprises to connect to the Internet
+        or to communicate in an extranet, address translations or application proxies must be used. For applications that exchange
+        their IP addresses between the client and the server, these "dirty" IP address are not valid when one or both of the end
+        systems exist on an RFC 1918 network. In addition, without using special techniques, applications like File Transfer
+        Protocol (FTP) will not work when an enterprise uses private RFC 1918 addresses.
+
+  - uuid : udx82nkji2
+    term : Disaster Recovery (DR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Disaster recovery (DR)** is defined as (1) The use of alternative network circuits to re-establish communications
+        channels in the event that the primary channels are disconnected or malfunctioning, and (2) The methods and procedures for
+        returning a data center to full operation after a catastrophic interruption (e.g., including recovery of lost data).
+
+  - uuid : udx82nmbht
+    term : Disciplined Multisourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The disciplined provisioning and blending of business and IT services from the optimal set of internal and external
+        providers in the pursuit of business goals.
+
+  - uuid : udx82oh8o
+    term : Discrete Manufacturing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The production of a discrete category of goods (e.g., automobiles, aircraft, computers or component assemblies).
+
+  - uuid : udx82o1y67
+    term : Discretionary Security Controls
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An operating-system security rating of C2 or higher based on U.S. Department of Defense trusted computer system evaluation
+        criteria.
+
+  - uuid : udx82o3h4k
+    term : Discussion Database
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A database designed specifically for the capture, exchange and storage of ideas (e.g., Lotus Notes).
+
+  - uuid : udx82o4xe1
+    term : Discussion Forum
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An environment where participants can pose issues for discussion and respond to any contribution, thus creating threaded
+        discussions that can spawn a discussion tree where the discussion branches out in many directions or subthreads.
+
+  - uuid : udx82o6fi0
+    term : Dish/Stirling Engine
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **dish/Stirling engine** is a type of concentrated solar power (CSP) system. A large mirrored dish collects and
+        concentrates the sun's heat on to a receiver, which absorbs the heat and transfers it to fluid within a Stirling engine.
+        The heat causes the fluid in the engine to expand against a piston or turbine. The mechanical power produced runs a
+        generator or alternator to produce electricity.
+
+  - uuid : udx82o806s
+    term : Distributed Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A form of computing in which data and applications are distributed among disparate computers or systems, but are connected
+        and integrated by means of network services and interoperability standards such that they function as a single
+        environment. See DCE (distributed computing environment).
+
+  - uuid : udx82o9cio
+    term : Distributed Data Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A form of client/server computing in which some portion of the application data executes on two or more computers.
+
+  - uuid : udx82oanqi
+    term : Distributed Database
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A database whose objects (tables, views, columns and files) reside on more than one system in a network, and can be
+        accessed or updated from any system in the network.
+
+  - uuid : udx82oc616
+    term : Distributed Function
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A form of client/server computing in which some of the application program logic executes on one computer, possibly with a
+        database, and the rest of the application resides on another computer, possibly along with presentation services.
+
+  - uuid : udx82odqk9
+    term : Distributed Generation (DG)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Distributed generation (DG)** is a supply technology that can be at or near retail load, enabling smart buildings and
+        power park/premium operating districts, providing high-quality, 99.999% reliability. Combined with on-site energy storage,
+        DG is a disruptive technology transforming centrally managed radial delivery infrastructure into a geodesic network,
+        providing higher resilience of the power system and enabling consumer integration into energy markets. Traditionally more
+        associated with high-availability fuel cells, increasingly renewable solutions, most notably photovoltaic (PV) solar, are
+        being included as part of a DG solution.
+
+  - uuid : udx82ofyc4
+    term : Distributed Power Generation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Distributed power generation** is the installation and operation of small modular power-generating units at or near the
+        end user. It is used mainly to reduce transmission and distribution losses and to improve reliability by combining energy
+        management and storage systems. A distributed power generation system can be based on a renewable or nonrenewable energy
+        source and can be operated in either a connected grid mode or an off-grid mode.
+
+  - uuid : udx82oi94f
+    term : Distributed Tape For Backup And Archiving
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Distributed tape for backup and archiving** is a means by which organizations preserve secondary copies of data.
+        Distributed tape backup solutions create copies of data on tape for logical or physical recovery, and for disaster
+        recovery. Distributed tape as a repository for active archives enables long-term preservation of data for purposes other
+        than operational recovery, such as compliance, records management, sporadic access to data within a business process and
+        historical preservation.
+
+  - uuid : udx82ok0r3
+    term : Distributed Version Control System (DVCS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In a **distributed version control system (DVCS)** , a full copy of the source code and version history can be on each
+        participant's desktop. It is easier to create a new branch or variation, rapidly reflecting an individual's change
+        actions, but this approach shifts network overhead and difference/merge overhead to a synchronized workflow stage. This
+        separation enables different rules to be applied to the ways individuals change code, and to who has the power to merge
+        code changes.
+
+  - uuid : udx82olue0
+    term : DMAIC (define, Measure, Analyze, Improve, Control)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        "Define, Measure, Analyze, Improve, Control"; a problem-solving methodology associated with Six Sigma process improvement.
+
+  - uuid : udx82p284
+    term : DMB (digital Multimedia Broadcasting)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Technology that can transmit digital video to mobile devices. It developed out of the DAB standard, which established
+        itself as the best terrestrial radio system for delivering CD-quality, digital stereo sound in fixed, portable and mobile
+        reception conditions.
+
+  - uuid : udx82p1cav
+    term : DMI (data Management And Integration)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines data management and integration as the practices, architectural techniques and tools for achieving
+        consistent access to and delivery of data across the spectrum of data subject areas and data structure types in the
+        enterprise, to meet the data consumption requirements of all applications and business processes
+
+  - uuid : udx82p2sdr
+    term : DNA Logic
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **DNA logic** utilizes the properties of DNA molecules for storage and processing. Logic functions are formed from the
+        binding of DNA molecules in various combinations. A DNA "AND" gate, for example, would chemically join two separate DNA
+        codes in an end-to-end string. Rapid search functions are possible since DNA strings are attracted to identical or
+        complementary strings. The interconnection of these gates does not occur electrically through wires, but through saline
+        liquids of various concentrations.
+
+  - uuid : udx82p4l72
+    term : Dock Scheduling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dock scheduling** is the use of optimization and scheduling tools to automate dock door and yard schedules. In this
+        system, a dock calendar is maintained, showing all operating constraints, such as open/close time, commodities accepted
+        through the dock door (e.g., refrigerated or ambient) and trailer types accepted. Advanced dock scheduling systems
+        consider both transportation constraints and upstream warehouse constraints like labor and other warehouse resource
+        constraints.
+
+  - uuid : udx82p65ye
+    term : Document Management (DM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Document management (DM)** is a function in which applications or middleware perform data management tasks tailored for
+        typical unstructured documents (including compound documents). It may also be used to manage the flow of documents through
+        their life cycles.
+
+        Long-established document management products have traditionally focused on managing a small group of documents vital to
+        the business. However, the DM market is transforming into a two-tier market, with new competitors building out horizontal
+        capabilities to manage the many documents created in the course of everyday work life.
+
+        Today, enterprises are looking for ways to cut costs, reduce risk, and enable competitive opportunities, resulting in new
+        market opportunities and competitive forces. Vendors are scrambling to compete by leveraging their existing market
+        positions as well as experimenting with new approaches such as open source and software as a service (SaaS).
+
+  - uuid : udx82p7uqc
+    term : Document Management Hardware Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes copier and printer services.
+
+        Copier services -- Copiers perform image capture and transfer. This category includes analog (optical technology) and
+        digital (digital scanning and printing technology) copiers.
+
+        Printer services -- A printer is the peripheral output device of a computer system for producing computer-generated images
+        on paper using various marking technologies. To be classified in this segment, the device needs to be capable of using
+        plain or coated papers with a minimum size of International Organization for Standardization A4, U.S. size A (letter) or
+        continuous forms with an 8-inch print width or greater, but it excludes products that support paper widths above A2 or
+        U.S. size C (17 inches x 22 inches). The definition also excludes other classes of application-specific printers, such as
+        point-of-sale printers, airline ticket printers, video printers and dedicated photo printers.
+
+  - uuid : udx82p9plk
+    term : DoJa (DoCoMo Java)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The DoJa profile is the NTT DoCoMo Java environment specification for i-Mode mobile phones, used mainly for i-Mode games.
+
+  - uuid : udx82pba2p
+    term : Domain Name
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **domain name** is a unique identifier for an Internet site or Internet Protocol (IP) network address, consisting of at
+        least two segments separated by periods. Enterprises must register top-level domains with the Web Internet Registry and
+        pay a yearly fee to maintain the registry.
+
+  - uuid : udx82pd379
+    term : Domestic Service Delivery
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Domestic service delivery** is the delivery of resources onsite (at the buyer's premises) or "onshore" (at a location
+        beyond the buyer's premises but in the same country; see also "Low-Cost Domestic").
+
+  - uuid : udx82peuj2
+    term : Downlink
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Satellite communication link that involves signal transmission or retransmission from in-orbit satellites to earth
+        stations or other receiving terminals on the ground. See also uplink.
+
+  - uuid : udx82pgefq
+    term : Download
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of bringing a file down to a computer through a network and typically from a server, or some other computing
+        device. Download times can be greatly affected by the method of connection to the network.
+
+  - uuid : udx82pi0td
+    term : Downtime
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The total time a system is out of service.
+
+  - uuid : udx82pjh3a
+    term : DPMO (defects Per Million Opportunities)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A critical measure associated with Six Sigma-based quality management.
+
+  - uuid : udx82pl0u1
+    term : DPO (defects Per Opportunity)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A measure of quality that reflects whether a specific product or service has any defects.
+
+  - uuid : udx82pmka0
+    term : DPU (defects Per Unit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A measure of quality that measures how many defects are associated with a single product or service unit.
+
+  - uuid : udx82qq6x
+    term : DR (distributed Request)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A single read-only request to multiple data sources.
+
+  - uuid : udx82q29o9
+    term : DRM (digital Rights Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Trusted exchange of digital information over the Internet whereby the user is granted only the privileges that the
+        document sender allows.
+
+  - uuid : udx82q3lur
+    term : DRM (distributed Resource Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An evolving discipline consisting of a set of software, hardware, network tools, procedures and policies for enabling
+        distributed enterprise systems to operate effectively in production. DRM embraces solutions for the daily monitoring,
+        resource planning, system administration, change management, operations, performance and other initiatives that are needed
+        to maintain effective productivity in a distributed networked computing environment.
+
+  - uuid : udx82q4yr2
+    term : DRP (disaster Recovery Planning)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Planning to ensure the timely recovery of information technology assets and services following a catastrophe, such as
+        fire, flood or hardware failure.
+
+  - uuid : udx82q6aij
+    term : DRP (distribution Requirements Planning)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of assessing from which location products and services should be deployed, and determining the stock-keeping
+        unit (SKU) and location-level replenishment plan.
+
+  - uuid : udx82q7wvw
+    term : Drum, Buffer, Rope
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A constraint-aware workflow control process in which the "drum" beat sets the pace of production based on the constraint's
+        capacity, the "buffer" provides a contingency, and the "rope" controls the flow of work.
+
+  - uuid : udx82q9f75
+    term : DSL/cable-sharing Residential/small-office Gateway/router
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This device can be wired or wireless. Similar to a residential gateway/router, this device does not have an integrated DSL
+        modem. It is distinguished by its ability to work with different types of broadband distribution network, such as cable or
+        DSL, and, therefore, has a port allowing for a connection with the output of an external modem (either DSL or cable).
+
+  - uuid : udx82qb01x
+    term : DSL (digital Subscriber Line)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technology for high-speed network or Internet access over voice lines. There are various types, including asymmetric DSL
+        (ADSL), high-bit-rate DSL (HDSL), symmetric DSL (SDSL) and very-high-bit-rate DSL (VDSL). The whole group is sometimes
+        referred to as "xDSL."
+
+  - uuid : udx82qco46
+    term : DSM (distributed System Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technology for managing the interconnected parts of a system. As managed items -- i.e., components of applications,
+        nodes, links or subsystems -- become active, they must notify their manager of their status. DSM tools are capable of
+        dealing with a limited number of distinct elements and require a strong directory.
+
+  - uuid : udx82qe16y
+    term : DTH (direct To Home)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        TV and broadcasting industries that deliver by satellite services directly to consumer households enabled by individual
+        reception systems (antenna/dish and satellite Integrated Receiver-Decoder (IRD)/receiver). DBS satellite providers deliver
+        a form of direct-to-home service. See also DBS and IRD.
+
+  - uuid : udx82qfj6i
+    term : Dual-Band Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **dual-band network** is a cellular radio system that operates in two different frequency bands in which network
+        elements conform to identical network architectures and radio interfaces.
+
+  - uuid : udx82qh24s
+    term : Dual-Band
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **dual-band** mobile device supports voice and data communications conforming to one bearer technology, such as GSM, but
+        on two different sets of frequencies. For example, to support additional mobile network operators or to provide additional
+        capacity and coverage, many European and Asia/Pacific countries/markets have licensed deployment of GSM networks on both
+        900MHz and 1,800MHz spectrum. A dual-band GSM phone enables the user to roam automatically across networks on either
+        frequency. Most GSM phones sold in these countries are dual-band. A tri-band phone is required to roam among operators in
+        Asia/Pacific, Europe and North America, because GSM has been deployed in 1,900MHz spectrum in North America.
+
+  - uuid : udx82qiuu1
+    term : Dual Mode
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dual mode** refers to mobile devices that function on two different bearer technologies, such as GSM and WCDMA, or 1x
+        and WCDMA. Most 3G phones are dual-mode and tri- or quad- band to enable users to roam onto 2G networks when they are
+        outside the 3G coverage area.
+
+  - uuid : udx82qkwqj
+    term : Dual-View Displays
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dual-view displays** are LCD screens that use a parallax barrier technology to show two different images from the left
+        and right angles of the same screen. Applications allow drivers to view information that differs from what the passenger
+        can see. For example, a driver may be able to see a scene captured by a rearview camera, while the passenger views a DVD.
+
+  - uuid : udx82qmt7l
+    term : Dumb Terminal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **dumb terminal** is a terminal that does not performing local processing of entered information, but serves only as an
+        input/output device for an attached or network-linked processor.
+
+  - uuid : udx82r11av
+    term : Dye-Sensitized Solar Cells (DSSCs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dye-sensitized solar cells (DSSCs)** use an organic dye to absorb incoming sunlight to produce excited electrons and
+        create an energy which is then transferred to an inexpensive material, such as titanium dioxide (TiO2). From there, the
+        energy is collected on a transparent conducting surface. Currently, its conversion efficiency is between 8% and 11%
+        (limited by the problems associated with both the electrolyte solution and the dye used), which is lower than most of
+        other current solar technology.
+
+  - uuid : udx82r2t5l
+    term : Dye Sublimation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dye sublimation** is a process that prints one line at a time, using an electrically heated element to produce images.
+        Instead of spraying jets of ink onto a page as inkjet printers do, dye sublimation printers apply a dye from a plastic
+        film. This takes the form of a roll or a ribbon, similar to that used by thermal wax printers, usually containing
+        consecutive panels of cyan, magenta, yellow and black dye.
+
+  - uuid : udx82r4jrq
+    term : Dynamic Application Security Testing (DAST)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dynamic application security testing (DAST)** technologies are designed to detect conditions indicative of a security
+        vulnerability in an application in its running state. Most DAST solutions test only the exposed HTTP and HTML interfaces
+        of Web-enabled applications; however, some solutions are designed specifically for non-Web protocol and data malformation
+        (for example, remote procedure call, Session Initiation Protocol \[SIP\] and so on).
+
+  - uuid : udx82r6d4d
+    term : Dynamic Business Process Management (BPM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dynamic business process management (BPM)** is defined as the ability to support process change by any role, at any
+        time, with very low latency. It is a set of disciplines combined with technologies that enhance the ability of a person or
+        system to make appropriate and timely changes to respond to implicit and explicit process needs. Changes can be simulated
+        at any time without impacting the existing operating process/system/application.
+
+  - uuid : udx82r8aiw
+    term : Dynamic Content
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dynamic content** is website content that is continually refreshed to provide new or updated information to attract new
+        viewers and to keep prior viewers returning to the site.
+
+  - uuid : udx82r9pc3
+    term : Dynamic Data Masking (DDM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dynamic data masking (DDM)** is an emerging technology that aims at real-time data masking of production data. DDM
+        changes the data stream so that the data requester does not get access to the sensitive data, while no physical changes to
+        the original production data take place.
+
+  - uuid : udx82rbdvn
+    term : Dynamic Routing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Dynamic routing** is a method of wide-area network transmission that uses a router to select the most appropriate path
+        for each section of data packet transmission along a network.
+
+  - uuid : udx82rcuo3
+    term : Dynamic Web Application Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **dynamic Web application tool** market includes tools that support interpreted and dynamic languages, such as Perl,
+        Python, PHP, Ruby and ECMAScript. These tools are focused primarily (although not exclusively) on combining traditional
+        integrated development environment features with Web design features.
+
+# __END__

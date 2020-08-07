@@ -1,0 +1,588 @@
+title    : ISLE AIT computer science glossary -- N words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx89r1ufl
+    term : N-Channel Metal-Oxide Semiconductor (NMOS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An**N-channel metal-oxide semiconductor (NMOS)** is a microelectronic circuit used for logic and memory chips and in
+        complementary metal-oxide semiconductor (CMOS) design. NMOS transistors are faster than the P-channel metal-oxide
+        semiconductor (PMOS) counterpart, and more of them can be put on a single chip.
+
+  - uuid : udx89r3mrc
+    term : Nagara
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The Japanese term sometimes used to describe synchronized single-piece flow such that movement is like an assembly line
+        but not necessarily with a physical linkage between elements.
+
+  - uuid : udx89r58yp
+    term : Nanography
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Nanography** is a digital printing process developed by Landa Digital Printing that employs a combination of offset,
+        inkjet and nanotechnologies to print on virtually any paper or film. The name is derived from Landa's colorants (inks),
+        which have pigment particles measured in the tens of nanometers.
+
+  - uuid : udx89r6up1
+    term : Nanomaterial Supercapacitors
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A capacitor is a passive electronic component that stores electrical energy in an electrostatic field. This is unlike a
+        battery, which stores energy in a chemical form. Capacitors are formed from two conducting plates separated by an
+        insulator. The amount of capacitance is proportional to the surface areas of the plates, and inversely proportional to the
+        separation between the plates. **Nanomaterial supercapacitors ** use nanomaterials, which dramatically increases the
+        surface area and the amount of energy that can be stored.
+
+  - uuid : udx89r8ogk
+    term : Nanotube
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Nanotubes** are tiny cylinders of atoms that can be used for a wide variety of purposes because of their electrical or
+        mechanical properties. Different properties and different forces apply at the nanoscale level when compared with macro or
+        "real world" dimensions. These differences exhibit themselves in the form of high electrical conductivity, great
+        mechanical strength and other properties. The main focus in electronics is on carbon nanotubes. These can be as small as
+        10 atoms in diameter. Different nanotubes can have insulating, conducting or semiconducting properties. Carbon nanotubes
+        with semiconductor properties offer the promise of small transistors with high switching speeds. Carbon nanotubes with
+        metallic (conducting) properties offer the promise of low electrical resistance that can be applied to the
+        interconnections within integrated circuits. Other nanotube materials being evaluated include silicon and compound
+        semiconductor materials.
+
+  - uuid : udx89rah5r
+    term : NAP (network Access Point)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The point from which an Internet service provider (ISP) drops down its lines and establishes a peering arrangement to
+        provide Internet connectivity to customers.
+
+  - uuid : udx89rbw79
+    term : Narrowband Channels
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Sub-voice-grade pathways characterized by a speed range of 100 to 200 bits per second.
+
+  - uuid : udx89rd9nj
+    term : NAS (network-attached Storage)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A category of storage products in which the requisite hardware and software comes bundled into an integrated product,
+        which is optimized for use as a dedicated file or storage management server attached to the enterprise's network. Ideally,
+        NAS is platform- and OS-independent, appears to any application as another server, can be brought online without shutting
+        down the network and requires no changes to other enterprise servers.
+
+  - uuid : udx89rf2uy
+    term : Natural-Language Processing (NLP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Natural-language processing (NLP)** technology involves the ability to turn text or audio speech into encoded,
+        structured information, based on an appropriate ontology. The structured data may be used simply to classify a document,
+        as in "this report describes a laparoscopic cholecystectomy," or it may be used to identify findings, procedures,
+        medications, allergies and participants.
+
+  - uuid : udx89rgufg
+    term : Natural-Language Understanding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Natural-language understanding (NLU)**  is the comprehension by computers of the structure and meaning of human language
+        (e.g., English, Spanish, Japanese), allowing users to interact with the computer using natural sentences.
+
+  - uuid : udx89ringf
+    term : NC (network Computer)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Often called a "thin client," a network computer is a limited-function desktop computer that is designed to easily connect
+        to networks. NCs include a keyboard, mouse, monitor, memory and a network connection but only limited, if any, local disk
+        storage. When end users want to access software or databases using an NC, they would use a graphical user interface (GUI),
+        much as they do now with a PC. However, the software would be downloaded from a central server instead of being resident
+        on the desktop PC; large databases would also be maintained on the central server. All software backups, upgrades and
+        maintenance would therefore be performed centrally on the network server.
+
+  - uuid : udx89rkfpq
+    term : NCCJ (native Code Compiler For Java)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Translates byte code into a file format and binary-code representation that can be linked (using a static linker) with
+        precompiled libraries and resources to form the executable program. An NCCJ provides the opportunity to optimize the
+        structure of the program code to eliminate redundant code as well as to fine tune code sequences (e.g., loops, jumps and
+        substitutions).
+
+  - uuid : udx89rm8dl
+    term : NCOP (network Code Of Practice)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A code of standard practices for network design, intended to maintain technical standards.
+
+  - uuid : udx89sdxu
+    term : NDC (networked Data Center)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A service that goes beyond making data center functionality available on a network. An NCC employs networking technology
+        to treat multiple data centers and the network as a single system to efficiently access and process applications.
+
+  - uuid : udx89s1tvy
+    term : NDF (network Dynamic Functionality)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A software development and execution technology that allows applications to be written to a model designed from the outset
+        to achieve platform independence. It affords dynamic movement and invocation of code resources over a network at runtime.
+
+  - uuid : udx89s3bry
+    term : Near Field Communication (NFC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Near Field Communication (NFC)** is a wireless technology that enables a variety of contactless and proximity-based
+        applications, such as payments, information retrieval, mobile marketing and device pairing. It has an operating range of
+        10 cm or less using the 13.56MHz frequency band. There are currently three user modes defined for NFC operation: 1) Card
+        emulation, 2) Tag reading, and 3) Peer-to-peer (P2P). These modes are based on several ISO/IEC standards, including
+        ISO14443 A/B, ISO15693 and ISO18092. The NFC Forum is the industry group that specifies the use of these standards. It has
+        launched a logo certification program to ensure interoperability between devices from different chipset vendors and
+        equipment manufacturers.
+
+  - uuid : udx89s52jq
+    term : Necessary Non-value-adding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Non-value-adding activities that are necessary under the present operating system or equipment. They are likely to be
+        difficult to remove in the short term but may be possible to eliminate in the medium term by changing equipment or
+        processes. Often used to describe regulatory compliance activity that adds no direct customer value but is required to
+        maintain the "license to operate."
+
+  - uuid : udx89s6eqt
+    term : Nemawashi
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        "Lining up the ducks" or "§going among the roots" (literally) -- the activity of laying a foundation for further activity.
+
+  - uuid : udx89s7vqt
+    term : Net-Liberated Organization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **net-liberated organization (NLO)** is a Gartner concept describing an organizational philosophy enabled by the advent
+        of the Internet and related Web technologies. Rather than "bolting on" Web initiatives to mainstream operations (i.e.,
+        integrating the Internet into business processes, but leaving the structure of these processes intact), an NLO uses these
+        technologies to liberate itself from the constraints of traditional business environments that focus on local and physical
+        infrastructures.
+
+        The goal of an NLO is to transform the enterprise into one that is more agile, and thus better able to meet customer
+        demands.
+
+  - uuid : udx89s9orn
+    term : Net New Connections
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gross new connections minus the number of disconnections from the network in a given period.
+
+  - uuid : udx89sb6au
+    term : Net Present Value
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Net present value (NPV)** is an accounting tool that captures the net value of an investment at the current instant in
+        time by taking the sum of the discounted cash flow less the current investment.
+
+  - uuid : udx89scngv
+    term : Netbooks
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Netbooks** are mobile computing devices that have a screen size of five to 10 inches and run a full version of the
+        client OS, such as Windows 7, Windows XP or a Linux PC OS. They have a clamshell form factor.
+
+  - uuid : udx89se6pw
+    term : Network Access Control (NAC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **network access control (NAC)** process adds policies to the network for controlling access by devices and users.
+        Policies may be based on device and/or user authentication and the status of endpoint configuration.
+
+  - uuid : udx89sfj53
+    term : Network And System Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network and system management (NSM)**  refers to the intersection of networking, network management and system
+        management. The vision of NSM (also known as "networked systems management") is to enable the management of a distributed
+        set of systems in a fashion similar to that in which many centralized data centers are managed.
+
+  - uuid : udx89shcbv
+    term : Network Appliance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A type of computing appliance that aids in the flow of information to other network-connected computing devices. Services
+        that may be provided by a network appliance include firewall functions, caching, authentication, network address
+        translation and IP address management.
+
+  - uuid : udx89sitsb
+    term : Network Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A client/server application architecture with dynamic application deployment, execution and management. Network computing
+        is characterized by four properties: dynamic cached propagation; write once, run anywhere; automatic platform adjustment;
+        and network context storage.
+
+  - uuid : udx89skdnf
+    term : Network Configuration And Change Management (NCCM) Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network configuration and change management (NCCM) tools** focus on discovering and documenting network device
+        configurations; detecting, auditing and alerting on changes; comparing configurations with the policy or "gold standard"
+        for that device; and deploying configuration updates to multivendor network devices.
+
+  - uuid : udx89sm590
+    term : Network Database
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A database organized according to ownership of records, allowing records to have multiple owners and thus providing
+        multiple access paths to the data. Database management systems (DBMSs) providing such capabilities are also known as
+        CODASYL (Conference on Data Systems Languages) DBMSs.
+
+  - uuid : udx89tbew
+    term : Network Fault Monitoring Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network fault monitoring tools** indicate the up/down status of network components, such as routers and switches. In
+        some cases, the tools also discover and visualize the topology map of physical relationships and dependencies among
+        network components as a way to display the up/down status in a context that can be easily understood.
+
+  - uuid : udx89t22dq
+    term : Network Intelligence (NI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network intelligence (NI)** is an enabling technology that allows communications service providers (CSPs) to capture
+        subscriber-, service- and application-level awareness contained in network traffic. This information is analyzed and
+        exposed for integration with other applications in the back office, allowing CSPs to apply granular policies to influence
+        customer experience and adapt to dynamic shifts in application and service usage. The solution is based on nonproprietary
+        hardware and software platforms and can be used by CSPs on any network.
+
+  - uuid : udx89t3t9t
+    term : Network Interface Card
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **network interface card (NIC)** is the bus-specific adapter that connects an end station or server to a local-area
+        network (LAN). It plugs into an expansion slot on a workstation or server that is to be networked and has a connector for
+        the network cabling.
+
+  - uuid : udx89t5m5k
+    term : Network Inventory
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Tracks and manages network assets and manages network resources. It embodies the automated processes that allocate
+        resources, determine configuration changes and automatically invoke activation.
+
+  - uuid : udx89t74ha
+    term : Network Management Center
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **network management center** controls the network. It may provide traffic analysis, call detail recording,
+        configuration control, fault detection and diagnosis and maintenance.
+
+  - uuid : udx89t8kqs
+    term : Network Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These are applications designed to isolate and resolve faults on the network, measure and optimize performance, manage the
+        network topology, track resource use over time, initially provision and reconfigure elements, and account for network
+        elements. Suites that include fault monitoring and diagnosis, provisioning/configuration, accounting, performance
+        management, and TCP/IP application management -- but only for networks -- are also included here. This network management
+        segment is intended for products that are mainly or entirely network-oriented and used primarily by enterprises. Also
+        included in this category are network CM tools. These tools set, change, collect and restore information about network
+        devices (such as bridges, routers, switches and so forth).
+
+  - uuid : udx89tabx4
+    term : Network On Chip (NoC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **The term "network on chip" (NoC)** refers to distributed connectivity of computing and other resources that are
+        configured as an on-chip computer network. At sub-32-nanometer dimensions, increased electrical noise and cross-talk
+        reduces the effectiveness of traditional on-chip bus structures. Complex system-on-chip (SoC) devices will require a
+        network-like structure with an error correction protocol. The most likely topology will be a globally asynchronous locally
+        synchronous (GALS) structure.
+
+  - uuid : udx89tc2p8
+    term : Network Operating System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **network operating system** is a set of software utilities that, working in conjunction with an operating system,
+        provides the local-area network (LAN) user interface and controls network operation. A network operating system
+        communicates with the LAN hardware and enables users to communicate with one another and to share files and peripherals.
+        Typically, a NOS provides file-to-print services, directory services and security.
+
+  - uuid : udx89tduqt
+    term : Network Outsourcing (enterprise And Public Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Network outsourcing is a multiyear or annuity contract/relationship involving the purchase of ongoing network or telecom
+        management services for managing, enhancing, maintaining and supporting premises or core network infrastructure or
+        enterprise telecommunications assets (including fixed and wireless). In addition to network or telecommunications
+        management, network outsourcing isolates those services specifically delivered in a longer-term contract in support of
+        network infrastructures: consulting/advisory services, network AD and integration, network infrastructure deployment and
+        support services.
+
+        Gartner segments network outsourcing into two categories: enterprise network outsourcing and public network outsourcing.
+        Enterprise network outsourcing does not include discrete, project-based professional services or staff augmentation
+        services. Also, enterprise network outsourcing does not include services related to the physical cable plant or other
+        facilities-related services (such as power conditioning). For public network outsourcing, we include services related to
+        the carrier network, business and operations support systems. Internal ITO is not considered, nor are services related to
+        public network facilities and logistics planning (for example, DC power, land acquisition and tower placement). Similarly,
+        discrete, project-based professional services or staff augmentation services (commonly referred to as
+        engineer-furnish-install) are not included in public network outsourcing.
+
+  - uuid : udx89tfn94
+    term : Network Performance Monitoring Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network performance monitoring tools** provide performance and availability monitoring solutions for the data
+        communication network (including network devices and network traffic). These tools collect performance data over time, and
+        include features such as baselining, threshold evaluation, network traffic analysis, service-level reporting, trend
+        analysis, historical reporting and, in some cases, interfaces to billing and chargeback systems.
+
+  - uuid : udx89thadc
+    term : Network Performance Tuning/Configuring Facilities
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network performance tuning/configuring facilities** refer to the ability to configure combinations of local-area
+        networks (LANs) and wide-area networks (WANs) centrally and dynamically based on anticipation and prioritization of data
+        traffic volumes. Physical data paths could be configured based on data traffic content (i.e., transaction type). This is
+        particularly important for online transaction processing (OLTP) applications.
+
+  - uuid : udx89tj0rp
+    term : Network Redundancy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network redundancy** is a communications pathway that has additional links to connect all nodes in case one link goes
+        down.
+
+  - uuid : udx89tkhqj
+    term : Network Security Silicon
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network security silicon** refers to the use of specific network security processors to perform very high-speed security
+        processing, such as deep packet inspection and stream processing. This is different from application-specific integrated
+        circuits and field-programmable gate arrays that are already in use, and different from cryptographic accelerators.
+        However, combinations of all of these devices are increasingly needed to deal with complex networks and advanced targeted
+        threats.
+
+  - uuid : udx89tmeor
+    term : Network Security
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network security** are measures taken to protect a communications pathway from unauthorized access to, and accidental or
+        willful interference of, regular operations.
+
+  - uuid : udx89ukc1
+    term : Network Sharing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        We define **"network sharing"** as a business model in which two or more communications service providers (CSPs) share
+        network resources through joint ownership or by third-party-enabled network sharing (open networks).It is a generic
+        concept but is most widely applied in mobile and fiber to the home (FTTH) networks. It is technology-neutral, and includes
+        active and passive sharing of existing as well as new infrastructure. Regulatory enforced sharing of legacy assets, such
+        as raw copper infrastructure, is not included.
+
+  - uuid : udx89u2jn8
+    term : Network Topology
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network topology** describes the physical and logical relationship of nodes in a network, the schematic arrangement of
+        the links and nodes, or some hybrid combination thereof.
+
+  - uuid : udx89u41fk
+    term : Network Virtual Terminal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**network virtual terminal** is a communications concept describing a variety of data terminal equipment (DTE), with
+        different data rates, protocols, codes and formats, accommodated in the same network. This is done as a result of network
+        processing where each device's data is converted into a network standard format, then converted into the format of the
+        receiving device at the destination end.
+
+  - uuid : udx89u5tmd
+    term : Network Virtualization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Network virtualization** is the process of combining hardware and software network resources and functionality into a
+        single virtual network. This offers access to routing features and data streams which can provide newer, service-aware,
+        resilient solutions; newer security services that are native within network elements; support for subscriber-aware policy
+        control for peer-to-peer traffic management; and application-aware, real-time session control for converged voice and
+        video applications with guaranteed bandwidth on-demand.
+
+  - uuid : udx89u7o0u
+    term : Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Any number of computers (e.g., PCs and servers) and devices (e.g., printers and modems) joined together by a physical
+        communications link. In the enterprise context, networks allow information to be passed between computers, irrespective of
+        where those computers are located. Networks provide the roads for information traffic (e.g., sending files and e-mail)
+        within a corporate environment, and allow users to access databases and share applications residing on servers. If a
+        network does not go outside of a company building, or campus, then it is known as a local-area network (LAN). If it has a
+        bridge to other outside networks, usually via lines owned by public telecommunications carriers like AT&T, then it is
+        known as a wide-area network (WAN).
+
+  - uuid : udx89u9ghd
+    term : Neural Net Or Neural Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **neural net or neural network** is an artificial-intelligence processing method within a computer that allows
+        self-learning from experience. Neural nets can develop conclusions from a complex and seemingly unrelated set of
+        information.
+
+  - uuid : udx89ub11d
+    term : Neurobusiness
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Neurobusiness** is the capability of applying neuroscience insights to improve outcomes in customer and other business
+        decision situations.
+
+  - uuid : udx89ucheq
+    term : Next-Generation Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **next-generation network (NGN)** is a generic term that describes the evolution and migration of fixed and mobile
+        network infrastructures from distinct, proprietary networks to converged networks based on IP.
+
+  - uuid : udx89udyk6
+    term : Next-Generation Telematics Protocol (NGTP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **The Next-Generation Telematics Protocol (NGTP)** is a technology-neutral telematics approach that aims to provide
+        greater flexibility and scalability to the automotive, telematics and in-vehicle technology industries to offer better
+        connectivity and integration of data and services aimed at drivers, passengers and the vehicle itself (e.g., airbag
+        deployment notification services). The telematics framework was initially developed between BMW and telematics service
+        providers (TSPs) Connexis and WirelessCar, but was adopted by other companies.
+
+  - uuid : udx89ufn9p
+    term : Nexus Of Forces
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Nexus of Forces** is the convergence and mutual reinforcement of social, mobility, cloud and information patterns
+        that drive new business scenarios.
+
+  - uuid : udx89uh58w
+    term : NMT-F
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **NMT-F** is a french variation of the NMT-900 standard.
+
+  - uuid : udx89uihw1
+    term : No-Email Initiatives
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **No-email initiatives** seek to eliminate, or at least drastically reduce, the use of email for internal communications
+        and collaboration. These efforts seek to reduce the problems of email overload by switching communications to enterprise
+        social network platforms which offer richer and more varied forms of collaboration (for example, activity streams,
+        comments, ratings, recommendations wikis and blogs).
+
+  - uuid : udx89uk9ou
+    term : Node B
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Node B** is a WCDMA/UMTS term for a radio base station receiver, as defined by the 3GPP. It provides radio coverage and
+        converts data between the radio network and the RNCs.
+
+  - uuid : udx89ulq5i
+    term : Nomadic Wireless
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Nomadic wireless** is a term used by the WiMAX Forum for semimobile wireless. The terms "nomadic," "portable" and
+        "mobile" often vary in definition when used by vendors.
+
+  - uuid : udx89un8e6
+    term : Non-Cable Consumer Fixed Broadband
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Non-cable consumer fixed broadband** incorporates FTTH, fiber to the premises (FTTP), Ethernet, DSL and other high-speed
+        broadband services. It excludes cable broadband.
+
+  - uuid : udx89v1eli
+    term : Non-Value-Adding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Non-value-adding** refers to activities within a company or supply chain that do not directly contribute to satisfying
+        end consumers' requirements. It is useful to think of these as activities that consumers would not be happy to pay for.
+
+  - uuid : udx89v2uh2
+    term : Nondomestic Service Delivery
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Nondomestic service delivery** terms include "nearshore" (from countries in close geographic or time zone proximity) and
+        "offshore" (from remote geographic locations). The distinction between nearshore and offshore is often based on buyers'
+        perceptions of geographic proximity or distance, and may be influenced by time zone, travel time or simple physical
+        proximity.
+
+  - uuid : udx89v4nqi
+    term : Nonwireline Cellular Carrier
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**nonwireline cellular carrier** is a U.S. term referring to Block A carriers. Nonwireline or Block A systems operate on
+        radio frequencies from 824 to 848 megahertz (MHz).
+
+  - uuid : udx89v6698
+    term : Notebook
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **notebook** is a computer system designed for portability. It comes with a battery and typically measures 8.5 inches by
+        11 inches and weighs less than 8 pounds with the battery and weight-saver modules. Notebooks use flat-panel color screens
+        of Super Video Graphics Array (SVGA) resolution or higher. They offer expansion through PC-Card technologies and have
+        specialized integrated pointing devices.
+
+# __END__

@@ -1,0 +1,1114 @@
+title    : ISLE AIT computer science glossary -- B words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 03:00:11
+contents :
+
+  - uuid : udx81m5obq
+    term : B2B Gateway Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **B2B gateway software** is integration middleware that is used to consolidate and centralize data and process integration
+        and interoperability between a company's internal applications and systems, and external entities such as business
+        partners or software as a service (SaaS).
+
+  - uuid : udx81m719f
+    term : B2B Web Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Refers to the IT usage scenario where a form of Web services -- SOAP, WS-\* or Web-native implementation, such as
+        representational state transfer (REST) or plain old XML (POX) -- is deployed in some combination of cloud and B2B
+        (multienterprise) integration projects. Web services are used as a multienterprise extension of internal service-oriented
+        architectures (SOAs), or in lieu of more traditional approaches to multienterprise integration, such as Applicability
+        Statement 2 (AS2), electronic data interchange (EDI) and FTP.
+
+  - uuid : udx81m8qna
+    term : Back-End
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Back-end** is defined as the server side of a client/server system.
+
+  - uuid : udx81ma8wy
+    term : Backbone Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **backbone network** is defined as a high-speed transmission facility, or an arrangement of such facilities, designed to
+        interconnect lower-speed distribution channels or clusters of dispersed user devices.
+
+  - uuid : udx81mbpir
+    term : Backbone Router
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **backbone router** is a router designed to be used to construct backbone networks using leased lines. Backbone routers
+        typically do not have any built-in digital dial-up wide-area network interfaces.
+
+  - uuid : udx81md7ee
+    term : Backbone
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **backbone** is defined as a high-speed line or series of lines that forms the fastest (measured in bandwidth) path
+        through a network. It often acts as a metanetwork.
+
+  - uuid : udx81meon0
+    term : Background Task
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **background task** is a task performed by a system during the time when its primary application is idle.
+
+  - uuid : udx81mg611
+    term : Backhaul
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **backhaul** is the terrestrial link between an earth station and a switching or data center.
+
+  - uuid : udx81mhmuf
+    term : Backplane
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **backplane** is the physical connection between the interface cards and the data and power distribution buses in a
+        network device such as a router, hub or switch.
+
+  - uuid : udx81mj4jg
+    term : Backup/Recovery Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Backup/recovery software** products are designed to provide backup of storage to tape, disk or optical devices and to
+        recover that data when needed. This segment also includes products focused specifically on supporting the recovery
+        process, such as virtual tape libraries. Also included are media management, deduplication and backup reporting products,
+        as well as archiving products that are included with the backup application. Media management activities include
+        allocating, labeling, tracking, recycling and monitoring media, as well as storage pool management.
+
+  - uuid : udx81mkuek
+    term : Backup Server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **backup server** is a software or hardware system that copies or "shadows" the contents of a server, providing
+        redundancy.
+
+  - uuid : udx81mm9ou
+    term : Balanced Scorecard (BSC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **balanced scorecard (BSC)** is a performance measurement and management approach that recognizes that financial
+        measures by themselves are not sufficient and that an enterprise needs a more holistic, balanced set of measures which
+        reflects the different drivers that contribute to superior performance and the achievement of the enterprise's strategic
+        goals. The balanced scorecard is driven by the premise that there is a cause-and-effect link between learning, internal
+        efficiencies and business processes, customers, and financial results.
+
+  - uuid : udx81npe4
+    term : Band
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Band** can be defined as follows:
+
+          The range of frequencies between two defined limits.
+
+          In wide-area telephone service (WATS), the specific geographical area in which the customer is entitled to call.
+
+  - uuid : udx81n2fhx
+    term : Bandwidth As Currency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bandwidth as currency** initially involved customers purchasing a prepaid phone card that allowed subscribers to
+        transfer surplus telecommunication minutes to other subscribers using text messages. Suppliers can be paid in the same
+        way, and a bank of phone minute credits can be maintained and sold to others in the network. Cloud computing introduces an
+        additional concept by creating an environment for the dynamic management of compute capabilities that can be traded.
+
+  - uuid : udx81n424c
+    term : Bandwidth
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bandwidth** can be defined as follows:
+
+        The range of frequencies that can pass over a given transmission channel. The bandwidth determines the rate at which
+        information can be transmitted through the circuit: the greater the bandwidth, the more information that can be sent in a
+        given amount of time. Bandwidth is typically measured in bits per second. Increasing bandwidth potential has become a high
+        priority for network planners due to the growth of multimedia, including videoconferencing, and the increased use of the
+        Internet.
+
+        The signal-to-noise ratio (SNR) of a modulated signal is tested within a range of frequencies on either side of the
+        carrier frequency. This range is also called a bandwidth. In the case of videodiscs, it is often 15 kilohertz (kHz) on
+        either side.
+
+  - uuid : udx81n5tmn
+    term : Bank Tiers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bank tiers** can be defined as follows:
+
+        Tier 1 includes between 20 and 25 global bank assets and/or capital markets price makers with daily trading volume
+        exceeding 50,000 transactions. These banks want software using open architecture on a framework on which they can leverage
+        tools, such as analytics.
+
+        Tier 2 constitutes about 200 international and national banks and/or capital markets price takers, as well as trading
+        volume averaging about 30,000 transactions daily. Such banks seek new technology with a complete vertical integration of
+        functions. Cross-asset functionality is not a concern, except for structuring deals because of the specialized focus of
+        their trading businesses. They desire analytics and a front- to back-office suite to improve transparency and risk
+        management.
+
+        Tier 3 consists of approximately 1,000 banks, including smaller national and regional banks, and capital markets price
+        takers. These banks want cross-asset platforms, but don't have the requisite IT resources in-house and must rely on
+        vendors. Their biggest concern is implementation risk.
+
+        Tier 4 comprises smaller regional institutions with a primary focus on core banking and limited capital markets trading.
+        Such firms often source their capital markets requirements through third parties and tend to use an ASP approach.
+
+  - uuid : udx81n7ik5
+    term : Bar Code Marketing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Bar codes can be used to encode URLs, business cards and product information. **Bar code marketing** allows people to
+        download content onto a mobile phone. For example, companies can print bar codes on advertisements, billboards, posters,
+        brochures and product packages; users can scan the bar code with a phone camera to get the corresponding information. Bar
+        codes can be 1D, 2D or 3D.
+
+  - uuid : udx81n96ye
+    term : Base Station Controller (BSC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **base station controller (BSC)** is a network element that controls and monitors a number of base stations and provides
+        the interface between the cell sites and the mobile switching center (MSC).
+
+  - uuid : udx81nam43
+    term : Base Station
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Within a mobile radio system, a **base station** is a fixed radio station providing communication with mobile stations
+        and, where applicable, with other base stations and the public telephone network.
+
+  - uuid : udx81nbyxy
+    term : Base Transceiver Station (BTS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **base transceiver station (BTS)** is a fixed radio transceiver in any mobile network. The BTS connects mobile devices
+        to the network. It sends and receives radio signals to mobile devices and converts them to digital signals that it passes
+        on the network to route to other terminals in the network or to the Internet.
+
+  - uuid : udx81ndndv
+    term : Baseband
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Baseband** is the transmission of a signal in its original, unmodulated form. A baseband signal can be analog (e.g.,
+        originating from a telephone) or digital (e.g., originating from a computer).
+
+  - uuid : udx81nfjf1
+    term : Basic Input/Output System (BIOS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **basic input/output system (BIOS)** is the part of an operating system that links the specific hardware devices to
+        the software. It obtains the buffers required to send information from a program to the hardware/desktop receiving the
+        information.
+
+  - uuid : udx81ngv7w
+    term : Basic Trading Area (BTA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Basic trading area (BTA)** is a geographic area designation that was used for the allocation of 800MHz cellular licenses
+        to mobile service providers in the U.S., which determines where they can operate. Each metropolitan trading area (MTA) is
+        made up of several BTAs. There are 493 BTAs and 51 MTAs in the U.S.
+
+  - uuid : udx81nil1i
+    term : Batch Processing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Batch processing** is the processing of application programs and their data individually, with one being completed
+        before the next is started. It is a planned processing procedure typically used for purposes such as preparing payrolls
+        and maintaining inventory records.
+
+  - uuid : udx81nk2cv
+    term : Battery-Powered Radio Frequency Identification (RFID)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        There are two types of **battery-powered radio frequency identification (RFID)** tags: battery-assisted passive (BAP) tags
+        and active tags, which are used to collect and communicate asset-level information. BAP tags, which were standardized in
+        2010 in ISO/IEC 18000-6C:2010 Class 3, use a battery for operating the internal circuitry that facilitates the collection,
+        processing and storage of ancillary information. The additional energy may also be used to boost the communication process
+        in difficult usage scenarios, such as personnel tags. Active (Generation 2 Class 4) tags use batteries to power all
+        functions of the tag--the receiving and transmitting of a signal, as well as the power for the processing and memory
+        chips. Both solutions differ from passive-only tags, where there is no battery for communication, additional processing or
+        storage. Although active and BAP tags can technically be implemented at all frequencies in which RFID is used, they are
+        most common at 433 MHz, 900 MHz and 2.4 GHz.
+
+  - uuid : udx81nlt31
+    term : Baud
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Baud** is a unit of signaling speed. The speed in bauds is the number of discrete changes per second in some aspect of a
+        signal (e.g., voltage in a wire). Transmission speeds are now more commonly measured bits per second (bps), rather than
+        bauds. The two terms were roughly synonymous until modems began to exceed 2,400 bps, after which they diverged more widely
+        as modem speed has increased. Modems now use coding techniques to transmit more than one bit per baud, making their true
+        baud ratings irrelevant.
+
+  - uuid : udx81o1l2
+    term : Behavior Learning Engines (BLE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        BLEs are platforms intended to enable the discovery, visualization and analysis of recurring, complex, multiperiod
+        patterns in large operational performance data sets. If such engines are to realize their intent, they must support four
+        layers of cumulative functionality:
+
+        Variable designation--this supports the selection of the system properties that are to be tracked by the platform and how
+        those properties are to be measured;
+
+        Variable value normalization -- this is the automated ability to determine (usually by an algorithm that regresses
+        measurements) what constitutes the normal or usual values assumed by the system property measuring variables;
+
+        Observational dependency modeling -- this is a set of tools for linking the individual property measuring variables to one
+        another, where the links represent some kind of dependency among the values taken by the linked variables; commercially
+        available BLEs differ significantly with regard to the degree to which the dependencies must be pre-established by the
+        vendor or user and the degree to which the dependencies are themselves discovered by BLE algorithms working on the
+        performance data sets being considered;
+
+        Assessment -- the means by which, once the normalized values and dependency map are determined, the resulting construct
+        can be used to answer questions about the values assumed by some variables, based on the values assumed by others.
+
+  - uuid : udx81o1r3e
+    term : Behavioral/Gestural Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Behavioral/gestural analytics** reflects the automated analysis of real-world human activity captured by video systems
+        to track human movement and gestures to assess intentions and to identify specific behaviors.
+
+  - uuid : udx81o3a61
+    term : Benchmarking
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Benchmarking** is defined as the comparison between vendor performance and designated benchmark organizations or
+        indexes. An index is a publicly available indicator for a factor that is associated with a pricing element.
+
+        Internal benchmarking is the continuous process of measuring a company's products, services and practices to determine
+        whether the best possible job is performed with the resources at hand. This can include comparing similar functions of
+        different operating units in an organization or comparing the operations of a specific division from one year to the next.
+
+        External benchmarking is the continuous process of measuring a company's products, services and practices and comparing
+        them with those of another company. This can include comparisons with industry peers, functional leaders, or best-in-class
+        performers.
+
+  - uuid : udx81o4tj9
+    term : Best-in-Class
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Best-in-class** is defined as the superior product within a category of hardware or software. It does not necessarily
+        mean best product overall, however. For example, the best-in-class product in a low-priced category may be inferior to the
+        best product on the market, which could sell for much more.
+
+  - uuid : udx81o6ki2
+    term : Best-of-Breed
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **best-of-breed** product has been identified as the best product of its type. Enterprises often purchase software from
+        different vendors to obtain the best-of-breed offering for each application area. For example, enterprises may purchase a
+        human-resource package from one vendor and an accounting package from another. Although enterprise resource planning (ERP)
+        vendors offer numerous enterprise applications and claim that their integrated system is a superior solution, all modules
+        in an ERP system are rarely best-of-breed.
+
+  - uuid : udx81o8bsy
+    term : Best Practice
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Best practice** is defined by Gartner as a group of tasks that optimizes the efficiency (cost and risk) or effectiveness
+        (service level) of the business discipline or process to which it contributes. It must be implementable, replicable,
+        transferable and adaptable across industries.
+
+  - uuid : udx81oa4du
+    term : Beta Testing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Beta testing** is the stage at which a new product is tested under actual usage conditions.
+
+  - uuid : udx81obls7
+    term : Bid
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **bid** is defined as follows:
+
+        An attempt to gain control over a line in order to transmit data, usually associated with the contention style of sharing
+        a single line among several terminals.
+
+        A vendor's proposal to win a contract.
+
+  - uuid : udx81odcxi
+    term : Big Data
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Big data** is high-volume, high-velocity and high-variety information assets that demand cost-effective, innovative
+        forms of information processing for enhanced insight and decision making.
+
+  - uuid : udx81oeu6n
+    term : Bill Of Lading
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **bill of lading** is a contract of carriage between a shipper and carrier to consign a load for delivery to another
+        party.
+
+  - uuid : udx81ogcrn
+    term : Bill-of-Materials (BOM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **bill-of-materials (BOM)** is a structured list of the raw materials, parts and assemblies that constitute a product to
+        be manufactured, typically used as part of a manufacturing resource planning (MRP II) system.
+
+  - uuid : udx81ohla5
+    term : Binary Code
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Binary code** is the representation of quantities expressed in the base-2 number system.
+
+  - uuid : udx81oj1a0
+    term : Binary Digit (Bit)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **binary digit (bit)** is the minimum unit of binary information stored in a computer system. A bit can have only two
+        states, on or off, which are commonly represented as ones and zeros. The combination of ones and zeros determines which
+        information is entered into and processed by the computer.
+
+  - uuid : udx81okpdp
+    term : Binary Large Object (BLOB)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Binary large object (BLOB)** is a generic term used to describe the handling and storage of long strings of data by
+        database management systems. A BLOB is a category of data, characterized by large size (including media formats such as
+        audio and video), which can place extreme demands on storage systems and network bandwidth.
+
+  - uuid : udx81oma51
+    term : Binary Runtime Environment For Wireless (BREW)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Binary runtime environment for wireless (BREW)** is an application ecosystem designed by Qualcomm to support application
+        development, provisioning, marketing and billing of handheld wireless data applications, predominantly for consumers.
+
+  - uuid : udx81peq1
+    term : Binary Synchronous Communications (BSC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Binary Synchronous Communications (BSC** ) is a half-duplex, character-oriented data communications protocol originated
+        by IBM in 1964. It includes control characters and procedures for controlling the establishment of a valid connection and
+        the transfer of data. Also called Bisync. Although still in use, it has largely been replaced by IBM's more efficient
+        protocol, Synchronous Data Link Control (SDLC), which is under Systems Network Architecture (SNA).
+
+  - uuid : udx81p263w
+    term : Binary Table (Byte)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **binary table (byte)** is a group of eight bits handled as a logical unit. In text files, a byte is equivalent to a
+        single character such as a letter, number or punctuation mark.
+
+  - uuid : udx81p3hqs
+    term : Biochips
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Biochips** relate to a number of technologies that involve the merging of semiconductor and biological sciences. The
+        most common form is based on an array of molecular sensors arranged on a small surface -- typically referred to as
+        "lab-on-chip." The underlying mechanism utilizes microfluidic micro-electromechanical systems (MEMS) technology. These
+        devices are used to analyze biological elements such as DNA, ribonucleic acid and proteins, in addition to certain
+        chemicals.
+
+  - uuid : udx81p596m
+    term : Bioinformatics And Chemoinformatics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bioinformatics and chemoinformatics** solutions support R&D groups with applications, tools and procedures for analyzing
+        and expanding the use of biological, chemical, medical, behavioral and health data. These systems can acquire, store,
+        organize, archive, analyze and visualize data. They represent a very diverse field, with bioinformatics having a specialty
+        focus for different biological field disciplines (such as next-generation sequencing, functional genomics), and with
+        chemoinformatics having a focus on small molecules and drug discovery.
+
+  - uuid : udx81p71gk
+    term : Bioinformatics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bioinformatics** solutions and service providers support research, development, the application of computational tools,
+        and approaches for expanding the use of biological, medical, behavioral and health data. These systems are able to
+        acquire, store, organize, archive, analyze and visualize data, and are integral to R&D drug development and therapy
+        programs. They represent a very diverse field with specialty focus for different biological field disciplines (such as
+        next-generation sequencing, functional genomics, molecular biology, computational biology and crystallography).
+
+  - uuid : udx81p8si6
+    term : Biomass
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Biomass** is a renewable energy source derived from living (or recently living) organisms, including dedicated energy
+        crops and trees, agricultural food and feed crops, agricultural crop waste and residue, wood waste and residue, aquatic
+        plants, animal waste, municipal waste and other waste materials. It is commonly used as a fuel in microthermal power
+        plants.
+
+  - uuid : udx81pak56
+    term : Biometric ATMs
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Biometric ATMs** are self-service cash machines that use a biometric measure to identify customers and allow them to
+        withdraw cash. The biometric check may be the only customer identifier used, or it may be used in conjunction with another
+        format, such as a payment card, a mobile device or an additional security credential, such as a PIN. The biometric
+        measures used will generally include palm or finger vein print biometrics, although they may also include other
+        functionalities such as iris recognition.
+
+  - uuid : udx81pcbs1
+    term : Biometric Authentication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Biometric authentication** methods use biometric characteristics or traits to verify users' claimed identities when
+        users access endpoint devices, networks, networked applications or Web applications. Across a wide range of use cases, any
+        biometric authentication method may be used in one-to-one comparison mode (when the user enters a user ID), or one-to-many
+        search mode (when the user simply presents his or her biometric characteristic, with no explicit claim of identity, and
+        the system determines his or her user ID from a range of candidates).
+
+  - uuid : udx81pe21i
+    term : Biometric Characteristic
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **biometric characteristic** is a measurable physiological or behavioral trait of a living person, especially one that
+        can be used to determine or verify the identity of a person in access control or criminal forensics. Most real adoption of
+        biometric technologies during the next five years will come from government applications (for example, immigration, social
+        security and surveillance), although corporate adoption will continue to grow slowly until biometric readers are routinely
+        embedded in hardware, such as notebooks. Typical biometric measures include fingerprints, retinal recognition, facial
+        thermograms and voice recognition.
+
+  - uuid : udx81pfn8u
+    term : Blade Servers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Blades** are small form factor servers, housed in a chassis, that provide tightly integrated power, cooling,
+        input/output (I/O) connectivity and management capabilities that enable the easy addition of new components and
+        replacement of failed or outdated technology.
+
+  - uuid : udx81phg0x
+    term : Blanking Interval
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **blanking interval** is the area in a video signal that falls between frames. It is often used to accommodate data
+        such as synchronizing information.
+
+  - uuid : udx81pixda
+    term : Block Error Rate
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In data communications testing, **block error rate** is defined as the ratio between the total number of blocks
+        transmitted in a given message and the number of blocks in that message received in error; a measure of the quality of a
+        data transmission.
+
+  - uuid : udx81pkahm
+    term : Blog
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **blog** , which derives from the term "weblog," is a website designed to make it easy for users to create entries in
+        chronological order. The entries are then displayed in reverse chronological order (most recent entry first) and are
+        generally archived on a periodic basis. Blogs are mostly used to express opinions on topical events such as sports, music,
+        fashion or politics, but in the past three years, they have emerged as established communication channels for businesses
+        as well as individuals. "Microblogging" has emerged via a platform such as Twitter, which not only allows users to write
+        140-character posts and share them with humanity, but also serves as an impressive news- and taste-sharing vehicle too,
+        because a blog author or journalist can use it to drive awareness of new posts, articles and so on.
+
+  - uuid : udx81pm26g
+    term : Blu-ray
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Blu-ray** is an optical disc format like CD and DVD. Blu-ray discs can hold more information than other optical media,
+        because of the blue lasers that the disc drives use. A single Blu-ray disc can hold up to 25GB of data. Dual-layer Blu-ray
+        discs will be able to store 50GB of data -- equivalent to four hours of HD content. In 2010, the Blu-ray Disc Association
+        (BDA) announced formal specifications for a new Blu-ray disc XL (BDXL) format that boasts a maximum storage capacity of
+        128GB.
+
+  - uuid : udx81qe50
+    term : Bluetooth 3.0 (BT3.0)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Over the last decade, Bluetooth has become the de facto technology for wireless point-to-point connectivity. **Bluetooth
+        3.0** and **Bluetooth 3.0 + HS** (collectively referred to as BT3.0; HS stands for "high speed") were introduced in 2009.
+        BT3.0 includes all of the functionality of BT2.1 EDR, in addition to the following new features:
+
+        Generic test methodology
+
+        Enhanced power control
+
+        Unicast connectionless data
+
+        The HS version adds support for Generic Alternate MAC/PHY and the 802.11 Protocol Adaptation Layer, which increases the
+        speed to 24 Mbps.
+
+  - uuid : udx81q27vi
+    term : Bluetooth 4.0 (BT4.0)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        During the past 10 years, Bluetooth has become the de facto technology for wireless point-to-point connectivity.
+        **Bluetooth 4.0 (BT4.0)** is the latest revision that was introduced by the Bluetooth Special Interest Group (BT-SIG) in
+        June 2010. It includes three specifications in one single standard:
+
+        Classic Bluetooth: Bluetooth 2.1 + EDR (enhanced data rate).
+
+        Bluetooth High Speed (HS): Bluetooth 3.0 + HS.
+
+        Bluetooth Low Energy (LE): This is the new technology that is introduced in BT4.0.
+
+  - uuid : udx81q3r73
+    term : Bluetooth Low Energy (LE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bluetooth low energy (LE)** is a specification adopted by the Bluetooth SIG in April 2009 that enables low-power
+        peripherals with a battery life of months to years to communicate with Bluetooth in handsets or other devices. Bluetooth
+        LE opens up a new range of devices and applications such as on-body medical sensors and sports and fitness equipment. LE
+        arose from a technology called Wibree (owned by Nokia) and was previously called ultra low power (ULP) Bluetooth.
+
+  - uuid : udx81q5fmi
+    term : Bluetooth
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bluetooth** is a low-power wireless networking technology operating in the 2.4 GHz unlicensed Industrial, Scientific and
+        Medical (ISM) band. There are two classes of Bluetooth device -- Class 1 devices have higher output power and a range of
+        about 100 meters, and Class 2 devices have lower power and a range of about 10 meters. Bluetooth enables ad hoc networking
+        of up to eight devices (supporting voice and data). The Bluetooth Special Interest Group (SIG) was founded in 1998 by IBM,
+        Intel, Ericsson, Nokia and Toshiba, and is supported by more than 2,500 organizations. The Bluetooth v.1.0 specification
+        was ratified and published in 1999 and supported data rates of up to 1Mbps. Bluetooth Version 2.1, along with its enhanced
+        data rate (EDR) specification, was ratified in March 2007, supporting data rates of up to 3 Mbps, and simplified "pairing"
+        -- the process used for securely linking one Bluetooth device to another. It also reduced power consumption, doubling the
+        battery life of headsets and other mobile devices for which the Bluetooth radio consumes a large percentage of the power
+        budget. Version 3.0 ("Seattle" was adopted by the SIG in April 2009, and the specification included Wi-Fi as an
+        alternative transport layer for large volumes of data, supporting data rates of up to 24 Mbps. The SIG also adopted
+        "Bluetooth low energy", a new ultra-low-power variant, previously referred to as Ultra Low Power (ULP) Bluetooth and
+        Wibree.
+
+  - uuid : udx81q774v
+    term : Bookmark
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **bookmark** is defined as a pointer to an Internet address kept within a Web client (browser).
+
+  - uuid : udx81q8okq
+    term : Bottleneck
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **bottleneck** is defined as the operation with the least capacity in a total system with no alternative routings; the
+        total system can be effectively scheduled by simply scheduling the limiting operation.
+
+  - uuid : udx81qa6eo
+    term : BPM Pure-Play
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner first introduced the term **BPM pure-play** in 2003 to describe tools that delivered an application-independent
+        approach to coordinating business. BPM pure-play products provide a set of services and tools for explicit process
+        management (that is, process analysis, definition, execution, monitoring and administration), including support for human-
+        and application-level interaction. BPM pure-play software includes commercially available software products that have all
+        these features:
+
+        Process orchestration engine
+
+        Modeling environment
+
+        Human-to-human workflow
+
+        Monitoring and analysis capabilities
+
+        Offline simulation
+
+        System-to-system integration
+
+        Business process performance reporting
+
+  - uuid : udx81qbwrt
+    term : Brand Extension
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Brand extension** is the expansion an existing "house" (or "master") brand to cover a new category of solution. The
+        brand becomes an umbrella brand for all the company's offerings. The alternative is to create sub-brands for each
+        individual proposition.
+
+  - uuid : udx81qdoi2
+    term : Brand Service Company
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Similar to the in-sourcing model, a **brand service company** is built to provide services to a large organization or a
+        group of business-oriented companies. Services provided (which may include non-IT services and business processes) are
+        carefully compared against the market, and the services company leverages external services providers (ESPs), selectively
+        outsourcing part of their services.
+
+  - uuid : udx81qfew4
+    term : Branded Content Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        From a technology perspective, **branded content management** is the automation of processes from initial creative idea
+        through to production and storage and, ultimately, to the fulfilment of branded content in the field and across various
+        channels/media.
+
+  - uuid : udx81qgqkg
+    term : Bring Your Own Device (BYOD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bring your own device (BYOD)** is an alternative strategy allowing employees, business partners and other users to
+        utilize a personally selected and purchased client device to execute enterprise applications and access data. Typically,
+        it spans smartphones and tablets, but the strategy may also be used for PCs. It may include a subsidy.
+
+  - uuid : udx81qije4
+    term : Broadband Wireless Access (BWA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Broadband wireless access (BWA)** is a generic term for services based on a wireless broadband MAN; sometimes referred
+        to as wireless broadband access.
+
+  - uuid : udx81qk278
+    term : Broadband
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Broadband** channels are carried on coaxial or fiber-optic cables that have a wider bandwidth than conventional
+        telephone lines, giving them the ability to carry video, voice and data simultaneously. Cable modems and digital
+        subscriber line (DSL) technologies are examples of broadband connectivity.
+
+  - uuid : udx81qmp0b
+    term : Broadcast Storm
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **broadcast storm** is defined as excessive one-to-many or many-to-many transmissions, especially troublesome on
+        Ethernet networks.
+
+  - uuid : udx81rtrv
+    term : Broadcast
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Broadcast** can be defined as follows:
+
+        Delivery of a transmission to two or more stations at the same time, such as over a bus-type local network or by
+        satellite.
+
+        Protocol mechanism whereby group and universal addressing is supported.
+
+  - uuid : udx81r31rn
+    term : Brownout
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In response to heavy demand, main system voltages are sometimes lowered, leading to **brownouts** in which power is not
+        lost but reduced.
+
+  - uuid : udx81r4l42
+    term : Browser
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **browser** is a software program used to locate and display information on the Internet or an intranet. Browsers are
+        most often used to access Web pages. Most can display graphics, photographs and text; multimedia information (e.g., sound
+        and video) may require additional software, often referred to as "plug-ins."
+
+  - uuid : udx81r687g
+    term : Buffer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **buffer** is a storage device used to compensate for a difference in rate of data flow, or time of occurrence of
+        events, when transmitting data from one device to another.
+
+  - uuid : udx81r7ohv
+    term : Bug
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **bug** is an unexpected problem with software or hardware. Typical problems are often the result of external
+        interference with the program's performance that was not anticipated by the developer. Minor bugs can cause small problems
+        like frozen screens or unexplained error messages that do not significantly affect usage. Major bugs may not only affect
+        software and hardware, but could also have unintended effects on connected devices or integrated software and may damage
+        data files.
+
+  - uuid : udx81r9haf
+    term : Build-Operate-Transfer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Build-operate-transfer (BOT)** is a contractual relationship in which an organization hires a service provider to set
+        up, optimize and run an IT or business process service delivery operation with the contractually stipulated intent of
+        transferring the operation to the organization as a captive center.  BOT, as a hybrid model, combines elements of the
+        "build" option (that is, "insourcing" or captive center) and the "buy" option (that is, outsourcing; see also "captive
+        centers").
+
+  - uuid : udx81rb9tn
+    term : Building-Integrated Photovoltaics (BIPV)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Building-integrated photovoltaic (BIPV)** systems are photovoltaic (PV) solar energy systems that are specifically
+        designed to blend in with the architecture of a building, combining the economic and sustainability benefits of
+        distributed solar energy generation with the aesthetic appeal of a seamless integration into the overall building design.
+
+  - uuid : udx81rcwlg
+    term : Bundling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Bundling** is defined as the practice of packaging multiple features and products together for a single price.
+
+  - uuid : udx81reeoh
+    term : Burst
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In data communications, a **burst** is a sequence of signals counted as one unit in accordance with a specific criterion
+        or measure.
+
+  - uuid : udx81rfvl2
+    term : Business Activity Monitoring (BAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business activity monitoring (BAM)** describes the processes and technologies that enhance situation awareness and
+        enable analysis of critical business performance indicators based on real-time data. BAM is used to improve the speed and
+        effectiveness of business operations by keeping track of what is happening and making issues visible quickly. The BAM
+        concept can be implemented through many different kinds of software tools; those aimed solely at BAM are called BAM
+        platform products.
+
+  - uuid : udx81rhn38
+    term : Business Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business analytics** is comprised of solutions used to build analysis models and simulations to create scenarios,
+        understand realities and predict future states. Business analytics includes data mining, predictive analytics, applied
+        analytics and statistics, and is delivered as an application suitable for a business user. These analytics solutions often
+        come with prebuilt industry content that is targeted at an industry business process (for example, claims, underwriting or
+        a specific regulatory requirement).
+
+  - uuid : udx81rjdr9
+    term : Business Application Programming Interface (BAPI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **Business Application Programming Interface (BAPI)** is a set of documented, server-side interfaces to one or more R/3
+        processes, from SAP. BAPI packages multiple internal functions to enable programmatic access to such higher-order tasks as
+        checking customer numbers, providing product descriptions, selecting products, creating quotations or creating orders.
+
+  - uuid : udx81rl5nj
+    term : Business Capability Modeling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business capability modeling** is a technique for the representation of an organization's business anchor model,
+        independent of the organization's structure, processes, people or domains.
+
+  - uuid : udx81rmmrq
+    term : Business Continuity Management Planning (BCMP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business continuity management planning (BCMP)** software tools are the key tools used to manage business continuity
+        management (BCM) programs. They provide risk assessment, business impact analysis, business process, vendor and IT
+        dependency mapping, and plan management functionality. Some products also offer plan exercising capability, resource
+        modeling capability and crisis/incident management "lite" support.
+
+  - uuid : udx81s14t4
+    term : Business Continuity Manager (BCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **business continuity manager (BCM)** is the person responsible for business recovery planning (BRP) and business
+        continuity planning (BCP).
+
+  - uuid : udx81s2lyc
+    term : Business Continuity Planning (BCP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business continuity planning (BCP)** is a broad disaster recovery approach whereby enterprises plan for recovery of the
+        entire business process. This includes a plan for workspaces, telephones, workstations, servers, applications, network
+        connections and any other resources required in the business process.
+
+  - uuid : udx81s4gdw
+    term : Business Impact Analysis (BIA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **business impact analysis (BIA)** is a process that identifies and evaluates the potential effects (financial,
+        life/safety, regulatory, legal/contractual, reputation and so forth) of natural and man-made events on business
+        operations.
+
+  - uuid : udx81s67uu
+    term : Business Intelligence (BI) Platforms
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business intelligence (BI) platforms** enable enterprises to build BI applications by providing capabilities in three
+        categories: analysis, such as online analytical processing (OLAP); information delivery, such as reports and dashboards;
+        and platform integration, such as BI metadata management and a development environment.
+
+  - uuid : udx81s7yjd
+    term : Business Intelligence (BI) Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business intelligence (BI) services** are offerings to design, develop and deploy enterprise processes and to integrate,
+        support and manage the related technology applications and platforms. These include business and infrastructure
+        applications for BI platforms, analytics needs and data warehousing infrastructure. Solutions include areas such as
+        corporate performance management (CPM) and analytics, in addition to the traditional BI platform, data warehouse/data
+        infrastructure and data quality areas.
+
+  - uuid : udx81s9r5m
+    term : Business Intelligence (BI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business intelligence (BI)** is an umbrella term that includes the applications, infrastructure and tools, and best
+        practices that enable access to and analysis of information to improve and optimize decisions and performance.
+
+  - uuid : udx81sb91e
+    term : Business Intelligence Competency Center (BICC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **business intelligence competency center (BICC)** develops the overall strategic plan and priorities for BI. It also
+        defines requirements, such as data quality and governance and fulfills the role of promoting the use of BI.
+
+  - uuid : udx81scm1w
+    term : Business Pattern Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business pattern recognition** aims to understand how elements (activities, events, objects and information) may form
+        new patterns that represent an opportunity for innovation or the threat of disruption to business operations or
+        strategies.
+
+  - uuid : udx81se15a
+    term : Business Process Analysis Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process analysis tools** are primarily intended for use by business end users looking to document, analyze and
+        streamline complex processes, thereby improving productivity, increasing quality, and becoming more agile and effective.
+        These tools also support the roles of business process architect and business process analyst, and enable them to better
+        understand business processes, events, workflows and data using proven modeling techniques. BPA tools permit users to
+        diagram their processes, noting (generally abstracted) rules or specifications to promote understanding, validate this
+        information using standard methodologies and best practices enabled by the software, and ideally, automate the models into
+        deployable applications that leverage their analytical efforts and comply with the business process rules. BPA tools
+        feature the following functionality:
+
+        Business model drawing and development
+
+        Ease of use in operation, development and administration
+
+        Business model analysis
+
+        Integration and automation
+
+        Multiuser support/versioning and extensibility
+
+        Methodology and use
+
+        Performance and scalability
+
+        Vertical-industry and horizontal cross-industry template support
+
+  - uuid : udx81sfm28
+    term : Business Process As A Service (BPaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **business process as a service (BPaaS)** as the delivery of business process outsourcing (BPO) services
+        that are sourced from the cloud and constructed for multitenancy. Services are often automated, and where human process
+        actors are required, there is no overtly dedicated labor pool per client. The pricing models are consumption-based or
+        subscription-based commercial terms. As a cloud service, the BPaaS model is accessed via Internet-based technologies.
+
+  - uuid : udx81shd1i
+    term : Business Process Automation (BPA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process automation (BPA)** is defined as the automation of complex business processes and functions beyond
+        conventional data manipulation and record-keeping activities, usually through the use of advanced technologies. It focuses
+        on "run the business" as opposed to "count the business" types of automation efforts and often deals with event-driven,
+        mission-critical, core processes. BPA usually supports an enterprise's knowledge workers in satisfying the needs of its
+        many constituencies.
+
+  - uuid : udx81sj6pq
+    term : Business Process Fusion (BPF)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process fusion (BPF)** transforms business activities by integrating previously individual business processes
+        to create a new scope of combined management capabilities--for example, a vehicle manufacturer that combines parts
+        management and ordering processes with diagnostic and warranty data.
+
+  - uuid : udx81sknmb
+    term : Business Process Management (BPM) Standards
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **"BPM standards"** is a collective term for the subset of open computing standards and specifications used to model and
+        execute business processes. The goal of business process management (BPM) standards has been typical of other standards
+        efforts--to ensure skill reuse, definitional clarity, interoperability and portability--and has been focused specifically
+        on process management efforts.
+
+  - uuid : udx81smegv
+    term : Business Process Management (BPM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process management (BPM)** is a management discipline that treats business processes as assets that directly
+        contribute to enterprise performance by driving operational excellence and business agility. As with other assets,
+        determining the right level of investment in the resources needed, proper performance monitoring of the process, sound
+        maintenance of the process and management of the process life cycle can drive operational excellence. The most critical
+        disciplines for BPM success are related to nontechnical issues, such as changing people's attitudes and assumptions based
+        on building a new frame of reference or perspective (that is, the process perspective) for evaluating business performance
+        of government agencies. These essential elements consist of:
+
+        Comprehending processes through business process modeling for visualization
+
+        Evaluating process performance through attention to the right process metrics
+
+        Generating options for performance improvements through process analysis
+
+        Gaining the willingness to change the processes from the stakeholders involved
+
+        Together, these disciplines provide a fresh approach to improving the performance of business processes. A BPM effort may
+        be initiated from a business unit, the IT organization or an internal operational unit that may focus on innovation,
+        transformation, organizational development, change management, enterprise architecture, government delivery services,
+        audit/compliance and so on.
+
+  - uuid : udx81tudb
+    term : Business Process Management Suites (BPMSs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process management suites (BPMSs)** are the leading application infrastructures to support BPM projects and
+        programs. A BPMS supports the entire process improvement life cycle -- from process discovery, definition and design to
+        implementation, monitoring and analysis, and through ongoing optimization. Its model-driven approach enables business and
+        IT professionals to work together more collaboratively throughout the life cycle than is possible with other approaches to
+        solution delivery.
+
+  - uuid : udx81t2myw
+    term : Business Process Modeling (BPM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process modeling (BPM)** links business strategy to IT systems development to ensure business value. It
+        combines process/workflow, functional, organizational and data/resource views with underlying metrics such as costs, cycle
+        times and responsibilities to provide a foundation for analyzing value chains, activity-based costs, bottlenecks, critical
+        paths and inefficiencies.
+
+  - uuid : udx81t4hfr
+    term : Business Process Outsourcing (BPO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process outsourcing (BPO)** is the delegation of one or more IT-intensive business processes to an external
+        provider that, in turn, owns, administrates and manages the selected processes based on defined and measurable performance
+        metrics. BPO offerings are categorized in two major categories: horizontal offerings (those that can be leveraged across
+        specific industries) and vertical-specific offerings (those that demand specific industry vertical process knowledge).
+
+  - uuid : udx81t68p2
+    term : Business Process Re-engineering (BPR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process re-engineering (BPR)** is defined as an integrated set of management policies, project management
+        procedures, and modeling, analysis, design and testing techniques for analyzing existing business processes and systems;
+        designing new processes and systems; testing, simulating and prototyping new designs prior to implementation; and managing
+        the implementation process.
+
+  - uuid : udx81t7yq7
+    term : Business Process Utilities (BPUs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Business process utilities (BPUs)** are externally provisioned business process services based on highly standardized
+        processes and unified, one-to-many technology platforms.
+
+  - uuid : udx81t9i0f
+    term : Business Process
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines business process as an event-driven, end-to-end processing path that starts with a customer request and
+        ends with a result for the customer. Business processes often cross departmental and even organizational boundaries.
+
+  - uuid : udx81tb0en
+    term : Business Rule Engines (BRE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **business rule engine (BRE)** is a specific collection of design-time and runtime software that enables an enterprise
+        to explicitly define, analyze, execute, audit and maintain a wide variety of business logic, collectively referred to as
+        "rules." A BRE can be purchased independently or comes embedded in a business process management suite (BPMS). A BRE
+        enables IT and/or business staff to define rules using decision trees, decision tables, pseudonatural language,
+        programming-like code or other representation techniques.
+
+  - uuid : udx81tcrs0
+    term : Business Service Provider (BSP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **business service provider (BSP)** is the extension of the application service provider (ASP) model into business
+        process management. A BSP manages and operates standardized business processes on behalf of its customers, delivering its
+        service across a network to multiple customers using a "pay as you go" payment model.
+
+  - uuid : udx81tek5e
+    term : Byte Code
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Byte code** is the intermediate code compiled and executed by a virtual machine (VM). Byte code can be used unchanged on
+        any platform on which the VM operates.
+
+# __END__

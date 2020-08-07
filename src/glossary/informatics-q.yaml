@@ -1,0 +1,91 @@
+title    : ISLE AIT computer science glossary -- Q words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8a8gpdk
+    term : QA (quality Assurance)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The historic focus of the National Committee on Quality Assurance (NCQA), fundamentally based on measures of compliance to
+        standards or processes.
+
+  - uuid : udx8a8i1yp
+    term : QAM (quadrature Amplitude Modulation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A combination of amplitude and phase modulation (and shift-keying) techniques used to transmit 9,600 bits per second (bps)
+        over a 2,400-baud line.
+
+  - uuid : udx8a8jj5c
+    term : QoS (quality Of Service)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A negotiated contract between a user and a network provider that renders some degree of reliable capacity in the shared
+        network.
+
+  - uuid : udx8a8l12p
+    term : Quad-band
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Mobile device that supports voice and data communications conforming to one bearer technology, such as GSM, but on four
+        different sets of frequencies. For example, many European and Asia/Pacific countries/markets have licensed deployment of
+        GSM networks on 900MHz and 1,800MHz spectrums, and in North America GSM has been deployed on 800MHz and 1,900MHz. A
+        quad-band phone allows the user to roam automatically among networks on any of these frequencies in any of these
+        countries, providing that the "home" operator has roaming agreements with local mobile network operators. See also
+        dual-band, dual-mode and tri-band.
+
+  - uuid : udx8a8mqcc
+    term : Quality Of Storage Service
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Quality of storage service** optimizes the use of disk storage system resources via user-defined policies and/or
+        adaptive algorithms that manage performance and throughput, while minimizing back-end storage costs. Quality of storage
+        service includes a variety of technologies, including cache partitioning and binding, input/output (I/O) prioritization,
+        and the automated movement of files, logical volumes or sub-volumes, or LUNs (aka auto-tiering) between cache, solid-state
+        drives (SSDs), high-performance and high-capacity disks and other media (such as cloud or tape), as performance needs
+        dictate and security requirements allow.
+
+  - uuid : udx8a911qt
+    term : Quantum Computer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **quantum computer** uses atomic quantum states to effect computation. Data is held in qubits (quantum bits), which have
+        the ability to hold all possible states simultaneously. This property, known as "superposition," gives quantum computers
+        the ability to operate exponentially faster than conventional computers as word length is increased. Data held in qubits
+        is affected by data held in other qubits, even when physically separated. This effect is known as "entanglement."
+        Achieving both superposition and entanglement is extremely challenging.
+
+  - uuid : udx8a92rty
+    term : Quantum Dot Displays
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Quantum dots** are nanocrystals made from types of semiconductors that emit colored light. They are very small, with a
+        diameter ranging from two to 10 nanometers. The different colors emitted can be finely tuned by changing the size of the
+        quantum dot and manipulating their chemical composition.
+
+  - uuid : udx8a944nd
+    term : Quick Response Codes (QR Codes)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Quick response codes (QR codes)** and color codes are high-density, two-dimensional bar codes that are readable by
+        mobile phones and computer cameras with the correct software. Color codes enable the same physical space to encode more
+        information by incorporating color in any pattern or shape, such as a logo, that attracts attention. Users capture the
+        mono or color image, which, after decoding by the device, launches its browser, linking the device to the URL embedded in
+        the code.QR codes may be printed on any substrate. The small, densely packed bar code fits well on printed transaction
+        documents, magazines and direct-mail pieces, as well as clothing, point-of-purchase displays, packaging, buses, buildings
+        and business cards. Software that captures QR codes tends to be very efficient and reliable (although users or specific
+        apps report widely varying ease of use and results) and can capture any code in view of the camera, often when it is
+        slightly out of focus or if only part of it is visible. Although the QR code enables the user to link to a URL, the
+        website owner must still provide relevant product information, payment portal, and other content.
+
+# __END__

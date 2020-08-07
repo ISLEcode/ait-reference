@@ -1,0 +1,112 @@
+title    : ISLE AIT computer science glossary -- J words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx898h6m6
+    term : Java Applet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A small piece of Java code that implements a specific function. Applets may run on a server or be downloaded and run on
+        the client's machine.
+
+  - uuid : udx898ims8
+    term : Java ME (Java Platform, Micro Edition)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Reduced-feature version of Java defined by Sun Microsystems for use in mobile devices, such as mobile phones. Java ME
+        (formerly known as Java 2ME) is part of a set of related Java technologies that includes definitions of profiles and
+        configurations.
+
+  - uuid : udx898k4y2
+    term : Java Platform AD Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The Java platform AD tool market includes tools used to construct applications that operate within Java Community Process
+        (JCP)-certified and JCP-compliant Java runtimes. These tools may include code-centric integrated development environments,
+        or they may employ more-advanced features, such as model-driven code generators or other architected rapid AD features.
+
+  - uuid : udx898lhs9
+    term : Java Platform, Enterprise Edition (Java EE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Java Platform, Enterprise Edition (Java EE)** is a Java Community Process (JCP)-managed architecture and programming
+        model for multiplatform Java business applications. Java EE is implemented as Java EE application servers by many
+        commercial and some open-source, community-style vendors.
+
+  - uuid : udx898n5qh
+    term : Java Servlet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Java program that operates in conjunction with a Web server, and can output Hypertext Markup Language (HTML) to a
+        browser or even communicate with Java applets. Servlets offer an alternative to using Common Gateway Interface (CGI) and
+        server application programming interfaces (SAPIs) to communicate with Web server processes.
+
+  - uuid : udx89916fc
+    term : Java
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The term "Java" can be applied to Sun's Java platform or to its Java programming language. The Java platform is made up of
+        a set of technologies that provide cross-platform, network-centric computing solutions. The programming language is simply
+        one aspect of the Java platform. The elements of the Java platform include the Java Virtual Machine (JVM), which provides
+        a uniform Java byte code emulator for Java's cross-platform runtime environment; the Java programming language, which
+        provides a robust, object-oriented language for constructing Java components and applications; and the standard Java-class
+        library packages, which provide sets of reusable services that promote consistency among components and applications.
+
+        The Java programming language is based on C and extends and complements the basic capabilities of HTML. Java permits the
+        creation of applications and application modules (called "applets") that run in the JVM on the browser. Browsers from
+        Netscape and Microsoft have a JVM. Java's platform independence and security are designed in, rather than added on, so
+        applications can run on a wide variety of desktop platforms as long as they can run a Java-enabled browser.
+
+  - uuid : udx8992w7m
+    term : JavaScript
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A scripting language targeted specifically to the Internet. It is the first scripting language to fully conform to
+        ECMAScript, the Web's only standard scripting language. Despite its name, JavaScript is not a derivative of Java; its
+        origin is Netscape's Livescript language. JavaScript is, in fact, closer to C/C++ in syntax than it is to Java.
+
+  - uuid : udx8994nda
+    term : Jidoka
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Automatic inspection such that defects can be prevented from moving further along in the production process.
+
+  - uuid : udx89969n4
+    term : JIT (just In Time)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An approach of sequencing the arrival of material to a work center just prior to consumption to avoid large
+        work-in-process inventories.
+
+  - uuid : udx8997ou2
+    term : Job Scheduling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Job scheduling tools supervise a logical process (several jobs or programs) as they execute in a mainframe or distributed
+        environment, providing scheduling and dependency management of the process as it runs, mainly in sequence, across
+        disparate systems, geographies and applications. The tools in this category are used for "batch integration" of
+        heterogeneous applications and data stores.
+
+  - uuid : udx8999gdh
+    term : Jukebox
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An automatic media handler for an optical disk drive, also called a library. An optical jukebox is designed to move
+        optical platters in and out of optical drives. The intent is to provide a large amount of easily accessed storage in a
+        "near-line" fashion. Jukeboxes use robotics. Similar in concept to music jukeboxes, the robot arm locates the appropriate
+        disk and, if it is not already mounted in a drive, clears the drive and loads the selected disk.
+
+# __END__

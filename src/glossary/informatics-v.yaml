@@ -1,0 +1,580 @@
+title    : ISLE AIT computer science glossary -- V words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8b1hnj7
+    term : Value-Added Network (VAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **value-added network (VAN)** is a private network through which value-added carriers provide special data transmission
+        services.
+
+  - uuid : udx8b1j0uu
+    term : Value-Added Reseller (VAR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **value-added reseller (VAR)** is an organization that buys equipment from a vendor at a discount, adds value (such as
+        application software packaged and sold with underlying system software) and re-markets it.
+
+  - uuid : udx8b1kcjr
+    term : Value-Added Service (VAS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Offered by a network or its resellers; a **value-added service (VAS)** generates additional revenue by offering increased
+        benefits to subscribers. Total VAS revenue is calculated from the total of SMS, data-over-cellular and information-service
+        revenue. All other VAS revenue is considered transparent and is included with call charges or subscription revenue.
+
+  - uuid : udx8b1ly9d
+    term : Value-Adding
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Value-adding** activities are defined as those activities within a company or supply chain that directly contribute to
+        satisfying end consumers, or those activities consumers would be happy to pay for.
+
+  - uuid : udx8b24tt
+    term : Value Stream Mapping (VSM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Value stream mapping (VSM)** is the process of charting out or visually displaying a value stream so that improvement
+        activity can be effectively planned.
+
+  - uuid : udx8b21l03
+    term : Value Stream
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **value stream** is defined as the specific activities within a supply chain required to design, order and provide a
+        specific product or service.
+
+  - uuid : udx8b233u1
+    term : ValueOps
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **ValueOps** is a strategy for IT operations that offers a holistic set of frameworks, methodologies and philosophies to
+        enable I&O leaders to implement the appropriate operations processes based upon the needs of the business by leveraging
+        Gartner's Pace-Layered Application Strategy.
+
+  - uuid : udx8b24vls
+    term : Variable Bit Rate (VBR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Variable bit rate (VBR)** is an asynchronous transfer mode (ATM) quality of service category, defined by the ATM Forum.
+        Both real-time variable bit rate (rtVBR) and non real-time variable bit rate (nrtVBR) are defined. Apart from the traffic
+        parameters for peak cell rate (PCR) and sustainable cell rate (which defines the average bit rate required by the
+        application), additional quality-of-service parameters such as maximum cell transfer delay, cell delay variation and
+        maximum burst size must be agreed upon. The typical application for which it is used is compressed voice and
+        videoconferencing for rtVBR, and response-time-sensitive data such as Systems Network Architecture (SNA) for nrtVBR.
+
+  - uuid : udx8b26po6
+    term : VBScript
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **VBScript** is a Microsoft proprietary language derived from Visual Basic (VB). Like JavaScript, VBScript is intended for
+        use as a browser-based language, a server-side (Active Server Pages -- ASP) language, and an administrative (Windows
+        Scripting Host -- WSH) language. Unlike JavaScript, support for it in browsers is limited to Microsoft's Internet
+        Explorer.
+
+  - uuid : udx8b28hfo
+    term : Vendor Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Vendor management** is a discipline that enables organizations to control costs, drive service excellence and mitigate
+        risks to gain increased value from their vendors throughout the deal life cycle.
+
+        Gartner's vendor management research helps clients select the right vendors; categorize vendors to ensure the right
+        contract, metrics and relationship; determine the ideal number of vendors; mitigate risk when using vendors; and establish
+        a vendor management organization that best fits the enterprise.
+
+        This enables organizations to optimally develop, manage and control vendor contracts, relationships and performance for
+        the efficient delivery of contracted products and services. This can help clients meet business objectives, minimize
+        potential business disruption, avoid deal and delivery failure, and ensure more-sustainable multisourcing, while driving
+        the most value from their vendors.
+
+  - uuid : udx8b2ab27
+    term : Vendor-Neutral
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Vendor-neutral** describes a state in which no one vendor can control the definition, revision or distribution of a
+        specification. Vendor-neutral specifications encourage the development of competing yet compatible implementations,
+        freeing the purchaser to choose from a multitude of vendors without suffering a loss of functionality. Vendor-neutral
+        specifications must be comprehensive, consistent, and either publicly available or licensed at a nominal fee.
+        Additionally, they must be defined by a multilateral association that is representative of a broad cross-section of the
+        computer industry, open to new members, publishes the rules of membership and operates according to democratic principles.
+        Preferably, a vendor-neutral specification is supplemented with at least one reference implementation. This reference
+        would be available in a format that allows re-creation -- that format would be source code for software implementations --
+        and a set of conformance tests that sufficiently ensure the implementation's integrity under all reasonable conditions of
+        projected use.
+
+  - uuid : udx8b2c46f
+    term : Vendor Revenue
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Vendor revenue** is the revenue earned by technology providers for the sale of printer, copier and MFP hardware (that
+        is, excluding supplies). It would be calculated by end-user spending minus channel margins.
+
+  - uuid : udx8b2dphe
+    term : Vendor Risk Management (VRM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Vendor risk management (VRM)** is the process of ensuring that the use of service providers and IT suppliers does not
+        create an unacceptable potential for business disruption or a negative impact on business performance. VRM technology
+        supports enterprises that must assess, monitor and manage their risk exposure from third-party suppliers (TPSs) that
+        provide IT products and services, or that have access to enterprise information.
+
+  - uuid : udx8b2fgiu
+    term : Vendor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **vendor** is the last entity in the chain that brands a product and sells it directly to end users or through a
+        channel. A vendor may design and manufacture its own products, assemble complete systems from components produced by
+        others, or procure products from an original equipment or contract manufacturer. A vendor may also provide services,
+        maintenance or nonmaintenance for its own products or for other vendors' products and may also provide services for IT
+        technologies.
+
+  - uuid : udx8b2h94j
+    term : Versatile Authentication Server And Service (VAS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **versatile authentication server or service (VAS)** is a single authentication product or service supporting user
+        authentication in multiplatform environments (on-premises and in the cloud). It may be delivered as server software, a
+        virtual or hardware appliance, or a cloud-based service. In addition to the VAS vendor's own and OEMed proprietary
+        methods, if any, a VAS must support either open authentication methods or third-party proprietary authentication methods,
+        without the need for separate third-party authentication servers or services.
+
+  - uuid : udx8b2j1el
+    term : Very High-Speed Digital Subscriber Lines (VDSL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Very high-speed digital subscriber lines (VDSL)** are extremely high-speed digital subscriber line (DSL) connections
+        over short distances. VDSL offers speeds from 13 Mbps to more than 100 Mbps over distances of between 1,000 and 4,500 feet
+        -- the shorter the distance, the higher the speed. VDSL comes in both asymmetrical and symmetrical flavors and in
+        different configurations. Most advanced VDSL deployments use VDSL2, which promises up to 100 Mbps bandwidth. We account
+        for all VDSL technologies together in our generic VDSL (VDSLx) category.
+
+  - uuid : udx8b2kt8p
+    term : Very Large-Scale Integration (VLSI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Very large-scale integration (VLSI)** is a technology that makes it possible to place the equivalent of between 100,000
+        and 1 million transistors on a chip.
+
+  - uuid : udx8b2mcgf
+    term : Very Small Aperture Terminal (VSAT)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **very small aperture terminal (VSAT)** is a small-sized earth station used in the transmit/receive of data, voice and
+        video signals over a satellite communication network, excluding broadcast television. A VSAT consists of two parts: a
+        transceiver placed outdoors in direct line of sight to the satellite, and a device that is placed indoors to interface the
+        transceiver with the end user's communications device, such as a PC. The transceiver receives or sends a signal to a
+        satellite transponder in the sky. The satellite sends and receives signals from a ground station computer that acts as a
+        hub for the system. Each end user is interconnected with the hub station via the satellite, forming a star topology. The
+        hub controls the entire operation of the network. For one end user to communicate with another, each transmission must
+        first go to the hub station, which then retransmits it via the satellite to the other end user's VSAT. VSAT data
+        throughput speeds have increased significantly throughout the years and now can provide multimegabit service in downstream
+        and upstream. Antenna/dish sizes usually range from 1.2 meters to approximately 3 meters in diameter. Generally, these
+        systems operate in Ku-band and C-band frequencies, but with the launch of Ka-band satellites by a number of operators in
+        North America and Asia/Pacific, and with newer Ka-band satellites planned for Europe, high-bandwidth, bidirectional VSAT
+        services for enterprise, government and other users will increasingly migrate to these satellites.
+
+  - uuid : udx8b3s0h
+    term : Video On Demand (VOD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Video on demand (VOD)** is a generic term covering several areas. It includes all video content requested on-demand by
+        users. This could be premium movies or libraries of TV shows, sporting events or concerts. It could also include
+        user-created video content. In addition, some IPTV operators are starting to offer the ability to see all the TV programs
+        aired on their multichannel pay-TV channels in the previous 24 or 48 hours on demand. This video content is held in a
+        constantly updated library hosted by their network.
+
+        VOD services are sold either on a pay-per-view basis or as monthly subscriptions. Bundling in flat-rate packages with
+        multichannel subscriptions is also common. Gartner's definition of VOD excludes free VOD downloads, which may be used to
+        increase customers' awareness of these services or to generate advertising revenue.
+
+  - uuid : udx8b32j8h
+    term : Video Telepresence
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Video telepresence** is a form of immersive video communication that creates the impression of being in the same room as
+        other conference participants. These conference participants appear as life-size individuals on large plasma, LCD,
+        light-emitting diode or projection screens. Multiple cameras and microphones pick up individuals or pairs of individuals,
+        so that all audiovisual information becomes directional, with eye contact and spatial sound aligned with the location of
+        the person speaking.
+
+  - uuid : udx8b34cq2
+    term : Videoconferencing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **videoconferencing** as communication by individuals or groups using systems that support image, voice
+        and data transfer over digital networks or telephone circuits. Videoconferencing systems can take the form of large,
+        dedicated units for group meetings or can be integrated with desktop personal computers.
+
+  - uuid : udx8b35ook
+    term : Virtual Assistant (VA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **A virtual assistant (VA)** is a conversational, computer-generated character that simulates a conversation to deliver
+        voice- or text-based information to a user via a Web, kiosk or mobile interface. A VA incorporates natural-language
+        processing, dialogue control, domain knowledge and a visual appearance (such as photos or animation) that changes
+        according to the content and context of the dialogue. The primary interaction methods are text-to-text, text-to-speech,
+        speech-to-text and speech-to-speech.
+
+  - uuid : udx8b37f1l
+    term : Virtual Channel (VC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In asynchronous transfer mode (ATM), a **virtual channel (VC)** is a communications track between two nodes giving the
+        bandwidth needed for a virtual connection across the network.
+
+  - uuid : udx8b38vop
+    term : Virtual Desktop Infrastructure (VDI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Virtual desktop infrastructure (VDI)** is the practice of hosting a desktop operating system within a virtual machine
+        (VM) running on a centralized server. VDI is a variation on the client/server computing model, sometimes referred to as
+        server-based computing.
+
+        The term was coined by VMware for its VMware server and Virtual Desktop Manager (VDM).
+
+  - uuid : udx8b3alnj
+    term : Virtual LAN (VLAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual LAN (VLAN)** is a set of systems that, regardless of higher-layer addressing or location, is designated as a
+        logical LAN and treated as a set of contiguous systems on a single LAN segment. Virtual LANs can be proprietary or
+        standardized using the Institute of Electrical and Electronics Engineers (IEEE) 802.1Q. Typical grouping parameters for
+        VLANs include the port number of the hub, switch or router, the higher-layer protocol such as Internet Protocol (IP) or
+        Internetwork Packet Exchange (IPX), the Media Access Control (MAC) address, and the traditional subnet. The goal of VLANs
+        is to provide simpler administration, simple moves/adds/changes to network devices, and partitioning at the MAC layer.
+
+  - uuid : udx8b3cd1b
+    term : Virtual Machine (VM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual machine (VM)** is a software implementation of a hardware-like architecture, which executes predefined
+        instructions in a fashion similar to a physical central processing unit (CPU). A VM can be used to create a cross-platform
+        computing environment that loads and runs on computers independently of their underlying CPUs and operating systems. A
+        notable example is the Java Virtual Machine, the environment created on a host computer to run Java applets. Although VMs
+        have existed longer than Java, Java has made VMs highly visible.
+
+  - uuid : udx8b3e4fu
+    term : Virtual Matrix Organization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual matrix organization** uses resources (people) that are also directly responsible for, or part of, other lines
+        of business.
+
+  - uuid : udx8b3fm0o
+    term : Virtual Network Operator (VNO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual network operator (VNO)** is an entity that does not own a telecom network infrastructure but provides telecom
+        services by purchasing capacity from telecom carriers.
+
+  - uuid : udx8b3h46s
+    term : Virtual Private Network (VPN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual private network (VPN)** is a system that delivers enterprise-focused communication services on a shared public
+        network infrastructure and provides customized operating characteristics uniformly and universally across an enterprise.
+        The term is used generically to refer to voice VPNs. To avoid confusion, IP-based data services are referred to as data
+        VPNs. Service providers define a VPN as a WAN of permanent virtual circuits, generally using asynchronous transfer mode
+        (ATM) or frame relay to transport IP. Technology providers define a VPN as the use of encryption software or hardware to
+        bring privacy to communications over a public or untrusted data network.
+
+  - uuid : udx8b3iv7j
+    term : Virtual Reality Modeling Language (VRML)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Virtual Reality Modeling Language (VRML)** provides a means of rendering 3D worlds from mathematical equations or
+        descriptions. A VRML browser can create shapes and text within a navigable 3D context. The v.2.0 specifications further
+        enhance the immersive experience, allowing for such real-world events as interaction between "visitors" and collision
+        detection when a user "bumps into" an object or other users.
+
+  - uuid : udx8b3kp2r
+    term : Virtual Reality (VR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Virtual reality (VR)** provides a computer-generated 3D environment that surrounds a user and responds to that
+        individual's actions in a natural way, usually through immersive head-mounted displays and head tracking. Gloves providing
+        hand tracking and haptic (touch sensitive) feedback may be used as well. Room-based systems provide a 3D experience for
+        multiple participants; however, they are more limited in their interaction capabilities.
+
+  - uuid : udx8b3mgc5
+    term : Virtual Server Facility (VSF)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual server facility (VSF)** is a feature of second-generation Advanced CMOS-ECL (ACE) technology that effectively
+        allows a user to physically partition a system into multiple systems, all within the cabinetry of the bigger system.
+
+  - uuid : udx8b4fwl
+    term : Virtual Switch
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual switch** provides three primary capabilities for communications within a virtualized environment: switching,
+        security controls and visibility. A virtual switch provides connectivity among instances within the virtual environment,
+        without the communication having to go through the standard physical switches connected to the virtualized servers.
+
+  - uuid : udx8b41rlh
+    term : Virtual Tape Library (VTL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **virtual tape library (VTL)** is a disk appliance that has special software that makes the device appear as a physical
+        tape drive or tape library to the backup application; the device is accessed through standard tape interfaces. The backup
+        software believes it is writing the backup data to a real tape cartridge when it is, in fact, writing to a specially
+        configured file on the disk appliance. Similarly, the backup software will use the appliance for recovery, accessing the
+        device as if the recovery is coming from tape, when it is actually being transferred from disk spindles on the appliance.
+        At its essence, a VTL is both a disk-based appliance and a tape-like interface.
+
+  - uuid : udx8b43jvi
+    term : Virtualization Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **virtualization software** market includes all software products that are sold as value-added options to run on an
+        x86 server or a desktop to create or manage a specific virtualized environment. Revenue is for new license sales and for
+        maintenance and support services that include new version license sales to update an existing license to a new version,
+        telephone support and on-site remedial support. Revenue does not include professional services. For products to be
+        included in this coverage, they must represent a revenue stream for the company that is separately tracked and not be only
+        part of a bundled product or service. The virtualization software market is divided into three segments: server
+        virtualization infrastructure, server virtualization management and HVDs. Other forms of virtualization software, such as
+        application virtualization, shared OS virtualization, mainframe virtualization and thin provisioning, are not included in
+        specific virtualization revenue reporting at this time.
+
+  - uuid : udx8b45ch3
+    term : Virtualization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Virtualization** is the abstraction of IT resources that masks the physical nature and boundaries of those resources
+        from resource users. An IT resource can be a server, a client, storage, networks, applications or OSs. Essentially, any IT
+        building block can potentially be abstracted from resource users.
+
+  - uuid : udx8b4760s
+    term : Visitor Location Register (VLR)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **visitor location register (VLR)** is a server in a cellular network that supports roaming functions for users outside
+        the coverage area of their own HLR. The VLR uses Signaling System 7 to obtain information about the user from the HLR, and
+        then establishes a temporary record on the VLR while the user is within the VLR coverage area, ensuring mobility
+        management and call-handling functions.
+
+  - uuid : udx8b48ynv
+    term : Visual Basic Extension (VBX)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Visual Basic Extension (VBX)** is a Visual Basic add-on that Microsoft is converting to an Object Linking and Embedding
+        (OLE) Custom Controls (OCX) infrastructure.
+
+  - uuid : udx8b4ah6m
+    term : Visual Basic For Applications (VBA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Visual Basic for Applications (VBA)** is the version of Microsoft's Visual Basic (VB) used to create basic and
+        customized programs.
+
+  - uuid : udx8b4bwk1
+    term : Visual Basic (VB)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Visual Basic (VB)** is a high-level programming language from Microsoft.
+
+  - uuid : udx8b4dfg9
+    term : Visual Studio (VS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Visual Studio (VS)** is a Microsoft package of several application development (AD) tools with complementary, albeit
+        overlapping, focuses, including Visual Basic, Visual C++ and Visual J++.
+
+  - uuid : udx8b4f81l
+    term : Visualization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Visualization** is the illustration of information objects and their relationships on a display. Strategic visualization
+        graphically illustrates the strength of relationships by the proximity of objects on the display. Advanced technology can
+        make a significant difference in users' ability to interface to large knowledge repositories. These advances use the
+        distance between objects on the display to reflect the similarity of meaning, similarity of content or other relationships
+        (e.g., association with a group).
+
+  - uuid : udx8b4gyhl
+    term : Voice Application Servers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice application servers** consist primarily of software, operating on Sun or Linux servers located in a service
+        provider network, and functioning in conjunction with other standard network elements such as routers, gateways,
+        integrated access devices (IADs) and telephones. This category is made up of IP-SCPs and IP Centrex platforms.
+
+  - uuid : udx8b4ir9h
+    term : Voice Browser
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **voice browser** is a system that enables telephone access to voice portal sites. It prepares and presents information
+        to callers. It also interprets commands and enables navigation. Architectures and implementations vary, but many will use
+        VoiceXML or a similar protocol to access the portal application. This is sometimes called a VoiceXML gateway.
+
+  - uuid : udx8b4khrk
+    term : Voice-Enabled Residential/Small-Office Gateway/Router With Embedded DSL Modem (xDSL IAD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **voice-enabled residential/small-office gateway/router with embedded DSL modem** , also known as an **xDSL IAD** , is
+        part of a voice-over-DSL solution. It enables the bundling of multiple derived voice lines, high-speed data and continuous
+        Internet access over a single DSL connection. It typically combines a DSL modem with a router, firewall and varying plain
+        old telephone service (POTS) port configurations. It can be a wired device or include a wireless access point.
+
+  - uuid : udx8b4m8v8
+    term : Voice Encryption
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice encryption** is defined as a function that enables a device to transport digitized voice signals.
+
+  - uuid : udx8b5d63
+    term : Voice Endpoint
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice endpoint** describes a voice device, like a telephone, as a terminating device. This could be a physical extension
+        or a logical IP address. This particularly applies to IP telephones where 100% IP system functions are not fully used for
+        voice telephones and terminals.
+
+  - uuid : udx8b522q7
+    term : Voice Mail
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice mail** describes a network system that enables unanswered phone calls to be diverted to a personal answering
+        service. Revenue may be generated by making a connection charge to the service, a subscription charge for the service, or
+        by charging the subscriber for messages deposited or retrieved.
+
+  - uuid : udx8b53eov
+    term : Voice Of The Customer (VoC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice of the customer (VoC)** solutions combine multiple, traditionally siloed technologies associated with the capture,
+        storage and analysis of direct, indirect and inferred customer feedback. Technologies such as social media monitoring,
+        enterprise feedback management, speech analytics, text mining and Web analytics are integrated to provide a holistic view
+        of the customer's voice. The resultant customer insights are acted on by disseminating relevant information to the right
+        person at the right time on the right channel.
+
+  - uuid : udx8b555o5
+    term : Voice Over Internet Protocol (VoIP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice over Internet Protocol (VoIP)** is based on an IP standard that is capable of transporting voice and data packets
+        over the same network. Unlike circuit-switched networks, IP doesn't require a dedicated connection for an entire call.
+        Voice signals are converted to packets that are sent across the network and reassembled in the correct order when they
+        reach their destination. VoIP services can be deployed over the Internet or private IP networks (LAN/WLAN).
+
+  - uuid : udx8b56vm1
+    term : Voice Over Wireless LAN (VoWLAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice over wireless LAN (VoWLAN)** is defined as the use of VoIP technology and wireless network components to support
+        voice over Wi-Fi.
+
+  - uuid : udx8b58dqp
+    term : Voice Portal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **voice portal** uses advanced speech recognition technology and provides access to information on the Internet. Key
+        components of most voice portals are speech recognition, text to speech, information aggregation, categorization software,
+        telephony and Internet interfaces, and administrative interfaces. Optional components include software to support
+        context-sensitive, personalized assistance (for example, an intelligent assistant) and support for VoiceXML.
+
+  - uuid : udx8b5a6sg
+    term : Voice Response System (VRS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Voice response systems (VRSs)** are specialized technologies designed for providing callers with verbal and faxed
+        answers to inquiries without assistance from a person. They provide account information, fulfill requests for mailable
+        items, prescreen callers for script customization, interact with host systems (read and write) and produce reports.
+
+  - uuid : udx8b5c0el
+    term : Voice Response Unit (VRU)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **voice response unit (VRU)** is an automated telephone answering system consisting of hardware and software that allows
+        the caller to navigate through a series of prerecorded messages and use a menu of options through the buttons on a
+        touch-tone telephone or through voice recognition.
+
+  - uuid : udx8b5df9w
+    term : Voice Switching, Control And Applications (VSCA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In its widest sense, **voice switching, control and applications (VSCA)** refers to the functions performed in a network
+        that alter the path taken by information as it traverses that network, whether in real time or near real time. In this
+        sense, switching includes packet-routing technologies (for example, Internet Protocol \[IP\], asynchronous transfer mode
+        \[ATM\] and frame relay). The markets tracked in the switching category include well-known ones, such as softswitches,
+        call session control function (CSCF), application servers and media gateways.
+
+  - uuid : udx8b5f7uo
+    term : VoiceXML
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **VoiceXML** is an XML-based language supported by more than 200 companies. It was founded by AT&T, IBM, Lucent and
+        Motorola. The purpose of VoiceXML is to develop interactive voice-controlled applications.
+
+  - uuid : udx8b5gxw8
+    term : Volumetric Displays
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Volumetric displays** create visual representations of objects in three dimensions, with an almost 360-degree spherical
+        viewing angle in which the image changes as the viewer moves around. True volumetric displays fall into two categories:
+        swept volume displays and static volume displays. Swept volume displays use the persistence of human vision to re-create
+        volumetric images from rapidly projected 2D "slices." Static volume displays use no major moving parts to display images,
+        but rather rely on a 3D volume of active elements (Volumetric Picture Elements, or voxels) changing color (or
+        transparency) to display a solid option.
+
+# __END__

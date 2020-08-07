@@ -1,0 +1,308 @@
+title    : ISLE AIT computer science glossary -- K words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx899bejg
+    term : K-map (knowledge Map)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A representation of concepts and their relationships (e.g., hierarchy, taxonomy and network). A K-map is a navigational
+        aid that enables a user to hone in rapidly on the desired concept, and then follow links to relevant knowledge sources
+        (information or people).
+
+  - uuid : udx899cqsw
+    term : Ka-band (Kurtz-above Band)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Frequency range allocated from 17.7GHz on the downlink and to 30.6GHz on the uplink for use by satellite communication
+        systems. Ka-band satellites deliver high-speed broadband Internet connectivity and digital video/audio transmission.
+        Satellites in this frequency range are characterized by two-way or bidirectional communications capability;
+        wider-bandwidth transponders that provide higher overall capacity spot beams that can direct or focus signal transmissions
+        to areas of higher density/population; and more-efficient use of available spectrum through multiple reuse of the same
+        frequency. Ka-band satellites can be implemented as GEO- and non-GEO satellite systems. See also Kurtz-under band
+        (Ku-band), L-band and S-band.
+
+  - uuid : udx899ehyu
+    term : Kaikaku
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Radical and significant improvement.
+
+  - uuid : udx899g0l4
+    term : Kaizen
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Incremental, continuous improvement.
+
+  - uuid : udx899hgdv
+    term : Kanban
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Kanban** is a technique used in lean manufacturing (i.e., just-in-time) environments to reduce process cycle time by
+        managing flow.
+
+  - uuid : udx899ixxl
+    term : Kano Model
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A methodology of classifying customer needs according to whether they are "delighters," "satisfiers" or "dissatisfiers."
+
+  - uuid : udx899kckr
+    term : KCC (Korea Communications Commission)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The broadcasting, communications and IT regulator in the Republic of South Korea, which superseded the Ministry of
+        Information and Communication (MIC) and the Korean Broadcasting Commission in 2008. See also KCC.
+
+  - uuid : udx899ltk9
+    term : Kerfless Wafering
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Kerfless wafering** is a manufacturing process that produces very thin wafers of silicon from a crystal ingot with
+        minimal waste material. Conventional wafering uses a wire saw to cut the ingot into wafers, and the material removed by
+        the cutting blade, known as kerf, is lost as waste. The two main kerfless-wafering approaches being pursued are an implant
+        and cleave process and a stress liftoff method. Implant and cleave is a two-step process that implants ions into
+        crystalline silicon (c-Si) to form a subsurface cleave layer that is propagated through the crystal lattice to enable a
+        very thin wafer to be removed. Stress liftoff is a technique that separates the silicon via induced stress at the
+        interface of silicon and a deposited thin film.
+
+  - uuid : udx89abct
+    term : Kernel
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The heart of an operating system, a kernel is the part of the operating system that interconnects with the hardware. With
+        Open Systems Interconnection (OSI) software intended for use in Unix environments, the kernel's functional units are often
+        included as a function library.
+
+  - uuid : udx89a1qfc
+    term : Key Performance Indicator (KPI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **key performance indicator (KPI)** is a high-level measure of system output, traffic or other usage, simplified for
+        gathering and review on a weekly, monthly or quarterly basis. Typical examples are bandwidth availability, transactions
+        per second and calls per user. KPIs are often combined with cost measures (e.g., cost per transaction or cost per user) to
+        build key system operating metrics.
+
+  - uuid : udx89a3ihw
+    term : KM Strategy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A declaration of how the enterprise will use knowledge to compete, and how knowledge management (KM) will support the
+        enterprise's business strategies. A KM strategy may be knowledge-focused if the enterprise's market value is predominantly
+        composed of intellectual capital, or knowledge-enabled if the enterprise has other valuable assets in addition to
+        intellectual capital.
+
+  - uuid : udx89a4ux9
+    term : Knowledge Access
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of the five activities of the knowledge management (KM) process framework. Knowledge access is the retrieval or
+        dissemination of knowledge to users.
+
+  - uuid : udx89a6b3t
+    term : Knowledge Architect
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The individual who oversees implementation of the enterprise's knowledge architecture, who leads the "knowledge
+        architecture team" in identifying, organizing and providing access to scattered, heterogeneous information in digital and
+        paper form, and who leads the knowledge audit to determine and continually re-evaluate the specific knowledge needs of
+        users and their business processes. The knowledge architect defines knowledge processes and identifies the technology
+        requirements for creating, capturing, organizing, accessing and using knowledge assets.
+
+  - uuid : udx89a850j
+    term : Knowledge Assets
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Information relevant to an enterprise's business function, including the captured and tacit knowledge of employees,
+        customers or business partners; data and information stored in structured databases; data and information stored in
+        textual form and unstructured databases (e.g., e-mail and workflow systems); information stored in digital and paper
+        documents; purchased content; and public content from the Internet or other sources.
+
+  - uuid : udx89a9wuq
+    term : Knowledge Audit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A formal determination and evaluation of how and where knowledge is used in business processes. The knowledge audit
+        identifies implicit user needs, as well as explicit information stores. With the audit, enterprises can identify and
+        evaluate all information resources and workflows, and determine enterprise user access requirements. Access requirements
+        will vary widely, from wide access (e.g., policies and procedures) to extremely limited access (e.g., payroll processing).
+        The knowledge audit is a rigorous process using questionnaires, interviews and resource descriptions.
+
+  - uuid : udx89abnvg
+    term : Knowledge Base
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The knowledge, which may include assertion, rules, objects and constraints, used by a knowledge-based or expert system.
+        Its organization is based on knowledge representations. The developer or user of the system may be unaware of the
+        underlying knowledge representations, seeing only the domain knowledge representations.
+
+  - uuid : udx89ad5nc
+    term : Knowledge Capital
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Intangible assets of an enterprise that are required to achieve business goals, including employee's knowledge; data and
+        information about processes, products, customers and competitors; and intellectual property such as patents or regulatory
+        licenses.
+
+  - uuid : udx89aemv3
+    term : Knowledge Capture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of the five activities of the knowledge management process framework. Knowledge capture makes tacit knowledge
+        explicit, i.e., it turns knowledge that is resident in the mind of the individual into an explicit representation
+        available to the enterprise.
+
+  - uuid : udx89ag5gb
+    term : Knowledge Community
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A group of people within an enterprise who engage in knowledge-sharing activities in support of a common work interest
+        (shared responsibility for a business process, a product or service, or a project). The KC may include people from
+        multiple disciplines within the enterprise, as well as extended-enterprise participants (service providers, supply-chain
+        partners or customers).
+
+  - uuid : udx89ahv0p
+    term : Knowledge Content Owners
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Individuals who oversee the definition and delivery of knowledge content for their business processes to the knowledge
+        management environment, and define access privileges to their knowledge resources. Human-resources executives are an
+        example of knowledge content owners for benefits information resources; as such, they are responsible for ensuring that
+        appropriate benefits content is available to support knowledge user and resource requirements, and that appropriate users
+        are granted or denied access to it.
+
+  - uuid : udx89aj808
+    term : Knowledge Content Specialists
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Individuals who refine knowledge content from the originating owner into the specific product that the knowledge users
+        require. These specialists have strong skills in the business process and its knowledge resources, as well as skill in
+        organizing and filtering knowledge into a highly accessible and usable form. An extension to this definition is the
+        external knowledge content specialist, who manages access to external content that the enterprise has purchased or
+        subscribed to.
+
+  - uuid : udx89akk1h
+    term : Knowledge Management (KM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Knowledge management (KM)** is a business process that formalizes the management and use of an enterprise's intellectual
+        assets. KM promotes a collaborative and integrative approach to the creation, capture, organization, access and use of
+        information assets, including the tacit, uncaptured knowledge of people.
+
+  - uuid : udx89amd6s
+    term : Knowledge Organization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of the five activities of the knowledge management process framework. Knowledge organization is the classification and
+        categorization of knowledge for navigation, storage and retrieval. This includes knowledge maintenance.
+
+  - uuid : udx89bf5d
+    term : Knowledge Representation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Structures used to store knowledge in a manner that relates items of knowledge to one another, and that permits an
+        inference engine to manipulate the knowledge and its relationships.
+
+  - uuid : udx89b1vvs
+    term : Knowledge Sharing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An activity that spans three components of the knowledge management (KM) process -- knowledge capture, knowledge
+        organization and knowledge access -- to enable people to share knowledge across the boundaries of geography and time.
+
+  - uuid : udx89b3isv
+    term : Knowledge Use
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of the five activities of the knowledge management process framework. Knowledge use is the application of knowledge to
+        business decisions or opportunities. Use is also recursive, and continually generates feedback that affects and is
+        integrated into the other knowledge activities.
+
+  - uuid : udx89b505w
+    term : Knowledge Users
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Participants in knowledge management programs. They fill the dual roles of applying knowledge in their work tasks and
+        contributing their own knowledge and insight to the enterprise's knowledge content.
+
+  - uuid : udx89b6i17
+    term : Knowledge Work Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A discipline that promotes an integrated approach to identifying, managing and sharing all of an enterprise's information
+        assets. Knowledge work management focuses on extending knowledge management to business processes (i.e., policies and
+        procedures as well as unwritten rules).
+
+  - uuid : udx89b80c6
+    term : Knowledge Workplace
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This represents the intersection of three key trends: the leverage of intellectual capital, the virtualization of the
+        workplace and the shift from hierarchical to organic models of management. The focus is on knowledge as the primary source
+        of competitive advantage.
+
+  - uuid : udx89b9ga5
+    term : Kohai
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Kohai** is the Japanese term for "protégé"; used in lean enterprises to describe a student of lean practices who learns
+        from a senpai.
+
+  - uuid : udx89baswa
+    term : KPIV (key Process Input Variable)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Key process input variable -- the most important input(s) to a process.
+
+  - uuid : udx89bcb89
+    term : KPOV (key Process Output Variable)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Key process output variable -- the most important output(s) of a process.
+
+  - uuid : udx89bdsmd
+    term : Ku-band (Kurtz-under Band)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Frequency range allocated from 10.9GHz to 17GHz. Ku-band satellites are among the most numerous, operating for all forms
+        of satellite communications, including video, voice and data services for consumers and enterprises. Most VSATs are in the
+        Ku-band and are predominantly GEO-based systems. Ku-band satellite antennas (which are smaller than C-band antennas but
+        suffer from rain fade in monsoon-like downpours) are typically used in Europe and North America. Bidirectional/interactive
+        Ku-band antenna sizes range from 75 centimeters to 1.8 meters. See also Ka-band, L-band and S-band.
+
+# __END__

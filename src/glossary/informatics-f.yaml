@@ -1,0 +1,596 @@
+title    : ISLE AIT computer science glossary -- F words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx88n77mj
+    term : Fabric-Based Computing (FBC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Fabric-based computing (FBC)** is a modular form of computing in which a system can be aggregated from separate (or
+        disaggregated) building-block modules connected over a fabric or switched backplane. Fabric-based infrastructure (FBI)
+        differs from FBC by enabling existing technology elements to be grouped and packaged in a fabric-enabled environment,
+        while the technology elements of an FBC solution will be designed solely around the fabric implementation model.
+
+  - uuid : udx88n90wo
+    term : Fabric-Based Infrastructure (FBI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Fabric-based infrastructure (FBI)** is an emerging area of vertical integration of hardware and software infrastructure
+        with automation on top, promised to assist IT organizations in realizing their visions of a dynamically optimized data
+        center, which we term "real-time infrastructure." It is being driven more from a vendor perspective today (versus a
+        customer pull model) as vendors seek to take a larger share of the IT budget to meet their growth goals in an era of
+        constrained IT budgets. The automation layer, at a minimum, focuses on automating infrastructure provisioning inclusive of
+        server, storage and networking resources, inclusive of Internet Protocol (IP) address automation and storage naming, with
+        some providers also focused on enabling hybrid cloud environments between their customers and service providers, and
+        provisioning the software stack above the hypervisor and operating environments. FBI differs from fabric-based computing
+        (FBC) by enabling existing technology elements to be grouped and packaged in a fabric-enabled environment to achieve a
+        modicum of infrastructure convergence.
+
+  - uuid : udx88nau09
+    term : Fabric Computing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Fabric computing** is a set of computing, storage, memory and I/O components joined through a fabric interconnect, and
+        the software to configure and manage them.
+
+  - uuid : udx88ncai8
+    term : Facebook Commerce (F-Commerce)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Facebook commerce (F-commerce)** is the retail transaction capability offered within the Facebook social network
+        platform. These transactional capabilities are facilitated via the utilization of Facebook APIs that allow retailers to
+        present products, information and offers to consumers, as well as allow consumers to complete transactions within
+        Facebook.
+
+  - uuid : udx88ne3hw
+    term : Factory Scheduling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Factory or production scheduling** , often termed finite scheduling or finite capacity scheduling (FCS), is a supply
+        chain planning (SCP) technology designed to translate an operating plan into a granular set of daily manufacturing
+        activities to fulfill planned orders. Supporting technology dissects the operating plan into specific work processes,
+        optimizing the allocation of production resources against ongoing change and constraints to produce to the daily schedule.
+        Traditionally, these applications have been batch-centric: Planning data is input daily, schedules are created in
+        batch-planning cycles overnight, and changes between planning cycles are handled manually. Today, some factory scheduling
+        tools can take current constraints, including resource (physical assets and raw materials) and appropriate staff
+        availability, into account, interfacing back to planning systems so that they are continuously optimized based on the
+        actual expected production.
+
+  - uuid : udx88nftl6
+    term : Fast-packet Switching
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A generic term for improved packet-switching technologies such as frame relay and cell relay. Fast-packet techniques
+        feature less functionality than traditional X.25 packet-switching for higher packet-switching speeds and lower processing
+        costs.
+
+  - uuid : udx88nhfo4
+    term : Fault Detection And Isolation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Online diagnostics that detect and isolate faults in real time, prevent contamination into other areas, and attempt to
+        retry operations.
+
+  - uuid : udx88niw5h
+    term : FCC (Federal Communications Commission)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The communications regulator in the United States of America (Federal Communications Commission).
+
+  - uuid : udx88nkefd
+    term : FDD (frequency Division Duplex)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Radio modulation scheme that defines separate uplink and downlink frequencies, enabling users to transmit and receive
+        simultaneously.
+
+  - uuid : udx88nlvav
+    term : FDDI (Fiber Distributed Data Interface)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An American National Standards Institute (ANSI) standard for 100 megabits per second (Mbps) fiber-optic local-area
+        networks (LANs). Incorporates token processing and supports circuit-switched voice and packetized data.
+
+  - uuid : udx88o2h6
+    term : Feature Smartphone
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **feature smartphone** is a mobile communications device that is optimized in its specification and features to support
+        one or more primary functions like music, video, gaming, pictures, browsing, mobile TV, navigation and messaging. Compared
+        to entry-level smartphones, these devices usually have larger displays, more powerful processors, more embedded memory and
+        better battery capacity. These devices can have a touchscreen to help the manipulation and consumption of content and data
+        input. They can include an enhanced or full qwerty keyboard to support rich messaging.
+
+  - uuid : udx88o1wdc
+    term : Federated Application Life Cycle Management (FALM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Federated application life cycle management (FALM)** is a suite of technologies and practices that generally includes
+        metadata integration, workflow and process management facilities, tying together the management of at least two stages of
+        development, underlying change version and configuration, and including the ability to customize the process flow of
+        application development, integration and maintenance projects.
+
+  - uuid : udx88o3phg
+    term : Federated Identity Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Federated identity management** enables identity information to be developed and shared among several entities and
+        across trust domains. Tools and standards permit identity attributes to be transferred from one trusted identifying and
+        authenticating entity to another for authentication, authorization and other purposes, thus providing "single sign-on"
+        convenience and efficiencies to identified individuals, identity providers and relying parties.
+
+  - uuid : udx88o5io4
+    term : Federated Search
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Federated search** aggregates the results of a user-initiated search to multiple search engines and presents those
+        results back to the user. Sometimes federated search interleaves the results, so that they are compared with each other;
+        sometimes they are just presented next to each other as alternatives.
+
+  - uuid : udx88o6u2s
+    term : Femtocell
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Smaller than picocells, these cellular base stations are designed for use in residential or corporate environments that
+        connect to the customer's broadband connection using an IP link. Advantages include lower cost than microcellular
+        technology, physically smaller units and greater network efficiency. See also picocell.
+
+  - uuid : udx88o8876
+    term : Femtocells
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **femtocell** is a small, A5-size base station box aimed at improving indoor coverage, especially for higher-frequency
+        services such as third generation (3G) services. Similar to picocells, femtocells are even smaller cellular base stations
+        that are designed for use in residential or corporate environments that connect to the customer's own broadband connection
+        using an Internet Protocol link for backhaul.
+
+  - uuid : udx88o9t87
+    term : FHMA (frequency-hopping Multiple Access)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Spread-spectrum transmission technology that enables simultaneous data or voice communications to share the same
+        communication medium by causing transmitting and receiving stations to change the frequency rapidly in a pseudorandom
+        sequence among many discrete radio channels. Transceivers are synchronized using a hopping sequence calculated from a
+        predefined algorithm. This sequence can be adjusted dynamically to avoid other transmissions and interference in the same
+        frequency band.
+
+  - uuid : udx88obc89
+    term : Fiber Optics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Fiber optics** is a high-bandwidth transmission technology that uses light to carry digital information. One fiber
+        telephone cable carries hundreds of thousands of voice circuits. These cables, or light guides, replace conventional
+        coaxial cables and wire pairs. Fiber transmission facilities occupy far less physical volume for an equivalent
+        transmission capacity, which is a major advantage in crowded ducts. Optical fiber is also immune to electrical
+        interference.
+
+  - uuid : udx88od3w9
+    term : Fibre Channel Over Ethernet (FCoE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Fibre Channel Over Ethernet (FCoE)** is an encapsulation of FC frames over enhanced Ethernet networks. The goal of
+        enhanced Ethernet is to provide a unified network that can transport multiple types of traffic, including FC storage,
+        Internet Protocol (IP) and high-performance computing over Ethernet with a line speed of 10 Gbps or greater, eliminating
+        storage network islands, such as FC, Ethernet and InfiniBand, as well as their associated discrete adapters and switches.
+
+  - uuid : udx88oeu8u
+    term : Field Service Management Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These applications are designed within a CRM environment that enable field service technicians or dispatchers to diagnose
+        problems categorically, identify the required parts and information, and dispatch them to the client or site. The system
+        identifies the proper tools or materials required for the specific problem and their current location. It includes field
+        service workforce schedule optimization, support for wireless mobile technicians and intelligent device management of
+        equipment. Field service management ties into an overall service resource planning system that includes contract
+        management, warranty, claims, parts management, depot repair, enterprise asset management (EAM) and product life cycle
+        management (PLM) systems.
+
+  - uuid : udx88ogkx9
+    term : Field Service Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Field service management** includes the detection of a field service need (through remote monitoring or other means,
+        inspection or a customer detecting a fault), field technician scheduling and optimization, dispatching, parts information
+        delivery to the field, and process support of field technician interactions.
+
+  - uuid : udx88oicaf
+    term : File Server
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **file server** is a computer containing files available to all users connected to a local-area network (LAN). In some
+        LANs, a microcomputer is designated as the file server, while in others it is a computer with a large disk drive and
+        specialized software. Some file servers also offer other resources such as gateways and protocol conversion.
+
+  - uuid : udx88ok2xw
+    term : Financial Analytical Applications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A subset of business intelligence with a specific emphasis on financial process, including, but not limited to, budgeting,
+        forecasting, expense allocation and cost/revenue analysis.
+
+  - uuid : udx88olkjf
+    term : Financial Footprint
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The amount of money paid, monthly or yearly, to a vendor to support a particular system or application. Because most
+        hardware and software is easily upgradable, financial-footprint management involves managing a stream of recurring
+        payments instead of physical assets.
+
+  - uuid : udx88on290
+    term : Finished Branded Product
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A completed equipment or device, labeled by a manufacturer that is available for sale to customers. The product can either
+        be new or remanufactured.
+
+  - uuid : udx88p186j
+    term : Finite Loading
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Conceptually, the term means putting no more work into a factory than the factory can be expected to execute. The term
+        usually refers to a computer technique that involves automatic shop priority revision to level load operation by
+        operation.
+
+  - uuid : udx88p2m4y
+    term : Firecall
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Any method established to provide emergency access to a secure information system. In the event of a critical error or
+        abnormal end, unprivileged users can gain access to key systems to correct the problem.
+
+  - uuid : udx88p442w
+    term : Firewall
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **firewall** is an application or an entire computer (e.g., an Internet gateway server) that controls access to the
+        network and monitors the flow of network traffic. A firewall can screen and keep out unwanted network traffic and ward off
+        outside intrusion into a private network. This is particularly important when a local network connects to the Internet.
+        Firewalls have become critical applications as use of the Internet has increased.
+
+  - uuid : udx88p5tun
+    term : First Generation (1G Or Analog)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Wireless networks based on analog frequency division multiple access technologies. Many systems were individually
+        tailored, country-specific solutions, including technologies such as AMPS, Nordic Mobile Telephone (NMT) and total access
+        communications system (TACS). Although these were the first generation of mobile telephony, they are never referred to as
+        "1G."
+
+  - uuid : udx88p7lx3
+    term : Fixed-line Carrier
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An entity that owns/operates a fixed-line network infrastructure (including fixed wireless).
+
+  - uuid : udx88p943i
+    term : Fixed Wireless
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Client devices are located at a stationary location and usually require a fixed (main) power supply and an antenna
+        external to the client work platform. The terms "nomadic," "portable" and "mobile" often vary in definition when used by
+        vendors. See also mobile wireless and semi-mobile wireless.
+
+  - uuid : udx88pafgg
+    term : Flexible Media And Conferencing Switching
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Flexible media and conferencing switching can be used by employees with intensive collaboration requirements. Flexible
+        media and conferencing integrates with contextual presence lists, and communication between various teams and customers
+        can be achieved via IM, audio conferencing, Web conferencing or e-mail.
+
+  - uuid : udx88pbxdd
+    term : FM (facilities Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.Entering into an agreement with a service supplier to manage internal company facilities such as telecommunications or
+        data-processing services. Facilities management does not involve the transfer of ownership of facilities to the service
+        provider.
+
+        2.For government enterprises, FM is the most prevalent type of contractual relationship where the vendor assumes
+        responsibility for one or more information technology (IT) functions. Unlike outsourcing, it refers to the vendor
+        operating and managing the assets (usually hardware and software), but not taking ownership. In a government-owned,
+        contractor-operated deal, the government owns the equipment and operating systems, and the contractor operates the
+        equipment with its personnel. Usually, the equipment is maintained in a government facility, but it can reside in a
+        vendor-owned facility. In a government-owned, government-operated arrangement, the government owns the equipment and
+        manages the operation using contractor personnel.
+
+  - uuid : udx88pdok5
+    term : FM (frequency Modulation)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        One of three ways of modifying a sine wave signal to make it carry information. The sine wave or "carrier" has its
+        frequency modified in accordance with the information to be transmitted. The frequency function of the modulated wave can
+        be continuous or discontinuous.
+
+  - uuid : udx88pf6fa
+    term : FMC (fixed-mobile Convergence)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Device and infrastructure technology trend that enables the transparent use of voice and data applications across fixed
+        and mobile access points.
+
+  - uuid : udx88pgo13
+    term : FMEA (failure Modes Effects Analysis)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **FMEA (failure modes effects analysis)** is a technique used in product life cycle management activities to predict how a
+        product or process might fail and what the effects of that failure might be.
+
+  - uuid : udx88pi8ds
+    term : FMS (flexible Manufacturing System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Flexible manufacturing system; a process that is highly adaptable and can produce different products with minimal
+        changeover times or reconfiguration.
+
+  - uuid : udx88pjqa3
+    term : Folksonomies (Social Tagging)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Folksonomies** also known as social tagging, are user-defined metadata collections. Users do not deliberately create
+        folksonomies and there is rarely a prescribed purpose, but a folksonomy evolves when many users create or store content at
+        particular sites and identify what they think the content is about. "Tag clouds" pinpoint various identifiers and the
+        frequency of use on a folksonomy site. This type of grass-roots community classification (similar to other social
+        networking approaches, such as blogs and wikis) is subject to vandalism and manipulation; nevertheless, it is a fine
+        example of collective intelligence.Do not confuse folksonomies with taxonomies. Folksonomies structure content via user
+        tags; taxonomies are classifications defined by more formal methods that do not necessarily include user-generated tags
+        and rarely are viewed as similar.
+
+  - uuid : udx88plikk
+    term : FOMA (Freedom Of Mobile Multimedia Access)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        NTT DoCoMo's WCDMA cellular service, launched in October 2001, was only the second deployment of its kind in the world --
+        the first being the network of Manx Telecom on the Isle of Man.
+
+  - uuid : udx88pn0a3
+    term : Footfall Analysis
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Footfall analysis** is the use of analytic techniques to monitor waiting times in bank branch teller lines or lengths of
+        waiting time to use automated teller machines (ATMs). Newer systems use fixed video cameras to track the movements of each
+        visitor to the branch, with algorithms that compute individual and average waiting times. This entry refers to
+        applications designed for collecting data, especially video-based, about customer wait times to measure and analyze
+        traffic throughout the branch.
+
+  - uuid : udx88q1prg
+    term : Foreign/Global Trade Compliance (GTC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Foreign/global trade compliance (GTC)** refers to a category of software that addresses the rules and regulations and
+        trade-specific costs of conducting cross-border trade.
+
+  - uuid : udx88q37xe
+    term : Forensic Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Forensic software** is used to collect raw data from digital storage devices, including the recovery of hidden and
+        deleted files, in support of e-discovery and investigations of digital activity.
+
+  - uuid : udx88q4pad
+    term : Formula/Recipe Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Formula/recipe management** includes software for formula or recipe calculation (for example, food products and
+        chemicals) and validation for process manufacturers. Functions include the ability to optimize formulas, create and manage
+        the workflows to make changes to formulations and recipes, create and configure formulation variants, manage labeling
+        content, plan inventory for scale-up, and validate formulations to support production and regulatory needs.
+
+  - uuid : udx88q6ip2
+    term : FP (function Point)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Function points measure the size of an application system based on the functional view of the system. The size is
+        determined by counting the number of inputs, outputs, queries, internal files and external files in the system and
+        adjusting that total for the functional complexity of the system. Function point analysis, originally developed at IBM,
+        has as an advantage its focus on measuring software produced in terms of functionality delivered to the end user, rather
+        than in terms of development deliverables, which have no direct bearing on the end user.
+
+  - uuid : udx88q8c98
+    term : FPD (flat Panel Display)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A core component for notebooks, liquid crystal display (LCD) flat panel displays are broadening their applications on the
+        commercial desktops. There are five key FPD technologies available: LCD, gas plasma, electroluminescent (EL) display,
+        field emission display and digital micromirror devices. The most mature is LCD, which includes active-matrix liquid
+        crystal display (AMLCD) and passive-matrix liquid crystal display (PMLCD).
+
+  - uuid : udx88qa4df
+    term : FPY (First Pass Yield)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A measure of quality in a process that reflects the percentage of product made correctly without any rework or corrective
+        activity.
+
+  - uuid : udx88qbl52
+    term : Framework
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A style guide that defines the look, feel and interoperability of software applications.
+
+  - uuid : udx88qd35a
+    term : Framing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A control procedure used with multiplexed digital channels, whereby bits are inserted so the receiver can identify the
+        time slots allocated to each channel. Framing bits can also carry alarm signals indicating specific alarm conditions.
+
+  - uuid : udx88qejyi
+    term : Fraud Detection
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Fraud detection** protects customer and enterprise information, assets, accounts and transactions through the real-time,
+        near-real-time or batch analysis of activities by users and other defined entities (such as kiosks). It uses background
+        server-based processes that examine users' and other defined entities' access and behavior patterns, and typically
+        compares this information to a profile of what's expected. Fraud detection is not intrusive to a user unless the user's
+        activity is suspect.
+
+  - uuid : udx88qgc99
+    term : Free Cooling (Economizers)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **"Free cooling,"** refers to any technique used to reduce the energy consumed by cooling systems or the time that the
+        cooling units run by using the outside temperature of air or water to cool the data center or other facilities. Generally,
+        it comes from the use of air-side and water-side economizers.Air-side economizers work in two ways. Mainly, they use
+        direct fresh-air cooling by filtering (and possibly adjusting the humidity of) outside air, which is piped in to cool the
+        data center. In cold climates, it may even be warmed by the hot air being expelled, so as not to be too cold. Air-side
+        economizers can also work without bringing direct air into the data center, but by heat transference from warmer inside
+        air to cooler outside air.
+
+  - uuid : udx88qi56l
+    term : Frequency Band
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The range of frequencies defined and dedicated to a particular type of service or radio technology; a frequency band is
+        usually divided into a number of channels.
+
+  - uuid : udx88qjm01
+    term : Frequency Reuse
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Technique for using a specified range of frequencies more than once in the same radio system so that the total capacity of
+        the system is increased without increasing its allocated bandwidth. Frequency reuse schemes require sufficient isolation
+        among the signals that use the same frequencies so that mutual interference among them is controlled at an acceptable
+        level. For satellites, frequency reuse can be achieved by using orthogonal polarization states for transmission and/or by
+        using satellite antenna (spot) beams that serve separate, non-overlapping geographic regions. See also spot beam.
+
+  - uuid : udx88qle8d
+    term : Frequency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Frequency** is an expression of how frequently a periodic wave form or signal repeats itself at a given amplitude. It
+        can be expressed in hertz (Hz), kilohertz (kHz), megahertz (MHz), etc.
+
+  - uuid : udx88qn5a0
+    term : FTP (File Transfer Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Transmission Control Protocol/Internet Protocol (TCP/IP) standard used to log onto a network, list directories and copy
+        files. That is, it provides authentication of the user and lets users transfer files, list directories, delete and rename
+        files on the foreign host, and perform wild-card transfers.
+
+  - uuid : udx88r15l6
+    term : FTTH (fiber To The Home)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        FTTH includes fiber-optic access solutions designed for residential deployments. In FTTH networks, fibers are directly
+        connected to individual homes or multitenant buildings. FTTH includes various flavors of both PONs and PTP Ethernet-based
+        solutions. Fiber-to-the-node (FTTN) solutions where fibers are not installed all the way to the residential premises are
+        not included in the FTTH segment. FTTN solutions are instead tracked according to the technology used in the last mile
+        (typically VDSL). With FTTH solutions, the "in-house" connectivity may be based on fiber, coaxial cable, copper or
+        wireless technologies. FTTH covers only the electronics associated with the FTTH rollouts; it excludes associated cabling
+        and civil works.
+
+  - uuid : udx88r2xmd
+    term : FTTP (fiber To The Premises)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The term residential fiber to the premises (FTTP) refers to equipment used in fiber access deployments where fibers extend
+        all the way to the end-user premises and the equipment is designed and optimized for use in residential applications.
+        Equipment designed and optimized for fiber-to-the-business applications is not included -- such equipment is included in
+        the optical transport segment.
+
+        FTTP is further divided into point-to-point (PTP) FTTP and point-to-multipoint FTTP. PTP FTTP technologies are more
+        expensive to deploy because of a higher fiber count, but have the advantage of offering a dedicated fiber to each end-user
+        location, which makes it possible to share PTP infrastructure between different carriers. Very often, a PTP FTTP
+        deployment has optical Ethernet switches both at the CO and the customer premises. Point-to-multipoint FTTP technology is
+        commonly referred to as passive optical network (PON) technology. There are various types, including broadband PON (BPON),
+        gigabit PON (GPON) and Ethernet PON (EPON). GPON is the most popular for large carriers, although there are significant
+        EPON deployments in Asia/Pacific and Japan. The different types of PON are collectively called xPON.
+
+        FTTP, FTTH, fiber to the x (FTTx) and other similar terms are often used interchangeably in literature on this topic.
+
+  - uuid : udx88r4qtk
+    term : Fuel Cell
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Technology for low-cost miniature battery power supplies. As with batteries, fuel cells generate electricity through a
+        chemical reaction. However, fuel cells are recharged by refilling or replacing the chemicals (examples include hydrogen,
+        methyl alcohol or aluminum mixed with oxygen from the air) instead of plugging a charger into a wall socket. Fuel cells
+        deliver energy density many times that of lithium and can power sophisticated devices longer. Choosing a stable fuel
+        source that is safe and readily available and decreasing the size for smaller devices while maintaining efficiency remain
+        challenges.
+
+  - uuid : udx88r6i55
+    term : Functional Programming Languages
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The precise definition of a **functional programming language** is often a hotly debated topic among computer scientists,
+        but it is generally accepted that such languages emphasize the value of expressions, rather than the execution of
+        commands. These languages enable the programmer to think like a mathematician by emphasizing data over state. Functional
+        programming techniques (and the supporting languages, e.g., LISP) have existed virtually since the dawn of computer
+        science, but they have been largely overshadowed by imperative languages (e.g., C/C++) within mainstream IT efforts in
+        recent decades. Functional programming has been successfully leveraged in specialized fields for many years--for example,
+        in academia, science and engineering, financial calculation engines, artificial intelligence and development tools.
+
+  - uuid : udx88r85jb
+    term : Fuzzy Logic
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Fuzzy logic** is a reasoning paradigm that deals with approximate or imprecise information by enabling variables to be
+        described (often linguistically) and acted upon in terms of their degree of membership in predetermined sets. Control
+        systems in electronic equipment and consumer products and other embedded control systems are among the most popular
+        applications.
+
+# __END__

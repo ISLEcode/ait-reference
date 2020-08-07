@@ -1,0 +1,1380 @@
+title    : ISLE AIT computer science glossary -- I words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx88ygsp9
+    term : I/O Bound
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Refers to programs with a large number of I/O (input/output) operations, which slow the central processing unit (CPU).
+
+  - uuid : udx88yi7vt
+    term : I/O Channel
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Equipment forming part of the input/output system of a computer. Under the control of input/output (I/O) commands, the
+        channel transfers blocks of data between main storage and peripherals.
+
+  - uuid : udx88yjrra
+    term : I/O (input/output)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The activity of sending information to or from peripheral devices, terminals, direct-access storage devices (DASDs), tape
+        drives and printers. Physical I/O performance lags behind that of memory and logical technologies.
+
+  - uuid : udx88yl9ks
+    term : IAE (integrated Applications Environment)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An environment with a strong integrated development environment (IDE), application server, middleware, and the "glue" (or
+        framework) to provide for integrating all application development (AD) facilities.
+
+  - uuid : udx88ymm28
+    term : IAM As A Service (IAMaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Identity and access management (IAM) as a service (IAMaaS)** refers to software as a service (SaaS) forms of IAM that
+        require minimal or no enterprise on-premises presence of hardware or software.
+
+  - uuid : udx890j4x
+    term : IB (integration Broker)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Also called an interface engine or a message broker, an IB is a third-party intermediary that facilitates interactions
+        between applications. IBs minimally provide message transformation and routing services. They mostly communicate program
+        to program; they integrate previously independent applications at the application-logic level of the software design.
+
+        An assembly of electronic circuits contained on a single piece of semiconductor material.
+
+  - uuid : udx8901vf7
+    term : ICD-10 Adoption Technology
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **International Classification of Diseases, Tenth Revision (ICD-10)** is the newest version of the common tool used to
+        turn diagnoses and procedures into a universally recognized machine-readable sequence. It replaces the decades-old ICD-9
+        code standard. It has greater complexity, because it identifies twice as many diagnostic codes as ICD-9, 20 times as many
+        injuries and 50 times as many procedures. Moreover, ICD-10 allows for alphanumeric codes and modernizes the fundamental
+        structure for code assignment now and in future releases. ICD-10 is used almost exclusively in the U.S., although its use
+        will not become mandatory until 1 October 2013. Implementation of the U.S. Health Insurance Portability and Accountability
+        Act (HIPAA) X12, version 5010 standard is a prerequisite for using ICD-10. This standard will become mandatory on 1
+        January 2012.Implementation of HIPAA 5010 is largely a technical electronic data interchange similar to a version control
+        of an application. ICD-10 is much more complex because it changes IT and business operation attributes. Correctly
+        implemented, it will increase coding accuracy and improve the care management, reimbursement and rating processes. In the
+        short term, however, it is expensive and difficult to implement because of the many processes and applications affected by
+        coding changes. It will also cut claims-processing auto-adjudication rates.
+
+  - uuid : udx8903nqv
+    term : IChat
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Apple's Macintosh OS client for AIM.
+
+  - uuid : udx89057n5
+    term : IDA (Infocomm Development Authority Of Singapore)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Statutory board of the Singapore government, operating under the Ministry of Information, Communications and The Arts
+        (MICA). The IDA is a single agency for the integrated planning, policy formulation, regulation and industry development of
+        the IT and telecommunications sectors in Singapore. See also MICA.
+
+  - uuid : udx8906o1q
+    term : IDARS (integrated Document Archive And Retrieval System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A consolidated system for storage, access, management and viewing of data that is often print-stream-originated. Leading
+        uses of IDARS include mission-critical customer service support, electronic bill presentment, management and distribution
+        of report data (e.g., mainframe output, transaction logs and financial reports) and long-term archiving of historical
+        data.
+
+  - uuid : udx8908dpe
+    term : IDE (integrated Development Environment)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Environments for writing application logic and designing application interfaces. They contrast with integrated application
+        environments (IAEs) by their lack of solutions that include application servers (with a runtime framework or middleware
+        component) and a development framework (e.g., with integrated testing, project and process management, software
+        configuration management, component design and assembly).
+
+  - uuid : udx890a61m
+    term : Idea Engine
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A social environment where participants can enter an idea for social validation and contribution. Other participants can
+        support and augment the idea, ignore it or refute it.
+
+  - uuid : udx890bmu3
+    term : Idea Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Idea management** is a structured process of generating, capturing, discussing and improving, organizing, evaluating and
+        prioritizing valuable insight or alternative thinking that would otherwise not have emerged through normal processes.
+
+  - uuid : udx890d59g
+    term : IDEF (Integrated Definition Methodology)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The most commonly used representation standard for data models.
+
+  - uuid : udx890ek7h
+    term : IDEN (integrated Digital Enhanced Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Wireless technology developed by Motorola that combines the capabilities of a digital cellular telephone, two-way radio,
+        alphanumeric pager and data/fax modem. iDEN can be operated in the 800MHz, 900MHz and 1.5GHz bands and is based on TDMA
+        and GSM architectures. iDEN's main differentiating feature is the built-in PTT function, such as that offered by Nextel.
+
+  - uuid : udx890gdwt
+    term : Identity And Access Intelligence
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of gathering data about identity and access, and converting it to information and knowledge for
+        action-oriented insight and intelligent decision making in IT and business.
+
+  - uuid : udx890hv4g
+    term : Identity And Access Management (IAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Identity and access management (IAM)** is the security discipline that enables the right individuals to access the right
+        resources at the right times for the right reasons.
+
+        IAM addresses the mission-critical need to ensure appropriate access to resources across increasingly heterogeneous
+        technology environments, and to meet increasingly rigorous compliance requirements. This security practice is a crucial
+        undertaking for any enterprise. It is increasingly business-aligned, and it requires business skills, not just technical
+        expertise.
+
+        Enterprises that develop mature IAM capabilities can reduce their identity management costs and, more importantly, become
+        significantly more agile in supporting new business initiatives.
+
+  - uuid : udx890jmd4
+    term : Identity-Aware Networks (IAN)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **identity-aware network (IAN)** monitors a user's behavior on the network. Policy enforcement points within the
+        network may be used to control a user's traffic based on the identity and access management (IAM) policies assigned to
+        that user.
+
+  - uuid : udx890le4p
+    term : Identity-Proofing Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Identity-proofing services** , which verify people's identities before the enterprise issues them accounts and
+        credentials, are based on "life history" or transaction information aggregated from public and proprietary data sources.
+        These services are also used as an additional interactive user authentication method, especially for risky transactions,
+        such as accessing sensitive confidential information or transferring funds to external accounts. Identity-proofing
+        services are typically used when accounts are provisioned over the Web or in a call center. However, they can also be used
+        in face-to-face interactions.
+
+  - uuid : udx890n4t6
+    term : IDL (interface Definition Language)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A standard language for defining objects' abstract descriptions in terms of their external interfaces (i.e., methods and
+        parameters). The IDL compiler will create relevant runtime static and dynamic interface binding information.
+
+  - uuid : udx8911ati
+    term : IDM (integrated Document Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A vital class of middleware services that integrates library services, document-manufacturing and document-interchange
+        technologies with critical business-process applications. The term "integrated" describes the transformation of document
+        management from an end-user application to a network-based service integrated with a full complement of end-user
+        personal-productivity and custom-developed applications.
+
+  - uuid : udx8912m7s
+    term : IDN (Integrated Digital Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A network employing both digital switches and digital transmission.
+
+  - uuid : udx89143ce
+    term : IDS (integrated Delivery System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A coordinated system for healthcare delivery that includes hospitals, clinics and physician practices.
+
+  - uuid : udx8915fxb
+    term : IDS (Internet Document Security)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Services that provide a core set of capabilities required to enable business communications to move in a secure electronic
+        form over the Internet.
+
+  - uuid : udx8916x5h
+    term : IE (information Engineering)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A methodology for developing an integrated information system based on the sharing of common data, with emphasis on
+        decision support needs as well as transaction-processing (TP) requirements. It assumes logical data representations are
+        relatively stable, as opposed to the frequently changing processes that use the data. Therefore, the logical data model,
+        which reflects an organization's rules and policies, should be the basis for systems development.
+
+  - uuid : udx8918o4a
+    term : IEEE (Institute Of Electrical And Electronics Engineers)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Nonprofit professional association of scientists and engineers founded in 1963 with more than 365,000 members in 150
+        countries. It is best known for setting global standards for computing and communications and has 1,300 standards and
+        projects under development.
+
+  - uuid : udx891ac0p
+    term : IEFM (integrated E-form Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Gartner concept that describes a system designed for creating and administering e-form applications using installed
+        databases, messaging, document management and workflow infrastructures.
+
+  - uuid : udx891bsy2
+    term : ILPT (instructor-led Practical Training)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A training method that has some lectures and discussions, but concentrates on giving trainees many chances to practice
+        what they are learning in a risk-free situation.
+
+  - uuid : udx891dada
+    term : ILTC (instructor-led Training In The Classroom)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The most common form of training. It uses lecture sessions and discussions to convey information. It is most commonly used
+        for briefings and high-level education, but many commercial training courses also use this method.
+
+  - uuid : udx891erfd
+    term : IM (information Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A method of using technology to collect, process and condense information with a goal of efficient management. Most large
+        enterprises have a central IM function to facilitate this coordination. The primary technologies needed are contained in a
+        set of modeling tools that either have or interface to a production-worthy repository where the information is stored and
+        managed. The repository and tools must be capable of receiving information in a "top-down," "bottom-up" or "middle-out"
+        evolutionary manner.
+
+  - uuid : udx891gfim
+    term : IM (instant Messaging)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        IM is a communications service in which short messages appear in pop-up screens as soon as they are received, thereby
+        commanding the recipient's immediate attention. Most IM services offer presence information that indicates if the user is
+        online and available to send and receive messages. These services also provide "buddy lists" that are groups of people who
+        have been selected by the user for frequent access, as well as group-based chat services. Enterprise IM provides real-time
+        message passing within private and public networks.
+
+  - uuid : udx891i22b
+    term : Image Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Image recognition** technologies strive to identify objects, people, buildings, places, logos, and anything else that
+        has value to consumers and enterprises. Smartphones and tablets equipped with cameras have pushed this technology from
+        mainly industrial applications (for example, sorting fruit) to consumer applications. For example, logos, cars, landmarks,
+        wine labels, and book and album covers can be identified by consumer smartphones, using a mobile app that accesses image
+        recognition software in the cloud. Image recognition has the potential to transform a picture into a hyperlink to
+        something on the Internet (for example, information, service, coupon or video).It can also be used to initiate a
+        search--which is one of the main reasons why Google and Amazon have been investing in this technology. In addition, image
+        recognition has applications in security and content management. Our definition of image recognition does not include
+        video analytics or video search, although video analysis frequently incorporates image recognition technologies.
+
+  - uuid : udx891jt9m
+    term : IMAP (Internet Message Access Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A protocol used to access e-mail or bulletin board messages from a (possibly shared) mail server. IMAP allows a client
+        e-mail program to access remote message stores as if they were local. E-mail stored on an IMAP server can be manipulated
+        from a workstation at the office, a desktop computer at home or a notebook computer while traveling, without requiring the
+        transfer of messages or files back and forth between these computers. Details of the IMAP specification can be found at
+        www.imap.org.
+
+  - uuid : udx891lgg8
+    term : IMEI (international Mobile Equipment Identifier)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Unique identity number assigned to a GSM device that can be recognized and blocked by the network to which it is
+        connected. It is useful for fraud prevention and to bar access using a stolen phone. See also IMSI.
+
+  - uuid : udx891mx2w
+    term : Immersive Learning Environments (ILEs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Immersive learning environments (ILEs)** are learning situations that are constructed using a variety of techniques and
+        software tools, including game-based learning, simulation-based learning and virtual 3D worlds. ILEs are distinguished
+        from other learning methods by their ability to simulate realistic scenarios and environments that give learners the
+        opportunity to practice skills and interact with other learners.
+
+  - uuid : udx8921ejc
+    term : IMS (IP Multimedia Subsystem)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Next-generation application delivery architecture. In the IMS architecture, applications can be created, controlled and
+        changed, regardless of the kind of network or platform on which they run. IMS promises to bring flexibility, operational
+        effectiveness, openness and standardization to the delivery of applications across fixed and mobile networks. It specifies
+        a Session Initiation Protocol (SIP)-based control layer, with open interfaces to the transport and services layers above,
+        and has a centralized end-user profile depository. IMS is aimed at bringing improved interoperability among networks and
+        offers carriers control over applications on a per-session basis for increased flexibility. There are three logical
+        elements within the IMS architecture: the session control layer, the interworking or gateway layer and the application
+        layer.
+
+  - uuid : udx89235gf
+    term : IMSI (international Mobile Subscriber Identity)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Unique number of up to 15 digits assigned to each GSM connection, containing country code, network operator code and
+        mobile device number. See also HLR and IMEI.
+
+  - uuid : udx8924lm9
+    term : IMT-2000 (international Mobile Telecommunications-2000)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        ITU's name for a family of 3G cellular standards. It is aimed at providing a standard framework for worldwide wireless
+        access that links the diverse system of terrestrial- and satellite-based networks.
+
+  - uuid : udx89263wp
+    term : IMT-A (international Mobile Telecommunications Advanced)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        In December 2005, IMT-A became the ITU's official term for 4G mobile telephony. ITU defines the objectives of IMT-A as
+        providing throughout of up to 100 Mbps for a moving mobile device and 1 Gbps for a static device. See also 4G and LTE.
+
+  - uuid : udx8927kec
+    term : In-Rack Cooling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **In-rack cooling** systems provide highly focused cooling solutions by placing the cooling unit directly in or on an
+        equipment rack. It may be a closed-loop system built in a special enclosure that doesn't depend on room cooling at all, or
+        it may be a heat exchanger attached to the side or back of a rack or incorporated into the rack's rear door. Most systems
+        require that chilled water or a liquid refrigerant be installed in the data center and distributed to the racks.
+
+  - uuid : udx89297qe
+    term : In-Row Cooling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        With the advent of high-density servers, infrastructure and operations (I&O) leaders are challenged to provide adequate
+        cooling for computer rooms. **In-row** solutions provide highly focused cooling by placing multiple cooling units directly
+        in a row of server racks or above the cold aisles (by having more than one per row, you gain redundancy and better
+        placement of cold air to the heat source). These in-row systems may be used to augment the room cooling, or it may be a
+        closed-loop system, built in a special cold-aisle enclosure for the racks that doesn't depend on room cooling. These
+        systems can require chilled water or refrigerant to be piped directly to the rows of servers where the cooling units are
+        placed.
+
+  - uuid : udx892axka
+    term : Incentive Compensation Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These applications manage and administer compensation plans, quotas, crediting and adjustments, while processing
+        commissionable transactions for direct and partnered sales organizations generating transaction registers and commission
+        statements. They provide extensive reporting and ad hoc query capabilities for sales management and finance, as well as
+        "what if" modeling for financial analysis and plan design.
+
+  - uuid : udx892c795
+    term : Industrialized IT Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The standardization of IT services through predesigned and preconfigured solutions that are highly automated and
+        repeatable, scalable and reliable, and meet the needs of many organizations.
+
+        information access with search
+
+        Information access technologies interact with applications such as document management, Web content management and other
+        repositories to provide users with insight into their content. Increasingly, information access technology is also
+        expected to include results from enterprise applications, such as CRM and legacy systems. In addition, it looks outside
+        enterprises to access Internet-based content. Information access technology is often acquired as an embedded aspect of
+        other applications, and portal, ECM, business application and other vendors frequently include enterprise search as part
+        of their products.
+
+        The first and most mature information access technology is search engine technology. It is typically applied to
+        unstructured data in document repositories. It includes both enterprise and desktop search. Increasingly, automatic
+        categorization, creative visualization, content analytics and taxonomy support technologies are being added to this
+        category.
+
+  - uuid : udx892dxkk
+    term : Information Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        All the sources of information -- including paper, graphics, video, speech and thought -- that define the enterprise are
+        represented by this layer of applications architecture. It also defines the sources and destinations of information, its
+        flow through the enterprise, as well as the rules for persistence, security and ownership.
+
+  - uuid : udx892f9ye
+    term : Information Capabilities Framework
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **information capabilities framework** is the people-, process- and technology-agnostic set of capabilities needed to
+        describe, organize, integrate, share and govern an organization's information assets in an application-independent manner
+        in support of its enterprise information management (EIM) goals.
+
+  - uuid : udx892gsmu
+    term : Information Cards
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Information cards** provide visual representations of one or more claims (asserted identity attributes) that can be used
+        for registration, authentication and other purposes. Information cards were promoted predominantly by Microsoft, but with
+        support from other vendors. Claims-based identity and information cards were being supported by Microsoft through a set of
+        related product components, through the Eclipse Foundation's Higgins initiative, and in varying degrees by access
+        management vendors.Claims-based identity concepts and supporting standards have been codified in the OASIS Identity
+        Metasystem Interoperability standard.
+
+  - uuid : udx892ik0d
+    term : Information Delivery
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Reporting -- Reporting provides the ability to create formatted and interactive reports, with highly scalable distribution
+        and scheduling capabilities. In addition, BI platform vendors should handle a wide array of reporting styles (for example,
+        financial, operational and performance dashboards).
+
+        Dashboards -- This subset of reporting includes the ability to publish formal, Web-based reports, with intuitive displays
+        of information, including dials, gauges and traffic lights. These displays indicate the state of the performance metric
+        compared with a goal or target value. Increasingly, dashboards are used to disseminate real-time data from operational
+        applications.
+
+        Ad hoc query -- This capability, also known as self-service reporting, enables users to ask their own questions of the
+        data, without relying on IT to create a report. In particular, the tools must have a robust semantic layer to allow users
+        to navigate available data sources. In addition, these tools should offer query governance and auditing capabilities to
+        ensure that queries perform well.
+
+        Microsoft Office integration -- In some cases, BI platforms are used as a middle tier to manage, secure and execute BI
+        tasks, but Microsoft Office (particularly Excel) acts as the BI client. In these cases, it is vital that the BI vendor
+        provides integration with Microsoft Office, including support for document formats, formulas, data "refresh" and pivot
+        tables. Advanced integration includes cell locking and write-back.
+
+  - uuid : udx892kbou
+    term : Information Dispersal Algorithms
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Information dispersal algorithms** provide a methodology for storing information in pieces (dispersed) across multiple
+        locations, so that redundancy protects the information in the event of a location outage, but unauthorized access at any
+        single location does not provide usable information. Only the originator or a user with a list of the latest pointers with
+        the original dispersal algorithm can properly assemble the complete information. This has been expanded to include
+        peer-to-peer (P2P) file-sharing technologies and protocols, such as those based on the BitTorrent Protocol, which has
+        proved to be robust on the Internet.
+
+  - uuid : udx892m0oq
+    term : Information Governance
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **information governance** as the specification of decision rights and an accountability framework to
+        ensure appropriate behavior in the valuation, creation, storage, use, archiving and deletion of information. It includes
+        the processes, roles and policies, standards and metrics that ensure the effective and efficient use of information in
+        enabling an organization to achieve its goals.
+
+  - uuid : udx893hpy
+    term : Information (knowledge) Assets
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Information relevant to an enterprise's business function, including captured and tacit knowledge of employees, customers
+        or business partners; data and information stored in highly-structured databases; data and information stored in textual
+        form and in less-structured databases such as messages, e-mail, workflow content and spreadsheets; information stored in
+        digital and paper documents; purchased content; and public content from the Internet or other sources.
+
+  - uuid : udx893291e
+    term : Information Life Cycle Management (ILM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Information life cycle management (ILM)** is an approach to data and storage management that recognizes that the value
+        of information changes over time and that it must be managed accordingly. ILM seeks to classify data according to its
+        business value and establish policies to migrate and store data on the appropriate storage tier and, ultimately, remove it
+        altogether. ILM has evolved to include upfront initiatives like master data management and compliance.
+
+  - uuid : udx893406a
+    term : Information Technology Infrastructure Library (ITIL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Information Technology Infrastructure Library (ITIL)** is an IT service management framework that provides guidance
+        on the full life cycle of defining, developing, managing, delivering and improving IT services. ITIL is owned by the U.K.
+        Governments' Cabinet Office and is structured as five core books: service strategy, service design, service transition,
+        service operation and continual service improvement. Specific implementation guidance is not provided, the focus being a
+        set of good practices that an organization should adapt to its needs.
+
+  - uuid : udx8935ubs
+    term : Infrastructure As A Service (IaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Infrastructure as a service (IaaS)** is a standardized, highly automated offering, where compute resources, complemented
+        by storage and networking capabilities are owned and hosted by a service provider and offered to customers on-demand.
+        Customers are able to self-provision this infrastructure, using a Web-based graphical user interface that serves as an IT
+        operations management console for the overall environment. API access to the infrastructure may also be offered as an
+        option.
+
+  - uuid : udx8937uf9
+    term : Infrastructure Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes AD and application integration and middleware (AIM) software, information management software,
+        storage management software, IT operations management and security software, and other infrastructure software.
+
+        -   Application development and AIM software services -- The AD software market comprises tools that represent each phase
+            of the software development life cycle (application life cycle management \[ALM\], design, construction, automated
+            software quality and other AD software). The Application Infrastructure and Middleware market segment includes
+            business process management (BPM)-enabling technologies, integration-enabling middleware, platform middleware, portals
+            and Web 2.0 infrastructure, and various additional products grouped together as "other AIM." Integration-enabling
+            middleware is software that enables independently designed applications, software components or services to work
+            together, by supporting data consistency, composite application and multi-step process styles of integration.
+
+        -   Information management software services -- This software market is defined by Data Management and Integration
+            software and includes Data Integration Tools, Data Quality Tools and Database Management Systems. The discipline of
+            data integration comprises the practices, architectural techniques and tools for achieving the consistent access and
+            delivery of data across the spectrum of data subject areas and data structure types in the enterprise to meet the data
+            consumption requirements of all applications and business processes. Traditionally aligned with cleansing of customer
+            data (names and addresses) in support of CRM-related activities, the tools have expanded well beyond such
+            capabilities, and forward-thinking organizations are recognizing the relevance of these tools in other data domains. A
+            database management system (DBMS) is a product used for the storage and organization of data that typically has
+            defined formats and structures. DBMSs are categorized by their basic structures and, to some extent, by their use or
+            deployment.
+
+        -   Storage management software services -- The storage management software market includes all software products that are
+            sold as value-added options to run on a server, storage network device or storage device to aid in managing the device
+            or managing and protecting the data. Storage management software represents all the tools needed to manage capacity,
+            performance and availability of data stored on disks, tapes and optical devices, as well as the networking devices
+            that the data may pass through.
+
+        -   IT operations management and security software services -- IT operations management (ITOM) software is intended to
+            represent all the tools needed to manage the provisioning, capacity, performance and availability of the computing,
+            networking and application environment. Security software is included to control and monitor access to internal and
+            external IT resources.
+
+        -   Other infrastructure software services -- Other infrastructure software includes, but is not limited to, clustering
+            and remote control software, directory servers, OS tools, Java license fees, mainframe infrastructure, and mobile and
+            wireless infrastructure, as well as other infrastructure software.
+
+        -   Operating system software -- An OS is software that, after being loaded into the computer by an initial boot program,
+            manages a computer's resources, controlling the flow of information into and from a main processor. OSs perform
+            complex tasks, such as memory management, control of displays and other input/output peripheral devices, networking
+            and file management, and other resource allocation functions between software and system components. The OS provides
+            the foundation on which applications, middleware and other infrastructure components function. OS usually provides
+            user interfaces, such as command-line shell and GUI, for interaction between user and computer. The four most common
+            subcategories of operating systems include Linux, Unix, Windows and mainframe OS..
+
+  - uuid : udx8939xg4
+    term : INSPECT
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner's iterative framework for planning and executing application change. The letters stand for: Inventory, Scope,
+        Parse, Examine, Consider options, Tactical solutions.
+
+  - uuid : udx893bfq7
+    term : Instruction Set Virtualization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Instruction set virtualization** emulates the instruction set of one processor type by hardware, firmware and/or
+        software running on a different processor type. It can apply emulation to individual programs or on entire virtual
+        machines. A user who owns software developed to run on one chip type would be able to use it on a server with incompatible
+        chips. The second type emulates the entire system, allowing an OS built for the emulated chip type to boot up and run
+        software as if it were running on a physical machine of the emulated architecture.
+
+  - uuid : udx893d7io
+    term : Integrated Carrier
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An entity that owns/operates both fixed-line and mobile network infrastructure and provides aforementioned services (fixed
+        and mobile).
+
+  - uuid : udx893enuk
+    term : Integrated Marketing Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Integrated marketing management (IMM)** represents the business strategy, process automation and technologies required
+        to integrate people, processes and technologies across the marketing ecosystem. IMM supports closed-loop marketing by
+        integrating operational, executional and analytical marketing processes from concept/idea to planning to resource
+        allocation to creation/project management to piloting to full-scale execution through to evaluation and analysis.
+
+  - uuid : udx893gidf
+    term : Integrated Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A business software productivity program that incorporates a number of applications (typically word processing, database
+        management, spreadsheet, graphics and communications) into one product, allowing data sharing between all or most modules.
+
+  - uuid : udx893i05h
+    term : Integration Appliances
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An integration appliance can be regarded as a combination of hardware and software that fulfills a specific integration
+        purpose, such as enabling the partially predefined integration of certain applications together with new ones. It is not
+        uncommon to see packaged integration, packaged processes, and SOA governance mechanisms and technologies alongside
+        traditional appliance technologies, such as acceleration, transformation, XML parsing and security features, such as
+        firewalls and packet inspection. An appliance can be regarded as one type of deployment mechanism, along with the more
+        traditional packaged software, SaaS and hosted models.
+
+  - uuid : udx893jpnu
+    term : Integration As A Service (IaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Integration functionality (secure B2B communications, data and message translation, and adapters for applications, data
+        and cloud APIs) delivered as a service.
+
+  - uuid : udx893l719
+    term : Integration Brokerage (IB)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **integration brokerage (IB)** as a category of discrete IT outsourcing for integration projects, such as
+        those involving cloud services integration and supply chain integration. IB is one of three primary cloud services
+        brokerage (CSB) roles and combines cloud-based B2B integration infrastructures with people and processes to help companies
+        for initial implementation and ongoing project management for a wide range of cloud and B2B integration projects.
+
+  - uuid : udx893mye9
+    term : Integration Platform As A Service (iPaaS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Integration Platform as a Service (iPaaS)** is a suite of cloud services enabling development, execution and governance
+        of integration flows connecting any combination of on premises and cloud-based processes, services, applications and data
+        within individual or across multiple organizations.
+
+  - uuid : udx894xq3
+    term : Integration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Integration services are detailed design and implementation services that link application functionality (custom software
+        or package software) and/or data with each other or with the established or planned IT infrastructure. Specific activities
+        might include project planning, project management, detailed design or implementation of application programming
+        interfaces, Web services, or middleware systems.
+
+  - uuid : udx8942awm
+    term : Intellectual Property
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Intellectual property traditionally includes assets that are protected through regulatory methods such as patents,
+        copyrights and regulatory licenses; however, this protection is being expanded to include software and business processes
+        when these can be demonstrated to be original, novel and non-obvious. Customer intelligence and business intelligence may
+        be considered intellectual "property" by its owner, depending on its value to enterprise competitiveness and its
+        integration into business processes.
+
+  - uuid : udx89443bq
+    term : Interactive Visualization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Interactive visualization** technology enables the exploration of data via the manipulation of chart images, with the
+        color, brightness, size, shape and motion of visual objects representing aspects of the dataset being analyzed. These
+        products provide an array of visualization options that go beyond those of pie, bar and line charts, including heat and
+        tree maps, geographic maps, scatter plots and other special-purpose visuals. These tools enable users to analyze the data
+        by interacting with a visual representation of it.
+
+  - uuid : udx8945v63
+    term : Intercompany Multimodal Unified Communications (UC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Intercompany multimodal unified communications (UC)** is the capability for users inside one organization to share
+        presence information, and to enable instant messaging sessions to be established and modified into voice and video
+        conference sessions with desktop sharing independent of the technology platform selected by their IT department.
+
+  - uuid : udx894762o
+    term : Internet Of Things
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Internet of Things** is the network of physical objects that contain embedded technology to communicate and sense or
+        interact with their internal states or the external environment.
+
+  - uuid : udx8948mhp
+    term : Internet Protocol Television (IPTV)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Internet Protocol television (IPTV)** refers to the network architecture, equipment and technologies, middleware and
+        software platforms used to deliver standard or high-definition television (HDTV) signals, in real time, over managed
+        communications service provider (CSP) networks. Until recently, IPTV services were a TV delivery solution for wireline
+        CSPs over either DSL or FTTH access networks. Now, IPTV is beginning to be used by cable operators and satellite
+        broadcasters as a means of providing additional TV channels to their subscribers. In the future, wireless-based
+        distribution networks may be added to this list. IPTV delivery systems increasingly employ advanced video compression
+        (AVC) technologies, such as MPEG-4 or VC-1, whereas early implementations of IPTV used MPEG-2. IPTV should be contrasted
+        to over-the-top (OTT) Web streaming video with no quality of service (QoS) issues like buffering delays.
+
+  - uuid : udx894afia
+    term : Internet Protocol Version 6 (IPv6)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Internet Protocol version 6 (IPv6)** is the next version of Internet Protocol (IP), designed to overcome several key
+        limitations of IP version 4 (IPv4), the most widely used networking protocol. The main benefits of IPv6 are vastly
+        increased address space, integrated security and quality-of-service mechanisms, as well as support for autoconfiguration
+        and mobility. In addition, large network operators may see better routing stability as platforms mature.
+
+  - uuid : udx894c68t
+    term : Internet Radio
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Internet radio** streams music that is stored on a server to an Internet-connected vehicle by using embedded wireless
+        networking technologies (such as a connected "infotainment" head unit) or via a wireless consumer device that is connected
+        to the vehicle (such as a user's smartphone). In both cases, music is accessed online, without storing any music files in
+        the car's head unit or consumer device. In some instances, the streaming service provider allows for caching tracks to
+        listen to when the user is in offline mode.
+
+  - uuid : udx894dya7
+    term : Internet Telephony
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Term used to describe packetized IP voice traffic sent over the Internet (as distinct from a private or managed IP
+        telecommunications infrastructure). When used to enable Internet telephony from a PC, it requires client software on the
+        PC such as Skype, plus a broadband connection with minimal latency. See also IP telephony and VoIP.
+
+  - uuid : udx894fg1x
+    term : Internet TV
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Internet TV** is the video streaming of licensed professional content (typically TV shows, live events and movies). "TV"
+        here refers to the nature and status of the content. It drives the key requirement that access be selectively controlled,
+        based on licensing arrangements, which place restrictions on who may see the content (that is, subscribers only), and
+        where and when the content may be seen. Broadband connected TVs, game consoles, open set-top boxes, PCs, smartphones and
+        media tablets are all considered receivers of Internet TV.
+
+  - uuid : udx894hdqe
+    term : Internet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A loose confederation of independent yet interconnected networks that use the Transmission Control Protocol/Internet
+        Protocol (TCP/IP) protocols for communications. The Internet evolved from research done during the 1960s on a network
+        called the ARPANet. It provides universal connectivity and three levels of network services: connectionless packet
+        delivery, full-duplex stream delivery, and application-level services.
+
+  - uuid : udx894j6ay
+    term : Interoperability
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The ability for a device from one manufacturer to work with one from another.
+
+  - uuid : udx894kn66
+    term : Interoperable Storage Encryption
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Interoperable storage encryption** improves OS/application independent standardized cryptography and key management by
+        embedding these technologies in the controllers of self-encrypting drives (SEDs). SEDs simplify secure large-scale drive
+        imaging, migration and end-of-life sanitation. Seagate introduced proprietary SEDs in the mid-2000s using DriveTrust
+        Technology. In 2009, the Trusted Computing Group (TCG) released open specifications for drives, arrays and storage
+        interfaces. All major mass storage manufacturers support the TCG model.
+
+  - uuid : udx894megl
+    term : Intranet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A network internal to an enterprise that uses the same methodology and techniques as the Internet. It is not necessarily
+        connected to the Internet and is commonly secured from it using firewalls. Intranets often use an organization's
+        local-area networks (LANs) or wide-area networks (WANs). Services include websites, collaboration, workflow and messaging
+        services, and application development.
+
+  - uuid : udx895uo7
+    term : Introspection
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Introspection** is the use of hypervisor- and virtual machine monitor (VMM)-level APIs to expose low-level system
+        information from all virtual machines (VMs) hosted by the VMM. The APIs can enable security and management capabilities
+        that span multiple VMs without requiring the installation of an agent on each, without requiring virtual network
+        reconfiguration and with potentially better performance than agents running in a separate VM. Introspection also provides
+        separation of the security policy enforcement from the container it is protecting.
+
+  - uuid : udx8952lix
+    term : IP Address (Internet Protocol Address)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A unique number assigned by an Internet authority that identifies a computer on the Internet. The number consists of four
+        groups of numbers between 0 and 255, separated by periods (dots). For example, 195.112.56.75 is an IP address.
+
+  - uuid : udx89543ix
+    term : IP Centrex Platforms
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        IP Centrex platforms offer a broad range of PBX replacement and new services. These products typically work with a variety
+        of end-user devices and interfaces, including analog and digital phones, IP desktop phones, PDAs and mobile phones, all of
+        which are widely used in enterprises.
+
+        These platforms offer a wide variety of enhanced features, such as: unified messaging (including visual voice mail); click
+        to talk; enhanced find-me/follow-me capabilities; Microsoft Outlook integration, with "click to call" features; the
+        ability to return calls and voice mail from a browser; Web-based call management to monitor and control service features
+        and capabilities; automatic call distribution capabilities; selective call acceptance; collaborative applications;
+        presence management; and instant messaging.
+
+  - uuid : udx8955svp
+    term : IP Datacasting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        IP datacasting uses DVB-H technology to transmit digital multimedia data to mobile devices in the form of IP datagrams.
+        Content can be optimized for mobile handsets by adapting it to their small screens.
+
+  - uuid : udx8957b8g
+    term : IP-enabled PBX/KTS IP Extension Line
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A line attached to an IP-enabled PBX phone system that terminates with an IP phone or voice endpoint.
+
+  - uuid : udx8958rv9
+    term : IP-enabled PBX
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A customer-premises telephone switching system that has native IP switching and a TDM switching matrix, each delivering
+        call-processing features and functions transparently between internal extensions (stations), whether the endpoint is an IP
+        or traditional device. Typically, an IP-enabled product starts life as a traditional PBX, but is further developed to
+        include IP capabilities. The traditional TDM switching matrix remains a part of the architecture, but a server-based
+        processor capable of delivering voice traffic via packet switching has been added.
+
+  - uuid : udx895ajc1
+    term : IP Extension Line
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A line that terminates with an IP phone or voice endpoint that was shipped, installed, and in use and attached to an
+        IP-enabled PBX or IP-PBX phone system.
+
+  - uuid : udx895c195
+    term : IP (Internet Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Transmission Control Protocol/Internet Protocol (TCP/IP) tracks the address of nodes, routes outgoing messages, and
+        recognizes incoming messages. Current networks consist of several protocols, including IP, Internetwork Packet Exchange
+        (IPX), DECnet, AppleTalk, Open Systems Interconnection (OSI) and LLC2. This wide diversity of protocols results from
+        application suites that assume their own particular protocols. Collapse from this wide variety is inevitable, but users
+        will only be able to reduce this diversity, not eliminate it. Most users will collapse networks into two main protocols:
+        IP and IPX. Installed-base applications and the pain of change will prevent a total reduction to a single backbone
+        protocol.
+
+  - uuid : udx895dt3q
+    term : IP Multimedia Subsystem (IMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IP Multimedia Subsystem (IMS)** is an open architecture standard based on Session Initiation Protocol. It defines how
+        applications and services are delivered to customers, regardless of the access network on which they run. IMS separates
+        session control from the host application for maximum flexibility and standardizes the signaling and control layer,
+        together with network-based and Web-enabled applications and services.
+
+  - uuid : udx895fm4v
+    term : IP Multimedia Subsystem Session Control Layer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        IP Multimedia Subsystem (IMS) is a standardized, open architecture based on SIP and the Diameter authentication,
+        authorization and accounting (AAA) protocol. IMS defines how applications and services are delivered to customers,
+        regardless of which network they run on. It separates session control from the actual applications for maximum
+        flexibility, and can be used for centralized user profiles. It helps carriers to control sessions and provides the ability
+        to charge for applications.
+
+        In addition to voice switching, control and applications carriers are also deploying data and video control layers, and
+        IMS multimedia. They are also building more nimble and agnostic service layers with architectures such as NG service
+        delivery platforms (SDPs). This area includes, for example, deployments of IP television (IPTV) and video overlays, as
+        well as service enablers such as presence, instant messaging (IM)/chat, third-party exposure and application stores. The
+        area is often associated with Telco 2.0.
+
+  - uuid : udx895hdvi
+    term : IP-PBX
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A LAN-based IP switching communications system that provides telephony functions employing voice IP endpoint connectivity.
+        At least 95% of lines on pure IP PBX systems must terminate with IP voice endpoints.
+
+  - uuid : udx895iv3n
+    term : IP Seat License
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A telephony seat that is in use and part of an IP-enabled PBX or IP-PBX phone system that terminates with an IP phone.
+
+  - uuid : udx895kb7p
+    term : IP-service Control Points
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An IP-SCP is a carrier-grade application server using industry-standard hardware, operating systems, open standards and
+        protocols. The application server normally incorporates a real-time database and service logic execution functionality
+        (also known as call triggers via a service switching point \[SSP\]), facilitating applications. The application server
+        includes provisioning interfaces.
+
+  - uuid : udx895m06r
+    term : IP Telephony
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The term used for LAN-attached telephony systems and the associated telephone handsets (that is, the IP version of the
+        PBX). More specifically, IP telephony involves the delivery of the telephony application (for example, call setup and
+        teardown, and telephony features) over IP, instead of using circuit-switched or other modalities. IP telephony is not the
+        same as VoIP or Internet telephony, although the terms are commonly (and erroneously) used interchangeably. See also
+        Internet telephony and VoIP.
+
+  - uuid : udx896ehq
+    term : IPA (integrated Publishing Architecture)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Gartner concept that defines the creation, assembly and production functions to support the complete document life
+        cycle. Creation includes document component modeling, authoring, content identification, revision, review and approval;
+        assembly includes document aggregation modeling, on-demand document construction and database interchange; and production
+        includes composition, layout and file formatting for multiple communication channels.
+
+  - uuid : udx89625ah
+    term : IPhone
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Apple's mobile device that combines an iPod music and video player, mobile phone and Internet browser capability in a
+        handheld unit with a touchscreen interface. An iPhone designed for EDGE cellular networks was launched in North America in
+        June 2007 and in Europe in late 2007. A 3G-capable version was launched in July 2008.
+
+  - uuid : udx8963spx
+    term : IRD (integrated Receiver Decoder)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Official name for the signal reception system that receives and converts modulated signals back into their original format
+        suitable for presentation to an end-user device or display. IRDs typically contain a built-in decoder for unscrambling
+        subscription TV programming channels. It is also known as a satellite receiver or satellite set-top box.
+
+  - uuid : udx89659h9
+    term : IrDA (Infrared Data Association)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Maintains a standard for infrared data transmission (up to 4 Mbps). Because this technology's cost is extremely low, it is
+        now embedded in many consumer electronic devices (for example, laptop computers and handheld devices, such as PDAs and
+        cellular phones).
+
+  - uuid : udx8966q9n
+    term : IRR (internal Rate Of Return)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        IRR analysis determines the interest rate and then compares this rate to the "risk-adjusted rate of return."
+
+        industry protocol.
+
+  - uuid : udx89687tn
+    term : ISDN (Integrated Services Digital Network)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technical standard and design philosophy for digital networks. ISDN provides high-speed, high-bandwidth channels to
+        every subscribers on the public switched telephone network, achieving end-to-end digital functions with standard equipment
+        interface devices. ISDN networks enable a variety of mixed digital transmission services to be accommodated at a single
+        interface.
+
+  - uuid : udx8969nui
+    term : ISO 9000
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The international standard for quality control. It is also known as BS5750 and EN29001. The three standards are identical,
+        but they are numbered and published differently by different standards bodies. The worldwide standard is published by the
+        International Organization for Standardization (ISO), and is the one generally referenced. ISO 9000 is a generic standard
+        that any enterprise or individual department can use. It is not specific to the IT industry. The standard is subdivided
+        into three -- ISO 9001, ISO 9002 and ISO 9003. Enterprises use some or all of the parts, depending on the nature of their
+        business. Any enterprise can claim that it complies with ISO 9000. To make the claim credible, an external assessor from
+        an accreditation body must evaluate the enterprise's quality system. ISO 9000 certification does not guarantee quality; it
+        guarantees consistency of approach.
+
+  - uuid : udx896bhwm
+    term : ISO (International Organization For Standardization)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A voluntary, nontreaty organization established in 1949, as a technical agency of the United Nations, to promote
+        international standardization in a broad range of industries. ISO's Open Systems Interconnection (OSI) Reference Model
+        establishes guidelines for network architectures.
+
+  - uuid : udx896cyrr
+    term : ISO (Internet Sales Outlet)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A third-party website that attracts visitors looking to buy goods or services. ISOs make money by selling links or ads
+        that lead directly to Web merchant sites or by selling products or services on behalf of Web merchants.
+
+  - uuid : udx896eh9e
+    term : ISP (Internet Service Provider)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A company that provides Internet access to its customers. The majority of ISPs are too small to purchase access directly
+        from the network access point (NAP), and instead buy pieces of bandwidth that are available from larger ISPs. Access to
+        the Internet can be provided either via modem or by direct connection, which offers far higher speeds.
+
+        Internet service providers are different from online services, although these services sometimes also provide access to
+        the Internet. Online services provide access to exclusive content, databases and online discussion forums that are not
+        available outside the service.
+
+  - uuid : udx896g9yw
+    term : ISV (independent Software Vendor)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A software producer that is not owned or controlled by a hardware manufacturer; a company whose primary function is to
+        distribute software. Hardware manufacturers that distribute software (such as IBM and Unisys) are not ISVs, nor are users
+        (such as banks) that may also sell software products.
+
+        ISVs typically offer products that the primary vendor (i.e., IBM) does not offer, allowing clients of that vendor to round
+        out their software needs. ISVs create price competition and also increase the pace of technology innovation in their
+        markets.
+
+  - uuid : udx896i3wo
+    term : IT Asset Management (ITAM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT asset management (ITAM)** entails collecting inventory, financial and contractual data to manage the IT asset
+        throughout its life cycle. ITAM depends on robust processes, with tools to automate manual processes. Capturing and
+        integrating autodiscovery/inventory, financial and contractual data in a central repository for all IT assets enables the
+        functions to effectively manage vendors and a software and hardware asset portfolio from requisition through retirement,
+        thus monitoring the asset's performance throughout its life cycle.
+
+  - uuid : udx896jvnt
+    term : IT Chargeback
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A discipline and accounting activity to recover the costs of IT to aid in the management of IT resources, and segment
+        shared costs into profit centers.
+
+  - uuid : udx896ldig
+    term : IT Consulting Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Consulting services are advisory services that help clients assess different technology and methodology strategies and, in
+        doing so, align their network strategies with their business or process strategies. These services support customers' IT
+        initiatives by providing strategic, architectural, and operational and implementation planning related to their networks.
+        Strategic planning includes advisory services that help clients assess their network requirements and formulate
+        system-implementation plans. Architecture planning includes advisory services that combine strategic plans and knowledge
+        of emerging technologies to create the logical design of the network environment and the supporting infrastructure to meet
+        customer requirements. Operational assessment and benchmarking includes services that assess the operating efficiency and
+        capacity of a client's network environment. Implementation planning includes services aimed at advising customers on the
+        rollout and testing of new network deployments.
+
+  - uuid : udx896n0sy
+    term : IT Consulting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        IT consulting services are advisory services that help clients assess different technology strategies and, in doing so,
+        align their technology strategies with their business or process strategies. These services support customers' IT
+        initiatives by providing strategic, architectural, operational and implementation planning. Strategic planning includes
+        advisory services that help clients assess their IT needs and formulate system implementation plans. Architecture planning
+        includes advisory services that combine strategic plans and knowledge of emerging technologies to create the logical
+        design of the system and the supporting infrastructure to meet customer requirements. Operational assessment/benchmarking
+        include services that assess the operating efficiency and capacity of a client's IT environment. Implementation planning
+        includes services aimed at advising customers on the rollout and testing of new solution deployments.
+
+  - uuid : udx8971fjy
+    term : IT Cost Optimization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT cost optimization** is a discipline that includes the practices, capabilities and behaviors of reducing spending,
+        reducing costs, managing service levels and showing the business value of IT.
+
+        Gartner considers IT cost optimization a top priority for IT organizations and enterprises. IT cost optimization can be
+        done with or without new investments, can be initiated in the short or long term, and can be implemented during periods of
+        economic downturn or expansion and during other transformational changes in an enterprise or industry. IT cost
+        optimization, undertaken at both strategic and tactical levels and across all process domains, helps enterprises produce
+        results, improve performance and formulate return-to-growth strategies. Critical elements of IT cost optimization include
+        the enterprise's potential benefits, customer impact, time requirements, degree of organizational risk, degree of
+        technical risk and investment requirements.
+
+  - uuid : udx89735gw
+    term : IT Decision Support
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The creation and management of information sources, reporting processes and automated tools that enable IT executives to
+        implement profitable IT strategies.
+
+  - uuid : udx8974n4l
+    term : IT Governance (ITG)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT governance (ITG)** is defined as the processes that ensure the effective and efficient use of IT in enabling an
+        organization to achieve its goals. IT demand governance (ITDG--what IT should work on) is the process by which
+        organizations ensure the effective evaluation, selection, prioritization, and funding of competing IT investments; oversee
+        their implementation; and extract (measurable) business benefits. ITDG is a business investment decision-making and
+        oversight process, and it is a business management responsibility. IT supply-side governance (ITSG--how IT should do what
+        it does) is concerned with ensuring that the IT organization operates in an effective, efficient and compliant fashion,
+        and it is primarily a CIO responsibility.
+
+  - uuid : udx8976gfb
+    term : IT Industrialization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The standardization of IT services through predesigned and preconfigured solutions that are highly automated and
+        repeatable, scalable and reliable, and meet the needs of many organizations.
+
+  - uuid : udx8977xit
+    term : IT (information Technology)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This is the common term for the entire spectrum of technologies for information processing, including software, hardware,
+        communications technologies and related services. In general, IT does not include embedded technologies that do not
+        generate data for enterprise use.
+
+  - uuid : udx8979fsx
+    term : IT Infrastructure Utility (IU)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner first defined an **IT infrastructure utility (IU)** as a shared IT infrastructure architecture provided through
+        on-demand services. More broadly, we define infrastructure utility services (IUS) as the provision of outsourced,
+        industrialized, asset-based IT infrastructure managed services (below the business application functional layer). IUS are
+        defined by service outcomes, technical options and interfaces, and are paid based on resource usage, allocation or the
+        number of users served.
+
+  - uuid : udx897bb9t
+    term : IT Infrastructure
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The system of hardware, software, facilities and service components that support the delivery of business systems and
+        IT-enabled processes.
+
+  - uuid : udx897csbq
+    term : IT Management Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Management services transfer all or part of the day-to-day management responsibility for a customer's network environment
+        (including LAN hardware and software, WAN -- voice and data -- and voice network hardware and software) and, in some
+        cases, the ownership of the technology or personnel assets, to an outside vendor. These services may include system
+        operation or support, capacity planning, asset management, availability management, performance management,
+        administration, security, remote monitoring, technical diagnostics/troubleshooting, configuration management, system
+        repair management and generation of management reports. Network remote monitoring and management, and backup and recovery
+        services, also fall into this category when some degree of management is included in the service.
+
+  - uuid : udx897ekjc
+    term : IT Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT management** services provide day-to-day management and operation of IT assets and processes. As such, they represent
+        the core value components of ITO. IT management services are divided into three key subsegments: operations services (for
+        IT infrastructure), application management services and help desk management services.
+
+  - uuid : udx897gar5
+    term : IT Operations
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **IT operations** as the people and management processes associated with IT service management to deliver
+        the right set of services at the right quality and at competitive costs for customers.
+
+  - uuid : udx897hrd2
+    term : IT/OT Alignment
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT/OT alignment** is an approach to deal with the internal changes within an organization in response to IT/OT
+        convergence. As the nature of the OT systems starts to change, organizations need to respond by aligning the standards,
+        policies, tools, processes and staff between IT and the business.
+
+  - uuid : udx897jjd4
+    term : IT/OT Integration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT/OT integration** is the end state sought by organizations (most commonly, asset-intensive organizations) where
+        instead of a separation of IT and OT as technology areas with different areas of authority and responsibility, there is
+        integrated process and information flow.
+
+  - uuid : udx897kvbq
+    term : IT Outsourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT outsourcing** is the use of external service providers to effectively deliver IT-enabled business process,
+        application service and infrastructure solutions for business outcomes.
+
+        Outsourcing, which also includes utility services, software as a service and cloud-enabled outsourcing, helps clients to
+        develop the right sourcing strategies and vision, select the right IT service providers, structure the best possible
+        contracts, and govern deals for sustainable win-win relationships with external providers.
+
+        Outsourcing can enable enterprises to reduce costs, accelerate time to market, and take advantage of external expertise,
+        assets and/or intellectual property.
+
+  - uuid : udx897mjpw
+    term : IT Risk
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The potential for an unplanned, negative business outcome involving the failure or misuse of IT.
+
+  - uuid : udx898ot8
+    term : IT Service Desk (ITSD)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT Service Desk (ITSD)** products range from simple call tracking/trouble ticketing (aka "help desk" products) to broad
+        suite solutions encompassing call management, incident management, problem management, IT change management,
+        configuration/inventory repositories, request fulfillment and self-service portals. In their technical platform, ITSD
+        products include knowledge management (knowledge search capability) and workflow engines (managing automated escalation
+        and notification). The most-sophisticated products also may link to dominant brands of corporate portals, external
+        workflow engines, procurement modules and HR systems, or include these as proprietary features. These products integrate
+        with operations management systems for links to event alerts, additional inventory repositories, configuration information
+        and remote control. Product suites must have native support for Web self-service, password automation and e-mail ("native"
+        means that the vendor either has built its own component or has licensed an engine and built value around it). The
+        products must integrate with a range of communications tools, from telephony components to Web chat.
+
+  - uuid : udx8982h11
+    term : IT Services Sourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The term "IT services sourcing" can mean different things to different people. However, regardless of the terminology, it
+        is critical to understand its basic components, as it constitutes one of the largest areas of spend for organizations "IT
+        services" refers to the application of business and technical expertise to enable organizations in the creation,
+        management and optimization of or access to information and business processes. The IT services market can be segmented by
+        the type of skills that are employed to deliver the service (design, build, run). There are also different categories of
+        service: business process services, application services and infrastructure services. If these services are outsourced,
+        they are referred to as business process outsourcing (BPO), applications outsourcing (AO) and infrastructure outsourcing.
+
+  - uuid : udx89848yp
+    term : IT Services Strategic Sourcing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The dynamic delivery of internal and external, business- or IT-oriented resources and services to ensure that business
+        objectives are met.
+
+  - uuid : udx8985q9b
+    term : IT Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT services** refers to the application of business and technical expertise to enable organizations in the creation,
+        management and optimization of or access to information and business processes.
+
+        The IT services market can be segmented by the type of skills that are employed to deliver the service (design, build,
+        run). There are also different categories of service: business process services, application services and infrastructure
+        services.
+
+        If these services are outsourced, they are referred to as business process outsourcing (BPO), applications outsourcing
+        (AO) and infrastructure outsourcing.
+
+  - uuid : udx8987aoh
+    term : IT Strategy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **IT strategy** is about how IT will help the enterprise win. This breaks down into IT guiding the business strategy, and
+        IT delivering on the business strategy. Although some or all tasks involved in creating the IT strategy may be separate,
+        and there are normally separate documents, IT strategy it is an integral part of the business strategy.
+
+  - uuid : udx8989277
+    term : ITOM (IT Operations Management) Software
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        IT operations management (ITOM) software is intended to represent all the tools needed to manage the provisioning,
+        capacity, performance and availability of the computing, networking and application environment. Gartner divides the ITOM
+        market into 10 major segments that include DBMS, application management, availability and performance, event, fault and
+        log management, network management, configuration management, IT services desk and IT help desk, asset management, job
+        scheduling and other ITOM (which refers to output management software) for tools used to manage hardware peripherals, such
+        as printers.
+
+  - uuid : udx898aw5d
+    term : ITSSM Tools (IT Service Support Management Tools)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **ITSSM Tools (IT service support management tools)** is a category of integrated IT operations management tools providing
+        enhanced business alignment for key IT services such as service request management, change management and incident
+        management.
+
+  - uuid : udx898ce7s
+    term : ITU (International Telecommunication Union)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Agency of the United Nations, headquartered in Geneva. The ITU is the body through which governments and the private
+        sector coordinate global telecommunications networks and services.
+
+  - uuid : udx898dv9j
+    term : IUS (infrastructure Utility Services)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These services involve the provision of outsourced, industrialized, asset-based IT infrastructure managed services (below
+        the functional business application layer).
+
+  - uuid : udx898fixy
+    term : IVR (interactive Voice Response)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A voice/call-processing option for improving call center functionality and integration. It enables callers to have more
+        flexibility to access information or leave messages. Use of this option can "offload" call volume from agents to the IVR
+        or improve load balancing by having agents handle recorded messages during slow periods. A slowly growing number of IVR
+        developers are now using speech recognition in their applications.
+
+# __END__

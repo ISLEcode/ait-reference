@@ -1,0 +1,1483 @@
+title    : ISLE AIT computer science glossary -- M words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx89gbr2e
+    term : M-business
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile business (m-business)**  refers to new business models enabled by the extensive deployment of key mobile and
+        wireless technologies and devices (for example, Bluetooth, e-purses, smartphones, UMTS and WAP), and by the inherent
+        mobility of most people's work styles and lifestyles. The value proposition of m-business is that the user can benefit
+        from information or services any time and in any place.
+
+  - uuid : udx89gdjky
+    term : M-commerce
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile commerce (m-commerce)**  refers to the delivery of e-commerce capabilities directly to mobile service users by
+        wireless technology.
+
+  - uuid : udx89gf1tt
+    term : Machine-to-Machine (M2M) Communications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Machine-to-machine (M2M) communications** is used for automated data transmission and measurement between mechanical or
+        electronic devices. The key components of an M2M system are: Field-deployed wireless devices with embedded sensors or
+        RFID-Wireless communication networks with complementary wireline access includes, but is not limited to cellular
+        communication, Wi-Fi, ZigBee, WiMAX, wireless LAN (WLAN), generic DSL (xDSL) and fiber to the x (FTTx).
+
+  - uuid : udx89ggs3i
+    term : Magic Quadrant
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner's **Magic Quadrants** depict markets in the middle phases of their life cycle by using a two-dimensional matrix
+        that evaluates vendors based on their completeness of vision and ability to execute. The Magic Quadrant has 15 weighted
+        criteria that plot vendors based on their relative strengths in the market.
+
+  - uuid : udx89gi4ho
+    term : Magnetic-Ink Character Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Magnetic-ink character recognition (MICR)** is the machine recognition and digitization of magnetically charged
+        characters printed on paper (typically bank drafts and deposit slips).
+
+  - uuid : udx89gjjej
+    term : Magneto-Optic
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Magneto-optic** is a type of storage technology that uses magnetization produced by a focused light beam.
+
+  - uuid : udx89gl47w
+    term : Magnetometer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A digital compass, or **magnetometer** , is a sensor that measures the earth's magnetic field to determine the direction
+        to the magnetic poles. The implementation of three-axis compasses or magnetometer sensors, combined with accelerometer
+        sensors, is critical for mobile devices in order to provide tilt compensation when they are not held horizontally.
+
+  - uuid : udx89gmrs7
+    term : Mainframe
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mainframe** is a large-capacity computer system with processing power that is significantly superior to PCs or
+        midrange computers. Traditionally, mainframes have been associated with centralized, rather than distributed, computing
+        environments. Skilled technicians are required to program and maintain mainframes, although client/server technology has
+        made mainframes easier to operate from the user's and programmer's perspectives. They are generally used by large
+        organizations to handle data processing for enterprisewide administrative tasks like payroll or accounts payable.
+
+  - uuid : udx89h1w5y
+    term : Mainstream Notebook
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mainstream notebook** is a computer system that meets all the criteria for a notebook PC but is designed to be the
+        best compromise between all-inclusive functionality and light weight. Mainstream notebooks weigh between 4.5 and 6 pounds
+        with the weight-saver and battery modules. Mainstream notebooks often have a single bay for the inclusion of a peripheral,
+        such as a CD-ROM.
+
+  - uuid : udx89h3ojo
+    term : Managed File Transfer (MFT)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Managed file transfer (MFT)** is a technology that provides the secure transfer of data in an efficient and a reliable
+        manner. Unlike traditional file transfer tools, such as FTP and scripting, MFT core functionalities include the ability to
+        secure files in transit and at rest, and reporting and auditing of file activity. What also differentiates MFT from other
+        forms of infrastructure and integration technologies is its unique focus on managing the transfer of large file sizes and
+        volume.
+
+  - uuid : udx89h5fkj
+    term : Managed Network Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Managed network services (MNSs)** refer to a vendor's delivery of primarily operational support for a new environment in
+        which the hardware assets, financial obligations and personnel still remain on the books of the customer.
+
+  - uuid : udx89h6xm4
+    term : Managed Object
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **managed object** is a data processing or data communications resource that may be managed through the use of an Open
+        Systems Interconnection (OSI) management protocol. The resource itself need not be an OSI resource. A managed object may
+        be a piece of equipment, a software component, an abstract collection of information or a combination of all three.
+
+  - uuid : udx89h8pmy
+    term : Managed Print Services (MPS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Managed print services (MPS)** are services offered by an external provider to optimize or manage a company's document
+        output. The main components provided are needs assessment, selective or general replacement of hardware, and the service,
+        parts and supplies needed to operate the new and/or existing hardware (including existing third-party equipment if this is
+        required by the customer). The provider also tracks how the printer, fax, copier and MFP fleet is being used, the
+        problems, and the user's satisfaction.
+
+  - uuid : udx89hajew
+    term : Managed Security Service Provider (MSSP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An **managed security service provider (MSSP)** provides outsourced monitoring and management of security devices and
+        systems. Common services include managed firewall, intrusion detection, virtual private network, vulnerability scanning
+        and anti-viral services. MSSPs use high-availability security operation centers (either from their own facilities or from
+        other data center providers) to provide 24/7 services designed to reduce the number of operational security personnel an
+        enterprise needs to hire, train and retain to maintain an acceptable security posture.
+
+  - uuid : udx89hccrg
+    term : Managed Service Provider (MSP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **managed service provider (MSP)** delivers network, application, system and e-management services across a network to
+        multiple enterprises, using a "pay as you go" pricing model. A "pure play" MSP focuses on management services as its core
+        offering. In addition, the MSP market includes offerings from other providers -- including application service providers
+        (ASPs), Web hosting companies and network service providers (NSPs) -- that supplement their traditional offerings with
+        management services.
+
+  - uuid : udx89he5mm
+    term : Management Consulting
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Management consulting** is strategic consulting focused on high-level corporate or business unit strategy (e.g.,
+        deciding what businesses to participate in or whether to make an acquisition), or on operational improvement (e.g.,
+        improving customer service or determining the most effective type of retail delivery system).
+
+  - uuid : udx89hfste
+    term : Management Information Base
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**management information base (MIB)** is a Simple Network Management Protocol (SNMP) flat-file, nonrelational database
+        that describes devices being monitored. Network management platforms monitor nodes by reading the value of the managed
+        resources in the MIB. Management platforms can affect changes in managed resources by altering MIB values (e.g., by
+        establishing thresholds beyond which alerts are created).
+
+  - uuid : udx89hhn8m
+    term : Manufacturer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **manufacturer** is a producer of branded or unbranded finished products. A manufacturer could be a contract
+        manufacturer, OEM or both.
+
+  - uuid : udx89hj564
+    term : Manufacturing Execution System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Manufacturing execution systems (MESs)** manage, monitor and synchronize the execution of real-time, physical processes
+        involved in transforming raw materials into intermediate and/or finished goods. They coordinate this execution of work
+        orders with production scheduling and enterprise-level systems. MES applications also provide feedback on process
+        performance, and support component- and material-level traceability, genealogy, and integration with process history,
+        where required.
+
+  - uuid : udx89hkw3l
+    term : Manufacturing Planning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Manufacturing planning** refers to the weekly or daily production and machine schedules across multiple plants or lines
+        to meet orders and forecast demand. Some manufacturing planning modules also incorporate materials planning.
+
+  - uuid : udx89hm8in
+    term : Manufacturing Scheduling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Manufacturing scheduling** is a generation of plant-level execution schedules by product and resource (e.g., line and
+        machine) and resolution of day-to-day capacity bottlenecks. Scheduling applications normally include a more granular level
+        of resource information, and will provide such functionality as sequence dependent setup, tank scheduling and point-of-use
+        material availability.
+
+  - uuid : udx89iqi2
+    term : MapReduce
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **MapReduce** is a programming model or algorithm for the processing of data using a parallel programming implementation
+        and was originally used for academic purposes associated with parallel programming techniques.
+
+  - uuid : udx89i28tb
+    term : Marketing Automation System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **marketing automation system** is a system that helps marketers execute multichannel marketing campaigns by providing a
+        scripting environment for authoring business rules and interfaces to a variety of third-party applications.
+
+  - uuid : udx89i3t62
+    term : Marketing Content Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Marketing content management (MCM)**  is a category of applications that help enterprises respond rapidly to unfolding
+        business circumstances by applying the optimal combination of marketing content across multiple channels. MCM databases
+        provide enterprises with an overview of all available marketing content.
+
+  - uuid : udx89i5e90
+    term : Marketing Database System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A**marketing database system** is a database system designed to meet the specialized analytical and application needs of
+        marketers.
+
+  - uuid : udx89i6v8n
+    term : Marketing Encyclopedia System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **marketing encyclopedia system (MES)** is a system that electronically distributes and consolidates up-to-date
+        marketing information into a highly cross-referenced, single-source repository. An MES enables users to quickly locate and
+        display information, thus shortening sales cycles and decreasing printing and distribution costs. An MES contains a
+        database capable of storing all types of information that will be incorporated into the system (e.g., audio, video, sound,
+        text and graphics). The system should have the capability to be used unconnected to a server and should include a remote
+        communications mechanism for electronically downloading and uploading information.
+
+  - uuid : udx89i8pqe
+    term : Marketing Mix And Product Portfolio Optimization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Marketing mix optimization** enables marketers to maximize returns on their marketing expenditures by determining the
+        best set of advertising and targeted campaigns across various channels. Media mix optimization, which is one type of
+        marketing mix optimization, supports media planning and buying, and maximizes the return on spending across media and
+        advertising campaigns. Production portfolio optimization maximizes the mix of products being marketed to optimize revenue
+        potential.
+
+  - uuid : udx89iah0g
+    term : Marketing Mix Modeling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Marketing mix modeling** refers to analytical solutions that help marketers to understand and simulate the effect of
+        advertising (volume decomposition), and to optimize tactics and the delivery medium. More recently, it is being used to
+        simulate and analyze the trade-offs between trade and consumer spending. Marketing mix modeling can also help managers
+        with P&L responsibility understand ROI by tactic. For example, if I have \$1 to invest, I can get an X return from
+        advertising and a Y return from a consumer promotion. This helps marketers make informed decisions on where to invest
+        based on their measures of success.
+
+  - uuid : udx89ic7li
+    term : Marketing Mix Optimization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Marketing mix optimization** enables marketers to maximize returns on their marketing expenditures by determining the
+        best set of advertising and targeted campaigns across various channels (offline and online) and media (traditional,
+        digital and social).
+
+  - uuid : udx89idokg
+    term : Marketing Performance Management (MPM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Marketing performance management (MPM)** encompasses the technologies and services for solutions that support
+        marketing's ability to gain access to insights, analyze data, make predictions, and optimize marketing programs, campaigns
+        and resources. At the foundational level, MPM includes a data repository, BI tools and analytical workbenches. At the
+        strategic level, MPM provides role-based access to information and KPIs through dashboards, visualization, point-and-click
+        analysis, modeling, simulation and optimization.
+
+  - uuid : udx89ifjpf
+    term : Marketing Resource Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Marketing resource management** applications enable strategic planning and budgeting, program management, creative
+        development and distribution, content management, media planning and execution, event coordination, and resource
+        measurement.
+
+  - uuid : udx89ih2vj
+    term : Marketing Service Providers (MSPs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Marketing service providers (MSPs)** supply professional services, system integration, creative services, third-party
+        data, and application service provider (ASP) and hosted solutions for marketing organizations. MSPs' competencies include
+        customer data integration (CDI), data quality and deduping, database marketing, prospecting, campaign management,
+        marketing resource management (MRM), customer analytics, e-marketing and advertising. Competencies range from technology
+        hosting to full business process outsourcing.
+
+  - uuid : udx89iino0
+    term : MarketScope
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner's **MarketScopes** rate vendors based on criteria that focuses on the important aspects of an emerging or mature
+        market. In emerging markets, vendors and products are less well known or tested in the market, and it would be difficult
+        to analyze all criteria typically used in a Magic Quadrant. In mature markets, vendors and products are typically well
+        known, and demand for relative comparison shifts to a focus on differentiating criteria. By focusing on a limited set of
+        criteria for these markets, MarketScopes will help you understand the dynamics of the market as well as the strengths of
+        its vendors, even when the market is not well suited for Magic Quadrant analysis.
+
+  - uuid : udx89ikfrq
+    term : Mashup
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mashup** is an assembly of existing software and data services into new Web-based solutions.
+
+  - uuid : udx89ilt8w
+    term : Mashups
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mashups** are lightweight composite applications that source all of their content from existing systems and data
+        sources; they have no native data store or content repository. To access the resources that they leverage, mashups employ
+        the technologies of the Web, including representational state transfer (REST) APIs, RSS and ATOM feeds and widgets.
+
+  - uuid : udx89j1ei
+    term : Mass Collaboration
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mass collaboration** is the ability for multitudes of people to quickly and effectively contribute to the development or
+        evolution of an idea, artifact, process, plan, action, etc. In the context of social software, mass collaboration includes
+        participation by people who otherwise may not have had a pre-existing relationship.
+
+  - uuid : udx89j1ukj
+    term : Massive Open Online Course (MOOC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **massive open online course (MOOC)** is an online phenomenon made possible by: (1) social networking facilitation of
+        acknowledged expert(s) in a field of study; (2) freely accessible online resources; and (3) hundreds to thousands of
+        registered students. MOOCs have free (no fee) open enrollment to anyone anywhere with network access. MOOCs do not seek or
+        require accreditation. Students self-organize their participation in a MOOC. However, even student "lurkers" are welcome.
+
+  - uuid : udx89j3jgy
+    term : Master Content Management (MCM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner sees the term **master content management (MCM)** being used in two distinct senses: 1) MCM is the workflow
+        process in which business and IT work together to ensure the uniformity, accuracy, stewardship and accountability of the
+        enterprise's official, shared information assets; in this case, content assets, such as employee, supplier and customer
+        contracts, new customer intake forms and other content types that must be managed as enterprise information. 2) MCM is a
+        consistent, official set of identifiers, attributes and taxonomies applied to unstructured information. As such it can be
+        implemented in any content management system and linked to a master data management (MDM) application.
+
+  - uuid : udx89j56ac
+    term : Master Data Management (MDM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Master data management (MDM)** is a technology-enabled discipline in which business and IT work together to ensure the
+        uniformity, accuracy, stewardship, semantic consistency and accountability of the enterprise's official shared master data
+        assets. Master data is the consistent and uniform set of identifiers and extended attributes that describes the core
+        entities of the enterprise including customers, prospects, citizens, suppliers, sites, hierarchies and chart of accounts.
+
+  - uuid : udx89j6vm5
+    term : Materials Management Information System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Materials management information system (MMIS)** is a software suite packaged as an integrated offering to meet
+        materials management, human-resources and back-office needs. At a minimum, MMISs should be designed to interface readily
+        with other mission-critical information systems in the enterprise.
+
+  - uuid : udx89j8lhl
+    term : Materials Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Materials management** is a term to describe the grouping of management functions related to the complete cycle of
+        material flow, from the purchase and internal control of production materials, to the planning and control of work in
+        process, to the warehousing, shipping and distribution of the finished product. It differs from materials control in that
+        the latter term, traditionally, is limited to the internal control of production materials.
+
+  - uuid : udx89jafgp
+    term : Media Access Control
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Media Access Control** is an IEEE protocol defining the methods used to gain access to the physical layer of a LAN
+        (i.e., Layer 1 of the OSI model).
+
+  - uuid : udx89jbvq4
+    term : Media Gateways
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **media gateway** is an infrastructure network element that converts one or more input protocols or media to one or more
+        output media or protocols, such as TDM circuit-switched networks, ATM or IP. It acts as a translation unit between
+        disparate telecom networks, such as PSTNs, NGNs, second-generation (2G), generation two-and-a-half (2.5G) and 3G RANs, and
+        PBXs. Media gateways support VoIP and/or voice over ATM (VoATM). They manage QoS to ensure that voice traffic has priority
+        and that users receive "toll quality" voice service.
+
+  - uuid : udx89jdo5i
+    term : Media Objects
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Media objects** are non-Hypertext Markup Language (HTML) files or applications that can be displayed or executed as part
+        of an HTML document. Examples include graphic, audio and video files, and Java applets.
+
+  - uuid : udx89jf6gh
+    term : Media Tablet
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **media tablet** is a device based on a touchscreen display, typically multitouch, that facilitates content entry via an
+        on-screen keyboard. The device has a screen with a diagonal dimension that is a minimum of five inches. Media tablets
+        feature connectivity via Wi-Fi or via 3G/4G cellular networks. Tablets typically offer day-long battery life, and lengthy
+        standby times with instant-on access from a suspended state. Examples of media tablets are the Apple iPad, Samsung Galaxy
+        Tab, Acer Iconia HCL ME X1, Micromax Funbook, Milagrow TabTop.
+
+  - uuid : udx89jgwmd
+    term : Medical Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Medical management** is an umbrella term that encompasses the use of IT for health, disease, care and case management
+        functions. Medical management strategies are designed to modify consumer and provider behavior to improve the quality and
+        outcome of healthcare delivery.
+
+  - uuid : udx89jiek1
+    term : Megaportal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **megaportal** is a portal that attempts to serve the entire Internet community (in contrast to a vertical Internet
+        portal, which targets a niche audience).
+
+  - uuid : udx89jjuw3
+    term : Memory Overcommit
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Memory overcommit** is a term used to describe the ability to run multiple virtual machines (VMs) when the total memory
+        defined for the VMs is higher than the physical memory that's actually available.
+
+  - uuid : udx89jl8ur
+    term : Memristor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **memristor** is a two-terminal passive memory device in which the stored logic state is represented by the resistance
+        value. The resistance is controlled by the direction of current flow and the operation is nonvolatile. Memristors require
+        less switching energy, and are faster to write than flash memory.
+
+  - uuid : udx89jmhy1
+    term : Mesh Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mesh network** has no centralized access points but uses wireless nodes to create a virtual wireless backbone. Mesh
+        network nodes typically establish network links with neighboring nodes, enabling user traffic to be sent through the
+        network by hopping between nodes on many different paths. At least some nodes must be connected to a core network for
+        backhaul. Mesh networks are self-healing, self-organizing and somewhat scalable, with additional capacity supplied by
+        adding incremental nodes.
+
+  - uuid : udx89kwca
+    term : Message Authentication Code
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Message authentication code** is a way of confirming that a message has not been tampered with.
+
+  - uuid : udx89k2e7m
+    term : Message Authentication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Message authentication** is a function in which the device determines if the received message arrived from its stated
+        source and in an unaltered form. The actual message need not be encrypted, but its authentication code must be.
+
+  - uuid : udx89k3umm
+    term : Message Broker
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **message broker** is a logical hub that copies and resends messages to one or more destinations. As a value-adding
+        third party between information sources and information consumers, it can complement a service-oriented architecture
+        (SOA). Like an SOA, a broker is a design abstraction that may be implemented using component software for some or all of
+        the connections. The interface from a message broker to the application may use an object request broker (ORB) or object
+        transaction monitor (OTM); a request to the message broker may be implemented as a series of method calls to participating
+        components.
+
+  - uuid : udx89k5lft
+    term : Message Feedback
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Message feedback** is a method of checking the accuracy of data transmission. The received data is returned to the
+        sending end for comparison with the original data, which is stored there for this purpose. Also called information
+        feedback and loop checking.
+
+  - uuid : udx89k74cs
+    term : Message Format
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Message format** are rules for the placement of portions of a message, such as the heading, address, text,
+        end-of-message indication and error-detecting bits.
+
+  - uuid : udx89k8k1v
+    term : Message Numbering
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Message numbering** is the identification of each message within a communications system through the assignment of a
+        sequential number.
+
+  - uuid : udx89ka23b
+    term : Message Passing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Message passing** refers to services performing a simple, one-way transfer operation between two programs. Like the
+        other one-way messaging models, message passing generally leaves the sending program unblocked. Also, as with all forms of
+        messaging, message passing is usually connectionless, which means that the sending application does not have to explicitly
+        establish and manage a connection with the message's intended recipient. Although message passing is not inherently a
+        two-way communication model, two-way communication can be accomplished by sending the response in a separate message.
+
+  - uuid : udx89kbtyh
+    term : Message Queuing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The**message-queuing** or store-and-forward model is basically the message-passing model with one additional feature.
+        Message queuing is asynchronous in a manner similar to a traditional postal system -- i.e., the recipient need not be
+        available when the message is sent. Message queuing stores messages at an intermediate node on the network in a queue and
+        then forwards the messages to the intended targets.
+
+  - uuid : udx89kdlj2
+    term : Message Switching
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Message switching** refers to the technique of receiving a message, storing it until the proper outgoing line is
+        available, and then retransmitting it. Unlike in-line switching, no direct connection between the incoming and outgoing
+        lines is established.
+
+  - uuid : udx89kewum
+    term : Message Warehouse
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **message warehouse** is a message broker service that temporarily stores messages to be analyzed or retransmitted at a
+        later time.
+
+  - uuid : udx89kgf0q
+    term : Messaging Application Programming Interface
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **Messaging Application Programming Interface (MAPI)** is a programming interface specification that enables an
+        application to send and receive mail over a Microsoft Mail messaging system. It was designed to separate the mail engine
+        from the mail client.
+
+  - uuid : udx89khomo
+    term : Messaging Device
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **messaging device** is a data-centric device designed primarily to process electronic messages. A basic messaging
+        device weighs less than 1 pound and is designed for one-way outbound messaging. Limited responses, such acknowledgments,
+        are also possible but are not common. A two-way messaging device weighs less than 1 pound and is designed to send and
+        receive messages.
+
+  - uuid : udx89kjf4j
+    term : Messaging Hypertext Markup Language
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Messaging Hypertext Markup Language (MHTML)** is a language that is capable of packaging externally referenced image
+        files within an HTML page, potentially increasing the bulk of the page significantly.
+
+  - uuid : udx89kkwd5
+    term : Messaging
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Messaging** refers to an alphanumeric or graphic one-way or two-way service that sends, receives and displays messages
+        on a mobile device.
+
+  - uuid : udx89kmc08
+    term : Metadata And Data Modeling Tools
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Metadata and data modeling tools** support the creation and documentation of models describing the structures, flows,
+        mappings and transformations, relationships, and quality of data. These tools enable users to discover and design data
+        models, create relationships between models, and map and reconcile physical models to logical models.
+
+  - uuid : udx89lpvq
+    term : Metadata
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Metadata** is information that describes various facets of an information asset to improve its usability throughout its
+        life cycle. It is metadata that turns information into an asset. Generally speaking, the more valuable the information
+        asset, the more critical it is to manage the metadata about it, because it is the metadata definition that provides
+        understanding that unlocks the value of data.
+
+  - uuid : udx89l2cvf
+    term : Metadirectory
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **metadirectory** is a directory that acts as a superset of all other directories. Metadirectories have evolved from
+        stand-alone products to services that enable a given directory to synchronize and exchange information with other data
+        repositories.
+
+  - uuid : udx89l3ufv
+    term : Metalanguage
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Metalanguage** is a language used to describe a language. A metalanguage defines a language's constructs, such as
+        character sets, syntax and valid sequences.
+
+  - uuid : udx89l5csp
+    term : Metrication
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Metrication** refers to building metrics or measurement tools into applications to monitor what is happening in the
+        network or local environment where the application is operating.
+
+  - uuid : udx89l6tsj
+    term : Micro-Electromechanical Systems
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Micro-electromechanical systems (MEMS)**  are extremely small mechanical systems using component sizes of the order of
+        micrometres. MEMS can be constructed using silicon fabrication technologies, so can combine silicon electronics and
+        mechanics on the same chip. MEMS can be used for a wide variety of purposes, including sensors (on-chip accelerometers,
+        for example) and displays (for example, Qualcomm's Mirasol or Texas Instruments' DLP \[Digital Light Processing).
+
+  - uuid : udx89l8fqm
+    term : Micro Fuel Cells
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Micro fuel cells** are an alternative to batteries as a power source for mobile devices. They may be small enough for
+        integration inside the electronic equipment, or a little larger for use in an external power supply. The majority of
+        portable fuel cells use hydrogen as the base fuel, but micro fuel cells usually extract it from methanol--a hydrogen-rich
+        liquid. Although methanol-based cells can potentially provide 10 times the energy storage capacity of a lithium battery,
+        they are not as good at delivering bursts of high power. This makes them more useful for battery charging than for primary
+        power roles. They can be recharged almost instantaneously by adding more methanol--by either pouring it in or clipping in
+        a new cartridge. This is a significant advantage over batteries, which can take several hours to recharge. Micro fuel
+        cells are also environmentally friendly; the operating waste is only hydrogen and oxygen, which appears (in the form of
+        pure water) as slightly increased humidity around the cell. Other forms of fuel cell, such as zinc-air and ethanol, are
+        possible fuel sources for mobile devices--but are currently less prominent.
+
+  - uuid : udx89la7ug
+    term : Micro-marketplace
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **micro-marketplace** is a narrowly focused market that aggregates multiple vendor offerings, content and value-added
+        services (such as comparison of features) to enable buyers within a particular industry, geographic region or affinity
+        group to make informed purchasing decisions.
+
+  - uuid : udx89lbkdd
+    term : Microblogging
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Microblogging** is short messages that are delivered to consumers who have chosen to follow or subscribe to a given
+        microblogging feed. The most popular microblogging service is Twitter, but other services such as Plurk, Tumblr, Identi.ca
+        and Weibo are popular in other areas of the world. These services focus on consumers but can be used by retailers, as
+        opposed to enterprise-centric microblogging sites (such as Yammer and Socialcast), which focus on collaboration in the
+        enterprise.
+
+  - uuid : udx89ldcde
+    term : Microbrowser
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **microbrowser** is a small-footprint Web browser suitable for low-powered mobile devices, which supports slimmed-down
+        versions of HTML such as XHTML/Basic.
+
+  - uuid : udx89lessw
+    term : Microcode
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Microcode** refers to the microinstructions, especially of a microprocessor, that govern the details of operation.
+        Microcoded functions can improve performance but add a layer of complexity. For example, microcode errors appear to
+        software as being hardware failures.
+
+  - uuid : udx89lg678
+    term : Microfilm
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Microfilm** is a high-resolution film used to record images reduced in size from the original.
+
+  - uuid : udx89lhn4i
+    term : Microgrids
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Microgrids** are small-scale, low-voltage power systems with distributed energy sources, storage devices and
+        controllable loads. They are operated connected to the main power network or "islanded" in a controlled, coordinated way.
+        The operation of microgrids offers advantages to customers and utilities by improving energy efficiency, reducing
+        transmission and distribution losses, improving reliability, reducing environmental impact, improving network operational
+        benefits and providing more cost-efficient electricity infrastructure replacement.
+
+  - uuid : udx89ljfe5
+    term : Microinverters
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Microinverters** are small power inverters designed to be mounted on the individual panels of a photovoltaic (PV) solar
+        electric system, in contrast to conventional, centralized inverters that are larger and designed to handle the output of
+        many PV panels. The primary function of the inverter is to convert the DC output of the PV panel to AC electricity that
+        can interface with the electric system of a building and allow interconnection to the electric utility grid.
+
+  - uuid : udx89ll9pf
+    term : Microprocessor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **microprocessor** is a central processing unit (CPU) on a single chip, also known as a microprocessing unit (MPU).
+        Desktop and portable computers typically contain one microprocessor, while more-powerful computers often make use of
+        multiple microprocessors.
+
+  - uuid : udx89lmvxl
+    term : Microsoft Certified Professional
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Microsoft Certified Professional (MCP)**  is a Microsoft certification that requires passing a single operating-system
+        test. MCPs can further specialize in Internet technologies to attain an MCP with Internet or site-building specialization,
+        or can continue taking the exams necessary to become a Microsoft Certified Systems Engineer (MCSE).
+
+  - uuid : udx89m1di1
+    term : Middleware
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Middleware** is the software "glue" that helps programs and databases (which may be on different computers) work
+        together. Its most basic function is to enable communication between different pieces of software.
+
+  - uuid : udx89m2vs3
+    term : Million Instructions Per Second (MIPS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Million instructions per second (MIPS)** is an approximate measure of a computer's raw processing power. MIPS figures
+        can be misleading because measurement techniques often differ, and different computers may require different sets of
+        instructions to perform the same activity.
+
+  - uuid : udx89m47g9
+    term : Minimum Cell Rate
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **minimum cell rate (MCR)** is an asynchronous transfer mode (ATM) parameter used to determine the minimum number of
+        cells permitted in a specific time period.
+
+  - uuid : udx89m5opb
+    term : Minutes Of Use (MOUs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+         **Minutes of use (MOUs)** is a measurement (usually monthly) of a wireless user's total circuit-switched voice connection
+        time.
+
+  - uuid : udx89m77o3
+    term : Mobile Advertising
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile advertising** is advertising or other paid placement on mobile device screens, most notably smartphones and media
+        tablets. Mobile ad formats include search-, Web-, app-, stream- and message-based placements.
+
+  - uuid : udx89m8jxb
+    term : Mobile And Wireless Infrastructure Software Platforms
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile and wireless infrastructure software platforms** refer to development tools and deployment servers that are used
+        to create brand-new customer mobile applications or to "mobilize" established conventional enterprise applications, e-mail
+        and enterprise data stores.
+
+  - uuid : udx89m9ufj
+    term : Mobile Application Stores
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Application stores** offer downloadable applications to mobile users via a storefront that is either embedded in the
+        device or found on the Web. Application categories in public application stores include games, travel, productivity,
+        entertainment, books, utilities, education, travel and search, and can be free or charged-for. Private application stores
+        can be created by enterprises for mobile workers.
+
+  - uuid : udx89mbntb
+    term : Mobile Browsers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The **mobile browser** is an on-device, client-side application that is resident on a mobile device. It provides access to
+        content and applications from the Internet and, increasingly, in the cloud. Desktop and mobile browsers share many
+        functions; however, increasingly, there are also differences, including the size of the screen, the power of the device
+        (both processor and memory footprint), the speed of the network and the resources on the device. The browser for a mobile
+        device has been considered a lower-functioning device than the browsers found on the desktop; as HTML5 and webkit-capable
+        browsers find their way onto mobile devices, this is positioned to shift.
+
+  - uuid : udx89mdjvb
+    term : Mobile Centrex
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile centrex** is a network-based service using wireless mobile phones that enables traditional PBX-style calling
+        features. Mobile centrex can be provided in several forms: IP PBX with cellular or Wi-Fi dual-mode handsets, private base
+        stations with cellular single-mode handsets, or mobile virtual private networks (VPNs).
+
+  - uuid : udx89mfbp9
+    term : Mobile Cloud Synchronization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Cloud synchronization** allows mobile devices to automatically and transparently synchronize local information and
+        applications with a Web-based, in-the-cloud service to the user in real time. Information spans contacts, calendars, email
+        and text messages to pictures, videos, music, documents and other media. Service offerings include data backup and
+        federation of social networking information into a single application.
+
+  - uuid : udx89mh3cm
+    term : Mobile Deep Packet Inspection (DPI)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile deep packet inspection (DPI)** is a technique used to monitor the data traffic in mobile applications. As a
+        business model evolves in which data services become more important than voice for revenue generation--and in which the
+        network is upgraded to Long Term Evolution (LTE) and becomes Internet Protocol (IP) end-to-end--the ability to perform
+        traffic shaping, and perhaps blocking, becomes important.Mobile DPI can be a stand-alone network element, or part of
+        existing network elements.
+
+  - uuid : udx89miutq
+    term : Mobile Device Management (MDM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile device management (MDM)** includes software that provides the following functions: software distribution, policy
+        management, inventory management, security management and service management for smartphones and media tablets. MDM
+        functionality is similar to that of PC configuration life cycle management (PCCLM) tools; however,
+        mobile-platform-specific requirements are often part of MDM suites.
+
+  - uuid : udx89mkn8e
+    term : Mobile Device Management Services (MDM Services)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile device management (MDM) services** involve sourcing, provisioning, securing and managing handheld mobile devices
+        (primarily smartphones and media tablets) to a third party. This may include PC cards, pagers, notebooks and other mobile
+        devices. MDM services may also include support for any or all of these main areas: hardware (inventory, provisioning and
+        asset), software (configuration management, software distribution and updates), security (black list, encryption,
+        antivirus, authentication, jailbreak/rooted notification) and network service management.
+
+  - uuid : udx89mmh5d
+    term : Mobile DRM
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile digital rights management (mobile DRM)** refers to technology that enables the secure distribution, promotion and
+        sale of digital content for mobile devices. The OMA sees mobile DRM as an enabler of controlled consumption of digital
+        content, enabling content providers to specify usage rights on such content. Usage rights include, among other things, the
+        ability to enable content to be previewed and the ability to prevent illegal copying and redistribution.
+
+  - uuid : udx89nxjv
+    term : Mobile Earth Station
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mobile earth station** refers to a radio transmitter or receiver situated on a ship, aircraft or other vehicle, used
+        for satellite communications.
+
+  - uuid : udx89n2e99
+    term : Mobile High-Definition Link (MHL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile High-Definition Link (MHL)** is a mobile audio/video interface standard for directly connecting mobile phones,
+        digital still cameras, digital camcorders and other portable consumer electronics devices to high-definition TVs (HDTVs)
+        and displays. It is a five-pin, low-power interface capable of 1080p quality and supporting high-bandwidth digital content
+        protection (HDCP), High-Definition Multimedia Interface (HDMI). Consumer Electronic Control (CEC), and digital audio. It
+        allows for a single cable to connect to the display and, at the same time, provide power for the mobile device. MHL can be
+        converted to HDMI-compliant signals for connection to a digital TV using an active cable or dock with a conversion chip.
+        MHL can utilize established connectors--including mini-USB--that are currently found in many mobile phones and portable
+        consumer electronics products. Using existing connectors is cost-effective, saves space for small form factors, and allows
+        consumers to get more functionality from a single connector.
+
+  - uuid : udx89n483d
+    term : Mobile IM
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile instant messaging (mobile IM)** refers to the use of an online IM application, including presence and buddy
+        lists, on a mobile device and a wireless network.
+
+  - uuid : udx89n5ojb
+    term : Mobile IP
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile IP** is a packet-forwarding mechanism for mobile and remote hosts so that remote users can connect to their
+        networks over the Internet. It can work with Dynamic Host Configuration Protocol (DHCP).
+
+  - uuid : udx89n78hy
+    term : Mobile Middleware
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile middleware** is middleware designed to address specific challenges faced by mobile applications running on
+        wireless links that may be slow, intermittent or have high latency. Mobile middleware performs functions such as protocol
+        optimization, data synchronization and data compression.
+
+  - uuid : udx89n8lbi
+    term : Mobile-Network Operator
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mobile-network operator (MNO)** is a company that owns and operates one or more mobile networks.
+
+  - uuid : udx89na41i
+    term : Mobile Network
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile networks** are cellular telecommunication system comprising MSCs, antenna cell sites and radio base stations.
+
+  - uuid : udx89nbmhm
+    term : Mobile Payment
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **mobile payment** as transactions conducted using a mobile phone and payment instruments that include:
+
+        Banking instruments such as cash, bank account or debit/credit card, and
+
+        Stored value accounts (SVAs) such as transport card, gift card, Paypal or mobile wallet
+
+        and exclude transactions that use:
+
+        Carrier billing using the telecom's billing system with no integration of the bank's payment infrastructure, or
+
+        Telebanking by using the mobile phone to call the service center via an interactive voice response (IVR) system. However,
+        IVR used in combination with other mobile channels such as Short Message Service (SMS) or Unstructured Structured Service
+        Data (USSD) is included.
+
+  - uuid : udx89nddrd
+    term : Mobile PC ODMs
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile PC ODMs** are defined as mobile PC contract manufacturers that provide mobile PC manufacturing services to mobile
+        PC OEM vendors.
+
+  - uuid : udx89netok
+    term : Mobile PC
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile PCs** meet all PC criteria but are designed to be easily moved from place to place. The system is completely
+        self-contained and can be carried as a single unit, which includes a keyboard, a display, mass storage and the main system
+        unit. Its power sources are alternating current (AC) or direct current (DC). Mobile PCs also include tablet devices that
+        are distinguished by a pen-based OS, which uses a pen as a primary input device rather than a keyboard. Mobile PCs include
+        desktop replacement, mainstream, mini-notebook, ultraportable, tablet or other mobile configurations.
+
+  - uuid : udx89ngn54
+    term : Mobile Portal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mobile portal** is an Internet gateway that enables mobile devices to connect remotely with an enterprise intranet or
+        extranet, typically via a Web browser interface. Consumer-oriented mobile portals provide access to mobile services and
+        content using channels such as SMS, a microbrowser such as WAP, i-mode and voice. Consumer mobile portals aggregate
+        content from many sources and may offer personalized services and content to mobile users -- for example, unified
+        messaging, news, search facilities, directories and m-commerce transactions.
+
+  - uuid : udx89nigch
+    term : Mobile Satellite Service (MSS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **Mobile Satellite Service (MSS)** is a network of communication satellites intended for use with mobile and portable
+        wireless telephones. There are three major types: aeronautical MSS, land MSS and maritime MSS.
+
+  - uuid : udx89njssy
+    term : Mobile Satellite Services (MSS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile satellite services (MSS)** provide two-way voice and data communications to global users who are on the go or in
+        remote locations; terminals range in size from handheld to laptop-size units. Terminals can also be mounted in a vehicle,
+        with communications maintained while the vehicle is moving. MSS operates at L-band--low enough in the frequency spectrum
+        to avoid the rain fade associated with higher bandwidth Ku- and Ka-band fixed satellite systems. (Note: Ku and Ka bands
+        are used for a limited set of similar applications, but typically have much larger terminals; more focused beams also
+        result in the need for the terminal to track the satellite.)
+
+  - uuid : udx89nlmai
+    term : Mobile Social Networks
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile social-networking** services enable individuals to connect to their social communities with a mobile device,
+        through one or more available mobile channels. Members share experiences, interests, opinions, presence information and
+        personal content through their mobile devices. Mobile adds new capabilities to social networking, such as location-related
+        services (e.g., check-in) and new visualization mechanisms (e.g., augmented reality showing where friends are).
+
+  - uuid : udx89o447
+    term : Mobile Transformers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile transformers** are mobile device products with an innovative and/or adaptive form factor that users can modify
+        dynamically, based on specific context and needs. Some products are still at the conceptual model stage (for example, the
+        Nokia Morph); others are already commercially available. Modu's Modu Mobile uses a modular, Lego-like approach, based on
+        building blocks, to assemble and create the most appropriate form factor for a user at a given time. Nokia's Morph instead
+        adopts innovative materials (based on nanotechnologies) that enable flexible, foldable, stretchable designs -- allowing
+        users to transform their mobile devices into radically different shapes.
+
+  - uuid : udx89o1ubj
+    term : Mobile TV
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile TV** is any linear, continuous content that is streamed or broadcast over a network to mobile phones. This is
+        often referred to as "live" or real-time TV.
+
+  - uuid : udx89o3c4j
+    term : Mobile Virtual Network Enabler (MVNE)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mobile virtual network enabler (MVNE)** is a company that provides network infrastructure and related services, such
+        as provisioning, administration and OSS/BSS, to enable mobile virtual network operators (MVNOs) to offer services to their
+        own customers. The MVNE does not have a relationship with customers.
+
+  - uuid : udx89o537b
+    term : Mobile Virtual Network Operator (MVNO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **Mobile Virtual Network Operator (MVNO)** is a company that does not own a mobile spectrum license but sells mobile
+        services under its brand name using the network of a licensed mobile operator. The term is applied to a variety of
+        arrangements with a mobile network operator. At one end are companies offering mobile services under a particular brand,
+        with their own marketing and tariff structure, usually through a sophisticated CRM system. At the other end are companies
+        with their own core network infrastructures, issuing their own SIM cards and controlling elements of network
+        infrastructure such as the HLR and MSC, in addition to their own products.
+
+  - uuid : udx89o6vcl
+    term : Mobile Voice Over Internet Protocol (mVoIP)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile voice over Internet Protocol (mVoIP)** offers packet-switched voice communications over a radio access network
+        and can be offered by a communications service provider (CSP) or by a third-party provider (such as Skype).
+
+  - uuid : udx89o8908
+    term : Mobile Web Applications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile Web applications** refer to applications for mobile devices that require only a Web browser to be installed on
+        the device. They typically use HTML and Ajax (and, increasingly, HTML5 components), although they may make use of
+        augmented rich Internet application (RIA) technologies, such as Flash, JavaFX and Silverlight, but are not written
+        specifically for the device. Rich, mobile Web applications have roughly equivalent usability to PC-rich Web applications
+        (or RIAs), when designed specifically for smaller form factors. Simple mobile Web applications limit the use of RIA
+        technologies and are designed to present information in a readable, action-oriented format. Mobile Web applications differ
+        from mobile native applications, in that they use Web technologies and are not limited to the underlying platform for
+        deployment.
+
+  - uuid : udx89o9ylr
+    term : Mobile Widgets
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobile widgets** are small, usually simple, applications built using Web technologies such as JavaScript, XML, HTML and
+        style sheets. Widgets are stored on a handset and are executed locally by a widget engine, which may be provided by the
+        mobile browser or as a separate tool. Most widget technologies are available on smartphones; some are available on
+        less-capable, enhanced phones. Widgets are a form of mobile application and, as such, can be downloaded from application
+        stores and other mobile content providers.
+
+  - uuid : udx89obqdm
+    term : Mobile Wireless Local Loop (WLL)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **Mobile Wireless Local Loop (WLL)** is an access solution deployed using standardized cellular or low-mobility
+        infrastructure and mobile devices. This primarily includes technologies such as cdmaOne (IS-95A and B), cdma2000 1x RTT,
+        Personal HandyPhone System (PHS) and personal access communication services (PACS). For commercial or regulatory reasons,
+        mobile WLLs are not operated as full mobility cellular services, even though the networks may be technically capable of
+        supporting such services. Personal Access System (PAS) is a trademark of UTStarcom for its portfolio of mobile WLL
+        products based on the PHS standard.
+
+  - uuid : udx89od9qc
+    term : Mobile/Wireless Portal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **mobile/wireless portal** is website with a wide range of content, services and links designed for mobile devices. It
+        acts as a value-added middleman by selecting the content sources and assembling them in a simple-to-navigate (and
+        customizable) interface for presentation to the end-user's mobile device.
+
+  - uuid : udx89of2ee
+    term : Mobility Managed Services (MMS)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mobility managed services (MMS)** encompass the IT and process management services required by a company to acquire,
+        provision and support smartphones, tablets and ruggedized field force devices with integrated cellular and/or wireless
+        connectivity. Although the current market for such services is largely focused on corporate liable devices, MMS
+        engagements also provide a level of control to companies supporting individual liable devices, or bring your own device,
+        accessing corporate resources and information.
+
+  - uuid : udx89ogu7e
+    term : Model-Driven Architecture (MDA)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Model-Driven Architecture (MDA)** is a registered trademark of the OMG. It describes an approach to separating
+        business-level functionality from the technical nuances of its implementation. The premise behind MDA and other
+        model-driven approaches is to enable business-level functionality to be modeled using standards, like Unified Modeling
+        Language (UML) and Business Process Modeling Notation, to enable the models to exist independently of platform constraints
+        and requirements, then to instantiate the models into specific runtime implementations.
+
+  - uuid : udx89oilbs
+    term : Model-Driven Packaged Applications
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Model-driven packaged applications** refer to enterprise applications that have explicit metadata-driven models of the
+        supported processes, data and relationships, and that generate runtime components through metadata models, either
+        dynamically interpreted or compiled, rather than hardcoded. The essential difference is that models can be modified by
+        business analysts or key users without having to involve programmers, bridging the gap between business requirements and
+        technical implementation that often causes "lost in translation" phenomena.
+
+  - uuid : udx89okega
+    term : Modulation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Modulation** refers to the application of information onto a carrier signal by varying one or more of the signal's basic
+        characteristics (frequency, amplitude or phase); the conversion of a signal from its original (e.g., digital) format to
+        analog format. Specific types include:
+
+        Amplitude modulation (AM)
+
+        Adaptive differential pulse code modulation (ADPCM)
+
+        Frequency modulation (FM)
+
+        Pulse amplitude modulation (PAM)
+
+        Pulse code modulation (PCM)
+
+        Pulse width modulation (PWN); also called pulse duration modulation, or PDM
+
+  - uuid : udx89om5fi
+    term : Molecular Transistors
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The term **molecular transistors** refers to switching circuits constructed from an individual molecule. Today's
+        semiconductor devices use "top down" bulk techniques involving lithography; however, the potential exists to grow
+        individual devices using chemical processes in a "bottom up" fashion. This will achieve structures far smaller than is
+        possible using current lithographic techniques. The presence or absence of a single electron can represent on or off
+        states in these small devices.
+
+  - uuid : udx89pkko
+    term : Molten Salt Energy Storage
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Molten salt energy storage** is a means of storing energy in the form of heat that can be retrieved and used to create
+        steam to drive a turbine for purposes of generating electricity.
+
+  - uuid : udx89p21x7
+    term : Money Clouds
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Money cloud** platform development projects are collaborative initiatives that attempt to create a technology platform
+        and protocol standards to enable multiple, interoperable currencies to exist on the Internet. The goal is to create an
+        open-source technology environment that decentralizes the monetary economy, and enables person-to-person (P2P)
+        transactions without a central controlling system or proprietary technology.
+
+  - uuid : udx89p3s7s
+    term : Mood Recognition
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Mood recognition** technologies sense the emotional state of a user (via biometric sensors, cameras and interactions)
+        and respond by performing specific, predefined actions, such as changing the lighting in a vehicle to more-subtle colors
+        to address a user's high-stress level or playing dynamic music to address driver fatigue. The technology can also be used
+        for other applications and segments, including driver education to reduce potential accidents and improve the driving
+        experience.
+
+  - uuid : udx89p5j24
+    term : Motion JPEG
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Motion JPEG (M-JPEG)** is a version of Joint Photographic Experts Group (JPEG) for compression of motion video, as
+        opposed to still images. Frame-to-frame redundancy is ignored, resulting in less compression than Moving Picture Experts
+        Group (MPEG). The advantages are simplicity and fast access to individual images.
+
+  - uuid : udx89p7a44
+    term : Moves, Adds And Changes
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Moves, adds and changes (MAC)** is the general term for the routine work performed on computer equipment in an
+        enterprise, including installations, relocations and upgrades.
+
+  - uuid : udx89p8vvv
+    term : Moving Picture Experts Group (MPEG)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Moving Picture Experts Group (MPEG)** is a digital video standard for compression of full-motion images. The compression
+        ratios achieved with MPEG encoding make it an ideal standard for the delivery of digital video data. MPEG-1 deals with
+        mono and stereo sound coding, at sampling frequencies commonly used for high-quality audio. MPEG-2 contains an extension
+        to lower sampling frequencies, providing better sound quality at the low bit rates, and an extension for multichannel
+        sound. MPEG-3 and MPEG-4, with further improvements, are under development. Both MPEG-1 and MPEG-2 have a three-layer
+        structure. Each layer represents a family of coding algorithms. Layer 3 deals with sound encoding, and can't be used by
+        itself to encode audio files. In this form, it is known as MP3.
+
+  - uuid : udx89paoad
+    term : MPEG-4 Advanced Video Coding (AVC)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **MPEG-4 Advanced Video Coding (AVC)** , or MPEG-4 Part 10, is the standard defined by the Moving Picture Experts Group
+        (MPEG) for compressing audio and visual data for:
+
+        Internet over-the-top (OTT) streaming video
+
+        Internet Protocol television (IPTV)
+
+        Digital broadcast TV
+
+        Cable and satellite standard definition/HD linear broadcast
+
+        CD/DVD distribution
+
+        Videoconferencing
+
+  - uuid : udx89pc9y4
+    term : MSO (management Services Organization)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A service organization of an integrated delivery system or hospital that provides management services for multiple
+        affiliated physician practices and clinics.
+
+  - uuid : udx89pdqqk
+    term : Multicarrier Code Division Multiple Access
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multicarrier code division multiple access (MC-CDMA)** is an underlying standard for the cdma2000 family developed by
+        the 3GPP2 standards organization of the ITU.
+
+  - uuid : udx89pf92f
+    term : Multichannel Campaign Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multichannel campaign management** enables companies to define, orchestrate and communicate offers to customers across
+        websites, mobile, social, direct mail, call centers and email. Digital marketing, which continues to be integrated with
+        campaign management, includes addressable branding/advertising, contextual marketing and transactional marketing. Digital
+        marketing extends the marketing process through channels such as the Web, video, mobile and social applications,
+        point-of-sale terminals, digital signage and kiosks.
+
+  - uuid : udx89ph2eo
+    term : Multichannel Feedback Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multichannel feedback management** solutions provide surveying and feedback analysis tools suitable for use across a
+        retailer's channels and brands, including mobile and social. Their use ranges from one-off, tactical surveys (for example,
+        customers taking a brief survey about their shopping experience delivered on their point-of-sale receipt, or texting
+        feedback via a keyword or code that appears on store signage) to ongoing strategic feedback to better understand
+        customers, employees, products and processes.
+
+  - uuid : udx89piuf2
+    term : Multichannel Loyalty
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multichannel loyalty** systems are next-generation systems that enable retailers to use loyalty functionality from one
+        centralized management system to transact with, interact with, and reward customers across any and all channels. Providing
+        loyalty capability to point of sale (POS), e-commerce and call centers is the minimum. Mobile and social capabilities
+        continue to emerge in importance.
+
+  - uuid : udx89pklfg
+    term : Multichannel Multipoint Distribution Service
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multichannel multipoint distribution service (MMDS)** is a fixed wireless technology, sometimes referred to as wireless
+        cable TV or wireless generic DSL (xDSL). MMDS operates between 2.5GHz and 2.7GHz and is used for broadcasting, personal
+        communications and interactive media services in metropolitan areas.
+
+  - uuid : udx89pmcmw
+    term : Multicore Processor
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multicore processors** are single processors that incorporate more than one processor core. Each core includes the
+        functional elements required to enable it to execute instructions independently of the other cores.
+
+  - uuid : udx89qibe
+    term : Multidimensional Database Management System
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **multidimensional database management system (MDDBMS)** is a database management system that stores and manages data in
+        dimensional arrays, indexed by dimensions and measured over time.
+
+  - uuid : udx89q20ah
+    term : Multifunction Product
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **multifunction product (MFP)**  is a network-attached document production device that combines two or more of the copy,
+        print, scan and fax functions.
+
+  - uuid : udx89q3gll
+    term : Multimedia Markup Language
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multimedia Markup Language (MML)** is a microbrowser developed for the J-Phone (now Vodafone KK) mobile data service,
+        similar to DoCoMo's proprietary cHTML browser.
+
+  - uuid : udx89q4y5s
+    term : Multimedia Messaging Service
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multimedia Messaging Service (MMS)** is a 3GPP mobile messaging standard that supports picture messaging, sound,
+        graphics and voice. Unlike EMS, MMS does not draw on established messaging technology (such as SMS). Instead, it requires
+        network operators to deploy new infrastructure, including a multimedia messaging service center. It uses a wireless data
+        bearer to deliver messages and requires MMS functionality in mobile devices. The MMS standard was defined jointly by the
+        3GPP (TS 23.140) and the Open Mobile Alliance (OMA), incorporating the WAP Forum. MMS supports many features that could
+        not be delivered using established mobile messaging standards.
+
+  - uuid : udx89q6qwr
+    term : Multimedia
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multimedia (MM)**  refers to applications and technologies that manipulate text, data, images, sound and
+        full-motion-video objects. Given the usage of multiple formats, multimedia is capable of delivering a stronger and more
+        engaging message than standard text. Multimedia files are typically larger than text-based information and are therefore
+        usually stored on CD-ROMs. Games and educational software commonly use multimedia.
+
+  - uuid : udx89q8ibw
+    term : Multimodal TMS
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Domestic shipper-centric **multimodal transportation management systems (TMSs)** are used in a specific region or
+        geography to manage domestic freight operations. These are used to plan movements, perform rating and shipping across all
+        modes (truckload, less than truckload \[LTL\], air, parcel, rail and intermodal), consolidate orders, select the
+        appropriate route and carrier, communicate (tender) with carriers, and manage freight bills and payments.
+
+  - uuid : udx89qa9ox
+    term : Multimode Fiber
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **multimode fiber** is a fiber supporting propagation of multiple modes. The cable has a core diameter of 50-100
+        microns. It causes more distortion and gives less bandwidth than single-mode (monomode) fiber.
+
+  - uuid : udx89qbjr3
+    term : Multiple Input/Multiple Output
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multiple input/multiple output (MIMO)** is multi-antenna wireless technology suitable for base stations and mobile
+        devices that can increase throughput, system capacity and spectral efficiency, reduce fading and improve resistance to
+        interference. It is being used in pre-standard 802.11n WLAN equipment and is likely to be adopted in WiMAX and future
+        cellular standards.
+
+  - uuid : udx89qdca3
+    term : Multiple Instruction, Multiple Data
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multiple instruction, multiple data (MIMD)** is a design for parallel computers characterized by the simultaneous
+        execution of many different instruction streams (programs), each of which handles different data.
+
+  - uuid : udx89qevh8
+    term : Multiplexing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multiplexing** is a division of a transmission facility into two or more channels either by splitting the frequency band
+        transmitted by the channel into narrower bands, each of which is used to constitute a distinct channel (frequency division
+        multiplexing), or by allotting this common channel to several different information channels, one at a time (time division
+        multiplexing).
+
+  - uuid : udx89qgoit
+    term : Multipoint
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multipoint** pertains or refers to a communications line to which three or more stations are connected. It implies that
+        the line physically extends from one station to another until all are connected.
+
+  - uuid : udx89qi6mx
+    term : Multipurpose Internet Messaging Extensions
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multipurpose Internet Messaging Extensions (MIME)** enable the transport of attachments and non-ASCII text via the
+        Simple Message Transport Protocol (SMTP). They cover most (but not all) of the features of X.400, and interface with X.400
+        via the MIME-X.400 Enhanced Relay (MIXER) specification.
+
+  - uuid : udx89qjxtc
+    term : Multitenancy
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multitenancy** is a reference to the mode of operation of software where multiple independent instances of one or
+        multiple applications operate in a shared environment. The instances (tenants) are logically isolated, but physically
+        integrated. The degree of logical isolation must be complete, but the degree of physical integration will vary. The more
+        physical integration, the harder it is to preserve the logical isolation. The tenants (application instances) can be
+        representations of organizations that obtained access to the multitenant application (this is the scenario of an ISV
+        offering services of an application to multiple customer organizations). The tenants may also be multiple applications
+        competing for shared underlying resources (this is the scenario of a private or public cloud where multiple applications
+        are offered in a common cloud environment).
+
+  - uuid : udx89qlpy2
+    term : Multithreading
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multithreading** is concurrent processing of more than one message (or similar service request) by an application
+        program.
+
+  - uuid : udx89qn7vy
+    term : Multitouch
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Multitouch** refers to a touchscreen interaction technique in which multiple simultaneous touchpoints and movements can
+        be detected and used for screen navigation or to control objects (such as sorting a series of pictures) on the screen.
+        Various combinations of two or more fingers may be used together to create control gestures. A user may, for example, zoom
+        into a picture by placing a thumb and an index finger on a touchscreen and then moving them apart. To zoom out, a user
+        would move the same two fingers back together in a pinching motion.
+
+# __END__

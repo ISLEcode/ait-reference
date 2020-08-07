@@ -1,0 +1,666 @@
+title    : ISLE AIT computer science glossary -- T words
+vim      : digraph fdm=indent sw=2
+author   : JM Marcastel <don@isle.plus>
+revision : 2020-08-05 (Wed) 01:14:23
+contents :
+
+  - uuid : udx8ave63r
+    term : Table Driven
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        1.A logical computer process, widespread in the operation of communications devices and networks, where a user-entered
+        variable is matched against an array of predefined values.
+
+        2.A frequently used logical process in network routing, access security and modem operation.
+
+  - uuid : udx8avfiks
+    term : Tacit Knowledge
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The personal knowledge resident within the mind, behavior and perceptions of individuals. Tacit knowledge includes skills,
+        experiences, insight, intuition and judgment. Tacit knowledge is typically shared through discussion, stories, analogies
+        and person-to-person interaction and is, therefore, difficult to capture or represent in explicit form. Because
+        individuals continually add personal knowledge, which changes behavior and perceptions, tacit knowledge is, by definition,
+        uncaptured.
+
+  - uuid : udx8avh94e
+    term : TACS (total Access Communications System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Analog cellular standard first used in the U.K. for services in the 900MHz frequency band. It allows up to 1,320 channels
+        using 25kHz channel spacing.
+
+  - uuid : udx8avir5x
+    term : Tag Management
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Tag management** systems simplify the deployment and maintenance of JavaScript tags, used in online content to interface
+        with applications such as Web analytics, personalization and advertising. A single tag replaces all other tags and when
+        executed, the tag manager publishes other tags, based on business rules and a common data model. This decouples tag
+        control and maintenance from the life cycle of other content, improves the speed of changes, the quality of tags and
+        provides an audit trail.
+
+  - uuid : udx8avkku1
+    term : Takt Time
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        German for "beat" -- the pace of production based on customer demand or pull.
+
+  - uuid : udx8avm31y
+    term : TCP/IP (Transmission Control Protocol/Internet Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A set of protocols covering (approximately) the network and transport layers of the seven-layer Open Systems
+        Interconnection (OSI) network model. TCP/IP was developed during a 15-year period under the auspices of the U.S.
+        Department of Defense. It has achieved de facto standard status, particularly as higher-level layers over Ethernet.
+
+  - uuid : udx8awj4a
+    term : TCP (Transmission Control Protocol)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A communications protocol based on the U.S. Department of Defense's standards for reliable internetwork delivery of data.
+
+  - uuid : udx8aw2168
+    term : TDMA (time Division Multiple Access)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Digital modulation technique that allocates a discrete amount of frequency bandwidth to each user to permit many
+        simultaneous conversations. Each caller is assigned a specific time slot for transmission. TDMA provides improved spectral
+        efficiencies over analog systems. A derivative of this standard used in North America is called NA-TDMA. Other TDMA-based
+        cellular systems include GSM, D-AMPS, PDC, DECT and enhanced TDMA.
+
+  - uuid : udx8aw3qxl
+    term : TDR (time Domain Reflectometry)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A technique used to track faults in networks, such as cable breaks or loose connections. A pulse of a known shape is
+        transmitted over the network and an echo is created when the pulse hits an obstacle or cable end. The time elapsed between
+        the sending of the pulse and receiving the echo can be used to locate the origin of the echo and therefore the break.
+        Sophisticated testing equipment is available to perform this test and to analyze the results.
+
+  - uuid : udx8aw5jbm
+    term : Telco
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A contraction of the term "telephone company." It generally refers to the local-exchange carrier (LEC).
+
+  - uuid : udx8aw73dy
+    term : Telecom Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Telecom analytics** encompass sophisticated business intelligence (BI) technologies that are packaged to satisfy the
+        complex requirements of telecom organizations. These include increasing sales, reducing churn and fraud, improving risk
+        management and decreasing operational costs. Analytics solutions usually extend beyond the capabilities of regular BI
+        solutions for reporting and dashboarding to include capabilities ranging from ad hoc querying and multidimensional
+        analyses to predictive and descriptive modeling, data mining, text analytics, forecasting and optimization. The adoption
+        of analytics in telecommunications is intended to improve visibility into core operations, internal processes and market
+        conditions, discern trends and establish forecasts. Future analytics will also include data from systems beyond
+        traditional billing and mediation sources. These will include deep packet inspection, home subscriber server, video
+        optimization equipment and on-device clients, among others.
+
+  - uuid : udx8aw8uuv
+    term : Telecom Equipment Support Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        This segment includes enterprise equipment services and infrastructure equipment services.
+
+        -   Enterprise equipment services -- Enterprise equipment consists of telecom equipment and systems that are based in
+            business locations, and that connect either with the public switched telephone network (PSTN) or to private data voice
+            networks.
+
+        -   Carrier infrastructure equipment services -- Infrastructure equipment includes all forms of equipment (and some
+            systems and integrally related services) that combine to form the communications networks used by public service
+            operators worldwide. A good example is the PSTN. Others include IP and other data networks as well as mobile networks.
+            Infrastructure equipment includes six major building blocks: switching, transport, access, signaling, support and
+            mobile infrastructure.
+
+  - uuid : udx8awaln7
+    term : Telecommunications Carrier
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Catch-all/generic phrase covering all entities that provide some form of telecommunication services (fixed and/or mobile;
+        voice and/or data) as their primary business to all or a subset of consumers, enterprises, governments and other telecom
+        service providers.
+
+  - uuid : udx8awc3b7
+    term : Telecommunications Equipment
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Telecom equipment now includes mobile devices, PBX equipment (contact center, telephony and IP telephony), and network
+        equipment (LAN and WAN).
+
+        Enterprise networking and communications -- Enterprise networking and communications includes telecom equipment and
+        systems that are based in consumer and business locations and that connect either with the PSTN or to private data or
+        voice networks.
+
+  - uuid : udx8awdsa0
+    term : Telecommunications Services
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Telecom services now include fixed-network services (data retail, Internet retail, voice retail and wholesale) and mobile
+        services.
+
+        -   Fixed-data services -- Includes all dedicated/private line, packet and circuit-switched access services (for example,
+            frame relay, asynchronous transfer mode, IP, Integrated Services Digital Network, DSL, multichannel multipoint
+            distribution service \[MMDS\] and satellite) retail revenue. No differentiation is made between the type of traffic or
+            application carried by these services. All types of transmissions -- nonvoice data, image, video, fax, interactive
+            services and even voice -- can be carried by these services regardless of whether the source format is analog or
+            digital. All revenue reflects service provider annualized retail revenue -- paid for by the business and residential
+            end user of the service; no wholesale or carrier-to-carrier revenue is included.
+
+        -   Fixed-voice services -- This reflects retail voice service revenue for all services that are sold as such to end users
+            and includes the provision of local and long-distance services related to voice (calling charges, line
+            rental/subscription and connection fees are included in this category), enhanced voice services, data and fax
+            transmission over the circuit-switched PSTN, and retail voice over IP revenue -- paid for by the business and
+            residential end user of the service; no wholesale or carrier-to-carrier revenue is included.
+
+        -   Mobile telecom services -- Income from mobile telephone calls and mobile data usage (Short Message Service \[SMS\] and
+            mobile data access) from all mobile operators in that regional market. Consumer charges are removed. Income from
+            mobile telephone calling charges, mobile data access, SMS charges, line rental/subscription and connection fees are
+            included in this category.
+
+        Wholesale/carrier services are not included as a component of business IT spending. Wholesale/carrier services reflect
+        carrier revenue from carrier-to-carrier service transactions.
+
+  - uuid : udx8awfdr0
+    term : Teledensity
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Number of fixed (landline) telephone connections per 100 people in a specified geographic area. Teledensity is often used
+        to compare the level of access to voice and data communications services between metropolitan and rural areas, or between
+        one country and another. The governments of many emerging economies are focused on increasing teledensity as an economic
+        enabler. Because of fixed-mobile substitution, teledensity is decreasing in some countries. See also FMS.
+
+  - uuid : udx8awh62k
+    term : Telematics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Telematics** refers to the use of wireless devices and "black box" technologies to transmit data in real time back to an
+        organization. Typically, it's used in the context of automobiles, whereby installed or after-factory boxes collect and
+        transmit data on vehicle use, maintenance requirements or automotive servicing. Telematics can also provide real-time
+        information on air bag deployments or car crashes and locate stolen vehicles by using GPS technology. In addition,
+        telematics can serve as the platform for usage-based insurance, pay-per-use insurance, pay as you drive (PAYD) insurance,
+        pay how you drive (PHYD) programs for fleet insurance, or teen driving programs for retail business. Telematics has
+        expanded beyond personal line deployments, and can also be used by commercial auto insurers for fleet products, driver
+        data and vehicle monitoring. New models are emerging, however, called "mobile telematics," in which smartphones connect to
+        the car's computer system to pull data and send this to the insurer using the phone's wireless network.
+
+  - uuid : udx8awix0e
+    term : Telephony-centric UC Approach
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        These solutions are extensions of IP PBX and unified messaging (UM) products. In many cases, UM is tightly integrated with
+        PBX; in others, the two are offered by separate vendors. The functionality offered is telephony-centric and typically
+        includes: one-number service, supporting phone twinning, softphones (which may be proprietary), remote phones (phone login
+        over the Internet) and fixed-mobile convergence (FMC). Examples of PBX- and IP PBX-centric solutions include all the
+        leading PBX vendors.
+
+  - uuid : udx8awkpjr
+    term : Tera-architectures
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Tera-architectures** are extremely large-scale computing systems that self-assemble from components and implement
+        resilience through a software architecture designed to detect, tolerate and automatically respond to component failure.
+        Due to the scale (tens or hundreds of thousands of servers running the application), components are constantly breaking,
+        and failures happen often, but the resilient design allows the service to be successfully delivered to users, despite the
+        hidden internal failures. Software has to change or be written specifically to operate in such an environment.
+
+  - uuid : udx8awmixs
+    term : Terabit-per-Second Transport
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        We define **terabit-per-second transport** as systems with one or more wavelengths each operating at one terabit per
+        second (1 Tbps) or above.
+
+  - uuid : udx8axojt
+    term : TERM (technology-enabled Relationship Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The concept of forming one enterprisewide view of the customer across all customer contact channels (i.e., sales,
+        marketing, and customer service and support). It is a complex area, requiring complex solutions to problems of
+        integration, data flow, data access and marketing strategy. A critical component is the database that serves as the
+        customer information repository.
+
+  - uuid : udx8ax2gvy
+    term : Terminal Emulation
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Imitation of a specific terminal (VT100, for example) by a device, such as a PC, through software. PCs often use terminal
+        emulation methods to connect to specific hosts, such as Digital Virtual Address Extensions (VAXs) or IBM mainframes, with
+        which they would otherwise be incapable of communicating.
+
+  - uuid : udx8ax3syo
+    term : Terminal
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device, combining keyboard and display screen, that communicates with a computer. Terminals are divided into different
+        classes depending on whether they are able to process data on their own.
+
+        Dumb terminals -- display monitor or simple input/output (I/O) devices that send and accept data from a network server or
+        mainframe. They have no built-in processing capabilities. Workers enter data and commands, which are sent to a computer
+        located elsewhere.
+
+        Smart terminals -- monitors that process limited amounts of information.
+
+        Intelligent terminals -- devices that contain main memory and a central processing unit (CPU) to perform special display
+        functions. Examples include an information kiosk and AT&T Display Phones.
+
+        3270 terminals -- IBM display stations used to communicate with mainframes made by IBM and other manufacturers. They are
+        in widespread use, and are widely copied.
+
+  - uuid : udx8ax5kik
+    term : Test Data Generator
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Communications instructions for forming files containing sets of information developed specifically to ensure the adequacy
+        of a computer run or system.
+
+  - uuid : udx8ax72gb
+    term : Tethered Remote Access
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A terrestrial or nonmobile connection of individual users or small workgroups to a data source or network interface beyond
+        the boundary defined by a building or campus. The connection is generally via a wide-area network (WAN), which, in most
+        cases, is outside the sphere of ownership and management of the enterprise making the remote connection.
+
+  - uuid : udx8ax8fa9
+    term : Text Analytics
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Text analytics** is the process of deriving information from text sources. It is used for several purposes, such as:
+        summarization (trying to find the key content across a larger body of information or a single document), sentiment
+        analysis (what is the nature of commentary on an issue), explicative (what is driving that commentary), investigative
+        (what are the particular cases of a specific issue) and classification (what subject or what key content pieces does the
+        text talk about).
+
+  - uuid : udx8axa63v
+    term : Text Mining
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of extracting information from collections of textual data and utilizing it for business objectives.
+
+  - uuid : udx8axbnjl
+    term : Text Retrieval
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Software used for finding units of textual information such as documents by matching a user's search terms to those in a
+        full-text index derived from the collection of textual units.
+
+  - uuid : udx8axd5pa
+    term : Thermal Printing
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Thermal printing is a process that uses the heat from a thermal print head to darken chemically treated paper. Thermal
+        paper is coated paper that reacts to heat. When the paper passes through the printer assembly, it comes into contact with
+        a thermal print head array and the heater elements turn on to activate the thermal coating, creating the image. The only
+        supply item used is thermal paper.
+
+  - uuid : udx8axegpp
+    term : Thermal Transfer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        An output device that creates the desired image one dot at a time, using point-specific heat to transfer ink from a ribbon
+        to a receiving substrate.
+
+  - uuid : udx8axg73h
+    term : Thin Client
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Thin client** is used to describe a type of client/server computing in which applications are run, and data is stored,
+        on the server rather than on the client. Because the applications are executed on the server, they do not require
+        client-resident installation, although the graphical user interface and some application logic may be rendered to the
+        client.
+
+        A common misperception is that a thin-client application requires the use of a thin-client device (i.e., a stripped-down
+        desktop machine that costs less to buy and maintain than a regular PC). However, while thin-client applications enable
+        such devices to be used, they do not require it. In fact, more than 85% of devices used to display thin-client Windows
+        applications are regular PCs, typically configured with both "fat-client" applications and access to thin-client ones.
+
+  - uuid : udx8axhyp4
+    term : Thin Provisioning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Thin provisioning** allocates physical capacity from a virtualized pool of storage to logical volumes on a just-in-time
+        basis (also known as allocate on write), rather than preallocating large amounts of capacity in anticipation of an
+        application's needs. It eliminates instances of stranded capacity and improves storage utilization rates, often into the
+        75%-to-80% range.
+
+  - uuid : udx8axjr0t
+    term : Three-schema Architecture
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A framework for managing access to data that involves three layers or schemas: the external or programming view, the
+        conceptual or data administration view, and the internal or database administration view. Such ideas were developed by an
+        American National Standards Institute/Scalable Processor Architecture subcommittee in 1971 but received little practical
+        implementation by database management system (DBMS) vendors. The principle is that the conceptual schema consists of
+        business rules derived from a semantic data model, which provides independence between programs and data structures. The
+        emphasis has since shifted to computer-aided software engineering (CASE) tools and "repository" standards.
+
+  - uuid : udx8axlhx8
+    term : Through-Silicon Vias (TSVs)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Through-silicon vias (TSVs)** involve the stacking of individual wafers (or individual dies) to form customized,
+        multilayer, multifunctional devices. They are bonded together in the vertical direction using metalized holes or pillars
+        as the primary interconnect method. Various types of wafers -- such as radio frequency (RF), analog, digital and memory --
+        can be bonded together using chemical and physical processes.
+
+  - uuid : udx8axnaj7
+    term : Throughput
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A computer term for the volume of work or information flowing through a system. Particularly meaningful in information
+        storage and retrieval systems, in which throughput is measured in units such as accesses per hour.
+
+  - uuid : udx8ay1gt0
+    term : Time Division Multiplexing (TDM)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Time division multiplexing (TDM)** is a data, voice and video communications technique that interleaves several
+        low-speed signals into one high-speed transmission channel.
+
+  - uuid : udx8ay2xm6
+    term : Time Out
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The set time period before a terminal system performs some action. Typical uses include a poll release (when a terminal is
+        disconnected if the time-out period elapses before keying resumes) or an access time out (when a terminal on a local-area
+        network is prevented from transmitting for a specified time period).
+
+  - uuid : udx8ay4gd6
+    term : TLM (technical License Management)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The management and control of software via a platform-independent automated facility that:
+
+        1\. Ensures that access and use are in alignment with associated licensing agreements.
+
+        2\. Provides the basis for determining enterprise use requirements.
+
+        3\. Integrates with systems and network management tools.
+
+  - uuid : udx8ay5rii
+    term : TLP (transmission-level Point)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Any point in a transmission system at which the power level of the signal is measured.
+
+  - uuid : udx8ay74wn
+    term : TLS (transport Layer Security)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Internet-based transaction security provided by the Secure Sockets Layer (SSL) protocol.
+
+  - uuid : udx8ay8lvk
+    term : TMG (trunk Media Gateways)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A trunk media gateway (TMG) serves as the bridge between a circuit-based trunk switch and a packet-based IP or ATM
+        backbone network. In certain implementations, it completely bypasses the tandem switch (Class 4). It takes care of the
+        PSTN-to-packet-network transition at the trunk level and is connected to the local or trunk exchange. A TMG has a Class 4
+        interface and supports VoIP and/or VoATM.
+
+  - uuid : udx8ayaeol
+    term : TMS (transportation Management System)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A TMS (transportation management system) is used to plan freight movements, do freight rating and shopping across all
+        modes, select the appropriate route and carrier, and manage freight bills and payments.
+
+  - uuid : udx8aybvpn
+    term : Tokenization
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Tokenization** refers to a process by which a piece of sensitive data, such as a credit card number, is replaced by a
+        surrogate value known as a token. The sensitive data still generally needs to be stored securely at one centralized
+        location for subsequent reference and requires strong protections around it. The security of a tokenization approach
+        depends on the security of the sensitive values and the algorithm and process used to create the surrogate value and map
+        it back to the original value.
+
+  - uuid : udx8aydom2
+    term : Total Connections
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Number of individual (mobile) network connections at the end of a given period. In this regard, multiple SIM cards bearing
+        one number would count as one connection, while two numbers associated with one SIM card would count as two connections.
+        Prepaid SIM cards would count as one connection, provided that they are in operation at the end of the given year. Total
+        connections include connections that are inactive but still in operation.
+
+  - uuid : udx8ayffdg
+    term : Total Cost Of Ownership (TCO)
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **total cost of ownership (TCO)** as a comprehensive assessment of information technology (IT) or other
+        costs across enterprise boundaries over time. For IT, TCO includes hardware and software acquisition, management and
+        support, communications, end-user expenses and the opportunity cost of downtime, training and other productivity losses.
+
+  - uuid : udx8ayh6u0
+    term : Total IPTV Subscribers
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The previously described business models define the total IPTV subscriber market, with each representing an STB installed
+        in a home and capable of receiving some form of IPTV. The STB may be free, rented or bought by the customer. Additional
+        services such as premium channels, VOD and person-to-person video-calling can only be sold only after a subscriber has an
+        STB.
+
+        In certain specific cases consumers receive IPTV for "free" or by default as part of a "triple play" bundle of wireline
+        voice, IPTV/video and broadband Internet. In other words, IPTV is supplied to them whether they want it or not -- they do
+        not really make a choice to buy it.
+
+        These subscribers receive from their IPTV provider a "free" STB and access to a small selection of channels, in return for
+        signing a longer-term contract for broadband or a voice/broadband package. This category of IPTV subscriber does not have
+        an equivalent in the existing pay-TV environment. It reflects the need for new IPTV operators to find ways to popularize
+        the service.
+
+        Hong Kong provides a good example. The carrier PCCW offers all its long-term broadband customers a "free" STB and access
+        to a small number of channels. Though many of these customers may choose to buy extra channels, a sizable proportion stick
+        with only the free channels -- if, indeed, they use the IPTV service at all.
+
+        In France, the carrier Free offers all its subscribers a home gateway device with STB capability built-in. All Free's
+        customers who live close enough to its asymmetric digital subscriber line (ADSL)-enabled exchanges receive a selection of
+        basic IPTV channels automatically for no extra payment.
+
+  - uuid : udx8ayiwq9
+    term : Total Revenue
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        AWP multiplied by the sum of the manufacturer's sales to end users.
+
+  - uuid : udx8aykejm
+    term : Total Service Revenue
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Sum of value-added service revenue, connection revenue, subscription revenue and call-charge revenue accrued by a mobile
+        communications service provider.
+
+  - uuid : udx8aylvt1
+    term : Touch-sensitive
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Refers to the technology that enables a system to identify a point of contact on the screen by coordinates and transmit
+        that information to a program.
+
+  - uuid : udx8b01be
+    term : Touchpoint
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A contact point between an enterprise and its customers. Touchpoints may occur in any channel (e.g., via phone, the Web or
+        direct contact with a salesperson).
+
+  - uuid : udx8b01j21
+    term : Track And Trace
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Track and trace** technologies enable a product's status to be captured through the value chain, and to retrospectively
+        identify and verify its path. Solutions typically include elements for: (1) associating products or materials with unique
+        identifiers (UIDs); (2) capturing events at various points in the supply chain; and (3) performing analytics and reporting
+        on the information. Some solutions include messaging to share information with regulatory agencies or trading partners,
+        and some also support capabilities for product authentication.
+
+  - uuid : udx8b03d4h
+    term : Transceiver
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device that can transmit and receive traffic. It is used to connect nodes to Ethernet (LAN).
+
+  - uuid : udx8b04t5o
+    term : Transducer
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A **transducer** is a device for converting signals from one form to another, such as a microphone or a receiver.
+
+  - uuid : udx8b06b6n
+    term : Transfer Rate
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The speed at which information can be sent across a bus or communications link.
+
+  - uuid : udx8b07oqb
+    term : Translator
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A device that converts information from one system of representation into equivalent information in another system of
+        representation.
+
+  - uuid : udx8b096nq
+    term : Transmedia
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Gartner defines **transmedia** as a style of storytelling that employs a collection of complementary elements such a
+        video, text, photos and games that can be experienced in a variety of forms and contexts. Transmedia content is being
+        deployed by media companies and advertisers using a range of open and proprietary applications.
+
+  - uuid : udx8b0ag2f
+    term : Transparency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        If a signal passes through a network or facility unchanged, that network or facility is said to be transparent to it.
+
+  - uuid : udx8b0bvcf
+    term : Transparency
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        **Transparency** is a condition where the material facts of an enterprise are made available in a timely, and preferably
+        reusable, manner.
+
+        Material facts encompass reliable information critical to the decision making of both internal and external stakeholders.
+
+        The object of transparency is the enterprise (not an individual).
+
+        Reusability allows consumers of information to construct their own analyses without compromising the contextual meaning of
+        the material facts.
+
+  - uuid : udx8b0dnn5
+    term : Transponder
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Transmitter-receiver device on a satellite that transmits signals automatically when it receives predetermined signals.
+        The term "satellite transponder" refers collectively to a transmitter-receiver subsystem on board the satellite that
+        processes, amplifies and retransmits a range of frequencies (the transponder bandwidth) to another
+        location/terminal/antenna on the earth. There are many transponders on a typical satellite, each capable of supporting one
+        or more communication channels. In a few limited instances, satellite transponders can transmit directly to other
+        satellites; this is known as satellite mesh topologies. These systems tend to be more expensive to build, and services are
+        more expensive for end users.
+
+  - uuid : udx8b0fgqg
+    term : Trouble Ticket
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A record of a customer complaint or problem, usually created in a call or contact center. The ticket remains active until
+        the issue has been resolved.
+
+  - uuid : udx8b0gxg9
+    term : Tuning
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        The process of adjusting computer system control variables to make a system divide its resources most efficiently for a
+        workload.
+
+  - uuid : udx8b0ibqi
+    term : Tunneling
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        Provides services on a point-to-point basis without the necessity to change the data to accommodate differing network
+        types or protocols.
+
+  - uuid : udx8b0jt1q
+    term : Type A, B And C Enterprises
+    abbr :
+    from : ITIL glossary (2013)
+    desc : |-4
+        A Gartner framework that classifies enterprises or their subdivisions according to a technology adoption profile.
+        Classification is based not only on an enterprise's current technology adoption strategy, but also on whether the strategy
+        is supported by senior management and is adequately funded.
+
+        Type A enterprises are typically technically aggressive and well-funded, and use IT to gain a competitive advantage.
+
+        Type B enterprises, which are in the majority, are mainstream IT users with adequate funding that use IT for productivity.
+
+         Type C enterprises are technologically conservative and risk-averse, and seek to control IT costs.
+
+        Recognizing an enterprise's type offers company strategists a meaningful way to compare an enterprise's use of technology
+        against that of competitors, and to make decisions about when, how and where to adopt new technologies.
+
+# __END__
