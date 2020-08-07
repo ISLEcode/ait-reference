@@ -1,0 +1,14 @@
+title    : Anagrams and slogans
+revision : Thu Jan 04, 2018 23:35:36
+contents :
+
+  # Slogan                     Anagram
+  # -------------------------- --------------------------
+
+  - [ Action items,            Atomic inset             ]
+  - [ Stake holders,           Horses talk              ]
+  - [ Cross training,          Cigar sin snort          ]
+  - [ Functionally based,      Cobalt daisy funnel      ]
+
+# vim: digraph et fdm=indent sw=4
+
