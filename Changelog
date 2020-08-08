@@ -1,12 +1,14 @@
 ---
 title    : Repository change log
-revision : 2020-08-08 (Sat) 07:31:19
+revision : 2020-08-08 (Sat) 12:25:10
 ---
 
 ### Pending tasks
 
   - Dictionaries: the word lists used to generate AIT passphrases and passwords needs to be integrated to this package.
     (and its taxonomy adapted as it differs to what has been standardises here)
+
+  - Glossaries: decide where the `science-fr/` image resources should be located... and possibly convert all to PNG
 
   - Quotes: correct the buffer overrun in `df-y2k` bug (see file `french-bug.yaml` file)
 
@@ -29,7 +31,7 @@ revision : 2020-08-08 (Sat) 07:31:19
   - Quotes: French quotes were primarily obtained from a unique source one or two decades ago without keeping track of the source.
     Some research needs to be done to give due credit.
 
-### 2020-08-08 (Sat) 07:31:19 {#wip}
+### 2020-08-08 (Sat) 12:25:10 {#wip}
 
   + First draft of repository's [stragegy](Strategy) and [roadmap](Roadmap)
   + Created the necessary [README](README.md) and [change log](ChangeLog) files
@@ -37,6 +39,7 @@ revision : 2020-08-08 (Sat) 07:31:19
   + Re-worked quotes to standardise previous Markdown markup into a YAML _schema_
   + Started the `authors.yaml` file to centralise data about quote authors
   + Added UUID to all quotes for subsequent referencing
+  + Added GNU build setup
   - Deprecated the use of Markdown files for structured data; Markdown markup remains in use in target YAML files
 
 <!-- vim: set digraph et nospell syn=md :-->
