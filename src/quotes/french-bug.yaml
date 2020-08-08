@@ -4,7 +4,7 @@ contents :
   - tags : FINALITE
     auth : Baruch SPINOZA
     book : L'Ethique
-    edit : OEuvres complètes / Bibliothèque de la Pléiade / nrf Gallimard
+    publ : OEuvres complètes / Bibliothèque de la Pléiade / nrf Gallimard
     date : 1954
     quot : "Il me suffira ici de poser en principe ce qui doit être reconnu par tous : tous les hommes naissent ignorants des
            causes des choses, et tous ont envie de rechercher ce qui leur est utile, ce dont ils ont conscience. D'où il suit, en
@@ -43,5 +43,5 @@ contents :
            de l'intelligence humaine ; et cette seule raison , certes, eût suffi pour que la vérité. demeurât à jamais cachée au
            genre humain, si la Mathématique, qui s'occupe non des fins, mais seulement des essences et des propriétés des figures,
            n'avait montré aux hommes une autre règle de vérité."
-    page : p.347-349
+    cite : p.347-349
 
