@@ -1,0 +1,125 @@
+#! /bin/ksh
+#! @brief    Automatically populate country date in the geo directory from 'geonames.org'
+#! @revision 2020-08-08 (Sat) 07:33:22
+#  TODO migrate KAML to YAML
+
+typeset baseurl='http://download.geonames.org/export' geodir="${1:-.}/geo"; integer total=0
+typeset countrytab="$geodir/countries.tab" countrykml="$geodir/countries.kml" countryndx="$geodir/countries"
+typeset missing="$geodir/MISSING"
+
+print -u2 '\E[0;2m****** \E[0;33;1;3mBuilding country databases\E[0m'
+
+[[ -d $geodir ]] || mkdir $geodir
+
+print -u2 "\E[1mStep 1\E[0;2m downloading country summary database.\E[0m"
+# Rip the countries file from the geonames.org (this is a TAB separated database)
+[[ -f $countrytab ]] || curl -SsLo $countrytab "$baseurl/dump/countryInfo.txt"
+
+print -u2 "\E[1mStep 2\E[0;2m converting country summary database to KAML.\E[0m"
+# Construct the KAML version of the source country file ($countrytab)
+[[ -f $countrykml ]] || {
+    print '#! ksh'
+    print '#! @brief    AIT country database (KAML format)'
+    print "#! @source   http://geonames.org"
+    print '#! @warning  This is an auto-generated file; you SHOULD NOT edit it directly.'
+    print -f "#! @revision %(%F (%a) %R:%S)T [$(hostname)]\n\n"
+    grep -v '^#' $countrytab | sed -E \
+    -e 's/^/\( iso2=/;s/'$'\t''/ iso3=/;s/'$'\t''/ isonum=/;s/'$'\t''/ fips=/;' \
+    -e 's/'$'\t''([^'$'\t'']*)/ country="\1"/;s/'$'\t''([^'$'\t'']*)/ capital="\1"/;' \
+    -e 's/'$'\t''/ area=/;s/'$'\t''/ population=/;s/'$'\t''/ continent=/;s/'$'\t''/ tld=/;' \
+    -e 's/'$'\t''/ currencycode=/;s/'$'\t''([^'$'\t'']*)/ currencyname="\1"/' \
+    -e 's/'$'\t''([^'$'\t'']*)/ phone="\1"/;' \
+    -e 's/'$'\t''([^'$'\t'']*)/ postalcode="\1"/; s/'$'\t''([^'$'\t'']*)/ postalregex="\1"/' \
+    -e 's/'$'\t''/ languages=/; s/'$'\t''/ geonameid=/; s/'$'\t''/ neighbours=/; s/'$'\t''/ efips=/; s/$/ )/;' \
+    -e 's/="([0-9A-Za-z_,]*)"/=\1/g' -e "s/=\"([^\"']*)\"/='\1'/g"
+    print '\n# vim: nospell'
+}   > $countrykml
+
+print -u2 "\E[1mStep 3\E[0;2m creating country summary index file.\E[0m"
+# Construct the raw list of country codes ($countryndx)
+[[ -f $countryndx ]] || {
+    print '#! ksh'
+    print '#! @brief    AIT country index (IFS :)'
+    print "#! @source   http://geonames.org"
+    print '#! @warning  This is an auto-generated file; you SHOULD NOT edit it directly.'
+    print -f "#! @revision %(%F (%a) %R:%S)T [$(hostname)]\n\n"
+    grep -v '^#' $countrytab | sed 's/'$'\t''/:/;s/'$'\t''/:/;s/'$'\t''.*//;'
+    print '\n# vim: nospell'
+}   > $countryndx
+    
+# Make all files read-only
+chmod ugo-wx,ugo+r $countrykml $countryndx $countrytab
+
+print -u2 "\E[1mStep 3\E[0;2m Download per-country data (warning this can take 5-10 mn).\E[0m"
+print -u2 "      \E[0;2m Consult the \E[0;3mMISSING\E[0;2m file for missing countries.\E[0m"
+
+[[ -f $missing ]] && rm -f $missing
+
+typeset iso; grep -v '^#' $countryndx | while IFS=':' read iso null; do
+
+    # Make sure we have something to process
+    [[ -n $iso ]] || continue
+
+    typeset url=$baseurl/zip/$iso.zip; typeset -l kml="$geodir/$iso.kml"
+    integer retcode=0 status=$(curl -SsLo /dev/null -w "%{http_code}" $url)
+
+    (( status == 200 )) || { print "$status $url" >> $missing; continue; }
+
+    typeset zip="$geodir/$iso.zip" txt="$geodir/$iso.txt" tab='       '
+
+    [[ -f $zip ]] || curl -SsLo "$zip" "$url"; retcode=$?
+
+    if (( retcode == 0 )) && [[ -f $zip && -r $zip ]]; then
+
+        [[ -f $txt ]] || { cd $geodir; tar xf $zip; retcode=$?; cd - >/dev/null; }
+
+        if (( retcode == 0 )) && [[ -f $txt && -r $txt ]]; then
+
+            [[ -f $kml ]] || (
+                print '#! ksh'
+                print "#! @brief    AIT $iso country database (KAML format)"
+                print "#! @source   http://geonames.org"
+                print '#! @warning  This is an auto-generated file; you SHOULD NOT edit it directly.'
+                print -f "#! @revision %(%F (%a) %R:%S)T [$(hostname)]\n\n"
+                grep -v '^#' $txt | sed -E -e 's/^/\( iso2=/;' \
+                -e 's/'$'\t''([^'$'\t'']*)/ postalcode="\1"/; s/'$'\t''([^'$'\t'']*)/ placename="\1"/;' \
+                -e 's/'$'\t''([^'$'\t'']*)/ statename="\1"/; s/'$'\t''([^'$'\t'']*)/ statecode="\1"/;' \
+                -e 's/'$'\t''([^'$'\t'']*)/ countyname="\1"/; s/'$'\t''([^'$'\t'']*)/ countycode="\1"/;' \
+                -e 's/'$'\t''([^'$'\t'']*)/ communityname="\1"/; s/'$'\t''([^'$'\t'']*)/ communitycode="\1"/;' \
+                -e 's/'$'\t''/ latitude=/; s/'$'\t''/ longitude=/;s/'$'\t''/ accuracy=/; s/$/ )/;' \
+                -e 's/="([0-9A-Za-z_,]*)"/=\1/g' -e "s/=\"([^\"']*)\"/='\1'/g" 2>/dev/null; retcode=$?
+                print '\n# vim: nospell'
+            )   > $kml
+
+            if (( retcode == 0 )) && [[ -f $kml && -r $kml ]]; then
+
+                typeset source; wc -l $txt | read source null
+                typeset target; wc -l $txt | read target null
+
+                (( source == target )) &&
+                print -u2 "$tab\E[0;1;32m$iso\E[0;2m: data successfully downloaded ($target records).\E[0m" ||
+                print -u2 "$tab\E[0;1;31m${kml##*/}: KAML conversion error (records: in=$source, out=$target).\E[0m"
+
+                chmod ugo-wx,ugo+r $kml
+                (( total += target ))
+
+            else print -u2 "$tab\E[0;1;31m${kml##*/}: failed to generate KAML file from text file '${txt##*/}'\E[0m"; fi
+
+        else print -u2 "$tab\E[0;1;31m${txt##*/}: failed to extract file from tarball '${zip##*/}'\E[0m"; fi
+
+    else print -u2 "$tab\E[0;1;31m${zip##*/}: failed to download file from URL $url\E[0m"; fi
+
+    [[ -f $zip ]] && rm -f $zip
+    [[ -f $txt ]] && rm -f $txt
+
+done
+
+(( retcode == 0 )) &&
+print "\E[1;32mOK    \E[0;2m All files successfully downloaded ($total records).\E[0m" ||
+print "\E[1;31mError \E[0;2m Incomplete download ($total records created).\E[0m"
+
+wc -l $missing | read -r total null; (( total > 0 )) &&
+print "\E[1;34mInfo  \E[0;2m no data available for $total countries (see the \E[0;3m${missing##*/}\E[0;2m file).\E[0m"
+
+typeset txt="$geodir/readme.txt" readme="$geodir/POSTCODES.txt"
+[[ -f $txt ]] && { mv -f $txt $readme; chmod ugo-wx $readme; }

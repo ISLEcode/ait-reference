@@ -1,0 +1,50 @@
+#! /bin/ksh
+#! @revision 2020-08-08 (Sat) 07:33:29
+#  TODO migrate KAML to YAML
+
+typeset datadir=${1:-.}/geo target=${datadir}/currencies.kml
+typeset baseurl='https://www.currency-iso.org/dam/downloads/lists' legacyxml='list_three.xml' activexml='list_one.xml'
+
+print -u2 '\E[0;2m****** \E[0;33;1;3mBuilding currency database\E[0m'
+
+[[ -d $datadir ]] || mkdir $datadir
+
+typeset file; for file in $activexml $legacyxml; do
+
+    typeset source="$datadir/$file"
+
+    [[ $file == *one* ]] &&
+    print -u2 '\E[0;1mStep 1\E[0;2m downloading active currencies from ISO site.\E[0m' ||
+    print -u2 '\E[0;1mStep 2\E[0;2m downloading withdrawn currencies from ISO site.\E[0m'
+
+    [[ -f $source ]] || curl -SsLo $source "$baseurl/$file"
+    [[ -f $target ]] && rm $target
+    (   print '#! ksh'
+        print '#! @brief    AIT ISO 4217 currency database (KAML format)'
+        print "#! @source   $baseurl"
+        print '#! @warning  This is an auto-generated file; you SHOULD NOT edit it directly.'
+        print -f "#! @revision %(%F (%a) %R:%S)T [$(hostname)]\n\n"
+        sed -n '/<.*CcyNtry>/,/<\/.*CcyNtry>/ {/<\/.*CcyNtry>/d; s/'$'\t''//g; s/<.*CcyNtry>/'$'\t''/g; p; }'  $source |\
+        tr -d '\r\n' | tr '\t' '\n' | sed -E -e 's/<CtryNm>/country="/g; s/<\/CtryNm>/" /g' \
+        -e 's/<CcyNm>/isfund=false name="/g; s/<CcyNm IsFund="true">/isfund=true name="/g; s/<\/CcyNm>/" /g' \
+        -e 's/<CcyNm IsFund="([^"]*)">/isfund=true fundname="\1" name="/g; s/<\/CcyNm>/" /g' \
+        -e 's/<Ccy>/code=/g; s/<\/Ccy>/ /g' \
+        -e 's/<CcyNbr>/id=/g; s/<\/CcyNbr>/ /g' \
+        -e 's/<CcyMnrUnts>/minor="/g; s/<\/CcyMnrUnts>/" /g' \
+        -e 's/<WthdrwlDt>/withdrawn="/g; s/<\/WthdrwlDt>/" /g' \
+        -e 's/^([a-z].*)$/( \1 )/; s/="([0-9A-Za-z_,]*)"/=\1/g' -e "s/=\"([^\"']*)\"/='\1'/g"; retcode=$?
+        print '\n# vim: nospell'
+    )   >>$target 2>&1
+
+    (( retcode > 0 )) && break
+
+done
+
+[[ -f "$datadir/$activexml" ]] && rm -f "$datadir/$activexml"
+[[ -f "$datadir/$legacyxml" ]] && rm -f "$datadir/$legacyxml"
+
+(( retcode == 0 )) &&
+print '\E[1;32mOK    \E[0;2m currency KAML database file successfully created.\E[0m' ||
+print '\E[1;31mError \E[0;2m an unexpected error occured while converting XML data to KAML.\E[0m'
+
+# vim: nospell

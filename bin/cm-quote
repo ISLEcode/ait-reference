@@ -1,0 +1,78 @@
+#! /bin/ksh
+# Warning: this is WIP
+
+function reflow {
+
+    typeset s=$1 prefix=$2 width=$3 spacer="${prefix//[^ ]/ }"  # Collect arguments
+    [[ ${1:0:1} == '@' ]] && nameref s=${1:1} 2>/dev/null       # Handle case where input string is passed by reference
+    integer w=${#s} tw=${width:-130}-${#prefix}-1 x y z         # Initialise counters and boundaries
+
+    while [[ ${s:$x:1} == @(\ |$'\t') ]]; do (( ++ x )); done   # Trim leading whitespace
+    while [[ ${s:$w:1} == @(\ |$'\t') ]]; do (( ++ x )); done   # Trim trailing whitespace
+
+    while (( x < w )); do                                       # Enact the reflow:
+        for (( y = x + tw; y < w && y > x; -- y ))              # - if the input line is longer than our assigned text width
+        do [[ ${s:$y:1} == ' ' ]] && break; done                #   step backwards to first whitespace character
+        (( z ++ == 0 )) && printf "$prefix" || printf "$spacer" # - output the prefix on first line, spacer on subsequent lines
+        print -r ${s:$x:$y-$x}; (( x = ++ y )); done            # - output the string or the string segment
+
+}
+
+function mkguid {
+
+    typeset time=$(dt-microsec)             # Collect UNIX time in microseconds (e.g. 1596719025.096476)
+    integer -i36 x=${time%.*} y=${time#*.}  # Convert decimal and fraction to base 36
+    print "${x#*#}${y#*#}"                  # Concatenate integers into a single string (e.g. qen8a922fw)
+
+}
+
+function cm_quote_lint                              { # Lint a YAML file of quotes
+
+    typeset file=$1
+    eval "$(df-y2k -p data $file)"
+
+    # Output the header of YAML file
+    typeset -S title='Quotes (unclassified)'                            # Default title if none contained in input
+    cm_quote_tostring "${data.title:-$title}" 'title    : '             # Collect or assign a title to output
+    cm_quote_tostring "$(date +'%F (%a) %R:%S')" 'revision : '          # Update the revision date and timestamp
+
+    # Output the body of the YAML file
+    print 'contents :\n'; integer i count=${#data.contents[@]}          # Determine number of quotes to process
+    typeset key uuid; for (( i = 0; i < count; ++ i )); do              # Sequentially process all quotes in input
+        nameref rec=data.contents[$i]                                   # - Simplify handling of quote under scrutiny
+        uuid=${rec.uuid:-$(mkguid)}; print "  - uuid : $uuid"           # - Collect/assign a UUID for this quote
+        for key in quot auth book publ date cite tags                   # - Process all subsequent properties,
+        do cm_quote_tostring @rec.$key "    $key : "; done              #   reflow and escape as required
+        print                                                           # - Print newline as visual record separator
+    done; print "# vim: digraph et fdm=indent sw=4"                     # Print Vim modeline to mark end of file
+
+}
+
+function cm_quote_tostring                          { # Print a YAML key/value pair
+
+    typeset key="$2" value="$1"                                 # Collect arguments
+    [[ ${1:0:1} == '@' ]] && nameref value=${1:1} 2>/dev/null   # Handle case where input value is passed by reference
+    typeset s=${value//$'\n'/\\n}
+
+    # Analyse value string in vue of possible escaping
+    integer quote;   [[ $value == *\'*  ]] && quote=1           # Value contains quotes?
+    integer dquote;  [[ $value == *\"*  ]] && dquote=1          # Value contains double quotes?
+    integer colon;   [[ $value == *:*   ]] && colon=1           # Value contains colons?
+    integer comma;   [[ $value == *,*   ]] && comma=1           # Value contains commas?
+    integer special; [[ $value == [[!]* ]] && special=1         # Value start with a reserved character?
+    integer escape=colon+comma+special                          # Short hand to toogle escaping
+
+    # Reformat value string, if so required
+    if (( quote == 0 && dquote + escape > 0 ))                  # See whether string should be encapsulated in
+    then s="'$s'"                                               # - single quotes
+    elif (( quote + escape > 0 ))                               # - double quote
+    then s="\"${s//@([^\\])\"/\1\\\"}\""; fi                    #   (escape contained double quotes)
+
+    reflow @s "$key"
+
+}
+
+# cm_quote_lint english.yaml
+cm_quote_lint $@
+
+# vim: nospell
