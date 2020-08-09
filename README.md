@@ -32,7 +32,7 @@ essentially means that all actions, beyond the first step below, are performed i
 
 1.  Initial checkout from GitHub and re-generation of GNU Autotools base scripts:
 
-    ```
+    ``` {.sh}
     git clone https://github.com/ISLEcode/ait-reference
     cd ait-reference
     autoreconf -vfis
@@ -40,7 +40,7 @@ essentially means that all actions, beyond the first step below, are performed i
 
 1.  Perform first time configation
 
-    ```
+    ``` {.sh}
     mkdir out
     cd out
     ../configure <YOUR OPTIONS HERE>
@@ -48,7 +48,7 @@ essentially means that all actions, beyond the first step below, are performed i
 
 1.  Since this is a data-only package we can directly perform an installation
 
-    ```
+    ``` {.sh}
     sudo make install
     ```
 
@@ -56,7 +56,7 @@ If you are a package maintainer the following tasks may apply.
 
 -   Before commiting back the master branch, lint the distribution as follows:
 
-    ```
+    ``` {.sh}
     make distcheck
     ```
 
@@ -70,7 +70,7 @@ If you are a package maintainer the following tasks may apply.
 
     1.  Create the tarball distribution tarball — a.k.a. _binary tarball_, even though this package only contains data.
 
-        ```
+        ``` {.sh}
         cd out
         mkdir
         make install DESTDIR=$PWD/ait-reference-1.0.0-noarch
@@ -79,5 +79,16 @@ If you are a package maintainer the following tasks may apply.
 
     1.  Either from the command line or from a GitHub-capable frontend, create a new GitHub release tagged `v1.0.0`, collect
         input from the `ChangeLog` file, and append the previously created distribution tarball.
+
+    1.  The build is not fully _out of source_ and some GNU build-time files make their way into the source tree, at the top
+        level with configure and m4 temporary files and scripts, and in sub-directories with transient `Makefile.in` files.
+        These are excluded from revision control through `.gitignore`. Nonetheless, cleaning up your source tree is good practice.
+        This hasn't yet been automated, so here are the steps, from the repository's top-level directory.
+
+        ``` {.sh}
+        rm COPYING INSTALL aclocal.m4
+        rm -rf autom4te.cache out var
+        find . -name Makefile.in -delete
+        ```
 
 <!-- vim: set digraph et nospell syn=md :-->
