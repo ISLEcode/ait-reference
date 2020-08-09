@@ -2,6 +2,8 @@
 
 ## AIT reference package (`ait-reference`)
 
+### About
+
 This repository contains miscellaneous data sets which are used to assemble the `ait-reference` package. It contains general
 purpose word lists, control lists, glossaries and abbreviations. It is a new package intended to consolidate into one dedicatєd
 location all such reference data from previous incarnations of the AIT framework — in particular, the _Dragonfly project_,
@@ -22,5 +24,60 @@ This **is not, and shall not be, a big data junk yard**. Information collected h
 _humans_. That said, maintaining large sets of structured information requires time and effort. So all helping hands are more than
 welcome. In return, if YAML is not the _lingua franca_ for such data, we are happy to maintain builds in alternate formats, be
 they based on markup languages (e.g. JSON, XML, …) or custom binary formats.
+
+### Build & installation
+
+Our build is based on GNU Autotools. We practice _out of source_ builds in a subdirectory named, by convention, `out`; this
+essentially means that all actions, beyond the first step below, are performed in the aforementioned subdirectory.
+
+1.  Initial checkout from GitHub and re-generation of GNU Autotools base scripts:
+
+    ```
+    git clone https://github.com/ISLEcode/ait-reference
+    cd ait-reference
+    autoreconf -vfis
+    ```
+
+1.  Perform first time configation
+
+    ```
+    mkdir out
+    cd out
+    ../configure <YOUR OPTIONS HERE>
+    ```
+
+1.  Since this is a data-only package we can directly perform an installation
+
+    ```
+    sudo make install
+    ```
+
+If you are a package maintainer the following tasks may apply.
+
+-   Before commiting back the master branch, lint the distribution as follows:
+
+    ```
+    make distcheck
+    ```
+
+    If all goes well you should have a distribution tarball in the `out` subdirectory. You coulud also create tarballs using
+    specific archive formats and compression schemes — e.g. `make dist-gzip` or `make dist-bzip2`; this however is irrelevant in
+    our case since we use GitHub's release mechanisme which automatically creates source code tarballs.
+
+-   Building a binary distribution has not yet been automated, this has to be done manually — we assume here we are building
+    a binary tarball to be added to a new GitHub release and that the released version is _1.0.0_. All shell commands and scripts
+    are assumed to run under the Kornshell.
+
+    1.  Create the tarball distribution tarball — a.k.a. _binary tarball_, even though this package only contains data.
+
+        ```
+        cd out
+        mkdir
+        make install DESTDIR=$PWD/ait-reference-1.0.0-noarch
+        tar zcf ait-reference-1.0.0-noarch.tgz ait-reference-1.0.0-noarch
+        ```
+
+    1.  Either from the command line or from a GitHub-capable frontend, create a new GitHub release tagged `v1.0.0`, collect
+        input from the `ChangeLog` file, and append the previously created distribution tarball.
 
 <!-- vim: set digraph et nospell syn=md :-->
