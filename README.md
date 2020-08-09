@@ -86,7 +86,7 @@ If you are a package maintainer the following tasks may apply.
         This hasn't yet been automated, so here are the steps, from the repository's top-level directory.
 
         ``` {.sh}
-        rm COPYING INSTALL aclocal.m4
+        rm COPYING INSTALL aclocal.m4 configur
         rm -rf autom4te.cache out var
         find . -name Makefile.in -delete
         ```
