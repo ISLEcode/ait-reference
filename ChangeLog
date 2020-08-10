@@ -1,6 +1,6 @@
 ---
 title    : Repository change log
-revision : 2020-08-09 (Sun) 07:00:27
+revision : 2020-08-10 (Mon) 02:33:24
 ---
 
 ### Pending tasks
@@ -31,9 +31,10 @@ revision : 2020-08-09 (Sun) 07:00:27
   - Quotes: French quotes were primarily obtained from a unique source one or two decades ago without keeping track of the source.
     Some research needs to be done to give due credit.
 
-### 2020-08-09 (Sun) 07:00:27 {#wip}
+### 2020-08-10 (Mon) 02:33:24 {#wip}
 
   + Added build and installation instructions
+  + Added a dozen french quotes (Général de Gaulle, Jean de la Bruyère, and Umberto Eco)
 
 ### v0.74.5
 
