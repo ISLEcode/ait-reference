@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-10 (Mon) 16:45:24
+#! @revision 2020-08-10 (Mon) 17:03:46
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly is a private repository
 # @{ GLOB
@@ -98,7 +98,7 @@ function run_check                                  { # Enact `make distcheck`
     [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
     [[ -d $BUILDDIR ]] && (cd $BUILDDIR && PATH=/bin:/usr/bin make distcheck "$@" >$checklog 2>&1); error=$?
     (( error == 0 )) && println pass 'package %s is ready for distributioon' "${package.label:-$PACKAGE}" ||
-    println pass 'package cannot be distributed as-is; please check %s' $BUILDDIR/$checklog
+    println failed 'package cannot be distributed as-is; please check %s' $BUILDDIR/$checklog
 
 }
 function run_clean                                  { # Enact `make clean` + custom cleaning
@@ -113,7 +113,7 @@ function run_clean                                  { # Enact `make clean` + cus
 
     for file in ${TEMP_FILES[@]};  do [[ -f $file ]]               && fsdelete -f $file; done
     for dir  in ${TEMP_DIRS[@]};   do [[ -d $dir  ]]               && fsdelete -fr $dir; done
-    for file in AUTHORS NEWS;       do [[ -e $file || ! -s $file ]] && fsdelete -f $file; done
+    for file in AUTHORS NEWS;      do [[ -e $file || ! -s $file ]] && fsdelete -f $file; done
 
 }
 function run_distrib                                { # Enact `make install DESTDIR=...` + binary distribution tarball
