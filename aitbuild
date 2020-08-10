@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-10 (Mon) 12:25:21
+#! @revision 2020-08-10 (Mon) 16:39:45
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly is a private repository
 # @{ GLOB
@@ -164,7 +164,7 @@ function run_rebuild                                { # Enact the clean + prepar
 function run_selfupdate                             { # Download latest version of this script
 
     # Collect the arguments (self name and udpate URL), and initialise temporary name
-    typeset self=$1 url=$2 burl=${url%/master*} temp=._$self; burl=${burl#*.com/}
+    typeset self=$1 url=$2 burl=${url%/master*} temp=._${self##*/}; burl=${burl#*.com/}
 
     println info 'perfoming self-update from GitHub (%s)' $burl;
 
