@@ -8,6 +8,8 @@ AM_INIT_AUTOMAKE
 AC_PROG_CC
 AC_PREFIX_DEFAULT(/opt/ait)
 AC_SUBST(AIT_PREFIX, prefix)
-AC_CONFIG_FILES(Makefile)
+AC_SUBST(PACKAGE_TARSUFFIX,PACKAGE_TARSUFFIX)
+PACKAGE_TARSUFFIX=noarch
+AC_CONFIG_FILES(Makefile config.kaml)
 AC_CONFIG_FILES(src/acronyms/Makefile src/clists/Makefile src/dict/Makefile src/glossary/Makefile src/quotes/Makefile)
 AC_OUTPUT

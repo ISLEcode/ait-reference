@@ -35,21 +35,13 @@ essentially means that all actions, beyond the first step below, are performed i
     ``` {.sh}
     git clone https://github.com/ISLEcode/ait-reference
     cd ait-reference
-    autoreconf -vfis
-    ```
-
-1.  Perform first time configation
-
-    ``` {.sh}
-    mkdir out
-    cd out
-    ../configure <YOUR OPTIONS HERE>
+    ./aitbuild prepare
     ```
 
 1.  Since this is a data-only package we can directly perform an installation
 
     ``` {.sh}
-    sudo make install
+    ./aitbuild install
     ```
 
 If you are a package maintainer the following tasks may apply.
@@ -57,7 +49,7 @@ If you are a package maintainer the following tasks may apply.
 -   Before commiting back the master branch, lint the distribution as follows:
 
     ``` {.sh}
-    make distcheck
+    ./aitbuild check
     ```
 
     If all goes well you should have a distribution tarball in the `out` subdirectory. You coulud also create tarballs using
@@ -71,10 +63,7 @@ If you are a package maintainer the following tasks may apply.
     1.  Create the tarball distribution tarball — a.k.a. _binary tarball_, even though this package only contains data.
 
         ``` {.sh}
-        cd out
-        mkdir
-        make install DESTDIR=$PWD/ait-reference-1.0.0-noarch
-        tar zcf ait-reference-1.0.0-noarch.tgz ait-reference-1.0.0-noarch
+        ./aitbuild distrib
         ```
 
     1.  Either from the command line or from a GitHub-capable frontend, create a new GitHub release tagged `v1.0.0`, collect
@@ -86,9 +75,7 @@ If you are a package maintainer the following tasks may apply.
         This hasn't yet been automated, so here are the steps, from the repository's top-level directory.
 
         ``` {.sh}
-        rm COPYING INSTALL aclocal.m4 configur
-        rm -rf autom4te.cache out var
-        find . -name Makefile.in -delete
+        ./aitbuild clean
         ```
 
 <!-- vim: set digraph et nospell syn=md :-->
