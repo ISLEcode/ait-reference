@@ -1,6 +1,6 @@
-#!/bin/ksh
+#! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-10 (Mon) 11:48:32
+#! @revision 2020-08-10 (Mon) 12:01:20
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly is a private repository
 
@@ -93,15 +93,14 @@ function selfupdate {
     println abort 'download failed for URL: %s' $url
 
     # Update shbang to match this operating system's Kornshell path
-set -xv
-    typeset ksh=$(whence ksh); sed -i .bak "1s/.*/#! $ksh/" $temp >/dev/null 2>&1 && rm $temp.bak ||
+    typeset ksh=$(whence ksh); sed -i .bak "1s:.*:#! $ksh:" $temp >/dev/null 2>&1 && rm $temp.bak ||
     println abort 'failed to update shbang (%s), remove backup %s' $ksh $temp.bak
 
     # Adjust permissions to make the download file executable
-    chmod 0755 $temp || println abort 'failed to adjust permissions of downloaded file (%s)' $temp
+    chmod 0755 $temp >/dev/null 2>&1 || println abort 'failed to adjust permissions of downloaded file (%s)' $temp
 
     # We're done, we simply need to overwrite ourself
-    mv $temp $self || println abort 'failed to install update, consider using backup: %s' $temp
+    mv $temp $self >/dev/null 2>&1 || println abort 'failed to install update, consider using backup: %s' $temp
 
 }
 
