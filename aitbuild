@@ -1,17 +1,22 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-10 (Mon) 12:01:20
+#! @revision 2020-08-10 (Mon) 12:22:38
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly is a private repository
+# @{ GLOB
 
 typeset PROGNAME=${0##*/} PACKAGE=${PWD##*/} BUILDDIR=out
 typeset TEMP_DIRS=( $BUILDDIR autom4te.cache tmp var )
 typeset TEMP_FILES=( COPYING INSTALL configure aclocal.m4 )
 typeset SELF_URL=https://raw.githubusercontent.com/ISLEcode/ait-reference/master/aitbuild
 
-function fsdelete {
+# @}
+# @{ FUNC
+
+# Utilities
+function fsdelete                                   { # Wrap UNIX command `rm`
     # First argument is optional; if specified provides a file or directory name
-    typeset name; [[ $1 == [^-]* ]] && { name=$1; shift; }
+    typeset name; [[ $1 == [!-]* ]] && { name=$1; shift; }
 
     # Next argument MUST be an option, typically `-rf` or `-f`; determine the whether this is a file or directory
     typeset kind=file options=$1; shift; [[ $options == -*r* ]] && kind=directory
@@ -26,8 +31,7 @@ function fsdelete {
 
 
 }
-
-function fsmkdir {
+function fsmkdir                                    { # Wrap UNIX command `mkdir`
     typeset name;    [[ $1 == -* ]] || { name=$1; shift; }
     typeset options; [[ $1 == -* ]] && options=$1
 
@@ -39,9 +43,8 @@ function fsmkdir {
     done
 
 }
-
-function fstouch {
-    typeset name; [[ $1 == [^-]* ]] && { name=$1; shift; }
+function fstouch                                    { # Wrap UNIX command `touch`
+    typeset name; [[ $1 == [!-]* ]] && { name=$1; shift; }
 
     typeset file; for file in "$@"; do
         [[ -e $file ]] && continue
@@ -51,8 +54,7 @@ function fstouch {
     done
 
 }
-
-function println {
+function println                                    { # Simple message logging utility
     typeset -S fail=$'\E[0;1;31m' info=$'\E[0;1m' norm=$'\E[0m' pass=$'\E[0;1;32m' warn=$'\E[0;1;33m' weak=$'\E[0;2m'
     typeset -S prog="$weak$PROGNAME$norm \E[1;3;34m$PACKAGE$norm"
 
@@ -77,7 +79,89 @@ function println {
 
 }
 
-function selfupdate {
+# Commands
+function run_build                                  { # Enact `make`
+
+    typeset buildlog=build-$(date +%Y%m%d-%H%M%S.log)
+    println info 'building the %s package' "${package.label:-$PACKAGE}"
+    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
+
+    (cd $BUILDDIR && PATH=/bin:/usr/bin make "$@" >$buildlog 2>&1); error=$?
+    (( error == 0 )) && println pass 'successful build of %s' "${package.label:-$PACKAGE}" ||
+    println pass 'the build did not complete successfully; please check %s' $BUILDDIR/$buildlog
+
+}
+function run_check                                  { # Enact `make distcheck`
+
+    typeset checklog=check-$(date +%Y%m%d-%H%M%S.log)
+    println info 'checking that package %s is ready for distribution' "${package.label:-$PACKAGE}"
+    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
+    [[ -d $BUILDDIR ]] && (cd $BUILDDIR && PATH=/bin:/usr/bin make distcheck "$@" >$checklog 2>&1); error=$?
+    (( error == 0 )) && println pass 'package %s is ready for distributioon' "${package.label:-$PACKAGE}" ||
+    println pass 'package cannot be distributed as-is; please check %s' $BUILDDIR/$checklog
+
+}
+function run_clean                                  { # Enact `make clean` + custom cleaning
+
+    println info 'cleaning up the AIT build environment (this can take a couple of minutes)'
+
+    # fsdelete unnecessary 'Makefile.in' and 'Makefile' from 'src' directory -- provided we have an associated 'Makefile.am'
+    find . -name Makefile.am | while read am; do
+        [[ am == @($BUILDDIR|_in|var|wip) ]] && continue || typeset in=${am%am}in
+        [[ -f $in ]] && fsdelete -f $in
+    done
+
+    for file in ${TEMP_FILES[@]};  do [[ -f $file ]]               && fsdelete -f $file; done
+    for dir  in ${TEMP_DIRS[@]};   do [[ -d $dir  ]]               && fsdelete -fr $dir; done
+    for file in AUTHORS NEWS;       do [[ -e $file || ! -s $file ]] && fsdelete -f $file; done
+
+}
+function run_distrib                                { # Enact `make install DESTDIR=...` + binary distribution tarball
+
+    typeset instlog=tarball-$(date +%Y%m%d-%H%M%S.log)
+    typeset destdir=$PWD/$BUILDDIR/tarball
+    typeset tarball=$PWD/$BUILDDIR/${package.tarname}-${package.version}-${package.tarsuffix:-bin}.tgz
+
+    println info 'building %s binary tarball' "${package.label:-$PACKAGE}"
+    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
+
+    (cd $BUILDDIR; make install DESTDIR=$destdir >$instlog 2>&1); error=$?
+    (( error == 0 )) && println pass 'successfully built distribution of %s' "${package.label:-$PACKAGE}" ||
+    println pass 'unable to build distribution; please check %s' $BUILDDIR/$instlog
+
+    (cd $destdir/${package.prefix}; tar zcf $tarball * >$destdir/../$instlog 2>&1); error=$?
+    (( error == 0 )) && println pass 'successfully built distribution tarball (%s)' "$BUILDDIR/${tarball##*/}" ||
+    println pass 'unable to build distribution tarball; please check %s' $BUILDDIR/$instlog
+
+}
+function run_prepare                                { # Enact `autoreconf` + `configure`
+
+    [[ -f aclocal.m4 ]] &&
+    println info  'rebuilding the AIT build environment.' ||
+    println info  'building the AIT build environment.'
+
+    for file in AUTHORS NEWS;     do fstouch 'GNU required' $file; done
+    for dir  in ${TEMP_DIRS[@]}; do fsmkdir 'GNU build'    $dir;  done
+
+    # Reconfigure the build environment
+    : ${AUTOMAKE='automake --add-missing'}
+    : ${AUTOM4TE_FLAGS=' --cache=var/autom4te.cache'}
+    # [[ -f configure ]] || autoreconf
+
+    println info  'refreshing package build setup'
+    autoreconf -vvv --force --install --symlink --make --no-recursive >$BUILDDIR/autoreconf.log 2>&1 ||
+    { println error 'refresh failed; please consult log: %s' $BUILDDIR/autoreconf.log; exit 1; }
+
+    println info 'performing initial configuration'
+    (cd $BUILDDIR && ../configure --quiet "$@") || { println error 'failed to configure package'; exit 1; }
+
+}
+function run_rebuild                                { # Enact the clean + prepare + build commands
+
+    $0 clean && $0 prepare && $0 build
+
+}
+function run_selfupdate                             { # Download latest version of this script
 
     # Collect the arguments (self name and udpate URL), and initialise temporary name
     typeset self=$1 url=$2 burl=${url%/master*} temp=._$self; burl=${burl#*.com/}
@@ -104,100 +188,17 @@ function selfupdate {
 
 }
 
+# @}
+# @{ MAIN
 
 [[ -d $BUILDDIR && -f $BUILDDIR/config.kaml ]] && \
 eval $'typeset -C package=(\n'"$(< $BUILDDIR/config.kaml )"$'\n)'
 
-case $1 in
-build)
-    shift
-
-    typeset buildlog=build-$(date +%Y%m%d-%H%M%S.log)
-    println info 'building the %s package' "${package.label:-$PACKAGE}"
-    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
-
-    (cd $BUILDDIR && PATH=/bin:/usr/bin make "$@" >$buildlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successful build of %s' "${package.label:-$PACKAGE}" ||
-    println pass 'the build did not complete successfully; please check %s' $BUILDDIR/$buildlog
-
-    ;;
-check)
-    shift
-
-    typeset checklog=check-$(date +%Y%m%d-%H%M%S.log)
-    println info 'checking that package %s is ready for distribution' "${package.label:-$PACKAGE}"
-    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
-    [[ -d $BUILDDIR ]] && (cd $BUILDDIR && PATH=/bin:/usr/bin make distcheck "$@" >$checklog 2>&1); error=$?
-    (( error == 0 )) && println pass 'package %s is ready for distributioon' "${package.label:-$PACKAGE}" ||
-    println pass 'package cannot be distributed as-is; please check %s' $BUILDDIR/$checklog
-
-    ;;
-clean)
-    shift
-
-    println info 'cleaning up the AIT build environment (this can take a couple of minutes)'
-
-    # fsdelete unnecessary 'Makefile.in' and 'Makefile' from 'src' directory -- provided we have an associated 'Makefile.am'
-    find . -name Makefile.am | while read am; do
-        [[ am == @($BUILDDIR|_in|var|wip) ]] && continue || typeset in=${am%am}in
-        [[ -f $in ]] && fsdelete -f $in
-    done
-
-    for file in ${TEMP_FILES[@]};  do [[ -f $file ]]               && fsdelete -f $file; done
-    for dir  in ${TEMP_DIRS[@]};   do [[ -d $dir  ]]               && fsdelete -fr $dir; done
-    for file in AUTHORS NEWS;       do [[ -e $file || ! -s $file ]] && fsdelete -f $file; done
-
-    ;;
-distrib)
-
-    typeset instlog=tarball-$(date +%Y%m%d-%H%M%S.log)
-    typeset destdir=$PWD/$BUILDDIR/tarball
-    typeset tarball=$PWD/$BUILDDIR/${package.tarname}-${package.version}-${package.tarsuffix:-bin}.tgz
-
-    println info 'building %s binary tarball' "${package.label:-$PACKAGE}"
-    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
-
-    (cd $BUILDDIR; make install DESTDIR=$destdir >$instlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successfully built distribution of %s' "${package.label:-$PACKAGE}" ||
-    println pass 'unable to build distribution; please check %s' $BUILDDIR/$instlog
-
-    (cd $destdir/${package.prefix}; tar zcf $tarball * >$destdir/../$instlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successfully built distribution tarball (%s)' "$BUILDDIR/${tarball##*/}" ||
-    println pass 'unable to build distribution tarball; please check %s' $BUILDDIR/$instlog
-
-    ;;
-prepare)
-    shift
-
-    [[ -f aclocal.m4 ]] &&
-    println info  'rebuilding the AIT build environment.' ||
-    println info  'building the AIT build environment.'
-
-    for file in AUTHORS NEWS;     do fstouch 'GNU required' $file; done
-    for dir  in ${TEMP_DIRS[@]}; do fsmkdir 'GNU build'    $dir;  done
-
-    # Reconfigure the build environment
-    : ${AUTOMAKE='automake --add-missing'}
-    : ${AUTOM4TE_FLAGS=' --cache=var/autom4te.cache'}
-    # [[ -f configure ]] || autoreconf
-
-    println info  'refreshing package build setup'
-    autoreconf -vvv --force --install --symlink --make --no-recursive >$BUILDDIR/autoreconf.log 2>&1 ||
-    { println error 'refresh failed; please consult log: %s' $BUILDDIR/autoreconf.log; exit 1; }
-
-    println info 'performing initial configuration'
-    (cd $BUILDDIR && ../configure --quiet "$@") || { println error 'failed to configure package'; exit 1; }
-
-    ;;
-rebuild)
-    $0 clean && $0 prepare && $0 build
-
-    ;;
-self-update) selfupdate $0 $SELF_URL ;;
-*)
-    println usage '( clean | prepare | build | rebuild | distrib)'
-
-    ;;
+typeset command=$1; shift; case $command in
+    @(build|check|clean|distrib|prepare|rebuild)) run_$command "$@" ;;
+    self?(-)update) run_selfupdate $0 $SELF_URL ;;
+    *) println usage '( clean | prepare | build | rebuild | distrib)' ;;
 esac
 
+# @}
 # vim: nospell
