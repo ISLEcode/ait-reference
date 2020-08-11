@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-11 (Tue) 09:14:14
+#! @revision 2020-08-11 (Tue) 09:41:54
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
 #!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
@@ -106,7 +106,7 @@ function init                                       { # Global initialisation
     [[ -d ${rc.builddir} ]] || return
 
     # If using the KAML configuration file, load the generated file built by GNU configure
-    [[ -f ${rc.builddir}/config.kaml ]] && eval $'typeset -C package=(\n'"$(< ${rc.builddir}/config.kaml )"$'\n)'
+    [[ -f ${rc.builddir}/config.kaml ]] && eval $'typeset -C rc.package=(\n'"$(< ${rc.builddir}/config.kaml )"$'\n)'
 
 }
 function println                                    { # Simple message logging utility
@@ -138,21 +138,21 @@ function println                                    { # Simple message logging u
 function run_build                                  { # Enact `make`
 
     typeset buildlog=build-$(date +%Y%m%d-%H%M%S.log)
-    println info 'building the %s package' "${package.label:-${rc.package}}"
+    println info 'building the %s package' "${rc.package.label:-${rc.package}}"
     [[ -d ${rc.builddir} ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
 
     (cd ${rc.builddir} && PATH=/bin:/usr/bin make "$@" >$buildlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successful build of %s' "${package.label:-${rc.package}}" ||
+    (( error == 0 )) && println pass 'successful build of %s' "${rc.package.label:-${rc.package}}" ||
     println pass 'the build did not complete successfully; please check %s' ${rc.builddir}/$buildlog
 
 }
 function run_check                                  { # Enact `make distcheck`
 
     typeset checklog=check-$(date +%Y%m%d-%H%M%S.log)
-    println info 'checking that package %s is ready for distribution' "${package.label:-${rc.package}}"
+    println info 'checking that package %s is ready for distribution' "${rc.package.label:-${rc.package}}"
     [[ -d ${rc.builddir} ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
     [[ -d ${rc.builddir} ]] && (cd ${rc.builddir} && PATH=/bin:/usr/bin make distcheck "$@" >$checklog 2>&1); error=$?
-    (( error == 0 )) && println pass 'package %s is ready for distributioon' "${package.label:-${rc.package}}" ||
+    (( error == 0 )) && println pass 'package %s is ready for distributioon' "${rc.package.label:-${rc.package}}" ||
     println failed 'package cannot be distributed as-is; please check %s' ${rc.builddir}/$checklog
 
 }
@@ -175,16 +175,16 @@ function run_distrib                                { # Enact `make install DEST
 
     typeset instlog=tarball-$(date +%Y%m%d-%H%M%S.log)
     typeset destdir=$PWD/${rc.builddir}/tarball
-    typeset tarball=$PWD/${rc.builddir}/${package.tarname}-${package.version}-${package.tarsuffix:-bin}.tgz
+    typeset tarball=$PWD/${rc.builddir}/${rc.package.tarname}-${rc.package.version}-${rc.package.tarsuffix:-bin}.tgz
 
-    println info 'building %s binary tarball' "${package.label:-${rc.package}}"
+    println info 'building %s binary tarball' "${rc.package.label:-${rc.package}}"
     [[ -d ${rc.builddir} ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
 
     (cd ${rc.builddir}; make install DESTDIR=$destdir >$instlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successfully built distribution of %s' "${package.label:-${rc.package}}" ||
+    (( error == 0 )) && println pass 'successfully built distribution of %s' "${rc.package.label:-${rc.package}}" ||
     println pass 'unable to build distribution; please check %s' ${rc.builddir}/$instlog
 
-    (cd $destdir/${package.prefix}; tar zcf $tarball * >$destdir/../$instlog 2>&1); error=$?
+    (cd $destdir/${rc.package.prefix}; tar zcf $tarball * >$destdir/../$instlog 2>&1); error=$?
     (( error == 0 )) && println pass 'successfully built distribution tarball (%s)' "${rc.builddir}/${tarball##*/}" ||
     println pass 'unable to build distribution tarball; please check %s' ${rc.builddir}/$instlog
 
