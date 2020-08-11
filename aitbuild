@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-11 (Tue) 09:13:06
+#! @revision 2020-08-11 (Tue) 09:14:14
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
 #!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
@@ -166,8 +166,8 @@ function run_clean                                  { # Enact `make clean` + cus
         [[ -f $in ]] && fsdelete -f $in
     done
 
-    for file in ${TEMP_FILES[@]};  do [[ -f $file ]]               && fsdelete -f $file; done
-    for dir  in ${TEMP_DIRS[@]};   do [[ -d $dir  ]]               && fsdelete -fr $dir; done
+    for file in ${rc.temp_files[@]};  do [[ -f $file ]]            && fsdelete -f $file; done
+    for dir  in ${rc.temp_dirs[@]};   do [[ -d $dir  ]]            && fsdelete -fr $dir; done
     for file in AUTHORS NEWS;      do [[ -e $file || ! -s $file ]] && fsdelete -f $file; done
 
 }
@@ -195,8 +195,8 @@ function run_prepare                                { # Enact `autoreconf` + `co
     println info  'rebuilding the AIT build environment.' ||
     println info  'building the AIT build environment.'
 
-    for file in AUTHORS NEWS;     do fstouch 'GNU required' $file; done
-    for dir  in ${TEMP_DIRS[@]}; do fsmkdir 'GNU build'    $dir;  done
+    for file in AUTHORS NEWS;       do fstouch 'GNU required' $file; done
+    for dir  in ${rc.temp_dirs[@]}; do fsmkdir 'GNU build'    $dir;  done
 
     # Reconfigure the build environment
     : ${AUTOMAKE='automake --add-missing'}
