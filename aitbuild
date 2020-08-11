@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-11 (Tue) 09:41:54
+#! @revision 2020-08-11 (Tue) 09:58:27
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
 #!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
@@ -33,11 +33,20 @@ function fsdelete                                   { # Wrap UNIX command `rm`
     typeset kind=file options=$1; shift; [[ $options == -*r* ]] && kind=directory
 
     typeset fsobject; for fsobject in "$@"; do
+
+        # Determine the kind of object we are handling here
         if   [[ $kind == file      ]]; then [[ -f $fsobject ]] || continue
         elif [[ $kind == directory ]]; then [[ -d $fsobject ]] || continue; fi
+
+        # Enact the deletion
         rm $options "$fsobject" 2>/dev/null &&
         println info  "- deleted${name:+ $name} $kind '%s'" ${fsobject#./} ||
         println error "- failed to delete${name:+ $name} $kind '%s'" ${fsobject#./}
+
+        # If the file was previously tracked, abandon tracking
+        git ls-files --error-unmatch README >/dev/null || continue
+        git commit -m 'untracking intermediate build file' $fsobject
+
     done
 
 
@@ -160,15 +169,16 @@ function run_clean                                  { # Enact `make clean` + cus
 
     println info 'cleaning up the AIT build environment (this can take a couple of minutes)'
 
-    # fsdelete unnecessary 'Makefile.in' and 'Makefile' from 'src' directory -- provided we have an associated 'Makefile.am'
+    # Clean-up unnecessary 'Makefile.in' and 'Makefile' files -- provided we have an associated 'Makefile.am'
     find . -name Makefile.am | while read am; do
         [[ am == @(${rc.builddir}|_in|var|wip) ]] && continue || typeset in=${am%am}in
         [[ -f $in ]] && fsdelete -f $in
     done
 
-    for file in ${rc.temp_files[@]};  do [[ -f $file ]]            && fsdelete -f $file; done
-    for dir  in ${rc.temp_dirs[@]};   do [[ -d $dir  ]]            && fsdelete -fr $dir; done
-    for file in AUTHORS NEWS;      do [[ -e $file || ! -s $file ]] && fsdelete -f $file; done
+    # Clean-up intermediate build files
+    for file in ${rc.temp_files[@]};  do [[ -f $file ]]               && fsdelete -f $file; done
+    for dir  in ${rc.temp_dirs[@]};   do [[ -d $dir  ]]               && fsdelete -fr $dir; done
+    for file in AUTHORS NEWS README;  do [[ -e $file || ! -s $file ]] && fsdelete -f $file; done
 
 }
 function run_distrib                                { # Enact `make install DESTDIR=...` + binary distribution tarball
@@ -195,8 +205,10 @@ function run_prepare                                { # Enact `autoreconf` + `co
     println info  'rebuilding the AIT build environment.' ||
     println info  'building the AIT build environment.'
 
+    # Recreate files and directories required by GNU build system
     for file in AUTHORS NEWS;       do fstouch 'GNU required' $file; done
     for dir  in ${rc.temp_dirs[@]}; do fsmkdir 'GNU build'    $dir;  done
+    [[ -f README.md && ! -e README ]] && ln -s README.md README
 
     # Reconfigure the build environment
     : ${AUTOMAKE='automake --add-missing'}

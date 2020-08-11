@@ -1,9 +1,11 @@
 ---
 title    : Repository change log
-revision : 2020-08-11 (Tue) 08:44:21
+revision : 2020-08-11 (Tue) 09:58:37
 ---
 
 ### Pending tasks
+
+  - aitbuild: need further checks in configure.ac to assert out-of-source build `out` directory and use of `var`
 
   - Dictionaries: the word lists used to generate AIT passphrases and passwords needs to be integrated to this package.
     (and its taxonomy adapted as it differs to what has been standardises here)
@@ -31,7 +33,7 @@ revision : 2020-08-11 (Tue) 08:44:21
   - Quotes: French quotes were primarily obtained from a unique source one or two decades ago without keeping track of the source.
     Some research needs to be done to give due credit.
 
-### 2020-08-11 (Tue) 08:44:21 {#wip}
+### 2020-08-11 (Tue) 09:58:37 {#wip}
 
   + Added build and installation instructions
   + Added a dozen french quotes (Général de Gaulle, Jean de la Bruyère, and Umberto Eco)
