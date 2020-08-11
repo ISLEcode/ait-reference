@@ -1,11 +1,15 @@
 ---
 title    : Repository change log
-revision : 2020-08-11 (Tue) 09:58:37
+revision : 2020-08-11 (Tue) 10:21:56
 ---
 
 ### Pending tasks
 
   - aitbuild: need further checks in configure.ac to assert out-of-source build `out` directory and use of `var`
+
+  - aitbuild: check for existence of `aitfuncs` and source it, allow all commands to be overwritten... for instance if function
+    `custom_build` exists it will be run in lieu of `run_build`; likewise for all commands, except perhaps `run_selfupdate`.
+    (this feature is required to build the vimutils package)
 
   - Dictionaries: the word lists used to generate AIT passphrases and passwords needs to be integrated to this package.
     (and its taxonomy adapted as it differs to what has been standardises here)
@@ -33,7 +37,7 @@ revision : 2020-08-11 (Tue) 09:58:37
   - Quotes: French quotes were primarily obtained from a unique source one or two decades ago without keeping track of the source.
     Some research needs to be done to give due credit.
 
-### 2020-08-11 (Tue) 09:58:37 {#wip}
+### 2020-08-11 (Tue) 10:21:56 {#wip}
 
   + Added build and installation instructions
   + Added a dozen french quotes (Général de Gaulle, Jean de la Bruyère, and Umberto Eco)
