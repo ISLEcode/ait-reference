@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-11 (Tue) 10:00:22
+#! @revision 2020-08-11 (Tue) 10:03:32
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
 #!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
@@ -44,7 +44,7 @@ function fsdelete                                   { # Wrap UNIX command `rm`
         println error "- failed to delete${name:+ $name} $kind '%s'" ${fsobject#./}
 
         # If the file was previously tracked, abandon tracking
-        git ls-files --error-unmatch README >/dev/null || continue
+        git ls-files --error-unmatch $fsobject >/dev/null 2>&1 || continue
         git commit -m 'untracking intermediate build file' $fsobject >/dev/null 2>&1
 
     done
