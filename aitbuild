@@ -1,17 +1,28 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-10 (Mon) 17:03:46
+#! @revision 2020-08-11 (Tue) 08:42:46
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
-#! @notes    Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly is a private repository
-# @{ GLOB
+#! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
+#!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
 
-typeset PROGNAME=${0##*/} PACKAGE=${PWD##*/} BUILDDIR=out
-typeset TEMP_DIRS=( $BUILDDIR autom4te.cache tmp var )
-typeset TEMP_FILES=( COPYING INSTALL configure aclocal.m4 )
-typeset SELF_URL=https://raw.githubusercontent.com/ISLEcode/ait-reference/master/aitbuild
+# @{ GLOB - Global variables all accessible in global `rc` compound variable
+
+enum boolean=( false true )                                 # This should be standard in Kornshell... really
+compound rc=(                                               # Use compound variable as registry for this script
+typeset progname=${0##*/}                                   # This program's name... no reason to rename this!
+typeset reponame=${PWD##*/}                                 # Defaults to directory name, unless `config.kaml.in` in use
+typeset command                                             # The build command to enact
+typeset builddir=out                                        # The -out-of-source_ build directory, conventiolly named `out`
+typeset update_url=https://bit.ly/31CDmDR                   # The URL to fetch the raw content of this script from GitHub
+boolean kaml_havefile=false                                 # Checks for the existence of the `config.kaml.in` special file
+boolean kaml_autoconf=false                                 # Is the `configure.ac` properly configure for the `config.kaml` file
+boolean kaml_automake=false                                 # Likewise is the `Makefile.am` file also properly configured
+typeset temp_dirs=( ${_.builddir} autom4te.cache tmp var  ) # Directories required for build but not in Git repository
+typeset temp_fileS=( COPYING INSTALL configure aclocal.m4 ) # Likewise for temporary build files
+boolean uses_kamlconf=false )                               # Enabled when @(kaml_autoconf|kaml_automake|kaml_havefile) is true
 
 # @}
-# @{ FUNC
+# @{ FUNC - Global utilities and dedicated functions for each function
 
 # Utilities
 function fsdelete                                   { # Wrap UNIX command `rm`
@@ -54,9 +65,53 @@ function fstouch                                    { # Wrap UNIX command `touch
     done
 
 }
+function init                                       { # Global initialisation
+
+    # Determine whether this package/repository uses a KAML configuration file
+    integer lines=$(grep 'config\.kaml'     configure.ac 2>/dev/null | wc -l); (( lines > 0 )) && rc.kaml_autoconf=true
+    integer lines=$(grep 'config\.kaml\.in' Makefile.am  2>/dev/null | wc -l); (( lines > 0 )) && rc.kaml_automake=true
+    [[ -f config.kaml.in ]] && rc.kaml_havefile=true
+
+    # If any is true, then we assume that the package uses a KAML configuration file
+    if (( rc.kaml_autoconf + rc.kaml_automake + rc.kaml_havefile > 0 )); then
+
+        # Make sure the `configure.ac` file is correctly configured
+        rc.uses_kamlconf=true; (( rc.kaml_autoconf == true )) || println abort '%s\n    %s\n    %s\n    %s' \
+        $'The `configure.ac` file hasn\'t been properly configured; the following three lines should appear in your file:' \
+        'AC_SUBST(PACKAGE_TARSUFFIX,PACKAGE_TARSUFFIX)' 'PACKAGE_TARSUFFIX=noarch' 'AC_CONFIG_FILES(config.kaml)'
+
+        # Make sure the `Makefile.am` file is correctly configured
+        (( rc.kaml_automake == true )) || println abort '%s\n    %s' \
+        $'The `Makefile.am` file hasn\'t been properly configured; the following line should appear in your file:' \
+        'EXTRA_DIST += config.kaml.in'
+
+        # If the `config.kaml.in` file is absent, create it
+        if (( rc.kaml_havefile == false )); then
+            (   print 'name=@PACKAGE@'
+                print 'label="@PACKAGE_NAME@"'
+                print 'bugreport=@PACKAGE_BUGREPORT@'
+                print 'prefix=@prefix@'
+                print 'tarname=@PACKAGE_TARNAME@'
+                print 'tarsuffix=@PACKAGE_TARSUFFIX@'
+                print 'url=@PACKAGE_URL@'
+                print 'version=@PACKAGE_VERSION@'
+            )   > config.kaml.in
+            println warning 'rebuilt `config.kaml.in` missing file using defaults.'
+
+        fi
+
+    fi
+
+    # We're done unless an out-of-source build has already been done
+    [[ -d ${rc.builddir} ]] || return
+
+    # If using the KAML configuration file, load the generated file built by GNU configure
+    [[ -f ${rc.builddir}/config.kaml ]] && eval $'typeset -C package=(\n'"$(< ${rc.builddir}/config.kaml )"$'\n)'
+
+}
 function println                                    { # Simple message logging utility
     typeset -S fail=$'\E[0;1;31m' info=$'\E[0;1m' norm=$'\E[0m' pass=$'\E[0;1;32m' warn=$'\E[0;1;33m' weak=$'\E[0;2m'
-    typeset -S prog="$weak$PROGNAME$norm \E[1;3;34m$PACKAGE$norm"
+    typeset -S prog="$weak${rc.progname}$norm \E[1;3;34m${rc.reponame}$norm"
 
     typeset kind=$1 format="$2"; shift 2
     case $kind in
@@ -73,7 +128,7 @@ function println                                    { # Simple message logging u
         abort) printf "$prog ${fail}error  $norm $format\n" "$@"; exit 1 ;;
 
         # Special syntax for the usage string
-        usage) printf "${info}usage${norm} $PROGNAME$norm $format\n" "$@" ;;
+        usage) printf "${info}usage${norm} ${rc.progname}$norm $format\n" "$@" ;;
 
     esac
 
@@ -83,22 +138,22 @@ function println                                    { # Simple message logging u
 function run_build                                  { # Enact `make`
 
     typeset buildlog=build-$(date +%Y%m%d-%H%M%S.log)
-    println info 'building the %s package' "${package.label:-$PACKAGE}"
-    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
+    println info 'building the %s package' "${package.label:-${rc.package}}"
+    [[ -d ${rc.builddir} ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
 
-    (cd $BUILDDIR && PATH=/bin:/usr/bin make "$@" >$buildlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successful build of %s' "${package.label:-$PACKAGE}" ||
-    println pass 'the build did not complete successfully; please check %s' $BUILDDIR/$buildlog
+    (cd ${rc.builddir} && PATH=/bin:/usr/bin make "$@" >$buildlog 2>&1); error=$?
+    (( error == 0 )) && println pass 'successful build of %s' "${package.label:-${rc.package}}" ||
+    println pass 'the build did not complete successfully; please check %s' ${rc.builddir}/$buildlog
 
 }
 function run_check                                  { # Enact `make distcheck`
 
     typeset checklog=check-$(date +%Y%m%d-%H%M%S.log)
-    println info 'checking that package %s is ready for distribution' "${package.label:-$PACKAGE}"
-    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
-    [[ -d $BUILDDIR ]] && (cd $BUILDDIR && PATH=/bin:/usr/bin make distcheck "$@" >$checklog 2>&1); error=$?
-    (( error == 0 )) && println pass 'package %s is ready for distributioon' "${package.label:-$PACKAGE}" ||
-    println failed 'package cannot be distributed as-is; please check %s' $BUILDDIR/$checklog
+    println info 'checking that package %s is ready for distribution' "${package.label:-${rc.package}}"
+    [[ -d ${rc.builddir} ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
+    [[ -d ${rc.builddir} ]] && (cd ${rc.builddir} && PATH=/bin:/usr/bin make distcheck "$@" >$checklog 2>&1); error=$?
+    (( error == 0 )) && println pass 'package %s is ready for distributioon' "${package.label:-${rc.package}}" ||
+    println failed 'package cannot be distributed as-is; please check %s' ${rc.builddir}/$checklog
 
 }
 function run_clean                                  { # Enact `make clean` + custom cleaning
@@ -107,7 +162,7 @@ function run_clean                                  { # Enact `make clean` + cus
 
     # fsdelete unnecessary 'Makefile.in' and 'Makefile' from 'src' directory -- provided we have an associated 'Makefile.am'
     find . -name Makefile.am | while read am; do
-        [[ am == @($BUILDDIR|_in|var|wip) ]] && continue || typeset in=${am%am}in
+        [[ am == @(${rc.builddir}|_in|var|wip) ]] && continue || typeset in=${am%am}in
         [[ -f $in ]] && fsdelete -f $in
     done
 
@@ -119,19 +174,19 @@ function run_clean                                  { # Enact `make clean` + cus
 function run_distrib                                { # Enact `make install DESTDIR=...` + binary distribution tarball
 
     typeset instlog=tarball-$(date +%Y%m%d-%H%M%S.log)
-    typeset destdir=$PWD/$BUILDDIR/tarball
-    typeset tarball=$PWD/$BUILDDIR/${package.tarname}-${package.version}-${package.tarsuffix:-bin}.tgz
+    typeset destdir=$PWD/${rc.builddir}/tarball
+    typeset tarball=$PWD/${rc.builddir}/${package.tarname}-${package.version}-${package.tarsuffix:-bin}.tgz
 
-    println info 'building %s binary tarball' "${package.label:-$PACKAGE}"
-    [[ -d $BUILDDIR ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
+    println info 'building %s binary tarball' "${package.label:-${rc.package}}"
+    [[ -d ${rc.builddir} ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
 
-    (cd $BUILDDIR; make install DESTDIR=$destdir >$instlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successfully built distribution of %s' "${package.label:-$PACKAGE}" ||
-    println pass 'unable to build distribution; please check %s' $BUILDDIR/$instlog
+    (cd ${rc.builddir}; make install DESTDIR=$destdir >$instlog 2>&1); error=$?
+    (( error == 0 )) && println pass 'successfully built distribution of %s' "${package.label:-${rc.package}}" ||
+    println pass 'unable to build distribution; please check %s' ${rc.builddir}/$instlog
 
     (cd $destdir/${package.prefix}; tar zcf $tarball * >$destdir/../$instlog 2>&1); error=$?
-    (( error == 0 )) && println pass 'successfully built distribution tarball (%s)' "$BUILDDIR/${tarball##*/}" ||
-    println pass 'unable to build distribution tarball; please check %s' $BUILDDIR/$instlog
+    (( error == 0 )) && println pass 'successfully built distribution tarball (%s)' "${rc.builddir}/${tarball##*/}" ||
+    println pass 'unable to build distribution tarball; please check %s' ${rc.builddir}/$instlog
 
 }
 function run_prepare                                { # Enact `autoreconf` + `configure`
@@ -149,11 +204,11 @@ function run_prepare                                { # Enact `autoreconf` + `co
     # [[ -f configure ]] || autoreconf
 
     println info  'refreshing package build setup'
-    autoreconf -vvv --force --install --symlink --make --no-recursive >$BUILDDIR/autoreconf.log 2>&1 ||
-    { println error 'refresh failed; please consult log: %s' $BUILDDIR/autoreconf.log; exit 1; }
+    autoreconf -vvv --force --install --symlink --make --no-recursive >${rc.builddir}/autoreconf.log 2>&1 ||
+    { println error 'refresh failed; please consult log: %s' ${rc.builddir}/autoreconf.log; exit 1; }
 
     println info 'performing initial configuration'
-    (cd $BUILDDIR && ../configure --quiet "$@") || { println error 'failed to configure package'; exit 1; }
+    (cd ${rc.builddir} && ../configure --quiet "$@") || { println error 'failed to configure package'; exit 1; }
 
 }
 function run_rebuild                                { # Enact the clean + prepare + build commands
@@ -189,16 +244,80 @@ function run_selfupdate                             { # Download latest version 
 }
 
 # @}
-# @{ MAIN
+# @{ MAIN - Main processing loop
 
-[[ -d $BUILDDIR && -f $BUILDDIR/config.kaml ]] && \
-eval $'typeset -C package=(\n'"$(< $BUILDDIR/config.kaml )"$'\n)'
+# Collect the command to enact; show usage if invoked without any arguments
+[[ -z $1 ]] && set -- --help || [[ ${1:0:1} != - ]] && { rc.command=$1; shift; }
 
-typeset command=$1; shift; case $command in
-    @(build|check|clean|distrib|prepare|rebuild)) run_$command "$@" ;;
-    self?(-)update) run_selfupdate $0 $SELF_URL ;;
+# Process the command line options
+while getopts -a $"${rc.progname}${rc.command:+ ${rc.command}}" $'[-]
+[+NAME?'"${rc.progname}"$' -- a GNU build system wrapper for building AIT packages]
+[+DESCRIPTION?The purpose of this utility is to wrap the GNU build system used in all AIT packages into a easy to remember and
+systematic steps. For those of us who have lived the glorious days of Xenix, System V, SCO and all flavours of UNIX, the GNU build
+system is already a highly simplified build. Nonetheless, in our modern times, this may still appear overly complex having to deal
+with myriad tools and configuration files. And a hurdle commonly seen being how to have Git and the GNU build system happily
+coexist.]
+[+?The usual installation scenario should look like this:][\+
+        '"${rc.progname}"$' prepare
+        '"${rc.progname}"$' build
+        '"${rc.progname}"$' install]
+[+?You may be tempted to say that this looks very much like the traditional GNU workflow:][\+
+        ./configure [options]]
+        make
+        make install]
+[+?Indeed we wanted to keep this high level simplicity. In reality the GNU build system is more complex:]{
+[+\b1.?Firstly, the \bconfigure\b script doesn\'t exist out of the box; it has to be generated. Many tools are involved in the
+creation of this script and all of its associated files. Depending on the particular setup of your project you will be using the
+GNU \bautoconf\b, \bautomake\b and \blibtool\b utilities. This requires a lot of intermediate files which are going to pollute
+unnecessarily your repository. GNU does have a utility to overcome this, \bautoreconf\b; but that utility also needs some
+tweaking -- even if, most of the time, it doesn\'t. So we have an extra step, possibly complex, before the configure step in the
+above workflow.]
+[+\b2.?Secondly the custom built \bconfigure\b script can take many options. Some packages using the GNU build system have
+conceived very complex configuration scripts with virtually far too many options. If these options exist, obviously they have a
+utility; but remembering them is tricky. This is most surely one of the reasons why package managers have become so pervasive.]
+[+\b3.?Once we have passed the stage configuration stage, one would expect things to be simple from there on; after all the GNU
+build philosophy is one of automating the task of creating \bMakefiles\b. Run \amake(1)\a and be happy! Well, this is mostly true;
+and this is why we rely on the GNU build system. Nonetheless running \amake(1)\a targets can be done in a variety of ways and we
+want to enforce \bout-of₋source\b builds (see below), which is slightly more constraining than simply runing \bmake install\b.]
+[+\b4.?Since 2008 Git and GitHub have taken the Open Source ecosystem by storm, offering redundant distribution handling
+capabilities and features. The GNU build system addresses a wider scope and probably considers it doesn\'t need to adapt.
+Further, the GNU build system focuses on building source code distribution tarballs while we require, for our GitHub releases,
+binary distribution tarballs. For maintainers also we want a simple workflow:][+\
+            '"${rc.progname}"$' prepare
+            '"${rc.progname}"$' build
+            '"${rc.progname}"$' distrib]}
+[+?The \b'"${rc.progname}"$'\b utility attempts to solve this through the following design:]{
+[+\b1.?A predefined and limited set of commands (see the \bCOMMANDS\b section below). Essentially all workflows should be done in
+four steps: a) prepare, b) build, c) either install or build the distribution tarball, and optionally d) cleanup the environment.
+Though we allow the use of command line options, our intent is that this should be the exceptional case.]
+[+\b2.?In lieu of passing command line arguments we use a configuration file, \bconfig.kaml.in\b, which can contain both
+predefined configuration data, and data which is populated as an outcome of the \bconfigure\b script generated by the GNU
+autotool. On our roadmap, is the intent to have this file automatically generated by the \bsw(1)\b AIT tool.]}
+[+COMMANDS?]{
+[+build?This performs the traditional \vmake install\v.]
+[+check?This command is automatically invoked by the \vdistrib\v command and is equivalent to \vmake distcheck\v.]
+[+clean?Cleanup the repository so as to maintain the Git repository clean.]
+[+distrib?Build the distribution tarball which can be uploaded to GitHub when creating a new release.]
+[+prepare?Do all necessary tasks to prepare the build step; this includes \vconfigure\v, but also all preceeding \vsetups\v to
+recreate the necessary build scripts and build-time files]
+[+rebuild?A handy shortcut to run \bprepare\b and \bbuild\b from a clean slate (i.e. after having run \bclean\b to remove all
+intermediate files.]
+[+self-update?Easily update this script to accomodate changes and new features. It should become a habit to run this as the
+very first step once a package has been cloned through Git.]}' opt; do case $opt in
+
+    # No options... yet
+    *) ;;
+
+# Options have been processed... zap them from the command line
+esac; done; (( OPTIND > 1 )) && shift $(( OPTIND - 1 )); OPTIND=1
+
+# Initialise environment and enact the requested command
+init "$@"; case ${rc.command} in
+    @(build|check|clean|distrib|prepare|rebuild)) run_${rc.command} "$@" ;;
+    self?(-)update) run_selfupdate $0 ${rc.update_url} ;;
     *) println usage '( clean | prepare | build | rebuild | distrib)' ;;
 esac
 
 # @}
+
 # vim: nospell
