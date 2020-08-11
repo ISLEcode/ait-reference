@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-11 (Tue) 08:53:00
+#! @revision 2020-08-11 (Tue) 08:54:26
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
 #!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
@@ -240,7 +240,7 @@ function run_selfupdate                             { # Download latest version 
     # We're done, we simply need to overwrite ourself
     mv $temp $self >/dev/null 2>&1 && rm $self.bak || println abort 'failed to install update, consider using backup: %s' $temp
     typeset revision=$(grep '^#! @revision' $temp | sed 's/^#! @revision[ ]*//')
-    println success 'successfully updated myself; new revision is %s' "${revision:-unkown!}"
+    println success 'successfully updated myself; new revision is %s' "${revision:-unknown!}"
 
 }
 
