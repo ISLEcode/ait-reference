@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-11 (Tue) 09:07:04
+#! @revision 2020-08-11 (Tue) 09:13:06
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
 #!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
@@ -18,7 +18,7 @@ boolean kaml_havefile=false                                 # Checks for the exi
 boolean kaml_autoconf=false                                 # Is the `configure.ac` properly configure for the `config.kaml` file
 boolean kaml_automake=false                                 # Likewise is the `Makefile.am` file also properly configured
 typeset temp_dirs=( ${_.builddir} autom4te.cache tmp var  ) # Directories required for build but not in Git repository
-typeset temp_fileS=( COPYING INSTALL configure aclocal.m4 ) # Likewise for temporary build files
+typeset temp_files=( COPYING INSTALL configure aclocal.m4 ) # Likewise for temporary build files
 boolean uses_kamlconf=false )                               # Enabled when @(kaml_autoconf|kaml_automake|kaml_havefile) is true
 
 # @}
