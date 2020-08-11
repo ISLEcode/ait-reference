@@ -1,7 +1,16 @@
 name=@PACKAGE@
-label="@PACKAGE_NAME@"
 bugreport=@PACKAGE_BUGREPORT@
+build=@build@
+build_os=@build_os@
+build_triplet=@build_triplet@
+host=@host@
+host_os=@host_os@
+host_triplet=@host_triplet@
+label="@PACKAGE_NAME@"
 prefix=@prefix@
+target=@target@
+target_os=@target_os@
+target_triplet=@target_triplet@
 tarname=@PACKAGE_TARNAME@
 tarsuffix=@PACKAGE_TARSUFFIX@
 url=@PACKAGE_URL@

@@ -1,6 +1,6 @@
 #! /bin/ksh
 #! @brief    GNU build system wrapper to use in lieu of the conventional `autogen.sh`
-#! @revision 2020-08-11 (Tue) 10:03:32
+#! @revision 2020-08-11 (Tue) 11:50:17
 #! @requires Warning. This utility requires a valid (i.e. ksh93u+ compatible) KornShell
 #! @notes    - Master copy is kept on ISLEcode/ait-reference since, for now, ISLEcode/ait-dragonfly being a private repository
 #!           - This file is edited using Vim and the AIT vimutils package; using other configurations may be inappropriate
@@ -97,9 +97,18 @@ function init                                       { # Global initialisation
         # If the `config.kaml.in` file is absent, create it
         if (( rc.kaml_havefile == false )); then
             (   print 'name=@PACKAGE@'
-                print 'label="@PACKAGE_NAME@"'
                 print 'bugreport=@PACKAGE_BUGREPORT@'
+                print 'build=@build@'
+                print 'build_os=@build_os@'
+                print 'build_triplet=@build_triplet@'
+                print 'host=@host@'
+                print 'host_os=@host_os@'
+                print 'host_triplet=@host_triplet@'
+                print 'label="@PACKAGE_NAME@"'
                 print 'prefix=@prefix@'
+                print 'target=@target@'
+                print 'target_os=@target_os@'
+                print 'target_triplet=@target_triplet@'
                 print 'tarname=@PACKAGE_TARNAME@'
                 print 'tarsuffix=@PACKAGE_TARSUFFIX@'
                 print 'url=@PACKAGE_URL@'
@@ -183,9 +192,10 @@ function run_clean                                  { # Enact `make clean` + cus
 }
 function run_distrib                                { # Enact `make install DESTDIR=...` + binary distribution tarball
 
-    typeset instlog=tarball-$(date +%Y%m%d-%H%M%S.log)
-    typeset destdir=$PWD/${rc.builddir}/tarball
-    typeset tarball=$PWD/${rc.builddir}/${rc.package.tarname}-${rc.package.version}-${rc.package.tarsuffix:-bin}.tgz
+    typeset instlog=tarball-$(date +%Y%m%d-%H%M%S.log) destdir=$PWD/${rc.builddir}/tarball
+    typeset target=${rc.package.tarsuffix}; [[ -n $target ]] || target=target
+    [[ $target == target?(_@(os|triplet)) ]] && nameref target=rc.package.$target
+    typeset tarball=$PWD/${rc.builddir}/${rc.package.tarname}-${rc.package.version}-$target.tgz
 
     println info 'building %s binary tarball' "${rc.package.label:-${rc.package}}"
     [[ -d ${rc.builddir} ]] || println abort $'package doesn\'t seem to have been prepared; try running ./aitbuild prepare'
