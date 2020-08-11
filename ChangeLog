@@ -1,6 +1,6 @@
 ---
 title    : Repository change log
-revision : 2020-08-10 (Mon) 10:39:14
+revision : 2020-08-11 (Tue) 08:44:21
 ---
 
 ### Pending tasks
@@ -31,11 +31,12 @@ revision : 2020-08-10 (Mon) 10:39:14
   - Quotes: French quotes were primarily obtained from a unique source one or two decades ago without keeping track of the source.
     Some research needs to be done to give due credit.
 
-### 2020-08-10 (Mon) 10:39:14 {#wip}
+### 2020-08-11 (Tue) 08:44:21 {#wip}
 
   + Added build and installation instructions
   + Added a dozen french quotes (Général de Gaulle, Jean de la Bruyère, and Umberto Eco)
-  ٍ+ Restructured build to use the `aitbuild` utility (see README.md for details)
+  + Restructured build to use the `aitbuild` utility (see README.md for details)
+  + Reworked the aitbuild utility to add option handling and usage information
 
 ### v0.74.5
 
